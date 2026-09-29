@@ -1,0 +1,34 @@
+{
+  "slug": "eu-every-parcel-pays",
+  "date": "2026-09-29",
+  "date_label": "29 September 2026",
+  "section": "E-commerce · European Union",
+  "region": "EU",
+  "title": "Europe now charges every parcel. Who absorbs the bill?",
+  "dek": "The duty exemption on low-value parcels is over. The question for sellers, platforms and carriers is no longer whether to pay, but who pays, when, and on what data.",
+  "keypoints": [
+    "Since 1 July 2026, a flat €3 customs duty applies per product category in parcels valued under €150.",
+    "A handling fee on the same parcels is due to be added from 1 November. The Commission proposes €2, pending the objection period.",
+    "Under the customs reform, online platforms are set to become the importer accountable for duties and compliance."
+  ],
+  "body": [
+    {"p": "In the [[EU]], the duty exemption on small parcels is over. For years, goods worth less than €150 entered the single market without customs duty, a rule written for occasional mail orders and later used by billions of direct-to-consumer shipments."},
+    {"p": "Both sides of the Atlantic are now converging on one principle: every parcel pays, and someone solvent is accountable for it. The United States suspended its $800 de minimis exemption and will repeal it by law in July 2027; the EU has moved to a flat duty while its wider customs reform is completed."},
+    {"h": "Why it lands on the parcel"},
+    {"p": "A flat €3 per product category is small on a €40 order, but it is not small on a €6 accessory. It changes the economics of the cheapest cross-border items first, which is exactly the segment where marketplaces shipping direct from Asia had grown fastest."},
+    {"p": "The handling fee adds a second layer. It is meant to cover the cost of controlling billions of low-value items, and it is charged per parcel rather than per euro of value. Consolidating orders into fewer parcels, or stocking goods inside the EU, becomes more attractive overnight."},
+    {"p": "The regulation also favours paying duties at checkout, known as [[DDP]], which gives the customer a final price with no surprise at delivery. Sellers already registered for [[IOSS]] for [[VAT]] have a head start, because the data they collect at checkout is the same data customs now needs."},
+    {"h": "Who absorbs the bill"},
+    {"p": "Three options are on the table for merchants: absorb the cost, pass it on in the displayed price, or restructure the flow through local stock and consolidated shipments. Early signs point to a mix, with price increases on the lowest-value items and a shift of fast-moving references into European warehouses."},
+    {"p": "For carriers and postal operators, value is shifting from moving boxes to moving data: tariff classification, country of origin, declared value. Operators that can guarantee clean data at scale become part of the product, not just the transport."},
+    {"impact": "Selling into Europe? Work out your landed cost per [[SKU]] before 1 November, then show it in the basket."}
+  ],
+  "glossary": ["EU", "DDP", "IOSS", "VAT", "SKU"],
+  "sources": [
+    {"t": "Council of the European Union, press releases on customs reform and low-value parcels", "u": "https://www.consilium.europa.eu/en/press/press-releases/"},
+    {"t": "European Commission, Taxation and Customs Union", "u": "https://taxation-customs.ec.europa.eu/"},
+    {"t": "U.S. Customs and Border Protection, de minimis guidance", "u": "https://www.cbp.gov/"},
+    {"t": "IPC, cross-border e-commerce shopper survey", "u": "https://www.ipc.be/"}
+  ],
+  "audio": {"src": "/assets/audio/eu-every-parcel-pays.m4a", "minutes": 3}
+}

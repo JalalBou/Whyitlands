@@ -1,0 +1,48 @@
+{
+  "edition": "2026-09-29",
+  "hero": {
+    "kicker": "Edition of 29 September 2026",
+    "title": "Hormuz, tariffs, 5% rates.",
+    "title_em": "The world’s crises now ship with every parcel.",
+    "dek": "Fuel, air freight, the end of duty exemptions, network consolidation: how global tensions travel, link by link, into the cost and speed of a parcel.",
+    "briefing": "eu-every-parcel-pays"
+  },
+  "chain": [
+    {"k": "Geopolitics", "t": "War around Hormuz since February: Brent above $100"},
+    {"k": "Trade", "t": "US–China truce: tariff cuts on ~$30bn each way"},
+    {"k": "Customs", "t": "US and EU: small-parcel duty exemption ends"},
+    {"k": "Market", "t": "Local stock, network consolidation, landed price guaranteed at checkout"}
+  ],
+  "wire": [
+    {"style": "dark span2", "tag": "M&A · EU · Poland", "big": "89.81%", "text": "of InPost shareholders tender their shares to the Advent, FedEx, A&R and PPF consortium. The 80% threshold is cleared: Europe’s parcel-locker leader changes hands.", "src": "Post & Parcel · 18 Sep", "url": "https://postandparcel.info/", "regions": ["EU", "EMEA"]},
+    {"style": "coral", "tag": "Trend · Global", "big": "24%", "text": "Temu is now level with Amazon in cross-border purchases, up from under 1% in 2022.", "src": "IPC cross-border survey · 30,970 shoppers, 37 countries", "url": "https://www.ipc.be/", "regions": ["GLOBAL", "CN"]},
+    {"style": "lime", "tag": "Consumers · Global", "lede": "61% say knowing delivery and customs charges before buying is “essential”.", "src": "IPC · 2025 survey", "url": "https://www.ipc.be/", "regions": ["GLOBAL"]},
+    {"style": "", "tag": "Asia · Results", "lede": "J&T Express now earns half its revenue outside China; H1 profit doubled.", "src": "Investing.com · H1 2026 results slides", "url": "", "regions": ["AS", "CN"]},
+    {"style": "", "tag": "Investment · Belgium", "text": "bpost opens a 7,930 m² centre in Maldegem for 3,000 parcels a day: letters down 14%, parcels at record highs.", "src": "Post & Parcel · 25 Sep", "url": "https://postandparcel.info/", "regions": ["EU", "EMEA"]},
+    {"style": "blue", "tag": "M&A · Italy", "text": "Poste Italiane lifts its TIM offer to €6.65 a share and drops the two-thirds threshold: a postal operator moving into telecoms.", "src": "Post & Parcel · 8 Sep", "url": "https://postandparcel.info/", "regions": ["EU", "EMEA"]},
+    {"style": "", "tag": "Last mile · UK", "lede": "DPD passes 4,000 electric vans ahead of peak, with 341 eSprinters arriving in September.", "src": "Post & Parcel · 10 Sep", "url": "https://postandparcel.info/", "regions": ["UK", "EMEA"]}
+  ],
+  "why": [
+    {"region": "Middle East", "title": "Hormuz puts a fuel bill on every air parcel", "what": "Brent has been above $100 since the war began in February.", "why": "Integrators and Asia–Europe air freight pass it on through fuel surcharges.", "means": "Cross-border margins are squeezed just before peak season."},
+    {"region": "North America", "title": "The $800 free pass is gone. US clearance now runs on data", "what": "The de minimis exemption has been suspended indefinitely since 24 June 2026.", "why": "Duties are now paid monthly by a designated filer, usually the operator.", "means": "An edge for those who master customs data: classification, origin, value."},
+    {"region": "China", "title": "A trade truce, but no return to direct small parcels", "what": "Tariff cuts on about $30bn of goods each way in September.", "why": "The US de minimis exemption is not restored by the truce.", "means": "Platforms keep moving stock into local warehouses."}
+  ],
+  "deals": [
+    {"date": "25 Sep", "co": "bpost", "deal": "New parcel distribution centre in Maldegem (7,930 m²)", "region": "EU", "src": "Post & Parcel", "url": "https://postandparcel.info/"},
+    {"date": "18 Sep", "co": "Advent, FedEx, A&R, PPF", "deal": "InPost offer: 89.81% of shares tendered", "region": "EU", "src": "Post & Parcel", "url": "https://postandparcel.info/"},
+    {"date": "10 Sep", "co": "DPD UK", "deal": "341 electric vans, fleet above 4,000", "region": "UK", "src": "Post & Parcel", "url": "https://postandparcel.info/"},
+    {"date": "8 Sep", "co": "Poste Italiane", "deal": "Raised TIM offer: €6.65 a share, two-thirds threshold dropped", "region": "EU", "src": "Post & Parcel", "url": "https://postandparcel.info/"}
+  ],
+  "global_coming": [
+    {"date": "2026-11-03", "when": "3 Nov 2026", "type": "Geopolitics", "what": "US midterm elections, with tariffs a key voter issue.", "region": "NA"},
+    {"date": "2026-11-18", "when": "18–19 Nov 2026", "type": "Geopolitics", "what": "APEC leaders’ meeting, Shenzhen.", "region": "CN"}
+  ],
+  "sources": [
+    {"k": "Institutions", "items": [["UPU", ""], ["IPC", ""], ["WTO", ""], ["European Commission", ""], ["U.S. CBP", ""], ["WCO", ""]]},
+    {"k": "Europe", "items": [["Post & Parcel", "en"], ["Parcel and Postal Technology International", "en"], ["DVZ", "de"], ["Voxlog", "fr"], ["El Mercantil", "es"], ["Trasporto Europa", "it"]]},
+    {"k": "North America", "items": [["Supply Chain Dive", "en"], ["FreightWaves", "en"], ["Modern Retail", "en"], ["Marketplace Pulse", "en"]]},
+    {"k": "South America", "items": [["Mundo Logístico", "es"], ["Logweb", "pt"], ["T21", "es"], ["Valor Econômico", "pt"]]},
+    {"k": "Asia & China", "items": [["Caixin", "zh"], ["36Kr", "zh"], ["Nikkei Asia", "en"], ["ET Retail", "en"]]},
+    {"k": "Middle East & North Africa", "items": [["Zawya", "en"], ["Arabian Business", "en"], ["Médias24", "fr"], ["Hespress", "ar"]]}
+  ]
+}

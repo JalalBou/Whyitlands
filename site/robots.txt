@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://whyitlands.com/sitemap.xml

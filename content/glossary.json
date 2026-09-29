@@ -1,0 +1,16 @@
+{
+  "APEC": ["Asia-Pacific Economic Cooperation", "Forum of 21 Pacific Rim economies that sets non-binding trade and investment goals."],
+  "ASEAN": ["Association of Southeast Asian Nations", "Ten Southeast Asian states cooperating on trade, economy and security."],
+  "CBP": ["U.S. Customs and Border Protection", "The US agency that clears goods entering the United States and collects duties."],
+  "DDP": ["Delivered Duty Paid", "The seller pays duties and taxes upfront: the customer pays nothing at delivery."],
+  "DDU": ["Delivered Duty Unpaid", "Duties and taxes are collected from the customer at delivery, often with a handling charge."],
+  "EU": ["European Union", "27 countries with a single market and a customs union."],
+  "IOSS": ["Import One-Stop Shop", "EU scheme letting sellers collect import VAT at checkout on consignments up to €150 and declare it monthly in one country."],
+  "IPC": ["International Post Corporation", "Cooperative association of postal operators that publishes cross-border e-commerce research."],
+  "SKU": ["Stock Keeping Unit", "A unique reference for one product variant, used to track stock and price."],
+  "UPU": ["Universal Postal Union", "UN agency that sets the rules for international mail exchanges between postal operators."],
+  "USMCA": ["United States–Mexico–Canada Agreement", "The North American free trade agreement that replaced NAFTA in 2020."],
+  "VAT": ["Value Added Tax", "Consumption tax charged at each stage of the supply chain and paid in the end by the consumer."],
+  "WCO": ["World Customs Organization", "Intergovernmental body that maintains the Harmonized System used to classify goods."],
+  "WTO": ["World Trade Organization", "Global body that sets and arbitrates the rules of trade between nations."]
+}

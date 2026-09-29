@@ -1,0 +1,436 @@
+{
+  "EU": {
+    "name": "EU",
+    "headline": "Since July, every parcel pays. From November, it pays twice.",
+    "dek": "A €3 duty per product category, then a handling fee: the EU customs reform lands on every low-value shipment, and platforms become the importer of record.",
+    "expos": [
+      {
+        "name": "LogiMAT 2026",
+        "when": "24–26 Mar · Stuttgart",
+        "points": [
+          "Record edition: 1,671 exhibitors and 69,856 visitors from 46 countries.",
+          "Humanoid robotics was the standout trend on the warehouse floor."
+        ],
+        "src": "LogiMAT final report"
+      },
+      {
+        "name": "WMX Europe 2026",
+        "when": "22–24 Jun · Athens",
+        "points": [
+          "A session on the end of EU de minimis brought together IPC, PostNL, the UPU and Zonos.",
+          "Attendees singled out customs and data as the strongest theme of the event."
+        ],
+        "src": "WMX Europe agenda; UKP Worldwide"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-11-01",
+        "when": "1 Nov 2026",
+        "type": "Regulation",
+        "what": "EU handling fee on parcels under €150 due to apply. The Commission proposes €2, pending the objection period."
+      },
+      {
+        "date": "2027-03-16",
+        "when": "16–18 Mar 2027",
+        "type": "Expo",
+        "what": "LogiMAT 2027, Stuttgart."
+      },
+      {
+        "date": "2027-06-02",
+        "when": "2–3 Jun 2027",
+        "type": "Expo",
+        "what": "DELIVER Europe 2027, Amsterdam."
+      },
+      {
+        "date": "2027-01-01",
+        "when": "2027",
+        "type": "Regulation",
+        "what": "New EU Customs Authority in Lille expected to start operating."
+      },
+      {
+        "date": "2027-09-29",
+        "when": "29–30 Sep 2027",
+        "type": "Expo",
+        "what": "Parcel+Post Expo 2027, Paris."
+      }
+    ]
+  },
+  "UK": {
+    "name": "UK",
+    "headline": "The £135 import loophole now has a closing date.",
+    "dek": "Low-value import relief will be removed by October 2028, and Royal Mail is reshaping its universal service before this Christmas.",
+    "expos": [
+      {
+        "name": "Parcel+Post Expo 2026",
+        "when": "23–24 Sep · London",
+        "points": [
+          "Nova Post named Service Provider of the Year; Swiss Post’s AI robotic singulation won Sorting Technology.",
+          "Keynote panels with InPost, Omniva and JD.com on the next decade of parcel networks."
+        ],
+        "src": "Parcel and Postal Technology International"
+      },
+      {
+        "name": "The Delivery Conference 2026",
+        "when": "2–3 Feb · London",
+        "points": [
+          "Organised by Metapack and ShipStation around AI-driven “intelligent delivery”.",
+          "Cross-border and sustainability on the programme."
+        ],
+        "src": "Metapack; PPTI"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-10-28",
+        "when": "28 Oct 2026",
+        "type": "Geopolitics",
+        "what": "Autumn Budget. The law removing the £135 relief is expected in the Finance Bill."
+      },
+      {
+        "date": "2026-12-24",
+        "when": "Before Christmas",
+        "type": "Regulation",
+        "what": "Royal Mail universal service reform fully rolled out."
+      },
+      {
+        "date": "2027-02-09",
+        "when": "9–10 Feb 2027",
+        "type": "Expo",
+        "what": "The Delivery Conference, London."
+      },
+      {
+        "date": "2027-06-29",
+        "when": "29 Jun–1 Jul 2027",
+        "type": "Expo",
+        "what": "Multimodal 2027, Birmingham."
+      }
+    ]
+  },
+  "NA": {
+    "name": "NORTH AMERICA",
+    "headline": "The $800 free pass is gone. Clearance is now part of the product.",
+    "dek": "De minimis suspended since June, a statutory repeal in July 2027, and tariffs rebuilt after court rulings: US inbound parcels run on new rules.",
+    "expos": [
+      {
+        "name": "Manifest 2026",
+        "when": "9–11 Feb · Las Vegas",
+        "points": [
+          "More than 40 product launches, from AI orchestration platforms to tariff-calculation tools.",
+          "Warehouse robotics took a large share of the floor."
+        ],
+        "src": "Manifest; The Robot Report"
+      },
+      {
+        "name": "MODEX 2026",
+        "when": "Apr · Atlanta",
+        "points": [
+          "Record 50,000 registrants from 132 countries and 1,057 exhibitors.",
+          "ProMat 2027 dates announced for Chicago."
+        ],
+        "src": "Modern Materials Handling"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-11-03",
+        "when": "3 Nov 2026",
+        "type": "Geopolitics",
+        "what": "US midterm elections, with tariffs a key voter issue."
+      },
+      {
+        "date": "2027-01-10",
+        "when": "10–12 Jan 2027",
+        "type": "Expo",
+        "what": "NRF Retail’s Big Show, New York."
+      },
+      {
+        "date": "2027-02-08",
+        "when": "8–10 Feb 2027",
+        "type": "Expo",
+        "what": "Manifest 2027, Las Vegas."
+      },
+      {
+        "date": "2027-04-19",
+        "when": "19–21 Apr 2027",
+        "type": "Expo",
+        "what": "ProMat 2027, Chicago."
+      },
+      {
+        "date": "2027-07-01",
+        "when": "1 Jul 2027",
+        "type": "Regulation",
+        "what": "Statutory repeal of the US de minimis exemption takes effect; USMCA annual joint review."
+      }
+    ]
+  },
+  "SA": {
+    "name": "SOUTH AMERICA",
+    "headline": "Brazil scraps its 20% tax on parcels under $50.",
+    "dek": "The “taxa das blusinhas” is gone, a new federal VAT on small imports is planned for 2027, and the country votes in October.",
+    "expos": [
+      {
+        "name": "Fórum E-Commerce Brasil 2026",
+        "when": "28–30 Jul · São Paulo",
+        "points": [
+          "62,000+ visitors. Anjun Express launched with 41 hubs and 600,000 parcels a day.",
+          "LATAM Cargo reported e-commerce transit times down 31% in the first half."
+        ],
+        "src": "CNDL Varejo S.A."
+      },
+      {
+        "name": "Intermodal South America 2026",
+        "when": "14–16 Apr · São Paulo",
+        "points": [
+          "First expanded Interlog Summit, focused on ports and transport corridors.",
+          "Carriers including MSC and Hapag-Lloyd exhibited."
+        ],
+        "src": "Portal Radar; Hapag-Lloyd"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-10-04",
+        "when": "4 Oct 2026",
+        "type": "Geopolitics",
+        "what": "Brazil general election, first round (run-off 25 Oct)."
+      },
+      {
+        "date": "2026-12-31",
+        "when": "Pending",
+        "type": "Regulation",
+        "what": "Brazil implementing rules after the end of the 20% import tax up to US$50 (law signed 10 Sep)."
+      },
+      {
+        "date": "2027-01-01",
+        "when": "2027",
+        "type": "Regulation",
+        "what": "New federal VAT (CBS) to apply to small imports; rate still to be confirmed."
+      },
+      {
+        "date": "2027-04-13",
+        "when": "13–15 Apr 2027",
+        "type": "Expo",
+        "what": "Intermodal South America 2027, São Paulo."
+      }
+    ]
+  },
+  "AS": {
+    "name": "ASIA",
+    "headline": "ASEAN is writing one rulebook for digital trade.",
+    "dek": "The ASEAN Digital Economy Framework Agreement, covering cross-border e-commerce and payments, is due to be signed in Manila in November.",
+    "expos": [
+      {
+        "name": "DELIVER Asia 2026",
+        "when": "4–5 Mar · Singapore",
+        "points": [
+          "315 retail and supply chain leaders and 930 pre-booked meetings.",
+          "Retailer-voted awards for Kardex and DP World."
+        ],
+        "src": "DELIVER Asia"
+      },
+      {
+        "name": "transport logistic + air cargo SEA",
+        "when": "29–31 Oct 2025 · Singapore",
+        "points": [
+          "Emirates SkyCargo launched a weekly freighter to Bangkok.",
+          "SATS unveiled its “Hub Handler of the Future” programme."
+        ],
+        "src": "Air Cargo Week"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-10-22",
+        "when": "22–24 Oct 2026",
+        "type": "Expo",
+        "what": "India Warehousing & Logistics Show, Mumbai."
+      },
+      {
+        "date": "2026-11-16",
+        "when": "16–18 Nov 2026",
+        "type": "Geopolitics",
+        "what": "ASEAN Summit in Manila; signing of the digital economy agreement targeted."
+      },
+      {
+        "date": "2027-03-03",
+        "when": "3–4 Mar 2027",
+        "type": "Expo",
+        "what": "DELIVER Asia 2027, Singapore."
+      },
+      {
+        "date": "2028-04-01",
+        "when": "1 Apr 2028",
+        "type": "Regulation",
+        "what": "Japan plans to end the ¥10,000 consumption-tax exemption on low-value imports."
+      }
+    ]
+  },
+  "CN": {
+    "name": "CHINA",
+    "headline": "Shenzhen hosts APEC as the West closes the small-parcel door.",
+    "dek": "Chinese platforms move stock closer to buyers while Beijing drafts new powers to protect them abroad.",
+    "expos": [
+      {
+        "name": "CCBEC Shenzhen 2026",
+        "when": "16–18 Sep · Shenzhen",
+        "points": [
+          "1,500+ exhibitors, with AliExpress, Amazon, Lazada, Shopee and TikTok Shop.",
+          "China’s cross-border e-commerce trade reached about RMB 618.5bn in Q1 2026."
+        ],
+        "src": "Messe Frankfurt"
+      },
+      {
+        "name": "LogiMAT China 2026",
+        "when": "22–24 Apr · Shenzhen",
+        "points": [
+          "Theme: reshaping intralogistics with AI, with a dedicated AI + logistics zone.",
+          "Buyer matchmaking with Japan, Korea and Southeast Asia."
+        ],
+        "src": "Forkliftaction"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-11-03",
+        "when": "3–6 Nov 2026",
+        "type": "Expo",
+        "what": "CeMAT ASIA 2026, Shanghai."
+      },
+      {
+        "date": "2026-11-05",
+        "when": "5–10 Nov 2026",
+        "type": "Geopolitics",
+        "what": "China International Import Expo, Shanghai."
+      },
+      {
+        "date": "2026-11-18",
+        "when": "18–19 Nov 2026",
+        "type": "Geopolitics",
+        "what": "APEC Economic Leaders’ Meeting, Shenzhen."
+      },
+      {
+        "date": "2026-12-02",
+        "when": "2–4 Dec 2026",
+        "type": "Expo",
+        "what": "China International Logistics and Supply Chain Fair, Shenzhen (dates to confirm)."
+      },
+      {
+        "date": "2026-12-31",
+        "when": "Pending",
+        "type": "Regulation",
+        "what": "Revised E-Commerce Law extending rules to logistics and payment providers."
+      }
+    ]
+  },
+  "ME": {
+    "name": "MIDDLE EAST",
+    "headline": "Saudi Arabia plans 42 logistics hubs. 25 already run.",
+    "dek": "E-commerce logistics in the Kingdom is projected to double by 2027, while Gulf states tighten VAT on imports and move to e-invoicing.",
+    "expos": [
+      {
+        "name": "Seamless Middle East 2026",
+        "when": "22–24 Sep · Dubai",
+        "points": [
+          "25,000+ participants, with Home Delivery World ME co-located.",
+          "Arab Digital Economy Index 2026 launched: UAE first, Saudi Arabia second."
+        ],
+        "src": "Arab Digital Economy; CBNME"
+      },
+      {
+        "name": "Saudi Warehousing & Logistics Expo",
+        "when": "8–10 Sep · Riyadh",
+        "points": [
+          "18,000+ professionals expected and 300+ exhibitors.",
+          "25 of 42 planned logistics hubs already operational."
+        ],
+        "src": "Arab News; Zawya"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-10-30",
+        "when": "30 Oct 2026",
+        "type": "Regulation",
+        "what": "UAE: large businesses must appoint an e-invoicing service provider."
+      },
+      {
+        "date": "2027-01-01",
+        "when": "1 Jan 2027",
+        "type": "Regulation",
+        "what": "UAE e-invoicing goes live."
+      },
+      {
+        "date": "2027-02-02",
+        "when": "2–3 Feb 2027",
+        "type": "Expo",
+        "what": "Breakbulk Middle East, Dubai."
+      },
+      {
+        "date": "2027-06-08",
+        "when": "8–10 Jun 2027",
+        "type": "Expo",
+        "what": "transport logistic Middle East, Riyadh."
+      }
+    ]
+  },
+  "NAF": {
+    "name": "NORTH AFRICA",
+    "headline": "Casablanca hosts Africa’s logistics sector twice this year.",
+    "dek": "Logismed in May, LogiTerre in October, and new customs systems in Egypt and Tunisia reshaping how parcels are declared and taxed.",
+    "expos": [
+      {
+        "name": "Logismed 2026",
+        "when": "12–14 May · Casablanca",
+        "points": [
+          "Spain as guest country, with 27 companies.",
+          "E-commerce logistics, AI and decarbonisation on the programme, plus a startup award."
+        ],
+        "src": "AllAfrica; Infomédiaire"
+      },
+      {
+        "name": "International Maritime Expo 2026",
+        "when": "14–16 Sep · Algiers",
+        "points": [
+          "Second edition, on ports of the future and intermodal links.",
+          "Organised by World Trade Center Algiers."
+        ],
+        "src": "Algérie Patriotique"
+      }
+    ],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-09-29",
+        "when": "29 Sep–1 Oct 2026",
+        "type": "Expo",
+        "what": "Transport Middle East – Egypt, Cairo."
+      },
+      {
+        "date": "2026-10-20",
+        "when": "20–22 Oct 2026",
+        "type": "Expo",
+        "what": "LogiTerre 2026, Casablanca."
+      },
+      {
+        "date": "2026-11-15",
+        "when": "Autumn 2026",
+        "type": "Geopolitics",
+        "what": "Morocco: the new majority debates the 2027 budget after the 23 September elections."
+      },
+      {
+        "date": "2026-12-01",
+        "when": "Dec 2026",
+        "type": "Expo",
+        "what": "Handling Expo, Cairo (dates to confirm)."
+      }
+    ]
+  }
+}
