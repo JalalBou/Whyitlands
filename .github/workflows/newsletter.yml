@@ -23,7 +23,7 @@ jobs:
           if [ -n "${{ github.event.inputs.file }}" ]; then
             echo "list=${{ github.event.inputs.file }}" >> "$GITHUB_OUTPUT"
           else
-            echo "list=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'newsletter/20*.html' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+            echo "list=$(git diff --name-only --no-renames --diff-filter=AM HEAD~1 HEAD -- 'newsletter/20*.html' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           fi
       - name: Create scheduled Brevo campaign
         if: steps.files.outputs.list != ''

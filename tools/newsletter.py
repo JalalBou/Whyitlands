@@ -102,5 +102,5 @@ You receive this because you subscribed at whyitlands.com. <a href="{{{{ update_
 </table></td></tr></table></body></html>'''
 dst = ROOT / "newsletter" / f"{send.isoformat()}.html"
 dst.parent.mkdir(exist_ok=True)
-dst.write_text(out)
+dst.write_text(out + f"\n<!-- generated {datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC -->\n")
 print(dst.relative_to(ROOT), "|", subject)
