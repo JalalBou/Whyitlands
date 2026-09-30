@@ -14,7 +14,8 @@
   // Non-secret settings. BREVO_API_KEY is a secret set in the Cloudflare dashboard.
   "vars": {
     "SENDER_EMAIL": "hello@whyitlands.com",
-    "CONTACT_TO": "hello@whyitlands.com"
+    "CONTACT_TO": "hello@whyitlands.com",
+    "BREVO_LIST_ID": "2"
   },
   "observability": { "enabled": true }
 }

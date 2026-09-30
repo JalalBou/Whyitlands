@@ -575,7 +575,7 @@ write("method.html", page_method())
 write("legal.html", page_legal())
 write("404.html", page_404())
 out = head("Subscribed · WhyItLands", "Your subscription is confirmed.", "/confirmed") + header()
-out += '<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div><h1>You are in. First issue lands this week.</h1><p>Thank you for confirming. You can change region and language from any issue.</p><p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>'
+out += '<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div><h1>You are in. First issue lands this week.</h1><p>Thank you for confirming. You can change region and language from any issue.</p><script>if(/error=/.test(location.search)){document.querySelector("main h1").textContent="This link did not work.";document.querySelector("main p").textContent="It may have expired or been used already. Please sign up again from the front page.";}</script><p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>'
 write("confirmed.html", out + footer())
 urls = ["/", "/briefings/", "/regions", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")

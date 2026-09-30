@@ -32,7 +32,6 @@ After any content change: `python3 tools/build.py`, then commit.
 | `CONTACT_TO` | Inbox that receives contact and feedback messages |
 | `SENDER_EMAIL` | Sender verified in Brevo (for example hello@whyitlands.com) |
 | `BREVO_LIST_ID` | Newsletter list ID in Brevo |
-| `BREVO_DOI_TEMPLATE_ID` | Brevo double opt-in confirmation template ID |
 
 Until these are set, the forms answer with a polite error and nothing is sent.
 
