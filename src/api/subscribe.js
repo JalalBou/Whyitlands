@@ -13,7 +13,8 @@ export async function onRequestPost({ request, env }) {
   if (!isEmail(email)) return json({ ok: false, error: 'invalid_email' }, 400);
   const region = REGIONS.includes(b.region) ? b.region : 'GLOBAL';
   const lang = LANGS.includes(b.lang) ? b.lang : 'en';
-  if (!env.BREVO_API_KEY || !env.BREVO_LIST_ID || !env.BREVO_DOI_TEMPLATE_ID) return json({ ok: false, error: 'not_configured' }, 503);
+  const missing = ['BREVO_API_KEY', 'BREVO_LIST_ID', 'BREVO_DOI_TEMPLATE_ID'].filter((k) => !env[k]);
+  if (missing.length) return json({ ok: false, error: 'missing ' + missing.join(',') }, 503);
   const site = new URL(request.url).origin;
   try {
     await brevo(env, '/contacts/doubleOptinConfirmation', {

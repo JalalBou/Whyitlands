@@ -13,7 +13,8 @@ export async function onRequestPost({ request, env }) {
   if (kind === 'contact') {
     if (!isEmail(email) || !clean(b.name) || b.consent !== true) return json({ ok: false, error: 'invalid' }, 400);
   }
-  if (!env.BREVO_API_KEY || !env.CONTACT_TO || !env.SENDER_EMAIL) return json({ ok: false, error: 'not_configured' }, 503);
+  const missing = ['BREVO_API_KEY', 'CONTACT_TO', 'SENDER_EMAIL'].filter((k) => !env[k]);
+  if (missing.length) return json({ ok: false, error: 'missing ' + missing.join(',') }, 503);
 
   const rows = kind === 'contact'
     ? [['Topic', clean(b.topic, 60)], ['Name', clean(b.name, 120)], ['Email', email], ['Company and role', clean(b.org, 160)], ['Language', clean(b.lang, 5)]]
