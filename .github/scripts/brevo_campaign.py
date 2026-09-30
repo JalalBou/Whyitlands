@@ -7,7 +7,10 @@ Needs env BREVO_API_KEY; optional BREVO_LIST_ID (default 2), SENDER_EMAIL.
 """
 import datetime, json, os, re, sys, urllib.request, zoneinfo, html
 
-KEY = os.environ["BREVO_API_KEY"]
+KEY = os.environ.get("BREVO_API_KEY", "")
+if not KEY:
+    print("::error::BREVO_API_KEY secret is missing in GitHub (Settings > Secrets and variables > Actions)")
+    sys.exit(1)
 LIST = int(os.environ.get("BREVO_LIST_ID") or 2)
 SENDER = os.environ.get("SENDER_EMAIL") or "hello@whyitlands.com"
 
@@ -21,7 +24,9 @@ def call(method, path, body=None):
             t = r.read().decode()
             return json.loads(t) if t else {}
     except urllib.error.HTTPError as e:
-        sys.exit(f"Brevo {e.code} on {path}: {e.read().decode()[:400]}")
+        msg = f"Brevo {e.code} on {path}: {e.read().decode()[:400]}"
+        print("::error::" + msg.replace("\n", " "))
+        sys.exit(1)
 
 
 for path in sys.argv[1:]:
