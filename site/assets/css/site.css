@@ -414,3 +414,21 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .li-badge{position:absolute;right:-3px;bottom:-3px;width:18px;height:18px;border-radius:5px;background:#0A66C2;display:flex;align-items:center;justify-content:center;border:2px solid var(--ink)}
 .about .btn-light svg{margin-right:2px}
 @media (max-width:720px){.head-sub{padding:0 12px;font-size:13px}.lang-btn{padding:0 9px}.me-link{margin-left:2px}.brand{font-size:19px}}
+
+/* Intro video */
+.intro-video{background:var(--paper);padding:clamp(40px,6vw,80px) 0 0}
+.iv-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,520px);gap:clamp(24px,5vw,64px);align-items:center}
+.iv-text h2{margin:12px 0 16px}
+.iv-text p{font-size:18px;color:var(--muted-2);max-width:560px}
+.iv-list{list-style:none;padding:0;margin:22px 0 0;display:flex;flex-direction:column;gap:12px}
+.iv-list li{display:grid;grid-template-columns:200px 1fr;gap:12px;border-top:1px solid var(--line);padding-top:12px;font-size:15px;color:var(--muted-2)}
+.iv-list b{font-weight:700;color:var(--ink)}
+.iv-media{position:relative;aspect-ratio:1/1;width:100%;background:var(--ink);box-shadow:0 30px 70px -40px rgba(11,15,26,.6)}
+.iv-media video{width:100%;height:100%;display:block;object-fit:cover;background:var(--ink)}
+.iv-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:12px;height:64px;padding:0 26px 0 20px;border:0;background:var(--coral);color:#fff;font:700 17px var(--sans);box-shadow:0 20px 40px -18px rgba(11,15,26,.7)}
+.iv-play:hover{background:#F04A26}
+.iv-media.playing .iv-play{display:none}
+@media (max-width:1020px){.iv-grid{grid-template-columns:1fr}.iv-media{max-width:560px;margin:0 auto}}
+@media (max-width:720px){.iv-list li{grid-template-columns:1fr;gap:2px}.iv-text p{font-size:16px}}
+.iv-play span{white-space:nowrap}
+@media (max-width:1020px){.iv-media{order:-1}}

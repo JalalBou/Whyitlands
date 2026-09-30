@@ -252,6 +252,13 @@
     }, { passive: true });
   }
 
+  function initVideo() {
+    var v = $('#iv'); if (!v) return; var box = v.parentNode, b = $('.iv-play', box);
+    b.addEventListener('click', function () { v.controls = true; v.play(); });
+    v.addEventListener('play', function () { box.classList.add('playing'); track('video_played', {}); });
+    v.addEventListener('ended', function () { track('video_completed', {}); });
+  }
+  initVideo();
   initLang(); initRegion(); initFilters(); initForms(); initGlossary(); initAudio(); initTracking();
   applyRegion(); applyLang();
 })();

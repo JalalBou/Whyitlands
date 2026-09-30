@@ -329,6 +329,16 @@ def page_home():
     out += f"""<main id="main" data-region-page>
 {heroes}
 
+<section class="intro-video"><div class="wrap iv-grid">
+<div class="iv-text"><div class="kicker" data-i18n="iv_kicker">WhyItLands in 90 seconds</div>
+<h2 data-i18n="iv_title">Everyone sees what happens. We explain why.</h2>
+<p data-i18n="iv_dek">WhyItLands connects geopolitics, trade rules and doctrines to what they change for parcels: cost, speed, margin and networks. Written for the C-suite of domestic and cross-border e-commerce logistics.</p>
+<ul class="iv-list"><li><b data-i18n="nav_briefings">Briefings</b><span data-i18n="iv_b">Long-form analyses confronting every point of view</span></li><li><b data-i18n="nav_markets">Market Intelligence</b><span data-i18n="iv_m">Latest results of 40+ players, region by region</span></li><li><b data-i18n="nav_doctrines">Doctrines</b><span data-i18n="iv_d">The schools of thought behind each decision</span></li></ul>
+</div>
+<div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 90 seconds"></video>
+<button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:37</span></button></div>
+</div></section>
+
 <section class="section"><div class="wrap">
 <div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
 <div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
