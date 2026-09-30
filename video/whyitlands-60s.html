@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>WhyItLands 60s</title>
+<style>
+@font-face{font-family:"IS";src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-400-normal.woff2)}
+@font-face{font-family:"IS";font-weight:600;src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-600-normal.woff2)}
+@font-face{font-family:"IS";font-weight:700;src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-700-normal.woff2)}
+@font-face{font-family:"ISe";src:url(http://localhost:8768/assets/fonts/instrument-serif-latin-400-normal.woff2)}
+@font-face{font-family:"ISe";font-style:italic;src:url(http://localhost:8768/assets/fonts/instrument-serif-latin-400-italic.woff2)}
+@font-face{font-family:"JM";src:url(http://localhost:8768/assets/fonts/jetbrains-mono-latin-500-normal.woff2)}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1080px;overflow:hidden;background:#0B0F1A}
+#st{position:relative;width:1080px;height:1080px;overflow:hidden;background:#0B0F1A;color:#F4F2EC;font-family:IS,sans-serif}
+.a{position:absolute;opacity:0;will-change:transform,opacity}
+.k{font-family:JM,monospace;font-size:22px;letter-spacing:.16em;text-transform:uppercase}
+.serif{font-family:ISe,serif;font-weight:400}
+.it{font-style:italic}
+.card{background:#fff;color:#0B0F1A;border-radius:34px;padding:34px}
+.news{width:430px;height:210px;border-radius:30px;padding:30px;display:flex;flex-direction:column;justify-content:space-between}
+.news .k{font-size:18px}
+.news b{font:400 44px/1.02 ISe,serif}
+.chip{padding:16px 28px;border-radius:999px;font-size:30px;font-weight:600;white-space:nowrap}
+.node{width:150px;height:150px;border-radius:50%;background:#161B29;border:3px solid #2A3147;display:flex;align-items:center;justify-content:center;font:500 16px JM,monospace;letter-spacing:.1em;text-align:center}
+.kpi{width:300px;height:330px;border-radius:30px;padding:28px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi .v{font:400 96px/0.9 ISe,serif}
+.lens{width:330px;height:330px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;font:400 34px/1.1 ISe,serif;padding:40px;mix-blend-mode:screen}
+.row{display:flex;align-items:center;gap:16px;font-size:30px;font-weight:600;padding:16px 0;border-top:2px solid #EEE}
+.tick{width:40px;height:40px;border-radius:50%;background:#D7F75B;display:flex;align-items:center;justify-content:center;font-size:24px}
+</style></head>
+<body><div id="st">
+<svg id="bg" class="a" style="opacity:1;left:0;top:0" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <g id="dots" fill="#FFFFFF" opacity=".07"></g>
+  <path id="arc1" d="M-60 860 C 260 420, 700 360, 1140 520" fill="none" stroke="#FF5A36" stroke-width="2.4" opacity=".5"/>
+  <path id="arc2" d="M-60 960 C 380 640, 820 600, 1140 820" fill="none" stroke="#6B80FF" stroke-width="2.4" opacity=".45"/>
+  <path id="arc3" d="M120 1140 C 380 700, 760 560, 1100 -60" fill="none" stroke="#FF5A36" stroke-width="1.6" opacity=".3"/>
+</svg>
+
+<!-- S1 logo -->
+<svg id="parcel" class="a" width="220" height="220" viewBox="0 0 24 24" style="left:430px;top:330px"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/><polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FF5A36"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#D9431F"/><polyline points="16.75,4.875 7.25,9.625 7.25,19.375" fill="none" stroke="#FFE3D9" stroke-width="1.6" stroke-linejoin="round"/></svg>
+<div id="shadow" class="a" style="left:440px;top:560px;width:200px;height:26px;border-radius:50%;background:radial-gradient(#000 0,transparent 70%)"></div>
+<div id="word" class="a" style="left:0;width:1080px;top:600px;text-align:center;font:700 96px IS;letter-spacing:-.03em">WhyItLands</div>
+<div id="tag1" class="a serif it" style="left:0;width:1080px;top:720px;text-align:center;font-size:52px;color:#C8CCD6">Where it lands, and why.</div>
+
+<!-- S2 what -->
+<div id="s2t" class="a" style="left:80px;top:110px;width:920px;font:600 64px/1.05 IS;letter-spacing:-.02em">Everyone sees <span style="color:#D7F75B">what</span> happens.</div>
+<div id="n1" class="a news" style="left:80px;top:300px;background:#FF5A36"><span class="k" style="color:#FFD5C8">United States</span><b>$800 duty-free pass suspended</b></div>
+<div id="n2" class="a news" style="left:570px;top:300px;background:#2B45E0"><span class="k" style="color:#C1CBFF">European Union</span><b>€3 duty on every tariff line</b></div>
+<div id="n3" class="a news" style="left:80px;top:560px;background:#F4F2EC;color:#0B0F1A"><span class="k" style="color:#5A6072">Strait of Hormuz</span><b>Brent at $104 a barrel</b></div>
+<div id="n4" class="a news" style="left:570px;top:560px;background:#D7F75B;color:#0B0F1A"><span class="k" style="color:#4A5A0B">Cross-border shoppers</span><b>Temu now level with Amazon</b></div>
+<div id="s2s" class="a k" style="left:80px;top:830px;color:#8C93A6;font-size:18px">Headlines. Every day. Everywhere.</div>
+
+<!-- S3 why -->
+<div id="s3a" class="a serif" style="left:0;width:1080px;top:250px;text-align:center;font-size:120px;line-height:1">Few explain</div>
+<div id="s3b" class="a serif it" style="left:0;width:1080px;top:360px;text-align:center;font-size:330px;line-height:1;color:#FF5A36">why.</div>
+<div id="s3c" class="a" style="left:140px;width:800px;top:760px;text-align:center;font-size:34px;line-height:1.35;color:#C8CCD6">The geopolitics and the doctrines behind every move in parcel and e-commerce logistics.</div>
+
+<!-- S4 chain -->
+<div id="s4t" class="a k" style="left:80px;top:110px;color:#D7F75B">Why it lands here</div>
+<div id="s4h" class="a serif" style="left:80px;top:160px;width:920px;font-size:76px;line-height:1">From a strait to your parcel.</div>
+<svg id="chainsvg" class="a" style="left:0;top:0;opacity:1" width="1080" height="1080"><path id="cl" d="M155 470 L 380 600 L 540 760 L 700 600 L 925 470" fill="none" stroke="#FF5A36" stroke-width="4"/></svg>
+<div id="c1" class="a" style="left:80px;top:395px"><div class="node">GEO-<br>POLITICS</div></div>
+<div id="c2" class="a" style="left:305px;top:525px"><div class="node">TRADE</div></div>
+<div id="c3" class="a" style="left:465px;top:685px"><div class="node">CUSTOMS</div></div>
+<div id="c4" class="a" style="left:625px;top:525px"><div class="node">MARKET</div></div>
+<div id="c5" class="a" style="left:850px;top:395px"><div class="node" style="background:#FF5A36;border-color:#FF8A6A;color:#fff">PARCEL</div></div>
+<div id="l1" class="a" style="left:40px;top:330px;width:230px;text-align:center;font-size:24px;color:#C8CCD6">War, straits, sanctions</div>
+<div id="l2" class="a" style="left:265px;top:690px;width:230px;text-align:center;font-size:24px;color:#C8CCD6">Tariffs, truces</div>
+<div id="l3" class="a" style="left:425px;top:850px;width:230px;text-align:center;font-size:24px;color:#C8CCD6">End of de minimis</div>
+<div id="l4" class="a" style="left:585px;top:690px;width:230px;text-align:center;font-size:24px;color:#C8CCD6">Local stock, M&amp;A</div>
+<div id="l5" class="a" style="left:810px;top:330px;width:230px;text-align:center;font-size:24px;color:#FF8A6A;font-weight:600">Cost, speed, margin</div>
+
+<!-- S5 audience -->
+<div id="s5a" class="a serif" style="left:80px;top:170px;width:920px;font-size:104px;line-height:.98">Built for the <span class="it" style="color:#FF5A36">C-suite</span></div>
+<div id="s5b" class="a" style="left:80px;top:400px;width:920px;font-size:40px;line-height:1.25;color:#C8CCD6">of e-commerce logistics, domestic and cross-border.</div>
+<div id="p1" class="a chip" style="left:80px;top:560px;background:#F4F2EC;color:#0B0F1A">CEO</div>
+<div id="p2" class="a chip" style="left:230px;top:560px;background:#FF5A36;color:#fff">COO</div>
+<div id="p3" class="a chip" style="left:385px;top:560px;background:#2B45E0;color:#fff">CFO</div>
+<div id="p4" class="a chip" style="left:530px;top:560px;background:#D7F75B;color:#0B0F1A">Chief Commercial Officer</div>
+<div id="p5" class="a chip" style="left:80px;top:660px;background:#161B29;color:#fff;border:2px solid #2A3147">Customs &amp; Compliance</div>
+<div id="p6" class="a chip" style="left:470px;top:660px;background:#161B29;color:#fff;border:2px solid #2A3147">Strategy &amp; M&amp;A</div>
+<div id="p7" class="a chip" style="left:80px;top:760px;background:#161B29;color:#fff;border:2px solid #2A3147">Product &amp; Network</div>
+<div id="s5c" class="a k" style="left:80px;top:900px;color:#8C93A6;font-size:20px">Posts · Integrators · Platforms · 3PLs · Merchants</div>
+
+<!-- S6 briefings -->
+<div id="s6k" class="a k" style="left:80px;top:110px;color:#FF5A36">01 · Briefings</div>
+<div id="s6h" class="a serif" style="left:80px;top:160px;width:920px;font-size:84px;line-height:1">Every angle. One answer.</div>
+<div id="s6c" class="a card" style="left:80px;top:330px;width:920px">
+  <div class="k" style="font-size:18px;color:#FF5A36">Trade · Global e-commerce · 14 min</div>
+  <div class="serif" style="font-size:52px;line-height:1.05;margin:14px 0 18px">The small-parcel door closes: who pays, who declares, where volume goes</div>
+  <div id="r1" class="row"><span class="tick">✓</span>Points of view: governments, platforms, carriers</div>
+  <div id="r2" class="row"><span class="tick">✓</span>Doctrines behind each decision</div>
+  <div id="r3" class="row"><span class="tick">✓</span>Scenarios and signals to watch</div>
+  <div id="r4" class="row"><span class="tick" style="background:#FF5A36;color:#fff">✓</span>Actions for the C-suite</div>
+</div>
+<div id="s6s" class="a k" style="left:80px;top:960px;color:#8C93A6;font-size:18px">Long-form · Every fact sourced · 9 regions</div>
+
+<!-- S7 market intelligence -->
+<div id="s7k" class="a k" style="left:80px;top:110px;color:#D7F75B">02 · Market Intelligence</div>
+<div id="s7h" class="a serif" style="left:80px;top:160px;width:920px;font-size:84px;line-height:1">Who is winning, who is paying.</div>
+<div id="m1" class="a kpi" style="left:80px;top:430px;background:#FF5A36"><span class="k" style="font-size:17px;color:#FFD5C8">DHL Group · Q2 2026</span><span class="v" id="v1">+0%</span><span style="font-size:24px;color:#FFE9E2">EBIT year on year</span></div>
+<div id="m2" class="a kpi" style="left:390px;top:430px;background:#2B45E0"><span class="k" style="font-size:17px;color:#C1CBFF">J&amp;T Express · H1 2026</span><span class="v" id="v2">0bn</span><span style="font-size:24px;color:#DDE3FF">parcels, +25%</span></div>
+<div id="m3" class="a kpi" style="left:700px;top:430px;background:#D7F75B;color:#0B0F1A"><span class="k" style="font-size:17px;color:#4A5A0B">Mercado Libre · Q2 2026</span><span class="v" id="v3">+0%</span><span style="font-size:24px;color:#4A5A0B">items sold</span></div>
+<div id="s7s" class="a" style="left:80px;top:830px;width:920px;font-size:32px;color:#C8CCD6">Latest results of 40+ posts, integrators and platforms, read for what they mean.</div>
+
+<!-- S8 doctrines -->
+<div id="s8k" class="a k" style="left:80px;top:110px;color:#6B80FF">03 · Doctrines</div>
+<div id="s8h" class="a serif" style="left:80px;top:160px;width:920px;font-size:84px;line-height:1">The lens behind the decision.</div>
+<div id="d1" class="a lens" style="left:120px;top:360px;background:rgba(255,90,54,.55)">Realism</div>
+<div id="d2" class="a lens" style="left:375px;top:330px;background:rgba(43,69,224,.6)">Weaponised interdependence</div>
+<div id="d3" class="a lens" style="left:630px;top:360px;background:rgba(215,247,91,.45);color:#fff">Strategic autonomy</div>
+<div id="d4" class="a lens" style="left:250px;top:560px;background:rgba(255,138,106,.45)">Dual circulation</div>
+<div id="d5" class="a lens" style="left:500px;top:560px;background:rgba(107,128,255,.45)">Economic intelligence</div>
+<div id="s8s" class="a" style="left:80px;top:950px;width:920px;font-size:30px;color:#C8CCD6">The schools of thought behind every tariff, fee and data rule.</div>
+
+<!-- S9 regions -->
+<div id="s9h" class="a serif" style="left:80px;top:130px;width:920px;font-size:96px;line-height:1">9 regions.<br><span class="it" style="color:#FF5A36">One question: why?</span></div>
+<div id="g1" class="a chip" style="left:90px;top:470px;background:#161B29;border:2px solid #2A3147">North America</div>
+<div id="g2" class="a chip" style="left:170px;top:700px;background:#161B29;border:2px solid #2A3147">South America</div>
+<div id="g3" class="a chip" style="left:470px;top:430px;background:#2B45E0">EU</div>
+<div id="g4" class="a chip" style="left:360px;top:400px;background:#161B29;border:2px solid #2A3147">UK</div>
+<div id="g5" class="a chip" style="left:600px;top:560px;background:#FF5A36">Middle East</div>
+<div id="g6" class="a chip" style="left:420px;top:600px;background:#161B29;border:2px solid #2A3147">North Africa</div>
+<div id="g7" class="a chip" style="left:760px;top:470px;background:#161B29;border:2px solid #2A3147">Asia</div>
+<div id="g8" class="a chip" style="left:800px;top:380px;background:#D7F75B;color:#0B0F1A">China</div>
+<div id="g9" class="a chip" style="left:430px;top:820px;background:#F4F2EC;color:#0B0F1A">Global</div>
+
+<!-- S10 end -->
+<svg id="parcel2" class="a" width="150" height="150" viewBox="0 0 24 24" style="left:465px;top:250px"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/><polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FF5A36"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#D9431F"/><polyline points="16.75,4.875 7.25,9.625 7.25,19.375" fill="none" stroke="#FFE3D9" stroke-width="1.6" stroke-linejoin="round"/></svg>
+<div id="e1" class="a" style="left:0;width:1080px;top:430px;text-align:center;font:700 104px IS;letter-spacing:-.03em">WhyItLands</div>
+<div id="e2" class="a serif it" style="left:0;width:1080px;top:560px;text-align:center;font-size:60px;color:#FF5A36">Where it lands, and why.</div>
+<div id="e3" class="a" style="left:0;width:1080px;top:700px;text-align:center"><span class="chip" style="background:#F4F2EC;color:#0B0F1A;font-size:38px;display:inline-block">whyitlands.com</span></div>
+<div id="e4" class="a k" style="left:0;width:1080px;top:840px;text-align:center;color:#D7F75B;font-size:22px">Free newsletter · Every Monday, 07:30</div>
+<div id="e5" class="a" style="left:0;width:1080px;top:920px;text-align:center;font-size:24px;color:#8C93A6">by Jalal Boucheikha</div>
+
+<div id="bar" style="position:absolute;left:0;bottom:0;height:8px;width:0;background:#FF5A36"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x)=>Math.max(0,Math.min(1,x));
+const p=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);            // ease out
+const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
+const bounce=x=>{const n=7.5625,d=2.75;if(x<1/d)return n*x*x;if(x<2/d)return n*(x-=1.5/d)*x+.75;if(x<2.5/d)return n*(x-=2.25/d)*x+.9375;return n*(x-=2.625/d)*x+.984375;};
+// dots
+(function(){let g=$('dots'),s='';for(let x=30;x<1080;x+=44)for(let y=30;y<1080;y+=44)s+=`<circle cx="${x}" cy="${y}" r="1.6"/>`;g.innerHTML=s;})();
+const arcs=['arc1','arc2','arc3'].map(id=>{const e=$(id),L=e.getTotalLength();e.style.strokeDasharray=L;return [e,L];});
+const clp=$('cl'),CL=clp.getTotalLength();clp.style.strokeDasharray=CL;
+// generic in/out: element visible between a (in, dur di) and b (out, dur do)
+function show(id,t,a,b,{di=.5,dout=.4,dx=0,dy=40,s0=1,s1=1,e=eo,blurOut=0}={}){
+  const el=$(id);const i=e(p(t,a,a+di)),o=eio(p(t,b-dout,b));
+  const k=i*(1-o);el.style.opacity=k;
+  const sc=s0+(s1-s0)*i;
+  el.style.transform=`translate(${dx*(1-i)}px,${dy*(1-i)-dy*0.6*o}px) scale(${sc})`;
+  el.style.filter=blurOut&&o>0?`blur(${o*blurOut}px)`:'none';
+  return i;
+}
+function render(t){
+  // background arcs draw continuously, dots drift
+  arcs.forEach(([e,L],n)=>{const q=(t*0.045+n*0.33)%1.2;e.style.strokeDashoffset=L*(1-eio(cl(q)));});
+  $('dots').setAttribute('transform',`translate(${(t*6)%44} ${(t*3)%44})`);
+  $('bar').style.width=(t/60*1080)+'px';
+  // S1 0-4
+  const f=p(t,.15,1.25);const y=-420*(1-bounce(f));
+  const P=$('parcel');P.style.opacity=t<3.8?cl(t/0.15):1-p(t,3.6,4);P.style.transform=`translate(0,${y-60*p(t,1.4,2.0)}px) rotate(${(1-f)*-25}deg) scale(${1-0.25*eo(p(t,1.4,2.0))})`;
+  $('shadow').style.opacity=(t<4?0.6*f:0)*(1-p(t,3.6,4));
+  show('word',t,1.6,4,{di:.6,dy:50});
+  show('tag1',t,2.2,4,{di:.6,dy:30});
+  // S2 4-11
+  show('s2t',t,4.1,10.8,{di:.5,dx:-60,dy:0});
+  [['n1',5.0],['n2',5.5],['n3',6.0],['n4',6.5]].forEach(([id,a],n)=>show(id,t,a,10.6+n*0.05,{di:.45,dy:80,s0:.85,e:back,blurOut:14}));
+  show('s2s',t,7.4,10.8,{di:.5,dy:20});
+  // S3 11-15
+  show('s3a',t,11.0,15.0,{di:.45,dy:40});
+  show('s3b',t,11.5,15.0,{di:.7,dy:0,s0:.4,e:back});
+  show('s3c',t,12.6,15.0,{di:.6,dy:30});
+  // S4 15-23
+  show('s4t',t,15.0,23,{di:.4,dy:20});show('s4h',t,15.2,23,{di:.5,dy:30});
+  const lp=p(t,15.9,21.2);clp.style.strokeDashoffset=CL*(1-eio(lp));$('chainsvg').style.opacity=1-p(t,22.5,23)+ (t<15?-1:0);
+  if(t<15)$('chainsvg').style.opacity=0;
+  [['c1','l1',15.9],['c2','l2',17.1],['c3','l3',18.3],['c4','l4',19.5],['c5','l5',20.7]].forEach(([c,l,a])=>{show(c,t,a,23,{di:.45,dy:0,s0:.3,e:back});show(l,t,a+.2,23,{di:.4,dy:20});});
+  const glow=p(t,20.9,21.6);$('c5').firstElementChild.style.boxShadow=`0 0 ${60*glow}px ${20*glow}px rgba(255,90,54,.55)`;
+  // S5 23-29
+  show('s5a',t,23.0,29,{di:.5,dy:50});show('s5b',t,23.6,29,{di:.5,dy:30});
+  ['p1','p2','p3','p4','p5','p6','p7'].forEach((id,n)=>show(id,t,24.4+n*0.28,29,{di:.4,dy:40,s0:.7,e:back}));
+  show('s5c',t,26.8,29,{di:.5,dy:20});
+  // S6 29-36
+  show('s6k',t,29.0,36,{di:.4,dy:20});show('s6h',t,29.2,36,{di:.5,dy:30});
+  show('s6c',t,29.8,36,{di:.7,dx:500,dy:0});
+  ['r1','r2','r3','r4'].forEach((id,n)=>{const el=$(id);const k=eo(p(t,31.0+n*0.7,31.4+n*0.7));el.style.opacity=.15+.85*k;el.querySelector('.tick').style.transform=`scale(${k})`;});
+  show('s6s',t,33.8,36,{di:.5,dy:20});
+  // S7 36-43
+  show('s7k',t,36.0,43,{di:.4,dy:20});show('s7h',t,36.2,43,{di:.5,dy:30});
+  show('m1',t,37.0,43,{di:.5,dy:120,e:back});show('m2',t,37.4,43,{di:.5,dy:120,e:back});show('m3',t,37.8,43,{di:.5,dy:120,e:back});
+  $('v1').textContent='+'+Math.round(30*eo(p(t,37.2,39.2)))+'%';
+  $('v2').textContent=(17.5*eo(p(t,37.6,39.6))).toFixed(1)+'bn';
+  $('v3').textContent='+'+Math.round(45*eo(p(t,38.0,40.0)))+'%';
+  show('s7s',t,39.6,43,{di:.5,dy:20});
+  // S8 43-49
+  show('s8k',t,43.0,49,{di:.4,dy:20});show('s8h',t,43.2,49,{di:.5,dy:30});
+  ['d1','d2','d3','d4','d5'].forEach((id,n)=>{const i=show(id,t,43.9+n*0.35,49,{di:.6,dy:0,s0:.2,e:back});const el=$(id);el.style.transform+=` rotate(${(t-44)*(n%2?4:-4)}deg)`;});
+  show('s8s',t,46.2,49,{di:.5,dy:20});
+  // S9 49-54
+  show('s9h',t,49.0,54,{di:.5,dy:40});
+  ['g1','g2','g4','g3','g6','g5','g8','g7','g9'].forEach((id,n)=>show(id,t,49.8+n*0.22,54,{di:.35,dy:0,s0:.3,e:back}));
+  // S10 54-60
+  const q=p(t,54.0,55.0);const P2=$('parcel2');P2.style.opacity=t>=54?cl((t-54)/0.2):0;P2.style.transform=`translate(0,${-380*(1-bounce(q))}px) rotate(${(1-q)*20}deg)`;
+  show('e1',t,54.8,61,{di:.5,dy:40});show('e2',t,55.3,61,{di:.5,dy:30});show('e3',t,56.0,61,{di:.5,dy:30,s0:.8,e:back});show('e4',t,56.6,61,{di:.5,dy:20});show('e5',t,57.1,61,{di:.5,dy:20});
+}
+window.render=render;
+render(0);
+</script>
+</body></html>
