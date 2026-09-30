@@ -29,7 +29,7 @@ REGION_ORDER = ["GLOBAL", "EMEA", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF
 DESK_ORDER = ["EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
 RNAME = {"GLOBAL": "Global", "EMEA": "EMEA", "EU": "EU", "UK": "UK", "NA": "North America", "SA": "South America",
          "AS": "Asia", "CN": "China", "ME": "Middle East", "NAF": "North Africa"}
-LANGS = [("en", "English"), ("fr", "Français"), ("de", "Deutsch"), ("it", "Italiano"), ("es", "Español"), ("pt", "Português")]
+LANGS = [("en", "English"), ("fr", "Français")]
 
 PARCEL = ('<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/>'
           '<polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FF5A36"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#D9431F"/>'
@@ -107,6 +107,7 @@ def header(active=""):
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
 <ul class="lang-menu" role="menu" hidden>{langs}</ul></div>
 <a class="btn btn-coral head-sub" href="/#newsletter" data-i18n="subscribe">Subscribe</a>
+{f'<a class="me-link" href="{LINKEDIN}" rel="noopener" target="_blank" aria-label="Jalal Boucheikha on LinkedIn"><img src="/assets/img/jalal.jpg" alt="" width="36" height="36"><span class="li-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg></span></a>' if LINKEDIN else ""}
 </nav>
 </div>
 </header>
@@ -196,11 +197,11 @@ def about_nl():
 <div class="about">
 <div class="portrait"><img src="/assets/img/jalal.jpg" alt="Jalal Boucheikha" width="220" height="220" loading="lazy"></div>
 <div>{i('about_kicker', 'About', 'div', 'kicker')}<h2>Jalal Boucheikha</h2>{i('role', 'Shipping Product Director at Asendia', 'div', 'role')}
-<p data-i18n="about_1">Engineer by training, I work where operations, commercial, compliance and strategy meet: the product side of how cross-border parcels are processed, cleared, routed and tracked.</p>
+<p data-i18n="about_1">With an engineer’s grounding in how systems work, I lead product where operations, commercial, compliance and strategy meet: the side of cross-border parcels that decides how they are processed, cleared, routed and tracked.</p>
 <p data-i18n="about_2">My day-to-day is multicultural and multi-regional, with teams and partners across several continents, and a practice of agile at scale inside a large organisation.</p>
 <p data-i18n="about_3">I started WhyItLands to explain the why behind the decisions reshaping e-commerce logistics, domestic and cross-border, in a form that is quick to read and easy to check.</p>
 <blockquote>“Complexity should be invisible. What you expose to your merchants, your partners, your customers should be simple, reliable and programmable.”</blockquote>
-<div class="cta">{f'<a class="btn btn-light" href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a class="btn btn-ghost-dark" href="#" data-contact="about" data-i18n="get_in_touch">Get in touch</a></div>
+<div class="cta">{f'<a class="btn btn-light" href="{LINKEDIN}" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg><span data-i18n="li_btn">Connect on LinkedIn</span></a>' if LINKEDIN else ""}<a class="btn btn-ghost-dark" href="#" data-contact="about" data-i18n="get_in_touch">Get in touch</a></div>
 <p style="font-size:13px;margin-top:22px;color:#8C93A6" data-i18n="about_note">WhyItLands is a personal project. Views are my own and do not represent my employer.</p>
 </div></div>
 </div></section>

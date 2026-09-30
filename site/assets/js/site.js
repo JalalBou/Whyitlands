@@ -3,7 +3,7 @@
   'use strict';
   var CFG = window.WIL_CONFIG || {};
   var I18N = window.WIL_I18N || {};
-  var LANGS = ['en', 'fr', 'de', 'it', 'es', 'pt'];
+  var LANGS = ['en', 'fr'];
   var EMEA = ['EU', 'UK', 'ME', 'NAF'];
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
