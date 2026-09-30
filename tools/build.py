@@ -160,7 +160,7 @@ def footer():
     return f"""<footer class="site-foot">
 <div class="wrap">
 <div class="foot-row"><a class="brand" href="/">WhyItLands{PARCEL}</a>
-<nav aria-label="Footer"><a href="/method" data-i18n="method">Method</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a href="#" data-contact="footer" data-i18n="get_in_touch">Get in touch</a></nav></div>
+<nav aria-label="Footer"><a href="/archive" data-i18n="ar_kicker">Archive</a><a href="/method" data-i18n="method">Method</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a href="#" data-contact="footer" data-i18n="get_in_touch">Get in touch</a></nav></div>
 <p class="disclose" data-i18n="disclose">AI-assisted monitoring, curated and reviewed by Jalal Boucheikha. Every fact is sourced.</p>
 </div>
 </footer>
@@ -490,9 +490,9 @@ def listen_btn(b):
 
 def bcard(b, big=False):
     regs = ",".join(b.get("regions", []))
-    return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}" data-primary="{b.get("region", "GLOBAL")}">'
+    return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}" data-primary="{b.get("region", "GLOBAL")}" data-date="{b["date"]}" data-text="{E((b["title"] + " " + plain(b["dek"]) + " " + b["section"]).lower())}">'
             f'<span class="kicker">{E(b["section"])}</span><h3>{E(b["title"])}</h3><p>{E(plain(b["dek"]))}</p>'
-            f'<span class="bmeta">{E(b["date_label"])} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
+            f'<span class="bmeta">{E(b["date_label"])}{(" · updated " + E(date_label(b["updated"]))) if b.get("updated") else ""} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
 
 
 def desk_briefings(k):
@@ -606,7 +606,12 @@ def page_briefings_index():
     out += header("briefings") + regionbar(REGION_ORDER, "GLOBAL")
     out += f"""<main id="main">
 <section class="rhero"><div class="wrap"><div class="kicker" data-i18n="briefings_kicker">Briefings</div><h1 data-i18n="briefings_h1">Where it lands, region by region.</h1><p data-i18n="briefings_dek">Each briefing confronts the positions of governments, industry and schools of thought, then spells out what it means for parcel volumes, landed cost, networks and contracts.</p></div></section>
-<section class="section"><div class="wrap"><div class="bgrid" data-filter-regions>{''.join(bcard(b) for b in briefings)}</div></div></section>
+<section class="section"><div class="wrap">
+<div class="bfilters"><input class="input" type="search" id="bq" data-i18n-ph="bf_search" placeholder="Search briefings (topic, country, company…)" aria-label="Search briefings">
+<select class="input" id="bm" aria-label="Month"><option value="" data-i18n="bf_all_dates">All dates</option>{''.join(f'<option value="{m}">{datetime.date.fromisoformat(m + "-01").strftime("%B %Y")}</option>' for m in sorted({b["date"][:7] for b in briefings}, reverse=True))}</select>
+<a class="more" href="/archive" data-i18n="bf_archive">Weekly editions archive →</a></div>
+<div class="bgrid" data-filter-regions data-searchable>{''.join(bcard(b) for b in briefings)}</div>
+<p class="empty" id="bnone" hidden data-i18n="bf_none">No briefing matches these filters.</p></div></section>
 </main>
 """
     return out + footer()
@@ -729,6 +734,64 @@ def desk_markets(k):
     return f"""<section class="section" style="padding-bottom:0"><div class="wrap"><a class="mk-teaser" href="/markets#{k.lower()}"><div><div class="kicker" data-i18n="mk_kicker">Market intelligence</div><h3 data-i18n="mk_teaser">Latest results of the region's players</h3><p>{E(names)}</p></div><span class="more" data-i18n="mk_open">Open →</span></a></div></section>"""
 
 
+# ---------- Archive ----------
+ARCH = []
+for _af in sorted((C / "archive").glob("*.json"), reverse=True) if (C / "archive").exists() else []:
+    ARCH.append(json.loads(_af.read_text()))
+ARCH_BRIEFS = []
+for _af in sorted((C / "archive" / "briefings").glob("*.json")) if (C / "archive" / "briefings").exists() else []:
+    _b = json.loads(_af.read_text()); _b["_ver"] = _af.stem.split("@")[1]; ARCH_BRIEFS.append(_b)
+
+
+def date_label(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.day} {d.strftime('%B %Y')}"
+
+
+def page_archive():
+    eds = []
+    for a in ARCH:
+        h = a["home"]["hero"]
+        nl = (ROOT / "newsletter" / f"{a.get('newsletter', {}).get('send_date', '')}.html")
+        nl_link = f'<a href="/archive/newsletter/{a["newsletter"]["send_date"]}">Newsletter of {date_label(a["newsletter"]["send_date"])}</a>' if a.get("newsletter") and nl.exists() and a["newsletter"]["send_date"] <= datetime.date.today().isoformat() else ""
+        eds.append(f"""<article class="ed" data-date="{a['edition']}"><div class="ed-date">{E(date_label(a['edition']))}</div><div><a class="ed-t" href="/archive/{a['edition']}">{E(h['title'])} <em>{E(h.get('title_em', ''))}</em></a>
+<p>{E(h['dek'])}</p><div class="ed-links"><a href="/archive/{a['edition']}" data-i18n="ar_open">Open this edition →</a>{nl_link}</div></div></article>""")
+    vers = "".join(f'<li><a href="/archive/briefings/{E(b["slug"])}-{E(b["_ver"])}">{E(b["title"])}</a> <span class="tl-when">version of {E(date_label(b["_ver"]))}</span></li>' for b in sorted(ARCH_BRIEFS, key=lambda x: x["_ver"], reverse=True))
+    out = head("Archive · WhyItLands", "Every weekly edition of WhyItLands, with its front page, briefings and newsletter.", "/archive")
+    out += header("archive")
+    out += f"""<main id="main"><section class="rhero"><div class="wrap"><div class="kicker" data-i18n="ar_kicker">Archive</div><h1 data-i18n="ar_h1">Every edition, kept.</h1><p data-i18n="ar_dek">Each week’s front page, briefings and newsletter stay available, so you can see what we said and when.</p></div></section>
+<section class="section"><div class="wrap"><div class="eds">{''.join(eds)}</div>
+{('<h2 style="margin:40px 0 14px" data-i18n="ar_versions">Earlier versions of briefings</h2><ul class="watch">' + vers + '</ul>') if vers else ''}
+<p style="margin-top:30px"><a class="btn btn-ink" href="/briefings/" data-i18n="ar_all_briefings">All briefings, by date and region →</a></p></div></section></main>
+"""
+    return out + footer()
+
+
+def page_edition(a):
+    h = a["home"]; hero = h["hero"]
+    chain = "".join(f'<li><span class="n">{n}</span><div><b>{E(c["k"].upper())}</b><span>{E(c["t"])}</span></div></li>' for n, c in enumerate(h["chain"], 1))
+    tiles = "".join(f'<article class="tile {w.get("style", "")}"><span class="tag">{E(w["tag"])}</span>{("<span class=big>" + E(w["big"]) + "</span>") if w.get("big") else ""}{("<p class=lede>" + E(w["lede"]) + "</p>") if w.get("lede") else ""}{("<p>" + E(w["text"]) + "</p>") if w.get("text") else ""}<span class="src">{src_link(w["src"], w.get("url"))}</span></article>' for w in h.get("wire", []))
+    deals = "".join(f'<tr><td class="date">{E(d["date"])}</td><td class="co">{E(d["co"])}</td><td>{E(d["deal"])}</td><td><span class="pill">{E(d["region"])}</span></td><td>{src_link(d["src"], d.get("url"))}</td></tr>' for d in h.get("deals", []))
+    live = {b["slug"] for b in briefings}
+    bl = "".join(f'<li><a href="/briefings/{E(b["slug"])}">{E(b["title"])}</a> <span class="tl-when">{E(b["section"])}</span></li>' if b["slug"] in live else f'<li>{E(b["title"])}</li>' for b in a["briefings"])
+    out = head(f"Edition of {date_label(a['edition'])} · WhyItLands", hero["dek"], f"/archive/{a['edition']}")
+    out += header("archive")
+    out += f"""<main id="main"><div class="ar-banner"><div class="wrap"><span data-i18n="ar_banner">Archived edition</span> · {E(date_label(a['edition']))} · <a href="/archive" data-i18n="ar_back">All editions</a> · <a href="/" data-i18n="ar_current">Current edition</a></div></div>
+<section class="hero"><div class="wrap hero-grid"><div><span class="kicker">{E(hero['kicker'])}</span><h1>{E(hero['title'])}<br><em>{E(hero.get('title_em', ''))}</em></h1><p class="dek">{E(hero['dek'])}</p></div>
+<aside class="chain"><span class="kicker" data-i18n="why_lands_here">Why it lands here</span><ol>{chain}</ol></aside></div></section>
+<section class="section"><div class="wrap"><div class="section-head"><div>{i('briefings_kicker', 'Briefings', 'div', 'kicker')}<h2>Briefings of the week</h2></div></div><ul class="watch">{bl}</ul></div></section>
+<section class="section" style="padding-top:0"><div class="wrap"><div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div><div class="bento">{tiles}</div></div></section>
+<section class="section" style="padding-top:0"><div class="wrap"><div class="section-head"><div>{i('deals_kicker', 'Deals & investments', 'div', 'kicker')}{i('deals_title', 'The deal tracker', 'h2')}</div></div><div class="table-wrap"><table><tbody>{deals}</tbody></table></div></div></section>
+</main>
+"""
+    return out + footer()
+
+
+def page_briefing_version(b):
+    html_ = page_briefing(b)
+    return html_.replace('<main id="main">', f'<main id="main"><div class="ar-banner"><div class="wrap"><span data-i18n="ar_banner_b">Archived version</span> · {E(date_label(b["_ver"]))} · <a href="/briefings/{E(b["slug"])}" data-i18n="ar_latest">Read the latest version</a></div></div>', 1).replace(f'<link rel="canonical" href="{BASE}/briefings/{b["slug"]}">', f'<link rel="canonical" href="{BASE}/briefings/{b["slug"]}"><meta name="robots" content="noindex">')
+
+
 def page_glossary():
     rows = "".join(f'<div id="g-{E(k)}" style="padding:14px 0;border-top:1px solid var(--line)"><dt style="font-weight:600"><span style="font:500 14px var(--mono);color:var(--blue-ink);margin-right:10px">{E(k)}</span>{E(v[0])}</dt><dd style="margin:4px 0 0;color:var(--muted-2)">{E(v[1])}</dd></div>' for k, v in sorted(gloss.items()))
     out = head("Glossary · WhyItLands", "Acronyms used across WhyItLands briefings, from customs and trade to logistics and institutions.", "/glossary")
@@ -792,6 +855,16 @@ if doctrines:
     write("doctrines.html", page_doctrines())
 if MARKETS:
     write("markets.html", page_markets())
+write("archive.html", page_archive())
+for _a in ARCH:
+    write(f"archive/{_a['edition']}.html", page_edition(_a))
+for _b in ARCH_BRIEFS:
+    write(f"archive/briefings/{_b['slug']}-{_b['_ver']}.html", page_briefing_version(_b))
+for _nf in (ROOT / "newsletter").glob("20*.html"):
+    if _nf.stem > datetime.date.today().isoformat():
+        continue
+    _t = _nf.read_text().replace("{{ update_profile }}", "/#newsletter").replace("{{ unsubscribe }}", "/#newsletter")
+    write(f"archive/newsletter/{_nf.stem}.html", _t)
 write("glossary.html", page_glossary())
 write("method.html", page_method())
 write("legal.html", page_legal())
@@ -815,7 +888,7 @@ out += """<main id="main" class="prose" style="text-align:center;padding-bottom:
 })();
 </script>"""
 write("confirmed.html", out + footer())
-urls = ["/", "/briefings/", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
+urls = ["/", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

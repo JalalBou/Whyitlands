@@ -1,0 +1,442 @@
+{
+  "edition": "2026-09-30",
+  "home": {
+    "edition": "2026-09-30",
+    "hero": {
+      "kicker": "Edition of 30 September 2026",
+      "title": "Hormuz, tariffs, 5% rates.",
+      "title_em": "The world’s crises now ship with every parcel.",
+      "dek": "Fuel, air freight, the end of duty exemptions, network consolidation: how global tensions travel, link by link, into the cost and speed of a parcel.",
+      "briefing": "global-small-parcel-door-closes"
+    },
+    "chain": [
+      {
+        "k": "Geopolitics",
+        "t": "Hormuz: war since February, strait restricted, Brent above $100"
+      },
+      {
+        "k": "Trade",
+        "t": "US–China truce: tariff cuts on ~$30bn each way"
+      },
+      {
+        "k": "Customs",
+        "t": "US and EU: small-parcel duty exemption ends"
+      },
+      {
+        "k": "Market",
+        "t": "Local stock, network consolidation, landed price guaranteed at checkout"
+      }
+    ],
+    "wire": [
+      {
+        "style": "dark span2",
+        "tag": "M&A · EU · Poland",
+        "big": "89.81%",
+        "text": "of InPost shareholders tender their shares to the Advent, FedEx, A&R and PPF consortium. The 80% threshold is cleared: Europe’s parcel-locker leader changes hands.",
+        "src": "Post & Parcel · 18 Sep",
+        "url": "https://postandparcel.info/",
+        "regions": [
+          "EU",
+          "EMEA"
+        ]
+      },
+      {
+        "style": "coral",
+        "tag": "Trend · Global",
+        "big": "24%",
+        "text": "Temu is now level with Amazon in cross-border purchases, up from under 1% in 2022.",
+        "src": "IPC cross-border survey · 30,970 shoppers, 37 countries",
+        "url": "https://www.ipc.be/",
+        "regions": [
+          "GLOBAL",
+          "CN"
+        ]
+      },
+      {
+        "style": "lime",
+        "tag": "Consumers · Global",
+        "lede": "61% say knowing delivery and customs charges before buying is “essential”.",
+        "src": "IPC · 2025 survey",
+        "url": "https://www.ipc.be/",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      {
+        "style": "",
+        "tag": "Asia · Results",
+        "lede": "J&T Express now earns half its revenue outside China; H1 profit doubled.",
+        "src": "Investing.com · H1 2026 results slides",
+        "url": "",
+        "regions": [
+          "AS",
+          "CN"
+        ]
+      },
+      {
+        "style": "",
+        "tag": "Investment · Belgium",
+        "text": "bpost opens a 7,930 m² centre in Maldegem for 3,000 parcels a day: letters down 14%, parcels at record highs.",
+        "src": "Post & Parcel · 25 Sep",
+        "url": "https://postandparcel.info/",
+        "regions": [
+          "EU",
+          "EMEA"
+        ]
+      },
+      {
+        "style": "blue",
+        "tag": "M&A · Italy",
+        "text": "Poste Italiane lifts its TIM offer to €6.65 a share and drops the two-thirds threshold: a postal operator moving into telecoms.",
+        "src": "Post & Parcel · 8 Sep",
+        "url": "https://postandparcel.info/",
+        "regions": [
+          "EU",
+          "EMEA"
+        ]
+      },
+      {
+        "style": "",
+        "tag": "Last mile · UK",
+        "lede": "DPD passes 4,000 electric vans ahead of peak, with 341 eSprinters arriving in September.",
+        "src": "Post & Parcel · 10 Sep",
+        "url": "https://postandparcel.info/",
+        "regions": [
+          "UK",
+          "EMEA"
+        ]
+      }
+    ],
+    "why": [
+      {
+        "region": "Middle East",
+        "title": "Hormuz puts a fuel bill on every air parcel",
+        "what": "Brent has been above $100 since the war began in February.",
+        "why": "Integrators and Asia–Europe air freight pass it on through fuel surcharges.",
+        "means": "Cross-border margins are squeezed just before peak season."
+      },
+      {
+        "region": "North America",
+        "title": "The $800 free pass is gone. US clearance now runs on data",
+        "what": "The de minimis exemption has been suspended indefinitely since 24 June 2026.",
+        "why": "Duties are now paid monthly by a designated filer, usually the operator.",
+        "means": "An edge for those who master customs data: classification, origin, value."
+      },
+      {
+        "region": "China",
+        "title": "A trade truce, but no return to direct small parcels",
+        "what": "Tariff cuts on about $30bn of goods each way in September.",
+        "why": "The US de minimis exemption is not restored by the truce.",
+        "means": "Platforms keep moving stock into local warehouses."
+      }
+    ],
+    "deals": [
+      {
+        "date": "25 Sep",
+        "co": "bpost",
+        "deal": "New parcel distribution centre in Maldegem (7,930 m²)",
+        "region": "EU",
+        "src": "Post & Parcel",
+        "url": "https://postandparcel.info/"
+      },
+      {
+        "date": "18 Sep",
+        "co": "Advent, FedEx, A&R, PPF",
+        "deal": "InPost offer: 89.81% of shares tendered",
+        "region": "EU",
+        "src": "Post & Parcel",
+        "url": "https://postandparcel.info/"
+      },
+      {
+        "date": "10 Sep",
+        "co": "DPD UK",
+        "deal": "341 electric vans, fleet above 4,000",
+        "region": "UK",
+        "src": "Post & Parcel",
+        "url": "https://postandparcel.info/"
+      },
+      {
+        "date": "8 Sep",
+        "co": "Poste Italiane",
+        "deal": "Raised TIM offer: €6.65 a share, two-thirds threshold dropped",
+        "region": "EU",
+        "src": "Post & Parcel",
+        "url": "https://postandparcel.info/"
+      }
+    ],
+    "global_coming": [
+      {
+        "date": "2026-11-03",
+        "when": "3 Nov 2026",
+        "type": "Geopolitics",
+        "what": "US midterm elections, with tariffs a key voter issue.",
+        "region": "NA"
+      },
+      {
+        "date": "2026-11-18",
+        "when": "18–19 Nov 2026",
+        "type": "Geopolitics",
+        "what": "APEC leaders’ meeting, Shenzhen.",
+        "region": "CN"
+      }
+    ],
+    "sources": [
+      {
+        "k": "Institutions",
+        "items": [
+          [
+            "UPU",
+            ""
+          ],
+          [
+            "IPC",
+            ""
+          ],
+          [
+            "WTO",
+            ""
+          ],
+          [
+            "European Commission",
+            ""
+          ],
+          [
+            "U.S. CBP",
+            ""
+          ],
+          [
+            "WCO",
+            ""
+          ]
+        ]
+      },
+      {
+        "k": "Europe",
+        "items": [
+          [
+            "Post & Parcel",
+            "en"
+          ],
+          [
+            "Parcel and Postal Technology International",
+            "en"
+          ],
+          [
+            "DVZ",
+            "de"
+          ],
+          [
+            "Voxlog",
+            "fr"
+          ],
+          [
+            "El Mercantil",
+            "es"
+          ],
+          [
+            "Trasporto Europa",
+            "it"
+          ]
+        ]
+      },
+      {
+        "k": "North America",
+        "items": [
+          [
+            "Supply Chain Dive",
+            "en"
+          ],
+          [
+            "FreightWaves",
+            "en"
+          ],
+          [
+            "Modern Retail",
+            "en"
+          ],
+          [
+            "Marketplace Pulse",
+            "en"
+          ]
+        ]
+      },
+      {
+        "k": "South America",
+        "items": [
+          [
+            "Mundo Logístico",
+            "es"
+          ],
+          [
+            "Logweb",
+            "pt"
+          ],
+          [
+            "T21",
+            "es"
+          ],
+          [
+            "Valor Econômico",
+            "pt"
+          ]
+        ]
+      },
+      {
+        "k": "Asia & China",
+        "items": [
+          [
+            "Caixin",
+            "zh"
+          ],
+          [
+            "36Kr",
+            "zh"
+          ],
+          [
+            "Nikkei Asia",
+            "en"
+          ],
+          [
+            "ET Retail",
+            "en"
+          ]
+        ]
+      },
+      {
+        "k": "Middle East & North Africa",
+        "items": [
+          [
+            "Zawya",
+            "en"
+          ],
+          [
+            "Arabian Business",
+            "en"
+          ],
+          [
+            "Médias24",
+            "fr"
+          ],
+          [
+            "Hespress",
+            "ar"
+          ]
+        ]
+      }
+    ],
+    "emea": {
+      "kicker": "EMEA · 30 September 2026",
+      "title": "Europe taxes the parcel.",
+      "title_em": "The Gulf taxes the fuel.",
+      "dek": "From 1 November a low-value parcel into the EU pays a €3 duty per tariff line plus a €2 handling fee, the UK has set a date to close its £135 gap, Hormuz keeps Brent above $100, and North Africa's ports are becoming Europe's nearest gateway.",
+      "chain": [
+        {
+          "k": "EU",
+          "t": "€3 duty per tariff line since July, €2 handling fee per item from 1 November"
+        },
+        {
+          "k": "UK",
+          "t": "£135 relief removed by October 2028; Autumn Budget on 28 October"
+        },
+        {
+          "k": "Middle East",
+          "t": "Hormuz restricted and no ceasefire: Brent at $104 on 28 September"
+        },
+        {
+          "k": "North Africa",
+          "t": "Tanger Med and Suez rerouting make North Africa Europe's nearest hub"
+        }
+      ]
+    }
+  },
+  "briefings": [
+    {
+      "slug": "as-asean-one-rulebook",
+      "title": "ASEAN bets on one digital rulebook as every border starts taxing the parcel",
+      "section": "Geopolitics · Southeast Asia",
+      "region": "AS",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "cn-platforms-go-local",
+      "title": "Western doors close to China's parcels, so the platforms move the warehouse",
+      "section": "Geopolitics · China",
+      "region": "CN",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "eu-every-parcel-pays",
+      "title": "Europe now charges every parcel. Who absorbs the bill?",
+      "section": "Regulation · European Union",
+      "region": "EU",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "global-small-parcel-door-closes",
+      "title": "The small-parcel door closes: who pays, who declares, and where volume goes",
+      "section": "Trade · Global e-commerce",
+      "region": "GLOBAL",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "me-hormuz-fuel-bill",
+      "title": "Hormuz in its eighth month: the parcel pays the fuel bill and the detour",
+      "section": "Geopolitics · Middle East",
+      "region": "ME",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "na-us-parcel-rules",
+      "title": "America charges every parcel and puts North America's trade pact on a yearly leash",
+      "section": "Trade policy · North America",
+      "region": "NA",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "naf-nearshoring-gateway",
+      "title": "Tangier, Suez and the parcel: North Africa's gateway opens as its borders tighten",
+      "section": "Trade · North Africa",
+      "region": "NAF",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "sa-brazil-parcel-tax-election",
+      "title": "Brazil scraps its small-parcel tax before the vote. Latin America splits on the parcel",
+      "section": "Geopolitics · Latin America",
+      "region": "SA",
+      "date": "2026-09-30",
+      "updated": null
+    },
+    {
+      "slug": "uk-between-three-rulebooks",
+      "title": "The UK's £135 gap: British parcels caught between Washington, Brussels and Beijing",
+      "section": "Geopolitics · United Kingdom",
+      "region": "UK",
+      "date": "2026-09-30",
+      "updated": null
+    }
+  ],
+  "newsletter": {
+    "send_date": "2026-10-05",
+    "subject": "WhyItLands · Week 41: the small-parcel door closes, and who pays",
+    "preview": "Outside Brazil, every small parcel now needs a solvent importer and clean data. Plus Hormuz, the EU €2 fee and what is coming in October.",
+    "lead": "global-small-parcel-door-closes",
+    "minute": [
+      "The US suspended its $800 de minimis exemption for all modes and repeals it by statute on 1 July 2027.",
+      "The EU charges €3 per tariff line on parcels under €150 since July; a €2 handling fee per item follows on 1 November.",
+      "Hormuz: no ceasefire, the strait runs on Iranian permits and Brent was $104 on 28 September."
+    ],
+    "number": {
+      "big": "$104.46",
+      "label": "Brent per barrel at midday on 28 September, up from $67.33 a year earlier. It reaches the parcel through jet fuel and integrator surcharges."
+    },
+    "doctrine": "weaponised-interdependence"
+  }
+}

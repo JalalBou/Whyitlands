@@ -96,6 +96,7 @@
     });
     var firstOwn = $$('[data-filter-regions] .bcard').filter(function (el) { return !el.hidden && el.style.order === '0'; })[0];
     $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
+    if (window.WIL_runSearch) window.WIL_runSearch();
     $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
     $$('[data-current-region]').forEach(function (el) { var R = t('R') || {}; el.textContent = (R[state.region] || state.region).toUpperCase(); });
     // Regional page: show the matching desk.
@@ -260,6 +261,21 @@
     v.addEventListener('ended', function () { track('video_completed', {}); });
   }
   initVideo();
+  function initSearch() {
+    var q = $('#bq'), m = $('#bm'); if (!q) return;
+    function run() {
+      var term = q.value.trim().toLowerCase(), mon = m.value, shown = 0;
+      $$('[data-searchable] .bcard').forEach(function (el) {
+        var regionOk = !el.dataset.regionHidden;
+        var ok = (!term || el.getAttribute('data-text').indexOf(term) > -1) && (!mon || el.getAttribute('data-date').indexOf(mon) === 0);
+        el.classList.toggle('fhide', !ok); if (ok && !el.hidden) shown++;
+      });
+      $('#bnone').hidden = shown > 0;
+    }
+    q.addEventListener('input', run); m.addEventListener('change', run);
+    window.WIL_runSearch = run;
+  }
+  initSearch();
   initLang(); initRegion(); initFilters(); initForms(); initGlossary(); initAudio(); initTracking();
   applyRegion(); applyLang();
 })();

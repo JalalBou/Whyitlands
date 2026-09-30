@@ -1,0 +1,78 @@
+name: Briefing audio
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/briefings/*.json", "tools/tts.py", ".github/workflows/audio.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audio
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.p.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: echo "slugs=$(python3 tools/tts.py plan)" >> "$GITHUB_OUTPUT"
+
+  tts:
+    needs: plan
+    if: needs.plan.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        slug: ${{ fromJson(needs.plan.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: |
+            kokoro-v1.0.onnx
+            voices-v1.0.bin
+          key: kokoro-v1.0
+      - name: Model files
+        run: |
+          [ -f kokoro-v1.0.onnx ] || curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          [ -f voices-v1.0.bin ] || curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+      - run: pip install -q kokoro-onnx soundfile numpy
+      - run: python3 tools/tts.py make ${{ matrix.slug }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ matrix.slug }}
+          path: |
+            site/assets/audio/${{ matrix.slug }}.m4a
+            site/assets/audio/${{ matrix.slug }}.meta.json
+
+  publish:
+    needs: tts
+    if: always() && needs.tts.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dl
+          pattern: audio-*
+          merge-multiple: true
+      - name: Commit audio
+        run: |
+          mkdir -p site/assets/audio && cp dl/* site/assets/audio/ 2>/dev/null || true
+          python3 tools/tts.py apply
+          python3 tools/build.py
+          git config user.name "WhyItLands audio bot"
+          git config user.email "noreply@whyitlands.com"
+          git add -A site content
+          git diff --cached --quiet && exit 0
+          git commit -m "Neural-voice audio for updated briefings"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done

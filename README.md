@@ -18,6 +18,10 @@ https://www.whyitlands.com
 
 After any content change: `python3 tools/build.py`, then commit.
 
+Archive: before each weekly update run `python3 tools/archive.py` (snapshots the edition to `content/archive/<date>.json`, shown at /archive). Before materially rewriting a briefing run `python3 tools/archive.py briefing <slug>` and set `"updated"` in the briefing; new topics get a new briefing file rather than overwriting an old one.
+
+Audio: `.github/workflows/audio.yml` regenerates the neural-voice audio of any new or changed briefing on GitHub Actions (`tools/tts.py`).
+
 ## Cloudflare settings (Worker `whyitlands`)
 
 - Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
