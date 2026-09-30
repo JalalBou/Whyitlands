@@ -1,0 +1,636 @@
+{
+  "updated": "2026-09-30",
+  "regions": {
+    "EU": {
+      "take": "Posts are still growing parcels (Poste Italiane +11%, Geopost +8%, Austria and PostNord +9%) but almost none is growing profit: La Poste, PostNord, Austrian Post, CTT and Bnode all report lower operating earnings as letter decline, labour costs and parcel price competition outrun volume. The end of de minimis and new EU import fees are already visible in cross-border flows (PostNL international about -15%, CTT customs, InPost Poland marketplaces), while DHL is the outlier, with Express yield and tight air capacity lifting group EBIT 30%. Our read: scale in out-of-home and pricing power, not volume, now separates winners, and FedEx taking control of InPost confirms lockers are the strategic asset.",
+      "companies": [
+        {
+          "name": "DHL Group",
+          "segment": "Integrator and postal operator (Germany)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-05",
+          "revenue": "€22.4bn",
+          "revenue_chg": "+13% YoY (+9.4% organic)",
+          "ebit": "€1.9bn",
+          "ebit_label": "EBIT",
+          "ebit_chg": "+30% YoY",
+          "margin": "8.3%",
+          "vs_prev": "Beat Q2 expectations and raised 2026 EBIT guidance to more than €6.5bn (from €6.2bn) after a tariff-hit Q2 2025 base.",
+          "volume": "Express TDI weight/day +9%, TDI shipments/day -2%; Germany parcels +1.6% to 493m, mail -17.8%",
+          "highlights": [
+            "Express EBIT +64% to €1.2bn on yield discipline, heavier shipments and fuel pass-through",
+            "Air freight capacity constraints added around €150m to Express earnings",
+            "Fit for Growth cost programme; buyback raised by €500m to €6.5bn"
+          ],
+          "challenges": [
+            "Post & Parcel Germany EBIT -18.7% as mail volumes fell 18% with no election boost",
+            "eCommerce EBIT -4% while investing for growth; Supply Chain EBIT -12%",
+            "Higher transport and personnel costs"
+          ],
+          "outlook": "2026 EBIT above €6.5bn, free cash flow ex-M&A around €3.0bn, capex €3.0-3.3bn.",
+          "segments": [
+            {
+              "name": "Express",
+              "revenue": "€7.1bn (+21.5%)",
+              "ebit": "€1,200m (+64.3%)",
+              "note": "Margin 16.8%"
+            },
+            {
+              "name": "eCommerce",
+              "revenue": "€1.6bn (-3.7%, +9.5% organic)",
+              "ebit": "€54m (-4.0%)",
+              "note": "Margin 3.4%; investing in structural growth"
+            },
+            {
+              "name": "Post & Parcel Germany",
+              "revenue": "€4.2bn (+1.8%)",
+              "ebit": "€135m (-18.7%)",
+              "note": "Parcels +2%, mail -18%; FY EBIT guided above €900m"
+            }
+          ],
+          "src": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "La Poste Groupe",
+          "segment": "Postal operator and parcel network (France)",
+          "period": "H1 2026",
+          "reported": "2026-07-31",
+          "revenue": "€17.5bn",
+          "revenue_chg": "+3.3% YoY (+4.0% like-for-like)",
+          "ebit": "€1.27bn",
+          "ebit_label": "Operating profit (reported)",
+          "ebit_chg": "-15.8% YoY (recurring €1.56bn, +21.3%)",
+          "margin": "7.3%",
+          "vs_prev": "Margin down from 8.9% in H1 2025 on non-recurring items, notably a €182m impairment on Geopost cross-border e-commerce assets.",
+          "volume": "Geopost parcels +7.9% to 1,143m; Colissimo +5.0% to 234m; mail -11.8% to 2,358m items",
+          "highlights": [
+            "La Banque Postale operating profit +8.5% to €1.64bn, net interest margin +23%",
+            "Geopost organic revenue +5.7%; DPD France and Chronopost France volumes +8.7%",
+            "Colissimo volumes +5%"
+          ],
+          "challenges": [
+            "Mail volumes -11.8%; Services-Courrier-Colis operating loss of €53m",
+            "Lower public service compensation (-€63m impact)",
+            "Strong price pressure in European parcels from competition and new entrants"
+          ],
+          "outlook": "Defend value parcel flows, accelerate out-of-home delivery and keep adapting public service missions; no numeric guidance.",
+          "segments": [
+            {
+              "name": "Services-Courrier-Colis",
+              "revenue": "€4.7bn (-1.8%)",
+              "ebit": "-€53m (H1 2025: +€40m)",
+              "note": "Recurring +€63m; mail -11.8%, Colissimo +5%"
+            },
+            {
+              "name": "Geopost / DPDgroup",
+              "revenue": "€8.0bn (+5.1%, +5.7% organic)",
+              "ebit": "€29m (H1 2025: €253m)",
+              "note": "Recurring €206m (+7.9%); €182m cross-border e-commerce impairment"
+            }
+          ],
+          "src": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Poste Italiane",
+          "segment": "Postal, financial and logistics group (Italy)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-24",
+          "revenue": "€3.4bn",
+          "revenue_chg": "+3.9% YoY",
+          "ebit": "€868m",
+          "ebit_label": "Adjusted EBIT",
+          "ebit_chg": "+0.5% YoY",
+          "margin": "25.9% (H1)",
+          "vs_prev": "Record H1 (revenue €6.8bn +5.9%, adjusted EBIT €1.8bn +6.8%); 2026 adjusted EBIT guidance raised to €3.4bn from €3.3bn.",
+          "volume": "Parcels +10.6% to 90m in Q2 (H1 +12.5% to 179m)",
+          "highlights": [
+            "Mail, Parcel & Distribution revenue +7% in Q2 on parcel and logistics growth",
+            "Logistics joint venture with Benetton; hub-and-spoke network restructuring agreed with unions",
+            "Financial and insurance services carry group profitability"
+          ],
+          "challenges": [
+            "Mail, Parcel & Distribution EBIT down 77% in Q2 to €10m",
+            "Mail volumes -7.2% in H1",
+            "Soft Italian growth (around 0.5% expected for 2026)"
+          ],
+          "outlook": "2026 adjusted EBIT around €3.4bn (raised); TIM acquisition tender ran 20 July to 11 September 2026.",
+          "segments": [
+            {
+              "name": "Mail, Parcel & Distribution",
+              "revenue": "€1.0bn Q2 (+7.0%); €2.0bn H1 (+6.4%)",
+              "ebit": "€10m Q2 (-77.1%); €52m H1 (-21.7%)",
+              "note": "Parcels +12.5% in H1; mail revenue -2.7% in H1"
+            }
+          ],
+          "src": [
+            5
+          ]
+        },
+        {
+          "name": "PostNL",
+          "segment": "Postal operator and parcel network (Netherlands)",
+          "period": "H1 2026",
+          "reported": "2026-08-03",
+          "revenue": "€1.59bn",
+          "revenue_chg": "broadly flat YoY",
+          "ebit": "-€3m",
+          "ebit_label": "Normalised EBIT",
+          "ebit_chg": "vs -€5m in H1 2025",
+          "margin": "not meaningful",
+          "vs_prev": "International parcel decline accelerated from about -13% in Q1 to about -16% in Q2; full-year outlook confirmed.",
+          "volume": "Parcels -6.4% (domestic -4.2%, international about -15%); mail -7.9% excluding election mail",
+          "highlights": [
+            "Average parcel price +5.0%",
+            "Free cash flow -€17m vs -€80m a year earlier",
+            "About €75m additional cost savings planned for 2027-28"
+          ],
+          "challenges": [
+            "Weak Asian webshop volumes and new EU import duties",
+            "Structural mail decline",
+            "Platforms unit loss-making"
+          ],
+          "outlook": "2026 normalised EBIT €40-70m, free cash flow €0 to -€30m, back-end loaded.",
+          "src": [
+            7,
+            8
+          ]
+        },
+        {
+          "name": "Bnode (formerly bpostgroup)",
+          "segment": "Postal operator, 3PL and cross-border (Belgium)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-07",
+          "revenue": "€1.05bn",
+          "revenue_chg": "-4.2% YoY",
+          "ebit": "€29.4m",
+          "ebit_label": "Adjusted EBIT",
+          "ebit_chg": "-€28.9m YoY (about -50%)",
+          "margin": "2.8%",
+          "vs_prev": "April strike (cost €25.5m) and slower Paxon development led to a guidance cut.",
+          "volume": "Parcels -9.2%; domestic mail -16.8%",
+          "highlights": [
+            "Landmark Global adjusted EBIT €16.8m (11.3% margin)",
+            "Paxon (3PL) revenue stable at €406m with 5.7% margin"
+          ],
+          "challenges": [
+            "April strike cost €25.5m, well above the initial €15m estimate",
+            "Mail decline accelerating with mandatory B2B e-invoicing",
+            "Belgian last-mile (bpost) at break-even: adjusted EBIT -€0.7m on revenue -7.9%"
+          ],
+          "outlook": "2026 adjusted EBIT cut to about €140m from €165-195m.",
+          "segments": [
+            {
+              "name": "bpost (BeNe last mile)",
+              "revenue": "€515m (-7.9%)",
+              "ebit": "-€0.7m",
+              "note": "Strike and mail decline"
+            },
+            {
+              "name": "Paxon (3PL)",
+              "revenue": "€406m (+0.2%)",
+              "ebit": "€22.9m",
+              "note": "Commercial development slower than planned"
+            },
+            {
+              "name": "Landmark Global",
+              "revenue": "€149m (-1.6%)",
+              "ebit": "€16.8m",
+              "note": "Cross-border"
+            }
+          ],
+          "src": [
+            10
+          ]
+        },
+        {
+          "name": "InPost",
+          "segment": "Parcel network, out-of-home lockers (Poland)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-31",
+          "revenue": "PLN 4.2bn",
+          "revenue_chg": "+18.2% YoY",
+          "ebit": "PLN 1.04bn",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "+4.4% YoY (EBIT PLN 313m, -18.0%)",
+          "margin": "25.0% (-3.3pts)",
+          "vs_prev": "Profit growth slowed and 2026 adjusted EBITDA guidance cut to a mid-single-digit decline; FedEx/Advent-led consortium secured 89.8% in its €15.60/share offer (September 2026), delisting to follow.",
+          "volume": "Parcels +16% to 380.9m (Poland +9%, Eurozone +30%, UK and Ireland +16%); 68,925 lockers (+29%)",
+          "highlights": [
+            "Eurozone adjusted EBITDA +39.8%, volumes +30%",
+            "Locker network +29%, over 4,200 added in Q2",
+            "FedEx last-mile pilot in UK and Poland from September 2026"
+          ],
+          "challenges": [
+            "UK transformation costs weigh on margin",
+            "EU customs fee changes hit Poland marketplace volumes",
+            "Q3 guided to low single-digit volume growth, Poland flat"
+          ],
+          "outlook": "2026 adjusted EBITDA down mid-single digits (was flat); capex cut to PLN 2.1bn.",
+          "src": [
+            11,
+            12
+          ]
+        },
+        {
+          "name": "PostNord",
+          "segment": "Postal operator and parcel network (Sweden, Denmark)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-16",
+          "revenue": "SEK 9.2bn",
+          "revenue_chg": "+4.3% YoY (+2% organic)",
+          "ebit": "SEK 239m",
+          "ebit_label": "Adjusted operating income",
+          "ebit_chg": "-18% YoY",
+          "margin": "2.6%",
+          "vs_prev": "Decline driven by the Danish transition after the end of national mail service in Denmark at end-2025.",
+          "volume": "Parcels +9%; letters -18%",
+          "highlights": [
+            "PostNord Sweden adjusted operating income SEK 330m, sales +3% organic",
+            "Norway sales +11% and Strålfors +12% organic",
+            "Nordic parcel infrastructure investment, incl. Eskilstuna logistics facility from Amazon"
+          ],
+          "challenges": [
+            "PostNord Denmark adjusted operating loss of SEK 108m, sales -19% organic",
+            "Letter volumes -18%",
+            "Net income down 55% to SEK 75m"
+          ],
+          "outlook": "Management points to continued transformation; no numeric guidance.",
+          "src": [
+            13
+          ]
+        },
+        {
+          "name": "Austrian Post",
+          "segment": "Postal operator and parcel network (Austria)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-07",
+          "revenue": "€773m",
+          "revenue_chg": "+6.8% YoY",
+          "ebit": "€36.5m",
+          "ebit_label": "EBIT",
+          "ebit_chg": "-20.0% YoY",
+          "margin": "4.7%",
+          "vs_prev": "H1 revenue €1.54bn (+3.8%) but EBIT €73.3m (-22%) and net profit -67%; outlook reaffirmed.",
+          "volume": "Austrian parcels +9% in H1",
+          "highlights": [
+            "E-Commerce & Logistics H1 revenue +11.5% to €911m, helped by euShipments.com consolidation",
+            "Parcel growth well ahead of the Austrian market",
+            "bank99 EBIT improving"
+          ],
+          "challenges": [
+            "Mail, Branch & Services H1 EBIT -30%, revenue -7.4%",
+            "National and international customs duties and fees on cross-border e-commerce",
+            "Regulatory measures hit Asian retailer volumes in Turkey"
+          ],
+          "outlook": "2026: slight revenue growth, earnings in range of prior years, upper single-digit parcel growth, mid-single-digit mail decline.",
+          "segments": [
+            {
+              "name": "E-Commerce & Logistics (H1)",
+              "revenue": "€911m (+11.5%)",
+              "ebit": "€27.5m (-14.3%)",
+              "note": "Includes Turkey and CEE"
+            },
+            {
+              "name": "Mail, Branch & Services (H1)",
+              "revenue": "€566m (-7.4%)",
+              "ebit": "€48.7m (-30.3%)",
+              "note": "Structural letter decline"
+            }
+          ],
+          "src": [
+            14
+          ]
+        },
+        {
+          "name": "CTT Correios de Portugal",
+          "segment": "Postal operator and parcel network (Portugal, Spain)",
+          "period": "H1 2026",
+          "reported": "2026-07-28",
+          "revenue": "€674m",
+          "revenue_chg": "+12.9% YoY reported (+6.3% organic)",
+          "ebit": "€41.0m",
+          "ebit_label": "Recurring EBIT",
+          "ebit_chg": "-12.6% YoY",
+          "margin": "not disclosed",
+          "vs_prev": "Parcel growth continues, but the end of de minimis hit the customs business and Asian marketplace flows.",
+          "volume": "E-commerce Solutions volumes +21% organic (+24% incl. DHL Portugal)",
+          "highlights": [
+            "Q2 CEP revenue +28% to €151m, CEP recurring EBIT +6.6%",
+            "Mail & Services recurring EBIT +37% in H1 despite mail revenue -9.9%",
+            "Unsolicited non-binding offer received for Banco CTT"
+          ],
+          "challenges": [
+            "Customs clearance business hit by end of de minimis exemption",
+            "Chinese platforms cut marketing spend as they adapt to new rules",
+            "Fuel inflation (€2.4m) and mix shift to heavier, lower-margin parcels"
+          ],
+          "outlook": "2026 group recurring EBIT guidance €115-125m; high single-digit parcel volume growth.",
+          "src": [
+            15,
+            16
+          ]
+        },
+        {
+          "name": "Swiss Post (Switzerland, non-EU)",
+          "segment": "Postal operator and financial services (Switzerland)",
+          "period": "H1 2026",
+          "reported": "2026-08-20",
+          "revenue": "CHF 3.67bn",
+          "revenue_chg": "+1.5% YoY",
+          "ebit": "CHF 173m",
+          "ebit_label": "Operating profit (EBIT)",
+          "ebit_chg": "+46.6% YoY",
+          "margin": "4.7%",
+          "vs_prev": "Up from CHF 118m, driven mainly by PostFinance and Logistics Services; management says future remains challenging.",
+          "volume": "Parcels +5.6%; letters -5%",
+          "highlights": [
+            "Logistics Services EBIT CHF 153m (H1 2025: 123m)",
+            "PostFinance EBIT CHF 167m (H1 2025: 135m)",
+            "Group profit CHF 139m (H1 2025: 74m)"
+          ],
+          "challenges": [
+            "Letters down 38% over a decade",
+            "Digital Services (-CHF 40m) and PostalNetwork (-CHF 50m) still loss-making",
+            "Universal service funding pressure"
+          ],
+          "outlook": "Price adjustments agreed with the price regulator from 2027; no numeric guidance.",
+          "src": [
+            17,
+            18
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-10-26",
+          "what": "PostNL Q3 2026 trading update"
+        },
+        {
+          "date": "2026-11-12",
+          "what": "Poste Italiane Q3 and 9M 2026 results presentation"
+        }
+      ]
+    },
+    "UK": {
+      "take": "UK parcel demand is growing (Royal Mail +7%, Evri +17% to over 1bn) but profit is migrating to asset-light, marketplace-fed networks: Evri earns about £400m EBITDA while Royal Mail sits around break-even under NICs, wage rises and USO reform. Our read: with FedEx now behind InPost/Yodel, the UK becomes a three-way out-of-home race and Royal Mail's delivery model reset before Christmas 2026 is the execution test to watch.",
+      "companies": [
+        {
+          "name": "International Distribution Services (Royal Mail, GLS)",
+          "segment": "Postal operator and parcel network (UK, GLS Europe)",
+          "period": "FY2025-26 (year to 29 March 2026)",
+          "reported": "2026-06-23",
+          "revenue": "£13.6bn",
+          "revenue_chg": "+3.6% YoY",
+          "ebit": "£222m",
+          "ebit_label": "Adjusted operating profit",
+          "ebit_chg": "-£56m YoY (about -20%)",
+          "margin": "1.6%",
+          "vs_prev": "First full year under EP Group ownership; parcel growth offset by NICs, wage rises and USO reform costs.",
+          "volume": "Royal Mail parcels +7% to 1.4bn; addressed letters -10%; out-of-home volumes +40%",
+          "highlights": [
+            "Marketplace deals with Vinted and eBay drive parcel growth",
+            "GLS out-of-home network over 110,000 points (+30%), 29% of B2C parcels",
+            "Royal Mail revenue +2.6% to £8.4bn"
+          ],
+          "challenges": [
+            "£133m National Insurance increase and frontline pay +4.2% at Royal Mail",
+            "GLS profit down on Italian regulation and weak Canada",
+            "Ofcom investigation into missed 2025/26 delivery targets (First Class 75.7% vs 93%)"
+          ],
+          "outlook": "Complete Universal Service rollout (new delivery model by Christmas 2026); 45,000 UK out-of-home points by 2030.",
+          "segments": [
+            {
+              "name": "Royal Mail",
+              "revenue": "£8.4bn (+2.6%)",
+              "ebit": "not verified (sources conflict)",
+              "note": "Parcels 1.4bn (+7%); letters 5.7bn (-10%)"
+            },
+            {
+              "name": "GLS",
+              "revenue": "£5.2bn (+5.2%)",
+              "ebit": "£237m (FY2024-25: £285m)",
+              "note": "Margin about 4.6%; 32,500 lockers (+40%)"
+            }
+          ],
+          "src": [
+            19,
+            20,
+            21,
+            23
+          ]
+        },
+        {
+          "name": "Evri",
+          "segment": "Parcel network (UK)",
+          "period": "FY2025-26 (52 weeks to 28 February 2026)",
+          "reported": "2026-07-13",
+          "revenue": "£2.38bn",
+          "revenue_chg": "+29% YoY (incl. DHL eCommerce UK from October 2025)",
+          "ebit": "£402m",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "+18% YoY",
+          "margin": "16.9%",
+          "vs_prev": "Passed one billion parcels a year after merging with DHL eCommerce UK, three years ahead of plan.",
+          "volume": "Over 1bn parcels, +17%",
+          "highlights": [
+            "DHL eCommerce UK merger completed October 2025",
+            "Growth from small online sellers, social commerce and pre-loved marketplaces",
+            "£50m for 25,000 ParcelShop and locker points; £30m automation at Barnsley"
+          ],
+          "challenges": [
+            "Integration of DHL eCommerce UK",
+            "Competition from Royal Mail, InPost/Yodel and Amazon in out-of-home",
+            "No headwinds disclosed in the release"
+          ],
+          "outlook": "Target 1.4bn parcels a year and UK's largest parcel company by 2030.",
+          "src": [
+            22
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-12",
+          "what": "Royal Mail completes rollout of new Universal Service delivery model (targeted by Christmas 2026)"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "t": "DHL Group seizes growth opportunities and significantly increases earnings (H1 2026)",
+      "pub": "DHL Group",
+      "date": "2026-08-05",
+      "u": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-group-financial-figures-h1-2026.html",
+      "lang": "en"
+    },
+    {
+      "t": "DHL Group Q2 2026 Earnings Presentation",
+      "pub": "DHL Group",
+      "date": "2026-08-05",
+      "u": "https://reporting-hub.group.dhl.com/ecomaXL/files/DHL-Group-Q2-2026-Earnings-Presentation.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Interim report Q2 2026: results of operations",
+      "pub": "DHL Group",
+      "date": "2026-08-05",
+      "u": "https://reporting-hub.group.dhl.com/2026-q2/en/interim-group-management-report/report-on-economic-position/results-of-operations/",
+      "lang": "en"
+    },
+    {
+      "t": "Communiqué de presse: résultats du premier semestre 2026 du Groupe La Poste",
+      "pub": "Groupe La Poste",
+      "date": "2026-07-31",
+      "u": "https://www.lapostegroupe.com/assets/media/le-groupe-laposte/4sWWjoqdd6Psb4tz_CP_des_resultats_GLP_S1_2026_vdef.pdf",
+      "lang": "fr"
+    },
+    {
+      "t": "La Poste Groupe first-half 2026 results",
+      "pub": "Groupe La Poste",
+      "date": "2026-07-31",
+      "u": "https://www.lapostegroupe.com/en/news/la-poste-groupe-first-half-2026-results",
+      "lang": "en"
+    },
+    {
+      "t": "Poste Italiane Q2 & H1-26 financial results & strategy update",
+      "pub": "Poste Italiane",
+      "date": "2026-07-24",
+      "u": "https://www.media.poste.it/208c7f5d-bcbc-4974-9ea6-e1ca324e9ff9/file/PI_Q2-26_PR_ENG",
+      "lang": "en"
+    },
+    {
+      "t": "Poste Italiane: 2026 corporate events calendar",
+      "pub": "Poste Italiane",
+      "date": "2026-09-30",
+      "u": "https://www.posteitaliane.it/en/press-releases/posteitaliane2026-1476645668311.html",
+      "lang": "en"
+    },
+    {
+      "t": "PostNL H1 free cash flow beats, keeps 2026 outlook despite volume weakness",
+      "pub": "Investing.com",
+      "date": "2026-08-03",
+      "u": "https://www.investing.com/news/earnings/postnl-h1-free-cash-flow-beats-keeps-2026-outlook-despite-volume-weakness-4829825",
+      "lang": "en"
+    },
+    {
+      "t": "PostNL: We remain confident in delivering our 2026 FY outlook",
+      "pub": "Post & Parcel",
+      "date": "2026-08-05",
+      "u": "https://postandparcel.info/162509/news/parcel/postnl-we-remain-confident-in-delivering-our-2026-fy-outlook/",
+      "lang": "en"
+    },
+    {
+      "t": "PostNL newsroom: financial events",
+      "pub": "PostNL",
+      "date": "2026-09-30",
+      "u": "https://newsroom.postnl.nl/en-NL/events/",
+      "lang": "en"
+    },
+    {
+      "t": "Bnode (formerly bpostgroup) interim financial report Q2 2026",
+      "pub": "Bnode",
+      "date": "2026-08-07",
+      "u": "https://bnode.com/sites/default/files/2026-08/Bnode%202Q26%20Press%20release%20ENG.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "InPost Group Q2 2026 results",
+      "pub": "InPost",
+      "date": "2026-08-31",
+      "u": "https://inpost.eu/sites/default/files/2026-08/InPost%202Q%202026%20press%20release.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "FedEx, Advent-led consortium secures over 89% of InPost shares in takeover offer",
+      "pub": "Investing.com (Reuters)",
+      "date": "2026-09-18",
+      "u": "https://www.investing.com/news/stock-market-news/fedex-adventled-consortium-secures-over-89-of-inpost-shares-in-takeover-offer-4907796",
+      "lang": "en"
+    },
+    {
+      "t": "PostNord Interim Report Q2/2026",
+      "pub": "PostNord",
+      "date": "2026-07-16",
+      "u": "https://group.postnord.com/siteassets/documents/interim-reports/postnord_q2_2026_interimreport_en.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Austrian Post in H1 2026: revenue increase despite challenging market environment",
+      "pub": "Austrian Post (EQS)",
+      "date": "2026-08-07",
+      "u": "https://www.investegate.co.uk/announcement/eqs/oesterreichische-post-ag--0ntm/eqs-news-austrian-post-in-h1-2026-revenue-/9709583",
+      "lang": "en"
+    },
+    {
+      "t": "CTT 1H26 results presentation: appendix",
+      "pub": "CTT Correios de Portugal",
+      "date": "2026-07-28",
+      "u": "https://www.ctt.pt/contentAsset/raw-data/39a8e276-1904-4f1c-93cc-04605701f0de/ficheiroPdf/1H26_Results_Presentation_EN_Appendix.pdf?byInode=true",
+      "lang": "en"
+    },
+    {
+      "t": "CTT-Correios de Portugal (H1 2026) earnings call highlights",
+      "pub": "Yahoo Finance",
+      "date": "2026-07-29",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/ctt-correios-portugal-sa-cttof-010039555.html",
+      "lang": "en"
+    },
+    {
+      "t": "Interim results on a par with previous years, future remains challenging",
+      "pub": "Swiss Post",
+      "date": "2026-08-20",
+      "u": "https://site.post.ch/en/about-us/media/press-releases/interim-results-on-a-par-with-previous-years-future-remains-challenging",
+      "lang": "en"
+    },
+    {
+      "t": "Customer trust strengthens PostFinance (half-year result 2026)",
+      "pub": "PostFinance",
+      "date": "2026-08-20",
+      "u": "https://www.postfinance.ch/en/about-us/media/newsroom/half-year-result-2026.html",
+      "lang": "en"
+    },
+    {
+      "t": "Royal Mail and GLS celebrate \"a year of progress\"",
+      "pub": "Post & Parcel",
+      "date": "2026-06-24",
+      "u": "https://postandparcel.info/162244/news/royal-mail-and-gls-celebrate-a-year-of-progress/",
+      "lang": "en"
+    },
+    {
+      "t": "Royal Mail and GLS post positive revenue growth in year-end results",
+      "pub": "Parcel and Postal Technology International",
+      "date": "2026-06-24",
+      "u": "https://www.parcelandpostaltechnologyinternational.com/news/operations/royal-mail-and-gls-post-positive-revenue-growth-in-year-end-results.html",
+      "lang": "en"
+    },
+    {
+      "t": "Royal Mail sees annual earnings tumble as employee costs surge",
+      "pub": "Yahoo Finance UK",
+      "date": "2026-06-23",
+      "u": "https://uk.finance.yahoo.com/news/royal-mail-sees-annual-earnings-110727219.html",
+      "lang": "en"
+    },
+    {
+      "t": "Evri Group delivers over one billion parcels in record year",
+      "pub": "Parcel and Postal Technology International",
+      "date": "2026-07-13",
+      "u": "https://www.parcelandpostaltechnologyinternational.com/news/delivery/evri-group-delivers-over-one-billion-parcels-in-record-year.html",
+      "lang": "en"
+    },
+    {
+      "t": "Ofcom investigates Royal Mail's 2025/26 delivery performance",
+      "pub": "Ofcom",
+      "date": "2026-06-01",
+      "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-investigates-royal-mails-202526-delivery-performance",
+      "lang": "en"
+    }
+  ]
+}

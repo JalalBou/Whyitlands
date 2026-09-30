@@ -102,6 +102,7 @@ def header(active=""):
 <nav class="head-nav" aria-label="Main">
 {nav('/regions', 'nav_regions', 'Regions', 'regions')}
 {nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
+{nav('/markets', 'nav_markets', 'Markets', 'markets')}
 {nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
 {nav('/#about', 'nav_about', 'About', 'about')}
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
@@ -225,6 +226,7 @@ def page_home():
 <div class="bgrid">{''.join(bcard(x, n == 0) for n, x in enumerate(briefings[:7]))}</div>
 </div></section>
 
+{home_markets()}
 <section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div>
 <div class="bento">{''.join(tiles)}</div>
@@ -308,6 +310,7 @@ def page_regions():
         desks.append(f"""<div class="desk" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="regional_desk">Regional desk</span></div><h1>{E(r['headline'])}</h1><p>{E(r['dek'])}</p></div></section>
 {desk_briefings(k)}
+{desk_markets(k)}
 <section class="section"><div class="wrap">
 <div class="section-head"><div>{i('cal_kicker', 'Calendar', 'div', 'kicker')}{i('coming_title', 'What’s coming', 'h2')}</div></div>
 {filters()}
@@ -509,6 +512,95 @@ def page_doctrines():
     return out + footer()
 
 
+# ---------- Market intelligence ----------
+MARKETS = {}
+MARKET_ORDER = ["GLOBAL", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
+for _mf in sorted((C / "markets").glob("*.json")) if (C / "markets").exists() else []:
+    _md = json.loads(_mf.read_text())
+    _ms = _md.get("sources", [])
+    for _rk, _rv in _md.get("regions", {}).items():
+        _slot = MARKETS.setdefault(_rk, {"take": "", "companies": [], "watch": []})
+        if _rv.get("take"):
+            _slot["take"] = (_slot["take"] + " " + _rv["take"]).strip()
+        for _c in _rv.get("companies", []):
+            _c["_src"] = [_ms[n] for n in _c.get("src", []) if isinstance(n, int) and 0 <= n < len(_ms)]
+            _slot["companies"].append(_c)
+        _slot["watch"] += _rv.get("watch", [])
+
+
+def chg_class(s):
+    s = (s or "").strip()
+    return "up" if s.startswith("+") else ("down" if s.startswith(("-", "−")) else "")
+
+
+def company_card(c):
+    def kpi(label, val, chg, extra=""):
+        if not val:
+            return ""
+        return (f'<div class="kpi"><span class="kpi-l">{E(label)}</span><span class="kpi-v">{E(val)}</span>'
+                f'{("<span class=" + chr(34) + "kpi-c " + chg_class(chg) + chr(34) + ">" + E(chg) + "</span>") if chg else ""}{extra}</div>')
+    margin = f'<span class="kpi-m">margin {E(c["margin"])}</span>' if c.get("margin") and c["margin"] != "not disclosed" else ""
+    segs = ""
+    if c.get("segments"):
+        segs = '<table class="segs"><thead><tr><th data-i18n="mk_segment">Segment</th><th data-i18n="mk_revenue">Revenue</th><th data-i18n="mk_profit">Profit</th><th></th></tr></thead><tbody>' + "".join(
+            f'<tr><td>{E(s.get("name", ""))}</td><td>{E(s.get("revenue", ""))}</td><td>{E(s.get("ebit", ""))}</td><td class="snote">{E(s.get("note", ""))}</td></tr>' for s in c["segments"]) + "</tbody></table>"
+    lst = lambda xs: "".join(f"<li>{E(x)}</li>" for x in (xs or []))
+    srcs = " ".join(f'<a href="{E(s["u"])}" rel="noopener">{E(s.get("pub") or s["t"])}</a>' for s in c.get("_src", []))
+    cid = re.sub(r"[^a-z0-9]+", "-", c["name"].lower()).strip("-")
+    return f"""<article class="co" id="{cid}">
+<div class="co-head"><div><h3>{E(c['name'])}</h3><div class="co-seg">{E(c.get('segment', ''))}</div></div><div class="co-per">{E(c.get('period', ''))}{(' · ' + E(c['reported'])) if c.get('reported') else ''}</div></div>
+<div class="kpis">{kpi('Revenue', c.get('revenue'), c.get('revenue_chg'))}{kpi(c.get('ebit_label') or 'Operating profit', c.get('ebit'), c.get('ebit_chg'), margin)}</div>
+{('<p class="co-vol"><b data-i18n="mk_volumes">Volumes</b> ' + E(c['volume']) + '</p>') if c.get('volume') else ''}
+{('<p class="co-prev"><b data-i18n="mk_trend">Trend</b> ' + E(c['vs_prev']) + '</p>') if c.get('vs_prev') else ''}
+<div class="co-cols"><div><div class="kicker" data-i18n="mk_drivers">What drove it</div><ul>{lst(c.get('highlights'))}</ul></div><div><div class="kicker" style="color:var(--coral)" data-i18n="mk_challenges">Main challenges</div><ul>{lst(c.get('challenges'))}</ul></div></div>
+{segs}
+{('<p class="co-out"><b data-i18n="mk_outlook">Outlook</b> ' + E(c['outlook']) + '</p>') if c.get('outlook') else ''}
+{('<p class="co-src"><span data-i18n="sources_art">Sources</span>: ' + srcs + '</p>') if srcs else ''}
+</article>"""
+
+
+def market_summary_table(k):
+    rows = "".join(f'<tr><td class="co-n"><a href="#{re.sub(r"[^a-z0-9]+", "-", c["name"].lower()).strip("-")}">{E(c["name"])}</a></td><td class="date">{E(c.get("period", ""))}</td><td>{E(c.get("revenue") or "")} <span class="{chg_class(c.get("revenue_chg"))}">{E(c.get("revenue_chg") or "")}</span></td><td>{E(c.get("ebit") or "")} <span class="{chg_class(c.get("ebit_chg"))}">{E(c.get("ebit_chg") or "")}</span></td></tr>' for c in MARKETS[k]["companies"] if c.get("revenue"))
+    if not rows:
+        return ""
+    return f'<div class="table-wrap mk-table"><table><thead><tr><th data-i18n="th_company">Company</th><th data-i18n="mk_period">Period</th><th data-i18n="mk_revenue">Revenue</th><th data-i18n="mk_profit">Operating profit</th></tr></thead><tbody>{rows}</tbody></table></div>'
+
+
+def page_markets():
+    desks = []
+    for k in MARKET_ORDER:
+        if k not in MARKETS:
+            continue
+        m = MARKETS[k]
+        watch = "".join(f'<li><span class="tl-when">{E(w.get("date", ""))}</span><span>{E(w.get("what", ""))}</span></li>' for w in m["watch"])
+        hidden = "" if k == "GLOBAL" else " hidden"
+        desks.append(f"""<div class="desk" id="desk-{k}"{hidden}>
+<section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="mk_kicker">Market intelligence</span></div>
+<h1 data-i18n="mk_h1">Who is winning, who is paying.</h1><p class="mk-take"><b data-i18n="mk_our_read">Our read</b> {E(m['take'])}</p></div></section>
+<section class="section"><div class="wrap">{market_summary_table(k)}
+<div class="cos">{''.join(company_card(c) for c in m['companies'])}</div>
+{('<h2 style="margin:40px 0 14px" data-i18n="mk_next">Next results and dates</h2><ul class="watch">' + watch + '</ul>') if watch else ''}
+</div></section></div>""")
+    out = head("Market intelligence · WhyItLands", "Latest quarterly results of the main postal, parcel, express and e-commerce players by region: revenue, operating profit, trend, drivers and challenges.", "/markets")
+    out += header("markets") + regionbar([k for k in MARKET_ORDER if k in MARKETS], "GLOBAL")
+    out += '<main id="main">' + "".join(desks) + '<section class="section" style="padding-top:0"><div class="wrap"><p class="method-note" data-i18n="mk_note">Figures come from company results releases or quality financial press, as published; periods differ by company. Our read is WhyItLands’ analysis.</p></div></section></main>\n'
+    return out + footer()
+
+
+def home_markets():
+    if not MARKETS:
+        return ""
+    names = [c["name"] for k in MARKET_ORDER if k in MARKETS for c in MARKETS[k]["companies"][:2]]
+    return f"""<section class="section" style="padding-top:0"><div class="wrap"><a class="mk-teaser" href="/markets"><div><div class="kicker" data-i18n="mk_kicker">Market intelligence</div><h3 data-i18n="mk_h1">Who is winning, who is paying.</h3><p>{E(", ".join(names))} …</p></div><span class="more" data-i18n="mk_open">Open →</span></a></div></section>"""
+
+
+def desk_markets(k):
+    if k not in MARKETS:
+        return ""
+    names = ", ".join(c["name"] for c in MARKETS[k]["companies"][:6])
+    return f"""<section class="section" style="padding-bottom:0"><div class="wrap"><a class="mk-teaser" href="/markets#{k.lower()}"><div><div class="kicker" data-i18n="mk_kicker">Market intelligence</div><h3 data-i18n="mk_teaser">Latest results of the region's players</h3><p>{E(names)}</p></div><span class="more" data-i18n="mk_open">Open →</span></a></div></section>"""
+
+
 def page_glossary():
     rows = "".join(f'<div id="g-{E(k)}" style="padding:14px 0;border-top:1px solid var(--line)"><dt style="font-weight:600"><span style="font:500 14px var(--mono);color:var(--blue-ink);margin-right:10px">{E(k)}</span>{E(v[0])}</dt><dd style="margin:4px 0 0;color:var(--muted-2)">{E(v[1])}</dd></div>' for k, v in sorted(gloss.items()))
     out = head("Glossary · WhyItLands", "Acronyms used across WhyItLands briefings, from customs and trade to logistics and institutions.", "/glossary")
@@ -570,6 +662,8 @@ for b in briefings:
 write("briefings/index.html", page_briefings_index())
 if doctrines:
     write("doctrines.html", page_doctrines())
+if MARKETS:
+    write("markets.html", page_markets())
 write("glossary.html", page_glossary())
 write("method.html", page_method())
 write("legal.html", page_legal())
@@ -577,7 +671,7 @@ write("404.html", page_404())
 out = head("Subscribed · WhyItLands", "Your subscription is confirmed.", "/confirmed") + header()
 out += '<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div><h1>You are in. First issue lands this week.</h1><p>Thank you for confirming. You can change region and language from any issue.</p><script>if(/error=/.test(location.search)){document.querySelector("main h1").textContent="This link did not work.";document.querySelector("main p").textContent="It may have expired or been used already. Please sign up again from the front page.";}</script><p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>'
 write("confirmed.html", out + footer())
-urls = ["/", "/briefings/", "/regions", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
+urls = ["/", "/briefings/", "/regions", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

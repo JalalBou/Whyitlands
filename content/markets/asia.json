@@ -1,0 +1,613 @@
+{
+  "updated": "2026-09-30",
+  "regions": {
+    "CN": {
+      "take": "China's parcel leaders are trading volume for price: under anti-involution discipline ZTO lifted core ASP 15.5% on 6.5% more parcels and YTO grew profit 73% on 8% more revenue, while SF's volumes went negative in Q2. Growth has moved offshore and into returns, with SF's international express up 60%, AliExpress profitable on logistics optimisation and PDD warning that EU duties on low-value parcels push Temu towards local warehouses. For Western posts and cross-border operators we read this as fewer small direct parcels from China and more pre-positioned, bulk-imported stock.",
+      "companies": [
+        {
+          "name": "SF Holding",
+          "segment": "Integrator (express, freight, supply chain and international)",
+          "period": "H1 2026 (January-June)",
+          "reported": "2026-08-28",
+          "revenue": "RMB155.5bn",
+          "revenue_chg": "+5.9% YoY",
+          "ebit": "RMB5.0bn",
+          "ebit_label": "Net profit attributable to owners, excluding non-recurring items",
+          "ebit_chg": "+9.3% YoY",
+          "margin": "3.2% (net, on revenue); gross margin 30.4%",
+          "vs_prev": "Q2 slowed: revenue RMB81.4bn (+5.7%), recurring net profit RMB2.7bn (+3.1%), parcel volume -3.7% after flat H1 (+0.2%).",
+          "volume": "Parcels +0.2% YoY in H1; -3.7% in Q2",
+          "highlights": [
+            "Supply chain and international revenue +15.6% (+46.6% excluding KLN); international express and cross-border e-commerce +60%",
+            "Premium time-definite express +5.3%; economy express unit revenue +6%",
+            "Interim payout ratio raised to 45%; shareholder returns of RMB6.87bn"
+          ],
+          "challenges": [
+            "Higher oil prices lifted transport cost to revenue ratio by 1.9 points",
+            "Domestic competition shifting to service quality; high Q3 comparison base",
+            "Operating cash flow -14% YoY"
+          ],
+          "outlook": "Full-year capex kept at about RMB12bn; supply chain and international positioned as the second growth curve.",
+          "src": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "ZTO Express",
+          "segment": "Parcel network (e-commerce express)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-18",
+          "revenue": "RMB14.5bn",
+          "revenue_chg": "+23.0% YoY",
+          "ebit": "RMB3.2bn",
+          "ebit_label": "Income from operations",
+          "ebit_chg": "+30.4% YoY",
+          "margin": "22.2% (20.9% a year earlier)",
+          "vs_prev": "Price-led quarter: core express ASP +15.5% while volume grew only 6.5%; adjusted net income +50.3% to RMB3.1bn.",
+          "volume": "Parcels +6.5% to 10.5bn; market share 19.9%",
+          "highlights": [
+            "Core express ASP +15.5% on key-account mix and heavier parcels, helped by anti-involution pricing discipline",
+            "Retail volume incl. reverse logistics +47%; returns parcels nearly doubled",
+            "Volume growth 2.3 points above the industry; US$740m of buybacks in 2026"
+          ],
+          "challenges": [
+            "Fuel added about RMB0.02 per parcel to transport cost in Q2",
+            "New social insurance obligations for couriers will raise end-to-end costs",
+            "Key-account pickup and dispatch costs rising with the mix shift"
+          ],
+          "outlook": "2026 volume guidance of 40.8bn to 42.4bn parcels (+6% to +10%); capex around RMB6bn a year.",
+          "src": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "JD Logistics",
+          "segment": "Integrated supply chain and express",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-13",
+          "revenue": "RMB64.1bn",
+          "revenue_chg": "+24.3% YoY",
+          "ebit": "RMB2.3bn",
+          "ebit_label": "Segment operating income (JD.com segment reporting)",
+          "ebit_chg": "vs RMB2.0bn in Q2 2025 (non-IFRS operating profit +11.6%)",
+          "margin": "3.5% (3.8% a year earlier)",
+          "vs_prev": "H1 operating profit RMB3.59bn (+39.9%), but Q2 margin slipped as the on-demand delivery business and Deppon integration dilute gross margin (9.7%, -0.9 pts).",
+          "volume": "not disclosed",
+          "highlights": [
+            "External customer revenue +30.8% to RMB44.2bn; integrated supply chain revenue +12.1% to RMB30.2bn",
+            "Express, freight and on-demand revenue +37.6% to RMB33.9bn, boosted by on-demand delivery transferred from JD in October 2025",
+            "Overseas footprint in 26 countries with over 2m sq m of warehouses"
+          ],
+          "challenges": [
+            "Outsourcing costs +40.5%, faster than revenue",
+            "Deppon integration still weighing on gross margin",
+            "Energy cost volatility and geopolitical uncertainty"
+          ],
+          "outlook": "Management expects profit growth to continue in H2 2026 on efficiency gains and Deppon recovery.",
+          "src": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Alibaba Group (incl. Cainiao, AliExpress)",
+          "segment": "E-commerce platform logistics",
+          "period": "June quarter 2026 (Q1 FY2027, April-June)",
+          "reported": "2026-08-20",
+          "revenue": "RMB269.0bn",
+          "revenue_chg": "+9% YoY",
+          "ebit": "RMB27.3bn",
+          "ebit_label": "Adjusted EBITA",
+          "ebit_chg": "-30% YoY",
+          "margin": "10.2%",
+          "vs_prev": "Cainiao and the former international digital commerce unit are no longer reported as standalone segments; operating income fell 57% to RMB15.2bn, including goodwill impairment and a provision for European Commission fines.",
+          "volume": "not disclosed",
+          "highlights": [
+            "AliExpress reached operating profit, driven by logistics optimisation and cost efficiency",
+            "Quick commerce revenue +45% to RMB53.3bn",
+            "International sourcing shifting towards local supply, with local product share rising significantly"
+          ],
+          "challenges": [
+            "International e-commerce revenue -1% to RMB27.8bn",
+            "China customer management revenue -7% reported (+1% like-for-like)",
+            "Heavy investment year compresses group profit"
+          ],
+          "outlook": "No numeric guidance; focus on AI, cloud and quick commerce investment.",
+          "segments": [
+            {
+              "name": "International e-commerce (AliExpress, Trendyol, etc.)",
+              "revenue": "RMB27.8bn (-1%)",
+              "ebit": "not disclosed",
+              "note": "AliExpress profitable in the quarter"
+            },
+            {
+              "name": "Quick commerce",
+              "revenue": "RMB53.3bn (+45%)",
+              "ebit": "not disclosed",
+              "note": "Freshippo and Taobao Instant Commerce expansion"
+            },
+            {
+              "name": "Cainiao (logistics)",
+              "revenue": "not disclosed",
+              "ebit": "not disclosed",
+              "note": "Folded into Alibaba E-commerce Group; no separate reporting"
+            }
+          ],
+          "src": [
+            6
+          ]
+        },
+        {
+          "name": "PDD Holdings (Temu, Pinduoduo)",
+          "segment": "E-commerce platform (cross-border shipper)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-24",
+          "revenue": "RMB112.4bn (US$16.6bn)",
+          "revenue_chg": "+8% YoY",
+          "ebit": "RMB27.8bn",
+          "ebit_label": "Operating profit (GAAP)",
+          "ebit_chg": "+8% YoY (non-GAAP +5% to RMB29.1bn)",
+          "margin": "24.7%",
+          "vs_prev": "Operating profit grew with revenue but net income fell 12% to RMB27.2bn; non-GAAP operating margin eased to 26% from 27%.",
+          "volume": "not disclosed",
+          "highlights": [
+            "Transaction services revenue (includes Temu) +13% to RMB54.7bn",
+            "Online marketing services +3% to RMB57.6bn",
+            "RMB100bn merchant support programme and over 150 trust-and-safety measures"
+          ],
+          "challenges": [
+            "EU customs duties on low-value shipments raise international costs and lower fulfilment efficiency in the short term",
+            "Ecosystem investments pressure margins"
+          ],
+          "outlook": "No guidance; Temu to onboard more local merchants and accelerate overseas warehousing.",
+          "src": [
+            7,
+            8
+          ]
+        },
+        {
+          "name": "YTO Express",
+          "segment": "Parcel network (e-commerce express)",
+          "period": "H1 2026 (January-June)",
+          "reported": "2026-08-19",
+          "revenue": "RMB38.9bn",
+          "revenue_chg": "+8.4% YoY",
+          "ebit": "RMB3.2bn",
+          "ebit_label": "Net profit attributable (operating profit not captured in our source)",
+          "ebit_chg": "+73.4% YoY",
+          "margin": "8.2% (net)",
+          "vs_prev": "Profit growth far ahead of revenue as industry pricing stabilised.",
+          "volume": "Volume growth above industry (figure not captured)",
+          "highlights": [
+            "Margin gains from digitalisation and cost management",
+            "Interim dividend of RMB1.2 per 10 shares proposed"
+          ],
+          "challenges": [
+            "Not detailed in the interim summary we verified"
+          ],
+          "outlook": "No numeric guidance captured.",
+          "src": [
+            9
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-10-01",
+          "what": "China National Day Golden Week holiday (1-7 October): network capacity and pickup slowdown"
+        },
+        {
+          "date": "2026-11-11",
+          "what": "Singles' Day (Double 11) peak: first test of anti-involution pricing at peak volumes"
+        }
+      ]
+    },
+    "AS": {
+      "take": "Southeast Asia is where parcel volume is growing fastest: J&T's regional volumes rose 71% and Shopee's orders 27.5%, while Japan's incumbents are shrinking volume and repairing margin through price. Growth is being paid for, as Sea's EBITDA rose 11% on 48% more revenue and Delhivery's margin fell while absorbing Ecom Express. Japan Post's domestic logistics slipped into loss as mail fell 5.9%, which we read as a warning that e-commerce parcels no longer offset letter decline for posts without pricing power.",
+      "companies": [
+        {
+          "name": "J&T Global Express",
+          "segment": "Parcel network (Southeast Asia, China, new markets)",
+          "period": "H1 2026 (January-June)",
+          "reported": "2026-08-20",
+          "revenue": "US$7.7bn",
+          "revenue_chg": "+39.5% YoY",
+          "ebit": "US$433.6m",
+          "ebit_label": "Adjusted EBIT",
+          "ebit_chg": "+121.7% YoY",
+          "margin": "5.7%",
+          "vs_prev": "Q2 was the first quarter above 100m parcels a day on average (9.18bn parcels, +24.2%); non-China markets reached 50% of revenue vs 43% a year earlier.",
+          "volume": "Parcels +25.1% to 17.5bn",
+          "highlights": [
+            "Southeast Asia parcels +71.2% to 5.52bn; market share about 38%",
+            "Adjusted net profit +124.3% to US$350.6m; adjusted EBIT per parcel US$0.025 (+77%)",
+            "China revenue per parcel +11.5% on more rational competition"
+          ],
+          "challenges": [
+            "Competitive pressure in express across markets",
+            "Europe and Americas rely on asset-light local partners; one to two years to show results",
+            "Capex step-up to US$800m to US$900m in 2026"
+          ],
+          "outlook": "2026 capex of US$800m to US$900m on sorting automation, vehicles and IT; buyback raised to HK$2.0bn.",
+          "segments": [
+            {
+              "name": "Southeast Asia",
+              "revenue": "US$3.0bn (+63.8%)",
+              "ebit": "not disclosed",
+              "note": "5.52bn parcels (+71.2%)"
+            },
+            {
+              "name": "China",
+              "revenue": "US$3.8bn (+22.4%)",
+              "ebit": "not disclosed",
+              "note": "11.6bn parcels (+9.6%); share 11.6%"
+            },
+            {
+              "name": "New markets",
+              "revenue": "US$0.72bn (+99.3%)",
+              "ebit": "not disclosed",
+              "note": "365m parcels (+119.9%); share 8.9%"
+            }
+          ],
+          "src": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "name": "Yamato Holdings",
+          "segment": "Parcel network (Japan)",
+          "period": "Q1 FY ending March 2027 (April-June 2026)",
+          "reported": "2026-08-03",
+          "revenue": "¥443.3bn",
+          "revenue_chg": "+1.4% YoY",
+          "ebit": "-¥4.9bn",
+          "ebit_label": "Operating income (loss)",
+          "ebit_chg": "Loss narrowed by ¥1.6bn",
+          "margin": "-1.1%",
+          "vs_prev": "Q1 is seasonally the weakest; corporate parcels fell short of plan while small-business and individual volumes held up.",
+          "volume": "TA-Q-BIN/EAZY -3.0% to 449m; Nekopos/Yu-Packet +18.2% to 126m",
+          "highlights": [
+            "Average unit prices rose as planned through pricing optimisation",
+            "Growth in parcels from small business and individual customers",
+            "Early cost gains in urban short-distance transport"
+          ],
+          "challenges": [
+            "Corporate freight stagnation, including Middle East geopolitical impact",
+            "Large-parcel TA-Q-BIN volume declining",
+            "Net loss of ¥5.9bn attributable to owners"
+          ],
+          "outlook": "Full-year forecast kept: revenue ¥1,918bn (+2.8%), operating profit ¥42bn (+48.4%).",
+          "src": [
+            13,
+            14
+          ]
+        },
+        {
+          "name": "Japan Post Holdings (Japan Post Co.)",
+          "segment": "Postal operator",
+          "period": "Q1 FY ending March 2027 (April-June 2026)",
+          "reported": "2026-08-07",
+          "revenue": "¥570.9bn (Postal and domestic logistics segment)",
+          "revenue_chg": "-¥4.9bn YoY (about -0.9%)",
+          "ebit": "-¥5.6bn",
+          "ebit_label": "Operating income (loss), Postal and domestic logistics segment",
+          "ebit_chg": "vs +¥0.4bn a year earlier",
+          "margin": "-1.0%",
+          "vs_prev": "Domestic logistics slipped into loss on mail decline and higher outsourcing costs; group net income rose 63.8% to ¥125.3bn on Japan Post Bank.",
+          "volume": "Total items -4.0%; mail -5.9%; Yu-Pack -1.2%",
+          "highlights": [
+            "International logistics (Toll) revenue +¥45.2bn to ¥154.5bn; EBIT ¥2.3bn",
+            "Group net income ¥125.3bn, 33% of full-year forecast"
+          ],
+          "challenges": [
+            "Digital substitution driving mail decline",
+            "Outsourcing costs up ¥3.8bn",
+            "Yu-Pack volume down despite e-commerce growth"
+          ],
+          "outlook": "Group full-year net income forecast of ¥380bn.",
+          "segments": [
+            {
+              "name": "Postal and domestic logistics",
+              "revenue": "¥570.9bn",
+              "ebit": "-¥5.6bn",
+              "note": "Mail decline, outsourcing costs"
+            },
+            {
+              "name": "International logistics (Toll)",
+              "revenue": "¥154.5bn (A$1,365m)",
+              "ebit": "¥2.3bn (A$21m)",
+              "note": "Revenue +¥45.2bn YoY"
+            }
+          ],
+          "src": [
+            15,
+            16
+          ]
+        },
+        {
+          "name": "Singapore Post",
+          "segment": "Postal operator",
+          "period": "Q1 FY2026/27 (April-June 2026), business update",
+          "reported": "2026-08-26",
+          "revenue": "S$93.4m",
+          "revenue_chg": "-0.9% YoY",
+          "ebit": "S$4.1m",
+          "ebit_label": "Operating profit",
+          "ebit_chg": "+55.2% YoY",
+          "margin": "4.4% (2.8% a year earlier)",
+          "vs_prev": "Smaller, Singapore-focused group after divestments; profit up on cost control rather than revenue.",
+          "volume": "Domestic parcels +36.5% to 7.1m; domestic mail -16.2% to 67.3m",
+          "highlights": [
+            "Cost management, lower labour costs and efficiency gains",
+            "January postage increase and route optimisation",
+            "SingPost Centre fully let; net cash S$314.7m"
+          ],
+          "challenges": [
+            "Weak international business",
+            "Continued mail decline"
+          ],
+          "outlook": "New S$30m automated sortation facility targets more than 10% cost reduction.",
+          "src": [
+            17
+          ]
+        },
+        {
+          "name": "Sea Limited (Shopee, SPX Express)",
+          "segment": "E-commerce platform logistics",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-11",
+          "revenue": "US$7.8bn",
+          "revenue_chg": "+48.1% YoY",
+          "ebit": "US$917.2m",
+          "ebit_label": "Adjusted EBITDA (group)",
+          "ebit_chg": "+10.6% YoY",
+          "margin": "11.8%",
+          "vs_prev": "Growth running well ahead of profit: Shopee GMV +28.4% but Shopee adjusted EBITDA +12.2% to US$255.4m.",
+          "volume": "Shopee gross orders +27.5% to 4.2bn",
+          "highlights": [
+            "Shopee GMV US$38.3bn (+28.4%); revenue US$5.6bn (+48.2%)",
+            "Core marketplace revenue +65.6% on transaction fees and advertising",
+            "Monee revenue +58.9%; Garena bookings +15.5%"
+          ],
+          "challenges": [
+            "Shopee profit growth lagging GMV as it keeps investing",
+            "Group net income +10.6%, far below revenue growth"
+          ],
+          "outlook": "Management optimistic Shopee reaches US$1bn adjusted EBITDA for full-year 2026.",
+          "segments": [
+            {
+              "name": "Shopee (e-commerce, incl. SPX Express)",
+              "revenue": "US$5.6bn (+48.2%)",
+              "ebit": "US$255.4m adj. EBITDA (+12.2%)",
+              "note": "GMV US$38.3bn"
+            },
+            {
+              "name": "Monee (digital finance)",
+              "revenue": "US$1.4bn (+58.9%)",
+              "ebit": "US$288.0m adj. EBITDA",
+              "note": "Loan book US$11.1bn"
+            },
+            {
+              "name": "Garena (gaming)",
+              "revenue": "US$763.5m bookings (+15.5%)",
+              "ebit": "US$429.8m adj. EBITDA",
+              "note": ""
+            }
+          ],
+          "src": [
+            18
+          ]
+        },
+        {
+          "name": "Delhivery",
+          "segment": "Parcel network (India)",
+          "period": "Q1 FY2027 (April-June 2026)",
+          "reported": "2026-08-08",
+          "revenue": "₹29.3bn (₹2,931 crore)",
+          "revenue_chg": "+27.8% YoY (includes Ecom Express, acquired July 2025)",
+          "ebit": "₹1.56bn (₹156 crore)",
+          "ebit_label": "Reported EBITDA",
+          "ebit_chg": "Margin down 1.2 pts",
+          "margin": "5.3% (6.5% a year earlier)",
+          "vs_prev": "PAT fell 65% YoY and 56% QoQ to ₹32 crore; revenue +2.9% QoQ.",
+          "volume": "Express parcels +55.2% to 322m; PTL freight +18.4% to 542k tonnes",
+          "highlights": [
+            "Ecom Express integration lifting express volumes",
+            "PTL tonnage growing high teens"
+          ],
+          "challenges": [
+            "Higher labour and fuel costs; contract manpower 12.8% of revenue (12.2%)",
+            "Ecom Express integration costs of ₹17 crore in the quarter",
+            "Expenses +29.4% vs revenue +27.8%"
+          ],
+          "outlook": "Express volume growth of 20% to 30% a year; express service margins 16% to 18%, PTL near 15.5% by year-end.",
+          "src": [
+            19,
+            20
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-10-10",
+          "what": "10.10 sales (Shopee, Lazada): Southeast Asia pre-peak volume test"
+        },
+        {
+          "date": "2026-11-11",
+          "what": "11.11 sales: Southeast Asia peak for J&T, SPX Express and posts"
+        },
+        {
+          "date": "2026-12-12",
+          "what": "12.12 sales: last Southeast Asia peak of the year"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "t": "SF Holding Reports Solid First Half 2026 Results, Accelerating International Growth and Enhancing Shareholder Returns",
+      "pub": "PR Newswire via ANTARA News",
+      "date": "2026-08-31",
+      "u": "https://en.antaranews.com/news/429111/sf-holding-reports-solid-first-half-2026-results-accelerating-international-growth-and-enhancing-shareholder-returns",
+      "lang": "en"
+    },
+    {
+      "t": "Earnings call transcript: S.F. Holding H1 2026 profit rises as AI push deepens",
+      "pub": "Investing.com",
+      "date": "2026-08-28",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-sf-holding-h1-2026-profit-rises-as-ai-push-deepens-93CH-4881325",
+      "lang": "en"
+    },
+    {
+      "t": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+      "pub": "ZTO Express (PR Newswire) via Yahoo Finance",
+      "date": "2026-08-18",
+      "u": "https://ca.finance.yahoo.com/news/zto-reports-second-quarter-2026-220000373.html",
+      "lang": "en"
+    },
+    {
+      "t": "ZTO Express (Cayman) Inc (ZTO) (Q2 2026) Earnings Call Highlights",
+      "pub": "Yahoo Finance",
+      "date": "2026-08-19",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/zto-express-cayman-inc-zto-090109707.html",
+      "lang": "en"
+    },
+    {
+      "t": "JD.com Announces Second Quarter and Interim 2026 Results",
+      "pub": "JD.com (GlobeNewswire)",
+      "date": "2026-08-13",
+      "u": "https://www.globenewswire.com/news-release/2026/08/13/3344310/0/en/jd-com-announces-second-quarter-and-interim-2026-results.html",
+      "lang": "en"
+    },
+    {
+      "t": "Earnings call transcript: JD Logistics posts strong Q2 2026 growth, shares slip",
+      "pub": "Investing.com",
+      "date": "2026-08-13",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-jd-logistics-posts-strong-q2-2026-growth-shares-slip-93CH-4857392",
+      "lang": "en"
+    },
+    {
+      "t": "Alibaba Group Announces June Quarter 2026 Results (Exhibit 99.1)",
+      "pub": "Alibaba Group / SEC EDGAR",
+      "date": "2026-08-20",
+      "u": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm",
+      "lang": "en"
+    },
+    {
+      "t": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results",
+      "pub": "PDD Holdings via Nasdaq",
+      "date": "2026-08-24",
+      "u": "https://www.nasdaq.com/press-release/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results-2026-08-24",
+      "lang": "en"
+    },
+    {
+      "t": "PDD Q2 Earnings Call Highlights",
+      "pub": "Yahoo Finance",
+      "date": "2026-08-25",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/pdd-q2-earnings-call-highlights-140230076.html",
+      "lang": "en"
+    },
+    {
+      "t": "YTO Express Group: Net profit surged 73.44% on 8.39% revenue growth",
+      "pub": "TradingView (Quartr interim report summary)",
+      "date": "2026-08-19",
+      "u": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:3946349:0-yto-express-group-net-profit-surged-73-44-on-8-39-revenue-growth-with-strong-margin-and-volume-gains/",
+      "lang": "en"
+    },
+    {
+      "t": "J&T Express Adjusted Net Profit Up 124.3% YoY in 1H2026; Overall Profitability Continues to Strengthen",
+      "pub": "J&T Global Express (Cision/Newswire)",
+      "date": "2026-08-20",
+      "u": "https://www.newswire.ca/news-releases/j-amp-t-express-adjusted-net-profit-up-124-3-yoy-in-1h2026-overall-profitability-continues-to-strengthen-839187168.html",
+      "lang": "en"
+    },
+    {
+      "t": "Earnings call transcript: J&T Express H1 2026 profit surges as non-China revenue hits 50%",
+      "pub": "Investing.com",
+      "date": "2026-08-20",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-jt-express-h1-2026-profit-surges-as-nonchina-revenue-hits-50-93CH-4869158",
+      "lang": "en"
+    },
+    {
+      "t": "J&T Express Q2 2026 slides: daily volume tops 100M on overseas surge",
+      "pub": "Investing.com",
+      "date": "2026-07-08",
+      "u": "https://www.investing.com/news/company-news/jt-express-q2-2026-slides-daily-volume-tops-100m-on-overseas-surge-93CH-4781325",
+      "lang": "en"
+    },
+    {
+      "t": "Consolidated Financial Results for the First Three Months of the Fiscal Year Ending March 31, 2027",
+      "pub": "Yamato Holdings",
+      "date": "2026-08-03",
+      "u": "https://www.yamato-hd.co.jp/english/investors/library/results/pdf/1q_consolidated_2027_03.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Q1 FY2027 results briefing: questions and answers (conducted on August 4, 2026)",
+      "pub": "Yamato Holdings",
+      "date": "2026-08-04",
+      "u": "https://www.yamato-hd.co.jp/investors/library/briefing/pdf/E_1q_faq_2027_03.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Financial results for the three months ended June 30, 2026 (presentation)",
+      "pub": "Japan Post Holdings",
+      "date": "2026-08-07",
+      "u": "https://www.japanpost.jp/en/ir/library/earnings/pdf/20260807_02.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Japan Post Holdings Co Ltd (JPPHY) (Q1 2027) Earnings Call Highlights",
+      "pub": "Yahoo Finance",
+      "date": "2026-08-08",
+      "u": "https://uk.finance.yahoo.com/news/japan-post-holdings-co-ltd-010740485.html",
+      "lang": "en"
+    },
+    {
+      "t": "SingPost's Q1 operating profit up 55.2% to $4.1 million",
+      "pub": "The Edge Singapore via Yahoo News",
+      "date": "2026-08-26",
+      "u": "https://sg.news.yahoo.com/singpost-q1-operating-profit-55-103600847.html",
+      "lang": "en"
+    },
+    {
+      "t": "Sea Limited Reports Second Quarter 2026 Results",
+      "pub": "Sea Limited via Nasdaq",
+      "date": "2026-08-11",
+      "u": "https://www.nasdaq.com/press-release/sea-limited-reports-second-quarter-2026-results-2026-08-11",
+      "lang": "en"
+    },
+    {
+      "t": "Delhivery Q1FY27 result: Profit falls 65% to Rs 32 crore, revenue up 28%",
+      "pub": "Business Standard",
+      "date": "2026-08-08",
+      "u": "https://www.business-standard.com/amp/companies/quarterly-results/delhivery-q1fy27-result-profit-falls-65-to-32-crore-revenue-up-28-126080800965_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "Delhivery Q1 FY27 slides: volumes surge 55% as margins compress",
+      "pub": "Investing.com",
+      "date": "2026-08-08",
+      "u": "https://www.investing.com/news/company-news/delhivery-q1-fy27-slides-volumes-surge-55-as-margins-compress-93CH-4847668",
+      "lang": "en"
+    },
+    {
+      "t": "China 2026 Public Holiday Schedule",
+      "pub": "China Briefing (Dezan Shira)",
+      "date": "2025-11-04",
+      "u": "https://www.china-briefing.com/news/china-2026-public-holiday-schedule/",
+      "lang": "en"
+    },
+    {
+      "t": "Singapore Sale Calendar After SRF 2026: 9.9, 10.10, 11.11, 12.12",
+      "pub": "ShopBack",
+      "date": "2026-09-01",
+      "u": "https://www.shopback.sg/blog/finance/sg-post-srf-sale-calendar-99-1010-1111-1212-2026",
+      "lang": "en"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "updated": "2026-09-30",
+  "regions": {
+    "GLOBAL": {
+      "take": "U.S. integrators are shrinking into profit: UPS lost domestic volume after the Amazon glide-down yet grew adjusted profit 12% on yield, and FedEx grew revenue double digits on price while fuel and trade friction ate its margin. Our read is that the volume they shed is flowing to Amazon's own network, which grew operating income 43% while buying delivery speed, so shippers should expect firm list-rate increases (FedEx +5.9% for 2027) and surcharges from the integrators, and more capable alternatives from marketplace logistics.",
+      "companies": [
+        {
+          "name": "FedEx",
+          "segment": "Integrator",
+          "period": "Q4 FY2026 (March-May 2026); the June-August 2026 quarter had not been published by 30 September 2026",
+          "reported": "2026-06-23",
+          "revenue": "$25.0bn",
+          "revenue_chg": "+12.6% YoY",
+          "ebit": "$1.55bn",
+          "ebit_label": "Operating income (GAAP); adjusted $2.09bn, 8.4% margin",
+          "ebit_chg": "-13% YoY (GAAP)",
+          "margin": "6.2% (GAAP)",
+          "vs_prev": "Beat on EPS (adjusted $6.31) but shares fell c.6% as calendar-2026 guidance came in slightly below consensus; FY2026 revenue $94.7bn (+7.8%), adjusted operating income $6.61bn. Fiscal year moves to a December year-end: June-December 2026 is a seven-month transition period, so no Q1 FY2027 exists.",
+          "volume": "U.S. domestic average daily packages 14.2m (+3% YoY); international domestic volume -9%",
+          "highlights": [
+            "Yield-led growth: U.S. domestic composite package yield +10%, export volumes up",
+            "Transformation savings above the $1bn target for FY2026; B2B and AI/data-centre verticals growing double digits",
+            "FedEx Freight spin-off completed on 1 June 2026 as a tax-free separation; Freight paid a $4.1bn dividend to FedEx and is now reported as discontinued operations"
+          ],
+          "challenges": [
+            "Fuel expense up 66% YoY to $1.43bn in the quarter, plus higher purchased transportation and wages",
+            "Global trade policy and tariff changes weighing on international flows",
+            "Post-spin stranded overhead and MD-11 fleet grounding"
+          ],
+          "outlook": "Calendar 2026: revenue growth of about 11%, adjusted EPS $16.90-18.10, capex $3.9bn; 2027 list rates +5.9% average from 4 January 2027.",
+          "segments": [
+            {
+              "name": "Federal Express (pre-realignment)",
+              "revenue": "$21.6bn",
+              "ebit": "not disclosed here",
+              "note": "From June 2026 split into Express U.S. Domestic and Express International (FedEx Logistics moves into International)"
+            },
+            {
+              "name": "FedEx Freight (last quarter consolidated)",
+              "revenue": "$1.7bn",
+              "ebit": "not disclosed here",
+              "note": "Separated on 1 June 2026; now an independent listed LTL carrier"
+            }
+          ],
+          "src": [
+            0,
+            1,
+            2,
+            3,
+            22
+          ]
+        },
+        {
+          "name": "UPS",
+          "segment": "Integrator",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-28",
+          "revenue": "$22.8bn",
+          "revenue_chg": "+7.6% YoY",
+          "ebit": "$2.1bn",
+          "ebit_label": "Adjusted operating profit (non-GAAP); GAAP $0.93bn after $1.2bn transformation costs",
+          "ebit_chg": "+12% YoY (adjusted)",
+          "margin": "9.2% adjusted (4.1% GAAP)",
+          "vs_prev": "U.S. Domestic adjusted margin up 400bp on Q1 to 8.0%; full-year guidance raised to revenue of about $91.2bn and adjusted operating profit of about $8.65bn.",
+          "volume": "U.S. Domestic average daily volume 16.0m (-3.3% YoY) after the Amazon glide-down; SMB share of domestic volume 34.5%",
+          "highlights": [
+            "Amazon glide-down and network reconfiguration completed as planned; $1.2bn of programme benefits in H1, $3bn targeted for 2026",
+            "Revenue per piece +9.3% in U.S. Domestic and +18.9% in International",
+            "Supply Chain Solutions margin up 220bp to 10.2%, helped by healthcare logistics"
+          ],
+          "challenges": [
+            "International operating profit -8.7% and margin down 280bp to 12.4%; more than half of the revenue-per-piece gain came from fuel surcharges",
+            "Heavy transformation costs (Driver Choice programme, building closures) cut GAAP EPS to $0.71 from $1.51",
+            "Q3 domestic margin guided down to about 7.0%; shares fell almost 5% on the day"
+          ],
+          "outlook": "2026: revenue about $91.2bn, adjusted operating profit about $8.65bn, adjusted EPS about $7.22, capex $3.0bn.",
+          "segments": [
+            {
+              "name": "U.S. Domestic",
+              "revenue": "$14.9bn (+6.0%)",
+              "ebit": "$1.19bn adjusted (8.0%)",
+              "note": "GAAP operating profit only $16m after transformation charges"
+            },
+            {
+              "name": "International",
+              "revenue": "$5.0bn (+12.5%)",
+              "ebit": "$623m (12.4%)",
+              "note": "Margin compression despite strong yields"
+            },
+            {
+              "name": "Supply Chain Solutions",
+              "revenue": "$2.9bn (+7.8%)",
+              "ebit": "$291m (10.2%)",
+              "note": "Operating profit +37% YoY"
+            }
+          ],
+          "src": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Amazon",
+          "segment": "E-commerce platform logistics",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-30",
+          "revenue": "$200.6bn",
+          "revenue_chg": "+20% YoY (also +20% ex-FX)",
+          "ebit": "$27.5bn",
+          "ebit_label": "Operating income",
+          "ebit_chg": "+43% YoY",
+          "margin": "13.7%",
+          "vs_prev": "First quarter above $200bn; Q3 guidance of $197-202bn (+9-12%) is held back by Prime Day moving out of the quarter and about 80bp of FX.",
+          "volume": "Units not disclosed; Prime same-day or overnight deliveries up more than 40% in H1",
+          "highlights": [
+            "North America sales $116.2bn (+16%), operating income $9.1bn (from $7.5bn); International sales $42.2bn (+15%), operating income $1.7bn (4.1% margin)",
+            "Record delivery speeds: same-day perishables in 2,300 U.S. cities; regionalised inventory placement, fewer touches per package and more robotics",
+            "Amazon Haul ultra-low-price selection expanded nearly 20x"
+          ],
+          "challenges": [
+            "Shipping costs pushed up by fuel and line-haul rates linked to the Middle East conflict and driver shortages; excluding these, shipping costs grew slower than units (absolute amount not disclosed in the release)",
+            "Most tariff costs absorbed rather than passed on (partly offset by $600m of tariff refunds)",
+            "2026 capex raised to about $220bn, mostly AI and AWS"
+          ],
+          "outlook": "Q3 2026: net sales $197-202bn, operating income $22.5-26.5bn.",
+          "segments": [
+            {
+              "name": "North America",
+              "revenue": "$116.2bn (+16%)",
+              "ebit": "$9.1bn",
+              "note": "Margin c.7.8%"
+            },
+            {
+              "name": "International",
+              "revenue": "$42.2bn (+15%)",
+              "ebit": "$1.7bn",
+              "note": "Margin 4.1%"
+            },
+            {
+              "name": "AWS",
+              "revenue": "$42.2bn (+37%)",
+              "ebit": "$16.6bn",
+              "note": "Fastest growth in 18 quarters; funds the logistics build-out"
+            }
+          ],
+          "src": [
+            6,
+            7
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2027-01-04",
+          "what": "FedEx 2027 general rate increase takes effect (5.9% average; Ground and Home Delivery 6.1%)"
+        }
+      ]
+    },
+    "NA": {
+      "take": "Both North American posts are using price and labour peace to shrink losses rather than to win volume: USPS lifted package revenue 7.7% on 3.4% fewer pieces, while Canada Post's parcel rebound is a recovery from a strike-hit base. In our analysis neither is fixing its balance sheet on its own, so legislative and funding decisions in Washington and Ottawa, not the market, will set how aggressively they can price e-commerce parcels in 2027.",
+      "companies": [
+        {
+          "name": "USPS (United States Postal Service)",
+          "segment": "Postal operator",
+          "period": "Q3 FY2026 (April-June 2026)",
+          "reported": "2026-08-07",
+          "revenue": "$19.9bn",
+          "revenue_chg": "+6.1% YoY",
+          "ebit": "-$1.0bn",
+          "ebit_label": "Controllable loss (USPS's own operating measure); net loss $2.5bn",
+          "ebit_chg": "Improved by $584m YoY (net loss improved by $562m from $3.1bn)",
+          "margin": "not meaningful (loss)",
+          "vs_prev": "Losses narrowing year on year thanks to pricing, but management still describes a severe liquidity crisis that management action alone cannot fix.",
+          "volume": "Shipping and Packages volume -3.4% (-55m pieces); First-Class Mail -3.5%; Marketing Mail +4.3%",
+          "highlights": [
+            "Shipping and Packages revenue +7.7% to $8.25bn on price despite lower volume, led by Ground Advantage",
+            "Price increases implemented on 26 April 2026; Marketing Mail revenue +12.3%",
+            "About 4m work hours removed in the quarter"
+          ],
+          "challenges": [
+            "Parcel volumes still falling as large shippers insource and competitors price aggressively",
+            "$15bn statutory debt limit (unchanged since 1992) and unresolved pension and retiree health obligations; about $1.4bn of FERS contributions deferred this quarter",
+            "Higher compensation, retirement and fuel-related transportation costs"
+          ],
+          "outlook": "No numerical guidance; USPS is asking Congress for legislative relief on debt limit and retirement funding.",
+          "src": [
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Canada Post (incl. Purolator)",
+          "segment": "Postal operator",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-28",
+          "revenue": "not disclosed in the release (+C$22m)",
+          "revenue_chg": "+1.5% YoY (Canada Post segment); H1 -7.0%",
+          "ebit": "-C$277m",
+          "ebit_label": "Loss before tax (Canada Post segment)",
+          "ebit_chg": "Improved by C$130m YoY (from -C$407m)",
+          "margin": "not meaningful (loss)",
+          "vs_prev": "Loss widened from C$205m in Q1 2026 but parcels returned to growth after the June 2026 union agreements; H1 loss before tax C$482m versus C$448m in H1 2025.",
+          "volume": "Parcels +15.6% (+7m pieces); Transaction Mail -9.2% (-50m pieces)",
+          "highlights": [
+            "Parcels revenue +20.7% (+C$99m) as collective agreements with CUPW, ratified in June 2026 and running to 31 January 2029, restored shipper confidence",
+            "Operating costs down 6.3% (-C$119m)",
+            "Purolator profit up to C$88m from C$82m, cutting the Group loss to C$188m from C$325m"
+          ],
+          "challenges": [
+            "Transaction Mail revenue -9.1% and structural letter decline",
+            "Recovery still early: H1 parcel revenue only +0.7% and H1 loss before tax wider than a year ago",
+            "Costly delivery reform: 621,000 addresses to move from door-to-door to community mailboxes in late 2026 and 2027"
+          ],
+          "outlook": "Modernisation plan: community mailbox conversions, weekend parcel delivery in major cities and expanded retail services; no financial guidance.",
+          "segments": [
+            {
+              "name": "Canada Post segment",
+              "revenue": "+1.5% YoY",
+              "ebit": "-C$277m (loss before tax)",
+              "note": "Parcels +20.7%, Transaction Mail -9.1%, Direct Marketing +0.3%"
+            },
+            {
+              "name": "Purolator",
+              "revenue": "not disclosed",
+              "ebit": "C$88m profit (Q2 2025: C$82m)",
+              "note": "H1 profit C$111m (H1 2025: C$101m)"
+            },
+            {
+              "name": "Canada Post Group of Companies",
+              "revenue": "not disclosed",
+              "ebit": "-C$188m (Q2 2025: -C$325m)",
+              "note": "H1 loss C$439m"
+            }
+          ],
+          "src": [
+            10,
+            11,
+            21
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-11-27",
+          "what": "U.S. and Canadian Black Friday, start of the Cyber Week parcel peak (Cyber Monday 30 November)"
+        }
+      ]
+    },
+    "SA": {
+      "take": "Latin American e-commerce volume is concentrating in marketplace-owned logistics: Mercado Libre shipped 45% more items and cut Brazil's free-shipping threshold, accepting a 6.7% operating margin to do so, while Correios and Magalu's e-commerce shrank. Our read is that the state post is becoming a last-resort network funded by the Treasury, and that cross-border shippers into Brazil and Mexico will increasingly need a marketplace or private-carrier route rather than the postal channel.",
+      "companies": [
+        {
+          "name": "Mercado Libre",
+          "segment": "E-commerce platform logistics",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-05",
+          "revenue": "$10.2bn",
+          "revenue_chg": "+50% YoY in USD (net revenues and financial income)",
+          "ebit": "$683m",
+          "ebit_label": "Income from operations",
+          "ebit_chg": "-17% YoY",
+          "margin": "6.7%",
+          "vs_prev": "Fastest revenue growth in four years and first quarter above $10bn, but margin kept falling as the company funds free shipping, credit and capacity.",
+          "volume": "Items sold 795m (+45% YoY); GMV $22bn (+36% FX-neutral); 77% of fast shipments delivered within 48 hours",
+          "highlights": [
+            "Lower free-shipping threshold in Brazil lifted Brazilian items sold by 56% and GMV by 39% (FX-neutral)",
+            "Cross-border GMV +60%; volume through the China fulfilment centre +170% quarter on quarter",
+            "Unique buyers 89m (+26%); advertising revenue +62% FX-neutral; Mercado Pago TPV $101bn (+56%)"
+          ],
+          "challenges": [
+            "Operating margin down to 6.7% from double digits a year earlier as shipping subsidies and credit growth weigh",
+            "Credit portfolio above $16bn (+75%) with NPL of 7.0% overall",
+            "Adjusted free cash flow only $214m after $441m of capex and $2.1bn invested in the credit book"
+          ],
+          "outlook": "No numerical guidance; management prioritises long-term share gains and logistics investment over near-term margin.",
+          "segments": [
+            {
+              "name": "Brazil",
+              "revenue": "GMV +39% FX-neutral",
+              "ebit": "not disclosed",
+              "note": "Items sold +56%"
+            },
+            {
+              "name": "Mexico",
+              "revenue": "GMV +26% FX-neutral",
+              "ebit": "not disclosed",
+              "note": "Items sold +34%"
+            },
+            {
+              "name": "Argentina",
+              "revenue": "GMV +38% FX-neutral",
+              "ebit": "not disclosed",
+              "note": "Items sold +22%"
+            }
+          ],
+          "src": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "name": "Correios",
+          "segment": "Postal operator",
+          "period": "Q2 2026 (April-June) and H1 2026",
+          "reported": "2026-08-29",
+          "revenue": "R$4.0bn (Q2)",
+          "revenue_chg": "-5.4% YoY (+3.8% vs Q1 2026)",
+          "ebit": "-R$2.39bn",
+          "ebit_label": "Net loss (operating result not disclosed in published coverage)",
+          "ebit_chg": "Q2 loss narrowed 5.5% YoY; H1 loss R$5.55bn, up 30% from R$4.26bn",
+          "margin": "not meaningful (loss)",
+          "vs_prev": "Q2 loss down 24% from R$3.16bn in Q1 2026, but the 16th consecutive quarterly deficit after a record R$8.5bn loss in 2025.",
+          "volume": "not disclosed",
+          "highlights": [
+            "Restructuring plan under way: contract and expense review, reorganisation and efficiency measures",
+            "Personnel expenses down 3.8% in H1 to R$6.9bn",
+            "State backing: R$12bn Treasury-guaranteed loan raised in 2025 and a pledged capital injection of R$6bn through 2027"
+          ],
+          "challenges": [
+            "Strong private competition in e-commerce parcels keeps revenue shrinking",
+            "Record 2025 loss of R$8.5bn leaves no buffer; a further credit operation of about R$7bn is under negotiation",
+            "Rising operating costs and logistics losses; privatisation ruled out by the government"
+          ],
+          "outlook": "Management calls the H1 result challenging and says restructuring must continue; further state funding under discussion.",
+          "src": [
+            15,
+            16
+          ]
+        },
+        {
+          "name": "Magazine Luiza (Magalu)",
+          "segment": "E-commerce and omnichannel retail logistics",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-06",
+          "revenue": "R$8.9bn",
+          "revenue_chg": "-2.6% YoY (net revenue); total sales R$14.5bn, -5.1%",
+          "ebit": "R$708.8m",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "-2.5% YoY",
+          "margin": "8.0%",
+          "vs_prev": "Swung to an adjusted net loss of R$50.4m (reported loss R$72.5m) from a small profit a year earlier, as high Brazilian interest rates raise the cost of prepaying card receivables.",
+          "volume": "not disclosed; Magalog third-party deliveries +15% (per BB Investimentos)",
+          "highlights": [
+            "Physical stores +10.3%, now 35.7% of total sales",
+            "Gross margin up to 30.6% on commercial discipline and credit services",
+            "June 2026 partnership with Amazon Brasil: Magalu sells on Amazon's marketplace and Magalog provides logistics services"
+          ],
+          "challenges": [
+            "E-commerce sales -11.9% (1P -11.5%, marketplace 3P -12.6%)",
+            "Financial expenses from high interest rates",
+            "Rising memory chip costs hitting electronics categories"
+          ],
+          "outlook": "Management says it enters H2 confident for peak season, focusing on omnichannel and AI rather than volume.",
+          "src": [
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      ],
+      "watch": [
+        {
+          "date": "2026-11-27",
+          "what": "Black Friday in Brazil and Mexico's post-Buen Fin peak: key test of Mercado Libre's delivery capacity and Correios volumes"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "t": "FedEx Reports Strong Fourth Quarter and Full-Year Results",
+      "pub": "FedEx Investor Relations",
+      "date": "2026-06-23",
+      "u": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2026/FedEx-Reports-Strong-Fourth-Quarter-and-Full-Year-Results/",
+      "lang": "en"
+    },
+    {
+      "t": "FedEx recast financial information (fiscal year change, FedEx Freight spin-off, new segments), Exhibit 99.1",
+      "pub": "FedEx / SEC EDGAR",
+      "date": "2026-07-21",
+      "u": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000108/fedexrecastexhibit991.htm",
+      "lang": "en"
+    },
+    {
+      "t": "FedEx posts solid fiscal fourth quarter and full-year fiscal 2026 earnings results",
+      "pub": "SupplyChain247",
+      "date": "2026-06-24",
+      "u": "https://www.supplychain247.com/article/fedex_posts_solid_fiscal_fourth_quarter_and_full_year_fiscal_2026_earnings_results/wsi",
+      "lang": "en"
+    },
+    {
+      "t": "FedEx posts Q4 2026 earnings beat. But stock falls on weak guidance",
+      "pub": "Yahoo Finance (Bloomberg reporting)",
+      "date": "2026-06-24",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/fedex-q4-2026-earnings-beat-121802845.html",
+      "lang": "en"
+    },
+    {
+      "t": "UPS Releases 2Q 2026 Earnings (Exhibit 99.1)",
+      "pub": "UPS / SEC EDGAR",
+      "date": "2026-07-28",
+      "u": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026049912/exhibit991-earningspressre.htm",
+      "lang": "en"
+    },
+    {
+      "t": "UPS Q2 2026 slides: domestic margins surge despite transformation costs",
+      "pub": "Investing.com",
+      "date": "2026-07-28",
+      "u": "https://www.investing.com/news/company-news/ups-q2-2026-slides-domestic-margins-surge-despite-transformation-costs-93CH-4817447",
+      "lang": "en"
+    },
+    {
+      "t": "Amazon.com Announces Second Quarter Results",
+      "pub": "Amazon Investor Relations",
+      "date": "2026-07-30",
+      "u": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+      "lang": "en"
+    },
+    {
+      "t": "Earnings call transcript: Amazon tops Q2 2026 estimates as AWS growth accelerates",
+      "pub": "Investing.com",
+      "date": "2026-07-30",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-tops-q2-2026-estimates-as-aws-growth-accelerates-93CH-4826442",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. Postal Service Reports Third Quarter Fiscal Year 2026 Results",
+      "pub": "USPS",
+      "date": "2026-08-07",
+      "u": "https://about.usps.com/newsroom/national-releases/2026/0807-usps-reports-third-quarter-fiscal-year-2026-results.htm",
+      "lang": "en"
+    },
+    {
+      "t": "USPS narrows losses in third quarter but warns liquidity crisis persists",
+      "pub": "Parcel and Postal Technology International",
+      "date": "2026-08-08",
+      "u": "https://www.parcelandpostaltechnologyinternational.com/news/operations/usps-narrows-losses-in-third-quarter-but-warns-liquidity-crisis-persists.html",
+      "lang": "en"
+    },
+    {
+      "t": "Canada Post records $277-million loss before tax in second quarter",
+      "pub": "Canada Post",
+      "date": "2026-08-28",
+      "u": "https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/news-release/2026-08-28-canada-post-records-277-million-loss-before-tax-in-second-quarter",
+      "lang": "en"
+    },
+    {
+      "t": "Canada Post reports $277M pre-tax loss in second quarter",
+      "pub": "BNN Bloomberg (The Canadian Press)",
+      "date": "2026-08-28",
+      "u": "https://www.bnnbloomberg.ca/business/company-news/2026/08/28/canada-post-reports-277m-pre-tax-loss-in-second-quarter/",
+      "lang": "en"
+    },
+    {
+      "t": "MercadoLibre, Inc. Reports Second Quarter 2026 Financial Results",
+      "pub": "MercadoLibre / Business Wire",
+      "date": "2026-08-05",
+      "u": "https://www.businesswire.com/news/home/20260805925866/en/MercadoLibre-Inc.-Reports-Second-Quarter-2026-Financial-Results",
+      "lang": "en"
+    },
+    {
+      "t": "Mercado Libre Q2 2026 Revenue Surpasses $10 Billion as Deepening Engagement Strengthens Competitive Advantage",
+      "pub": "Yahoo Finance",
+      "date": "2026-08-05",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/mercado-libre-q2-2026-revenue-212400773.html",
+      "lang": "en"
+    },
+    {
+      "t": "MercadoLibre reports Q2 2026 revenue $10.17bn, operating income $683m, net income $466m",
+      "pub": "TradingView",
+      "date": "2026-08-05",
+      "u": "https://www.tradingview.com/news/tradingview:303cfc70fbe03:0-mercadolibre-reports-q2-2026-revenue-10-17bn-operating-income-683m-net-income-466m/",
+      "lang": "en"
+    },
+    {
+      "t": "Correios têm prejuízo de R$ 5,55 bilhões no 1º semestre",
+      "pub": "CNN Brasil",
+      "date": "2026-08-30",
+      "u": "https://www.cnnbrasil.com.br/economia/prejuizo-liquido-dos-correios-sobe-no-1o-semestre-mas-cai-no-2o-trimestre/",
+      "lang": "pt"
+    },
+    {
+      "t": "Correios fecham o primeiro semestre de 2026 com prejuízo de R$ 5,6 bilhões",
+      "pub": "Metrópoles",
+      "date": "2026-08-29",
+      "u": "https://www.metropoles.com/brasil/correios-fecham-o-primeiro-semestre-de-2026-com-prejuizo-de-r-56-bilhoes",
+      "lang": "pt"
+    },
+    {
+      "t": "Magalu reverte lucro e tem prejuízo de R$ 50 mi no 2T",
+      "pub": "InfoMoney",
+      "date": "2026-08-06",
+      "u": "https://www.infomoney.com.br/mercados/magazine-luiza-mglu3-resultados-segundo-trimestre-2026/",
+      "lang": "pt"
+    },
+    {
+      "t": "Magazine Luiza tem prejuízo de R$ 50,4 milhões no 2° trimestre",
+      "pub": "CNN Brasil",
+      "date": "2026-08-06",
+      "u": "https://www.cnnbrasil.com.br/economia/money/negocios/magazine-luiza-tem-prejuizo-de-r-504-milhoes-no-2-trimestre/",
+      "lang": "pt"
+    },
+    {
+      "t": "Magazine Luiza (MGLU3) 2T26: volume de vendas nas lojas físicas cresce, mas trimestre ainda fecha com prejuízo",
+      "pub": "BB Investimentos (Investalk)",
+      "date": "2026-08-07",
+      "u": "https://investalk.bb.com.br/noticias/mercado/magazine-luiza-mglu3-resultado-2t26",
+      "lang": "pt"
+    },
+    {
+      "t": "Em nova parceria, Magazine Luiza passa a vender produtos na Amazon Brasil",
+      "pub": "CNN Brasil",
+      "date": "2026-06-08",
+      "u": "https://www.cnnbrasil.com.br/economia/negocios/em-nova-parceria-magazine-luiza-passa-a-vender-produtos-na-amazon-brasil/",
+      "lang": "pt"
+    },
+    {
+      "t": "Canada Post records $205-million loss before tax in first quarter",
+      "pub": "Canada Post",
+      "date": "2026-05-29",
+      "u": "https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/news-release/2026-05-29-canada-post-records-205-million-loss-before-tax-in-first-quarter",
+      "lang": "en"
+    },
+    {
+      "t": "What is the FedEx 2027 General Rate Increase (GRI)?",
+      "pub": "Reveel",
+      "date": "2026-09-24",
+      "u": "https://reveelgroup.com/resources/fedex-2027-general-rate-increase/",
+      "lang": "en"
+    }
+  ]
+}

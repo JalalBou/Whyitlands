@@ -1,0 +1,248 @@
+{
+  "updated": "2026-09-30",
+  "regions": {
+    "ME": {
+      "take": "In the Gulf, the war rewarded asset-light rerouting capacity and punished fixed hubs: Aramex and Agility grew revenue by 22-26% selling alternative routes, charters and ground handling, while DP World grew revenue 13% but lost 60% of Jebel Ali volume and saw adjusted EBITDA fall. For cross-border e-commerce into the GCC, our read is that landed cost and transit time stay structurally higher while cargo moves via Khor Fakkan, Fujairah and overland corridors, and that capacity on those routes, not hub scale, is the scarce asset until Hormuz traffic normalises.",
+      "companies": [
+        {
+          "name": "Aramex",
+          "segment": "Express, parcel and freight forwarding",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-05",
+          "revenue": "AED1.83bn",
+          "revenue_chg": "+22% YoY (record quarter)",
+          "ebit": "AED87m",
+          "ebit_label": "EBIT",
+          "ebit_chg": "+173% vs normalised Q2 2025",
+          "margin": "4.8%",
+          "vs_prev": "Clear step-up from Q1 2026 (implied revenue AED1.60bn, net profit AED17m) to AED1.83bn and AED47m net profit; H1 revenue +12% to AED3.43bn.",
+          "volume": "International express shipments broadly stable after earlier declines; domestic express growing; volumes not quantified",
+          "highlights": [
+            "Record freight forwarding revenue as customers bought alternative routes, including Europe-Middle East land solutions and air and sea charters",
+            "EBITDA AED181m (+73% YoY), net profit AED47m, roughly seven times normalised Q2 2025",
+            "Accelerate28 transformation and overhead discipline lifting EBIT margin to 4.8%"
+          ],
+          "challenges": [
+            "Continued regional disruption forcing costly rerouting across the Gulf network",
+            "International express volumes only stabilising, not yet growing",
+            "Net margin still thin at 2.6%"
+          ],
+          "outlook": "No numerical guidance; management points to Accelerate28 and a diversified multimodal model to sustain growth.",
+          "src": [0, 1]
+        },
+        {
+          "name": "Emirates Group (Emirates SkyCargo, dnata)",
+          "segment": "Airline cargo and ground handling",
+          "period": "FY2025-26 (April 2025-March 2026)",
+          "reported": "2026-05-07",
+          "revenue": "AED150.5bn (US$41.0bn)",
+          "revenue_chg": "+3% YoY",
+          "ebit": "AED24.4bn (US$6.6bn)",
+          "ebit_label": "Group profit before tax",
+          "ebit_chg": "+7% YoY (record)",
+          "margin": "16.2%",
+          "vs_prev": "Record year, but the 28 February military disruption hit the final month and Emirates still operates below pre-disruption passenger capacity; next update is the H1 2026-27 results.",
+          "volume": "SkyCargo 2.4m tonnes (+3%); all-cargo 637,000 tonnes (+11.7%), belly 1.8m tonnes (-0.4%)",
+          "highlights": [
+            "SkyCargo revenue AED16.2bn (US$4.4bn), 12% of Emirates revenue",
+            "Five new Boeing 777Fs delivered; freighter capacity +13% and network extended to 44 freighter destinations",
+            "dnata revenue +12% to AED23.6bn, 77% earned outside the UAE"
+          ],
+          "challenges": [
+            "Cargo yield per FTKM down 3% on market overcapacity and tariff effects on e-commerce",
+            "Middle East conflict disrupting Dubai hub operations from late February 2026",
+            "SkyCargo revenue broadly flat despite added capacity"
+          ],
+          "outlook": "No numerical guidance; investment plans maintained through 2026-27 and the business model described as unchanged.",
+          "segments": [
+            {"name": "Emirates airline", "revenue": "AED130.9bn (+2%)", "ebit": "PBT AED22.8bn (+7%)", "note": "53.2m passengers (-1%)"},
+            {"name": "Emirates SkyCargo", "revenue": "AED16.2bn", "ebit": "not disclosed", "note": "2.4m tonnes (+3%), yield -3%"},
+            {"name": "dnata", "revenue": "AED23.6bn (+12%)", "ebit": "PBT AED1.6bn (+2%)", "note": "Profit after tax -4%"}
+          ],
+          "src": [2, 3]
+        },
+        {
+          "name": "DP World",
+          "segment": "Port / gateway and logistics",
+          "period": "H1 2026 (January-June)",
+          "reported": "2026-08-13",
+          "revenue": "US$12.7bn",
+          "revenue_chg": "+13.1% YoY (+4.1% like-for-like)",
+          "ebit": "US$2.9bn",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "-5.6% YoY",
+          "margin": "22.5% (27.0% in H1 2025)",
+          "vs_prev": "Hormuz impact deepened through the half: Jebel Ali handled 374,000 TEU in Q2 (-90.1% YoY) after a less affected Q1; profit attributable to owners fell 47.3% to US$280m.",
+          "volume": "Gross throughput 42.8m TEU (-5.7%); excluding Jebel Ali 39.7m TEU (+6.5% like-for-like); Jebel Ali 3.1m TEU (-59.5%)",
+          "highlights": [
+            "Logistics, Parks and Economic Zones revenue +24.2% to US$5.9bn",
+            "International ports outside Jebel Ali growing, Australia and Americas EBITDA +25.9%",
+            "Two new Fujairah terminals planned under a 50-year concession to reduce Hormuz dependence"
+          ],
+          "challenges": [
+            "Strait of Hormuz disruption cut vessel calls at Jebel Ali; infrastructure undamaged but idle capacity kept on standby",
+            "Leverage up to 3.7x net debt/adjusted EBITDA (3.4x at end-2025)",
+            "Capex of about US$3.0bn planned for 2026 while core hub earnings are depressed"
+          ],
+          "outlook": "Near-term environment uncertain; management positive on medium to long-term global trade; 2026 capex guided at about US$3.0bn.",
+          "segments": [
+            {"name": "Ports and Terminals", "revenue": "US$4.5bn (+4.0%)", "ebit": "Adj. EBITDA US$2.0bn", "note": "44.4% margin"},
+            {"name": "Logistics, Parks and Economic Zones", "revenue": "US$5.9bn (+24.2%)", "ebit": "Adj. EBITDA US$682m (+6.1%)", "note": "11.6% margin"},
+            {"name": "Marine Services", "revenue": "US$2.3bn (+7.2%)", "ebit": "Adj. EBITDA US$494m", "note": "Revenue +7.2%"}
+          ],
+          "src": [4, 5, 6]
+        },
+        {
+          "name": "Agility Global",
+          "segment": "Aviation services, fuel logistics and logistics parks",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-07",
+          "revenue": "US$1.51bn",
+          "revenue_chg": "+26% YoY",
+          "ebit": "US$121m",
+          "ebit_label": "EBIT",
+          "ebit_chg": "+25% YoY",
+          "margin": "8.0%",
+          "vs_prev": "Up on Q1 2026 (implied revenue US$1.41bn, EBIT US$104m); H1 revenue +25% to US$2.92bn, EBITDA +10% to US$388m.",
+          "volume": "Menzies cargo 620,000 tonnes (+7%); aircraft turns 1.2m (+8%)",
+          "highlights": [
+            "Menzies Aviation revenue +31% to US$908m",
+            "Agility Logistics Parks revenue +47%, EBIT +69%, 6.1m sq m land bank",
+            "Tristar fuel logistics revenue +22%, EBIT +15%"
+          ],
+          "challenges": [
+            "Geopolitical disruption in some markets, including the closure of Menzies' Kuwait operations",
+            "Higher fuel costs pressuring margins",
+            "Menzies EBIT only +5% against +31% revenue"
+          ],
+          "outlook": "No numerical guidance; management confident in the Saudi logistics market and its development pipeline.",
+          "src": [7]
+        },
+        {
+          "name": "SPL (Saudi Post) / Naqel Express",
+          "segment": "Postal operator and parcel network",
+          "period": "not disclosed",
+          "revenue": "not disclosed",
+          "vs_prev": "SPL is state-owned and does not publish periodic financial results; Naqel Express, fully acquired by SPL, is not separately reported.",
+          "outlook": "No published figures available; excluded from quantitative comparison.",
+          "src": []
+        }
+      ],
+      "watch": []
+    },
+    "NAF": {
+      "take": "Morocco's gateways keep compounding: Tanger Med closed 2025 with revenue +16% and operating profit +23%, and Marsa Maroc grew H1 2026 EBITDA 20% on 3% more tonnage, so pricing and logistics services are driving earnings rather than volume alone. Our read is that growth is increasingly led by domestic trade (Marsa Maroc transshipment -4%), while the e-commerce last mile remains thin and loss-making: Jumia grows orders 26% but still burns cash, and the national post discloses no parcel economics.",
+      "companies": [
+        {
+          "name": "Tanger Med Group",
+          "segment": "Port / gateway and logistics zones",
+          "period": "FY2025 (latest published; no H1 2026 group financials disclosed)",
+          "reported": "2026-04-29",
+          "revenue": "MAD13.0bn",
+          "revenue_chg": "+16% YoY",
+          "ebit": "MAD2.45bn",
+          "ebit_label": "Operating result (résultat d'exploitation)",
+          "ebit_chg": "+22.9% YoY",
+          "margin": "18.8%",
+          "vs_prev": "Record year; net profit +22.3% to MAD1.82bn. No half-year 2026 financial or volume release found.",
+          "volume": "Tanger Med port 11.1m TEU (+8.4%); 161m tonnes (+13.3%); 535,203 TIR trucks (+3.6%)",
+          "highlights": [
+            "TC4 extension (APM Terminals) lifted container capacity past 11m TEU",
+            "Hydrocarbons +13%, passengers +5.7%",
+            "Industrial zones host about 1,500 companies"
+          ],
+          "challenges": [
+            "Vehicles handled -12% to 526,862",
+            "Solid bulk -11%",
+            "Limited interim disclosure: 2026 performance not yet visible"
+          ],
+          "outlook": "No numerical guidance published.",
+          "src": [8, 9, 10]
+        },
+        {
+          "name": "Marsa Maroc",
+          "segment": "Port / gateway (terminal operator)",
+          "period": "H1 2026 (January-June)",
+          "reported": "2026-09-29",
+          "revenue": "MAD3.21bn",
+          "revenue_chg": "+13% YoY",
+          "ebit": "MAD1.87bn",
+          "ebit_label": "EBITDA",
+          "ebit_chg": "+20% YoY",
+          "margin": "58.2%",
+          "vs_prev": "Growth held after Q1 2026 (+12%); net profit +12% to MAD869m; revenue again outpacing volume.",
+          "volume": "34.5m tonnes (+3%); domestic containers 697,594 TEU (+7%); transshipment 822,666 TEU (-4%)",
+          "highlights": [
+            "Domestic container traffic and solid and liquid bulk (+6% each) driving growth",
+            "Higher revenue from logistics services",
+            "TIL (MSC group) took 50% minus one share of West Med Container Terminal at Nador West Med; new Monrovia port management contract"
+          ],
+          "challenges": [
+            "Transshipment volumes down 4%",
+            "Heavy capex: MAD3.4bn invested in H1, mainly Nador West Med",
+            "Operating expenses excluding depreciation +4.7%"
+          ],
+          "outlook": "No numerical guidance; focus on Nador West Med ramp-up and international expansion.",
+          "src": [11, 12]
+        },
+        {
+          "name": "Jumia",
+          "segment": "E-commerce platform logistics",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-12",
+          "revenue": "US$52.0m",
+          "revenue_chg": "+14% YoY (+15% constant currency)",
+          "ebit": "-US$8.7m",
+          "ebit_label": "Adjusted EBITDA (loss)",
+          "ebit_chg": "Loss narrowed 36% YoY",
+          "margin": "not meaningful (operating loss US$12.4m)",
+          "vs_prev": "Operating cash burn eased to US$11.8m from US$12.5m in Q1 2026; US$50m capital raise announced, half from IFC.",
+          "volume": "Physical goods orders 6.3m (+26%; +28% perimeter-adjusted); GMV US$216.3m (+20%)",
+          "highlights": [
+            "Pickup stations handle 75% of shipped packages (71% a year ago); upcountry orders 61%",
+            "Fulfilment expense per order down 7% to US$2.04",
+            "Chinese seller items +96%; Nigeria GMV +36%, Egypt recovery sustained"
+          ],
+          "challenges": [
+            "Still loss-making, with liquidity down US$14.3m in the quarter",
+            "Exit from Algeria in early 2026 narrows the footprint",
+            "Weaker demand in Ivory Coast on lower cocoa farmgate prices"
+          ],
+          "outlook": "2026 GMV +20-30% (perimeter-adjusted), Q3 GMV +15-25%; adjusted EBITDA loss US$25-30m; breakeven targeted in Q4 2026 and full-year profitability in 2027.",
+          "src": [13]
+        },
+        {
+          "name": "Barid Al-Maghrib",
+          "segment": "Postal operator",
+          "period": "FY2025 (Al Barid Bank subsidiary only)",
+          "reported": "2026-03-31",
+          "revenue": "not disclosed",
+          "vs_prev": "The group does not publish consolidated or postal and parcel (Amana) results; only its banking subsidiary Al Barid Bank publishes results.",
+          "outlook": "Scarce disclosure: no guidance or parcel volumes published.",
+          "segments": [
+            {"name": "Al Barid Bank", "revenue": "Net banking income MAD3.2bn", "ebit": "Net income MAD930.5m (+61.7%)", "note": "Banking arm; not representative of mail and parcel economics"}
+          ],
+          "src": [14]
+        }
+      ],
+      "watch": []
+    }
+  },
+  "sources": [
+    {"t": "Aramex reports record quarterly revenue performance with highest freight forwarding revenue in its history", "pub": "Zawya (Aramex press release)", "date": "2026-08-05", "u": "https://www.zawya.com/en/press-release/companies-news/aramex-reports-record-quarterly-revenue-performance-with-highest-freight-forwarding-revenue-in-its-history-422296", "lang": "en"},
+    {"t": "Aramex Q2 2026 revenue rises 22% to record Dh1.83 billion", "pub": "Gulf News", "date": "2026-08-05", "u": "https://gulfnews.com/amp/story/business/markets/aramex-revenue-hits-record-dh183-billion-profit-rises-sevenfold-in-q2-1.500632177", "lang": "en"},
+    {"t": "Emirates Group achieves record profit of AED 24.4 bn (US$ 6.6 bn) in 2025-26", "pub": "Emirates", "date": "2026-05-07", "u": "https://www.emirates.com/media-centre/emirates-group-achieves-record-profit-of-aed-244-bn-us-66-bn-in-2025-26/", "lang": "en"},
+    {"t": "Emirates SkyCargo performance boosted by freighter additions in 25/26", "pub": "Air Cargo News", "date": "2026-05-08", "u": "https://www.aircargonews.net/airlines/2026/05/emirates-skycargo-performance-boosted-by-freighter-additions-in-25-26/", "lang": "en"},
+    {"t": "DP World 1H 2026 Interim Results Announcement", "pub": "DP World (Nasdaq Dubai filing)", "date": "2026-08-13", "u": "https://candidocs.nasdaqdubai.com/2026/Aug/13/84244e7b-fa59-4391-b91b-81a9f7027833/2026_08_13_DP%20World%201H%202026%20Interim%20Results%20Announcement_final%20with%20Audited%20FS.pdf", "lang": "en"},
+    {"t": "DP World revenue rises 13.1% to $12.7 billion as global portfolio navigates trade disruption", "pub": "DP World", "date": "2026-08-13", "u": "https://www.dpworld.com/en/news/dp-world-revenue-rises-131-to-127-billion-as-global-portfolio-navigates-trade-disruption", "lang": "en"},
+    {"t": "Gulf's biggest port Jebel Ali waits for the war to end", "pub": "Semafor", "date": "2026-09-02", "u": "https://www.semafor.com/article/09/02/2026/gulfs-biggest-port-jebel-ali-waits-for-the-war-to-end", "lang": "en"},
+    {"t": "Agility Global PLC reports resilient Q2 2026 performance", "pub": "Agility", "date": "2026-08-07", "u": "https://agility.com/news/agility-global-plc-reports-resilient-q2-2026-performance/", "lang": "en"},
+    {"t": "Rapport financier Tanger Med 2025", "pub": "Tanger Med", "date": "2026-04-29", "u": "https://www.tangermed.ma/wp-content/uploads/documentations/2026/Rapport-Financier-2025.pdf", "lang": "fr"},
+    {"t": "Tanger Med boucle 2025 avec 13 milliards de DH de chiffre d'affaires, en hausse de 16%", "pub": "Médias24", "date": "2026-04-29", "u": "https://medias24.com/2026/04/29/tanger-med-boucle-2025-avec-13-milliards-de-dh-de-chiffre-daffaires-en-hausse-de-16-1667953/", "lang": "fr"},
+    {"t": "Tanger Med dépasse la barre des 11 millions de conteneurs en 2025", "pub": "Médias24", "date": "2026-02-02", "u": "https://medias24.com/2026/02/02/tanger-med-depasse-la-barre-des-11-millions-de-conteneurs-en-2025-1620840/", "lang": "fr"},
+    {"t": "Marsa Maroc : 869 millions de dirhams de bénéfices au S1 2026", "pub": "Le Matin", "date": "2026-09-29", "u": "https://lematin.ma/economie/marsa-maroc-869-millions-de-dirhams-de-benefices-au-s1-2026/367595", "lang": "fr"},
+    {"t": "Marsa Maroc : le chiffre d'affaires en hausse de 13% au premier semestre 2026", "pub": "TelQuel", "date": "2026-08-31", "u": "https://telquel.ma/instant-t/2026/08/31/marsa-maroc-le-chiffre-daffaires-en-hausse-de-13-au-premier-semestre-2026_2004731", "lang": "fr"},
+    {"t": "Jumia Reports Second Quarter 2026 Results and Announces Capital Raise (Exhibit 99.1)", "pub": "Jumia / SEC", "date": "2026-08-12", "u": "https://www.sec.gov/Archives/edgar/data/1756708/000175670826000025/os-jumiaxex991q22026.htm", "lang": "en"},
+    {"t": "Résultats financiers au 31 décembre 2025", "pub": "Al Barid Bank", "date": "2026-03-31", "u": "https://www.albaridbank.ma/fr/newsroom/actualites/resultats-financiers-au-31-decembre-2025", "lang": "fr"}
+  ]
+}
