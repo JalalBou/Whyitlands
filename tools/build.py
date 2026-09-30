@@ -22,6 +22,8 @@ for _b in briefings:
     for _k, _v in (_b.get("glossary_add") or {}).items():
         gloss.setdefault(_k, _v)
     _b.setdefault("regions", [_b.get("region", "GLOBAL")])
+_sp = C / "solutions.json"
+SOL = json.loads(_sp.read_text()) if _sp.exists() else None
 _dp = C / "doctrines.json"
 doctrines = json.loads(_dp.read_text()) if _dp.exists() else None
 
@@ -496,6 +498,17 @@ def desk_briefings(k):
 </div></section>"""
 
 
+def sol_cites(idx):
+    S = SOL["sources"]
+    return " ".join(f'<a href="{E(S[n]["u"])}" rel="noopener">{E(S[n].get("pub") or S[n]["t"])}</a>' for n in (idx or []) if isinstance(n, int) and 0 <= n < len(S))
+
+
+def topic_html(tp, compact=False):
+    players = "".join(f"""<article class="pl"><div class="pl-top"><h4>{E(x['name'])}</h4><span class="pl-type">{E(x.get('type', ''))}</span></div><p>{E(x.get('what', ''))}</p><p class="pl-pos">{E(x.get('position', ''))}</p><p class="pl-src">{sol_cites(x.get('src'))}</p></article>""" for x in sorted(tp["players"], key=lambda x: x["name"].lower()))
+    head_ = "" if compact else f'<h3>{E(tp["title"])}</h3>'
+    return f"""<div class="topic" id="sol-{E(tp['key'])}" data-regions="{','.join(tp.get('regions', []))}">{head_}<p class="need"><b data-i18n="sol_need">What the rule requires</b> {E(tp.get('need', ''))}</p><div class="pls">{players}</div>{('<p class="sol-watch"><b data-i18n="sol_watch">Still moving</b> ' + E(tp['watch']) + '</p>') if tp.get('watch') else ''}</div>"""
+
+
 def page_briefing(b):
     used = []
     S = b["sources"]
@@ -532,6 +545,10 @@ def page_briefing(b):
             rows = "".join(f"<li>{inline(x, used)}</li>" for x in blk["csuite"])
             toc.append(("csuite", "For the C-suite"))
             body.append(f'<section class="csuite" id="csuite"><div class="kicker" data-i18n="csuite_kicker">Decisions</div><h2 data-i18n="csuite">For the C-suite</h2><ol>{rows}</ol></section>')
+        elif "landscape" in blk and SOL:
+            tp = next((x for x in SOL["topics"] if x["key"] == blk["landscape"].get("topic")), None)
+            if tp:
+                body.append(f'<section class="landscape"><div class="kicker" data-i18n="sol_kicker">Solution landscape</div><h3>{E(tp["title"])}</h3><p>{inline(blk["landscape"].get("note", ""), used)}</p>{topic_html(tp, compact=True)}<p class="sol-neutral" data-i18n="sol_neutral">At least three providers per need, in alphabetical order. Information, not endorsement.</p><p><a href="/markets#solutions" data-i18n="sol_all">Full solution landscape →</a></p></section>')
         elif "impact" in blk:
             body.append(f'<div class="impact"><div class="kicker" style="color:var(--lime-ink)" data-i18n="bottom_line">Bottom line</div><p>{inline(blk["impact"], used)}</p></div>')
     mins = reading_minutes(b)
@@ -683,7 +700,11 @@ def page_markets():
 </div></section></div>""")
     out = head("Market Intelligence · WhyItLands", "Latest quarterly results of the main postal, parcel, express and e-commerce players by region: revenue, operating profit, trend, drivers and challenges.", "/markets")
     out += header("markets") + regionbar(REGION_ORDER, "GLOBAL")
-    out += '<main id="main" data-region-page>' + "".join(desks) + '<section class="section" style="padding-top:0"><div class="wrap"><p class="method-note" data-i18n="mk_note">Figures come from company results releases or quality financial press, as published; periods differ by company. Our read is WhyItLands’ analysis.</p></div></section></main>\n'
+    sol = ""
+    if SOL:
+        sol = f"""<section class="section" id="solutions" style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="sol_kicker">Solution landscape</div><h2 data-i18n="sol_h">Who helps comply with the new rules</h2><p style="margin-top:14px;color:var(--muted-2);max-width:820px">{E(SOL['intro'])}</p></div></div>
+<div class="topics" data-filter-topics>{''.join(topic_html(tp) for tp in SOL['topics'])}</div></div></section>"""
+    out += '<main id="main" data-region-page>' + "".join(desks) + sol + '<section class="section" style="padding-top:0"><div class="wrap"><p class="method-note" data-i18n="mk_note">Figures come from company results releases or quality financial press, as published; periods differ by company. Our read is WhyItLands’ analysis.</p></div></section></main>\n'
     return out + footer()
 
 

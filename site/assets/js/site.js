@@ -85,6 +85,7 @@
       els.forEach(function (el) { el.hidden = match.length > 0 && match.indexOf(el) === -1; });
     }
     filterSet($$('.bento .tile[data-regions]'));
+    filterSet($$('[data-filter-topics] > .topic[data-regions]'));
     filterSet($$('[data-filter-rows] tr[data-regions]'));
     $$('[data-filter-regions] .bcard').forEach(function (el) {
       var rs = (el.getAttribute('data-regions') || '').split(',');

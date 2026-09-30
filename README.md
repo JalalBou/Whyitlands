@@ -42,6 +42,8 @@ Tracked events: `region_selected`, `language_selected`, `calendar_filtered`, `au
 
 ## Editorial rules
 
+- Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. Never mention Asendia.
+
 - Every fact has a source. No invented quotes.
 - Videos are embedded only from identified channels, after checking (`content/regions.json` → `videos`: `{id, title, channel, start}`).
 - Nothing confidential from any employer. AI assistance is disclosed on every page.

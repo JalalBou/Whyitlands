@@ -1,0 +1,765 @@
+{
+  "intro": "Every change in duty thresholds and customs data rules creates demand for tools and services that calculate, declare and pay on behalf of sellers, platforms, posts and carriers, and the choice of partner now shapes margin and liability. This page lists, for each need, at least three providers in alphabetical order with what they say they offer; it is information, not an endorsement or a ranking.",
+  "topics": [
+    {
+      "key": "us-de-minimis",
+      "title": "US: end of de minimis and new postal entry rules",
+      "regions": [
+        "NA",
+        "GLOBAL"
+      ],
+      "need": "CBP's rule published on 24 June 2026 suspends de minimis for mail indefinitely and creates a postal informal entry that only the owner, the purchaser or a licensed customs broker may file, backed by a single transaction or continuous bond; requirements for partner agency data and Chapter 98-99 duties apply from 22 October 2026. Foreign posts can no longer file themselves, so duty on postal items must be paid by the carrier or by a qualified party acting in its place, and CBP's list of such parties had reached 39 by January 2026.",
+      "players": [
+        {
+          "name": "BoxC",
+          "type": "E-commerce shipment and customs platform",
+          "what": "Approved by CBP in September 2025 as a qualified party to calculate, file and pay duty on postal shipments, and listed by the UPU among providers implementing its postal DDP solution.",
+          "position": "Describes itself as an e-commerce shipment management platform for retailers importing across borders.",
+          "src": [
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "name": "Hurricane Commerce",
+          "type": "DDP, duty and tax calculation and customs data platform",
+          "what": "Offers a modular DDP platform covering classification, duty and tax calculation, customs clearance and parcel routing; the UPU lists it among providers implementing its postal DDP solution with a qualified-party partner.",
+          "position": "Serves posts, carriers, marketplaces, retailers and forwarders, and says clients can keep their existing providers and pricing while connecting through its platform.",
+          "src": [
+            5,
+            1
+          ]
+        },
+        {
+          "name": "iCustoms",
+          "type": "Customs declaration and classification software",
+          "what": "Provides AI-assisted declaration filing, HS classification, duty calculation and a parcel clearance service for US shipments; the UPU lists it among providers implementing its postal DDP solution, with JamesCB as qualified party.",
+          "position": "Positions itself as an all-in-one customs automation tool for customs agents, traders, carriers, postal operators and online sellers.",
+          "src": [
+            6,
+            1
+          ]
+        },
+        {
+          "name": "SafePackage",
+          "type": "Postal duty collection intermediary",
+          "what": "Was among the first parties CBP qualified to pay duty on international postal shipments in lieu of the carrier, and is listed by the UPU among providers implementing its postal DDP solution.",
+          "position": "Works on the postal channel as a qualified party between foreign posts and CBP.",
+          "src": [
+            2,
+            1,
+            42
+          ]
+        },
+        {
+          "name": "Zonos",
+          "type": "Landed-cost and postal DDP platform",
+          "what": "Calculates duty at origin for posts, offers a landed cost guarantee and, after acquiring the licensed US broker Evolve Trade Services, files the entries now required for postal shipments; it was the first provider integrated into the UPU DDP solution.",
+          "position": "Works directly with postal operators, including Canada Post, and with shippers, and says it contacts each post with a post-specific cutover date.",
+          "src": [
+            4,
+            1
+          ]
+        }
+      ],
+      "watch": "The Entry Type 13 test and the 22 October compliance date will show whether postal informal entry can scale at peak, and CBP keeps adding names to its qualified party list.",
+      "src": [
+        0,
+        42,
+        3,
+        1
+      ]
+    },
+    {
+      "key": "eu-low-value",
+      "title": "EU: €3 duty per tariff line, handling fee and platforms as importers",
+      "regions": [
+        "EU",
+        "GLOBAL"
+      ],
+      "need": "Since 1 July 2026 a temporary €3 customs duty applies to each tariff subheading in e-commerce parcels worth up to €150, declared and paid by the seller or importer, until 1 July 2028. A €2 Union handling fee per item follows from 1 November 2026, and the customs reform approved in September makes platforms and non-EU sellers the importer and creates an EU Customs Data Hub run by a new EU Customs Authority.",
+      "players": [
+        {
+          "name": "Avalara",
+          "type": "Tax and customs compliance software",
+          "what": "Offers duty calculation, item classification and origin determination, with duty liability tracked by parcel or shipment and duty shown at checkout for IOSS and non-IOSS sellers.",
+          "position": "Sells cross-border tax automation to online sellers and marketplaces, and describes the change as one where data quality and automation matter more.",
+          "src": [
+            13
+          ]
+        },
+        {
+          "name": "EAS Project",
+          "type": "IOSS intermediary and compliance service",
+          "what": "Provides IOSS registration, reporting and filing, DDP delivery workflows and guidance on preparing product data for the €3 duty.",
+          "position": "Describes its service as tax, delivery and product compliance for international e-commerce sellers shipping into the EU and UK.",
+          "src": [
+            14
+          ]
+        },
+        {
+          "name": "Hurricane Commerce",
+          "type": "DDP, duty and tax calculation and customs data platform",
+          "what": "Combines EU IOSS handling, duty and tax calculation, classification and customs clearance in one modular DDP platform.",
+          "position": "Serves posts, carriers, marketplaces, retailers and forwarders facing the end of de minimis regimes.",
+          "src": [
+            5
+          ]
+        },
+        {
+          "name": "iCustoms",
+          "type": "Customs declaration and classification software",
+          "what": "Files declarations into EU and Irish customs systems and the UK's CDS, with AI-assisted classification and duty calculation.",
+          "position": "Serves customs agents, traders, carriers, postal operators and online sellers.",
+          "src": [
+            6
+          ]
+        },
+        {
+          "name": "Zonos",
+          "type": "Landed-cost and postal DDP platform",
+          "what": "Calculates the €3 per HS line duty for IOSS and non-IOSS orders, manages filing and liability with postal partners, and captures the product identifiers (SKU, manufacturer ID, GTIN) it says become mandatory on 1 November 2026.",
+          "position": "Works with merchants and postal partners, and tracks member state and Union fees as they change.",
+          "src": [
+            12
+          ]
+        }
+      ],
+      "watch": "The Union Customs Code reform still needs its implementing acts, the Customs Data Hub and EU Customs Authority are not due before 2027, and several member states are adding national parcel fees of their own.",
+      "src": [
+        9,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "key": "uk-low-value",
+      "title": "UK: removal of the £135 customs relief and VAT at checkout",
+      "regions": [
+        "UK",
+        "GLOBAL"
+      ],
+      "need": "Since 2021, VAT on consignments of £135 or less has been charged at the point of sale, with online marketplaces as deemed suppliers. The consultation response published in July 2026 confirms that customs duty relief on these goods will be removed by October 2028, with full classification under the UK Global Tariff, item-level data and UK fiscal representatives jointly liable for overseas sellers' debts.",
+      "players": [
+        {
+          "name": "Avalara",
+          "type": "Tax and customs compliance software",
+          "what": "Provides UK VAT registration, return preparation and cross-border tax and duty compliance for sellers and marketplaces affected by the point-of-sale VAT rules.",
+          "position": "Sells VAT and cross-border compliance software to sellers from the UK, the EU and elsewhere.",
+          "src": [
+            18
+          ]
+        },
+        {
+          "name": "Customs Declarations UK",
+          "type": "UK customs declaration software",
+          "what": "Runs a cloud platform for filing UK import and export declarations, including CDS declarations, bulk import reduced data sets and entry summary declarations.",
+          "position": "Operated by AJ Software Solutions, it targets businesses that file their own UK declarations.",
+          "src": [
+            19
+          ]
+        },
+        {
+          "name": "EAS Project",
+          "type": "IOSS intermediary and compliance service",
+          "what": "Offers registration, reporting and ongoing UK VAT compliance alongside its EU IOSS service.",
+          "position": "Serves international e-commerce sellers active in the UK and the EU.",
+          "src": [
+            20
+          ]
+        },
+        {
+          "name": "iCustoms",
+          "type": "Customs declaration and classification software",
+          "what": "Files UK CDS declarations with AI-assisted classification and duty calculation, and tracks the £135 relief removal for its users.",
+          "position": "Serves customs agents, traders, carriers, postal operators and online sellers.",
+          "src": [
+            6
+          ]
+        },
+        {
+          "name": "Passport (a Global-e division)",
+          "type": "Cross-border logistics and seller of record service",
+          "what": "Lets brands clear UK shipments under Passport's own VAT number through a seller of record model, collecting VAT at checkout and filing the returns.",
+          "position": "Targets e-commerce brands entering the UK on a DDP basis; since 1 July 2026 it operates as a division of Global-e offering a non merchant of record solution.",
+          "src": [
+            21,
+            23
+          ]
+        }
+      ],
+      "watch": "Secondary legislation has yet to settle whether a flat rate or standard duty applies below £135, whether a handling fee comes in, and whether VAT collection moves to the customs process.",
+      "src": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "key": "landed-cost-ddp",
+      "title": "Landed cost at checkout and DDP for merchants",
+      "regions": [
+        "GLOBAL"
+      ],
+      "need": "With duty-free thresholds gone in the US and the EU and going in the UK, a low-value parcel shipped duties unpaid now risks a duty bill, a carrier advancement fee and a refused delivery. Merchants and platforms therefore need to calculate duty, tax and fees at checkout, collect them and ship DDP, which depends on correct classification and origin data for every item.",
+      "players": [
+        {
+          "name": "Avalara",
+          "type": "Tax and customs compliance software",
+          "what": "AvaTax Cross-Border estimates customs duty and import taxes in real time at checkout, from HS codes or from item descriptions when codes are missing, to support DDP.",
+          "position": "Sold as a checkout component to international sellers, marketplaces and logistics businesses.",
+          "src": [
+            27
+          ]
+        },
+        {
+          "name": "ESW",
+          "type": "Cross-border merchant of record",
+          "what": "Acts as merchant of record for brands, taking on trade compliance, classification, customs readiness, settlement, fraud and duty recovery on returns, with DDP delivery.",
+          "position": "Targets enterprise brands that want compliance, finance and supply chain accountability centralised with one provider.",
+          "src": [
+            24,
+            25
+          ]
+        },
+        {
+          "name": "Global-e",
+          "type": "Cross-border direct-to-consumer platform",
+          "what": "Calculates duties and taxes for each order from value, origin, HS code and trade agreements, and presents the options to the shopper at checkout.",
+          "position": "Describes itself as a platform for global direct-to-consumer e-commerce combining localisation, logistics and international sales; it acquired Passport in July 2026.",
+          "src": [
+            22,
+            23
+          ]
+        },
+        {
+          "name": "Passport (a Global-e division)",
+          "type": "Cross-border logistics and seller of record service",
+          "what": "Displays a fully landed cost at checkout and collects duties and taxes upfront under a DDP model, alongside its logistics service.",
+          "position": "Serves e-commerce brands going international; now a Global-e division offering a non merchant of record solution.",
+          "src": [
+            28,
+            23
+          ]
+        },
+        {
+          "name": "Zonos",
+          "type": "Landed-cost and postal DDP platform",
+          "what": "Calculates duties, taxes and fees at checkout for more than 200 destinations, remits under schemes such as IOSS and UK VAT, and says it pays the difference if customs charges more than quoted.",
+          "position": "Integrates with commerce platforms such as Shopify, BigCommerce and WooCommerce for merchants selling abroad.",
+          "src": [
+            26
+          ]
+        }
+      ],
+      "watch": "Per-line EU duty, the EU handling fee and the future UK regime all change how a landed cost is built, so checkout engines will need updating through 2027 and 2028.",
+      "src": [
+        9,
+        0,
+        15
+      ]
+    },
+    {
+      "key": "hs-classification",
+      "title": "HS classification and customs data quality with AI",
+      "regions": [
+        "GLOBAL"
+      ],
+      "need": "The EU €3 duty is charged per tariff subheading, US postal entries need a classification, origin and value for every item, and the UK will require full classification under its tariff. Classification and product data have become a condition of clearance for low-value parcels, not a back-office task.",
+      "players": [
+        {
+          "name": "Avalara",
+          "type": "Tax and customs compliance software",
+          "what": "Assigns HS, HTS and Schedule B codes for more than 180 countries through automated, self-serve and managed tiers that combine machine learning with human classifiers.",
+          "position": "Aimed mainly at brokers, shippers and large retailers with big catalogues.",
+          "src": [
+            32
+          ]
+        },
+        {
+          "name": "Descartes",
+          "type": "Trade compliance software",
+          "what": "Offers AI-assisted HTS classification and duty determination on a database of duties, rulings and trade agreements covering more than 175 countries.",
+          "position": "Sells to manufacturers, importers, retailers and forwarders, with integration into ERP systems such as SAP and Oracle.",
+          "src": [
+            30
+          ]
+        },
+        {
+          "name": "Digicust",
+          "type": "AI customs classification software",
+          "what": "Classifies products from descriptions, images or datasheets using the General Rules of Interpretation, returning codes with confidence scores and references to binding tariff information.",
+          "position": "EU-hosted software for customs brokers, e-commerce and retail companies, manufacturers and logistics operators.",
+          "src": [
+            33
+          ]
+        },
+        {
+          "name": "iCustoms",
+          "type": "Customs declaration and classification software",
+          "what": "Combines product classification with HS and HTS code assignment, document data extraction and declaration filing.",
+          "position": "Serves customs agents, traders, carriers, postal operators and online sellers.",
+          "src": [
+            6
+          ]
+        },
+        {
+          "name": "TariffTel",
+          "type": "Tariff classification software and managed service",
+          "what": "Provides AI code suggestions with reasoning, expert-verified classifications with an audit trail, and a managed classification service.",
+          "position": "Works mainly with UK retailers, importers and manufacturers in food, fashion, beauty and electrical goods.",
+          "src": [
+            31
+          ]
+        },
+        {
+          "name": "Zonos",
+          "type": "Landed-cost and postal DDP platform",
+          "what": "Zonos Classify assigns country-specific HS and HTS codes from product names, descriptions or images using machine learning models.",
+          "position": "Offered to merchants, marketplaces, carriers, postal services and logistics providers.",
+          "src": [
+            29
+          ]
+        }
+      ],
+      "watch": "The EU Customs Data Hub and the new product identifier requirements will test whether automated classification is accepted by customs at scale.",
+      "src": [
+        9,
+        0,
+        15
+      ]
+    },
+    {
+      "key": "customs-brokerage",
+      "title": "Customs brokerage and clearance at scale for e-commerce",
+      "regions": [
+        "NA",
+        "EU",
+        "UK",
+        "GLOBAL"
+      ],
+      "need": "When a parcel becomes a full import, someone must hold the broker licence, the bond and the filing capacity: in the US only the owner, the purchaser or a licensed broker may file a postal entry. Brokerage is moving from a freight service to a per-parcel data operation, and licensed brokers, forwarders and integrators are competing for the role.",
+      "players": [
+        {
+          "name": "DHL (eCommerce and Global Forwarding)",
+          "type": "Integrator-owned brokerage",
+          "what": "Both DHL eCommerce and DHL Global Forwarding were added by CBP in January 2026 to the list of parties qualified to pay duty on postal shipments.",
+          "position": "A carrier group offering clearance to its own shipping customers, with smaller parcels named as a focus.",
+          "src": [
+            3
+          ]
+        },
+        {
+          "name": "Flexport",
+          "type": "Digital forwarder and licensed customs broker",
+          "what": "Combines licensed brokers with AI tools for data extraction, duty calculation, entry filing, compliance audits and duty drawback; CBP qualified it in 2025 to pay duty on postal shipments.",
+          "position": "Serves importers from start-ups and marketplace sellers to multinationals, and describes itself as building an operating system for global trade.",
+          "src": [
+            34,
+            2
+          ]
+        },
+        {
+          "name": "GHY International",
+          "type": "Customs broker with e-commerce service",
+          "what": "Its eBiz service combines brokerage, logistics and technology for low-value Canada and US parcels, with classification at checkout; CBP added GHY eBiz to its qualified party list in January 2026.",
+          "position": "A long-established Canadian and US broker offering direct-to-consumer clearance to importers.",
+          "src": [
+            35,
+            3
+          ]
+        },
+        {
+          "name": "KlearNow.AI",
+          "type": "Licensed broker and clearance software",
+          "what": "Runs AI-driven clearance workflows that turn emails, PDFs and EDI data into entries, and files as a licensed broker in the US, Canada, the Netherlands, Spain and the UK.",
+          "position": "Serves customs brokers, forwarders, importers and self-filers, as software or as a managed service.",
+          "src": [
+            36
+          ]
+        },
+        {
+          "name": "SEKO Logistics",
+          "type": "Logistics provider with e-commerce clearance",
+          "what": "Launched DutyPay with CustomsCity in 2025 for checkout landed cost and automated classification and documentation, and was added by CBP to its postal qualified party list in January 2026.",
+          "position": "A global logistics group selling US market entry to retailers and e-commerce brands.",
+          "src": [
+            37,
+            3
+          ]
+        },
+        {
+          "name": "Zonos",
+          "type": "Landed-cost and postal DDP platform",
+          "what": "Files US entries for postal shipments through Evolve Trade Services, a licensed customs brokerage it acquired.",
+          "position": "Combines brokerage with its landed-cost service for posts and shippers.",
+          "src": [
+            4
+          ]
+        }
+      ],
+      "watch": "CBP's handling of the 22 October compliance date and the EU's move to platforms as importers will decide how much clearance volume stays with brokers and how much moves to platforms.",
+      "src": [
+        0,
+        3,
+        10
+      ]
+    },
+    {
+      "key": "brazil-remessa-conforme",
+      "title": "Brazil: Remessa Conforme and the zero rate up to US$50",
+      "regions": [
+        "SA",
+        "GLOBAL"
+      ],
+      "need": "Law 15,502/2026, signed on 10 September, keeps a zero federal import tax on purchases up to US$50 made through platforms certified under Remessa Conforme, while state ICMS still applies. The law also adds duties for platforms: verifying seller identity and bank data, monitoring fraud and split shipments, keeping electronic records and reporting quarterly.",
+      "players": [
+        {
+          "name": "nocnoc",
+          "type": "Marketplace access and DDP service for Latin America",
+          "what": "Lists foreign sellers on Brazilian and regional marketplaces through its own stores and handles Remessa Conforme compliance, import taxes and DDP logistics.",
+          "position": "Positions itself as a single integration to more than 15 Latin American marketplaces for cross-border sellers.",
+          "src": [
+            39
+          ]
+        },
+        {
+          "name": "Passport (a Global-e division)",
+          "type": "Cross-border logistics and seller of record service",
+          "what": "Helps brands with Remessa Conforme registration and compliant checkout pages, and monitors Brazilian tax changes.",
+          "position": "Serves international e-commerce brands entering Brazil; now a Global-e division.",
+          "src": [
+            41,
+            23
+          ]
+        },
+        {
+          "name": "ShipSmart",
+          "type": "Cross-border logistics and duty platform",
+          "what": "Says it is integrated with Remessa Conforme so that taxes are collected at checkout and parcels clear faster, with automated duty calculation and DDP shipping.",
+          "position": "A logistics platform covering checkout to last mile, with a focus on Brazil and Mercosur markets.",
+          "src": [
+            40
+          ]
+        }
+      ],
+      "watch": "The consumption tax reform (CBS and IBS) from 2027 and the Finance Minister's power to set a rate of up to 30% above US$50 could change what platforms must collect.",
+      "src": [
+        38,
+        43
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+      "pub": "Federal Register (CBP)",
+      "date": "2026-06-24",
+      "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+      "lang": "en"
+    },
+    {
+      "t": "UPU delivers on 'delivered duty paid' promise with partners",
+      "pub": "Universal Postal Union",
+      "date": "2026-01",
+      "u": "https://www.upu.int/en/news/2026/january/upu-delivers-on-delivered-duty-paid-promise-with-partners",
+      "lang": "en"
+    },
+    {
+      "t": "US CBP enables Flexport, 9 others to handle postal duties",
+      "pub": "Supply Chain Dive",
+      "date": "2025-09-03",
+      "u": "https://www.supplychaindive.com/news/customs-postal-shipment-de-minimis-approved-parties/759039/",
+      "lang": "en"
+    },
+    {
+      "t": "DHL, others land US CBP approval to handle postal duties",
+      "pub": "Supply Chain Dive",
+      "date": "2026-01-28",
+      "u": "https://www.supplychaindive.com/news/customs-qualified-postal-import-parties-dhl/810238/",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. Tariff Changes & Postal Duty Updates",
+      "pub": "Zonos",
+      "date": "2026-09-30",
+      "u": "https://zonos.com/us-tariff-updates",
+      "lang": "en"
+    },
+    {
+      "t": "The Future Has Arrived. DDP, IOSS and Global Trade Ecosystem.",
+      "pub": "Hurricane Commerce",
+      "date": "2026-04-10",
+      "u": "https://hurricanecommerce.com/the-future-has-arrived-ddp-ioss-and-global-trade-ecosystem/",
+      "lang": "en"
+    },
+    {
+      "t": "De Minimis changes 2026: what US, EU & UK importers must know",
+      "pub": "iCustoms",
+      "date": "2026-09-30",
+      "u": "https://www.icustoms.ai/blogs/de-minimis-changes-2026-us-eu-uk/",
+      "lang": "en"
+    },
+    {
+      "t": "BoxC co-founder shares insight on shifting e-commerce import regulations",
+      "pub": "FreightWaves",
+      "date": "2026-09-30",
+      "u": "https://www.freightwaves.com/news/boxc-co-founder-shares-insight-on-shifting-e-commerce-import-regulations",
+      "lang": "en"
+    },
+    {
+      "t": "EU action on the influx of small parcels",
+      "pub": "Council of the European Union",
+      "date": "2026-09-03",
+      "u": "https://www.consilium.europa.eu/en/policies/eu-action-influx-of-small-parcels/",
+      "lang": "en"
+    },
+    {
+      "t": "Ensuring fairness and safety: EUR3 customs duty for low-value parcels",
+      "pub": "European Commission",
+      "date": "2026-06-29",
+      "u": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+      "lang": "en"
+    },
+    {
+      "t": "EU customs: Council greenlights landmark reform",
+      "pub": "Council of the European Union",
+      "date": "2026-09-03",
+      "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/03/eu-customs-council-greenlights-landmark-reform/",
+      "lang": "en"
+    },
+    {
+      "t": "Commission Delegated Regulation C(2026) 6694 final on the Union handling fee",
+      "pub": "European Commission",
+      "date": "2026-09-21",
+      "u": "https://ec.europa.eu/transparency/documents-register/api/files/C(2026)6694_0/090166e533d2f58a",
+      "lang": "en"
+    },
+    {
+      "t": "EU eliminates duty-free threshold: what changes July 1, 2026",
+      "pub": "Zonos",
+      "date": "2026-05-06",
+      "u": "https://zonos.com/blog/eu-customs-reform-2026",
+      "lang": "en"
+    },
+    {
+      "t": "EU EUR150 customs duty exemption ended July 2026: what to know",
+      "pub": "Avalara",
+      "date": "2026-07-20",
+      "u": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+      "lang": "en"
+    },
+    {
+      "t": "EU EUR3 Customs Duty 2026: What IOSS Sellers Need to Know",
+      "pub": "EAS Project",
+      "date": "2026-09-30",
+      "u": "https://easproject.com/eu-3-customs-duty-ioss-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Reforming the customs treatment of low value imports: consultation response",
+      "pub": "HM Treasury and HMRC (GOV.UK)",
+      "date": "2026-07-13",
+      "u": "https://assets.publishing.service.gov.uk/media/6a511a7b1228eb26a4cab7c6/LVI_Consultation_Response.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "UK Low Value Import Relief to be Removed by October 2028",
+      "pub": "Baker McKenzie Global Import Blog",
+      "date": "2026-07-24",
+      "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/",
+      "lang": "en"
+    },
+    {
+      "t": "VAT and overseas goods sold directly to customers in the UK",
+      "pub": "HMRC (GOV.UK)",
+      "date": "2026-09-30",
+      "u": "https://www.gov.uk/guidance/vat-and-overseas-goods-sold-directly-to-customers-in-the-uk",
+      "lang": "en"
+    },
+    {
+      "t": "UK post-Brexit VAT on e-commerce B2C imports",
+      "pub": "Avalara",
+      "date": "2021-01-01",
+      "u": "https://www.avalara.com/blog/en/europe/2021/01/uk-post-brexit-vat-on-e-commerce-b2c-imports.html",
+      "lang": "en"
+    },
+    {
+      "t": "Reforming Low Value Imports: The UK's Comprehensive Customs Modernisation Initiative",
+      "pub": "Customs Declarations UK",
+      "date": "2026-01-27",
+      "u": "https://www.customs-declarations.uk/reforming-low-value-imports-the-uks-comprehensive-customs-modernisation-initiative/",
+      "lang": "en"
+    },
+    {
+      "t": "Royal Mail IOSS Guide for UK Online Sellers",
+      "pub": "EAS Project",
+      "date": "2026-09-30",
+      "u": "https://easproject.com/royal-mail-ioss/",
+      "lang": "en"
+    },
+    {
+      "t": "UK VAT Guide for Ecommerce: Understanding B2C Import Rules",
+      "pub": "Passport",
+      "date": "2026-09-30",
+      "u": "https://passportglobal.com/blog/uk-vat-guide-for-ecommerce-understanding-b2c-import-rules/",
+      "lang": "en"
+    },
+    {
+      "t": "Duties, Taxes, and Regulations",
+      "pub": "Global-e (documentation)",
+      "date": "2026-09-30",
+      "u": "https://docs.global-e.com/enterprise/en/duties,-taxes,-and-regulations.html",
+      "lang": "en"
+    },
+    {
+      "t": "Global-e Closes on Acquisition of Passport, a US-based e-Commerce logistics provider",
+      "pub": "Global-e",
+      "date": "2026-07-01",
+      "u": "https://investors.global-e.com/news-releases/news-release-details/global-e-closes-acquisition-passport-us-based-e-commerce",
+      "lang": "en"
+    },
+    {
+      "t": "Merchant of Record Services",
+      "pub": "ESW",
+      "date": "2026-09-30",
+      "u": "https://esw.com/product/merchant-of-record/",
+      "lang": "en"
+    },
+    {
+      "t": "What Is Delivered Duty Paid (DDP) and Why it Matters for Global Ecommerce",
+      "pub": "ESW",
+      "date": "2026-09-30",
+      "u": "https://esw.com/blog/what-is-delivered-duty-paid-ddp/",
+      "lang": "en"
+    },
+    {
+      "t": "Landed Cost Calculator for Duties and Taxes",
+      "pub": "Zonos",
+      "date": "2026-09-30",
+      "u": "https://zonos.com/landed-cost",
+      "lang": "en"
+    },
+    {
+      "t": "AvaTax Cross-Border",
+      "pub": "Avalara",
+      "date": "2026-09-30",
+      "u": "https://www.avalara.com/us/en/products/global-commerce-offerings/avatax-cross-border.html",
+      "lang": "en"
+    },
+    {
+      "t": "Why Transparent Pricing Wins: The Importance of Landed Cost in Global Ecommerce",
+      "pub": "Passport",
+      "date": "2026-09-30",
+      "u": "https://passportglobal.com/blog/why-transparent-pricing-wins-the-importance-of-landed-cost-in-global-ecommerce/",
+      "lang": "en"
+    },
+    {
+      "t": "Automate HS Code Classifications with Zonos Classify",
+      "pub": "Zonos",
+      "date": "2026-09-30",
+      "u": "https://zonos.com/classify",
+      "lang": "en"
+    },
+    {
+      "t": "Product Classification and Duty Determination",
+      "pub": "Descartes",
+      "date": "2026-09-30",
+      "u": "https://www.descartes.com/solutions/global-trade-intelligence/product-classification-and-duty-determination",
+      "lang": "en"
+    },
+    {
+      "t": "Tariff Classification Software",
+      "pub": "TariffTel",
+      "date": "2026-09-30",
+      "u": "https://www.tarifftel.com/",
+      "lang": "en"
+    },
+    {
+      "t": "Tariff and HS Code Classifications",
+      "pub": "Avalara",
+      "date": "2026-09-30",
+      "u": "https://www.avalara.com/us/en/products/tariff-code-classification.html",
+      "lang": "en"
+    },
+    {
+      "t": "AI Tariff Classification Software & HS Codes",
+      "pub": "Digicust",
+      "date": "2026-09-30",
+      "u": "https://digicust.com/en/solutions/ai-tariff-classification/",
+      "lang": "en"
+    },
+    {
+      "t": "Customs Brokerage & Import Clearance Services",
+      "pub": "Flexport",
+      "date": "2026-09-30",
+      "u": "https://www.flexport.com/products/customs/",
+      "lang": "en"
+    },
+    {
+      "t": "GHY eBiz",
+      "pub": "GHY International",
+      "date": "2026-09-30",
+      "u": "https://www.ghy.com/services/ghy-ebiz/",
+      "lang": "en"
+    },
+    {
+      "t": "Solutions: Customs Broker",
+      "pub": "KlearNow.AI",
+      "date": "2026-09-30",
+      "u": "https://www.klearnow.ai/en-gb/customs-broker/",
+      "lang": "en"
+    },
+    {
+      "t": "SEKO Logistics with CustomsCity Launches DutyPay, Next-Generation Customs Compliance and Clearance Platform",
+      "pub": "SEKO Logistics",
+      "date": "2025-05-21",
+      "u": "https://www.sekologistics.com/en/resource-hub/news/seko-logistics-with-customscity-launches-dutypay-next-generation-customs-compliance-and-clearance-platform/",
+      "lang": "en"
+    },
+    {
+      "t": "End of the 'blouse tax' on purchases up to US$50 is now law",
+      "pub": "Agência Câmara de Notícias",
+      "date": "2026-09-11",
+      "u": "https://www.camara.leg.br/noticias/1304183-fim-da-taxa-das-blusinhas-para-compras-ate-us-50-agora-e-lei",
+      "lang": "pt"
+    },
+    {
+      "t": "New Brazil Customs Regulations for E-Commerce",
+      "pub": "nocnoc",
+      "date": "2023-10-27",
+      "u": "https://nocnocstore.com/resources/new-brazil-customs-regulations-for-e-commerce",
+      "lang": "en"
+    },
+    {
+      "t": "Markets",
+      "pub": "ShipSmart",
+      "date": "2026-09-30",
+      "u": "https://shipsmart.global/en/markets",
+      "lang": "en"
+    },
+    {
+      "t": "Brazil's Ecommerce Compliance Program (PRC): Understanding Tax Advantages",
+      "pub": "Passport",
+      "date": "2026-09-30",
+      "u": "https://passportglobal.com/blog/brazils-ecommerce-compliance-program-prc-understanding-tax-advantages/",
+      "lang": "en"
+    },
+    {
+      "t": "CSMS # 67396418 - UPDATE: Additional Parties Qualified for the Payment of Duty on International Postal Shipments",
+      "pub": "US Customs and Border Protection",
+      "date": "2026-01-14",
+      "u": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4046342",
+      "lang": "en"
+    },
+    {
+      "t": "Provisional measure zeroes the 'blouse tax' on imports of up to US$50",
+      "pub": "Agência Senado",
+      "date": "2026-05-13",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/05/13/medida-provisoria-zera-taxa-das-blusinhas-para-importacoes-de-ate-us-50",
+      "lang": "pt"
+    }
+  ]
+}
