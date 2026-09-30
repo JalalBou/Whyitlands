@@ -456,3 +456,19 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .sol-neutral{font-size:13px!important;color:var(--muted)}
 @media (max-width:1020px){.pls{grid-template-columns:1fr 1fr}}
 @media (max-width:720px){.pls{grid-template-columns:1fr}}
+
+/* Mobile tab bar */
+.tabbar{display:none}
+.head-nav a.navlink{white-space:nowrap}
+@media (max-width:1180px){.tagline{display:none}}
+@media (max-width:900px){
+  .head-nav a.navlink{display:none}
+  .tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(11,15,26,.94);backdrop-filter:saturate(1.4) blur(18px);-webkit-backdrop-filter:saturate(1.4) blur(18px);border-top:1px solid rgba(255,255,255,.08);padding:6px 4px calc(6px + env(safe-area-inset-bottom));justify-content:space-around}
+  .tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;color:#8C93A6;text-decoration:none;font:600 11px var(--sans);border-radius:12px}
+  .tabbar a[aria-current=page]{color:#fff}
+  .tabbar a[aria-current=page] svg{color:var(--coral)}
+  body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+  .player{bottom:calc(84px + env(safe-area-inset-bottom))}
+  .backpill{bottom:calc(150px + env(safe-area-inset-bottom))}
+  .site-foot{margin-bottom:0}
+}

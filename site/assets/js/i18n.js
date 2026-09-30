@@ -1,6 +1,7 @@
 /* WhyItLands — interface strings. Briefings are written in English first; translated editions roll out progressively. */
 window.WIL_I18N = {
   en: {
+    tab_home: "Home", tab_markets: "Market Intel.",
     sol_kicker: "Solution landscape", sol_h: "Who helps comply with the new rules", sol_need: "What the rule requires", sol_watch: "Still moving", sol_neutral: "At least three providers per need, in alphabetical order. Information, not endorsement.", sol_all: "Full solution landscape →",
     iv_kicker: "WhyItLands in 90 seconds", iv_title: "Everyone sees what happens. We explain why.", iv_dek: "WhyItLands connects geopolitics, trade rules and doctrines to what they change for parcels: cost, speed, margin and networks. Written for the C-suite of domestic and cross-border e-commerce logistics.", iv_b: "Long-form analyses confronting every point of view", iv_m: "Latest results of 40+ players, region by region", iv_d: "The schools of thought behind each decision", iv_play: "Watch · 1:37",
     li_btn: "Connect on LinkedIn", lang_note: "Briefings are published in English first. French editions are rolling out.",
@@ -47,6 +48,7 @@ window.WIL_I18N = {
     R: {GLOBAL: "Global", EMEA: "EMEA", EU: "EU", UK: "UK", NA: "North America", SA: "South America", AS: "Asia", CN: "China", ME: "Middle East", NAF: "North Africa"}
   },
   fr: {
+    tab_home: "Accueil", tab_markets: "Marchés",
     sol_kicker: "Panorama des solutions", sol_h: "Qui aide à se conformer aux nouvelles règles", sol_need: "Ce que la règle impose", sol_watch: "Encore en mouvement", sol_neutral: "Au moins trois fournisseurs par besoin, par ordre alphabétique. Information, pas recommandation.", sol_all: "Tout le panorama des solutions →",
     iv_kicker: "WhyItLands en 90 secondes", iv_title: "Tout le monde voit ce qui se passe. Nous expliquons pourquoi.", iv_dek: "WhyItLands relie la géopolitique, les règles du commerce et les doctrines à ce qu’elles changent pour le colis : coût, délai, marge et réseaux. Pour les dirigeants de la logistique e-commerce, domestique et transfrontalière.", iv_b: "Des analyses de fond qui confrontent tous les points de vue", iv_m: "Les derniers résultats de plus de 40 acteurs, région par région", iv_d: "Les écoles de pensée derrière chaque décision", iv_play: "Regarder · 1:37",
     li_btn: "Me suivre sur LinkedIn", lang_note: "Les décryptages paraissent d’abord en anglais. Les éditions françaises arrivent progressivement.",
