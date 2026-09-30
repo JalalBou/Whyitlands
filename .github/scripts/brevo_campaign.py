@@ -29,6 +29,27 @@ def call(method, path, body=None):
         sys.exit(1)
 
 
+def pick_sender():
+    """Use the configured sender if Brevo lists it as active, else the first active whyitlands.com sender."""
+    try:
+        req = urllib.request.Request("https://api.brevo.com/v3/senders", headers={"api-key": KEY, "Accept": "application/json"})
+        with urllib.request.urlopen(req) as r:
+            senders = json.loads(r.read().decode()).get("senders", [])
+    except Exception as e:
+        print(f"::warning::could not list Brevo senders: {e}")
+        return {"name": "WhyItLands", "email": SENDER}
+    print("::notice::Brevo senders: " + "; ".join(f"{x.get('id')} {x.get('email')} active={x.get('active')}" for x in senders))
+    for x in senders:
+        if x.get("email", "").lower() == SENDER.lower() and x.get("active"):
+            return {"id": x["id"]}
+    for x in senders:
+        if x.get("email", "").lower().endswith("@whyitlands.com") and x.get("active"):
+            return {"id": x["id"]}
+    return {"name": "WhyItLands", "email": SENDER}
+
+
+SENDER_OBJ = pick_sender()
+
 for path in sys.argv[1:]:
     src = open(path).read()
     subject = html.unescape(re.search(r"<title>(.*?)</title>", src, re.S).group(1)).strip()
@@ -37,7 +58,7 @@ for path in sys.argv[1:]:
     when = datetime.datetime.combine(send, datetime.time(7, 30), zoneinfo.ZoneInfo("Europe/Paris"))
     now = datetime.datetime.now(datetime.timezone.utc)
     body = {"name": f"WhyItLands {send.isoformat()}", "subject": subject, "previewText": preview[:140],
-            "sender": {"name": "WhyItLands", "email": SENDER}, "replyTo": SENDER,
+            "sender": SENDER_OBJ, "replyTo": SENDER,
             "htmlContent": src, "recipients": {"listIds": [LIST]}}
     if when > now + datetime.timedelta(minutes=15):
         body["scheduledAt"] = when.isoformat()
