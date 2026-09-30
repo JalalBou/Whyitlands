@@ -23,7 +23,7 @@ export async function onRequestPost({ request, env }) {
       redirectionUrl: site + '/confirmed',
       attributes: { REGION: region, LANGUAGE: lang }
     });
-  } catch (e) { return json({ ok: false, error: 'subscribe_failed' }, 502); }
+  } catch (e) { return json({ ok: false, error: 'subscribe_failed_' + e.message, detail: String(e.detail || '').slice(0, 200) }, 502); }
   return json({ ok: true });
 }
 

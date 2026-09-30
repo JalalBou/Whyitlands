@@ -148,16 +148,16 @@
   /* ---------- Forms ---------- */
   function post(url, data) {
     return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || j.ok === false) throw new Error(j.error || 'failed'); return j; }); });
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok || j.ok === false) throw new Error((j.error || 'http') + ' ' + r.status); return j; }); });
   }
-  function status(el, ok, msg) { el.hidden = false; el.className = 'status ' + (ok ? 'ok' : 'err'); el.textContent = msg; }
+  function status(el, ok, msg, err) { el.hidden = false; el.className = 'status ' + (ok ? 'ok' : 'err'); el.textContent = msg + (err && err.message ? ' [' + err.message + ']' : ''); }
   function initForms() {
     var nl = $('#nl-form');
     if (nl) nl.addEventListener('submit', function (e) {
       e.preventDefault(); var b = $('button', nl); b.disabled = true;
       post('/api/subscribe', { email: nl.email.value, region: nl.region ? nl.region.value : state.region, lang: state.lang, hp: nl.website.value })
         .then(function () { status($('#nl-status'), true, t('nl_ok')); nl.reset(); track('newsletter_signup', {}); })
-        .catch(function () { status($('#nl-status'), false, t('err_generic')); })
+        .catch(function (e) { status($('#nl-status'), false, t('err_generic'), e); })
         .then(function () { b.disabled = false; });
     });
     $$('.fb-form').forEach(function (fb) {
@@ -165,7 +165,7 @@
         e.preventDefault(); var b = $('button[type=submit]', fb); b.disabled = true;
         post('/api/contact', { kind: 'feedback', message: fb.message.value, from: fb.from.value, page: location.pathname, lang: state.lang, hp: fb.website.value })
           .then(function () { status($('.status', fb), true, t('fb_ok')); fb.reset(); track('feedback_sent', { page: location.pathname }); })
-          .catch(function () { status($('.status', fb), false, t('err_generic')); })
+          .catch(function (e) { status($('.status', fb), false, t('err_generic'), e); })
           .then(function () { b.disabled = false; });
       });
     });
@@ -181,7 +181,7 @@
         e.preventDefault(); var b = $('button[type=submit]', f); b.disabled = true;
         post('/api/contact', { kind: 'contact', topic: (I18N.en.ct_topics || [])[topic], name: f.name.value, email: f.email.value, org: f.org.value, message: f.message.value, consent: f.consent.checked, lang: state.lang, hp: f.website.value })
           .then(function () { f.hidden = true; status($('#ct-status'), true, t('ct_ok')); track('contact_sent', { topic: topic }); })
-          .catch(function () { status($('#ct-status'), false, t('err_generic')); })
+          .catch(function (e) { status($('#ct-status'), false, t('err_generic'), e); })
           .then(function () { b.disabled = false; });
       });
     }

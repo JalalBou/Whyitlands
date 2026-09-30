@@ -29,7 +29,7 @@ export async function onRequestPost({ request, env }) {
   if (kind === 'contact') payload.replyTo = { email, name: clean(b.name, 120) };
   const fromMail = clean(b.from, 200);
   if (kind === 'feedback' && isEmail(fromMail)) payload.replyTo = { email: fromMail };
-  try { await brevo(env, '/smtp/email', payload); } catch (e) { return json({ ok: false, error: 'send_failed' }, 502); }
+  try { await brevo(env, '/smtp/email', payload); } catch (e) { return json({ ok: false, error: 'send_failed_' + e.message, detail: String(e.detail || '').slice(0, 200) }, 502); }
   return json({ ok: true });
 }
 
