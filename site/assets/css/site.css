@@ -401,3 +401,11 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .mk-teaser p{font-size:14px;color:var(--lime-ink)}
 @media (max-width:1020px){.cos{grid-template-columns:1fr}}
 @media (max-width:720px){.kpis,.co-cols{grid-template-columns:1fr}.segs .snote{display:none}.mk-table{display:none}}
+.countdown{display:flex;justify-content:center;gap:12px;margin:22px 0 26px}
+.countdown div{background:var(--ink);color:#fff;border-radius:18px;padding:16px 18px;min-width:84px;display:flex;flex-direction:column;align-items:center}
+.countdown b{font:400 44px/1 var(--serif)}
+.countdown span{font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#8C93A6;margin-top:6px}
+.mk-home-take{font-size:16px;color:var(--muted-2);max-width:900px;margin-bottom:16px}
+.mk-home-take b{font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--coral);margin-right:8px}
+.why .more{margin-top:auto;font-size:14px}
+.expo .kicker{color:var(--coral)}

@@ -321,5 +321,29 @@
         ]
       ]
     }
-  ]
+  ],
+  "emea": {
+    "kicker": "EMEA · 30 September 2026",
+    "title": "Europe taxes the parcel.",
+    "title_em": "The Gulf taxes the fuel.",
+    "dek": "From 1 November a low-value parcel into the EU pays a €3 duty per tariff line plus a €2 handling fee, the UK has set a date to close its £135 gap, Hormuz keeps Brent above $100, and North Africa's ports are becoming Europe's nearest gateway.",
+    "chain": [
+      {
+        "k": "EU",
+        "t": "€3 duty per tariff line since July, €2 handling fee per item from 1 November"
+      },
+      {
+        "k": "UK",
+        "t": "£135 relief removed by October 2028; Autumn Budget on 28 October"
+      },
+      {
+        "k": "Middle East",
+        "t": "Hormuz restricted and no ceasefire: Brent at $104 on 28 September"
+      },
+      {
+        "k": "North Africa",
+        "t": "Tanger Med and Suez rerouting make North Africa Europe's nearest hub"
+      }
+    ]
+  }
 }

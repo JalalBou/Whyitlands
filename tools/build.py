@@ -100,9 +100,8 @@ def header(active=""):
 <a class="brand" href="/" aria-label="WhyItLands, home">WhyItLands{PARCEL}</a>
 <span class="tagline">Where it lands, and why.</span>
 <nav class="head-nav" aria-label="Main">
-{nav('/regions', 'nav_regions', 'Regions', 'regions')}
 {nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
-{nav('/markets', 'nav_markets', 'Markets', 'markets')}
+{nav('/markets', 'nav_markets', 'Market Intelligence', 'markets')}
 {nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
 {nav('/#about', 'nav_about', 'About', 'about')}
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
@@ -192,68 +191,8 @@ ARCS = """<svg class="hero-arcs" viewBox="0 0 1440 700" preserveAspectRatio="xMi
 <g fill="#FFFFFF" opacity=".08">""" + "".join(f'<circle cx="{x}" cy="{y}" r="1.2"/>' for x in range(40, 1440, 48) for y in range(40, 700, 48)) + "</g></svg>"
 
 
-def page_home():
-    h = home["hero"]; b = next(x for x in briefings if x["slug"] == h["briefing"])
-    chain = "".join(f'<li><span class="n">{n}</span><div><b>{E(c["k"].upper())}</b><span>{E(c["t"])}</span></div></li>' for n, c in enumerate(home["chain"], 1))
-    tiles = []
-    for w in home["wire"]:
-        inner = f'<span class="tag">{E(w["tag"])}</span>'
-        if w.get("big"): inner += f'<span class="big">{E(w["big"])}</span>'
-        if w.get("lede"): inner += f'<p class="lede">{E(w["lede"])}</p>'
-        if w.get("text"): inner += f'<p>{E(w["text"])}</p>'
-        inner += f'<span class="src">{src_link(w["src"], w.get("url"))}</span>'
-        tiles.append(f'<article class="tile {w["style"]}" data-regions="{",".join(w.get("regions", []))}">{inner}</article>')
-    whys = "".join(f"""<article class="why"><span class="kicker">{E(w['region'])}</span><h3>{E(w['title'])}</h3>
-<dl><div><dt data-i18n="what_happened">What happened</dt><dd>{E(w['what'])}</dd></div><div><dt data-i18n="why">Why</dt><dd>{E(w['why'])}</dd></div><div><dt data-i18n="what_means">What it means</dt><dd>{E(w['means'])}</dd></div></dl></article>""" for w in home["why"])
-    deals = "".join(f'<tr><td class="date">{E(d["date"])}</td><td class="co">{E(d["co"])}</td><td>{E(d["deal"])}</td><td><span class="pill">{E(d["region"])}</span></td><td>{src_link(d["src"], d.get("url"))}</td></tr>' for d in home["deals"])
-    srcs = "".join(f'<div class="src-card"><div class="kicker">{E(s["k"])}</div><p>' + " · ".join(E(n) + (f'<span class="lng">{l}</span>' if l else "") for n, l in s["items"]) + "</p></div>" for s in home["sources"])
-    mins = b.get("minutes") or 4
-    out = head("WhyItLands · Where it lands, and why", "Geopolitics connected, factually and with sources, to e-commerce logistics, domestic and cross-border. A clear information grid for senior leaders: what is happening, what is coming, and why.", "/")
-    out += header() + regionbar(REGION_ORDER, "GLOBAL")
-    out += f"""<main id="main">
-<section class="hero">{ARCS}
-<div class="wrap hero-grid">
-<div><span class="kicker">{E(h['kicker'])}</span>
-<h1>{E(h['title'])}<br><em>{E(h['title_em'])}</em></h1>
-<p class="dek">{E(h['dek'])}</p>
-<div class="hero-cta"><a class="btn btn-coral" href="/briefings/{b['slug']}"><span data-i18n="read_briefing">Read the briefing</span></a>
-{listen_btn(b)}<a class="btn btn-ghost-dark" href="/briefings/"><span data-i18n="all_briefings">All briefings</span></a></div></div>
-<aside class="chain" aria-label="Why it lands here"><span class="kicker" data-i18n="why_lands_here">Why it lands here</span><ol>{chain}</ol></aside>
-</div></section>
-
-<section class="section"><div class="wrap">
-<div class="section-head"><div>{i('briefings_kicker', 'Briefings', 'div', 'kicker')}{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
-<div class="bgrid">{''.join(bcard(x, n == 0) for n, x in enumerate(briefings[:7]))}</div>
-</div></section>
-
-{home_markets()}
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div>
-<div class="bento">{''.join(tiles)}</div>
-</div></section>
-
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('why_kicker', 'The why', 'div', 'kicker')}{i('why_title', 'From geopolitics to the parcel', 'h2')}</div></div>
-<div class="why-grid">{whys}</div>
-</div></section>
-
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('deals_kicker', 'Deals & investments', 'div', 'kicker')}{i('deals_title', 'The deal tracker', 'h2')}</div></div>
-<div class="table-wrap"><table><thead><tr><th data-i18n="th_date">Date</th><th data-i18n="th_company">Company</th><th data-i18n="th_deal">Deal</th><th data-i18n="th_region">Region</th><th data-i18n="th_source">Source</th></tr></thead><tbody>{deals}</tbody></table></div>
-</div></section>
-
-<section class="section" style="padding-top:0" id="coming"><div class="wrap">
-<div class="section-head"><div><div class="kicker"><span data-i18n="cal_kicker">Calendar</span> · <span data-current-region>GLOBAL</span></div>{i('coming_title', 'What’s coming', 'h2')}</div><a class="more" href="/regions" data-i18n="regional_link">Regional calendars and expos →</a></div>
-{filters()}
-<div class="timeline" data-timeline="home" data-limit="6" aria-live="polite"></div>
-</div></section>
-
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('sources_kicker', 'Sources', 'div', 'kicker')}{i('sources_title', 'Close to the ground, in the local language', 'h2')}<p style="margin-top:14px;color:var(--muted-2);max-width:680px" data-i18n="sources_dek">Institutions, trade press and niche regional media, read in their original language. Every fact links to its source.</p></div></div>
-<div class="src-grid">{srcs}</div>
-</div></section>
-
-<section class="section" style="padding-top:0" id="about"><div class="wrap">
+def about_nl():
+    return f"""<section class="section" style="padding-top:0" id="about"><div class="wrap">
 <div class="about">
 <div class="portrait"><img src="/assets/img/jalal.jpg" alt="Jalal Boucheikha" width="220" height="220" loading="lazy"></div>
 <div>{i('about_kicker', 'About', 'div', 'kicker')}<h2>Jalal Boucheikha</h2>{i('role', 'Shipping Product Director at Asendia', 'div', 'role')}
@@ -280,6 +219,156 @@ def page_home():
 <p class="fine" data-i18n="nl_fine">We send a confirmation email first. Region and language can be changed in every issue.</p></div>
 {feedback_card()}
 </div></section>
+"""
+
+
+EMEA_SET = ["EU", "UK", "ME", "NAF"]
+RN_CODE = {"Middle East": "ME", "North America": "NA", "China": "CN", "EU": "EU", "UK": "UK", "Asia": "AS", "South America": "SA", "North Africa": "NAF", "Global": "GLOBAL"}
+
+
+def show_for(*keys):
+    ks = set(keys)
+    if ks & set(EMEA_SET):
+        ks.add("EMEA")
+    return ",".join(sorted(ks))
+
+
+def lead_for(k):
+    if k == "GLOBAL":
+        return next(x for x in briefings if x["slug"] == home["hero"]["briefing"])
+    if k == "EMEA":
+        return next(x for x in briefings if x.get("region") == "EU")
+    return next((x for x in briefings if x.get("region") == k), briefings[0])
+
+
+def hero_block(k):
+    b = lead_for(k)
+    if k == "GLOBAL":
+        h = home["hero"]
+        kicker, title, em, dek = h["kicker"], h["title"], h["title_em"], h["dek"]
+        chain = [(c["k"], c["t"]) for c in home["chain"]]
+    elif k == "EMEA":
+        e = home["emea"]
+        kicker, title, em, dek = e["kicker"], e["title"], e["title_em"], e["dek"]
+        chain = [(c["k"], c["t"]) for c in e["chain"]]
+    else:
+        r = regions[k]
+        kicker = RNAME[k] + " · " + b["date_label"]
+        title, em, dek = r["headline"], "", plain(b["dek"])
+        chain = [("", plain(x)) for x in b["keypoints"][:4]]
+    ch = "".join(f'<li><span class="n">{n}</span><div>{("<b>" + E(lbl.upper()) + "</b>") if lbl else ""}<span>{E(t)}</span></div></li>' for n, (lbl, t) in enumerate(chain, 1))
+    return f"""<section class="hero" data-show="{k}"{'' if k == 'GLOBAL' else ' hidden'}>{ARCS}
+<div class="wrap hero-grid">
+<div><span class="kicker">{E(kicker)}</span>
+<h1>{E(title)}{('<br><em>' + E(em) + '</em>') if em else ''}</h1>
+<p class="dek">{E(dek)}</p>
+<div class="hero-cta"><a class="btn btn-coral" href="/briefings/{b['slug']}"><span data-i18n="read_briefing">Read the briefing</span></a>
+{listen_btn(b)}<a class="btn btn-ghost-dark" href="/markets#{k.lower()}"><span data-i18n="nav_markets">Market Intelligence</span></a></div></div>
+<aside class="chain" aria-label="Why it lands here"><span class="kicker" data-i18n="why_lands_here">Why it lands here</span><ol>{ch}</ol></aside>
+</div></section>"""
+
+
+def home_market_block(k):
+    keys = EMEA_SET if k == "EMEA" else [k]
+    rows = []
+    for kk in keys:
+        for c in MARKETS.get(kk, {}).get("companies", []):
+            if not c.get("revenue"):
+                continue
+            cid = re.sub(r"[^a-z0-9]+", "-", c["name"].lower()).strip("-")
+            rows.append(f'<tr><td class="co-n"><a href="/markets#{kk.lower()}">{E(c["name"])}</a></td><td class="date">{E(c.get("period", ""))}</td><td>{E(c.get("revenue") or "")} <span class="{chg_class(c.get("revenue_chg"))}">{E(c.get("revenue_chg") or "")}</span></td><td>{E(c.get("ebit") or "")} <span class="{chg_class(c.get("ebit_chg"))}">{E(c.get("ebit_chg") or "")}</span></td></tr>')
+    if not rows:
+        return ""
+    take = " ".join(MARKETS[kk]["take"] for kk in keys if kk in MARKETS and MARKETS[kk].get("take"))
+    return f"""<div data-show="{k}"{'' if k == 'GLOBAL' else ' hidden'}><p class="mk-home-take"><b data-i18n="mk_our_read">Our read</b> {E(take)}</p>
+<div class="table-wrap mk-table"><table><thead><tr><th data-i18n="th_company">Company</th><th data-i18n="mk_period">Period</th><th data-i18n="mk_revenue">Revenue</th><th data-i18n="mk_profit">Operating profit</th></tr></thead><tbody>{''.join(rows[:8])}</tbody></table></div></div>"""
+
+
+def home_expos(k):
+    r = regions[k]
+    expos = "".join(f"""<article class="expo"><span class="kicker">{E(RNAME[k])}</span><h3>{E(x['name'])}</h3><span class="when">{E(x['when'])}</span><ul>{''.join(f'<li>{E(p)}</li>' for p in x['points'])}</ul><span class="src"><span data-i18n="source">Source</span>: {E(x['src'])}</span></article>""" for x in r["expos"])
+    return f'<div class="expo-grid" data-show="{show_for(k)}" hidden>{expos}</div>'
+
+
+def why_cards():
+    out = []
+    for w in home["why"]:
+        code = RN_CODE.get(w["region"], "GLOBAL")
+        out.append((show_for("GLOBAL", code), w["region"], w["title"], w["what"], w["why"], w["means"], None))
+    for b in briefings:
+        k = b.get("region", "GLOBAL")
+        if k == "GLOBAL":
+            continue
+        imp = next((x["impact"] for x in b["body"] if "impact" in x), "")
+        out.append((show_for(k), RNAME.get(k, k), b["title"], plain(b["keypoints"][0]), plain(b["keypoints"][1]) if len(b["keypoints"]) > 1 else "", plain(imp), b["slug"]))
+    cards = []
+    for sh, reg, title, what, why, means, slug in out:
+        link = f'<a class="more" href="/briefings/{slug}" data-i18n="read_briefing">Read the briefing</a>' if slug else ""
+        cards.append(f"""<article class="why" data-show="{sh}"><span class="kicker">{E(reg)}</span><h3>{E(title)}</h3>
+<dl><div><dt data-i18n="what_happened">What happened</dt><dd>{E(what)}</dd></div><div><dt data-i18n="why">Why</dt><dd>{E(why)}</dd></div><div><dt data-i18n="what_means">What it means</dt><dd>{E(means)}</dd></div></dl>{link}</article>""")
+    return "".join(cards)
+
+
+def page_home():
+    tiles = []
+    for w in home["wire"]:
+        inner = f'<span class="tag">{E(w["tag"])}</span>'
+        if w.get("big"): inner += f'<span class="big">{E(w["big"])}</span>'
+        if w.get("lede"): inner += f'<p class="lede">{E(w["lede"])}</p>'
+        if w.get("text"): inner += f'<p>{E(w["text"])}</p>'
+        inner += f'<span class="src">{src_link(w["src"], w.get("url"))}</span>'
+        tiles.append(f'<article class="tile {w["style"]}" data-regions="{",".join(w.get("regions", []))}">{inner}</article>')
+    deals = "".join(f'<tr data-regions="{E(d["region"])}"><td class="date">{E(d["date"])}</td><td class="co">{E(d["co"])}</td><td>{E(d["deal"])}</td><td><span class="pill">{E(d["region"])}</span></td><td>{src_link(d["src"], d.get("url"))}</td></tr>' for d in home["deals"])
+    srcs = "".join(f'<div class="src-card"><div class="kicker">{E(s["k"])}</div><p>' + " · ".join(E(n) + (f'<span class="lng">{l}</span>' if l else "") for n, l in s["items"]) + "</p></div>" for s in home["sources"])
+    heroes = "".join(hero_block(k) for k in REGION_ORDER)
+    mk = "".join(home_market_block(k) for k in REGION_ORDER)
+    expos = "".join(home_expos(k) for k in DESK_ORDER)
+    out = head("WhyItLands · Where it lands, and why", "Geopolitics connected, factually and with sources, to e-commerce logistics, domestic and cross-border. A clear information grid for senior leaders: what is happening, what is coming, and why.", "/")
+    out += header("home") + regionbar(REGION_ORDER, "GLOBAL")
+    out += f"""<main id="main" data-region-page>
+{heroes}
+
+<section class="section"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
+<div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="mk_kicker">Market intelligence</span> · <span data-current-region>GLOBAL</span></div>{i('mk_h1', 'Who is winning, who is paying.', 'h2')}</div><a class="more" href="/markets" data-i18n="mk_all">All results →</a></div>
+{mk}
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div>{i('why_kicker', 'The why', 'div', 'kicker')}{i('why_title', 'From geopolitics to the parcel', 'h2')}</div></div>
+<div class="why-grid">{why_cards()}</div>
+</div></section>
+
+<section class="section" style="padding-top:0" id="coming"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="cal_kicker">Calendar</span> · <span data-current-region>GLOBAL</span></div>{i('coming_title', 'What’s coming', 'h2')}</div></div>
+{filters()}
+<div class="timeline" data-timeline="home" data-limit="8" aria-live="polite"></div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div>
+<div class="bento">{''.join(tiles)}</div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div>{i('deals_kicker', 'Deals & investments', 'div', 'kicker')}{i('deals_title', 'The deal tracker', 'h2')}</div></div>
+<div class="table-wrap"><table><thead><tr><th data-i18n="th_date">Date</th><th data-i18n="th_company">Company</th><th data-i18n="th_deal">Deal</th><th data-i18n="th_region">Region</th><th data-i18n="th_source">Source</th></tr></thead><tbody data-filter-rows>{deals}</tbody></table></div>
+</div></section>
+
+<section class="section" style="padding-top:0" data-show="{show_for(*DESK_ORDER)}" hidden><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="shows_kicker">Trade shows</span> · <span data-current-region>GLOBAL</span></div>{i('shows_title', 'What the shows told us', 'h2')}</div></div>
+{expos}
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div>{i('sources_kicker', 'Sources', 'div', 'kicker')}{i('sources_title', 'Close to the ground, in the local language', 'h2')}<p style="margin-top:14px;color:var(--muted-2);max-width:680px" data-i18n="sources_dek">Institutions, trade press and niche regional media, read in their original language. Every fact links to its source.</p></div></div>
+<div class="src-grid">{srcs}</div>
+</div></section>
+""" + about_nl() + f"""
 </main>
 {coming_json()}"""
     out += footer()
@@ -327,7 +416,7 @@ def page_regions():
 </div>""")
     out = head("Regional desks · WhyItLands", "Regional calendars of regulation, geopolitics and logistics trade shows, with what each show told us: EU, UK, North America, South America, Asia, China, Middle East, North Africa.", "/regions")
     out += header("regions") + regionbar(DESK_ORDER, "EU")
-    out += '<main id="main">' + "".join(desks) + f"""
+    out += '<main id="main" data-region-page>' + "".join(desks) + f"""
 <section class="section" style="padding-top:0"><div class="wrap nl" style="grid-template-columns:1fr">{feedback_card()}</div></section>
 </main>
 {coming_json()}"""
@@ -381,7 +470,7 @@ def listen_btn(b):
 
 def bcard(b, big=False):
     regs = ",".join(b.get("regions", []))
-    return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}">'
+    return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}" data-primary="{b.get("region", "GLOBAL")}">'
             f'<span class="kicker">{E(b["section"])}</span><h3>{E(b["title"])}</h3><p>{E(plain(b["dek"]))}</p>'
             f'<span class="bmeta">{E(b["date_label"])} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
 
@@ -574,16 +663,16 @@ def page_markets():
         m = MARKETS[k]
         watch = "".join(f'<li><span class="tl-when">{E(w.get("date", ""))}</span><span>{E(w.get("what", ""))}</span></li>' for w in m["watch"])
         hidden = "" if k == "GLOBAL" else " hidden"
-        desks.append(f"""<div class="desk" id="desk-{k}"{hidden}>
+        desks.append(f"""<div data-show="{show_for(k)}" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="mk_kicker">Market intelligence</span></div>
 <h1 data-i18n="mk_h1">Who is winning, who is paying.</h1><p class="mk-take"><b data-i18n="mk_our_read">Our read</b> {E(m['take'])}</p></div></section>
 <section class="section"><div class="wrap">{market_summary_table(k)}
 <div class="cos">{''.join(company_card(c) for c in m['companies'])}</div>
 {('<h2 style="margin:40px 0 14px" data-i18n="mk_next">Next results and dates</h2><ul class="watch">' + watch + '</ul>') if watch else ''}
 </div></section></div>""")
-    out = head("Market intelligence · WhyItLands", "Latest quarterly results of the main postal, parcel, express and e-commerce players by region: revenue, operating profit, trend, drivers and challenges.", "/markets")
-    out += header("markets") + regionbar([k for k in MARKET_ORDER if k in MARKETS], "GLOBAL")
-    out += '<main id="main">' + "".join(desks) + '<section class="section" style="padding-top:0"><div class="wrap"><p class="method-note" data-i18n="mk_note">Figures come from company results releases or quality financial press, as published; periods differ by company. Our read is WhyItLands’ analysis.</p></div></section></main>\n'
+    out = head("Market Intelligence · WhyItLands", "Latest quarterly results of the main postal, parcel, express and e-commerce players by region: revenue, operating profit, trend, drivers and challenges.", "/markets")
+    out += header("markets") + regionbar(REGION_ORDER, "GLOBAL")
+    out += '<main id="main" data-region-page>' + "".join(desks) + '<section class="section" style="padding-top:0"><div class="wrap"><p class="method-note" data-i18n="mk_note">Figures come from company results releases or quality financial press, as published; periods differ by company. Our read is WhyItLands’ analysis.</p></div></section></main>\n'
     return out + footer()
 
 
@@ -656,7 +745,7 @@ def write(path, text):
 
 
 write("index.html", page_home())
-write("regions.html", page_regions())
+write("regions.html", '<!doctype html><meta charset="utf-8"><title>WhyItLands</title><link rel="canonical" href="' + BASE + '/"><script>location.replace("/" + location.hash)</script><meta http-equiv="refresh" content="0; url=/">')
 for b in briefings:
     write(f"briefings/{b['slug']}.html", page_briefing(b))
 write("briefings/index.html", page_briefings_index())
@@ -669,9 +758,25 @@ write("method.html", page_method())
 write("legal.html", page_legal())
 write("404.html", page_404())
 out = head("Subscribed · WhyItLands", "Your subscription is confirmed.", "/confirmed") + header()
-out += '<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div><h1>You are in. First issue lands this week.</h1><p>Thank you for confirming. You can change region and language from any issue.</p><script>if(/error=/.test(location.search)){document.querySelector("main h1").textContent="This link did not work.";document.querySelector("main p").textContent="It may have expired or been used already. Please sign up again from the front page.";}</script><p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>'
+out += """<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div>
+<h1 id="cf-h">You are in.</h1>
+<p id="cf-p">Your first issue lands on <b id="cf-date">Monday</b> at 07:30, Paris time.</p>
+<div class="countdown" id="cf-cd" aria-live="off"><div><b id="cd-d">0</b><span>days</span></div><div><b id="cd-h">0</b><span>hours</span></div><div><b id="cd-m">0</b><span>minutes</span></div><div><b id="cd-s">0</b><span>seconds</span></div></div>
+<p style="font-size:15px;color:var(--muted)">One issue a week, every Monday morning. Region and language can be changed from any issue.</p>
+<p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>
+<script>
+(function(){
+  if(/error=/.test(location.search)){document.getElementById("cf-h").textContent="This link did not work.";document.getElementById("cf-p").textContent="It may have expired or been used already. Please sign up again from the front page.";document.getElementById("cf-cd").hidden=true;return;}
+  function parisOffsetMin(d){var p=new Date(d.toLocaleString("en-US",{timeZone:"Europe/Paris"}));var u=new Date(d.toLocaleString("en-US",{timeZone:"UTC"}));return Math.round((p-u)/60000);}
+  function nextIssue(){var now=new Date();for(var i=0;i<8;i++){var d=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+i,7,30));var off=parisOffsetMin(d);var t=new Date(d.getTime()-off*60000);var wd=new Date(t.getTime()+off*60000).getUTCDay();if(wd===1&&t>now)return t;}return null;}
+  var target=nextIssue();if(!target)return;
+  document.getElementById("cf-date").textContent=target.toLocaleDateString(document.documentElement.lang||"en",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Europe/Paris"});
+  function tick(){var s=Math.max(0,Math.floor((target-new Date())/1000));document.getElementById("cd-d").textContent=Math.floor(s/86400);document.getElementById("cd-h").textContent=Math.floor(s%86400/3600);document.getElementById("cd-m").textContent=Math.floor(s%3600/60);document.getElementById("cd-s").textContent=s%60;}
+  tick();setInterval(tick,1000);
+})();
+</script>"""
 write("confirmed.html", out + footer())
-urls = ["/", "/briefings/", "/regions", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
+urls = ["/", "/briefings/", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

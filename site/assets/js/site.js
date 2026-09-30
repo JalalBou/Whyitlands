@@ -78,13 +78,24 @@
   }
   function applyRegion() {
     $$('#regionbar .chip').forEach(function (c) { c.setAttribute('aria-pressed', String(c.getAttribute('data-region') === state.region)); });
-    // Wire tiles: show the region's first; if fewer than two match, show all.
-    var tiles = $$('.bento .tile[data-regions]');
-    if (tiles.length) {
-      var match = tiles.filter(function (el) { return inRegion(el.getAttribute('data-regions').split(',')); });
-      tiles.forEach(function (el) { el.hidden = match.length >= 2 && match.indexOf(el) === -1; });
+    // Filtered lists: keep the region's items; if nothing matches, show everything.
+    function filterSet(els) {
+      if (!els.length) return;
+      var match = els.filter(function (el) { return inRegion((el.getAttribute('data-regions') || '').split(',')); });
+      els.forEach(function (el) { el.hidden = match.length > 0 && match.indexOf(el) === -1; });
     }
-    $$('[data-filter-regions] .bcard').forEach(function (el) { var rs = (el.getAttribute('data-regions') || '').split(','); el.hidden = !(inRegion(rs) || rs.indexOf('GLOBAL') > -1); });
+    filterSet($$('.bento .tile[data-regions]'));
+    filterSet($$('[data-filter-rows] tr[data-regions]'));
+    $$('[data-filter-regions] .bcard').forEach(function (el) {
+      var rs = (el.getAttribute('data-regions') || '').split(',');
+      el.hidden = !(inRegion(rs) || rs.indexOf('GLOBAL') > -1);
+      var own = el.getAttribute('data-primary') === state.region || (state.region === 'EMEA' && EMEA.indexOf(el.getAttribute('data-primary')) > -1);
+      el.style.order = own ? '0' : (rs.indexOf('GLOBAL') > -1 ? '2' : '1');
+      el.classList.toggle('big', own && !$('[data-filter-regions] .bcard.big:not([hidden])') ? true : false);
+    });
+    var firstOwn = $$('[data-filter-regions] .bcard').filter(function (el) { return !el.hidden && el.style.order === '0'; })[0];
+    $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
+    $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
     $$('[data-current-region]').forEach(function (el) { var R = t('R') || {}; el.textContent = (R[state.region] || state.region).toUpperCase(); });
     // Regional page: show the matching desk.
     var desks = $$('.desk');
@@ -102,7 +113,7 @@
     $$('#regionbar .chip').forEach(function (c) {
       c.addEventListener('click', function () {
         state.region = c.getAttribute('data-region'); store('wil-region', state.region);
-        if ($$('.desk').length) history.replaceState(null, '', '#' + state.region.toLowerCase());
+        if ($('[data-region-page]')) history.replaceState(null, '', '#' + state.region.toLowerCase());
         applyRegion(); track('region_selected', {});
       });
     });
