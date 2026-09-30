@@ -675,5 +675,10 @@
       "u": "https://www.hup.harvard.edu/books/9780674979796",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/sa-brazil-parcel-tax-election.m4a",
+    "minutes": 23,
+    "hash": "b2e1919ff8a7"
+  }
 }

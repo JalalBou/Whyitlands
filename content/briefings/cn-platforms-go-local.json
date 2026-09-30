@@ -670,5 +670,10 @@
       "u": "https://iep.unibocconi.eu/what-eus-updated-economic-security-doctrine-still-lacks",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/cn-platforms-go-local.m4a",
+    "minutes": 21,
+    "hash": "a1433c11c8af"
+  }
 }

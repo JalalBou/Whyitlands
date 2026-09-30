@@ -633,5 +633,10 @@
       "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/global-small-parcel-door-closes.m4a",
+    "minutes": 23,
+    "hash": "9a51a6ddf357"
+  }
 }

@@ -691,5 +691,10 @@
       "u": "https://www.supplychaindive.com/news/customs-qualified-postal-import-parties-dhl/810238/",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/na-us-parcel-rules.m4a",
+    "minutes": 22,
+    "hash": "fa8ea276f355"
+  }
 }

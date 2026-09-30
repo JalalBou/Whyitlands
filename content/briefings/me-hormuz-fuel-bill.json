@@ -744,5 +744,10 @@
       "u": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/me-hormuz-fuel-bill.m4a",
+    "minutes": 21,
+    "hash": "4c1f74151de7"
+  }
 }

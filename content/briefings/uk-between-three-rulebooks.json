@@ -702,5 +702,10 @@
       "u": "https://academic.oup.com/book/36491",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/uk-between-three-rulebooks.m4a",
+    "minutes": 21,
+    "hash": "255dad008fee"
+  }
 }

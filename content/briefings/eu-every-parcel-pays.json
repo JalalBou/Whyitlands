@@ -634,5 +634,10 @@
       "u": "https://www.cep-research.com/2026/04/29/eu-customs-reform-risks-cross-border-postal-uso-posteurop-warns/",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/eu-every-parcel-pays.m4a",
+    "minutes": 21,
+    "hash": "9125ba6cab05"
+  }
 }
