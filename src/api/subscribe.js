@@ -1,4 +1,4 @@
-// POST /api/subscribe — newsletter signup with double opt-in (Brevo).
+// POST /api/subscribe: newsletter signup with double opt-in (Brevo).
 // Needs env: BREVO_API_KEY, BREVO_LIST_ID, BREVO_DOI_TEMPLATE_ID.
 import { json, clean, isEmail, readBody, sameOrigin, brevo } from './_lib.js';
 

@@ -13,18 +13,18 @@ https://whyitlands.com
 | `site/` | The published website (what Cloudflare Pages serves). Generated pages are committed. |
 | `site/assets/js/i18n.js` | Interface text in EN (default), FR, DE, IT, ES, PT. |
 | `site/assets/js/config.js` | Public settings, including the PostHog key for analytics. |
-| `functions/api/` | Cloudflare Pages Functions: contact form, reader feedback, newsletter signup. |
+| `src/` | Cloudflare Worker: serves `site/` and handles the contact, feedback and newsletter APIs (`src/api/`). |
+| `wrangler.jsonc` | Worker configuration (name `whyitlands`, static assets from `site/`). |
 
 After any content change: `python3 tools/build.py`, then commit.
 
-## Cloudflare Pages settings
+## Cloudflare settings (Worker `whyitlands`)
 
-- Framework preset: **None**
-- Build command: *(leave empty)*
-- Build output directory: **site**
+- Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
+- No build command: pages in `site/` are committed after `python3 tools/build.py`
 - Custom domain: whyitlands.com
 
-## Environment variables (Cloudflare Pages → Settings → Variables and secrets)
+## Environment variables (Worker → Settings → Variables and secrets)
 
 | Name | Used for |
 |---|---|

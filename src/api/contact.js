@@ -1,4 +1,4 @@
-// POST /api/contact — contact form and anonymous feedback, forwarded by email to the publisher.
+// POST /api/contact: contact form and anonymous feedback, forwarded by email to the publisher.
 // Needs env: BREVO_API_KEY, CONTACT_TO, SENDER_EMAIL (a sender verified in Brevo).
 import { json, clean, isEmail, esc, readBody, sameOrigin, brevo } from './_lib.js';
 

@@ -19,7 +19,7 @@ export function sameOrigin(request, env) {
   if (!origin) return true;
   const host = new URL(request.url).host;
   const allowed = [host, 'whyitlands.com', 'www.whyitlands.com'].concat((env.EXTRA_ORIGINS || '').split(',').filter(Boolean));
-  try { return allowed.includes(new URL(origin).host) || new URL(origin).host.endsWith('.pages.dev'); } catch (e) { return false; }
+  try { return allowed.includes(new URL(origin).host) || new URL(origin).host.endsWith('.pages.dev') || new URL(origin).host.endsWith('.workers.dev'); } catch (e) { return false; }
 }
 
 export async function brevo(env, path, payload) {
