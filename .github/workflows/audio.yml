@@ -45,8 +45,8 @@ jobs:
         run: |
           [ -f kokoro-v1.0.onnx ] || curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
           [ -f voices-v1.0.bin ] || curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
-      - run: pip install -q kokoro-onnx soundfile numpy
-      - run: python3 tools/tts.py make ${{ matrix.slug }}
+      - run: (command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)) && pip install -q kokoro-onnx soundfile numpy
+      - run: python3 tools/tts.py make ${{ matrix.slug }} || (echo "::error::audio failed for ${{ matrix.slug }}"; exit 1)
       - uses: actions/upload-artifact@v4
         with:
           name: audio-${{ matrix.slug }}

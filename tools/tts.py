@@ -97,4 +97,8 @@ def apply():
 
 
 if __name__ == "__main__":
-    {"plan": lambda: plan(), "make": lambda: make(sys.argv[2]), "apply": lambda: apply()}[sys.argv[1]]()
+    import traceback
+    try:
+        {"plan": lambda: plan(), "make": lambda: make(sys.argv[2]), "apply": lambda: apply()}[sys.argv[1]]()
+    except Exception as e:
+        print("::error::" + repr(e).replace("\n", " ")[:400]); traceback.print_exc(); sys.exit(1)
