@@ -1,0 +1,739 @@
+{
+  "slug": "me-hormuz-fuel-bill",
+  "date": "2026-09-30",
+  "date_label": "30 September 2026",
+  "section": "Geopolitics · Middle East",
+  "region": "ME",
+  "regions": [
+    "ME",
+    "AS",
+    "EU",
+    "GLOBAL"
+  ],
+  "title": "Hormuz in its eighth month: the parcel pays the fuel bill and the detour",
+  "dek": "The Iran war has run since 28 February, a June peace deal collapsed in July, and Washington rejected Tehran's latest offer on 26 September. With Brent above $100 and jet fuel more than doubled, surcharges, reroutes and Gulf gateways now set the price of a cross-border parcel.",
+  "keypoints": [
+    "There is no ceasefire: the June memorandum collapsed in July, the United States blockade of Iranian ports resumed on 15 July, and Iran runs Hormuz as a permit regime.",
+    "Brent traded between $104 and $107 on 28 September, and jet fuel prices are roughly double last year's, feeding integrator fuel surcharges above 25%.",
+    "Gulf air hubs have recovered to about 80% of 2025 traffic, but half of pre-war China to Europe capacity relied on them and Asia to Europe flows now fly more direct.",
+    "Jebel Ali volumes are down 90% and cargo detours via Saudi, Omani and UAE east-coast ports at four to five times the cost.",
+    "Gulf e-commerce rules are loosening, with Dubai raising its duty exemption to 1,000 dirhams, while slower transport pushes Chinese platforms towards local stock."
+  ],
+  "body": [
+    {
+      "h": "Context: a war in its eighth month, not a closed chapter"
+    },
+    {
+      "p": "The common framing, one continuous war around Hormuz since February with oil above $100, is broadly right but misses two turns. The war began on 28 February 2026 with United States and Israeli strikes on Iran, and Iran's Islamic Revolutionary Guard Corps ([[IRGC]]) closed the strait to most foreign shipping within days. A two-week ceasefire, mediated by Pakistan, started on 8 April and was later extended, but the United States imposed a naval blockade of Iranian ports from 13 April.",
+      "src": [
+        3,
+        2
+      ]
+    },
+    {
+      "p": "On 17 June the two presidents signed a memorandum of understanding that ended active fighting and lifted both blockades. It did not last. In mid-July Iran's deputy foreign minister declared the memorandum no longer valid, United States Central Command ([[CENTCOM]]) ran a new wave of strikes near the strait, and Washington reimposed its blockade of Iranian ports on 15 July. There is no ceasefire today.",
+      "src": [
+        2,
+        5,
+        3
+      ]
+    },
+    {
+      "p": "The latest diplomatic round failed last weekend. Iran's foreign minister Abbas Araghchi offered a seven-day roadmap: the United States would release frozen funds, lift oil sanctions and end the blockade, after which Iran would reopen the strait and return to nuclear talks. On 26 September President Trump rejected it, saying Iran wanted a deal because it was losing so badly. Brent rose more than 3% to above $107 a barrel on 28 September; Fortune's midday reading that day was $104.46, against $67.33 a year earlier.",
+      "src": [
+        1,
+        0,
+        6
+      ]
+    },
+    {
+      "p": "The strait is neither shut nor open. It works as a permit system. Iran's Persian Gulf Strait Authority ([[PGSA]]) requires prior authorisation for transits and keeps a list of banned vessels, around 56 ships by early September. Lloyd's List Intelligence counted 346 non-Iranian-linked transits in August, a weekly average of 78. Al Jazeera reports 132 transits between 21 and 27 September, against about 130 a day before the war.",
+      "src": [
+        24,
+        4,
+        0,
+        39
+      ]
+    },
+    {
+      "p": "The shock has spread west: on 20 July Yemen's Houthis declared a naval blockade of Saudi Arabia, threatening the Red Sea outlet Riyadh uses to bypass Hormuz. The United States Energy Information Administration ([[EIA]]) estimates crude production shut-ins averaged 6.7 million barrels a day in August and assumes Middle East flows remain constrained through the fourth quarter.",
+      "src": [
+        20,
+        7
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "Tehran: foreign ministry and IRGC Navy",
+          "stance": "Hormuz is Iran's leverage, and it will only trade it for sanctions relief.",
+          "text": "Iran's position is that sanctions and the blockade must go first, then the strait reopens, then talks resume. It frames its charges as fees for navigational and environmental services rather than tolls, in the words of foreign ministry spokesman Esmaeil Baqaei, and it has proposed a corridor through Iranian and Omani waters under Iranian management.",
+          "src": [
+            1,
+            23,
+            4,
+            2
+          ]
+        },
+        {
+          "actor": "Washington: White House, Treasury and CENTCOM",
+          "stance": "Economic pressure is working; no relief before a better deal.",
+          "text": "President Trump argues that Iran is negotiating from weakness and that the blockade and sanctions will yield more than the seven-day plan. CENTCOM had redirected 94 merchant vessels by early September. Washington has threatened to sanction any entity that pays Iran for transit and describes the waterway as under its control, a claim that commercial tracking data does not support.",
+          "src": [
+            1,
+            4,
+            24,
+            39
+          ]
+        },
+        {
+          "actor": "Gulf capitals: Riyadh, Abu Dhabi, Doha, Muscat",
+          "stance": "Absorb the damage, build bypasses, and hedge between Washington and Tehran.",
+          "text": "Saudi Arabia has practised strategic restraint and refused the use of its territory for strikes on Iran, while its ports authority launched logistics corridors in March to reroute Gulf cargo to Red Sea ports. The United Arab Emirates ([[UAE]]) has pursued several policies at once, including leaving the Organization of the Petroleum Exporting Countries ([[OPEC]]) from 1 May to focus on its national interest. Qatar has pushed Washington towards diplomacy. Five Gulf states jointly told the International Maritime Organization ([[IMO]]) that shipping should not comply with Iran's authorisation regime.",
+          "src": [
+            33,
+            25,
+            34,
+            23
+          ]
+        },
+        {
+          "actor": "Beijing: foreign ministry and state refiners",
+          "stance": "Reopen the strait, restart talks, and protect China's oil supply.",
+          "text": "China bought an estimated 1.4 million barrels a day of Iranian oil last year and is exposed on both supply and price. Foreign minister Wang Yi has urged Iran and the United States to return to negotiations and all parties to reopen the strait. It has drawn on stockpiles of about 1.4 billion barrels, and its crude imports fell 32% in the second quarter.",
+          "src": [
+            32
+          ]
+        },
+        {
+          "actor": "Airlines and integrators: IATA, Gulf carriers, FedEx, UPS, USPS",
+          "stance": "Pass the fuel bill through, fast.",
+          "text": "The International Air Transport Association ([[IATA]]) halved its 2026 industry profit forecast in June and assumed jet fuel at $152 a barrel, with fuel at 31.4% of operating costs. FedEx and UPS added Middle East surcharges in March and raised fuel surcharge tables, and the United States Postal Service ([[USPS]]) applied an 8% temporary fuel surcharge on its parcel products from 26 April to 17 January 2027.",
+          "src": [
+            8,
+            13,
+            15,
+            12
+          ]
+        },
+        {
+          "actor": "Shipping lines and marine insurers",
+          "stance": "Price the risk, reroute, and wait for confirmed calm.",
+          "text": "Maersk has suspended most Upper Gulf bookings and charges emergency freight rates plus $1,000 per container for a Hormuz transit. War-risk premiums rose from about 0.25% of hull value before the war to 10% at the peak and 3% to 8% in late June. Brokers said underwriters wanted two to four weeks of confirmed de-escalation before cutting rates; July's collapse removed that.",
+          "src": [
+            17,
+            22
+          ]
+        },
+        {
+          "actor": "European and Indian importers, and their analysts",
+          "stance": "Diversify corridors rather than bet on one chokepoint.",
+          "text": "Writing for the European Council on Foreign Relations, Cinzia Bianco and Arturo Varvelli argue that the war exposed the peacetime design of the India-Middle East-Europe Economic Corridor ([[IMEC]]) and that Europe should build resilience through deliberate redundancy, with routes that bypass both Hormuz and Israeli territory.",
+          "src": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "p": "The disagreement is about sequence and about who pays for waiting. Tehran wants relief before reopening; Washington wants concessions before relief. Gulf states pay the highest daily price and push hardest for a deal while building bypass routes. China, Europe and India want the oil to flow and have little leverage over either side. Our reading: neither side yet sees a cost high enough to move first, so a long, managed disruption is likelier than a quick reopening.",
+      "src": [
+        1,
+        33,
+        32,
+        35
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Sea power and chokepoint strategy (Alfred Thayer Mahan)",
+          "reading": "Mahan argued that national power rests on control of sea communications and the narrow passages through which commerce must flow. Iran cannot command the sea, but it can deny one narrow passage cheaply; the United States answers with a blockade of Iran's own ports.",
+          "parcel": "Chokepoint contests are long and priced by insurers, not navies: expect war-risk and emergency surcharges to stay in Gulf rates for as long as either side sees value in holding the passage.",
+          "src": [
+            36
+          ]
+        },
+        {
+          "school": "Weaponised interdependence (Henry Farrell and Abraham Newman)",
+          "reading": "Farrell and Newman show how states controlling network hubs can use them to watch and choke others. Iran's authorisation regime turns a physical hub into a panopticon of who passes; Washington answers from the financial hub, threatening sanctions on anyone who pays Iran.",
+          "parcel": "Carriers and forwarders are caught between two hub controllers: paying for passage risks United States sanctions, refusing it risks the ship. Screen every Gulf routing decision for sanctions exposure, not only for cost.",
+          "src": [
+            37,
+            24
+          ]
+        },
+        {
+          "school": "Energy security through diversification (Daniel Yergin)",
+          "reading": "Yergin's work holds that energy security starts with diversity of supply and routes, backed by stocks and market flexibility. China's reserve drawdown and Saudi Arabia's East-West pipeline to the Red Sea follow this playbook.",
+          "parcel": "Diversification works for crude over months, not for jet fuel over weeks: the refining margin on jet fuel is where the parcel pays, and it remains the variable to hedge.",
+          "src": [
+            38,
+            32,
+            20,
+            7
+          ]
+        },
+        {
+          "school": "Gulf hedging and connectivity doctrines (multi-alignment, IMEC, Belt and Road)",
+          "reading": "Gulf states now pursue overlapping partnerships with Washington, Beijing, Ankara, Islamabad and even Tehran, rather than relying on one guarantor. Their economic counterpart is connectivity: build so many ports, rail links and air hubs that no single corridor can be held hostage. The war has turned Saudi land bridges into working cargo routes and given IMEC new urgency.",
+          "parcel": "The Gulf will emerge with more gateways, not fewer: Red Sea ports, Omani ports and cross-border trucking will compete with Jebel Ali for e-commerce inbound even after Hormuz reopens.",
+          "src": [
+            33,
+            35,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Fuel: how an oil shock reaches the parcel label"
+    },
+    {
+      "p": "The parcel pays for Hormuz first through jet fuel, not crude. IATA's June outlook assumed a jet fuel crack spread of $57 a barrel, a historic high, on top of Brent. By August, IATA reported jet fuel prices 79.2% above a year earlier, and the Baltic Exchange measure cited by Air Cargo News was up 116.5% year on year on 18 September. Our reading is that refining margins widened because Gulf refineries are major exporters of middle distillates, and their output is trapped behind the same strait.",
+      "src": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "p": "Integrator fuel surcharges are indexed to weekly fuel prices, so the cost passes through mechanically: in March UPS's air import surcharge rose to 34.5%, and both FedEx and UPS ground surcharges crossed 25%. AFS Logistics found the average net fuel surcharge per package up 40% year on year in the second quarter, and expects 2026 to be the most expensive year per package on record.",
+      "src": [
+        13,
+        14,
+        17
+      ]
+    },
+    {
+      "p": "The likely effect is a rate card with a stable base and a volatile variable part, large enough to move landed cost on a low-value order. Commercial consequence: margin on fixed-price cross-border contracts signed before March has been eroded, and every renewal will be negotiated on the surcharge mechanism, not the base rate.",
+      "src": [
+        14,
+        16
+      ]
+    },
+    {
+      "h": "Air: the Gulf hubs bend, Asia to Europe reroutes"
+    },
+    {
+      "p": "Gulf carriers are the connectors of Asia to Europe air cargo. Before the war, roughly half of China and Hong Kong to Europe capacity relied on Middle East en-route stops, and Gulf carriers held about 13% of global international widebody and freighter capacity. In the first days of the war, freighter capacity via the Gulf fell 75%.",
+      "src": [
+        11
+      ]
+    },
+    {
+      "p": "Recovery has been partial. Dubai International ([[DXB]]) handled 28.7% less cargo in the first half, 751,340 tonnes, with passenger traffic down 31.3%; its chief executive says overall traffic is back to about 80% of 2025 levels. In August, IATA recorded Middle East carriers' demand up just 1.0% year on year, while Middle East to Asia volumes fell 11.0% and Europe to Middle East 12.1%. Asia to Europe grew 3.1%. Xeneta estimated in July that about 12% of global capacity was still out of service.",
+      "src": [
+        12,
+        9,
+        16
+      ]
+    },
+    {
+      "p": "Our reading: the hub model survives, but with a risk premium. Forwarders now book around the Gulf when tension rises, and belly capacity is thinner where passenger demand has fallen. Rates are already firm into peak: the Baltic Air Freight Index was up 20.9% year on year in the week to 22 September. Commercial consequence: peak-season Asia to Europe e-commerce capacity will cost more and be harder to secure at short notice.",
+      "src": [
+        10,
+        11
+      ]
+    },
+    {
+      "h": "Sea, insurance and the Gulf gateway"
+    },
+    {
+      "p": "For goods destined to the Gulf itself, the sea route is broken at the last step. Jebel Ali, which handled 15.5 million twenty-foot equivalent units ([[TEU]]) in 2024, moved 374,000 TEU in the second quarter, a 90% fall. Cargo lands instead at Khor Fakkan, Fujairah, Salalah or Saudi Red Sea ports. DP World estimates overland routing at four to five times the cost of sailing to Jebel Ali, and truck queues at Khor Fakkan have reached 12 hours against a 27-minute norm.",
+      "src": [
+        18,
+        17
+      ]
+    },
+    {
+      "p": "Saudi Arabia is winning share. Its ports authority Mawani launched a Logistics Corridors Initiative on 13 March to move cargo from Eastern Province ports to Jeddah and other Red Sea terminals, with rail and truck links onward to the UAE, Qatar and Kuwait. One logistics chief told a Loadstar panel the Saudi hub role is not going back in the box.",
+      "src": [
+        25,
+        26
+      ]
+    },
+    {
+      "p": "The Red Sea is partly back but newly contested. Suez Canal transits in late August were 36% below normal but at their highest since early 2024, and Maersk and Hapag-Lloyd are moving four Gemini services back from the Cape of Good Hope, with the last one sailing on 27 October. The Houthi blockade of Saudi shipping adds risk: a Bahri-owned tanker was hit off Yanbu on 24 August. Commercial consequence: Europe to Gulf sea transit times and costs will stay elevated through the peak, while Asia to Europe sea freight via Suez may improve, easing some pressure on air.",
+      "src": [
+        19,
+        21,
+        20
+      ]
+    },
+    {
+      "h": "Gulf e-commerce: rules loosen as costs rise"
+    },
+    {
+      "p": "Dubai Customs raised its duty exemption for cross-border e-commerce shipments from 300 to 1,000 dirhams from 3 August 2026, with the stated aim of reducing costs for the e-commerce sector. In Saudi Arabia, the Zakat, Tax and Customs Authority ([[ZATCA]]) exempts online purchases below 1,000 riyals from customs duty, but value added tax ([[VAT]]) applies to the full declared value including shipping and insurance. The UAE is also moving to mandatory e-invoicing: a pilot started on 1 July 2026 and large businesses with revenue of 50 million dirhams or more go live on 1 January 2027.",
+      "src": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "p": "Chinese platforms have felt the war most. In May, Gulf News reported Temu delivery estimates stretched to 20 days from 7 to 15, Shein to 8 to 10 days, and some Amazon orders at 35 to 45 days, as sea transit from China to the Middle East rose from 25 to 30 days to 35 to 45. One Chinese apparel merchant was quoted by the paper: \"The Middle East market is a write-off this year.\" Before the war, Alshaya's chairman accused Shein and Temu of exploiting light Gulf regulation.",
+      "src": [
+        30,
+        31
+      ]
+    },
+    {
+      "p": "Our reading: the Dubai threshold rise and the war point in opposite directions. Lower duty helps direct parcels, but slower, dearer transport pushes platforms to hold regional stock, as in Europe. Commercial consequence: Gulf e-commerce volume is likely to shift from air-mail parcels to bulk inbound and local fulfilment, favouring operators with bonded warehouses in Saudi Arabia and the UAE.",
+      "src": [
+        27,
+        30
+      ]
+    },
+    {
+      "figures": [
+        {
+          "big": "$104.46",
+          "label": "Brent crude per barrel, midday 28 September 2026, up from $67.33 a year earlier"
+        },
+        {
+          "big": "+116.5%",
+          "label": "Year-on-year rise in jet fuel prices as of 18 September 2026 (Baltic Exchange data)"
+        },
+        {
+          "big": "132",
+          "label": "Strait of Hormuz transits in the week of 21 to 27 September 2026, against about 130 a day before the war"
+        },
+        {
+          "big": "-90%",
+          "label": "Fall in Jebel Ali container throughput in Q2 2026, to 374,000 TEU"
+        }
+      ],
+      "src": [
+        6,
+        10,
+        0,
+        18
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: managed disruption into 2027",
+          "likelihood": "Most likely",
+          "text": "No deal before the United States midterms; the blockade and Iran's permit regime continue, with transits in the range seen since August. Brent stays near or above $100 and jet fuel surcharges remain high through peak. Saudi and Omani gateways keep taking share from Jebel Ali.",
+          "signal": "Weekly Hormuz transit counts holding at 80 to 130 and integrator fuel surcharge tables unchanged into November."
+        },
+        {
+          "name": "Upside: a sequenced deal",
+          "likelihood": "Possible",
+          "text": "Mediators broker a phased exchange of sanctions relief and an end to the blockade for a reopening. Insurers cut premiums only after weeks of calm, so rates fall with a lag; jet fuel margins ease first.",
+          "signal": "A joint announcement on the blockade and Maersk lifting its Upper Gulf booking suspension."
+        },
+        {
+          "name": "Downside: escalation after the midterms",
+          "likelihood": "Less likely",
+          "text": "A renewed bombing campaign follows the November elections, Iran tightens the strait and strikes Gulf infrastructure again, and the Houthis resume attacks in the Red Sea. Asia to Europe air capacity drops sharply in peak season.",
+          "signal": "New airspace closures over the Gulf, or Gemini services diverted back to the Cape."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-10-27",
+          "when": "27 Oct 2026",
+          "what": "Last of four Maersk and Hapag-Lloyd Gemini services sails from Malaysia via the Red Sea and Suez, a test of the Houthi threat"
+        },
+        {
+          "date": "2026-11-03",
+          "when": "3 Nov 2026",
+          "what": "United States midterm elections, after which analysts see risk of a renewed bombing campaign on Iran"
+        },
+        {
+          "date": "2026-12-31",
+          "when": "End 2026",
+          "what": "Dubai Airports' target for a return to full operations at DXB"
+        },
+        {
+          "date": "2027-01-01",
+          "when": "1 Jan 2027",
+          "what": "UAE e-invoicing becomes mandatory for businesses with revenue of 50 million dirhams or more"
+        },
+        {
+          "date": "2027-01-17",
+          "when": "17 Jan 2027",
+          "what": "End of the USPS temporary 8% fuel surcharge on parcel products"
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Rewrite fuel clauses before peak: index cross-border contracts to a published jet fuel price with a monthly reset, and separate conflict surcharges from base rates so they can be removed when the strait reopens.",
+        "Secure Asia to Europe air capacity for November and December now through block space with direct carriers, and keep a Gulf-hub allocation as a flexible second source rather than the primary routing.",
+        "For Gulf inbound, price and sell multimodal routes via Jeddah, Khor Fakkan and Salalah as standard products, with realistic transit times; stop quoting Jebel Ali lead times.",
+        "Screen every Gulf routing and payment for sanctions exposure: any fee paid to Iran's strait authority can trigger United States secondary sanctions for the carrier and its customers.",
+        "Update Gulf landed-cost engines for the 1,000-dirham Dubai duty threshold and full-value Saudi VAT, and prepare UAE e-invoicing integration for 1 January 2027 on a [[DDP]] basis.",
+        "Offer Chinese and European platforms bonded stock-holding in Saudi Arabia and the UAE: slower sea transit makes local fulfilment the better answer for Gulf e-commerce than more air mail."
+      ]
+    },
+    {
+      "impact": "Hormuz is not shut, it is taxed: the parcel pays through jet fuel, war-risk premiums and longer Gulf detours, and the bill will outlast any ceasefire."
+    }
+  ],
+  "glossary": [
+    "IRGC",
+    "CENTCOM",
+    "PGSA",
+    "EIA",
+    "UAE",
+    "OPEC",
+    "IMO",
+    "IATA",
+    "USPS",
+    "IMEC",
+    "DXB",
+    "TEU",
+    "ZATCA",
+    "VAT",
+    "DDP"
+  ],
+  "glossary_add": {
+    "IRGC": [
+      "Islamic Revolutionary Guard Corps",
+      "Iran's elite military force, whose navy controls operations in the Strait of Hormuz."
+    ],
+    "CENTCOM": [
+      "United States Central Command",
+      "The American military command responsible for the Middle East, which runs the naval blockade of Iranian ports."
+    ],
+    "PGSA": [
+      "Persian Gulf Strait Authority",
+      "The Iranian body set up in 2026 to authorise vessel transits through the Strait of Hormuz and collect fees."
+    ],
+    "EIA": [
+      "U.S. Energy Information Administration",
+      "The statistical agency of the American Department of Energy, which publishes oil market data and forecasts."
+    ],
+    "IMO": [
+      "International Maritime Organization",
+      "The United Nations agency that sets global rules for shipping safety and navigation."
+    ],
+    "IATA": [
+      "International Air Transport Association",
+      "The global trade association of airlines, which publishes air traffic, cargo and industry financial data."
+    ],
+    "IMEC": [
+      "India-Middle East-Europe Economic Corridor",
+      "A planned network of ports, railways and links connecting India to Europe through the Gulf states, announced in 2023."
+    ],
+    "TEU": [
+      "Twenty-foot equivalent unit",
+      "The standard measure of container volume, equal to one 20-foot container."
+    ],
+    "UAE": [
+      "United Arab Emirates",
+      "The federation of seven emirates, including Dubai and Abu Dhabi, home to Jebel Ali port and the Emirates and Etihad hubs."
+    ],
+    "OPEC": [
+      "Organization of the Petroleum Exporting Countries",
+      "The oil producers' cartel that coordinates output quotas; the UAE left it on 1 May 2026."
+    ],
+    "USPS": [
+      "United States Postal Service",
+      "The American national postal operator."
+    ],
+    "DXB": [
+      "Dubai International Airport",
+      "Dubai's main airport and the hub of Emirates and Emirates SkyCargo."
+    ],
+    "ZATCA": [
+      "Zakat, Tax and Customs Authority",
+      "Saudi Arabia's combined tax and customs authority, which collects VAT and customs duties."
+    ]
+  },
+  "sources": [
+    {
+      "t": "Oil prices surge after Trump rejects Iran's plan to reopen Strait of Hormuz",
+      "pub": "Al Jazeera",
+      "date": "2026-09-28",
+      "u": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz",
+      "lang": "en"
+    },
+    {
+      "t": "Trump rejects Iran's seven-day roadmap to end war and reopen Strait of Hormuz",
+      "pub": "Al Jazeera",
+      "date": "2026-09-26",
+      "u": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
+      "lang": "en"
+    },
+    {
+      "t": "US resumes Iran ports blockade as Gulf attacks continue: What's the latest",
+      "pub": "Al Jazeera",
+      "date": "2026-07-15",
+      "u": "https://www.aljazeera.com/news/2026/7/15/us-resumes-iran-ports-blockade-as-gulf-attacks-continue-whats-the-latest",
+      "lang": "en"
+    },
+    {
+      "t": "2026 Iran war ceasefire",
+      "pub": "Wikipedia",
+      "date": "2026-09-30",
+      "u": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire",
+      "lang": "en"
+    },
+    {
+      "t": "Strait of Hormuz Brief: 9 September 2026",
+      "pub": "Lloyd's List Intelligence",
+      "date": "2026-09-09",
+      "u": "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-9-september-2026",
+      "lang": "en"
+    },
+    {
+      "t": "Hormuz Transits Hit Three-week High, VLCC Rates Explode",
+      "pub": "USNI News",
+      "date": "2026-09-18",
+      "u": "https://news.usni.org/2026/09/18/hormuz-transits-hit-three-week-high-vlcc-rates-explode",
+      "lang": "en"
+    },
+    {
+      "t": "Current price of oil as of Sept. 28, 2026",
+      "pub": "Fortune",
+      "date": "2026-09-28",
+      "u": "https://fortune.com/article/price-of-oil-09-28-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Short-Term Energy Outlook: Global oil markets (September 2026)",
+      "pub": "U.S. Energy Information Administration",
+      "date": "2026-09-09",
+      "u": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "lang": "en"
+    },
+    {
+      "t": "Middle East Disruptions and High Fuel Prices Halve Airline Industry Profitability",
+      "pub": "IATA",
+      "date": "2026-06-07",
+      "u": "https://www.iata.org/en/pressroom/2026-releases/06-07-middle-east-disruptions-high-fuel-prices-halve-airline-industry-profitability/",
+      "lang": "en"
+    },
+    {
+      "t": "Air Cargo Demand Grows 4.4% in August",
+      "pub": "IATA",
+      "date": "2026-09-29",
+      "u": "https://www.iata.org/en/pressroom/2026-releases/09-29-air-cargo-demand-grows-august/",
+      "lang": "en"
+    },
+    {
+      "t": "Airfreight rates strong as peak season approaches",
+      "pub": "Air Cargo News",
+      "date": "2026-09-22",
+      "u": "https://www.aircargonews.net/data/2026/09/airfreight-rates-strong-as-peak-season-approaches/",
+      "lang": "en"
+    },
+    {
+      "t": "Air cargo chaos: capacity on Asia-Europe drops 26%",
+      "pub": "The Loadstar",
+      "date": "2026-03-02",
+      "u": "https://theloadstar.com/air-cargo-chaos-capacity-on-asia-europe-drops-26/",
+      "lang": "en"
+    },
+    {
+      "t": "War knocked Dubai's airport traffic down 31%. Its CEO says its global hub ambitions are intact",
+      "pub": "Fortune",
+      "date": "2026-09-01",
+      "u": "https://fortune.com/2026/09/01/war-knocked-dubai-airport-traffic-down-31-ceo-paul-griffiths-global-hub-ambitions/",
+      "lang": "en"
+    },
+    {
+      "t": "FedEx, UPS up fuel fees, levy Middle East surcharges amid Iran war",
+      "pub": "Supply Chain Dive",
+      "date": "2026-03-13",
+      "u": "https://www.supplychaindive.com/news/ups-fuel-surcharge-table-increase-2026/814187/",
+      "lang": "en"
+    },
+    {
+      "t": "Fuel surcharges wallop FedEx, UPS shippers as Amazon looms",
+      "pub": "Supply Chain Dive",
+      "date": "2026-07-20",
+      "u": "https://www.supplychaindive.com/news/fuel-surcharges-wallop-fedex-ups-shippers-as-amazon-looms/825580/",
+      "lang": "en"
+    },
+    {
+      "t": "Postal Service plans 8% fuel surcharge as Iran war raises transport costs",
+      "pub": "FreightWaves",
+      "date": "2026-03-25",
+      "u": "https://www.freightwaves.com/news/postal-service-plans-8-fuel-surcharge-as-iran-war-raises-transport-costs",
+      "lang": "en"
+    },
+    {
+      "t": "2026 air cargo rates could rise 15% due to Iran war impacts",
+      "pub": "FreightWaves",
+      "date": "2026-07-17",
+      "u": "https://www.freightwaves.com/news/2026-air-cargo-rates-could-rise-15-due-to-iran-war-impacts",
+      "lang": "en"
+    },
+    {
+      "t": "Middle East Operational Update 45",
+      "pub": "Maersk",
+      "date": "2026-09-09",
+      "u": "https://www.maersk.com/news/articles/2026/09/09/middle-east-operational-update-45",
+      "lang": "en"
+    },
+    {
+      "t": "Exclusive: Gulf's biggest port Jebel Ali waits for the war to end",
+      "pub": "Semafor",
+      "date": "2026-09-02",
+      "u": "https://www.semafor.com/article/09/02/2026/gulfs-biggest-port-jebel-ali-waits-for-the-war-to-end",
+      "lang": "en"
+    },
+    {
+      "t": "Red Sea Brief: 3 September 2026",
+      "pub": "Lloyd's List Intelligence",
+      "date": "2026-09-03",
+      "u": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-3-september-2026",
+      "lang": "en"
+    },
+    {
+      "t": "Yemen's Houthis declare naval blockade of Saudi Arabia: What to know",
+      "pub": "Al Jazeera",
+      "date": "2026-07-20",
+      "u": "https://www.aljazeera.com/news/2026/7/20/yemens-houthis-declare-naval-blockade-of-saudi-arabia-what-to-know",
+      "lang": "en"
+    },
+    {
+      "t": "Shipping giants sail cautiously back into Red Sea despite Houthi threats",
+      "pub": "Al-Monitor",
+      "date": "2026-09-29",
+      "u": "https://www.al-monitor.com/originals/2026/09/shipping-giants-sail-cautiously-back-red-sea-despite-houthi-threats",
+      "lang": "en"
+    },
+    {
+      "t": "War-risk insurance braces for prolonged elevated premiums as Hormuz ceasefire buckles",
+      "pub": "Insurance Business",
+      "date": "2026-06-28",
+      "u": "https://www.insurancebusinessmag.com/us/news/marine/report-warrisk-insurance-braces-for-prolonged-elevated-premiums-as-hormuz-ceasefire-buckles-580558.aspx",
+      "lang": "en"
+    },
+    {
+      "t": "Iran says it is charging fees for 'navigational services' through Strait of Hormuz",
+      "pub": "Euronews",
+      "date": "2026-05-25",
+      "u": "https://www.euronews.com/2026/05/25/iran-says-it-is-charging-fees-for-navigational-services-through-strait-of-hormuz",
+      "lang": "en"
+    },
+    {
+      "t": "Iran Launches \"Persian Gulf Strait Authority\" to Administer Hormuz Tolls",
+      "pub": "The Maritime Executive",
+      "date": "2026-05-05",
+      "u": "https://maritime-executive.com/article/iran-launches-persian-gulf-strait-authority-to-administer-hormuz-tolls",
+      "lang": "en"
+    },
+    {
+      "t": "Saudi Arabia launches initiative to reroute Gulf cargo to Red Sea ports",
+      "pub": "Arab News",
+      "date": "2026-03-13",
+      "u": "https://www.arabnews.com/node/2636228/amp",
+      "lang": "en"
+    },
+    {
+      "t": "Saudi logistics lifeline 'won't go back in the box' post-war",
+      "pub": "The Loadstar",
+      "date": "2026-04-15",
+      "u": "https://theloadstar.com/saudi-logistics-cargo-lifeline-wont-go-back-in-the-box-post-war/",
+      "lang": "en"
+    },
+    {
+      "t": "Dubai Raises E-Commerce Customs Duty Exemption to AED 1,000",
+      "pub": "VATupdate",
+      "date": "2026-09-12",
+      "u": "https://www.vatupdate.com/2026/09/12/dubai-raises-e-commerce-customs-duty-exemption-to-aed-1000/",
+      "lang": "en"
+    },
+    {
+      "t": "E-Store Customers: customs duty and VAT on online purchases",
+      "pub": "Zakat, Tax and Customs Authority (ZATCA)",
+      "date": "2026-09-30",
+      "u": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs_individual/e-stores-customers.aspx",
+      "lang": "en"
+    },
+    {
+      "t": "UAE e-invoicing mandate 2026: Readiness, ASP, and PINT AE",
+      "pub": "Avalara",
+      "date": "2026-03-01",
+      "u": "https://www.avalara.com/blog/en/europe/2026/03/uae-e-invoicing-mandate-2026-readiness-asp-pint-ae.html",
+      "lang": "en"
+    },
+    {
+      "t": "UAE residents still face up to 3-week delays on overseas shopping orders",
+      "pub": "Gulf News",
+      "date": "2026-05-28",
+      "u": "https://gulfnews.com/business/retail/uae-residents-still-face-up-to-3-week-delays-on-overseas-shopping-orders-1.500555265",
+      "lang": "en"
+    },
+    {
+      "t": "Chinese companies taking advantage of Gulf regulations, says Alshaya chairman",
+      "pub": "The National",
+      "date": "2026-02-02",
+      "u": "https://www.thenationalnews.com/business/economy/2026/02/02/alshaya-chairman-alleges-unfair-practices-by-chinese-companies-in-gulf/",
+      "lang": "en"
+    },
+    {
+      "t": "China faces oil challenge as prices soar and supply options narrow",
+      "pub": "Al Jazeera",
+      "date": "2026-09-17",
+      "u": "https://www.aljazeera.com/news/2026/9/17/china-faces-oil-challenge-as-prices-soar-and-supply-options-narrow",
+      "lang": "en"
+    },
+    {
+      "t": "How the Iran War Forced the Gulf to Rethink Its Security",
+      "pub": "TIME",
+      "date": "2026-09-14",
+      "u": "https://time.com/article/2026/09/14/gulf-uae-saudi-arabia-qatar-iran-war/",
+      "lang": "en"
+    },
+    {
+      "t": "UAE leaves OPEC in blow to oil cartel during war on Iran",
+      "pub": "Al Jazeera",
+      "date": "2026-04-28",
+      "u": "https://www.aljazeera.com/news/2026/4/28/uae-leaves-opec-and-opec",
+      "lang": "en"
+    },
+    {
+      "t": "Bypassing the straits: The India-Middle East-Europe corridor needs a wartime redesign",
+      "pub": "European Council on Foreign Relations",
+      "date": "2026-05-22",
+      "u": "https://ecfr.eu/article/bypassing-the-straits-the-india-middle-east-europe-corridor-needs-a-wartime-redesign/",
+      "lang": "en"
+    },
+    {
+      "t": "The Influence of Sea Power Upon History, 1660-1783 (A. T. Mahan, 1890)",
+      "pub": "Project Gutenberg",
+      "date": "2004-09-01",
+      "u": "https://www.gutenberg.org/ebooks/13529",
+      "lang": "en"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion (Farrell and Newman)",
+      "pub": "International Security, MIT Press",
+      "date": "2019-07-01",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    },
+    {
+      "t": "Ensuring Energy Security (Daniel Yergin)",
+      "pub": "Foreign Affairs",
+      "date": "2006-03-01",
+      "u": "https://www.foreignaffairs.com/world/ensuring-energy-security",
+      "lang": "en"
+    },
+    {
+      "t": "How much oil is going through Hormuz? Why data doesn't match US claims",
+      "pub": "Al Jazeera",
+      "date": "2026-09-03",
+      "u": "https://www.aljazeera.com/news/2026/9/3/how-much-oil-is-going-through-hormuz-how-data-doesnt-match-us-claims",
+      "lang": "en"
+    }
+  ]
+}

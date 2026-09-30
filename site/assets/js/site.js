@@ -84,6 +84,7 @@
       var match = tiles.filter(function (el) { return inRegion(el.getAttribute('data-regions').split(',')); });
       tiles.forEach(function (el) { el.hidden = match.length >= 2 && match.indexOf(el) === -1; });
     }
+    $$('[data-filter-regions] .bcard').forEach(function (el) { var rs = (el.getAttribute('data-regions') || '').split(','); el.hidden = !(inRegion(rs) || rs.indexOf('GLOBAL') > -1); });
     $$('[data-current-region]').forEach(function (el) { var R = t('R') || {}; el.textContent = (R[state.region] || state.region).toUpperCase(); });
     // Regional page: show the matching desk.
     var desks = $$('.desk');

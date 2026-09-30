@@ -1,0 +1,628 @@
+{
+  "slug": "global-small-parcel-door-closes",
+  "date": "2026-09-30",
+  "date_label": "30 September 2026",
+  "section": "Trade · Global e-commerce",
+  "region": "GLOBAL",
+  "regions": [
+    "GLOBAL",
+    "NA",
+    "EU",
+    "UK",
+    "AS",
+    "CN",
+    "SA"
+  ],
+  "title": "The small-parcel door closes: who pays, who declares, and where volume goes",
+  "dek": "The US, the EU, the UK and Japan are ending duty-free treatment for low-value e-commerce parcels, while Brazil has just reopened its door. For carriers and platforms, the question is no longer whether a small parcel pays, but who declares it, on what data and from which warehouse.",
+  "keypoints": [
+    "The [[US]] suspended its $800 de minimis exemption for all modes and repeals it by statute on 1 July 2027.",
+    "The [[EU]] has charged €3 per tariff category on parcels up to €150 since 1 July 2026, with a €2 handling fee targeted for 1 November.",
+    "The [[UK]] will remove its £135 relief by October 2028 and Japan ends its consumption tax exemption in April 2028; Brazil has zeroed its tax on purchases up to $50.",
+    "Early data shows China-Europe e-commerce air volumes down sharply and platforms shifting stock into local warehouses.",
+    "Liability is moving to platforms and sellers, which makes [[DDP]] and clean customs data the default."
+  ],
+  "body": [
+    {
+      "h": "Context: the exemption era ends, one market at a time"
+    },
+    {
+      "p": "For a decade, the cheapest cross-border parcels travelled under a quiet assumption: below a value threshold, nobody collected duty and customs barely looked. That assumption is now gone in the largest consumer markets. In the [[US]], [[CBP]] processed more than 1.36 billion de minimis shipments in 2024, against 139 million in 2015, a near tenfold rise in nine years. The $800 exemption has been suspended for all origins since 29 August 2025.",
+      "src": [
+        0,
+        3
+      ]
+    },
+    {
+      "p": "On 23 June 2026, CBP published two interim final rules that suspend the exemption indefinitely for all modes of transport: from 24 June for non-postal shipments and from 24 July for mail, with a new postal informal entry process for goods valued at $2,500 or less. The rules rest on the agency's own customs authority rather than on the emergency tariff orders, which matters for durability. Behind them sits the One Big Beautiful Bill Act of July 2025, which repeals the exemption by statute from 1 July 2027.",
+      "src": [
+        0,
+        1
+      ]
+    },
+    {
+      "p": "In the [[EU]], a flat €3 customs duty has applied since 1 July 2026 to goods in consignments worth up to €150. It is charged per tariff category, not per item: five T-shirts cost €3, three T-shirts and a watch cost €6. The Council describes the measure as interim until 1 July 2028. It cites 4.6 billion small parcels entering the EU in 2024, 91% of them from China. Reuters, citing EU figures, reported 5.8 billion in 2025.",
+      "src": [
+        7,
+        5,
+        17
+      ]
+    },
+    {
+      "p": "The €3 duty is only the first layer. The reformed Union Customs Code entered into force on 20 September 2026, after final approval by the European Parliament on 16 September. It makes online platforms and distance sellers the importer of record for their sales, with general application from 21 September 2027. On 28 September, the Commission adopted a delegated act setting a €2 handling fee on low-value items, now subject to a 30-day objection period and targeted for 1 November 2026. The EU Customs Data Hub opens for e-commerce on 1 July 2028.",
+      "src": [
+        9,
+        10,
+        8,
+        6
+      ]
+    },
+    {
+      "p": "Other markets are following. The [[UK]] confirmed in July 2026 that it will remove its £135 low-value customs relief by October 2028 at the latest, and make sellers and marketplaces liable for the duty. Japan's 2026 tax reform ends the consumption tax exemption for imports of ¥10,000 or less from 1 April 2028, with foreign sellers and large platforms collecting the tax at the point of sale. Mexico raised its import tax on courier and parcel shipments under $2,500 from 19% to 33.5% in August 2025. South Africa removed its flat-rate concession for low-value parcels in late 2024.",
+      "src": [
+        20,
+        21,
+        24,
+        25
+      ]
+    },
+    {
+      "p": "Brazil is moving the other way. The federal 20% import tax on purchases up to $50, known as the taxa das blusinhas, was zeroed by a provisional measure in May 2026. Congress approved it in early September and President Lula signed it into law on 10 September. The state-level [[ICMS]] consumption tax still applies.",
+      "src": [
+        22,
+        23
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "Washington: White House and CBP",
+          "stance": "Every parcel is a declaration; data is a security tool.",
+          "text": "CBP frames the end of de minimis as a border-security and revenue measure. It reported collecting more than $1 billion in duties on 246 million formerly exempt parcels by mid-December 2025, and an 82% rise in seizures of unsafe or non-compliant goods. An agency official argued that better data leaves CBP \"better equipped to detect and disrupt criminal networks\". The statutory repeal removes any doubt about the direction of travel.",
+          "src": [
+            2,
+            0
+          ]
+        },
+        {
+          "actor": "Brussels: Commission, Council and Parliament",
+          "stance": "Fair competition, product safety and a customs system that can cope.",
+          "text": "The Council's case is volume and origin: billions of parcels, overwhelmingly from one country, entering under a threshold written for another era. The Cypriot finance minister said abolishing the out-of-date exemption would help support EU business. EU lawmaker Dirk Gotink told Reuters the exemption was abused and misused on an industrial scale at the expense of EU businesses. The Commission's longer game is structural: make platforms the accountable importer and fund controls through a handling fee.",
+          "src": [
+            5,
+            17,
+            9
+          ]
+        },
+        {
+          "actor": "EU online commerce lobby: Ecommerce Europe",
+          "stance": "Accepts the reform, wants it harmonised and phased.",
+          "text": "Ecommerce Europe's reading is pragmatic. It says the reform will fundamentally reshape how businesses deal with customs, welcomes a phased rollout that gives firms time to adapt, and notes that earlier national fee initiatives caused unintended diversion of trade and import routes. The underlying interest is a single EU rule, not 27 different ones.",
+          "src": [
+            11
+          ]
+        },
+        {
+          "actor": "Chinese platforms and Beijing",
+          "stance": "Adapt the model, contest discrimination.",
+          "text": "Beijing's foreign ministry asked the EU in May 2025 to provide a fair, transparent and non-discriminatory business environment for Chinese companies. The platforms have adapted rather than fought. Temu's co-chairman said the EU change has a considerable impact on parts of the business, and the group is building local warehousing and recruiting local merchants. AliExpress shows duty-inclusive prices; Shein is reported to be expanding warehouse space in Wrocław.",
+          "src": [
+            18,
+            16,
+            17
+          ]
+        },
+        {
+          "actor": "Postal operators and the Universal Postal Union",
+          "stance": "The postal channel was not built to be a customs broker.",
+          "text": "When the US exemption ended, 88 postal operators suspended some or all US-bound services and US-bound mail from [[UPU]] members fell 81% in a week. The UPU said airlines signalled they were unwilling or unable to carry duty-collection responsibility, and built a delivered-duty-paid tool for posts. In Europe, PostEurop has warned that the customs reform puts the cross-border universal postal service at risk.",
+          "src": [
+            3,
+            19
+          ]
+        },
+        {
+          "actor": "Express integrators: DHL, FedEx, UPS",
+          "stance": "Yes to the duty, no to rushed data rules.",
+          "text": "Through the European Express Association, the three integrators backed the €3 flat duty but asked Brussels to defer the more complex and unresolved elements, including new data requirements. Without a workable legal framework, they warned of a real risk of shipments being held at EU borders. Their interest is clear: they already run brokerage at scale, and what they fear is operational ambiguity, not the tax itself.",
+          "src": [
+            12
+          ]
+        },
+        {
+          "actor": "Consumer groups",
+          "stance": "Split between safety and price.",
+          "text": "Belgian consumer group Testachats argues that too many non-compliant products enter the market and supports the rules if they raise compliance by producers and sellers. Euronews reported Testachats test results showing a high failure rate among fast-fashion products. The counter-argument is price: Euronews estimated that a €20 order could cost €28 to €30 once duty and fees are added.",
+          "src": [
+            13
+          ]
+        },
+        {
+          "actor": "Brasília: Lula government and Congress",
+          "stance": "Cheap imports are a household budget issue.",
+          "text": "The Senate rapporteur called the zero rate a measure of tax justice for lower-income consumers. Lula dismissed business claims of losses as false, and Poder360 notes a March 2026 poll in which 62% named the tax the government's biggest mistake, ahead of an election. The law keeps safeguards: platforms must cooperate with the tax authority, and the Finance Ministry may set different rates by channel and by participation in the Remessa Conforme compliance programme.",
+          "src": [
+            22,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "p": "The disagreement is less about whether low-value parcels should pay than about who carries the liability and how fast. Washington and Brussels agree on the principle, but differ on method: the US pushed every shipment into formal or informal entry almost overnight, while the EU is layering a flat duty, a fee and a platform-liability regime over two years. Integrators and posts accept the destination but argue about sequencing, because they bear the operational failure. Chinese platforms contest the framing of unfair competition while quietly rebuilding their networks. Brazil is the outlier that proves the political limit: when cheap imports become a cost-of-living issue before an election, the threshold comes back.",
+      "src": [
+        6,
+        12,
+        16,
+        23
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Economic nationalism and neo-mercantilism (Hamilton, List, Lighthizer)",
+          "reading": "This school judges trade by what it does to domestic production and jobs, not by aggregate efficiency. Alexander Hamilton and Friedrich List defended tariffs to build national industry; Robert Lighthizer, in No Trade Is Free, argues that American trade policy should serve domestic workers and manufacturing and treats tariffs as a legitimate tool. Read this way, a de minimis exemption is a subsidy to foreign sellers that domestic retailers and factories, which pay full duty, never received.",
+          "parcel": "In the United States this lens makes the exemption's return very unlikely whoever holds the White House, so duty-paid pricing on US lanes should be treated as permanent, not as a phase to wait out.",
+          "src": [
+            0,
+            2,
+            26,
+            27
+          ]
+        },
+        {
+          "school": "Liberal institutionalism and the rules-based trade order (Keohane)",
+          "reading": "Robert Keohane's argument is that institutions make cooperation possible by lowering transaction costs and making behaviour predictable. From this angle the problem is not that parcels pay, but that each market is writing its own data, liability and fee model. The EU's phased reform, the Council's harmonised timetable and the UPU's delivered-duty-paid tool for posts are institutional answers; unilateral national fees and overnight rule changes are what the school warns against.",
+          "parcel": "The commercial prize goes to carriers and platforms that build one customs data model reusable across markets, and to the institutions, such as the UPU and the [[WTO]], that manage to standardise it.",
+          "src": [
+            5,
+            11,
+            3,
+            28
+          ]
+        },
+        {
+          "school": "Weaponised interdependence (Farrell and Newman)",
+          "reading": "Henry Farrell and Abraham Newman show how states that control the hubs of global networks can use them to watch flows and to cut access. Ending de minimis turns the parcel network into such a hub: every consignment now carries seller, origin, value and classification data to the border authority. CBP's own justification, better data to detect criminal networks, is a textbook case of what the authors call the panopticon effect.",
+          "parcel": "Customs data becomes a regulated strategic asset. Carriers are the nodes governments will ask for it, so data governance, retention and disclosure clauses belong in every platform and shipper contract.",
+          "src": [
+            2,
+            0,
+            29
+          ]
+        },
+        {
+          "school": "Liberal consumer-welfare view (Smith, Ricardo)",
+          "reading": "The classical case, from Adam Smith's view that consumption is the purpose of production to David Ricardo's comparative advantage, holds that cheaper imports raise real incomes. Flat duties per parcel or per tariff line are regressive, so the cost falls hardest on low-income households. Brazil's zero rate, defended by the Senate rapporteur as tax justice for lower-income consumers, is this lens winning at the ballot box.",
+          "parcel": "Where cost of living dominates politics, thresholds can come back, which makes those lanes reversible in both directions: price them with short commitments and rate-change clauses.",
+          "src": [
+            22,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: from mailbag to declaration"
+    },
+    {
+      "p": "The exemption regimes were designed for occasional mail orders, and the postal channel was built to match: light data, bulk manifests, clearance at destination with the consumer paying any charge at the door. Removing the threshold turns every consignment into a customs declaration. The new US postal informal entry requires a 10-digit tariff classification, country of origin, declared value, duty owed, flight number and tracking number, filed by an eligible party and paid by the 7th of the following month.",
+      "src": [
+        0
+      ]
+    },
+    {
+      "p": "That is where the postal model broke in 2025. Posts had no established links to the parties qualified to pay US duty, and carriers would not take the liability. Deutsche Post resumed US parcels only after about four weeks, with a postal delivered-duty-paid service, a €2 fee per shipment and a requirement for tariff numbers and origin on every item.",
+      "src": [
+        3,
+        4
+      ]
+    },
+    {
+      "p": "In Europe, the €3 per tariff category turns classification quality into a price variable. A wrong heading can add or remove €3 per line, and a basket with four product families costs four times a single-family basket. From 1 November 2026, product identifiers become mandatory on low-value declarations. Sources differ on whether the €2 fee applies per item or per product category; the delegated act text should be checked before pricing. The Parliament-approved text also gives a reduced handling fee to non-EU sellers importing into EU warehouses.",
+      "src": [
+        7,
+        11,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "p": "Our reading: [[DDU]] for business-to-consumer parcels becomes the expensive exception. When the platform or seller is the importer, as the EU reform, the UK design and Japan's point-of-sale model all require, duties are collected at checkout and [[DDP]] becomes the default. The [[IOSS]] channel for [[VAT]] was the rehearsal. The UK has chosen full tariff classification over a simplified bucket rate, and non-UK sellers must appoint a fiscal representative with joint liability.",
+      "src": [
+        9,
+        20,
+        21
+      ]
+    },
+    {
+      "h": "Lanes and volumes: air parcels fall, stock and consolidation rise"
+    },
+    {
+      "p": "The European data after 1 July shows the mechanism at work. Liège Airport reported e-commerce parcels down 24% in July year on year and declarations down 52%. Frankfurt's China-origin tonnage fell 16.5%. Rotate data showed China and Hong Kong to Europe e-commerce imports down 24% in July against June, with freighter capacity settling 28% below June. Late August showed soft rates and ample capacity.",
+      "src": [
+        15
+      ]
+    },
+    {
+      "p": "French customs figures, cited by the French economy ministry, put the fall in Chinese parcel imports at 30 to 40% since the duty started. Euronews reported June to July sales volumes down 50% for Temu, 37% for AliExpress and 15% for Shein, which had planned a Polish warehouse. Amazon told Reuters that 97% of its EU shipments are fulfilled from European warehouses.",
+      "src": [
+        14,
+        17
+      ]
+    },
+    {
+      "p": "The US experience suggests the volume changes shape more than it disappears. The 246 million parcels processed as dutiable by mid-December 2025 are a fraction of the 1.36 billion exempt shipments of 2024, but the goods did not all vanish. Some moved into bulk freight, bonded or domestic warehouses and domestic last mile. South Africa offers a smaller precedent: after the concession ended, cross-border e-commerce growth slowed to 7% in 2025 and Temu introduced local warehouse dispatch.",
+      "src": [
+        2,
+        0,
+        25
+      ]
+    },
+    {
+      "p": "Our reading: value moves from long-haul air parcel lanes and origin consolidation towards import clearance, customs warehousing and destination fulfilment. Operators whose revenue depends on direct China-to-consumer air parcels face a structural, not cyclical, decline on EU and US lanes. Brazil runs against this: a zero federal rate up to $50 restores the economics of direct cross-border parcels, but the power to vary rates by channel keeps the lane politically exposed.",
+      "src": [
+        15,
+        16,
+        22
+      ]
+    },
+    {
+      "h": "Pricing and contracts: who carries the duty, the fee and the error"
+    },
+    {
+      "p": "A flat duty per tariff line and a flat fee per item are regressive by design: they weigh most on the cheapest goods. On a €6 accessory, €3 of duty and a €2 fee almost double the price. On a €60 basket with one product family, they are marginal. The likely effect is fewer, larger and more homogeneous baskets, higher free-shipping thresholds, and assortment moves that push low-ticket items into local stock.",
+      "src": [
+        7,
+        8
+      ]
+    },
+    {
+      "p": "Contracts need to follow. The EU reform assigns customs debt through a cascade from platforms to sellers, then carriers or agents, and residually others. Postal special arrangements carry the liability where there is no IOSS registration. Penalties for repeated breaches range from 1% to 6% of the value of goods imported over twelve months. The integrators' warning about goods held at the border is a warning about who pays for storage, returns and disposal when data fails.",
+      "src": [
+        11,
+        10,
+        12
+      ]
+    },
+    {
+      "figures": [
+        {
+          "big": "1.36bn",
+          "label": "US de minimis shipments processed in 2024, before the suspension"
+        },
+        {
+          "big": "4.6bn",
+          "label": "Small parcels entering the EU in 2024, 91% from China"
+        },
+        {
+          "big": "81%",
+          "label": "Fall in US-bound mail from UPU members in the week after 29 Aug 2025"
+        },
+        {
+          "big": "30-40%",
+          "label": "Fall in Chinese parcel imports into France after the EU €3 duty (French customs, Aug 2026)"
+        }
+      ],
+      "src": [
+        0,
+        5,
+        3,
+        14
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: stock goes local",
+          "likelihood": "Most likely",
+          "text": "The EU, US, UK and Japan stay on course. Direct China-to-consumer air parcels settle at a structurally lower level, while platforms move fast-moving items into bonded and domestic warehouses. Air e-commerce capacity on China-Europe is cut or redeployed, and value shifts to clearance and destination fulfilment.",
+          "signal": "Liège, Budapest and Frankfurt e-commerce data staying well below 2025 through peak, plus new platform warehouse openings in the EU."
+        },
+        {
+          "name": "Upside for cross-border carriers: DDP normalises",
+          "likelihood": "Plausible",
+          "text": "Consumers accept duty-inclusive prices and platforms keep part of the direct model where the item and basket justify it. Carriers and posts that deliver clean DDP data win back part of the lost volume at a higher yield per parcel. Brazil's zero rate lifts direct parcel volumes into Latin America.",
+          "signal": "Fourth-quarter cross-border volumes on DDP lanes recovering towards prior-year levels, and wider adoption of the UPU DDP tool by posts."
+        },
+        {
+          "name": "Downside: friction at peak",
+          "likelihood": "Less likely, high impact",
+          "text": "The EU handling fee and product identifier requirements from 1 November, and the US postal compliance date on 22 October, collide with peak season. Data gaps cause holds at borders, national fees add on top of the EU fee, and some posts restrict lanes again.",
+          "signal": "Reports of backlogs at EU entry hubs in November, a Parliament or Council objection to the fee, or posts suspending services."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-10-22",
+          "when": "22 Oct 2026",
+          "what": "US: compliance date for partner agency and chapter 98/99 requirements under the postal informal entry rule"
+        },
+        {
+          "date": "2026-11-01",
+          "when": "1 Nov 2026",
+          "what": "EU: €2 handling fee (subject to the objection period) and mandatory product identifiers"
+        },
+        {
+          "date": "2027-07-01",
+          "when": "1 Jul 2027",
+          "what": "US: statutory repeal of the de minimis exemption takes effect"
+        },
+        {
+          "date": "2027-09-21",
+          "when": "21 Sep 2027",
+          "what": "EU: general application of the new Union Customs Code, including importer obligations for distance sales"
+        },
+        {
+          "date": "2028-04-01",
+          "when": "1 Apr 2028",
+          "what": "Japan: consumption tax collected at the point of sale on imports of ¥10,000 or less"
+        },
+        {
+          "date": "2028-07-01",
+          "when": "1 Jul 2028",
+          "what": "EU: Customs Data Hub opens for e-commerce; the €3 flat duty is due to give way to full tariff rates"
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Rebuild landed-cost pricing around tariff lines, not parcels: model €3 per category plus the €2 fee per basket, and set minimum basket values or surcharges for single low-ticket items on EU lanes.",
+        "Make DDP the default on US, EU and UK business-to-consumer lanes, and rewrite contracts to state who carries duty, fees and storage on refused, returned or held parcels.",
+        "Set a customs data standard with shippers before 1 November: 10-digit classification, origin, value and product identifier on every line, with holds at origin for incomplete data rather than at the border.",
+        "Renegotiate China-Europe e-commerce air capacity on shorter commitments while rates are soft, and add sea or rail consolidation options priced against the air parcel lane.",
+        "Build or partner for import clearance, customs warehousing and domestic injection in the EU and US, aimed at platforms moving stock local; price the reduced EU handling fee for warehouse imports into the offer.",
+        "Treat Brazil as a reopened but reversible lane: add capacity in stages and keep contract terms flexible to Finance Ministry rate changes by channel."
+      ]
+    },
+    {
+      "impact": "Outside Brazil, every small parcel now needs a solvent importer and clean data: price the declaration, not only the kilo."
+    }
+  ],
+  "glossary": [
+    "US",
+    "CBP",
+    "EU",
+    "UK",
+    "ICMS",
+    "UPU",
+    "DDU",
+    "DDP",
+    "IOSS",
+    "VAT",
+    "WTO"
+  ],
+  "glossary_add": {
+    "US": [
+      "United States",
+      "The United States of America."
+    ],
+    "UK": [
+      "United Kingdom",
+      "Great Britain and Northern Ireland, outside the EU customs union since 2021."
+    ],
+    "ICMS": [
+      "Imposto sobre Circulação de Mercadorias e Serviços",
+      "Brazil's state-level tax on the circulation of goods and some services, also charged on imports."
+    ]
+  },
+  "sources": [
+    {
+      "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry (interim final rule)",
+      "pub": "Federal Register / U.S. Customs and Border Protection",
+      "date": "2026-06-24",
+      "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes of importation",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-06-24",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+      "lang": "en"
+    },
+    {
+      "t": "CBP collects $1B in duties since end of de minimis",
+      "pub": "SupplyChainBrain",
+      "date": "2025-12-23",
+      "u": "https://www.supplychainbrain.com/articles/43038-cbp-collects-1b-in-duties-since-end-of-de-minimis",
+      "lang": "en"
+    },
+    {
+      "t": "Universal Postal Union deploys post-de minimis tool",
+      "pub": "Supply Chain Dive",
+      "date": "2025-09-10",
+      "u": "https://www.supplychaindive.com/news/upu-de-minimis-ddp-suspension-solution/759558/",
+      "lang": "en"
+    },
+    {
+      "t": "German postal operator to resume US parcel shipping",
+      "pub": "FreightWaves",
+      "date": "2025-09-25",
+      "u": "https://www.freightwaves.com/news/german-postal-operator-to-resume-us-parcel-shipping",
+      "lang": "en"
+    },
+    {
+      "t": "Council gives final green light to new customs duty rules for small parcels",
+      "pub": "Council of the European Union",
+      "date": "2026-02-11",
+      "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+      "lang": "en"
+    },
+    {
+      "t": "EU customs: Council and Parliament agree on landmark reform",
+      "pub": "Council of the European Union",
+      "date": "2026-03-26",
+      "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/26/eu-customs-council-and-parliament-agree-on-landmark-reform/",
+      "lang": "en"
+    },
+    {
+      "t": "Ensuring fairness and safety: €3 customs duty for low-value parcels",
+      "pub": "European Commission",
+      "date": "2026-06-29",
+      "u": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+      "lang": "en"
+    },
+    {
+      "t": "EU sets €2 handling fee for small parcels under customs reform",
+      "pub": "VATupdate",
+      "date": "2026-09-28",
+      "u": "https://www.vatupdate.com/2026/09/28/eu-sets-e2-handling-fee-for-small-parcels-under-customs-reform/",
+      "lang": "en"
+    },
+    {
+      "t": "KPMG report: New EU Customs Code enters into force; platforms face importer obligations for distance sales",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-09-22",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/09/kpmg-report-new-union-customs-code-platforms-importer-distance-sales.html",
+      "lang": "en"
+    },
+    {
+      "t": "EU Parliament gives final approval to new rules on e-commerce and customs",
+      "pub": "Eunews",
+      "date": "2026-09-16",
+      "u": "https://www.eunews.it/en/2026/09/16/eu-parliament-gives-final-approval-to-new-rules-on-e-commerce-and-customs/",
+      "lang": "en"
+    },
+    {
+      "t": "The EU Customs Reform for e-commerce: overview of milestones in 2026",
+      "pub": "Ecommerce Europe",
+      "date": "2026-08-27",
+      "u": "https://ecommerce-europe.eu/news-item/the-eu-customs-reform-for-e-commerce-overview-of-milestones-in-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "DHL, FedEx, UPS warn EU parcel tax risks disruption at borders",
+      "pub": "The Loadstar",
+      "date": "2026-05-29",
+      "u": "https://theloadstar.com/dhl-fedex-ups-warn-eu-parcel-tax-risks-disruption-at-borders/",
+      "lang": "en"
+    },
+    {
+      "t": "EU ends tax loophole exploited by SHEIN, Temu and AliExpress",
+      "pub": "Euronews",
+      "date": "2026-06-30",
+      "u": "https://www.euronews.com/my-europe/2026/06/30/eu-ends-tax-loophole-exploited-by-shein-temu-and-aliexpress",
+      "lang": "en"
+    },
+    {
+      "t": "Chinese imports plunge 30% to 40% after EU tax on small parcels",
+      "pub": "Euronews",
+      "date": "2026-08-27",
+      "u": "https://www.euronews.com/business/2026/08/27/eu-tax-chinese-small-parcels-plunge-30-to-40",
+      "lang": "en"
+    },
+    {
+      "t": "China-Europe e-commerce cargo after EU de minimis reform",
+      "pub": "STAT Times",
+      "date": "2026-09-01",
+      "u": "https://www.stattimes.com/ecommerce/china-europe-e-commerce-cargo-after-eu-de-minimis-reform-1360498",
+      "lang": "en"
+    },
+    {
+      "t": "Temu owner invests in local fulfillment in face of de minimis changes",
+      "pub": "Supply Chain Dive",
+      "date": "2026-09-03",
+      "u": "https://www.supplychaindive.com/news/temu-owner-invests-in-local-fulfillment-in-face-of-de-minimis-changes/829446/",
+      "lang": "en"
+    },
+    {
+      "t": "EU slaps €3 fee on cheap ecommerce parcels in blow to Shein, Temu, AliExpress (Reuters)",
+      "pub": "FashionNetwork / Reuters",
+      "date": "2026-07-01",
+      "u": "https://us.fashionnetwork.com/news/Eu-slaps-3-fee-on-cheap-ecommerce-parcels-in-blow-to-shein-temu-aliexpress,1848688.html",
+      "lang": "en"
+    },
+    {
+      "t": "China seeks fairness amid EU's parcel fee plan for likes of Shein, Temu",
+      "pub": "Just Style",
+      "date": "2025-05-21",
+      "u": "https://www.just-style.com/news/china-seeks-fairness-amid-eus-parcel-fee-plan-for-likes-of-shein-temu/",
+      "lang": "en"
+    },
+    {
+      "t": "EU customs reform risks cross-border postal USO, PostEurop warns",
+      "pub": "CEP-Research",
+      "date": "2026-04-29",
+      "u": "https://www.cep-research.com/2026/04/29/eu-customs-reform-risks-cross-border-postal-uso-posteurop-warns/",
+      "lang": "en"
+    },
+    {
+      "t": "Reforming the customs treatment of low value imports: consultation response",
+      "pub": "HM Treasury / HMRC (GOV.UK)",
+      "date": "2026-07-13",
+      "u": "https://assets.publishing.service.gov.uk/media/6a511a7b1228eb26a4cab7c6/LVI_Consultation_Response.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Japan to introduce point-of-sale consumption tax for low-value goods from April 2028",
+      "pub": "VATupdate (citing PwC Japan)",
+      "date": "2026-01-17",
+      "u": "https://www.vatupdate.com/2026/01/17/japan-to-introduce-point-of-sale-consumption-tax-for-low-value-goods-from-april-2028/",
+      "lang": "en"
+    },
+    {
+      "t": "Senate zeroes the 'blusinhas tax' on international remittances of up to US$50",
+      "pub": "Agência Senado",
+      "date": "2026-09-03",
+      "u": "https://www12.senado.leg.br/noticias/materias/2026/09/03/senado-zera-taxa-das-blusinhas-nas-remessas-internacionais-de-ate-us-50",
+      "lang": "pt"
+    },
+    {
+      "t": "Seeking positive agenda items, Lula signs end of the 'blusinhas tax'",
+      "pub": "Poder360",
+      "date": "2026-09-10",
+      "u": "https://www.poder360.com.br/poder-governo/buscando-pautas-positivas-lula-sanciona-fim-da-taxa-das-blusinhas/",
+      "lang": "pt"
+    },
+    {
+      "t": "Mexico hikes import tax on low-value goods to 33.5%",
+      "pub": "Mexico Business News",
+      "date": "2025-07-31",
+      "u": "https://mexicobusiness.news/ecommerce/news/mexico-hikes-import-tax-low-value-goods-335-retail-week",
+      "lang": "en"
+    },
+    {
+      "t": "Shein, Temu forced to rethink SA e-commerce playbook",
+      "pub": "ITWeb",
+      "date": "2026",
+      "u": "https://www.itweb.co.za/article/shein-temu-forced-to-rethink-sa-e-commerce-playbook/Pero3qZ365PvQb6m",
+      "lang": "en"
+    },
+    {
+      "t": "No Trade Is Free: Changing Course, Taking on China, and Helping America's Workers",
+      "pub": "HarperCollins, Robert Lighthizer",
+      "date": "2023-06-13",
+      "u": "https://www.harpercollins.com.au/9780063282131/no-trade-is-free/",
+      "lang": "en"
+    },
+    {
+      "t": "The National System of Political Economy",
+      "pub": "Online Library of Liberty, Friedrich List",
+      "u": "https://oll.libertyfund.org/titles/lloyd-the-national-system-of-political-economy",
+      "lang": "en"
+    },
+    {
+      "t": "After Hegemony: Cooperation and Discord in the World Political Economy",
+      "pub": "Princeton University Press, Robert O. Keohane",
+      "u": "https://press.princeton.edu/books/paperback/9780691122489/after-hegemony",
+      "lang": "en"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+      "pub": "International Security (MIT Press), Henry Farrell and Abraham L. Newman",
+      "date": "2019-07-01",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    }
+  ]
+}

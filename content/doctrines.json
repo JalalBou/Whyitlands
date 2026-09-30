@@ -1,0 +1,575 @@
+{
+  "title": "Doctrines: the lenses behind the decisions",
+  "intro": "Governments do not change customs, tax and trade rules at random. Behind each tariff, threshold or data mandate sits a school of thought about what trade is for, who should gain from it and how far the state should steer it. The same parcel can be read as consumer welfare in one capital, as a threat to domestic industry in another, and as a data stream worth controlling in a third.\n\nFor a parcel or e-commerce logistics executive, knowing the lens is a forecasting tool. A government that reasons like an economic nationalist will not reopen a duty-free threshold because volumes fall; one that hedges between blocs will sign overlapping deals rather than pick a side; one that thinks in chokepoints will treat data and straits as leverage. The schools below are simplified on purpose, with the thinkers they come from, how they see trade and borders, what they mean for parcels today, and where they are visibly at work in 2026.",
+  "schools": [
+    {
+      "key": "realism",
+      "name": "Realism, offensive and defensive",
+      "thinkers": "John Mearsheimer (offensive realism, The Tragedy of Great Power Politics, 2001); Kenneth Waltz (structural realism, Theory of International Politics, 1979) and Stephen Walt (balance of threat, The Origins of Alliances, 1987) on the defensive side.",
+      "idea": "States live in a system with no world government, so security comes first. Offensive realists expect great powers to seek as much power as they can; defensive realists expect them to seek enough security and to balance against threats. Either way, relative gains matter more than absolute ones.",
+      "trade": "Trade is judged by who gains more from it and whether it creates dependence on a rival. Borders are tools of security as well as of revenue.",
+      "parcel": "Expect trade between rivals to survive only in goods seen as non-sensitive, and for truces to be short and conditional. Lanes between rival blocs need pricing with expiry dates in mind, and technology-heavy categories carry the highest risk of sudden controls.",
+      "seen_in": "The United States and China extended their trade truce to 10 January 2027 in September 2026, while Washington did not grant Beijing's request for easier access to advanced AI chips.",
+      "briefings": [
+        "cn-platforms-go-local",
+        "as-asean-one-rulebook",
+        "na-us-parcel-rules",
+        "me-hormuz-fuel-bill"
+      ],
+      "src": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "key": "liberal-institutionalism",
+      "name": "Liberal institutionalism and the rules-based trade order",
+      "thinkers": "Robert Keohane (After Hegemony, 1984); Robert Keohane and Joseph Nye (Power and Interdependence, 1977); the GATT and WTO system.",
+      "idea": "Institutions let states cooperate even without a dominant power, because they lower transaction costs, share information and make behaviour predictable. Rules outlast the balance of power that created them. Cooperation is hard but rational.",
+      "trade": "Open markets under shared, enforceable rules are a positive-sum game. Borders should be governed by common standards rather than by unilateral decisions.",
+      "parcel": "This lens favours interoperable customs data, common postal and customs standards and regional agreements that cut paperwork. Carriers that build one data model reusable across markets benefit most when this school is in the ascendant.",
+      "seen_in": "ASEAN concluded its Digital Economy Framework Agreement on 30 May 2026, with signature planned for November, and the EU-Mercosur agreement has applied provisionally since 1 May 2026.",
+      "briefings": [
+        "as-asean-one-rulebook",
+        "global-small-parcel-door-closes",
+        "sa-brazil-parcel-tax-election",
+        "eu-every-parcel-pays"
+      ],
+      "src": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "key": "economic-nationalism",
+      "name": "Economic nationalism and neo-mercantilism",
+      "thinkers": "Alexander Hamilton (Report on the Subject of Manufactures, 1791); Friedrich List (The National System of Political Economy, 1841); Robert Lighthizer (No Trade Is Free, 2023).",
+      "idea": "National economic strength, especially manufacturing, is a goal in its own right and a basis of power. The state should shape trade to build and protect domestic production. Trade deficits and offshoring are treated as costs, not as neutral market outcomes.",
+      "trade": "Tariffs are a legitimate policy tool, and trade agreements are judged by what they do for domestic workers and industry. Borders are where that policy is enforced.",
+      "parcel": "Duty-free thresholds look like subsidies to foreign sellers, so this school removes them and makes platforms liable. Expect country tariffs to change often, and plan for duty-paid delivery as a permanent cost on the lanes this school governs.",
+      "seen_in": "Since 24 July 2026 the United States has applied Section 301 tariffs of 10% or 12.5% across 60 economies, and its $800 de minimis exemption is suspended for all modes pending statutory repeal on 1 July 2027.",
+      "briefings": [
+        "na-us-parcel-rules",
+        "global-small-parcel-door-closes",
+        "cn-platforms-go-local",
+        "as-asean-one-rulebook"
+      ],
+      "src": [
+        8,
+        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "key": "developmentalism",
+      "name": "Developmentalism and infant-industry protection",
+      "thinkers": "Friedrich List on infant industries; Raúl Prebisch and the UN Economic Commission for Latin America (ECLAC), whose 1950 study argued that primary-goods exporters lose out in their terms of trade; later, Ha-Joon Chang (Kicking Away the Ladder, 2002).",
+      "idea": "Developing economies need time and protection to build industries that can compete. Free trade between unequal economies tends to lock poorer ones into commodities. The state guides industrialisation through tariffs, credit and procurement.",
+      "trade": "Openness is sequenced: protect young sectors first, open once they are competitive. Borders are used to shape the domestic industrial base.",
+      "parcel": "Cheap cross-border consumer parcels are seen as a threat to local textile, apparel and retail sectors. Expect floors, higher rates for non-treaty origins, marketplace rules that favour local sellers and pressure for tax parity, which pushes volume from direct parcels towards local stock.",
+      "seen_in": "Mexico has applied tariffs of 5% to 50% on 1,463 tariff lines from countries without a trade agreement since 1 January 2026; Indonesia's Permendag 19/2026 keeps a $100 floor for cross-border goods; Brazil's industry confederation challenged the zero parcel rate at the Supreme Court in May 2026.",
+      "briefings": [
+        "sa-brazil-parcel-tax-election",
+        "as-asean-one-rulebook",
+        "naf-nearshoring-gateway"
+      ],
+      "src": [
+        7,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "key": "geoeconomics",
+      "name": "Geoeconomics",
+      "thinkers": "Edward Luttwak (From Geopolitics to Geo-economics, 1990); Robert Blackwill and Jennifer Harris (War by Other Means: Geoeconomics and Statecraft, 2016). Janet Yellen's 2022 case for friend-shoring, moving supply chains towards trusted partners, is a policy expression of the same logic.",
+      "idea": "States pursue geopolitical goals with economic instruments: tariffs, sanctions, investment screening, export controls, aid and market access. Luttwak argued that rivalry among states would increasingly take commercial form. Blackwill and Harris urged Washington to use these tools more deliberately.",
+      "trade": "Trade is an arena of power as well as of exchange. Access to a large market is leverage, and rules of origin become instruments of policy.",
+      "parcel": "Origin claims, payment rails and platform data become contested ground. Lanes from third countries that sit between rival blocs carry an enforcement risk premium in holds, documentation and penalties.",
+      "seen_in": "The White House report on transshipment of 13 August 2026 ranked Southeast Asian origins by risk, and Washington's 25% Section 301 tariff on Brazil cites practices including the Pix payment system.",
+      "briefings": [
+        "as-asean-one-rulebook",
+        "sa-brazil-parcel-tax-election",
+        "na-us-parcel-rules",
+        "cn-platforms-go-local",
+        "naf-nearshoring-gateway"
+      ],
+      "src": [
+        17,
+        16,
+        45,
+        18,
+        19
+      ]
+    },
+    {
+      "key": "weaponised-interdependence",
+      "name": "Weaponised interdependence",
+      "thinkers": "Henry Farrell and Abraham Newman (Weaponized Interdependence, International Security, 2019; Underground Empire, 2023).",
+      "idea": "Global economic networks are not flat: they run through hubs such as financial messaging, dollar clearing, chips or rare earths. States that control a hub can watch what flows through it (the panopticon effect) and cut others off (the chokepoint effect). Interdependence becomes a source of coercion rather than of peace.",
+      "trade": "Every dependency is a potential lever for someone else. Borders matter less than control of the networks that cross them.",
+      "parcel": "Customs data mandates turn parcel networks into information hubs for border authorities, and export controls on inputs can halt categories overnight. Carriers are the nodes governments will ask for data, so data governance and conflict-of-laws clauses become commercial terms.",
+      "seen_in": "China's pause on new rare-earth export controls is tied to the truce with Washington, now extended to 10 January 2027; the new US postal informal entry requires classification, origin, value and flight data on every mail item.",
+      "briefings": [
+        "cn-platforms-go-local",
+        "global-small-parcel-door-closes",
+        "me-hormuz-fuel-bill"
+      ],
+      "src": [
+        20,
+        3,
+        11
+      ]
+    },
+    {
+      "key": "eu-open-strategic-autonomy",
+      "name": "EU open strategic autonomy",
+      "thinkers": "European Commission, Trade Policy Review (February 2021) and Joint Communication on strengthening economic security (December 2025).",
+      "idea": "The EU stays open to trade but aims to act on its own terms: reduce critical dependencies, defend its rules and use its market power more assertively. Openness is the default; protection is targeted and rule-based.",
+      "trade": "Trade is welcome if partners follow EU rules on safety, data, carbon and competition. Borders are where those rules are enforced, including on platforms outside the EU.",
+      "parcel": "Brussels does not ban foreign platforms; it makes them liable as importers, charges every direct parcel and rewards consolidated imports into EU warehouses. Clearance, bonded storage and domestic last mile inside the EU gain; direct long-haul consumer parcels lose.",
+      "seen_in": "The EU has charged a €3 duty per tariff category on parcels up to €150 since 1 July 2026, its reformed customs code entered into force on 20 September 2026 with platforms as importers of record, and the Commission fined Temu €200 million under the Digital Services Act.",
+      "briefings": [
+        "eu-every-parcel-pays",
+        "global-small-parcel-door-closes",
+        "cn-platforms-go-local",
+        "uk-between-three-rulebooks",
+        "naf-nearshoring-gateway"
+      ],
+      "src": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "key": "dual-circulation",
+      "name": "China's dual circulation and self-reliance",
+      "thinkers": "Xi Jinping's dual circulation strategy (2020), written into the 14th Five-Year Plan (2021) and extended by the 15th Five-Year Plan (2026).",
+      "idea": "The domestic market is the main engine of growth, with external trade as a support that must not become a vulnerability. Technological self-reliance and secure supply chains are priorities. The state steers capital towards strategic sectors.",
+      "trade": "China stays a trading superpower but seeks to reduce its exposure to foreign pressure. Where foreign doors close, the state helps exporters move closer to foreign customers.",
+      "parcel": "Beijing finances the replacement of the direct small parcel rather than defending it: overseas warehouses, tax rebates on goods sent to them and Chinese logistics groups abroad. Chinese volume persists in destination markets, but in containers and local last mile run by Chinese platforms and carriers.",
+      "seen_in": "The 15th Five-Year Plan, adopted in March 2026, prioritises technological self-reliance and domestic supply chains; Chinese customs reported exports through overseas warehouses up 3.3-fold in the first half of 2026.",
+      "briefings": [
+        "cn-platforms-go-local",
+        "as-asean-one-rulebook",
+        "eu-every-parcel-pays"
+      ],
+      "src": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "key": "hedging-multi-alignment",
+      "name": "Hedging and multi-alignment",
+      "thinkers": "Kuik Cheng-Chwee and other scholars of Southeast Asian hedging; the ASEAN Outlook on the Indo-Pacific (2019) on ASEAN centrality; India's multi-alignment, articulated by S. Jaishankar (The India Way, 2020); the Gulf states' balancing between Washington, Beijing and New Delhi.",
+      "idea": "Middle and smaller powers avoid choosing sides between great powers. They mix engagement with both, keep fallback options and build their own convening role. The aim is room for manoeuvre, not neutrality.",
+      "trade": "Sign with everyone, commit fully to no one. Trade agreements multiply and overlap, and each partner gets a different deal.",
+      "parcel": "Rules do not converge: expect parallel compliance tracks for flows to the United States, to China and within the region. Hubs in hedging states can win from both sides, but only if they can document origin and transformation.",
+      "seen_in": "ASEAN signed an upgraded free trade protocol with China in October 2025 and concluded its own digital economy pact in May 2026; India seeks a preferential US rate over its Asian competitors and launched free trade negotiations with the Gulf Cooperation Council in February 2026.",
+      "briefings": [
+        "as-asean-one-rulebook",
+        "me-hormuz-fuel-bill",
+        "naf-nearshoring-gateway"
+      ],
+      "src": [
+        30,
+        31,
+        32,
+        5,
+        33,
+        34
+      ]
+    },
+    {
+      "key": "sea-power-chokepoints",
+      "name": "Sea power and chokepoints",
+      "thinkers": "Alfred Thayer Mahan (The Influence of Sea Power Upon History, 1890), and later strategists of maritime chokepoints.",
+      "idea": "Command of the sea and of the narrow passages that trade must use is a foundation of national power. Navies, bases and ports protect commerce and can deny it to rivals. Geography turns a few straits into strategic assets.",
+      "trade": "Trade depends on secure sea lanes. Whoever can threaten a strait can tax, delay or divert the goods that pass through it.",
+      "parcel": "Parcels fly, but their stock sails. Disruption at Suez, Bab el-Mandeb or Hormuz lengthens replenishment of fulfilment centres, raises safety stock and fuel costs, and pushes volume onto sea-air and emergency air capacity at peak.",
+      "seen_in": "Daily Suez Canal transits averaged 40.8 vessels from January to August 2026 against 73.7 in 2023, as carriers return in stages after the strikes on Iran in early 2026 disrupted Gulf shipping.",
+      "briefings": [
+        "me-hormuz-fuel-bill",
+        "naf-nearshoring-gateway",
+        "eu-every-parcel-pays"
+      ],
+      "src": [
+        35,
+        37,
+        36,
+        38
+      ]
+    },
+    {
+      "key": "economic-intelligence",
+      "name": "Economic intelligence (the French school of intelligence économique)",
+      "thinkers": "Henri Martre's report for the Commissariat général du Plan (1994); Alain Juillet, France's high official for economic intelligence from 2003 to 2009; Christian Harbulot and the school of economic warfare.",
+      "idea": "Strategic information is a competitive weapon for firms and for the state. Economic intelligence means watching markets, rules and rivals, protecting one's own sensitive information and influencing the rules that shape markets. Juillet defines it as mastering and protecting the strategic information that economic actors need.",
+      "trade": "Markets are open but not neutral: states and firms compete for information, standards and influence. Borders are where rules, and the data behind them, are set.",
+      "parcel": "Customs, tax and data rules change constantly, and the operator that reads them first reprices first. Shipment data shared with authorities and platforms is also a commercial asset to protect.",
+      "seen_in": "France keeps a dedicated economic security service, SISSE, within the economy ministry's directorate-general for enterprise, and the EU adopted an economic security doctrine in December 2025.",
+      "briefings": [
+        "naf-nearshoring-gateway",
+        "eu-every-parcel-pays",
+        "global-small-parcel-door-closes"
+      ],
+      "src": [
+        40,
+        39,
+        41,
+        22
+      ]
+    },
+    {
+      "key": "connectivity",
+      "name": "Connectivity and infrastructure doctrines",
+      "thinkers": "China's Belt and Road Initiative (launched in 2013); the EU's Global Gateway (2021); the India-Middle East-Europe Economic Corridor, announced at the G20 in 2023; Morocco's Atlantic initiative for Sahel states (2023).",
+      "idea": "Ports, rail, cables and corridors are instruments of influence. The power that builds and finances infrastructure shapes where trade flows and whose standards apply. Connectivity projects compete for the same partners.",
+      "trade": "Trade follows infrastructure, and infrastructure follows strategy. Borders become corridors when a sponsor pays for the links.",
+      "parcel": "New hubs and corridors can reroute line-haul and replenishment and create regional e-commerce lanes. The gap between announcement and operation is often years, so track concrete terminal openings rather than declarations.",
+      "seen_in": "Morocco's Nador West Med East Terminal is due to receive its first commercial calls in the fourth quarter of 2026, while analysis in August 2026 found that the India-Middle East-Europe corridor still has no concrete timetable or project plan.",
+      "briefings": [
+        "naf-nearshoring-gateway",
+        "me-hormuz-fuel-bill",
+        "as-asean-one-rulebook"
+      ],
+      "src": [
+        42,
+        43,
+        44,
+        34,
+        46
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "The Tragedy of Great Power Politics",
+      "pub": "W. W. Norton, John J. Mearsheimer",
+      "u": "https://wwnorton.com/books/9780393349276",
+      "lang": "en"
+    },
+    {
+      "t": "The Origins of Alliances",
+      "pub": "Cornell University Press (JSTOR), Stephen M. Walt",
+      "u": "https://www.jstor.org/stable/10.7591/j.ctt32b5fc",
+      "lang": "en"
+    },
+    {
+      "t": "The Limits of Trump and Xi's Photo-Op Summit",
+      "pub": "Council on Foreign Relations",
+      "date": "2026-09-27",
+      "u": "https://www.cfr.org/articles/the-limits-of-trump-and-xis-photo-op-summit",
+      "lang": "en"
+    },
+    {
+      "t": "US, China to extend trade war truce by 2 months",
+      "pub": "Supply Chain Dive",
+      "date": "2026-09-24",
+      "u": "https://www.supplychaindive.com/news/us-china-to-extend-trade-war-truce-by-2-months/831251/",
+      "lang": "en"
+    },
+    {
+      "t": "After Hegemony: Cooperation and Discord in the World Political Economy",
+      "pub": "Princeton University Press, Robert O. Keohane",
+      "u": "https://press.princeton.edu/books/paperback/9780691122489/after-hegemony",
+      "lang": "en"
+    },
+    {
+      "t": "ASEAN concludes negotiations for landmark digital economy pact",
+      "pub": "Manila Bulletin",
+      "date": "2026-05-31",
+      "u": "https://mb.com.ph/2026/05/31/asean-concludes-negotiations-for-landmark-digital-economy-pact",
+      "lang": "en"
+    },
+    {
+      "t": "Contentious EU-Mercosur trade deal takes provisional effect",
+      "pub": "Euronews",
+      "date": "2026-05-01",
+      "u": "https://www.euronews.com/business/2026/05/01/contentious-eu-mercosur-trade-deal-takes-provisional-effect",
+      "lang": "en"
+    },
+    {
+      "t": "The National System of Political Economy",
+      "pub": "Online Library of Liberty, Friedrich List",
+      "u": "https://oll.libertyfund.org/titles/lloyd-the-national-system-of-political-economy",
+      "lang": "en"
+    },
+    {
+      "t": "Report on the Subject of Manufactures (1791)",
+      "pub": "Teaching American History, Alexander Hamilton",
+      "u": "https://teachingamericanhistory.org/document/report-on-the-subject-of-manufactures/",
+      "lang": "en"
+    },
+    {
+      "t": "No Trade Is Free: Changing Course, Taking on China, and Helping America's Workers",
+      "pub": "HarperCollins, Robert Lighthizer",
+      "date": "2023-06-13",
+      "u": "https://www.harpercollins.com.au/9780063282131/no-trade-is-free/",
+      "lang": "en"
+    },
+    {
+      "t": "And the (Tariff) Beat Goes On: New Section 301 Forced-Labor Tariffs",
+      "pub": "Holland & Knight",
+      "date": "2026-07-24",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/07/and-the-tariff-beat-goes-on",
+      "lang": "en"
+    },
+    {
+      "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+      "pub": "Federal Register (CBP)",
+      "date": "2026-06-24",
+      "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+      "lang": "en"
+    },
+    {
+      "t": "The economic development of Latin America and its principal problems",
+      "pub": "ECLAC (CEPAL), Raúl Prebisch",
+      "date": "1950-01-01",
+      "u": "https://repositorio.cepal.org/handle/11362/29973",
+      "lang": "en"
+    },
+    {
+      "t": "Mexico will raise tariffs in 2026: which Asian products go up",
+      "pub": "N+ (Nmas)",
+      "u": "https://www.nmas.com.mx/economia/que-productos-suben-precio-aranceles-2026-aumento-impuesto-eips-mexico/",
+      "lang": "es"
+    },
+    {
+      "t": "Indonesia e-commerce regulation: key changes explained (Permendag 19/2026)",
+      "pub": "DFDL",
+      "date": "2026-08-24",
+      "u": "https://www.dfdl.com/insights/legal-and-tax-updates/indonesia-ecommerce-regulation-permendag-19-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Challenging the end of the 'blouse tax' at the Supreme Court, CNI alleges illegal favouring of imports",
+      "pub": "Consultor Jurídico (ConJur)",
+      "date": "2026-05-23",
+      "u": "https://www.conjur.com.br/2026-mai-23/ao-acionar-stf-contra-fim-da-taxa-das-blusinhas-cni-alega-favorecimento-ilegal-a-importacoes/",
+      "lang": "pt"
+    },
+    {
+      "t": "War by Other Means: Geoeconomics and Statecraft",
+      "pub": "Harvard University Press, Robert D. Blackwill and Jennifer M. Harris",
+      "u": "https://www.hup.harvard.edu/books/9780674979796",
+      "lang": "en"
+    },
+    {
+      "t": "From Geopolitics to Geo-economics: Logic of Conflict, Grammar of Commerce (The National Interest, 1990)",
+      "pub": "Semantic Scholar record, Edward N. Luttwak",
+      "u": "https://www.semanticscholar.org/paper/From-Geopolitics-to-Geo-economics:-Logic-of-Grammar-Luttwak/8ef4a4854c9aed6909bc1ba3061e70c85e51f980",
+      "lang": "en"
+    },
+    {
+      "t": "White House transshipment report signals increased scrutiny of country-of-origin claims",
+      "pub": "Arnold & Porter",
+      "date": "2026-08",
+      "u": "https://www.arnoldporter.com/en/perspectives/blogs/consumer-products-and-retail-navigator/2026/08/white-house-transshipment-report-signals-increased-scrutiny",
+      "lang": "en"
+    },
+    {
+      "t": "US confirms new 25% tariff on Brazil",
+      "pub": "Exame",
+      "date": "2026-07-16",
+      "u": "https://exame.com/mundo/eua-confirmam-novas-tarifas-ao-brasil-de-25/",
+      "lang": "pt"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion (Farrell and Newman), International Security",
+      "pub": "MIT Press",
+      "date": "2019",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    },
+    {
+      "t": "Trade Policy Review: an open, sustainable and assertive trade policy, COM(2021) 66",
+      "pub": "European Commission (EUR-Lex)",
+      "date": "2021-02-18",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021DC0066",
+      "lang": "en"
+    },
+    {
+      "t": "What the EU's updated economic security doctrine still lacks",
+      "pub": "Bocconi Institute for European Policymaking",
+      "date": "2025-12-09",
+      "u": "https://iep.unibocconi.eu/what-eus-updated-economic-security-doctrine-still-lacks",
+      "lang": "en"
+    },
+    {
+      "t": "Ensuring fairness and safety: €3 customs duty for low-value parcels",
+      "pub": "European Commission",
+      "date": "2026-06-29",
+      "u": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+      "lang": "en"
+    },
+    {
+      "t": "KPMG report: New EU Customs Code enters into force; platforms face importer obligations for distance sales",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-09-22",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/09/kpmg-report-new-union-customs-code-platforms-importer-distance-sales.html",
+      "lang": "en"
+    },
+    {
+      "t": "Commission fines Temu EUR 200 million for breaching the Digital Services Act",
+      "pub": "European Commission",
+      "date": "2026-05-28",
+      "u": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "lang": "en"
+    },
+    {
+      "t": "China's Quest for Self-Reliance in the Fourteenth Five-Year Plan",
+      "pub": "Council on Foreign Relations",
+      "date": "2021-03-08",
+      "u": "https://www.cfr.org/articles/chinas-quest-self-reliance-fourteenth-five-year-plan",
+      "lang": "en"
+    },
+    {
+      "t": "China's Five Year Plan commits to economic resilience, as the Iran war exposes the fragility of global supply",
+      "pub": "Chatham House",
+      "date": "2026-03-13",
+      "u": "https://www.chathamhouse.org/2026/03/chinas-five-year-plan-commits-economic-resilience-iran-war-exposes-fragility-global-supply",
+      "lang": "en"
+    },
+    {
+      "t": "Cross-border e-commerce shoppers in China hit 140 mln in H1",
+      "pub": "State Council of the PRC (english.gov.cn)",
+      "date": "2026-07-22",
+      "u": "https://english.www.gov.cn/archive/statistics/202607/22/content_WS6a606f51c6d00ca5f9a0c58b.html",
+      "lang": "en"
+    },
+    {
+      "t": "Interpretation of the STA announcement on export tax rebates for cross-border e-commerce overseas-warehouse exports",
+      "pub": "State Taxation Administration of the PRC",
+      "date": "2025-01-27",
+      "u": "https://fgk.chinatax.gov.cn/zcfgk/c100015/c5238150/content.html",
+      "lang": "zh"
+    },
+    {
+      "t": "Getting hedging right: a small-state perspective",
+      "pub": "China International Strategy Review (Springer), Cheng-Chwee Kuik",
+      "date": "2021-11-01",
+      "u": "https://link.springer.com/article/10.1007/s42533-021-00089-5",
+      "lang": "en"
+    },
+    {
+      "t": "ASEAN Outlook on the Indo-Pacific",
+      "pub": "ASEAN Secretariat",
+      "date": "2019-06-22",
+      "u": "https://asean.org/wp-content/uploads/2021/01/ASEAN-Outlook-on-the-Indo-Pacific_FINAL_22062019.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "China, ASEAN sign Free Trade Area 3.0 Upgrade Protocol",
+      "pub": "CGTN",
+      "date": "2025-10-28",
+      "u": "https://news.cgtn.com/news/2025-10-28/news-1HPAWskA0FO/p.html",
+      "lang": "en"
+    },
+    {
+      "t": "India-US trade pact to be finalised once US offers preferential rate: Goyal",
+      "pub": "Outlook Business",
+      "date": "2026-09-03",
+      "u": "https://www.outlookbusiness.com/news/india-us-trade-pact-to-be-finalised-once-us-offers-preferential-rate-goyal",
+      "lang": "en"
+    },
+    {
+      "t": "The viability of the India-Middle East-Europe Economic Corridor",
+      "pub": "Asia House",
+      "date": "2026-08-27",
+      "u": "https://www.asiahouse.org/2026/08/27/the-viability-of-the-india-middle-east-europe-economic-corridor/",
+      "lang": "en"
+    },
+    {
+      "t": "The Influence of Sea Power Upon History, 1660-1783",
+      "pub": "Project Gutenberg, Alfred Thayer Mahan",
+      "u": "https://www.gutenberg.org/ebooks/13529",
+      "lang": "en"
+    },
+    {
+      "t": "Suez Canal revenue rises 23 percent in the 2025/2026 fiscal year as regional tensions ease",
+      "pub": "Egyptian Streets",
+      "date": "2026-06-30",
+      "u": "https://egyptianstreets.com/2026/06/30/suez-canal-revenue-rises-23-percent-in-the-2025-2026-fiscal-year-as-regional-tensions-ease/",
+      "lang": "en"
+    },
+    {
+      "t": "North Africa: Egypt declares Suez Canal secure as August revenue rises",
+      "pub": "AllAfrica",
+      "date": "2026-09-22",
+      "u": "https://allafrica.com/stories/202609220446.html",
+      "lang": "en"
+    },
+    {
+      "t": "Container shipping returns to Suez despite rising Red Sea risks",
+      "pub": "gCaptain",
+      "date": "2026-09-16",
+      "u": "https://gcaptain.com/container-shipping-returns-to-suez-despite-rising-red-sea-risks/",
+      "lang": "en"
+    },
+    {
+      "t": "Alain Juillet (profile)",
+      "pub": "Portail de l'IE",
+      "u": "https://www.portail-ie.fr/ressources/personnalites-ie/alain-juillet/",
+      "lang": "fr"
+    },
+    {
+      "t": "Martre report: economic intelligence and corporate strategy (1994)",
+      "pub": "Portail de l'IE",
+      "u": "https://www.portail-ie.fr/ressources/ouvrages/rapport-martre/",
+      "lang": "fr"
+    },
+    {
+      "t": "Strategic Information and Economic Security Service (SISSE)",
+      "pub": "Direction générale des Entreprises, French Ministry of the Economy",
+      "u": "https://www.entreprises.gouv.fr/service-de-linformation-strategique-et-de-la-securite-economiques-sisse",
+      "lang": "fr"
+    },
+    {
+      "t": "Global Gateway",
+      "pub": "European Commission",
+      "u": "https://commission.europa.eu/topics/international-partnerships/global-gateway_en",
+      "lang": "en"
+    },
+    {
+      "t": "Ministerial coordination meeting on HM the King's international initiative to enhance Atlantic Ocean access for Sahel countries",
+      "pub": "Ministry of Foreign Affairs of Morocco",
+      "u": "https://diplomatie.ma/en/ministerial-coordination-meeting-hm-kings-international-initiative-enhance-atlantic-ocean-access-sahel-countries",
+      "lang": "en"
+    },
+    {
+      "t": "Nador West Med East Terminal ready for first commercial calls",
+      "pub": "Morocco World News",
+      "date": "2026-09-10",
+      "u": "https://www.moroccoworldnews.com/2026/09/337870/nador-west-med-east-terminal-ready-for-first-commercial-calls/",
+      "lang": "en"
+    },
+    {
+      "t": "Remarks by Secretary of the Treasury Janet L. Yellen on Way Forward for the Global Economy",
+      "pub": "U.S. Department of the Treasury",
+      "date": "2022-04-13",
+      "u": "https://home.treasury.gov/news/press-releases/jy0714",
+      "lang": "en"
+    },
+    {
+      "t": "Pact for the Mediterranean: one sea, one pact, one future, a shared ambition for the region",
+      "pub": "European Commission (DG MENA)",
+      "date": "2025-10-16",
+      "u": "https://north-africa-middle-east-gulf.ec.europa.eu/news/pact-mediterranean-one-sea-one-pact-one-future-shared-ambition-region-2025-10-16_en",
+      "lang": "en"
+    }
+  ]
+}

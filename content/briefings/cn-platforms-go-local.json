@@ -1,0 +1,665 @@
+{
+  "slug": "cn-platforms-go-local",
+  "date": "2026-09-30",
+  "date_label": "30 September 2026",
+  "section": "Geopolitics · China",
+  "region": "CN",
+  "regions": [
+    "CN",
+    "NA",
+    "EU",
+    "AS",
+    "SA",
+    "ME"
+  ],
+  "title": "Western doors close to China's parcels, so the platforms move the warehouse",
+  "dek": "Washington extended its truce with Beijing but kept the de minimis door shut, while Brussels now charges every small parcel. China's platforms and carriers answer by shipping in bulk and delivering locally, and small sellers pay the transition.",
+  "keypoints": [
+    "The Washington-Beijing truce now runs to 10 January 2027, with a $60 billion tariff-cut package on non-sensitive goods, but no reopening of duty-free parcels.",
+    "In the [[EU]], a €3 duty per product category has applied since 1 July, and a €2 handling fee per item is due from 1 November.",
+    "China's low-value e-commerce exports to Europe fell 25% year on year in July, while exports through overseas warehouses grew 3.3-fold in the first half.",
+    "Beijing funds the shift with export tax rebates for overseas warehouses and is adding countermeasure powers to its E-Commerce Law.",
+    "The volume is moving from air mail to containers plus local last mile, favouring well-capitalised platforms and carriers over small Shenzhen and Yiwu sellers."
+  ],
+  "body": [
+    {
+      "h": "Context: a truce in Washington, a toll gate in Brussels"
+    },
+    {
+      "p": "On 24 September, during Xi Jinping's state visit to Washington, the United States and China agreed to extend their trade truce by two months. The arrangement, first struck in autumn 2025, was due to lapse on 10 November 2026. It now runs to 10 January 2027. China keeps its pause on new rare-earth export controls and its suspension of retaliatory measures; Washington keeps its Section 301 probe into China's maritime and logistics sector on hold.",
+      "src": [
+        0,
+        2
+      ]
+    },
+    {
+      "p": "On 28 September the two sides added a tariff package covering about $60 billion of trade, $30 billion each way, negotiated through a bilateral Board of Trade set up during President Trump's visit to Beijing in May. On the American side the list is full of parcel-friendly goods: small kitchen appliances, tableware, bed linen, toys, Christmas decorations and children's car seats. China's Ministry of Commerce ([[MOFCOM]]) said tariffs on about 90% of the products on each list would return to most-favoured-nation ([[MFN]]) rates. The White House has not published the size of its cuts or a start date.",
+      "src": [
+        1
+      ]
+    },
+    {
+      "p": "The baseline these cuts apply to has moved several times this year. The Supreme Court struck down the tariffs imposed under the International Emergency Economic Powers Act ([[IEEPA]]) in February. A temporary global surcharge followed, then lapsed on 24 July, when the Office of the United States Trade Representative ([[USTR]]) applied a 12.5% Section 301 tariff to all Chinese products, with listed exemptions. A Congressional Research Service estimate from July put the average tariff on Chinese goods entering the United States at 36.5%.",
+      "src": [
+        3,
+        2
+      ]
+    },
+    {
+      "p": "For parcels, the bigger change is not the headline rate but the end of duty-free entry. United States Customs and Border Protection ([[CBP]]) indefinitely suspended the $800 de minimis exemption for all transport modes from 24 June 2026, introduced a new postal informal entry process from 24 July, and faces a statutory repeal date of 1 July 2027 under the One Big Beautiful Bill Act.",
+      "src": [
+        4
+      ]
+    },
+    {
+      "p": "The European Union ([[EU]]) closed its own door in stages. Since 1 July 2026 a flat €3 duty applies per product category in parcels under €150. On 16 September the Parliament gave final approval to the customs reform, which adds a handling fee on items bought from non-EU online shops from 1 November, makes platforms and non-EU sellers deemed importers, and allows fines of 1% to 6% of the value of goods imported over the previous 12 months. On 21 September the Commission set the handling fee at €2 per item.",
+      "src": [
+        15,
+        16,
+        18
+      ]
+    },
+    {
+      "p": "The effect on flows is already visible. WorldACD data showed China to Europe air cargo volumes down 15% year on year in the second week of July. Xeneta and Trade and Transport Group, analysing China Customs data, found that China's low-value and e-commerce exports fell 11% year on year in July, and 25% to Europe. Meanwhile, China's General Administration of Customs ([[GACC]]) reports that exports through overseas warehouses surged 3.3-fold in the first half of 2026.",
+      "src": [
+        19,
+        20,
+        8
+      ]
+    },
+    {
+      "p": "The next diplomatic stage is Chinese soil. Shenzhen hosts the Asia-Pacific Economic Cooperation ([[APEC]]) leaders' meeting on 18 and 19 November, and the South China Morning Post reports that Trump is confirmed to attend.",
+      "src": [
+        7,
+        5
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "Beijing: MOFCOM, State Council, customs and tax authorities",
+          "stance": "Keep the export engine running by moving it offshore, and fight foreign rules in the open.",
+          "text": "Since 2024 Beijing has treated overseas warehouses as strategic infrastructure: a nine-ministry plan promises financing, export credit insurance, faster clearance and data flow, and a 2025 tax rule lets exporters claim rebates when goods leave for an overseas warehouse, before they are sold. The State Council keeps widening the network of cross-border e-commerce pilot zones. On foreign regulation, MOFCOM said after the EU's €550 million fine on AliExpress that China firmly opposes the EU's imposition of digital barriers under the pretext of platform regulation, and a draft amendment to the E-Commerce Law includes countermeasure provisions to protect Chinese firms abroad. On Washington, MOFCOM says the new tariff package will further stabilise trade.",
+          "src": [
+            9,
+            10,
+            11,
+            13,
+            12,
+            1
+          ]
+        },
+        {
+          "actor": "Washington: White House, USTR and CBP",
+          "stance": "Trade in non-sensitive goods, yes; duty-free parcels and chip access, no.",
+          "text": "USTR Jamieson Greer frames the package as balanced trade in non-sensitive goods, tied to Chinese purchases of American farm and energy products. CBP justifies ending de minimis as a way to protect revenue and stop illicit drugs and counterfeit goods. The truce has not changed the technology line: China asked for easier access to advanced artificial intelligence chips at the September summit and did not get it, according to the Council on Foreign Relations.",
+          "src": [
+            1,
+            4,
+            6
+          ]
+        },
+        {
+          "actor": "Brussels: European Commission and Parliament",
+          "stance": "Every parcel pays, and platforms answer for what they sell.",
+          "text": "The EU's argument is volume and control: of 4.6 billion low-value parcels that entered the bloc in 2024, 91% came from China, according to figures cited by Caijing. The handling fee is meant to cover real customs costs, and the reform deliberately gives lower handling fees to non-EU sellers that consolidate shipments through EU warehouses. Enforcement under the Digital Services Act ([[DSA]]) runs in parallel, with a €200 million fine on Temu in May and €550 million on AliExpress in July.",
+          "src": [
+            18,
+            16,
+            15,
+            14,
+            13
+          ]
+        },
+        {
+          "actor": "The platforms: Temu, Shein, AliExpress, JD.com",
+          "stance": "Absorb the rules by becoming local.",
+          "text": "Temu set a goal in early 2025 of serving 80% of European sales from local warehouses. The Loadstar reports that both Shein and Temu pre-positioned stock in EU warehouses before 1 July. JD.com launched Joybuy in six European markets in March on a local-warehouse, same-day model. The cost shows in the accounts: Temu's parent missed revenue estimates in the second quarter, with net income down 12%, and Reuters notes rising spending on logistics and merchant support. AliExpress says it will appeal its DSA fine.",
+          "src": [
+            27,
+            17,
+            29,
+            22,
+            13
+          ]
+        },
+        {
+          "actor": "Chinese sellers and factories (Shenzhen, Yiwu)",
+          "stance": "The small-parcel model is breaking; only sellers with capital can follow the platforms abroad.",
+          "text": "Caijing, republished by 36Kr, reports sellers losing between 30% of sales and almost all of it, with one merchant falling from around 150 daily orders to under 10 after 1 July. On a €10 T-shirt with about €0.50 of margin, a €3 duty and a €2 handling fee wipe out the sale. Setting up in a European warehouse costs at least 200,000 to 300,000 yuan, and an industry survey found 40% of small and mid-sized sellers considering it but only 15% doing it. One seller told Bohu Finance that tariffs of 20% to 30% were manageable, but at 145% in 2025 business became impossible.",
+          "src": [
+            18,
+            28
+          ]
+        },
+        {
+          "actor": "Logistics providers: J&T, Cainiao",
+          "stance": "Follow the parcel to where it is now delivered.",
+          "text": "J&T Express earned half its first-half 2026 revenue outside China for the first time, with Southeast Asian volume up 71% and other new markets up 120%; cross-border is only about 1% of revenue. Cainiao, with more than 40 overseas warehouses in 18 countries, announced a robotic warehouse network across seven markets including the Netherlands, Spain, France, Germany and the United States.",
+          "src": [
+            23,
+            24
+          ]
+        },
+        {
+          "actor": "Analysts",
+          "stance": "The truce is shallow; the EU rule may strengthen the platforms it targeted.",
+          "text": "Einar Tangen of the Centre for International Governance Innovation calls the extension a temporary sandbag, and Philippe Le Corre, a business school academic in France, notes that the extensions are getting shorter and shorter. Tsinghua's Sun Chenghao sees a useful interim step. On Europe, The Loadstar's Adam Clermont argues the platforms may emerge stronger, not weaker, because moving stock inside the EU sidesteps a duty designed for direct parcels.",
+          "src": [
+            2,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "p": "Where they disagree is on what the closing doors actually close. Brussels and Washington see a compliance problem solved by charging every parcel. Beijing sees discrimination and answers with subsidised warehouses and legal countermeasures. The platforms and large logistics groups see a network redesign they can finance. Small sellers in Shenzhen and Yiwu see a cost wall they cannot. Our reading: all four can be right at once, because the rules tax a shipment format, not the goods, and only well-capitalised actors can change format.",
+      "src": [
+        15,
+        13,
+        17,
+        18
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Dual circulation and self-reliance (Xi Jinping's 2020 strategy; 15th Five-Year Plan)",
+          "reading": "Dual circulation, introduced by Xi Jinping in 2020, makes the domestic market the main engine and treats external trade as a support that must not become a vulnerability. The 15th Five-Year Plan, adopted in March 2026, doubles down on technological self-reliance and domestic supply chains. Overseas-warehouse rebates and the nine-ministry plan show the external leg adapting to closed doors: keep Chinese goods in foreign markets, but through Chinese-controlled stock and networks.",
+          "parcel": "Beijing will keep financing local-first export infrastructure abroad, so Chinese volume persists in destination markets but arrives in containers and leaves from warehouses run by Chinese platforms and carriers that compete with local operators.",
+          "src": [
+            30,
+            31,
+            9,
+            10,
+            8
+          ]
+        },
+        {
+          "school": "Weaponised interdependence (Farrell and Newman)",
+          "reading": "Farrell and Newman explain how control of network chokepoints becomes leverage. Both sides hold one: Beijing its rare-earth export controls, paused under the truce, and Washington access to advanced chips and to its consumer market. The truce is mutual restraint over chokepoints, not a settlement, which is why each extension is short.",
+          "parcel": "Parcels are not the weapon but sit in the blast radius. Treat truce expiry dates, now 10 January 2027, as repricing dates for transpacific capacity and for any contract priced on current tariff levels.",
+          "src": [
+            32,
+            0,
+            2,
+            6
+          ]
+        },
+        {
+          "school": "Economic nationalism in the West (Hamilton, List, Lighthizer)",
+          "reading": "The nationalist lens judges trade by what it does to domestic production. Robert Lighthizer's No Trade Is Free makes the case for using tariffs to protect American manufacturing and for treating China as a strategic competitor. On that view, duty-free parcels let Chinese sellers bypass the tariffs domestic producers face, so the $60 billion package on non-sensitive goods can coexist with a closed de minimis door.",
+          "parcel": "The truce helps bulk imports of household goods into American warehouses, not direct parcels. Planning should assume no reopening of duty-free entry to the United States.",
+          "src": [
+            33,
+            1,
+            4
+          ]
+        },
+        {
+          "school": "EU open strategic autonomy",
+          "reading": "The Commission's 2021 trade policy review set out an open but assertive trade policy, and its economic security doctrine of December 2025 calls for more systematic use of existing tools. Brussels does not close the market to Chinese platforms; it makes them liable, fines them under the DSA and charges every direct parcel, while giving lower handling fees to goods consolidated into EU warehouses.",
+          "parcel": "The EU rulebook rewards bulk inbound and local fulfilment. Operators who sell customs clearance, bonded storage and domestic last mile to Chinese platforms are selling into the direction Brussels designed.",
+          "src": [
+            34,
+            35,
+            15,
+            14,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: from direct mail to bulk plus last mile"
+    },
+    {
+      "p": "The mechanism is simple. A per-parcel duty or fee is a fixed cost that punishes low order values. The same goods shipped in bulk by sea, cleared once as a commercial import and delivered from a European or American warehouse carry the duty on declared import value, spread across thousands of units, with no per-parcel handling fee. The EU reform explicitly rewards this with reduced handling fees for consolidated shipments into EU warehouses.",
+      "src": [
+        15,
+        16
+      ]
+    },
+    {
+      "p": "Our reading is that the direct-from-China parcel is being split into two businesses. The long-tail catalogue, with slow-moving items and new listings, stays on direct air mail and pays the fees. The top-selling references move to local stock. For postal operators and integrators in Europe, this means fewer inbound international items at the airport gateway and more domestic parcels handed over by third-party logistics ([[3PL]]) warehouses in the Netherlands, Germany and Poland, where Caijing reports vacancy near 3% and rents up more than 35% year on year.",
+      "src": [
+        18,
+        17
+      ]
+    },
+    {
+      "p": "The air freight market has priced this in quickly. China to Western Europe spot rates averaged $3.85 per kg in August, down 6% on July after a 22% fall that month, while Northeast Asia to North America rates held at $5.76 per kg. The likely effect is capacity being redeployed to the transpacific and to Southeast Asian origins, and a softer peak season on China to Europe e-commerce charters.",
+      "src": [
+        20,
+        21
+      ]
+    },
+    {
+      "h": "Beijing's industrial answer: warehouses as export policy"
+    },
+    {
+      "p": "China is not trying to save the small parcel. It is financing the replacement. The overseas-warehouse rebate lets an exporter recover tax at departure and reconcile later, which removes a working-capital penalty from holding stock abroad. The nine-ministry plan adds credit insurance, return channels and data rules. The 3.3-fold jump in overseas-warehouse exports in the first half shows the policy meeting the market.",
+      "src": [
+        10,
+        9,
+        8
+      ]
+    },
+    {
+      "p": "The draft E-Commerce Law amendment matters for foreign partners too. It extends oversight to logistics providers, payment processors and the data infrastructure around platforms, and adds a countermeasures clause. Our reading: carriers and warehouses handling Chinese platform volume may face data and compliance requests from both Brussels and Beijing at the same time, and contracts should anticipate conflicting obligations.",
+      "src": [
+        12
+      ]
+    },
+    {
+      "h": "Diversification: not only Europe, and not a free lunch"
+    },
+    {
+      "p": "The platforms are spreading risk across regions, but the regulatory trend follows them. Mexico raised its import tax on low-value packages from non-treaty origins such as China from 19% to 33.5% in August 2025. In the Gulf, Alshaya's chairman has publicly accused Shein and Temu of exploiting light regulation, saying they ship a container from China to our doorstep while paying nothing to municipalities, and calling for fair market regulations rather than a ban.",
+      "src": [
+        26,
+        25
+      ]
+    },
+    {
+      "p": "Southeast Asia is the most successful destination so far, and it is where Chinese logistics groups have built scale. J&T now holds a 38.1% share of Southeast Asian parcel volume. Our reading: Chinese carriers are moving from carrying Chinese exports to running domestic networks abroad, which puts them in direct competition with local posts and private last-mile operators rather than in partnership with them.",
+      "src": [
+        23
+      ]
+    },
+    {
+      "figures": [
+        {
+          "big": "12.5%",
+          "label": "Section 301 tariff on all Chinese products entering the United States since 24 July 2026, before MFN and other duties"
+        },
+        {
+          "big": "-25%",
+          "label": "Fall in China's low-value and e-commerce exports to Europe, July 2026 year on year (Xeneta and Trade and Transport Group analysis of China Customs data)"
+        },
+        {
+          "big": "3.3x",
+          "label": "Growth in China's exports via overseas warehouses in the first half of 2026, as reported by customs"
+        },
+        {
+          "big": "50%",
+          "label": "Share of J&T Express revenue earned outside China in the first half of 2026, a first"
+        }
+      ],
+      "src": [
+        3,
+        20,
+        8,
+        23
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: managed rivalry, local-first networks",
+          "likelihood": "Most likely",
+          "text": "The truce is rolled again around January, the $60 billion list takes effect gradually and APEC produces statements rather than a trade deal. De minimis stays closed in both the United States and the EU. Platforms keep shifting top-selling ranges into local warehouses, and direct China to Europe e-commerce air volumes stabilise at a lower level.",
+          "signal": "Publication of American implementation dates for the $60 billion list, and weekly China to Europe air volumes flattening rather than falling."
+        },
+        {
+          "name": "Upside: Shenzhen package",
+          "likelihood": "Possible",
+          "text": "Trump's visit to Shenzhen yields a longer truce and a wider non-sensitive goods list covering more consumer categories. Landed costs on American imports of household goods fall, and some bulk flows from China to American warehouses recover. Parcel rules do not change, so the gain goes to local stock, not to direct parcels.",
+          "signal": "A truce extended well beyond 10 January 2027, or a second Board of Trade list with apparel and electronics accessories."
+        },
+        {
+          "name": "Downside: truce lapses and Brussels-Beijing escalation",
+          "likelihood": "Less likely",
+          "text": "The truce ends in January, rare-earth controls return and Washington revives its Section 301 action on Chinese logistics and shipping. China uses the new E-Commerce Law countermeasures against European rules or companies. Carriers face compliance conflicts, and forwarders face renewed tariff swings on inbound bulk.",
+          "signal": "MOFCOM naming specific European measures as discriminatory under the amended law, or USTR restarting the maritime and logistics probe."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-11-01",
+          "when": "1 Nov 2026",
+          "what": "EU customs handling fee on items bought from non-EU online shops due to apply; €2 per item set by the Commission on 21 September"
+        },
+        {
+          "date": "2026-11-18",
+          "when": "18-19 Nov 2026",
+          "what": "APEC leaders' meeting in Shenzhen, with Trump reported to attend"
+        },
+        {
+          "date": "2027-01-10",
+          "when": "10 Jan 2027",
+          "what": "Expiry of the extended Washington-Beijing trade truce and the pause on Chinese rare-earth export controls"
+        },
+        {
+          "date": "2027-07-01",
+          "when": "1 Jul 2027",
+          "what": "Statutory repeal of the American $800 de minimis exemption under the One Big Beautiful Bill Act"
+        },
+        {
+          "date": "2028-07-01",
+          "when": "1 Jul 2028",
+          "what": "End of the EU's temporary €3 flat duty, replaced by duties by product classification"
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Re-cut your China to Europe pricing for a lower, lumpier direct-parcel base: move from fixed block space commitments to flexible allocations on the lane until volumes stabilise.",
+        "Build or partner for bulk-inbound, local-outbound offers in the Netherlands, Germany and Poland: customs clearance of containers, 3PL storage and domestic last mile sold as one product to Chinese platforms and sellers.",
+        "Prepare to charge the €2 handling fee and the €3 duty at checkout on a [[DDP]] basis: confirm who collects, who remits and who carries the risk in every platform contract before 1 November.",
+        "Audit the data you pass to customs per [[SKU]] (description, classification, origin, value): deemed-importer liability and fines of 1% to 6% of annual import value make data quality a commercial term, not a back-office task.",
+        "Add a conflict-of-laws clause to contracts with Chinese platforms covering data requests and possible countermeasures under the amended E-Commerce Law.",
+        "Treat J&T, Cainiao and other Chinese logistics groups as both partners and competitors in Southeast Asia, Latin America and the Gulf: price domestic last-mile capacity accordingly."
+      ]
+    },
+    {
+      "impact": "The Western door is closing to the small parcel, not to Chinese goods: the volume is moving into containers and local warehouses, and so is the margin."
+    }
+  ],
+  "glossary": [
+    "MOFCOM",
+    "MFN",
+    "IEEPA",
+    "USTR",
+    "CBP",
+    "EU",
+    "GACC",
+    "APEC",
+    "DSA",
+    "3PL",
+    "DDP",
+    "SKU"
+  ],
+  "glossary_add": {
+    "MOFCOM": [
+      "Ministry of Commerce of the People's Republic of China",
+      "China's trade ministry, responsible for foreign trade policy, trade negotiations and e-commerce regulation."
+    ],
+    "MFN": [
+      "Most-favoured-nation",
+      "The standard, non-discriminatory tariff rate a WTO member applies to imports from other members."
+    ],
+    "IEEPA": [
+      "International Emergency Economic Powers Act",
+      "A 1977 American law the administration used to impose tariffs by emergency decree until the Supreme Court struck them down in February 2026."
+    ],
+    "USTR": [
+      "Office of the United States Trade Representative",
+      "The American agency that negotiates trade agreements and runs Section 301 tariff investigations."
+    ],
+    "GACC": [
+      "General Administration of Customs of China",
+      "China's national customs authority, which also publishes the country's trade statistics."
+    ],
+    "DSA": [
+      "Digital Services Act",
+      "The EU regulation that makes large online platforms responsible for tackling illegal and unsafe content and products, with fines of up to 6% of global turnover."
+    ],
+    "3PL": [
+      "Third-party logistics provider",
+      "A company that runs warehousing, fulfilment and shipping on behalf of sellers or platforms."
+    ]
+  },
+  "sources": [
+    {
+      "t": "US, China to extend trade war truce by 2 months",
+      "pub": "Supply Chain Dive",
+      "date": "2026-09-24",
+      "u": "https://www.supplychaindive.com/news/us-china-to-extend-trade-war-truce-by-2-months/831251/",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. and China to Cut Tariffs on $60 Billion of Goods",
+      "pub": "TIME",
+      "date": "2026-09-29",
+      "u": "https://time.com/article/2026/09/29/us-china-reciprocal-tariffs-cut-trade-goods-60-billion/",
+      "lang": "en"
+    },
+    {
+      "t": "'Hostile, but hooked': What's behind the US-China trade truce extension",
+      "pub": "Al Jazeera",
+      "date": "2026-09-24",
+      "u": "https://www.aljazeera.com/economy/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension",
+      "lang": "en"
+    },
+    {
+      "t": "Notice of Actions in Section 301 Investigations of Acts, Policies, and Practices of Various Economies",
+      "pub": "Federal Register (USTR)",
+      "date": "2026-07-28",
+      "u": "https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-06-23",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+      "lang": "en"
+    },
+    {
+      "t": "3 top reasons Trump will face a stronger Xi Jinping at November APEC forum in China",
+      "pub": "South China Morning Post",
+      "date": "2026-09-26",
+      "u": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china",
+      "lang": "en"
+    },
+    {
+      "t": "The Limits of Trump and Xi's Photo-Op Summit",
+      "pub": "Council on Foreign Relations",
+      "date": "2026-09-27",
+      "u": "https://www.cfr.org/articles/the-limits-of-trump-and-xis-photo-op-summit",
+      "lang": "en"
+    },
+    {
+      "t": "APEC China 2026",
+      "pub": "Wikipedia",
+      "date": "2026-09-30",
+      "u": "https://en.wikipedia.org/wiki/APEC_China_2026",
+      "lang": "en"
+    },
+    {
+      "t": "Cross-border e-commerce shoppers in China hit 140 mln in H1",
+      "pub": "State Council of the PRC (english.gov.cn)",
+      "date": "2026-07-22",
+      "u": "https://english.www.gov.cn/archive/statistics/202607/22/content_WS6a606f51c6d00ca5f9a0c58b.html",
+      "lang": "en"
+    },
+    {
+      "t": "Opinions of MOFCOM and eight other departments on expanding cross-border e-commerce exports and promoting overseas warehouse construction",
+      "pub": "Ministry of Commerce of the PRC",
+      "date": "2024-06-08",
+      "u": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2024/art_11cd1a3d65f04836b8e96a120e0685ae.html",
+      "lang": "zh"
+    },
+    {
+      "t": "Interpretation of the STA announcement on export tax rebates for cross-border e-commerce overseas-warehouse exports",
+      "pub": "State Taxation Administration of the PRC",
+      "date": "2025-01-27",
+      "u": "https://fgk.chinatax.gov.cn/zcfgk/c100015/c5238150/content.html",
+      "lang": "zh"
+    },
+    {
+      "t": "State Council reply approving cross-border e-commerce comprehensive pilot zones in Hainan and 15 cities including Qinhuangdao",
+      "pub": "Ministry of Commerce of the PRC",
+      "date": "2025-04-22",
+      "u": "https://wms.mofcom.gov.cn/zcfb/wmzc/art/2025/art_017565ecec4648f18a3d61731a0ca12d.html",
+      "lang": "zh"
+    },
+    {
+      "t": "China is rewriting e-commerce law to tighten platform rules and add countermeasures",
+      "pub": "The Next Web",
+      "date": "2026-07-04",
+      "u": "https://thenextweb.com/news/china-ecommerce-law-amendment-platform-countermeasures",
+      "lang": "en"
+    },
+    {
+      "t": "China expresses strong dissatisfaction to EU's fine on AliExpress",
+      "pub": "Global Times",
+      "date": "2026-07-22",
+      "u": "https://www.globaltimes.cn/page/202607/1366535.shtml",
+      "lang": "en"
+    },
+    {
+      "t": "Commission fines Temu EUR 200 million for breaching the Digital Services Act",
+      "pub": "European Commission",
+      "date": "2026-05-28",
+      "u": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "lang": "en"
+    },
+    {
+      "t": "EU: Parliament gives final approval to rules on e-commerce and customs",
+      "pub": "Eunews",
+      "date": "2026-09-16",
+      "u": "https://www.eunews.it/en/2026/09/16/eu-parliament-gives-final-approval-to-new-rules-on-e-commerce-and-customs/",
+      "lang": "en"
+    },
+    {
+      "t": "Tax on small parcels from third countries: Commission completes EU arrangements with customs handling fee set at EUR 2",
+      "pub": "Agence Europe",
+      "date": "2026-09-22",
+      "u": "https://agenceurope.eu/en/bulletin/article/13943/10/tax-on-small-parcels-from-third-countries-european-commission-completes-eu-arrangements-with-customs-handling-fee-set-at-eur2",
+      "lang": "en"
+    },
+    {
+      "t": "The EU's EUR 3 customs duty? Shein and Temu already built the bypass",
+      "pub": "The Loadstar",
+      "date": "2026-07-10",
+      "u": "https://theloadstar.com/the-eus-e3-customs-duty-shein-and-temu-already-built-the-bypass/",
+      "lang": "en"
+    },
+    {
+      "t": "The EU scraps the small-parcel duty exemption: what can Chinese sellers do? (Caijing, republished)",
+      "pub": "36Kr / Caijing",
+      "date": "2026-07-08",
+      "u": "https://36kr.com/p/3886140449861635",
+      "lang": "zh"
+    },
+    {
+      "t": "APAC-Europe air cargo volumes drop 15% year on year",
+      "pub": "Air Cargo News",
+      "date": "2026-07-20",
+      "u": "https://www.aircargonews.net/data/2026/07/apac-europe-air-cargo-volumes-drop-15-year-on-year/",
+      "lang": "en"
+    },
+    {
+      "t": "Xeneta: August air cargo demand grows 6%",
+      "pub": "Air Cargo News",
+      "date": "2026-09-04",
+      "u": "https://www.aircargonews.net/data/2026/09/august-air-cargo-demand-grows-6/",
+      "lang": "en"
+    },
+    {
+      "t": "European air cargo demand continues to fall following EU's stricter import rules",
+      "pub": "Air Cargo News",
+      "date": "2026-08-10",
+      "u": "https://www.aircargonews.net/e-commerce-logistics/2026/08/european-air-cargo-demand-continues-to-fall-following-eus-stricter-import-rules/",
+      "lang": "en"
+    },
+    {
+      "t": "Temu owner PDD books 8% rise in quarterly revenue, misses estimates",
+      "pub": "BNN Bloomberg (Reuters)",
+      "date": "2026-08-24",
+      "u": "https://www.bnnbloomberg.ca/business/company-news/2026/08/24/temu-owner-pdd-books-8-rise-in-quarterly-revenue-misses-estimates/",
+      "lang": "en"
+    },
+    {
+      "t": "J&T Express 1H2026 slides: non-China revenue hits 50%, profit doubles",
+      "pub": "Investing.com",
+      "date": "2026-08-20",
+      "u": "https://www.investing.com/news/company-news/jt-express-1h2026-slides-nonchina-revenue-hits-50-profit-doubles-93CH-4869182",
+      "lang": "en"
+    },
+    {
+      "t": "Cainiao plans global network of robotic warehouses",
+      "pub": "Parcel and Postal Technology International",
+      "date": "2026-03-13",
+      "u": "https://www.parcelandpostaltechnologyinternational.com/news/automation/cainiao-plans-global-network-of-robotic-warehouses.html",
+      "lang": "en"
+    },
+    {
+      "t": "Chinese companies taking advantage of Gulf regulations, says Alshaya chairman",
+      "pub": "The National",
+      "date": "2026-02-02",
+      "u": "https://www.thenationalnews.com/business/economy/2026/02/02/alshaya-chairman-alleges-unfair-practices-by-chinese-companies-in-gulf/",
+      "lang": "en"
+    },
+    {
+      "t": "Mexico to hike import tax on low-value packages to 33.5%",
+      "pub": "Mexico Business News",
+      "date": "2025-07-29",
+      "u": "https://mexicobusiness.news/ecommerce/news/mexico-hike-import-tax-low-value-packages-335",
+      "lang": "en"
+    },
+    {
+      "t": "Temu: '80% of European sales via local warehouses'",
+      "pub": "Ecommerce News Europe",
+      "date": "2025-01-20",
+      "u": "https://ecommercenews.eu/temu-80-of-european-sales-via-local-warehouses/",
+      "lang": "en"
+    },
+    {
+      "t": "Cross-border e-commerce's year: tariffs, trade war and sailing away from the US (Bohu Finance, republished)",
+      "pub": "Sina Finance",
+      "date": "2026-01-05",
+      "u": "https://finance.sina.com.cn/cj/2026-01-05/doc-inhfhpmh6596322.shtml",
+      "lang": "zh"
+    },
+    {
+      "t": "JD.com launches Joybuy in Europe, emphasizing same-day delivery",
+      "pub": "TechNode",
+      "date": "2026-03-17",
+      "u": "https://technode.com/2026/03/17/jd-com-launches-joybuy-in-europe-emphasizing-same-day-delivery/",
+      "lang": "en"
+    },
+    {
+      "t": "China's Quest for Self-Reliance in the Fourteenth Five-Year Plan",
+      "pub": "Council on Foreign Relations",
+      "date": "2021-03-08",
+      "u": "https://www.cfr.org/articles/chinas-quest-self-reliance-fourteenth-five-year-plan",
+      "lang": "en"
+    },
+    {
+      "t": "China's Five Year Plan commits to economic resilience, as the Iran war exposes the fragility of global supply",
+      "pub": "Chatham House",
+      "date": "2026-03-13",
+      "u": "https://www.chathamhouse.org/2026/03/chinas-five-year-plan-commits-economic-resilience-iran-war-exposes-fragility-global-supply",
+      "lang": "en"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+      "pub": "International Security (MIT Press), Henry Farrell and Abraham L. Newman",
+      "date": "2019-07-01",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    },
+    {
+      "t": "No Trade Is Free: Changing Course, Taking on China, and Helping America's Workers",
+      "pub": "HarperCollins, Robert Lighthizer",
+      "date": "2023-06-13",
+      "u": "https://www.harpercollins.com.au/9780063282131/no-trade-is-free/",
+      "lang": "en"
+    },
+    {
+      "t": "Trade Policy Review: an open, sustainable and assertive trade policy, COM(2021) 66",
+      "pub": "European Commission (EUR-Lex)",
+      "date": "2021-02-18",
+      "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021DC0066",
+      "lang": "en"
+    },
+    {
+      "t": "What the EU's updated economic security doctrine still lacks",
+      "pub": "Bocconi Institute for European Policymaking",
+      "date": "2025-12-09",
+      "u": "https://iep.unibocconi.eu/what-eus-updated-economic-security-doctrine-still-lacks",
+      "lang": "en"
+    }
+  ]
+}

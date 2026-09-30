@@ -1,0 +1,651 @@
+{
+  "slug": "as-asean-one-rulebook",
+  "date": "2026-09-30",
+  "date_label": "30 September 2026",
+  "section": "Geopolitics · Southeast Asia",
+  "region": "AS",
+  "regions": [
+    "AS",
+    "NA",
+    "CN"
+  ],
+  "title": "ASEAN bets on one digital rulebook as every border starts taxing the parcel",
+  "dek": "Southeast Asia is about to sign a regional digital economy pact while Washington hunts transshipment and its own governments close the low-value parcel gap. For carriers and platforms, origin data and in-market stock now decide who keeps the volume.",
+  "keypoints": [
+    "[[ASEAN]] concluded the [[DEFA]] digital economy pact on 30 May 2026 and plans to sign it at the Manila summit on 16 to 18 November.",
+    "Since 24 July, Section 301 tariffs add 10% on Indonesia and Malaysia and 12.5% on Vietnam, Thailand and Singapore, with excess-capacity findings still pending.",
+    "A White House report of 13 August puts Vietnam, Thailand, Malaysia and Indonesia in Tier 2 for transshipment risk, raising the cost of weak origin evidence.",
+    "Thailand taxes online imports from 1 baht, Indonesia keeps a $100 floor, and Japan ends its ¥10,000 exemption in April 2028.",
+    "Intra-regional volume is surging, which favours platform-owned logistics and in-market fulfilment over direct cross-border parcels."
+  ],
+  "body": [
+    {
+      "h": "What is happening"
+    },
+    {
+      "p": "Southeast Asia is being pulled in two directions at once. Inside the region, [[ASEAN]] governments want one set of digital trade rules. At every border, the same governments are closing the gaps that let cheap parcels from China arrive untaxed. Across the Pacific, Washington is treating the region's factories and ports as a possible back door for Chinese goods. The parcel sits at the centre of all three moves.",
+      "src": [
+        0,
+        6,
+        15
+      ]
+    },
+    {
+      "p": "On 30 May 2026, in Manila, ASEAN senior economic officials concluded negotiations on the Digital Economy Framework Agreement, or [[DEFA]]. It covers digital trade, cross-border e-commerce, data governance and privacy, digital identity, electronic payments, online safety, cybersecurity and competition policy. It builds on the ASEAN Single Window and on cross-border payment links. ASEAN says full implementation could double the regional digital economy to $2 trillion by 2030, against about $1 trillion on current trends.",
+      "src": [
+        0
+      ]
+    },
+    {
+      "p": "Signature is planned at the 49th ASEAN Summit in Manila, under the Philippine chair. The Philippine government has declared 16 to 18 November 2026 non-working days in the capital region for the meeting. Reports indicate member states aim to ratify within 180 days of signing. Whether the American President will attend was still unconfirmed on 23 September.",
+      "src": [
+        1,
+        2
+      ]
+    },
+    {
+      "p": "Washington's tariff architecture has changed shape during the year. The Supreme Court struck down the tariffs imposed under the International Emergency Economic Powers Act, or [[IEEPA]], on 20 February 2026. A temporary Section 122 surcharge filled the gap until it expired at midnight on 23 July. From 24 July, the Office of the United States Trade Representative, [[USTR]], applied new Section 301 tariffs tied to forced-labour import policy across 60 economies: 10% for countries that prohibit forced-labour imports, 12.5% for the others.",
+      "src": [
+        3,
+        4
+      ]
+    },
+    {
+      "p": "In Southeast Asia, that means an additional 10% on Indonesia, Malaysia and Cambodia, and 12.5% on Vietnam, Thailand, Singapore and the Philippines, according to law firm DFDL. A second Section 301 investigation, opened in March into structural excess capacity in 16 economies, including Vietnam, Thailand, Malaysia, Indonesia, Singapore, Cambodia, Japan and India, had produced no tariffs as of mid-August. Any result would stack on top of the forced-labour rate.",
+      "src": [
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "p": "Then came the transshipment offensive. On 13 August the White House Office of Trade and Manufacturing Policy published a report titled The Great Transshipment Scam. It claims rerouting of Chinese goods through some 40 jurisdictions costs the United States up to $303 billion, while the Council of Economic Advisers put illegal transshipment at $34.2 to $89.6 billion. Vietnam, Thailand, Malaysia and Indonesia are all placed in Tier 2, described as combining significant transshipment volumes with deep integration into China-linked supply chains. Thai press reports that goods found to be illegally transshipped face an additional 40% duty on top of other penalties.",
+      "src": [
+        6,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "p": "Meanwhile, the region is taxing the small parcel. Vietnam removed the import [[VAT]] exemption for goods under 1 million dong from 18 February 2025. Thailand's customs department started collecting import duty on online purchases from 1 baht on 1 January 2026, ending the 1,500 baht threshold; officials estimate about 250 million parcels a year are affected. Indonesia's new e-commerce regulation, Permendag 19/2026, in force since 8 June, keeps a $100 [[FOB]] per-unit floor for cross-border goods and tightens seller vetting. Japan will end its ¥10,000 consumption-tax exemption for low-value imports from 1 April 2028.",
+      "src": [
+        17,
+        15,
+        16,
+        18,
+        19
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "ASEAN secretariat and member governments",
+          "stance": "One regional digital rulebook is the best defence against being squeezed by two superpowers.",
+          "text": "ASEAN presents DEFA as a way to grow the digital economy and to lift the participation of small firms and less developed members. Indonesia's coordinating economic minister Airlangga Hartarto has argued it could double the regional digital economy to about $2 trillion. Commentators describe the logic as integration without surrendering control of domestic payments and data systems, which is why the deal coexists with national parcel taxes and platform rules.",
+          "src": [
+            0,
+            1
+          ]
+        },
+        {
+          "actor": "Washington: White House and USTR",
+          "stance": "Southeast Asia is a leak in the tariff wall that must be plugged.",
+          "text": "The White House report argues that relabelling, re-invoicing, minor processing and false origin claims let Chinese goods enter the United States at lower rates. It points to enforcement through existing tools such as the Enforce and Protect Act, known as [[EAPA]], and a risk-targeting system called Detective Border that combines trade flow, ownership and supply chain data. The Section 301 cases give Washington a legal basis for country tariffs after the court ruling on IEEPA.",
+          "src": [
+            6,
+            7,
+            3
+          ]
+        },
+        {
+          "actor": "Beijing: Ministry of Commerce",
+          "stance": "The report criminalises normal trade; Asia should keep integrating.",
+          "text": "China's commerce ministry spokesperson He Yadong said the report labels normal international trade and investment a scam and fabricates a false narrative. Beijing's counter-offer is deeper regional integration: the China-ASEAN Free Trade Area 3.0 upgrade protocol, known as [[ACFTA]] 3.0, signed in Kuala Lumpur on 28 October 2025, adds chapters on the digital economy, supply chain connectivity and standards.",
+          "src": [
+            8,
+            13
+          ]
+        },
+        {
+          "actor": "Hanoi, Bangkok, Jakarta, Singapore",
+          "stance": "Engage Washington, tighten origin checks, deny systematic fraud.",
+          "text": "Vietnam's foreign ministry said it would continue dialogue with the United States in a constructive manner. Singapore's trade ministry said it does not condone businesses using fraudulent and dishonest means to circumvent other countries' laws. Thailand is forming a specialist task force on origin checks, and Indonesia signed a trade agreement with Washington in February 2026 that includes anti-evasion commitments. Analysts note that Vietnamese data suggest rerouting is much smaller at firm level than national aggregates imply.",
+          "src": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "actor": "New Delhi: Commerce Ministry",
+          "stance": "India wants a tariff margin over its Asian competitors, not just a lower rate.",
+          "text": "India faces the 10% Section 301 tariff since 24 July. Commerce minister Piyush Goyal said India would finalise its trade agreement as soon as the United States can give it a preferential rate compared with its competition, naming economies such as Vietnam, Thailand, Indonesia and Malaysia among them. Analysis published on 23 September argues the court ruling erased India's earlier margin because competitors fell back to standard rates.",
+          "src": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": "Tokyo: Ministry of Finance",
+          "stance": "Tax the parcel at the point of sale and make platforms accountable.",
+          "text": "Japan's tax reform ends the ¥10,000 consumption-tax exemption from April 2028. Foreign sellers above ¥10 million in annual sales of such goods must register, and platforms become deemed suppliers. The stated rationale is that the exemption disadvantages domestic retailers against foreign e-tailers, particularly fast-growing Chinese marketplaces.",
+          "src": [
+            18,
+            19
+          ]
+        },
+        {
+          "actor": "Platforms and parcel carriers",
+          "stance": "Volume keeps growing; compliance is becoming part of the product.",
+          "text": "Shopee reported $38.3 billion of gross merchandise value in the second quarter, up 28.4%, on 4.2 billion orders. J&T handled 2.755 billion parcels in Southeast Asia in the same quarter, up 63.2%. Thailand's customs department has signed cooperation agreements with Lazada, Shopee, SHEIN, TikTok Shop and Temu to screen and collect upstream.",
+          "src": [
+            21,
+            20,
+            15
+          ]
+        },
+        {
+          "actor": "Local SMEs and manufacturers",
+          "stance": "Cheap imports have to pay the same as we do.",
+          "text": "Thai small businesses complained that duty-free low-priced imports undercut local products, which drove the removal of the threshold. Indonesia's regulation goes further: marketplaces must adjust search to prioritise domestic products. Manufacturers exposed to the American market face the opposite risk: being caught in origin investigations aimed at Chinese content they buy as inputs.",
+          "src": [
+            15,
+            16,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "p": "The disagreements are sharp and they do not line up neatly. Washington and ASEAN governments disagree on the scale of transshipment and on where legitimate diversification ends and evasion begins. The Asia Times analysis notes that repackaging does not normally confer origin, but assembly sometimes does, depending on complexity. Beijing and ASEAN capitals agree on integration but diverge on imports: the same governments that sign an upgraded free trade area with China are taxing Chinese parcels at their borders. India and ASEAN are competitors for the same American shelf space, which is why New Delhi measures success in relative, not absolute, tariffs.",
+      "src": [
+        10,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "ASEAN centrality and hedging (Kuik Cheng-Chwee; ASEAN Outlook on the Indo-Pacific)",
+          "reading": "Scholars of Southeast Asian foreign policy such as Kuik Cheng-Chwee describe hedging: smaller states avoid choosing between great powers and mix engagement with both while keeping fallback options. ASEAN's 2019 Outlook on the Indo-Pacific frames the bloc as the convenor that others must work through. Signing ACFTA 3.0 with Beijing, concluding DEFA and negotiating origin commitments with Washington in the same year is hedging in practice, not incoherence.",
+          "parcel": "No single rulebook will emerge. Expect parallel compliance tracks, one for American-bound flows with heavy origin evidence and one for intra-Asian flows with lighter rules, and price them as separate products.",
+          "src": [
+            25,
+            24,
+            13,
+            0
+          ]
+        },
+        {
+          "school": "Open regionalism",
+          "reading": "Open regionalism means integrating within a region without raising new barriers against outsiders; the term was developed by the United Nations Economic Commission for Latin America and the Caribbean, [[ECLAC]], and is widely associated with Asia-Pacific cooperation through [[APEC]]. DEFA fits the pattern: it harmonises data, payments and paperless trade rather than building a common external tariff. That is why it coexists with national parcel taxes and platform rules.",
+          "parcel": "DEFA will lower the cost of exchanging customs and payment data across the region, which favours carriers that already run data pipelines, but it will not shield anyone from Thai duties, Vietnamese VAT or Indonesian price floors.",
+          "src": [
+            26,
+            0,
+            1
+          ]
+        },
+        {
+          "school": "Geoeconomics (Luttwak; Blackwill and Harris)",
+          "reading": "Robert Blackwill and Jennifer Harris define geoeconomics as the use of economic instruments to pursue geopolitical goals. The transshipment report and the Section 301 cases use access to the American market as leverage to pull Southeast Asian supply chains away from Chinese inputs. The target is not the parcel, but the parcel carries the origin claim that is being tested.",
+          "parcel": "Origin evidence becomes the price of access to the American market. Tier 2 lanes carry a structural risk premium in holds, documentation and insurance that should appear in rate cards.",
+          "src": [
+            27,
+            6,
+            7,
+            3
+          ]
+        },
+        {
+          "school": "Developmentalism and infant-industry protection (List)",
+          "reading": "Friedrich List argued that developing economies should shelter young industries until they can compete. Thailand's removal of its threshold after complaints from local small businesses, and Indonesia's price floor and search rules favouring domestic products, apply that logic to domestic merchants rather than factories. ASEAN governments integrate regionally while protecting their own sellers nationally.",
+          "parcel": "Direct cross-border business-to-consumer parcels face more floors and taxes in the region's largest markets; in-market stock and local seller programmes are where volume and margin will go.",
+          "src": [
+            28,
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: origin becomes a data product"
+    },
+    {
+      "p": "For two decades a parcel's origin was a line on a customs declaration. It is now a liability. Our reading of the White House report is that it does not change rules of origin, as Arnold & Porter notes, but it changes the probability of being checked. Enforcement will lean on data: ownership, bills of materials, routing history. For a shipper sending goods from a Malaysian or Vietnamese warehouse to American consumers, the question is no longer only the tariff rate but whether the origin claim will survive a query.",
+      "src": [
+        7,
+        10
+      ]
+    },
+    {
+      "p": "The mechanism is simple. A Tier 2 origin raises the chance of a hold. A hold on a consolidated cross-border shipment delays every parcel in it. The likely effect is that carriers and brokers will separate flows by origin risk, charge for documentation, and push sellers to keep origin evidence at item level rather than shipment level. Air consolidations out of Southeast Asian gateways built on mixed Chinese and local content are the most exposed.",
+      "src": [
+        7,
+        9
+      ]
+    },
+    {
+      "p": "The tariff gap between neighbours also matters for routing. With Indonesia and Malaysia at an additional 10% and Vietnam, Thailand and Singapore at 12.5%, the differential is small compared with the 40% transshipment penalty reported for goods found to be rerouted. In our view, that removes most of the incentive to shift light assembly for tariff reasons alone, and shifts the decision back to cost, capacity and enforcement risk.",
+      "src": [
+        4,
+        9
+      ]
+    },
+    {
+      "h": "The regional border closes on low-value imports"
+    },
+    {
+      "p": "The second shock is local. Chinese exports into ASEAN are still growing fast: China-ASEAN goods trade reached $744.41 billion in January to July 2026, up 24.7% year on year, and 2025 trade left China with a $276 billion surplus with the bloc, according to figures cited by Eurasia Review. Part of that flow is parcels that used to go to the United States and now look for other markets. Governments have responded with the tools at hand: removing thresholds, tightening seller registration, and making platforms collect.",
+      "src": [
+        14,
+        15
+      ]
+    },
+    {
+      "p": "Thailand illustrates the operational cost. Duty from 1 baht means duty assessment on about 250 million parcels a year, at rates that officials put around 30% for fashion and 20% for bags. That volume only clears at speed if data arrive before the parcel does. The agreements with the major platforms are the practical answer: the platform becomes the collection point, and the carrier becomes a data relay. Indonesia has chosen a different route: a price floor for cross-border goods, legalised licences for foreign sellers, and a six-month licensing window for new sellers from 8 June 2026.",
+      "src": [
+        15,
+        16
+      ]
+    },
+    {
+      "p": "For cross-border carriers, the result is a patchwork. Vietnam taxes low-value imports through VAT, Thailand through full duty, Indonesia through market access rules, Japan from 2028 through a point-of-sale tax with a registration window opening on 1 October 2027. Our reading is that DEFA will not unify these regimes. It addresses payments, data and paperless trade infrastructure, not tariffs or consumption taxes. It may, however, make the data exchange behind them cheaper, which favours players who already run customs data pipelines.",
+      "src": [
+        17,
+        15,
+        16,
+        19,
+        0
+      ]
+    },
+    {
+      "h": "Hubs, platforms and the domestic parcel"
+    },
+    {
+      "p": "Singapore, Kuala Lumpur and Bangkok compete as regional gateways. All three are in the excess-capacity investigation, and Singapore sits at 12.5% under the forced-labour action. The report's focus on free zones and re-export activity, combined with Thailand's customs scrutiny of import-and-re-export operations without meaningful local value added, suggests hub operators will be asked for more evidence on what happens to goods inside bonded facilities. In our view, the hubs that can document transformation, not just storage, will keep their role for American-bound flows.",
+      "src": [
+        4,
+        5,
+        9,
+        7
+      ]
+    },
+    {
+      "p": "The domestic market tells a different story. Intra-regional volume is surging. J&T added six sorting centres in Southeast Asia in the quarter, reaching 127, and averaged 30.3 million parcels a day in the region. Sea's management said Shopee fulfilment volumes grew more than 20% quarter on quarter, and instant delivery cost per order in Indonesia fell by around 20%. Structurally, Southeast Asian platforms assign parcel volumes to carriers rather than letting sellers choose, which Momentum Works describes as a self-reinforcing cycle that favours the largest operators. J&T, SPX and Lazada Logistics together held about 60% of regional volume in 2024.",
+      "src": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "p": "This is where tariffs and local taxes meet. Every barrier on a cross-border parcel is an incentive to hold stock inside the market. The likely effect is a shift from direct parcel imports towards bulk imports into local fulfilment, especially in Thailand and Indonesia. That favours platform-owned logistics and the large domestic networks. Independent cross-border carriers risk being confined to the first mile and the line-haul unless they offer bonded storage, duty handling and returns in-market.",
+      "src": [
+        15,
+        16,
+        21,
+        22
+      ]
+    },
+    {
+      "p": "India plays a separate game. It has built more than 1,000 Dak Ghar Niryat Kendras, postal export centres, and is piloting e-commerce export hubs that combine customs, warehousing and certification. The courier export value limit was raised to Rs 10 lakh per consignment. With a Tier 1 ranking in the transshipment report and a 10% Section 301 rate, Indian sellers have an origin story that is easier to defend than many ASEAN flows, even if the margin over competitors New Delhi wants has not yet materialised.",
+      "src": [
+        23,
+        6,
+        11,
+        12
+      ]
+    },
+    {
+      "figures": [
+        {
+          "big": "2.755bn",
+          "label": "J&T Express parcels in Southeast Asia, second quarter of 2026, up 63.2% year on year"
+        },
+        {
+          "big": "$744bn",
+          "label": "China-ASEAN goods trade, January to July 2026, up 24.7%"
+        },
+        {
+          "big": "250m",
+          "label": "Parcels a year that Thailand estimates are affected by duty from 1 baht, since 1 January 2026"
+        },
+        {
+          "big": "12.5%",
+          "label": "Additional Section 301 tariff on Vietnam, Thailand, Singapore and the Philippines since 24 July 2026 (10% on Indonesia and Malaysia)"
+        }
+      ],
+      "src": [
+        20,
+        14,
+        15,
+        4
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: signed rulebook, rising walls",
+          "likelihood": "Most likely",
+          "text": "DEFA is signed in Manila in November and ratification starts slowly. Washington adds excess-capacity tariffs on some ASEAN economies and steps up origin checks, while national low-value parcel rules keep tightening. Cross-border parcel volume into the United States from the region grows slowly; intra-ASEAN domestic parcels keep compounding.",
+          "signal": "USTR publishes excess-capacity findings with country rates below 10%, and [[CBP]] holds rise on Tier 2 origins."
+        },
+        {
+          "name": "Upside: data corridor",
+          "likelihood": "Plausible",
+          "text": "DEFA signature is followed by quick work on paperless trade and interoperable customs data, and bilateral deals give ASEAN exporters clear origin guidance from Washington. Carriers can pre-clear parcels on shared data and hubs compete on compliance quality rather than tariff arbitrage.",
+          "signal": "Joint ASEAN work programme on DEFA implementation with dated milestones, and published origin guidance tied to a bilateral agreement."
+        },
+        {
+          "name": "Downside: origin shock",
+          "likelihood": "Less likely, high impact",
+          "text": "Washington applies the 40% penalty broadly on Tier 2 flows, excess-capacity tariffs stack at high rates, and Beijing retaliates against countries that cooperate with American enforcement. Air consolidations out of Southeast Asia face systematic holds and forwarders reprice sharply.",
+          "signal": "Named EAPA actions or penalty assessments against high-volume e-commerce flows from Vietnam, Thailand or Malaysia."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-11-16",
+          "when": "16 to 18 Nov 2026",
+          "what": "49th ASEAN Summit in Manila, planned signature of DEFA"
+        },
+        {
+          "date": "2026-12-08",
+          "when": "Early Dec 2026",
+          "what": "Indonesia: six-month licensing window closes for foreign sellers registered after 8 June 2026 under Permendag 19/2026"
+        },
+        {
+          "date": "2026-12-31",
+          "when": "By end 2026 (no date set)",
+          "what": "USTR findings and proposed remedies in the Section 301 excess-capacity investigations"
+        },
+        {
+          "date": "2027-05-15",
+          "when": "Around mid-May 2027",
+          "what": "Target for DEFA ratification, about 180 days after signing"
+        },
+        {
+          "date": "2027-10-01",
+          "when": "1 Oct 2027",
+          "what": "Japan opens registration for sellers of low-value goods ahead of the new consumption-tax regime"
+        },
+        {
+          "date": "2028-04-01",
+          "when": "1 Apr 2028",
+          "what": "Japan ends the ¥10,000 consumption-tax exemption on low-value imports"
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Build item-level origin files for every lane from Vietnam, Thailand, Malaysia and Indonesia to the United States: supplier, bill of materials, place of last substantial transformation. Make it a condition of onboarding for new shippers on these lanes.",
+        "Segment Southeast Asian consolidations by origin risk. Keep goods with Chinese content and light processing out of mixed air consolidations so a single hold does not stall the whole shipment.",
+        "Price compliance explicitly. Add documentation and hold-risk fees to Tier 2 origin lanes and write the allocation of penalty and demurrage costs into shipper contracts before the excess-capacity findings land.",
+        "Connect customs data to the platforms. In Thailand and Indonesia, the platform is becoming the collection point; negotiate data feeds from Lazada, Shopee, TikTok Shop and others rather than rebuilding declarations downstream.",
+        "Plan for in-market stock. For brands selling into Thailand, Indonesia and, from 2028, Japan, model bulk import into local fulfilment against direct parcel delivery, and secure bonded or fulfilment capacity with regional partners now.",
+        "Treat India as a separate origin strategy. Test postal and courier export corridors from India's e-commerce export hubs for categories where a Tier 1 origin reduces enforcement risk on American-bound parcels."
+      ]
+    },
+    {
+      "impact": "Asia's parcels will keep growing, but the value now lies in proving where each one comes from and who collects the tax on it."
+    }
+  ],
+  "glossary": [
+    "ASEAN",
+    "DEFA",
+    "IEEPA",
+    "USTR",
+    "FOB",
+    "VAT",
+    "EAPA",
+    "ACFTA",
+    "CBP",
+    "ECLAC",
+    "APEC"
+  ],
+  "glossary_add": {
+    "DEFA": [
+      "Digital Economy Framework Agreement",
+      "ASEAN's region-wide treaty on digital trade, cross-border e-commerce, data, payments and digital identity."
+    ],
+    "IEEPA": [
+      "International Emergency Economic Powers Act",
+      "A United States emergency law used for tariffs until the Supreme Court struck those tariffs down in February 2026."
+    ],
+    "USTR": [
+      "Office of the United States Trade Representative",
+      "The United States agency that negotiates trade deals and runs Section 301 investigations."
+    ],
+    "FOB": [
+      "Free On Board",
+      "A valuation basis covering the goods' price up to loading at the port of export, excluding international freight and insurance."
+    ],
+    "EAPA": [
+      "Enforce and Protect Act",
+      "A United States law that lets customs investigate and penalise evasion of duties, including through false origin claims."
+    ],
+    "ACFTA": [
+      "ASEAN-China Free Trade Area",
+      "The free trade agreement between ASEAN and China, upgraded to version 3.0 in October 2025."
+    ],
+    "ECLAC": [
+      "Economic Commission for Latin America and the Caribbean",
+      "UN regional commission, also known by its Spanish acronym CEPAL, known for its work on development and trade policy."
+    ]
+  },
+  "sources": [
+    {
+      "t": "ASEAN concludes negotiations for landmark digital economy pact",
+      "pub": "Manila Bulletin",
+      "date": "2026-05-31",
+      "u": "https://mb.com.ph/2026/05/31/asean-concludes-negotiations-for-landmark-digital-economy-pact",
+      "lang": "en"
+    },
+    {
+      "t": "ASEAN's digital framework points to a new model for regional trade",
+      "pub": "IOL",
+      "date": "2026-09-29",
+      "u": "https://iol.co.za/news/brics/2026-09-29-aseans-digital-framework-points-to-a-new-model-for-regional-trade/",
+      "lang": "en"
+    },
+    {
+      "t": "Nov. 16-18 set as non-working days in Metro Manila for ASEAN Summit",
+      "pub": "The Philippine Star",
+      "date": "2026-09-23",
+      "u": "https://www.philstar.com/headlines/2026/09/23/2558353/nov-16-18-set-non-working-days-metro-manila-asean-summit",
+      "lang": "en"
+    },
+    {
+      "t": "And the (Tariff) Beat Goes On: New Section 301 Forced-Labor Tariffs",
+      "pub": "Holland & Knight",
+      "date": "2026-07-24",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/07/and-the-tariff-beat-goes-on",
+      "lang": "en"
+    },
+    {
+      "t": "US Section 301 tariffs: ASEAN implications",
+      "pub": "DFDL",
+      "date": "2026-08-11",
+      "u": "https://www.dfdl.com/insights/legal-and-tax-updates/us-section-301-tariffs-asean-implications/",
+      "lang": "en"
+    },
+    {
+      "t": "Fact Sheet: USTR initiates Section 301 investigations into structural excess capacity and production",
+      "pub": "Office of the United States Trade Representative",
+      "date": "2026-03-11",
+      "u": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/march/fact-sheet-ustr-initiates-section-301-investigations-structural-excess-capacity-and-production",
+      "lang": "en"
+    },
+    {
+      "t": "China, the EU, and Singapore push back against the White House's 'Great Transshipment Scam' report",
+      "pub": "Fortune",
+      "date": "2026-08-17",
+      "u": "https://fortune.com/2026/08/17/china-europe-singapore-us-white-house-report-great-transshipment-scam/",
+      "lang": "en"
+    },
+    {
+      "t": "White House transshipment report signals increased scrutiny of country-of-origin claims",
+      "pub": "Arnold & Porter",
+      "date": "2026-08",
+      "u": "https://www.arnoldporter.com/en/perspectives/blogs/consumer-products-and-retail-navigator/2026/08/white-house-transshipment-report-signals-increased-scrutiny",
+      "lang": "en"
+    },
+    {
+      "t": "America's trading partners question White House allegations of transshipment",
+      "pub": "Yahoo Finance",
+      "date": "2026-08-20",
+      "u": "https://finance.yahoo.com/economy/policy/articles/america-trading-partners-white-house-212043854.html",
+      "lang": "en"
+    },
+    {
+      "t": "Fears for Thailand's US export market as White House report zeroes in on Chinese transhipment abuses",
+      "pub": "Thai Examiner",
+      "date": "2026-08-16",
+      "u": "https://www.thaiexaminer.com/thai-news-foreigners/2026/08/16/fears-for-thailands-us-export-market-as-white-house-report-zeroes-in-on-chinese-transhipment-abuses/",
+      "lang": "en"
+    },
+    {
+      "t": "US transshipment claims in Southeast Asia rest on thin data",
+      "pub": "Asia Times",
+      "date": "2026-08",
+      "u": "https://asiatimes.com/2026/08/us-transshipment-claims-in-southeast-asia-rest-on-thin-data/",
+      "lang": "en"
+    },
+    {
+      "t": "India-US trade pact to be finalised once US offers preferential rate: Goyal",
+      "pub": "Outlook Business",
+      "date": "2026-09-03",
+      "u": "https://www.outlookbusiness.com/news/india-us-trade-pact-to-be-finalised-once-us-offers-preferential-rate-goyal",
+      "lang": "en"
+    },
+    {
+      "t": "India-U.S. trade deal waits on fresh Section 301 probes of rivals",
+      "pub": "Econiti",
+      "date": "2026-09-23",
+      "u": "https://www.econiti.org/daily-news/2026-09-23/2026-09-23-india-us-trade-deal-section-301/",
+      "lang": "en"
+    },
+    {
+      "t": "China, ASEAN sign Free Trade Area 3.0 Upgrade Protocol",
+      "pub": "CGTN",
+      "date": "2025-10-28",
+      "u": "https://news.cgtn.com/news/2025-10-28/news-1HPAWskA0FO/p.html",
+      "lang": "en"
+    },
+    {
+      "t": "ASEAN must be cautious about growing Chinese trade and investments (op-ed)",
+      "pub": "Eurasia Review",
+      "date": "2026-09-09",
+      "u": "https://www.eurasiareview.com/09092026-asean-must-be-cautious-about-growing-chinese-trade-and-investments-oped/",
+      "lang": "en"
+    },
+    {
+      "t": "Thailand Customs to tax online imports from 1 baht in 2026",
+      "pub": "Khaosod English",
+      "date": "2025-12-22",
+      "u": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Indonesia e-commerce regulation: key changes explained (Permendag 19/2026)",
+      "pub": "DFDL",
+      "date": "2026-08-24",
+      "u": "https://www.dfdl.com/insights/legal-and-tax-updates/indonesia-ecommerce-regulation-permendag-19-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Global shift: taxing de minimis imports and e-commerce business strategies",
+      "pub": "Alvarez & Marsal",
+      "date": "2025-02-26",
+      "u": "https://www.alvarezandmarsal.com/thought-leadership/global-shift-taxing-de-minimis-imports-and-e-commerce-business-strategies",
+      "lang": "en"
+    },
+    {
+      "t": "Japan Consumption Tax low-value parcel threshold ends 2028",
+      "pub": "VATCalc",
+      "u": "https://www.vatcalc.com/japan/japan-consumption-tax-low-value-consignment-threshold/",
+      "lang": "en"
+    },
+    {
+      "t": "Japan to introduce point-of-sale consumption tax for low value goods from April 2028",
+      "pub": "VATupdate",
+      "date": "2026-01-17",
+      "u": "https://www.vatupdate.com/2026/01/17/japan-to-introduce-point-of-sale-consumption-tax-for-low-value-goods-from-april-2028/",
+      "lang": "en"
+    },
+    {
+      "t": "J&T Express average daily parcel volume exceeds 100 million in the second quarter of 2026",
+      "pub": "J&T Global Express via PR Newswire",
+      "date": "2026-07",
+      "u": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
+      "lang": "en"
+    },
+    {
+      "t": "Sea Limited (SE) Q2 2026 earnings call transcript",
+      "pub": "The Motley Fool",
+      "date": "2026-08-11",
+      "u": "https://www.fool.com/earnings/call-transcripts/2026/08/11/sea-limited-se-q2-2026-earnings-call-transcript/",
+      "lang": "en"
+    },
+    {
+      "t": "Outpaced and outbid: the squeeze on Southeast Asia's ecommerce 3PLs",
+      "pub": "Momentum Works (The Low Down)",
+      "date": "2025-07-08",
+      "u": "https://thelowdown.momentum.asia/outpaced-and-outbid-the-squeeze-on-southeast-asias-ecommerce-3pls/",
+      "lang": "en"
+    },
+    {
+      "t": "E-commerce export hubs to support Indian SMEs with cost-effective logistics and streamlined regulatory processes",
+      "pub": "IBEF",
+      "u": "https://www.ibef.org/news/e-commerce-export-hubs-to-support-indian-smes-with-cost-effective-logistics-and-streamlined-regulatory-processes",
+      "lang": "en"
+    },
+    {
+      "t": "ASEAN Outlook on the Indo-Pacific",
+      "pub": "ASEAN Secretariat",
+      "date": "2019-06-22",
+      "u": "https://asean.org/wp-content/uploads/2021/01/ASEAN-Outlook-on-the-Indo-Pacific_FINAL_22062019.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Getting hedging right: a small-state perspective",
+      "pub": "China International Strategy Review (Springer), Cheng-Chwee Kuik",
+      "date": "2021-11-01",
+      "u": "https://link.springer.com/article/10.1007/s42533-021-00089-5",
+      "lang": "en"
+    },
+    {
+      "t": "Open regionalism in Latin America and the Caribbean: economic integration as a contribution to changing production patterns with social equity",
+      "pub": "ECLAC (CEPAL)",
+      "date": "1994-01-01",
+      "u": "https://repositorio.cepal.org/handle/11362/37868",
+      "lang": "en"
+    },
+    {
+      "t": "War by Other Means: Geoeconomics and Statecraft",
+      "pub": "Harvard University Press, Robert D. Blackwill and Jennifer M. Harris",
+      "u": "https://www.hup.harvard.edu/books/9780674979796",
+      "lang": "en"
+    },
+    {
+      "t": "The National System of Political Economy",
+      "pub": "Online Library of Liberty, Friedrich List",
+      "u": "https://oll.libertyfund.org/titles/lloyd-the-national-system-of-political-economy",
+      "lang": "en"
+    }
+  ]
+}

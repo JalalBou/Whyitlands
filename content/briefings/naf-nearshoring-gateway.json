@@ -1,0 +1,722 @@
+{
+  "slug": "naf-nearshoring-gateway",
+  "date": "2026-09-30",
+  "date_label": "30 September 2026",
+  "section": "Trade · North Africa",
+  "region": "NAF",
+  "regions": [
+    "NAF",
+    "EU",
+    "ME",
+    "CN"
+  ],
+  "title": "Tangier, Suez and the parcel: North Africa's gateway opens as its borders tighten",
+  "dek": "Morocco's ports and free zones are drawing traffic and Chinese investment, and Suez is slowly reopening. At the same time Rabat, Cairo, Algiers and Tunis are tightening their rules on imports, so the region is getting easier to route through and harder to sell into.",
+  "keypoints": [
+    "Tanger Med handled 11.1 million [[TEU]] in 2025 and Nador West Med opens its first container terminal in Q4 2026, giving Morocco two gateways to Europe.",
+    "Suez traffic is recovering in stages: August 2026 revenue rose 56.7%, but daily transits are still well below 2023 levels.",
+    "The EU's maritime [[ETS]] is moving relay traffic from Algeciras to Tanger Med, and Brussels wants to tighten the rules.",
+    "Egypt now requires advance cargo data for air freight, while Algeria and Tunisia control imports through approvals and payments.",
+    "Morocco's new government, appointed on 29 September, inherits the World Cup investment plan and a customs regime that taxes every e-commerce import."
+  ],
+  "body": [
+    {
+      "h": "Context: a gateway being rebuilt while it is in use"
+    },
+    {
+      "p": "North Africa is being pulled in two directions at once. For European buyers it is the closest low-cost production base, now tied to Asia by a Suez route that is slowly reopening. For Asian marketplaces and brands it is a set of growing consumer markets that keep changing the rules at the border. The last week of September 2026 brought news on both fronts.",
+      "src": []
+    },
+    {
+      "p": "On the sea side, Tanger Med closed 2025 at 11,106,164 [[TEU]], up 8.4%, with 161 million tonnes of cargo, up 13.3%, and 535,203 road trucks through its ro-ro terminals. In the first half of 2026 it handled 84 million tonnes, up 6%, and revenue rose 8.6% to 2.479 billion dirhams. The port attributes part of the growth to carriers reorganising their networks as some services return to Suez.",
+      "src": [
+        0,
+        1
+      ]
+    },
+    {
+      "p": "Behind the quays sits the industrial platform. The Tanger Med zones reported 188 billion dirhams of industrial business volume in 2025, up 8%, including 125 billion from automotive and 50.4 billion from logistics. More than 1,500 companies operate there, with around 145,000 jobs. New entrants in 2025 included Chinese firms alongside German, French and Turkish investors.",
+      "src": [
+        2
+      ]
+    },
+    {
+      "p": "A second gateway is about to open. Nador West Med, on the Mediterranean coast near the Algerian border, said on 10 September that its East Terminal is ready for first commercial calls in the fourth quarter of 2026. It is operated by Marsa Maroc (50% plus one share) and Terminal Investment Limited, the port arm of the [[MSC]] group (50% minus one share), with about 3.4 million TEU of annual capacity. A second container terminal with Marsa Maroc and CMA CGM is under development. Total public and private investment in the complex is put at 51 billion dirhams.",
+      "src": [
+        17
+      ]
+    },
+    {
+      "p": "Politics has also moved. Morocco voted on 23 September. The Authenticity and Modernity Party ([[PAM]]) won 97 of 395 seats, ahead of the outgoing head of government's National Rally of Independents ([[RNI]]) on 66, Istiqlal on 65 and the Justice and Development Party ([[PJD]]) on 54. Turnout was about 38%. On 29 September King Mohammed VI appointed Fatima Ezzahra El Mansouri of PAM as head of government, the first woman in the post. She must now build a coalition. The incoming cabinet inherits the World Cup 2030 investment programme, which the government has put at about $41 billion, with around 8 billion dirhams of transport projects planned for 2026 alone.",
+      "src": [
+        5,
+        6,
+        7,
+        28
+      ]
+    },
+    {
+      "p": "On the other side of the region, Egypt's Suez Canal is recovering but is not back to normal. Revenue reached $567.1 million in August 2026, up 56.7% year on year, on 1,358 transits. Revenue for the 2025/26 fiscal year was $4.67 billion, up 23%, against a record of about $9.4 billion in 2023. Daily transits between January and August averaged 40.8 vessels, against 73.7 in 2023.",
+      "src": [
+        8,
+        9
+      ]
+    },
+    {
+      "p": "Carrier behaviour explains the gap. After the American and Israeli strikes on Iran in early 2026 disrupted Gulf shipping, lines rerouted again. Since July, Maersk and Hapag-Lloyd have moved Gemini services back through Suez one by one. In mid-September they added four more (AE5, AE11, AE12 and ME2) to AE15 and AE19. Container net tonnage through the canal in January to August was up 54.2%. The same reports note that the Houthis have taken Mocha and moved towards islands near Bab el-Mandeb, and that both carriers reserve the right to reverse course.",
+      "src": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "p": "Border rules are moving too. Egypt made Advance Cargo Information ([[ACI]]) mandatory for air freight from 1 January 2026, after sea freight in 2021: the importer must obtain an [[ACID]] number on the Nafeza single window before shipment, and the exporter must upload documents through the CargoX platform. Algeria requires every importer to file a forward import programme ([[PPI]]) for approval by the foreign trade ministry. Tunisia's central bank, in March 2026, required 100% self-financing for imports of non-essential goods such as clothing, perfumes and household appliances.",
+      "src": [
+        12,
+        13,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "Rabat: government, customs (ADII) and Tanger Med",
+          "stance": "Morocco as Europe's industrial back office and Africa's hub, with a firmer border for consumer imports.",
+          "text": "Rabat's argument is scale and reliability: a port that kept growing through the Red Sea crisis, free zones that attract carmakers and their suppliers, and infrastructure accelerated by the Africa Cup of Nations and the 2030 World Cup. On consumer imports the line has been protective since 2022, when purchases from international e-commerce platforms lost the 1,250-dirham exemption after customs detected split shipments and undervaluation. The customs administration ([[ADII]]) has said it prefers platforms to clear all goods themselves and show duties in the price.",
+          "src": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "actor": "Cairo: government, customs and the Suez Canal Authority",
+          "stance": "The canal is safe, and data-first borders make Egypt faster, not slower.",
+          "text": "The Suez Canal Authority ([[SCA]]) chairman, Osama Rabie, said on 22 September that navigation remained stable, and the authority projects about $10 billion of revenue in 2027/28. Finance and customs officials present ACI as a way to cut clearance times and document costs. On 28 September customs head Ahmed Amawi told a workshop run with [[EU]] and German development partners that Egypt wants a faster, risk-based regime for cross-border e-commerce shipments.",
+          "src": [
+            8,
+            9,
+            13,
+            14
+          ]
+        },
+        {
+          "actor": "Algiers (and Tunis): import control first",
+          "stance": "Protect foreign currency and local production, even at the cost of consumer choice.",
+          "text": "Algeria's forward import programme ties bank payments to prior approval, and since 1 January 2026 imports of services also need authorisation. The ministry has itself flagged abuse: about 3,961 micro-enterprises requested $130.32 billion of imports for the second half of 2026, nearly three times annual imports, and an inquiry is under way. Tunisia's central bank uses financing rules to the same end, and critics warn this pushes demand into informal channels.",
+          "src": [
+            25,
+            26,
+            27
+          ]
+        },
+        {
+          "actor": "Brussels and Madrid: European Commission and Spanish ports",
+          "stance": "Keep the level playing field on carbon, origin and parcels, without handing traffic to the southern shore.",
+          "text": "The Commission's July review of maritime emissions trading ([[ETS]]) lowers the transshipment share that defines a 'neighbouring' non-EU port from 65% to 50%. Only Tanger Med and East Port Said hold that status today; Nador West Med, Dakhla, Algeria's Cherchell and Egypt's Damietta are named as candidates. Spain's port observatory says ETS costs have already moved relay traffic: Algeciras transshipment fell from 5.2 to 4.6 million TEU. Separately, Trade Commissioner Maroš Šefčovič has warned about Chinese goods reaching the EU via Morocco.",
+          "src": [
+            15,
+            16,
+            20
+          ]
+        },
+        {
+          "actor": "Chinese investors: Gotion and battery suppliers",
+          "stance": "Morocco is a compliant, [[FTA]]-connected base to serve European factories.",
+          "text": "Gotion High-Tech is building a battery plant in Kenitra's Atlantic Free Zone, starting at 10 GWh and aiming for up to 100 GWh, backed by a €100 million African Development Bank loan. A €480 million joint venture with Volkswagen's PowerCo will make 100,000 tonnes a year of [[LFP]] cathode material for cell plants in Spain and Slovakia. The investors' case is integration with European customers, not circumvention.",
+          "src": [
+            18,
+            19
+          ]
+        },
+        {
+          "actor": "Shipping lines: Maersk, Hapag-Lloyd, MSC, CMA CGM",
+          "stance": "Return to Suez gradually, and place hubs where costs and risk are lowest.",
+          "text": "Maersk and Hapag-Lloyd say crew and cargo safety comes first and that routing can be reversed. Drewry's view, reported in August, was that a meaningful Asia to Europe return depends on the wider Middle East situation. Meanwhile the lines are voting with capital on the southern shore: MSC's terminal arm in Nador, CMA CGM in Nador's second terminal, and new hub calls at Tanger Med by CMA CGM and Ocean Network Express.",
+          "src": [
+            1,
+            10,
+            11,
+            17
+          ]
+        },
+        {
+          "actor": "Posts and local e-commerce: Barid Al-Maghrib",
+          "stance": "Build regional e-commerce corridors while customs tightens inbound flows.",
+          "text": "Barid Al-Maghrib signed a cooperation protocol and a postal exchange agreement with Saudi Post at the 2025 Universal Postal Congress, aimed at e-commerce parcels between the two countries. For posts across the region, the practical issue is that duty collection on low-value inbound items now sits with them at delivery unless platforms clear upstream. We did not find a recent public position from Egypt Post on the new rules.",
+          "src": [
+            29,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "p": "Where they collide. Rabat and Brussels agree on nearshoring but disagree on who captures the port traffic: Spain sees ETS as a subsidy to Tanger Med, Morocco sees it as the reward for building capacity. Brussels and Beijing disagree on what Chinese plants in Morocco are: supply chain integration, or a route around EU tariffs on Chinese electric vehicles of up to 45.3%. Cairo and the carriers disagree on timing: Egypt declares the canal secure, the lines keep a Cape option open. Algiers and Tunis follow a different logic from Rabat and Cairo altogether, using prior approval and payment controls rather than data and duties to manage imports.",
+      "src": [
+        8,
+        10,
+        15,
+        16,
+        20,
+        26,
+        27
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Nearshoring and friend-shoring",
+          "reading": "In April 2022 United States Treasury Secretary Janet Yellen made the case for friend-shoring: moving supply chains towards trusted partners to reduce geopolitical risk. Europe's version is nearshoring to its southern shore, and Morocco sells itself as Europe's industrial back office. The friction is who counts as a friend: Chinese battery investment in Kenitra is integration for Rabat and the investors, and a possible route around EU tariffs for some in Brussels.",
+          "parcel": "Nearshoring shows up first in business-to-business replenishment and express spare parts, not consumer parcels. Origin evidence for Morocco-made goods with Chinese inputs becomes a pricing and clearance factor.",
+          "src": [
+            31,
+            2,
+            18,
+            20
+          ]
+        },
+        {
+          "school": "EU neighbourhood policy and open strategic autonomy",
+          "reading": "Brussels wants a stable, integrated southern neighbourhood: the Pact for the Mediterranean, presented in October 2025, promises trade, connectivity and investment. But the EU also guards its rules at the border, and the ETS neighbouring-port test and the carbon border mechanism are autonomy tools that decide where carbon costs fall. The two logics pull in opposite directions for Moroccan ports.",
+          "parcel": "EU rules keep Moroccan hubs attractive for sea relay and consolidated loads, while the €3 duty keeps direct consumer parcels from Morocco no cheaper than from Asia.",
+          "src": [
+            32,
+            15,
+            21,
+            23
+          ]
+        },
+        {
+          "school": "Morocco's Atlantic and African connectivity strategy",
+          "reading": "Rabat treats ports and corridors as foreign policy. Tanger Med, Nador West Med and the King's Atlantic initiative, launched in November 2023 to give landlocked Sahel states access to the ocean through Moroccan road, port and rail infrastructure, position Morocco as the hinge between Europe, West Africa and the Atlantic. Our reading is that the Atlantic leg is still a political project more than a flow of goods.",
+          "parcel": "In the near term the gain is Mediterranean hub capacity; over time, regional e-commerce corridors towards West Africa could run through Moroccan hubs, which is worth tracking before it is worth pricing.",
+          "src": [
+            33,
+            17,
+            0
+          ]
+        },
+        {
+          "school": "Economic intelligence (intelligence économique: the Martre report, Alain Juillet)",
+          "reading": "The French school of economic intelligence, framed by Henri Martre's 1994 report and championed by Alain Juillet, France's high official for economic intelligence from 2003 to 2009, treats the collection, analysis and protection of strategic information as a competitive weapon. Juillet defines it as mastering and protecting the strategic information that economic actors need. Read this way, Egypt's advance cargo data rule, Algeria's import programme and Tunisia's financing rules are signals to monitor, and data demanded at the border is also data others can exploit.",
+          "parcel": "Run a standing watch on customs and payment rules in Rabat, Cairo, Algiers and Tunis: the operator that reads the 2027 Moroccan finance bill or an Egyptian e-commerce track first reprices first, and shipment data shared upstream should be governed like a commercial asset.",
+          "src": [
+            34,
+            35,
+            12,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: routing and capacity"
+    },
+    {
+      "p": "Parcels do not sail, but their inputs and their stock do. Fulfilment centres in Europe are replenished by sea from Asia. Tanger Med cites transit-time savings of up to 14 days on eastbound journeys for services back on Suez, and Hapag-Lloyd says AE19 saves around four weeks compared with sailing around the Cape. Shorter lead times mean less safety stock in European warehouses and fewer emergency air shipments, which is where e-commerce margins leak in peak season.",
+      "src": [
+        1,
+        11
+      ]
+    },
+    {
+      "p": "Our reading is that the return will stay partial into 2027. Six Gemini services are back; many other loops still use the Cape. That produces a mixed network with two transit-time profiles on the same trade lane, which complicates promise dates for sellers who restock by sea. It also keeps demand for sea-air connections via Gulf and Mediterranean hubs higher than it would be in a fully open canal.",
+      "src": [
+        10,
+        11
+      ]
+    },
+    {
+      "p": "The ETS adds a second routing logic. Because a call at a neighbouring non-EU hub resets the emissions count, carriers have reason to relay cargo at Tanger Med rather than Algeciras. Spain's observatory says the EU ports' share of relay operations in the basin fell from 51% to 26%, and cites Maersk's MECL service cutting its annual ETS exposure from about €33 million to near zero after moving its exchange point. If Nador West Med is later listed as neighbouring, the effect weakens there; until then it is an ETS-light alternative. For parcel networks the consequence is simple: more feeder legs into EU ports from Moroccan hubs, and more reliance on ro-ro truck capacity across the Strait of Gibraltar.",
+      "src": [
+        15,
+        16
+      ]
+    },
+    {
+      "h": "Morocco as a fulfilment base, and as a market"
+    },
+    {
+      "p": "Nearshoring in Morocco has so far meant cars, aerospace and textiles, not parcels. That is changing at the margin. A logistics platform worth 50.4 billion dirhams of business volume, 535,000 trucks a year across the Strait and a high-speed rail spine due to reach Marrakech by November 2029 make it plausible to hold European-bound stock in Tangier and ship by road to Spain and France. Goods made in Morocco can qualify for preferential origin into the EU. Goods merely stored there do not change origin, and still clear EU customs on arrival.",
+      "src": [
+        0,
+        2,
+        30
+      ]
+    },
+    {
+      "p": "That is where the EU parcel reform matters. Since 1 July 2026 the EU applies a flat €3 duty per item category on parcels under €150, until the customs data hub arrives in 2028. A separate EU handling fee is announced for 1 November 2026, but as of 25 September no public text fixed its amount. The likely effect is that B2C parcels from outside the EU, Morocco included, carry a fixed per-parcel cost. Our reading: Moroccan stock pays off for bulky, slower-moving lines shipped in consolidated B2B loads to EU warehouses, not for direct-to-consumer parcels.",
+      "src": [
+        23,
+        24
+      ]
+    },
+    {
+      "p": "As a destination, Morocco is a growing but managed market. Inbound e-commerce parcels have paid duties and taxes since July 2022: in 2022 customs cited 40% duty on clothing, 2.5% on electronics and 20% [[VAT]] as general rates, plus a small parafiscal levy. Platforms that clear upstream and quote landed cost at checkout, in effect [[DDP]], avoid collection at the door. The change of government is unlikely to reverse this. The first test will be the 2027 finance bill, which the new cabinet must prepare in the coming weeks.",
+      "src": [
+        3,
+        4
+      ]
+    },
+    {
+      "h": "Egypt, Algeria, Tunisia: three different borders"
+    },
+    {
+      "p": "Egypt is building a data-first border. ACI means no shipment should be loaded for Egypt without a registered declaration number, obtained by the importer before dispatch. For B2B air cargo, that pushes compliance work upstream to the shipper and the forwarder, with CargoX platform fees reported at $200 to $300. The public texts we reviewed do not state how express and postal consignments are treated, so operators should confirm their own status. The customs chief's comments on 28 September suggest a separate, lighter track for e-commerce is being designed, but no rule has been published.",
+      "src": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "p": "Algeria and Tunisia manage imports through permission and payment. For a cross-border seller, this means the bottleneck is not the tariff but access to foreign currency and to prior approval. Our reading is that B2C cross-border flows into both countries will stay small and irregular, with informal channels filling the gap. Consumer demand is real, but the formal parcel channel is narrow.",
+      "src": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "h": "The China and carbon question"
+    },
+    {
+      "p": "The EU's carbon border mechanism ([[CBAM]]) entered its definitive regime on 1 January 2026 for cement, iron and steel, aluminium, fertilisers, electricity and hydrogen. Importers of more than 50 tonnes a year of covered goods need authorised declarant status, and the first annual declaration is due on 30 September 2027. For parcels the direct exposure is small, since most e-commerce goods are outside the scope and below the threshold. The indirect exposure is in B2B flows of steel and aluminium parts and in the cost of Moroccan and Egyptian fertiliser and metals exports.",
+      "src": [
+        21,
+        22
+      ]
+    },
+    {
+      "p": "Chinese battery plants in Kenitra sit at the meeting point of these rules. Batteries shipped as dangerous goods do not travel as ordinary parcels, but the supplier parks around them will. More Chinese industrial presence in northern Morocco means more B2B spare parts, samples and components moving by express. It also means more scrutiny of origin claims by EU customs. We expect origin documentation for Morocco-made goods to face closer checks.",
+      "src": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "figures": [
+        {
+          "big": "11.1m TEU",
+          "label": "Tanger Med container throughput in 2025, up 8.4%"
+        },
+        {
+          "big": "$567.1m",
+          "label": "Suez Canal revenue in August 2026, up 56.7% year on year"
+        },
+        {
+          "big": "40.8 vs 73.7",
+          "label": "Average daily Suez transits, January to August 2026 versus 2023"
+        },
+        {
+          "big": "3.4m TEU",
+          "label": "Capacity of Nador West Med East Terminal, first calls due in the fourth quarter of 2026"
+        }
+      ],
+      "src": [
+        0,
+        8,
+        17
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: partial Suez, Moroccan hubs gain",
+          "likelihood": "Most likely",
+          "text": "More Asia to Europe loops return through Suez in stages, with some staying on the Cape. Tanger Med keeps growing, Nador West Med opens on schedule, and the new Moroccan government keeps the investment and customs line. Egypt publishes an e-commerce clearance track in 2027.",
+          "signal": "Further service announcements via Suez from MSC and CMA CGM, and monthly Suez transits moving above 45 a day."
+        },
+        {
+          "name": "Upside: full reopening and faster North African fulfilment",
+          "likelihood": "Possible",
+          "text": "A durable Red Sea settlement brings most loops back, freight rates fall and European inventory needs shrink. Brands start using Tangier warehouses for B2B replenishment of Spain and France. Egypt's ACI becomes a fast lane for pre-registered e-commerce.",
+          "signal": "Drewry and carriers declaring a network-wide Suez return, and Egypt publishing simplified rules for low-value shipments."
+        },
+        {
+          "name": "Downside: renewed Red Sea disruption and EU tightening",
+          "likelihood": "Less likely, high impact",
+          "text": "Houthi escalation near Bab el-Mandeb sends lines back to the Cape. The EU extends neighbouring-port status to Nador and tightens origin checks on Chinese-linked Moroccan goods. Transit times, war-risk surcharges and customs holds rise together.",
+          "signal": "Carriers reversing Gemini routings, or the Commission's annual neighbouring-port list adding Moroccan ports."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-10-20",
+          "when": "By 20 Oct 2026",
+          "what": "Morocco: new cabinet named and 2027 finance bill filed in parliament (statutory deadline, subject to coalition timing)."
+        },
+        {
+          "date": "2026-11-01",
+          "when": "1 Nov 2026",
+          "what": "EU: announced start of the handling fee on low-value parcels; amount still to be published."
+        },
+        {
+          "date": "2026-12-31",
+          "when": "Q4 2026",
+          "what": "Nador West Med East Terminal: first commercial container calls."
+        },
+        {
+          "date": "2027-09-30",
+          "when": "30 Sep 2027",
+          "what": "EU: first annual CBAM declaration due for 2026 imports."
+        },
+        {
+          "date": "2028-07-01",
+          "when": "1 Jul 2028",
+          "what": "EU: flat €3 duty on parcels under €150 due to give way to normal tariffs via the customs data hub."
+        },
+        {
+          "date": "2029-11-30",
+          "when": "Nov 2029",
+          "what": "Morocco: Kenitra to Marrakech high-speed line due in service ahead of the World Cup."
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Re-quote Asia to Europe replenishment on two transit profiles, Suez and Cape, and write the routing assumption and a surcharge trigger into contracts rather than a single all-in rate.",
+        "Price a Tangier warehouse for bulky or slow-moving European stock shipped in consolidated B2B loads, against an EU warehouse; do not use it for direct-to-consumer parcels now that the €3 duty and handling fee apply per parcel.",
+        "For Egypt, map every flow (air B2B, express, postal, e-commerce) against ACI: confirm who obtains the ACID number, how CargoX fees are recovered, and what happens to a shipment loaded without one.",
+        "Into Morocco, move marketplace and brand clients to upstream clearance with duties shown at checkout; the 40% rate on clothing makes delivery-time collection a major cause of refusals and returns.",
+        "Treat Algeria and Tunisia as B2B, approval-led markets: sell through local importers holding an approved import programme and avoid B2C promises you cannot clear.",
+        "Build origin evidence into data for Morocco-made goods with Chinese inputs, supplier declarations and bills of materials, before EU customs asks for it."
+      ]
+    },
+    {
+      "impact": "North Africa is becoming Europe's nearest hub and a harder border at the same time: plan routing around Suez and Tangier, and clear upstream wherever you sell."
+    }
+  ],
+  "glossary": [
+    "TEU",
+    "MSC",
+    "PAM",
+    "RNI",
+    "PJD",
+    "ACI",
+    "ACID",
+    "PPI",
+    "ADII",
+    "SCA",
+    "EU",
+    "ETS",
+    "VAT",
+    "DDP",
+    "CBAM"
+  ],
+  "glossary_add": {
+    "TEU": [
+      "Twenty-foot equivalent unit",
+      "Standard measure of container capacity, equal to one 20-foot container."
+    ],
+    "MSC": [
+      "Mediterranean Shipping Company",
+      "The world's largest container line by capacity, based in Geneva."
+    ],
+    "PAM": [
+      "Authenticity and Modernity Party",
+      "Moroccan political party that won the most seats in the September 2026 election."
+    ],
+    "RNI": [
+      "National Rally of Independents",
+      "Moroccan political party that led the previous government."
+    ],
+    "PJD": [
+      "Justice and Development Party",
+      "Moroccan Islamist-leaning party that led governments from 2011 to 2021."
+    ],
+    "ACI": [
+      "Advance Cargo Information",
+      "Egypt's system requiring shipment data and documents to be registered before goods are loaded for Egypt."
+    ],
+    "ACID": [
+      "Advance Cargo Information Declaration",
+      "The number an Egyptian importer obtains on the Nafeza platform, which must appear on all shipping documents."
+    ],
+    "PPI": [
+      "Programme prévisionnel d'importation",
+      "Algeria's forward import programme that importers must have approved before banks will pay for imports."
+    ],
+    "ADII": [
+      "Administration des Douanes et Impôts Indirects",
+      "Morocco's customs and excise administration."
+    ],
+    "SCA": [
+      "Suez Canal Authority",
+      "Egyptian state body that operates the Suez Canal and sets its transit tolls."
+    ],
+    "ETS": [
+      "Emissions Trading System",
+      "The EU carbon market, which since 2024 also covers emissions from shipping to and from EU ports."
+    ],
+    "CBAM": [
+      "Carbon Border Adjustment Mechanism",
+      "EU charge on the embedded carbon of imported cement, steel, aluminium, fertilisers, electricity and hydrogen."
+    ]
+  },
+  "sources": [
+    {
+      "t": "Port activity report in 2025 (press release)",
+      "pub": "Tanger Med Port Authority",
+      "date": "2026-02-02",
+      "u": "https://www.tangermed.ma/wp-content/uploads/press-releases/2026/CP-TMPA-PORT-ACTIVITY-REPORT-IN-2025.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "Tangier Med moves 84 million tons until June amid the reorganization of routes through Suez",
+      "pub": "El Estrecho Digital",
+      "date": "2026-09-22",
+      "u": "https://www.elestrechodigital.com/en/2026/09/22/tanger-med-moves-84-million-tons-until-june-amid-the-reorganization-of-routes-through-suez",
+      "lang": "en"
+    },
+    {
+      "t": "Tanger Med: 188 billion dirhams of industrial business volume in 2025",
+      "pub": "TelQuel",
+      "date": "2026-04-13",
+      "u": "https://telquel.ma/instant-t/2026/04/13/tanger-med-188-milliards-de-dirhams-de-volume-daffaires-industriel-en-2025_1984075/",
+      "lang": "fr"
+    },
+    {
+      "t": "E-commerce: all shipments from abroad will be subject to customs duties",
+      "pub": "Le360",
+      "date": "2022-06-16",
+      "u": "https://fr.le360.ma/economie/e-commerce-tous-les-envois-depuis-letranger-seront-soumis-aux-droits-de-douanes-262030/",
+      "lang": "fr"
+    },
+    {
+      "t": "Customs explanations on the taxation of online purchases from abroad",
+      "pub": "Médias24",
+      "date": "2022-06-17",
+      "u": "https://medias24.com/2022/06/17/les-explications-et-precisions-de-la-douane-sur-limposition-des-achats-electroniques-depuis-letranger/",
+      "lang": "fr"
+    },
+    {
+      "t": "Morocco confirms final 2026 election results, with no changes from provisional tally",
+      "pub": "Hespress English",
+      "date": "2026-09-25",
+      "u": "https://en.hespress.com/146150-morocco-confirms-final-2026-election-results-with-no-changes-from-provisional-tally.html",
+      "lang": "en"
+    },
+    {
+      "t": "King Mohammed VI appoints Fatima Ezzahra El Mansouri as Morocco's first female head of government",
+      "pub": "Hespress English",
+      "date": "2026-09-29",
+      "u": "https://en.hespress.com/146332-king-mohammed-vi-appoints-fatima-ezzahra-el-mansouri-as-moroccos-first-female-head-of-government.html",
+      "lang": "en"
+    },
+    {
+      "t": "PAM wins big in Morocco parliament elections but falls short of majority",
+      "pub": "Al Jazeera",
+      "date": "2026-09-26",
+      "u": "https://www.aljazeera.com/news/2026/9/26/pam-wins-big-in-morocco-parliament-elections-but-falls-short-of-majority",
+      "lang": "en"
+    },
+    {
+      "t": "North Africa: Egypt declares Suez Canal secure as August revenue rises",
+      "pub": "AllAfrica",
+      "date": "2026-09-22",
+      "u": "https://allafrica.com/stories/202609220446.html",
+      "lang": "en"
+    },
+    {
+      "t": "Suez Canal revenue rises 23 percent in the 2025/2026 fiscal year as regional tensions ease",
+      "pub": "Egyptian Streets",
+      "date": "2026-06-30",
+      "u": "https://egyptianstreets.com/2026/06/30/suez-canal-revenue-rises-23-percent-in-the-2025-2026-fiscal-year-as-regional-tensions-ease/",
+      "lang": "en"
+    },
+    {
+      "t": "Container shipping returns to Suez despite rising Red Sea risks",
+      "pub": "gCaptain",
+      "date": "2026-09-16",
+      "u": "https://gcaptain.com/container-shipping-returns-to-suez-despite-rising-red-sea-risks/",
+      "lang": "en"
+    },
+    {
+      "t": "Maersk brings back another shipping service through Suez, but wider return remains distant",
+      "pub": "Euronews",
+      "date": "2026-08-14",
+      "u": "https://www.euronews.com/business/2026/08/14/maersk-returns-another-asia-europe-service-through-suez-but-wider-return-remains-distant",
+      "lang": "en"
+    },
+    {
+      "t": "Egypt to enforce mandatory ACI for air freight starting January 1, 2026",
+      "pub": "German-Arab Chamber of Industry and Commerce (AHK Egypt)",
+      "date": "2025-12",
+      "u": "https://aegypten.ahk.de/en/news2/egypt-to-enforce-mandatory-aci-for-air-freight-starting-january-1-2026",
+      "lang": "en"
+    },
+    {
+      "t": "Air cargo joins the ACI system",
+      "pub": "Al-Ahram Weekly",
+      "date": "2026-01-10",
+      "u": "https://english.ahram.org.eg/NewsContent/50/1201/560058/AlAhram-Weekly/Egypt/Air-cargo-joins-the-ACI-system.aspx",
+      "lang": "en"
+    },
+    {
+      "t": "Customs: developing trade procedures for cross-border e-commerce",
+      "pub": "Al-Borsa News",
+      "date": "2026-09-28",
+      "u": "https://www.alborsaanews.com/2026/09/28/1995652",
+      "lang": "ar"
+    },
+    {
+      "t": "The European Commission reduces the threshold for neighboring transshipment ports to 50% in its review of the maritime ETS",
+      "pub": "El Estrecho Digital",
+      "date": "2026-07-17",
+      "u": "https://www.elestrechodigital.com/en/2026/07/17/the-european-commission-reduces-the-threshold-for-neighboring-transshipment-ports-to-50-in-its-review-of-the-maritime-ets",
+      "lang": "en"
+    },
+    {
+      "t": "The transshipment between ocean routes leaves Algeciras and sets up in Tangier Med due to the cost of the EU ETS",
+      "pub": "El Estrecho Digital",
+      "date": "2026-07-30",
+      "u": "https://www.elestrechodigital.com/en/2026/07/30/the-transshipment-between-ocean-routes-leaves-algeciras-and-sets-up-in-tangier-med-due-to-the-cost-of-the-eu-ets",
+      "lang": "en"
+    },
+    {
+      "t": "Nador West Med East Terminal ready for first commercial calls",
+      "pub": "Morocco World News",
+      "date": "2026-09-10",
+      "u": "https://www.moroccoworldnews.com/2026/09/337870/nador-west-med-east-terminal-ready-for-first-commercial-calls/",
+      "lang": "en"
+    },
+    {
+      "t": "Gotion High-Tech prepares Africa's first battery gigafactory in Morocco",
+      "pub": "ESS News",
+      "date": "2026-08-03",
+      "u": "https://www.ess-news.com/2026/08/03/gotion-high-tech-prepares-africas-first-battery-gigafactory-in-morocco/",
+      "lang": "en"
+    },
+    {
+      "t": "Gotion, Volkswagen plan €480 million battery materials project in Morocco",
+      "pub": "Morocco World News",
+      "date": "2026-09",
+      "u": "https://www.moroccoworldnews.com/2026/09/340143/gotion-volkswagen-plan-e480-million-battery-materials-project-in-morocco/",
+      "lang": "en"
+    },
+    {
+      "t": "Morocco-China partnership in batteries and electric vehicles revives European automotive concerns",
+      "pub": "Capmad",
+      "date": "2026-07-06",
+      "u": "https://www.capmad.com/post/le-partenariat-maroc-chine-dans-les-batteries-et-vehicules-electriques-ravive-les-inquietudes-de-lautomobile-europeenne",
+      "lang": "fr"
+    },
+    {
+      "t": "CBAM definitive regime",
+      "pub": "European Commission, Taxation and Customs Union",
+      "date": "2026",
+      "u": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en",
+      "lang": "en"
+    },
+    {
+      "t": "CBAM timeline, deadlines and phases: what to expect in 2026",
+      "pub": "Coolset",
+      "date": "2026",
+      "u": "https://www.coolset.com/academy/cbam-timeline-deadlines-phases-what-to-expect-2026",
+      "lang": "en"
+    },
+    {
+      "t": "Council gives final green light to new customs duty rules for small parcels",
+      "pub": "Council of the EU",
+      "date": "2026-02-11",
+      "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+      "lang": "en"
+    },
+    {
+      "t": "Small parcels in 2026: after the €3 customs duty, the European handling fee in November",
+      "pub": "Kohen Avocats",
+      "date": "2026-09-25",
+      "u": "https://kohenavocats.com/petits-colis-frais-gestion-europeen-novembre-2026-qui-paie-texte-reel/",
+      "lang": "fr"
+    },
+    {
+      "t": "Algeria import requests by tiny firms hit US$130bn",
+      "pub": "The Rio Times",
+      "date": "2026",
+      "u": "https://www.riotimesonline.com/algeria-import-requests-fraud-inquiry-2026/",
+      "lang": "en"
+    },
+    {
+      "t": "Algeria: mandatory import forecast program",
+      "pub": "US International Trade Administration",
+      "date": "2026",
+      "u": "https://www.trade.gov/market-intelligence/algeria-mandatory-import-forecast-program",
+      "lang": "en"
+    },
+    {
+      "t": "Authorities tighten controls… barons applaud!",
+      "pub": "African Manager",
+      "date": "2026-03-26",
+      "u": "https://en.africanmanager.com/authorities-tighten-controls-barons-applaud/",
+      "lang": "en"
+    },
+    {
+      "t": "Morocco to invest extra $850m in World Cup transport links",
+      "pub": "AGBI",
+      "date": "2026-04-08",
+      "u": "https://www.agbi.com/infrastructure/2026/04/morocco-to-invest-extra-850m-in-world-cup-transport-links/",
+      "lang": "en"
+    },
+    {
+      "t": "Barid Al-Maghrib Group and Saudi Post join forces in e-commerce",
+      "pub": "La Vérité",
+      "date": "2025-09-10",
+      "u": "https://www.laverite.ma/le-groupe-barid-al-maghrib-et-saudi-post-sallient-dans-le-commerce/",
+      "lang": "fr"
+    },
+    {
+      "t": "Morocco: World Cup deadline brings a clear sight of goal",
+      "pub": "Railway Gazette International",
+      "date": "2026-03-14",
+      "u": "https://www.railwaygazette.com/morocco/2026/03/14/morocco-world-cup-deadline-brings-a-clear-sight-of-goal/",
+      "lang": "en"
+    },
+    {
+      "t": "Remarks by Secretary of the Treasury Janet L. Yellen on Way Forward for the Global Economy",
+      "pub": "U.S. Department of the Treasury",
+      "date": "2022-04-13",
+      "u": "https://home.treasury.gov/news/press-releases/jy0714",
+      "lang": "en"
+    },
+    {
+      "t": "Pact for the Mediterranean: one sea, one pact, one future, a shared ambition for the region",
+      "pub": "European Commission (DG MENA)",
+      "date": "2025-10-16",
+      "u": "https://north-africa-middle-east-gulf.ec.europa.eu/news/pact-mediterranean-one-sea-one-pact-one-future-shared-ambition-region-2025-10-16_en",
+      "lang": "en"
+    },
+    {
+      "t": "Ministerial coordination meeting on HM the King's international initiative to enhance Atlantic Ocean access for Sahel countries",
+      "pub": "Ministry of Foreign Affairs of Morocco",
+      "u": "https://diplomatie.ma/en/ministerial-coordination-meeting-hm-kings-international-initiative-enhance-atlantic-ocean-access-sahel-countries",
+      "lang": "en"
+    },
+    {
+      "t": "Alain Juillet (profile)",
+      "pub": "Portail de l'IE",
+      "u": "https://www.portail-ie.fr/ressources/personnalites-ie/alain-juillet/",
+      "lang": "fr"
+    },
+    {
+      "t": "Martre report: economic intelligence and corporate strategy (1994)",
+      "pub": "Portail de l'IE",
+      "u": "https://www.portail-ie.fr/ressources/ouvrages/rapport-martre/",
+      "lang": "fr"
+    }
+  ]
+}

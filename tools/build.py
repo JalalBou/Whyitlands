@@ -17,7 +17,13 @@ home = json.loads((C / "home.json").read_text())
 regions = json.loads((C / "regions.json").read_text())
 gloss = json.loads((C / "glossary.json").read_text())
 briefings = [json.loads(p.read_text()) for p in sorted((C / "briefings").glob("*.json"))]
-briefings.sort(key=lambda b: b["date"], reverse=True)
+briefings.sort(key=lambda b: (b["date"], b["slug"] == "global-small-parcel-door-closes"), reverse=True)
+for _b in briefings:
+    for _k, _v in (_b.get("glossary_add") or {}).items():
+        gloss.setdefault(_k, _v)
+    _b.setdefault("regions", [_b.get("region", "GLOBAL")])
+_dp = C / "doctrines.json"
+doctrines = json.loads(_dp.read_text()) if _dp.exists() else None
 
 REGION_ORDER = ["GLOBAL", "EMEA", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
 DESK_ORDER = ["EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
@@ -95,7 +101,8 @@ def header(active=""):
 <span class="tagline">Where it lands, and why.</span>
 <nav class="head-nav" aria-label="Main">
 {nav('/regions', 'nav_regions', 'Regions', 'regions')}
-{nav('/briefings/' + briefings[0]['slug'], 'nav_briefing', 'Briefing', 'briefing')}
+{nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
+{nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
 {nav('/#about', 'nav_about', 'About', 'about')}
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
 <ul class="lang-menu" role="menu" hidden>{langs}</ul></div>
@@ -209,11 +216,16 @@ def page_home():
 <h1>{E(h['title'])}<br><em>{E(h['title_em'])}</em></h1>
 <p class="dek">{E(h['dek'])}</p>
 <div class="hero-cta"><a class="btn btn-coral" href="/briefings/{b['slug']}"><span data-i18n="read_briefing">Read the briefing</span></a>
-<a class="btn btn-ghost-dark" href="/briefings/{b['slug']}#listen"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="listen">Listen</span></a></div></div>
+{listen_btn(b)}<a class="btn btn-ghost-dark" href="/briefings/"><span data-i18n="all_briefings">All briefings</span></a></div></div>
 <aside class="chain" aria-label="Why it lands here"><span class="kicker" data-i18n="why_lands_here">Why it lands here</span><ol>{chain}</ol></aside>
 </div></section>
 
 <section class="section"><div class="wrap">
+<div class="section-head"><div>{i('briefings_kicker', 'Briefings', 'div', 'kicker')}{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
+<div class="bgrid">{''.join(bcard(x, n == 0) for n, x in enumerate(briefings[:7]))}</div>
+</div></section>
+
+<section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div>
 <div class="bento">{''.join(tiles)}</div>
 </div></section>
@@ -295,6 +307,7 @@ def page_regions():
         hidden = "" if k == "EU" else " hidden"
         desks.append(f"""<div class="desk" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="regional_desk">Regional desk</span></div><h1>{E(r['headline'])}</h1><p>{E(r['dek'])}</p></div></section>
+{desk_briefings(k)}
 <section class="section"><div class="wrap">
 <div class="section-head"><div>{i('cal_kicker', 'Calendar', 'div', 'kicker')}{i('coming_title', 'What’s coming', 'h2')}</div></div>
 {filters()}
@@ -320,53 +333,177 @@ def page_regions():
 
 def inline(text, used):
     def rep(m):
-        k = m.group(1); used.append(k)
+        k = m.group(1)
+        if k not in gloss:
+            return E(k)
+        if k in used:
+            return E(k)
+        used.append(k)
         return f'<span class="acr">{E(k)}<button class="ast" data-g="{E(k)}" aria-label="Definition of {E(k)}">*</button></span>'
-    return re.sub(r"\[\[([A-Z][A-Z0-9&-]{1,8})\]\]", rep, E(text))
+    return re.sub(r"\[\[([A-Z0-9][A-Za-z0-9&-]{1,9})\]\]", rep, E(text))
+
+
+def plain(text):
+    return re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
+
+
+def cites(idx, srcs):
+    idx = [n for n in (idx or []) if isinstance(n, int) and 0 <= n < len(srcs)]
+    if not idx:
+        return ""
+    return '<sup class="cite">' + "".join(f'<a href="#s-{n + 1}" title="{E(srcs[n].get("pub") or srcs[n]["t"])}">{n + 1}</a>' for n in idx) + "</sup>"
+
+
+def reading_minutes(b):
+    words = 0
+    for blk in b["body"]:
+        for k, v in blk.items():
+            if k != "src":
+                words += len(json.dumps(v, ensure_ascii=False).split())
+    words += sum(len(k.split()) for k in b["keypoints"])
+    return max(3, round(words / 230))
+
+
+def has_audio(b):
+    a = b.get("audio") or {}
+    return bool(a.get("src") and (OUT / a["src"].lstrip("/")).exists())
+
+
+def listen_btn(b):
+    if not has_audio(b):
+        return ""
+    return (f'<a class="btn btn-ghost-dark" href="/briefings/{b["slug"]}#listen"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>'
+            f'<span data-i18n="listen">Listen</span></a>')
+
+
+def bcard(b, big=False):
+    regs = ",".join(b.get("regions", []))
+    return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}">'
+            f'<span class="kicker">{E(b["section"])}</span><h3>{E(b["title"])}</h3><p>{E(plain(b["dek"]))}</p>'
+            f'<span class="bmeta">{E(b["date_label"])} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
+
+
+def desk_briefings(k):
+    mine = [b for b in briefings if b.get("region") == k] + [b for b in briefings if b.get("region") != k and k in b.get("regions", [])]
+    if not mine:
+        return ""
+    return f"""<section class="section" style="padding-bottom:0"><div class="wrap">
+<div class="section-head"><div>{i('briefings_kicker', 'Briefings', 'div', 'kicker')}{i('desk_analysis', 'The analysis for this region', 'h2')}</div></div>
+<div class="bgrid">{''.join(bcard(b, n == 0 and b.get('region') == k) for n, b in enumerate(mine[:4]))}</div>
+</div></section>"""
 
 
 def page_briefing(b):
     used = []
+    S = b["sources"]
     body = []
-    words = 0
+    toc = []
+    kp = ''.join(f'<li>{inline(k, used)}</li>' for k in b['keypoints'])
     for blk in b["body"]:
+        c = cites(blk.get("src"), S)
         if "p" in blk:
-            body.append(f"<p>{inline(blk['p'], used)}</p>"); words += len(blk["p"].split())
+            body.append(f"<p>{inline(blk['p'], used)}{c}</p>")
         elif "h" in blk:
-            body.append(f"<h2>{E(blk['h'])}</h2>")
+            hid = re.sub(r"[^a-z0-9]+", "-", blk["h"].lower()).strip("-")[:50]
+            toc.append((hid, blk["h"]))
+            body.append(f'<h2 id="{hid}">{E(blk["h"])}</h2>')
+        elif "views" in blk:
+            cards = "".join(f'<article class="view"><div class="view-actor">{E(v["actor"])}</div><p class="view-stance">{inline(v["stance"], used)}</p><p>{inline(v["text"], used)}{cites(v.get("src"), S)}</p></article>' for v in blk["views"])
+            body.append(f'<div class="views">{cards}</div>')
+        elif "doctrines" in blk:
+            cards = "".join(f'<article class="doc"><div class="doc-school">{E(d["school"])}</div><dl><dt data-i18n="doc_reading">How it reads the situation</dt><dd>{inline(d["reading"], used)}</dd><dt data-i18n="doc_parcel">What it means for the parcel</dt><dd>{inline(d["parcel"], used)}{cites(d.get("src"), S)}</dd></dl></article>' for d in blk["doctrines"])
+            body.append(f'<div class="docs">{cards}</div><p class="more-docs"><a href="/doctrines" data-i18n="doc_all">All doctrines explained →</a></p>')
+        elif "figures" in blk:
+            cards = "".join(f'<div class="fig"><span class="big">{E(f["big"])}</span><span>{inline(f["label"], used)}</span></div>' for f in blk["figures"])
+            toc.append(("figures", "Key figures"))
+            body.append(f'<h2 id="figures" data-i18n="key_figures">Key figures</h2><div class="figs">{cards}</div>{("<p class=figsrc>" + c + "</p>") if c else ""}')
+        elif "scenarios" in blk:
+            cards = "".join(f'<article class="scen"><div class="scen-top"><h3>{E(x["name"])}</h3><span class="pill">{E(x.get("likelihood", ""))}</span></div><p>{inline(x["text"], used)}</p>{("<p class=signal><b data-i18n=signal>Signal to watch</b> " + inline(x["signal"], used) + "</p>") if x.get("signal") else ""}</article>' for x in blk["scenarios"])
+            toc.append(("scenarios", "Scenarios"))
+            body.append(f'<h2 id="scenarios" data-i18n="scenarios">Scenarios</h2><div class="scens">{cards}</div>')
+        elif "watch" in blk:
+            rows = "".join(f'<li><span class="tl-when">{E(w["when"])}</span><span>{inline(w["what"], used)}</span></li>' for w in blk["watch"])
+            toc.append(("watchlist", "Watchlist"))
+            body.append(f'<h2 id="watchlist" data-i18n="watchlist">Watchlist</h2><ul class="watch">{rows}</ul>')
+        elif "csuite" in blk:
+            rows = "".join(f"<li>{inline(x, used)}</li>" for x in blk["csuite"])
+            toc.append(("csuite", "For the C-suite"))
+            body.append(f'<section class="csuite" id="csuite"><div class="kicker" data-i18n="csuite_kicker">Decisions</div><h2 data-i18n="csuite">For the C-suite</h2><ol>{rows}</ol></section>')
         elif "impact" in blk:
-            body.append(f'<div class="impact"><div class="kicker" style="color:var(--lime-ink)" data-i18n="what_means">What it means</div><p>{inline(blk["impact"], used)}</p></div>'); words += len(blk["impact"].split())
-    words += sum(len(k.split()) for k in b["keypoints"])
-    mins = max(2, round(words / 220))
+            body.append(f'<div class="impact"><div class="kicker" style="color:var(--lime-ink)" data-i18n="bottom_line">Bottom line</div><p>{inline(blk["impact"], used)}</p></div>')
+    mins = reading_minutes(b)
     keys = []
     for k in b.get("glossary", []) + used:
-        if k not in keys and k in gloss: keys.append(k)
+        if k not in keys and k in gloss:
+            keys.append(k)
     gl = "".join(f'<div id="g-{E(k)}"><dt><span>{E(k)}</span>{E(gloss[k][0])}</dt><dd>{E(gloss[k][1])}</dd></div>' for k in keys)
-    srcs = "".join(f'<li><a href="{E(s["u"])}" rel="noopener">{E(s["t"])}</a></li>' for s in b["sources"])
+    srcs = "".join(f'<li id="s-{n}"><a href="{E(s["u"])}" rel="noopener">{E(s["t"])}</a>{(" · " + E(s["pub"])) if s.get("pub") else ""}{(" · " + E(s["date"])) if s.get("date") else ""}{(" <span class=lng>" + E(s["lang"]) + "</span>") if s.get("lang") and s.get("lang") != "en" else ""}</li>' for n, s in enumerate(S, 1))
     audio = ""
-    a = b.get("audio") or {}
-    if a.get("src") and (OUT / a["src"].lstrip("/")).exists():
+    if has_audio(b):
+        a = b["audio"]
         audio = f"""<div class="player" id="player" data-id="{E(b['slug'])}">
 <button class="pbtn" aria-label="Play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg></button>
 <div><div class="ptitle">{E(b['title'])} · <span data-i18n="neural_voice">Neural voice</span></div><input type="range" min="0" max="100" step="1" value="0" aria-label="Seek"><div class="ptime"><span class="cur">0:00</span><span class="dur">{a.get('minutes', '')}:00</span></div></div>
 <div class="pctl"><button data-skip="-15" aria-label="Back 15 seconds">−15</button><button data-skip="30" aria-label="Forward 30 seconds">+30</button><button data-rate aria-label="Playback speed">1×</button></div>
 <audio preload="metadata" src="{E(a['src'])}"></audio></div>"""
-    ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": b["title"], "datePublished": b["date"], "author": dict({"@type": "Person", "name": "Jalal Boucheikha"}, **({"url": LINKEDIN} if LINKEDIN else {})), "publisher": {"@type": "Organization", "name": "WhyItLands"}, "image": BASE + "/assets/img/og.png", "description": b["dek"]}, ensure_ascii=False)
-    out = head(f"{b['title']} · WhyItLands", b["dek"], f"/briefings/{b['slug']}", "article", f'<script type="application/ld+json">{ld}</script>\n')
-    out += header("briefing")
+    tocs = "".join(f'<a href="#{h}">{E(t)}</a>' for h, t in toc)
+    related = [x for x in briefings if x["slug"] != b["slug"]][:3]
+    rel = "".join(bcard(x) for x in related)
+    ld = json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": b["title"], "datePublished": b["date"], "author": dict({"@type": "Person", "name": "Jalal Boucheikha"}, **({"url": LINKEDIN} if LINKEDIN else {})), "publisher": {"@type": "Organization", "name": "WhyItLands"}, "image": BASE + "/assets/img/og.png", "description": plain(b["dek"])}, ensure_ascii=False)
+    out = head(f"{b['title']} · WhyItLands", plain(b["dek"]), f"/briefings/{b['slug']}", "article", f'<script type="application/ld+json">{ld}</script>\n')
+    out += header("briefings")
     out += f"""<main id="main">
-<section class="art-head"><div class="wrap"><div class="kicker">{E(b['section'])}</div><h1>{E(b['title'])}</h1><p style="color:var(--on-ink-muted);font-size:clamp(17px,1.6vw,20px);max-width:760px;margin-bottom:18px">{E(b['dek'])}</p><div class="meta">{E(b['date_label'])} · {mins} <span data-i18n="min_read">min read</span> · Jalal Boucheikha</div></div></section>
+<section class="art-head"><div class="wrap"><div class="kicker">{E(b['section'])}</div><h1>{E(b['title'])}</h1><p style="color:var(--on-ink-muted);font-size:clamp(17px,1.6vw,20px);max-width:760px;margin-bottom:18px">{inline(b['dek'], [])}</p><div class="meta">{E(b['date_label'])} · {mins} <span data-i18n="min_read">min read</span> · {len(S)} <span data-i18n="n_sources">sources</span> · Jalal Boucheikha</div></div></section>
 <div class="art">
-<div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{''.join(f'<li>{inline(k, used)}</li>' for k in b['keypoints'])}</ul></div>
+<div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{kp}</ul>
+<div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the C-suite actions</a></div></div>
 {lang_note()}
+<nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
 <span id="listen"></span>{audio}
-<div class="art-body" style="margin-top:32px">{''.join(body)}</div>
+<div class="art-body" style="margin-top:28px">{''.join(body)}</div>
 <section class="gloss" aria-labelledby="gl-h"><h2 id="gl-h" style="font-size:28px" data-i18n="acronyms">Acronyms in this article</h2><dl>{gl}</dl>
 <p style="margin-top:16px;font-size:15px"><a href="#" data-back data-i18n="back_text">↩ Back to the text</a> · <a href="/glossary" data-i18n="full_glossary">Full glossary →</a></p></section>
 <section class="sources-list"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
+<p class="method-note" data-i18n="method_note">Facts are sourced; analysis, scenarios and recommendations are WhyItLands’ own reading. AI-assisted research, reviewed by Jalal Boucheikha.</p>
 <div style="margin-top:40px">{feedback_card()}</div>
 </div>
+<section class="section"><div class="wrap"><div class="section-head"><div>{i('read_next', 'Read next', 'div', 'kicker')}</div></div><div class="bgrid">{rel}</div></div></section>
 <button class="btn btn-ink backpill" id="backpill" hidden data-i18n="back_text">↩ Back to the text</button>
+</main>
+"""
+    return out + footer()
+
+
+def page_briefings_index():
+    out = head("Briefings · WhyItLands", "Long-form analyses confronting governments, industry and schools of thought on how geopolitics lands on parcels and cross-border e-commerce logistics.", "/briefings/")
+    out += header("briefings") + regionbar(REGION_ORDER, "GLOBAL")
+    out += f"""<main id="main">
+<section class="rhero"><div class="wrap"><div class="kicker" data-i18n="briefings_kicker">Briefings</div><h1 data-i18n="briefings_h1">Where it lands, region by region.</h1><p data-i18n="briefings_dek">Each briefing confronts the positions of governments, industry and schools of thought, then spells out what it means for parcel volumes, landed cost, networks and contracts.</p></div></section>
+<section class="section"><div class="wrap"><div class="bgrid" data-filter-regions>{''.join(bcard(b) for b in briefings)}</div></div></section>
+</main>
+"""
+    return out + footer()
+
+
+def page_doctrines():
+    d = doctrines
+    S = d.get("sources", [])
+    bysl = {b["slug"]: b for b in briefings}
+    cards = []
+    for sc in d["schools"]:
+        links = "".join(f'<a href="/briefings/{s}">{E(bysl[s]["title"])}</a>' for s in sc.get("briefings", []) if s in bysl)
+        cards.append(f"""<article class="school" id="{E(sc['key'])}"><h2>{E(sc['name'])}</h2><div class="thinkers">{E(sc['thinkers'])}</div>
+<dl><dt data-i18n="doc_idea">Core idea</dt><dd>{E(plain(sc['idea']))}</dd><dt data-i18n="doc_trade">How it sees trade</dt><dd>{E(plain(sc['trade']))}</dd><dt data-i18n="doc_parcel">What it means for the parcel</dt><dd>{E(plain(sc['parcel']))}</dd><dt data-i18n="doc_seen">Where you see it in 2026</dt><dd>{E(plain(sc['seen_in']))}{cites(sc.get('src'), S)}</dd></dl>
+{('<div class="doc-links"><span class="kicker" data-i18n="doc_read">Read it applied</span>' + links + '</div>') if links else ''}</article>""")
+    toc = "".join(f'<a class="chip" href="#{E(sc["key"])}">{E(sc["name"])}</a>' for sc in d["schools"])
+    srcs = "".join(f'<li id="s-{n}"><a href="{E(s["u"])}" rel="noopener">{E(s["t"])}</a>{(" · " + E(s["pub"])) if s.get("pub") else ""}</li>' for n, s in enumerate(S, 1))
+    intro = "".join(f"<p>{E(plain(p))}</p>" for p in (d["intro"] if isinstance(d["intro"], list) else d["intro"].split("\n\n")))
+    out = head("Doctrines · WhyItLands", "The schools of strategic and economic thought behind today's trade decisions, and what each one means for parcels and cross-border e-commerce.", "/doctrines")
+    out += header("doctrines")
+    out += f"""<main id="main">
+<section class="rhero"><div class="wrap"><div class="kicker" data-i18n="nav_doctrines">Doctrines</div><h1>{E(d.get('title', 'Doctrines: the lenses behind the decisions'))}</h1><div class="doc-intro">{intro}</div></div></section>
+<section class="section"><div class="wrap"><div class="chips chips-light doc-toc">{toc}</div><div class="schools">{''.join(cards)}</div>
+<section class="sources-list" style="max-width:760px"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section></div></section>
 </main>
 """
     return out + footer()
@@ -430,6 +567,9 @@ write("index.html", page_home())
 write("regions.html", page_regions())
 for b in briefings:
     write(f"briefings/{b['slug']}.html", page_briefing(b))
+write("briefings/index.html", page_briefings_index())
+if doctrines:
+    write("doctrines.html", page_doctrines())
 write("glossary.html", page_glossary())
 write("method.html", page_method())
 write("legal.html", page_legal())
@@ -437,7 +577,7 @@ write("404.html", page_404())
 out = head("Subscribed · WhyItLands", "Your subscription is confirmed.", "/confirmed") + header()
 out += '<main id="main" class="prose" style="text-align:center;padding-bottom:40px"><div class="kicker">Newsletter</div><h1>You are in. First issue lands this week.</h1><p>Thank you for confirming. You can change region and language from any issue.</p><p><a class="btn btn-ink" href="/">Back to the front page</a></p></main>'
 write("confirmed.html", out + footer())
-urls = ["/", "/regions", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
+urls = ["/", "/briefings/", "/regions", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")
