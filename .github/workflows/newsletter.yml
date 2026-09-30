@@ -1,0 +1,32 @@
+name: Newsletter to Brevo
+
+on:
+  push:
+    branches: [main]
+    paths: ["newsletter/20*.html"]
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Newsletter file to schedule (e.g. newsletter/2026-10-05.html)"
+        required: true
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Find new newsletter files
+        id: files
+        run: |
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            echo "list=${{ github.event.inputs.file }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "list=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'newsletter/20*.html' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Create scheduled Brevo campaign
+        if: steps.files.outputs.list != ''
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: python3 .github/scripts/brevo_campaign.py ${{ steps.files.outputs.list }}
