@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>WhyItLands 60s v2</title>
+<style>
+@font-face{font-family:S;font-weight:500;src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-500-normal.woff2)}
+@font-face{font-family:S;font-weight:600;src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-600-normal.woff2)}
+@font-face{font-family:S;font-weight:700;src:url(http://localhost:8768/assets/fonts/instrument-sans-latin-700-normal.woff2)}
+@font-face{font-family:R;src:url(http://localhost:8768/assets/fonts/instrument-serif-latin-400-normal.woff2)}
+@font-face{font-family:R;font-style:italic;src:url(http://localhost:8768/assets/fonts/instrument-serif-latin-400-italic.woff2)}
+@font-face{font-family:M;src:url(http://localhost:8768/assets/fonts/jetbrains-mono-latin-500-normal.woff2)}
+:root{--ink:#0B0F1A;--paper:#F4F2EC;--coral:#FF5A36;--blue:#2B45E0;--lime:#D7F75B}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1080px;overflow:hidden;background:var(--paper)}
+#st{position:relative;width:1080px;height:1080px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:S,sans-serif}
+#grid{position:absolute;inset:0;background-image:linear-gradient(rgba(11,15,26,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(11,15,26,.06) 1px,transparent 1px);background-size:54px 54px}
+.sc{position:absolute;inset:0;display:none}
+.e{position:absolute;opacity:0;will-change:transform,opacity}
+.H{font:700 128px/0.9 S;letter-spacing:-.045em}
+.H2{font:700 92px/0.95 S;letter-spacing:-.04em}
+.H3{font:700 64px/1 S;letter-spacing:-.03em}
+.R{font-family:R;font-weight:400;letter-spacing:-.01em}
+.I{font-style:italic}
+.K{font:500 24px M;letter-spacing:.18em;text-transform:uppercase}
+.blk{position:absolute}
+.tag{display:inline-block;padding:12px 20px;font:500 28px M;letter-spacing:.14em;text-transform:uppercase}
+.node{width:176px;height:176px;display:flex;align-items:center;justify-content:center;text-align:center;font:600 22px/1.1 S;letter-spacing:.02em;border:4px solid var(--ink);background:#fff}
+.kpi{width:300px;height:360px;padding:28px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi .v{font:400 108px/.9 R}
+.row{font:700 58px/1 S;letter-spacing:-.03em;display:flex;align-items:center;gap:22px}
+.row i{width:34px;height:34px;display:inline-block;background:var(--coral);transform:rotate(45deg);flex:none}
+#wipe{position:absolute;top:-10%;height:120%;width:140%;left:-150%;transform:skewX(-14deg);z-index:50}
+#wipe2{position:absolute;top:-10%;height:120%;width:140%;left:-150%;transform:skewX(-14deg);z-index:49}
+#bar{position:absolute;left:0;bottom:0;height:10px;background:var(--ink);z-index:60}
+.corner{position:absolute;z-index:40}
+</style></head>
+<body><div id="st"><div id="grid"></div>
+<!-- beat accents (sharp shapes in corners) -->
+<div class="corner" id="ac1" style="left:40px;top:40px;width:26px;height:26px;background:var(--coral)"></div>
+<div class="corner" id="ac2" style="right:40px;top:40px;width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-bottom:28px solid var(--blue)"></div>
+<div class="corner" id="ac3" style="right:40px;bottom:50px;width:26px;height:26px;background:var(--lime);transform:rotate(45deg)"></div>
+
+<!-- S0 intro 0-1.823: hook words on onsets -->
+<div class="sc" id="s0" data-a="0" data-b="1.823">
+  <div class="blk e" data-t="2.14" data-fx="slab" style="left:-80px;top:360px;width:1240px;height:380px;background:var(--ink);transform-origin:left"></div>
+  <div class="e H" data-t="2.14" data-fx="pop" style="left:90px;top:420px;color:var(--paper)">Tariffs.</div>
+  <div class="e H" data-t="2.64" data-fx="pop" style="left:540px;top:420px;color:var(--lime)">Straits.</div>
+  <div class="e H" data-t="3.14" data-fx="pop" style="left:90px;top:560px;color:var(--coral)">Customs.</div>
+  <div class="e K" data-t="0.8" data-fx="up" style="left:90px;top:300px">Every day, the headlines move</div>
+</div>
+
+<!-- S1 bar0 1.823-3.823: Everyone sees WHAT -->
+<div class="sc" id="s1" data-a="1.823" data-b="3.823">
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:250px">Everyone sees</div>
+  <div class="blk e" data-t="1" data-fx="slab" style="left:80px;top:390px;width:760px;height:250px;background:var(--lime)"></div>
+  <div class="e" data-t="1" data-fx="pop" style="left:100px;top:370px;font:700 260px/1 S;letter-spacing:-.06em">WHAT</div>
+  <div class="e H2" data-t="2" data-fx="up" style="left:90px;top:680px">happens.</div>
+</div>
+
+<!-- S2 bar1 3.823-5.823: four headline flashes, one per beat -->
+<div class="sc" id="s2" data-a="3.823" data-b="5.823">
+  <div class="e flash" data-t="0" data-u="1" style="inset:0;background:var(--coral);color:#fff;padding:300px 90px"><div class="K" style="color:#FFD5C8">United States</div><div class="H" style="margin-top:40px">$800 duty-free pass: gone.</div></div>
+  <div class="e flash" data-t="1" data-u="1" style="inset:0;background:var(--blue);color:#fff;padding:300px 90px"><div class="K" style="color:#C1CBFF">European Union</div><div class="H" style="margin-top:40px">€3 on every tariff line.</div></div>
+  <div class="e flash" data-t="2" data-u="1" style="inset:0;background:var(--ink);color:#fff;padding:300px 90px"><div class="K" style="color:var(--lime)">Strait of Hormuz</div><div class="H" style="margin-top:40px">Brent at <span style="color:var(--lime)">$104</span>.</div></div>
+  <div class="e flash" data-t="3" data-u="1" style="inset:0;background:var(--lime);padding:300px 90px"><div class="K" style="color:#4A5A0B">Cross-border shoppers</div><div class="H" style="margin-top:40px">Temu now level with Amazon.</div></div>
+</div>
+
+<!-- S3 bar2 5.823-7.823: Few explain WHY -->
+<div class="sc" id="s3" data-a="5.823" data-b="7.823">
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:210px">Few explain</div>
+  <div class="blk e" data-t="0.9" data-fx="tri" style="left:560px;top:260px;width:0;height:0;border-left:260px solid transparent;border-right:260px solid transparent;border-bottom:450px solid var(--coral);opacity:1"></div>
+  <div class="e R I" data-t="1" data-fx="pop" style="left:70px;top:300px;font-size:420px;line-height:1;color:var(--ink)">why.</div>
+  <div class="e" data-t="2.4" data-fx="up" style="left:90px;top:840px;width:900px;font:600 36px/1.25 S">The geopolitics and doctrines behind every move in parcel logistics.</div>
+</div>
+
+<!-- S4 bars3-4 7.823-11.823: chain -->
+<div class="sc" id="s4" data-a="7.823" data-b="11.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:120px;color:var(--coral)">Why it lands here</div>
+  <div class="e H3" data-t="0" data-fx="left" style="left:90px;top:170px">From a strait to your parcel.</div>
+  <svg class="e" data-t="0.5" data-fx="none" style="left:0;top:0;opacity:1" width="1080" height="1080"><path id="cl" d="M178 520 L 400 660 L 540 830 L 680 660 L 902 520" fill="none" stroke="#0B0F1A" stroke-width="8" stroke-linecap="square"/></svg>
+  <div class="e" data-t="1" data-fx="pop" style="left:90px;top:432px"><div class="node">GEO-<br>POLITICS</div></div>
+  <div class="e" data-t="2" data-fx="pop" style="left:312px;top:572px"><div class="node" style="background:var(--lime)">TRADE</div></div>
+  <div class="e" data-t="3" data-fx="pop" style="left:452px;top:742px"><div class="node" style="background:var(--blue);color:#fff">CUSTOMS</div></div>
+  <div class="e" data-t="4" data-fx="pop" style="left:592px;top:572px"><div class="node" style="background:var(--ink);color:#fff">MARKET</div></div>
+  <div class="e" data-t="5" data-fx="pop" style="left:814px;top:432px"><div class="node" id="pnode" style="background:var(--coral);color:#fff;border-color:var(--coral)">PARCEL</div></div>
+  <div class="e" data-t="6" data-fx="up" style="left:560px;top:300px;width:470px;text-align:right;font:700 44px/1.05 S;color:var(--coral)">Cost. Speed. Margin.</div>
+</div>
+
+<!-- S5 bar5 11.823-13.823: logo -->
+<div class="sc" id="s5" data-a="11.823" data-b="13.823">
+  <div class="blk e" data-t="0" data-fx="slab" style="left:0;top:0;width:1080px;height:1080px;background:var(--ink)"></div>
+  <svg class="e" data-t="0.1" data-fx="drop" width="230" height="230" viewBox="0 0 24 24" style="left:425px;top:250px"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/><polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FF5A36"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#D9431F"/><polyline points="16.75,4.875 7.25,9.625 7.25,19.375" fill="none" stroke="#FFE3D9" stroke-width="1.6" stroke-linejoin="round"/></svg>
+  <div class="e" data-t="1" data-fx="pop" style="left:0;width:1080px;top:520px;text-align:center;font:700 140px/1 S;letter-spacing:-.045em;color:var(--paper)">WhyItLands</div>
+  <div class="e R I" data-t="2" data-fx="up" style="left:0;width:1080px;top:690px;text-align:center;font-size:66px;color:var(--coral)">Where it lands, and why.</div>
+</div>
+
+<!-- S6 bar6 13.823-15.823: C-suite -->
+<div class="sc" id="s6" data-a="13.823" data-b="15.823">
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:170px">Built for the</div>
+  <div class="blk e" data-t="0.5" data-fx="slab" style="left:80px;top:285px;width:680px;height:150px;background:var(--coral)"></div>
+  <div class="e H2" data-t="0.5" data-fx="pop" style="left:100px;top:300px;color:#fff">C-suite</div>
+  <div class="e H3" data-t="1" data-fx="up" style="left:90px;top:480px;width:900px">of e-commerce logistics.</div>
+  <div class="e tag" data-t="2" data-fx="pop" style="left:90px;top:640px;background:var(--ink);color:#fff">CEO</div>
+  <div class="e tag" data-t="2.25" data-fx="pop" style="left:230px;top:640px;background:var(--blue);color:#fff">COO</div>
+  <div class="e tag" data-t="2.5" data-fx="pop" style="left:370px;top:640px;background:var(--lime)">CFO</div>
+  <div class="e tag" data-t="2.75" data-fx="pop" style="left:510px;top:640px;background:var(--coral);color:#fff">CCO</div>
+  <div class="e tag" data-t="3" data-fx="pop" style="left:90px;top:720px;border:3px solid var(--ink)">Customs &amp; Compliance</div>
+  <div class="e tag" data-t="3.25" data-fx="pop" style="left:560px;top:720px;border:3px solid var(--ink)">Strategy &amp; M&amp;A</div>
+</div>
+
+<!-- S7 bar7 15.823-17.823: domestic cross-border regions -->
+<div class="sc" id="s7" data-a="15.823" data-b="17.823">
+  <div class="e H" data-t="0" data-fx="left" style="left:90px;top:230px">Domestic.</div>
+  <div class="e H" data-t="1" data-fx="left" style="left:90px;top:380px;color:var(--blue)">Cross-border.</div>
+  <div class="blk e" data-t="2" data-fx="slab" style="left:80px;top:540px;width:900px;height:170px;background:var(--ink)"></div>
+  <div class="e H" data-t="2" data-fx="pop" style="left:100px;top:556px;color:var(--lime)">9 regions.</div>
+</div>
+
+<!-- S8 bars8-9 17.823-21.823: Briefings -->
+<div class="sc" id="s8" data-a="17.823" data-b="21.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:120px;color:var(--coral)">01 · Briefings</div>
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:170px;width:920px">Every angle.<br>One answer.</div>
+  <div class="blk e" data-t="1" data-fx="slab" style="left:0;top:420px;width:14px;height:520px;background:var(--coral)"></div>
+  <div class="e row" data-t="2" data-fx="left" style="left:90px;top:440px"><i></i>Points of view</div>
+  <div class="e row" data-t="3" data-fx="left" style="left:90px;top:560px"><i style="background:var(--blue)"></i>Doctrines</div>
+  <div class="e row" data-t="4" data-fx="left" style="left:90px;top:680px"><i style="background:var(--lime)"></i>Scenarios</div>
+  <div class="e row" data-t="5" data-fx="left" style="left:90px;top:800px"><i style="background:var(--ink)"></i>Actions for the C-suite</div>
+  <div class="e K" data-t="6" data-fx="up" style="left:90px;top:950px;font-size:20px">Long-form · Every fact sourced</div>
+</div>
+
+<!-- S9 bars10-11 21.823-25.823: Market intelligence -->
+<div class="sc" id="s9" data-a="21.823" data-b="25.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:120px;color:var(--blue)">02 · Market Intelligence</div>
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:170px;width:920px">Who wins.<br>Who pays.</div>
+  <div class="e kpi" data-t="1" data-fx="rise" style="left:90px;top:470px;background:var(--coral);color:#fff"><span class="K" style="font-size:17px">DHL Group · Q2 2026</span><span class="v" id="v1">+0%</span><span style="font:600 26px S">EBIT, year on year</span></div>
+  <div class="e kpi" data-t="2" data-fx="rise" style="left:390px;top:470px;background:var(--ink);color:#fff"><span class="K" style="font-size:17px;color:var(--lime)">J&amp;T · H1 2026</span><span class="v" id="v2">0bn</span><span style="font:600 26px S">parcels, +25%</span></div>
+  <div class="e kpi" data-t="3" data-fx="rise" style="left:690px;top:470px;background:var(--lime)"><span class="K" style="font-size:17px">Mercado Libre · Q2</span><span class="v" id="v3">+0%</span><span style="font:600 26px S">items sold</span></div>
+  <div class="e" data-t="5" data-fx="up" style="left:90px;top:880px;font:600 38px S">40+ players. Latest results. Read for what they mean.</div>
+</div>
+
+<!-- S10 bars12-13 25.823-29.823: doctrines -->
+<div class="sc" id="s10" data-a="25.823" data-b="29.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:120px;color:#4A5A0B">03 · Doctrines</div>
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:170px;width:920px">The lens behind<br>the decision.</div>
+  <div class="e flashw" data-t="2" data-u="1" style="left:90px;top:520px;font:400 104px/1 R;font-style:italic">Realism</div>
+  <div class="e flashw" data-t="3" data-u="1" style="left:90px;top:520px;font:400 104px/1 R;font-style:italic;color:var(--coral)">Weaponised interdependence</div>
+  <div class="e flashw" data-t="4" data-u="1" style="left:90px;top:520px;font:400 104px/1 R;font-style:italic;color:var(--blue)">Strategic autonomy</div>
+  <div class="e flashw" data-t="5" data-u="1" style="left:90px;top:520px;font:400 104px/1 R;font-style:italic">Dual circulation</div>
+  <div class="e flashw" data-t="6" data-u="2" style="left:90px;top:520px;font:400 104px/1 R;font-style:italic;color:var(--coral)">Economic intelligence</div>
+  <div class="blk e" data-t="2" data-fx="slab" style="left:90px;top:700px;width:900px;height:12px;background:var(--ink)"></div>
+  <div class="e" data-t="2.5" data-fx="up" style="left:90px;top:740px;width:900px;font:600 36px/1.3 S">The schools of thought behind every tariff, fee and data rule.</div>
+</div>
+
+<!-- S11 bars14-15 29.823-33.823: leitmotif -->
+<div class="sc" id="s11" data-a="29.823" data-b="33.823">
+  <div class="e H3" data-t="0" data-fx="left" style="left:90px;top:200px;width:900px;color:#6B6F7D">Everyone knows <b style="color:var(--ink)">what</b> happens in the market.</div>
+  <div class="blk e" data-t="3" data-fx="slab" style="left:0;top:470px;width:1080px;height:420px;background:var(--coral)"></div>
+  <div class="e H2" data-t="3" data-fx="pop" style="left:90px;top:510px;width:920px;color:#fff">We show <span class="R I" style="font-size:120px">why</span> it lands on your parcel.</div>
+</div>
+
+<!-- S12 bars16-17 33.823-37.823: example fuel -->
+<div class="sc" id="s12" data-a="33.823" data-b="37.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:130px">Example · Middle East</div>
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:190px">Hormuz</div>
+  <div class="e H2" data-t="1.5" data-fx="left" style="left:90px;top:330px;color:var(--coral)">→ Brent $104</div>
+  <div class="e H2" data-t="3" data-fx="left" style="left:90px;top:470px;color:var(--blue)">→ Jet fuel +79%</div>
+  <div class="e H2" data-t="4.5" data-fx="left" style="left:90px;top:610px">→ Surcharges</div>
+  <div class="blk e" data-t="6" data-fx="slab" style="left:80px;top:760px;width:760px;height:140px;background:var(--lime)"></div>
+  <div class="e H2" data-t="6" data-fx="pop" style="left:100px;top:774px">→ Your margin.</div>
+</div>
+
+<!-- S13 bars18-19 37.823-41.823: example de minimis -->
+<div class="sc" id="s13" data-a="37.823" data-b="41.823">
+  <div class="e K" data-t="0" data-fx="up" style="left:90px;top:130px">Example · North America &amp; EU</div>
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:190px;width:920px">Duty-free parcels end</div>
+  <div class="e H2" data-t="1.5" data-fx="left" style="left:90px;top:330px;color:var(--blue)">→ Data decides</div>
+  <div class="e H2" data-t="3" data-fx="left" style="left:90px;top:470px;color:var(--coral)">→ Stock goes local</div>
+  <div class="blk e" data-t="5" data-fx="slab" style="left:80px;top:640px;width:900px;height:140px;background:var(--ink)"></div>
+  <div class="e H2" data-t="5" data-fx="pop" style="left:100px;top:654px;color:var(--lime)">→ New winners.</div>
+</div>
+
+<!-- S14 bars20-21 41.823-45.823: regions -->
+<div class="sc" id="s14" data-a="41.823" data-b="45.823">
+  <div class="e H2" data-t="0" data-fx="left" style="left:90px;top:150px">Pick your region.</div>
+  <div class="e tag" data-t="1" data-fx="pop" style="left:90px;top:360px;font-size:34px;background:var(--ink);color:#fff">Global</div>
+  <div class="e tag" data-t="1.5" data-fx="pop" style="left:300px;top:360px;font-size:34px;background:var(--coral);color:#fff">EMEA</div>
+  <div class="e tag" data-t="2" data-fx="pop" style="left:480px;top:360px;font-size:34px;background:var(--blue);color:#fff">EU</div>
+  <div class="e tag" data-t="2.5" data-fx="pop" style="left:620px;top:360px;font-size:34px;background:var(--lime)">UK</div>
+  <div class="e tag" data-t="3" data-fx="pop" style="left:90px;top:460px;font-size:34px;border:3px solid var(--ink)">North America</div>
+  <div class="e tag" data-t="3.5" data-fx="pop" style="left:440px;top:460px;font-size:34px;border:3px solid var(--ink)">South America</div>
+  <div class="e tag" data-t="4" data-fx="pop" style="left:90px;top:560px;font-size:34px;border:3px solid var(--ink)">Asia</div>
+  <div class="e tag" data-t="4.5" data-fx="pop" style="left:250px;top:560px;font-size:34px;background:var(--ink);color:var(--lime)">China</div>
+  <div class="e tag" data-t="5" data-fx="pop" style="left:440px;top:560px;font-size:34px;background:var(--coral);color:#fff">Middle East</div>
+  <div class="e tag" data-t="5.5" data-fx="pop" style="left:90px;top:660px;font-size:34px;border:3px solid var(--ink)">North Africa</div>
+  <div class="e" data-t="6" data-fx="up" style="left:90px;top:820px;width:900px;font:600 38px/1.25 S">The whole site follows it: briefings, results, calendar.</div>
+</div>
+
+<!-- S15 bars22-23 45.823-49.823: newsletter -->
+<div class="sc" id="s15" data-a="45.823" data-b="49.823">
+  <div class="blk e" data-t="0" data-fx="slab" style="left:0;top:0;width:1080px;height:1080px;background:var(--blue)"></div>
+  <div class="e K" data-t="0.5" data-fx="up" style="left:90px;top:150px;color:#C1CBFF">Free newsletter</div>
+  <div class="e H" data-t="1" data-fx="left" style="left:90px;top:210px;color:#fff">Every Monday.</div>
+  <div class="e H" data-t="2" data-fx="left" style="left:90px;top:350px;color:var(--lime)">07:30.</div>
+  <div class="e H2" data-t="3" data-fx="up" style="left:90px;top:540px;color:#fff;width:900px">Seven minutes.<br>The why, for your region.</div>
+</div>
+
+<!-- S16 bars24-25 49.823-53.823: curated by -->
+<div class="sc" id="s16" data-a="49.823" data-b="53.823">
+  <div class="blk e" data-t="0" data-fx="slab" style="left:560px;top:0;width:520px;height:1080px;background:var(--ink)"></div>
+  <img class="e" data-t="0.5" data-fx="pop" src="http://localhost:8768/assets/img/jalal.jpg" style="left:640px;top:300px;width:360px;height:360px;border-radius:50%;object-fit:cover;border:8px solid var(--coral)">
+  <div class="e K" data-t="1" data-fx="up" style="left:90px;top:300px">Curated by</div>
+  <div class="e H3" data-t="1.5" data-fx="left" style="left:90px;top:350px;width:460px">Jalal Boucheikha</div>
+  <div class="e" data-t="2.5" data-fx="up" style="left:90px;top:520px;width:440px;font:600 32px/1.3 S">Shipping Product Director. Operations, commercial, compliance and strategy.</div>
+  <div class="e K" data-t="4" data-fx="up" style="left:90px;top:760px;width:440px;font-size:18px;line-height:1.6">AI-assisted research · Human-reviewed · Every fact sourced</div>
+</div>
+
+<!-- S17 bars26-end 53.823-59.125: end card -->
+<div class="sc" id="s17" data-a="53.823" data-b="60">
+  <div class="blk e" data-t="0" data-fx="slab" style="left:0;top:0;width:1080px;height:1080px;background:var(--coral)"></div>
+  <svg class="e" data-t="0.3" data-fx="drop" width="170" height="170" viewBox="0 0 24 24" style="left:455px;top:180px"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FFE3D9"/><polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FFFFFF"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#0B0F1A"/><polyline points="16.75,4.875 7.25,9.625 7.25,19.375" fill="none" stroke="#FF5A36" stroke-width="1.6" stroke-linejoin="round"/></svg>
+  <div class="e" data-t="1" data-fx="pop" style="left:0;width:1080px;top:390px;text-align:center;font:700 150px/1 S;letter-spacing:-.045em;color:#fff">WhyItLands</div>
+  <div class="e R I" data-t="2" data-fx="up" style="left:0;width:1080px;top:560px;text-align:center;font-size:72px;color:var(--ink)">Where it lands, and why.</div>
+  <div class="e" data-t="4" data-fx="pop" style="left:0;width:1080px;top:720px;text-align:center"><span style="display:inline-block;background:var(--ink);color:#fff;font:700 52px S;padding:20px 40px">whyitlands.com</span></div>
+  <div class="e K" data-t="6" data-fx="up" style="left:0;width:1080px;top:880px;text-align:center;color:#fff">Subscribe free · Every Monday</div>
+</div>
+
+<div id="wipe"></div><div id="wipe2"></div>
+<div id="bar"></div>
+</div>
+<script>
+const B=0.5, BEAT0=0.323;
+const cl=x=>Math.max(0,Math.min(1,x));
+const eo=x=>1-Math.pow(1-x,4);
+const back=x=>{const c1=2.2,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
+const bounce=x=>{const n=7.5625,d=2.75;if(x<1/d)return n*x*x;if(x<2/d)return n*(x-=1.5/d)*x+.75;if(x<2.5/d)return n*(x-=2.25/d)*x+.9375;return n*(x-=2.625/d)*x+.984375;};
+const scenes=[...document.querySelectorAll('.sc')].map(s=>({el:s,a:+s.dataset.a,b:+s.dataset.b,els:[...s.querySelectorAll('.e')]}));
+const COLORS=['#FF5A36','#0B0F1A','#2B45E0','#D7F75B'];
+const cl_=document.getElementById('cl');const CL=cl_.getTotalLength();cl_.style.strokeDasharray=CL;
+function fx(el,k,type){
+  const o=cl(k*1.6);
+  switch(type){
+    case 'pop': el.style.opacity=o; el.style.transform=`scale(${0.6+0.4*back(k)})`; break;
+    case 'left': el.style.opacity=o; el.style.transform=`translateX(${-140*(1-eo(k))}px)`; break;
+    case 'up': el.style.opacity=o; el.style.transform=`translateY(${50*(1-eo(k))}px)`; break;
+    case 'rise': el.style.opacity=o; el.style.transform=`translateY(${260*(1-back(k))}px)`; break;
+    case 'slab': el.style.opacity=1; el.style.transform=`scaleX(${eo(k)})`; el.style.transformOrigin='left'; break;
+    case 'tri': el.style.opacity=k>0?1:0; el.style.transform=`scale(${back(k)}) rotate(${(1-k)*-40}deg)`; break;
+    case 'drop': el.style.opacity=k>0?1:0; el.style.transform=`translateY(${-520*(1-bounce(k))}px)`; break;
+    case 'none': el.style.opacity=1; break;
+  }
+}
+function render(T){
+  document.getElementById('bar').style.width=(T/59.125*1080)+'px';
+  // beat accents
+  const bp=((T-BEAT0)%B+B)%B/B, pulse=T>BEAT0?Math.exp(-bp*6):0;
+  ['ac1','ac2','ac3'].forEach((id,n)=>{document.getElementById(id).style.transform=`scale(${1+0.9*pulse}) rotate(${n===2?45:0}deg)`;});
+  for(const s of scenes){
+    const on=T>=s.a&&T<s.b; s.el.style.display=on?'block':'none'; if(!on)continue;
+    for(const el of s.els){
+      const t0=s.a+(+el.dataset.t)*B;
+      if(el.classList.contains('flash')||el.classList.contains('flashw')){
+        const u=(+el.dataset.u||1)*B; const vis=T>=t0&&T<t0+u; el.style.opacity=vis?1:0;
+        const k=cl((T-t0)/0.18); el.style.transform=vis?`scale(${1.06-0.06*eo(k)})`:''; if(el.classList.contains('flash')){el.style.position='absolute';}
+        continue;
+      }
+      const dur=el.dataset.fx==='drop'?0.7:(el.dataset.fx==='slab'?0.28:0.34);
+      const k=cl((T-t0)/dur); if(T<t0){el.style.opacity=0;continue;} fx(el,k,el.dataset.fx);
+    }
+  }
+  // chain line + counters
+  if(T>=7.823&&T<11.823){const k=cl((T-(7.823+1*B))/(4*B));cl_.style.strokeDashoffset=CL*(1-k);
+    const g=cl((T-(7.823+5*B))/0.3);document.getElementById('pnode').style.boxShadow=`0 0 0 ${18*g}px rgba(255,90,54,.25)`;}
+  if(T>=21.823&&T<25.823){const s=21.823;
+    document.getElementById('v1').textContent='+'+Math.round(30*eo(cl((T-s-1*B)/0.9)))+'%';
+    document.getElementById('v2').textContent=(17.5*eo(cl((T-s-2*B)/0.9))).toFixed(1)+'bn';
+    document.getElementById('v3').textContent='+'+Math.round(45*eo(cl((T-s-3*B)/0.9)))+'%';}
+  // scene-change wipe slabs (cover the cut)
+  const w=document.getElementById('wipe'),w2=document.getElementById('wipe2');w.style.left='-150%';w2.style.left='-150%';
+  scenes.forEach((s,n)=>{ if(n===0)return; const d=T-s.a; if(d>-0.16&&d<0.2){const k=(d+0.16)/0.36;
+      w.style.background=COLORS[n%4]; w.style.left=(-150+300*k)+'%';
+      w2.style.background=COLORS[(n+1)%4]; w2.style.left=(-165+300*k)+'%';}});
+}
+window.render=render; render(0);
+</script>
+</body></html>
