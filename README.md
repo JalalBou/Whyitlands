@@ -2,7 +2,7 @@
 
 Where it lands, and why. Geopolitics connected, factually and with sources, to e-commerce logistics, domestic and cross-border.
 
-https://whyitlands.com
+https://www.whyitlands.com
 
 ## How the repo is organised
 

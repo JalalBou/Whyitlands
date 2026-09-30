@@ -9,7 +9,7 @@ import html, json, re, datetime, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 C = ROOT / "content"
 OUT = ROOT / "site"
-BASE = "https://whyitlands.com"
+BASE = "https://www.whyitlands.com"
 VER = datetime.datetime.utcnow().strftime("%Y%m%d%H%M")
 E = html.escape
 

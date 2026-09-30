@@ -8,8 +8,8 @@ const ROUTES = { '/api/contact': contact, '/api/subscribe': subscribe };
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
-    if (url.hostname === 'www.whyitlands.com') {
-      url.hostname = 'whyitlands.com';
+    if (url.hostname === 'whyitlands.com') {
+      url.hostname = 'www.whyitlands.com';
       return Response.redirect(url.toString(), 301);
     }
     const route = ROUTES[url.pathname];
