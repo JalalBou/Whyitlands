@@ -1,0 +1,979 @@
+{
+ "key": "us-parcel",
+ "region": "NA",
+ "as_of": "2026-10-01",
+ "title": "US parcels: Amazon leads on volume, integrators chase yield, USPS stops being the cheap floor",
+ "dek": "Amazon is now the largest US parcel carrier by volume while UPS and FedEx shed low-yield parcels and USPS lifts lightweight prices. Alternative carriers are absorbing the residential volume in between, as record fuel surcharges and 2027 rate rises stack on shippers.",
+ "stats": [
+  {
+   "big": "23.1bn",
+   "label": "US parcel volume 2025, +3.3% y/y (ShipMatrix counts 23.9bn, +0.4%), Pitney Bowes PSI 2026",
+   "src": 1
+  },
+  {
+   "big": "29.9%",
+   "label": "Amazon Logistics share of US parcel volume 2025 (6.9bn parcels, +9%), Pitney Bowes PSI 2026",
+   "src": 1
+  },
+  {
+   "big": "31.6%",
+   "label": "UPS share of US parcel revenue 2025, down from 34% in 2024; FedEx 30.8%, Pitney Bowes PSI 2026",
+   "src": 1
+  },
+  {
+   "big": "7.2%",
+   "label": "Revenue share of alternative ('other') carriers 2025, up from 3.4%, on +127% volume, Pitney Bowes PSI 2026",
+   "src": 1
+  },
+  {
+   "big": "-8.8%",
+   "label": "USPS parcel volume change 2025 (UPS -8.7%, FedEx +5.1%), Pitney Bowes PSI 2026",
+   "src": 1
+  },
+  {
+   "big": "$196bn",
+   "label": "US domestic parcel revenue 2025, +4.1% y/y, ShipMatrix",
+   "src": 0
+  }
+ ],
+ "players": [
+  {
+   "name": "Amazon Logistics / Amazon Shipping / Amazon Supply Chain Services",
+   "type": "Marketplace network turned third-party carrier",
+   "scale": "6.9bn US parcels in 2025, 29.9% of volume (Pitney Bowes); ShipMatrix counts 6.7bn, +9.9%, ahead of USPS at 6.6bn. Group Q2 2026 revenue USD 200.6bn, +20%.",
+   "strategy": "Amazon has packaged its freight, fulfilment and parcel network as Amazon Supply Chain Services for any business, with P&G, 3M, Lands' End and American Eagle as named users. It keeps pushing speed: over 40% more items were delivered same day or overnight in H1 2026 than a year earlier.",
+   "moves": "4 May 2026: Amazon Supply Chain Services launched. 10 Jun 2026: LTL freight opened to all businesses and destinations. 3 Sep 2026: Amazon Shipping peak surcharges set for 25 Oct to 16 Jan, its first peak as a service open to all businesses.",
+   "pressure": "Shipping costs rose USD 27.9bn or 19% y/y in Q2 2026, which Amazon attributed to fuel inflation and higher line haul rates linked to the Middle East conflict and driver constraints.",
+   "src": [
+    1,
+    0,
+    31,
+    32,
+    30,
+    33
+   ]
+  },
+  {
+   "name": "USPS",
+   "type": "National post",
+   "scale": "6.2bn parcels in 2025, -8.8% (Pitney Bowes; ShipMatrix: 6.6bn, -8.6%). Q3 FY2026 shipping and packages revenue USD 8.25bn, +7.7%, on 3.4% fewer packages.",
+   "strategy": "Under Postmaster General David Steiner, USPS is prioritising revenue per parcel over volume, saying it has 'more price to take in the marketplace'. It is repricing lightweight parcels and dimensional weight and asking for density pricing authority in its January 2027 price change.",
+   "moves": "12 Jul 2026: Ground Advantage commercial parcels under 1 lb priced at a single rate per zone (+11.8% average) and the DIM divisor cut from 166 to 139. 25 Aug 2026: temporary holiday prices announced for 4 Oct 2026 to 17 Jan 2027, stacked on an 8% temporary transportation increase in force since 26 Apr.",
+   "pressure": "Steiner told Congress in March 2026 that USPS would run out of cash in under 12 months without action and wants its USD 15bn borrowing cap raised; delivery-day cuts are 'on the table'.",
+   "src": [
+    1,
+    0,
+    22,
+    23,
+    24,
+    25,
+    21,
+    26,
+    27
+   ]
+  },
+  {
+   "name": "UPS",
+   "type": "Integrator",
+   "scale": "4.3bn parcels in 2025, -8.7% (Pitney Bowes), but 31.6% of US parcel revenue. Q2 2026: revenue USD 22.8bn; US Domestic revenue USD 14.93bn, +6.0%, revenue per piece +9.3%, volume -3.3%.",
+   "strategy": "UPS has finished cutting Amazon volume (about 2m pieces a day removed over 18 months) and is redeploying the network toward SMB, healthcare and B2B yield. Healthcare logistics revenue topped USD 3bn in a quarter for the second time, and 68.5% of US volume now runs through automated buildings.",
+   "moves": "28 Jul 2026: Amazon glide-down and network reconfiguration declared complete, 2026 guidance raised to USD 91.2bn revenue. 31 Aug 2026: new global operating model and a single Chief U.S. Domestic Officer from 1 Sep. 27 Aug 2026: peak surcharges published, service-level demand charges up about 22 to 25% on 2025.",
+   "pressure": "Our reading: volume keeps falling while Amazon markets its network to the same shippers; UPS shares fell 9.5% on the day Amazon Supply Chain Services launched. Fuel surcharges at record levels risk pushing price-sensitive shippers to alternatives.",
+   "src": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    34
+   ]
+  },
+  {
+   "name": "FedEx",
+   "type": "Integrator",
+   "scale": "3.9bn parcels in 2025, +5.1% (Pitney Bowes; ShipMatrix: 3.6bn, +5.2%), 30.8% of US parcel revenue. Q4 FY2026 revenue USD 25.0bn; calendar 2026 guidance about +11% revenue.",
+   "strategy": "Now a pure-play parcel company after the FedEx Freight spin-off, FedEx is merging Express and Ground pick-up and delivery under Network 2.0, with 475+ stations (about 30% of its footprint) to close by end-2027 for USD 2bn of savings. It is leaning on pricing structure rather than headline rates.",
+   "moves": "1 Jun 2026: FedEx Freight spin-off completed (FDXF listed). 15 Aug 2026: further closures in Missouri and California reported; about 490 stations optimised handling 45% of eligible volume by June, 65% targeted before peak. 18 Sep 2026: 2027 rates, +5.9% average from 4 Jan 2027.",
+   "pressure": "Our reading: closures and consolidation must not degrade service in peak, while fuel surcharges near record levels and Amazon's open network compete for the same e-commerce shippers.",
+   "src": [
+    1,
+    0,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "name": "Alternative carriers: OnTrac, UniUni, Veho",
+   "type": "Regional and last-mile carriers",
+   "scale": "OnTrac: over 75% of US shoppers, 35 states and DC, record 2025 volumes. UniUni: 65% of the US delivery footprint, USD 285m raised, SPAC deal at USD 1bn+. Veho: 66 markets covering 44% of the US population, parcel volume doubled y/y.",
+   "strategy": "Our reading: these networks sell density-led residential delivery without some integrator surcharges, aiming at shippers diversifying away from UPS and FedEx. UniUni is built around Shein, Temu and TikTok merchants; OnTrac and Veho target domestic brands and marketplaces.",
+   "moves": "15 Sep 2026: OnTrac piloting capacity-based 'Dynamic Savings' discounts and adding 25 to 30% capacity in 2026, focused on the Northeast. 23 Sep 2026: Veho opened its network to shippers of any size with no contract or volume minimum via a multi-carrier label platform, starting in Atlanta.",
+   "pressure": "Our reading: thin margins, dependence on a few large shippers (notably Asian platforms for UniUni), and peak-season service reliability as volumes grow.",
+   "src": [
+    36,
+    35,
+    39,
+    40,
+    37,
+    38
+   ]
+  },
+  {
+   "name": "Temu, Shein, TikTok Shop and inbound cross-border",
+   "type": "Cross-border platforms",
+   "scale": "CBP processed over 1.36bn de minimis shipments in FY2024. Pitney Bowes attributes part of the 2025 growth of 'other' carriers to Shein and Temu.",
+   "strategy": "With duty-free entry gone, low-value inbound flows are being pushed into formal duty collection, brokered postal entries or bulk imports with domestic last-mile delivery, the segment alternative carriers serve.",
+   "moves": "24 Jun 2026: CBP rule indefinitely suspends postal de minimis and creates a postal informal entry for goods up to USD 2,500, effective 24 Jul, with duties paid by the 7th of the month following arrival. 24 Jul 2026: the 10% Section 122 surcharge expired and standard duties apply to USPS-handled shipments.",
+   "pressure": "Brokered entries, bonds and 10-digit classification add cost per parcel; foreign posts such as Japan Post and India Post have had to rebuild US acceptance around duty prepayment and broker filing.",
+   "src": [
+    41,
+    2,
+    42,
+    40,
+    43,
+    46
+   ]
+  }
+ ],
+ "battlegrounds": [
+  {
+   "h": "The Amazon glide-down is over: Amazon kept the volume, UPS kept the yield",
+   "text": "UPS completed its 18-month Amazon volume reduction in June 2026, removing about 2m pieces a day. Amazon grew its own US volume 9 to 10% in 2025 and overtook USPS as the largest carrier. UPS Q2 domestic volume fell 3.3% but revenue per piece rose 9.3%. Our reading: most of the released volume went into Amazon's own network rather than to rivals, and UPS has converted a volume problem into a yield story whose test is the 2026 peak.",
+   "src": [
+    5,
+    6,
+    7,
+    0,
+    1
+   ]
+  },
+  {
+   "h": "USPS is repricing out of the cheap lightweight floor",
+   "text": "Since 12 Jul 2026 all commercial Ground Advantage parcels under 1 lb pay the 12 to 16 oz rate (+11.8% average) and the DIM divisor fell from 166 to 139. The holiday prices from 4 Oct raise lightweight Ground Advantage to distant zones by up to 57% versus last peak, on top of an 8% temporary increase since April. Q3 FY2026 package revenue rose 7.7% on 3.4% less volume. Our reading: the postal floor that anchored lightweight e-commerce pricing is rising, which narrows the gap that alternative carriers and Amazon Shipping have to beat.",
+   "src": [
+    24,
+    25,
+    29,
+    26,
+    22
+   ]
+  },
+  {
+   "h": "Alternative carriers are taking share, though the indices disagree on how much",
+   "text": "Pitney Bowes puts 'other' carriers at 7.2% of 2025 revenue (from 3.4%) on 127% volume growth; ShipMatrix counts 2.5bn parcels, +13%, and an industry forum cited about 11% volume share. OnTrac is adding 25 to 30% capacity in 2026, Veho doubled volume and expanded to 66 markets, UniUni covers 65% of the US. Our reading: the direction is not in doubt even if the magnitude depends on how platform and Amazon-adjacent flows are classified.",
+   "src": [
+    1,
+    0,
+    4,
+    35,
+    37,
+    39
+   ]
+  },
+  {
+   "h": "Fuel surcharges are the fastest-moving price line",
+   "text": "For the week of 28 Sep 2026 FedEx applies 29.75% on Ground, 33.00% on domestic Express and 45.50% on international; UPS reached 29.50% on Ground and 47.75% on international air import in the week of 21 Sep. US diesel averaged USD 6.529 per gallon on 21 Sep. Amazon reported a 19% rise in shipping costs in Q2, citing fuel and line haul. Our reading: for many shippers the fuel line now moves landed parcel cost more than the annual rate increase, and it is the line least often capped in contracts.",
+   "src": [
+    18,
+    20,
+    33
+   ]
+  },
+  {
+   "h": "2027 rates: 5.9% on paper, more in structure",
+   "text": "FedEx will raise list rates 5.9% on average from 4 Jan 2027, with Ground at about 6.1% and Express Saver at about 3.1%, plus a Ground residential delivery charge up from USD 6.45 to 6.90 and zone reclassification on 1 Feb 2027. DHL Express also set 5.9% for US accounts from 1 Jan; UPS had not published its 2027 increase as of 29 Sep. Our reading: residential, delivery-area and zone changes mean e-commerce shippers will pay above the headline, and UPS is likely to follow a similar structure.",
+   "src": [
+    14,
+    15,
+    16,
+    17,
+    44
+   ]
+  },
+  {
+   "h": "Inbound cross-border is being forced into formal entry",
+   "text": "CBP's 24 Jun 2026 rule makes the postal de minimis suspension indefinite and requires an informal entry with broker filing for postal goods up to USD 2,500, with compliance on certain requirements from 22 Oct 2026. Since 24 Jul standard duties apply to USPS-handled shipments after the 10% Section 122 surcharge expired. Our reading: the low-value postal route into the US is becoming a brokered, prepaid-duty channel, which favours bulk import plus domestic last-mile delivery by alternative carriers over direct postal injection.",
+   "src": [
+    41,
+    42,
+    43,
+    46,
+    40
+   ]
+  }
+ ],
+ "our_read": "Our reading: Amazon is the volume winner and is now selling the same network to third parties, but it is pricing its peak accessorials in line with UPS rather than undercutting. UPS and FedEx are winning on yield, not volume, and USPS has joined them by pushing up lightweight and dimensional prices. Shippers of light residential parcels are paying most, through stacked fuel, peak and structural surcharges. Over the next 12 months we expect alternative carriers to keep gaining share and to consolidate, USPS to depend on price authority and Congress, and inbound cross-border to shift further into bulk import with domestic final mile.",
+ "implications": [
+  {
+   "who": "Merchants / shippers",
+   "text": "Budget for 2027 above the 5.9% headline once residential, delivery-area, zone and fuel lines are modelled, and negotiate caps on fuel surcharges. Multi-carrier allocation including at least one alternative carrier and Amazon Shipping is becoming a pricing lever, not just a peak contingency."
+  },
+  {
+   "who": "Cross-border operators into the US",
+   "text": "Postal injection now needs duty prepayment, 10-digit classification and broker filing, so per-parcel economics favour bulk entry and domestic injection into regional or alternative carriers. Watch the 22 Oct 2026 compliance date and the statutory repeal on 1 Jul 2027."
+  },
+  {
+   "who": "Carriers",
+   "text": "Integrators that shed low-yield volume must hold service through peak to keep pricing power, while alternative carriers face the task of growing density without the margin to absorb fuel spikes. USPS cash and price authority decisions will reset the floor for lightweight parcels in 2027."
+  }
+ ],
+ "watch": [
+  {
+   "date": "2026-10-04",
+   "what": "USPS temporary holiday prices start on Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select (to 17 Jan 2027)."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "CBP compliance date for certain requirements of the postal informal entry rule."
+  },
+  {
+   "date": "2026-10-25",
+   "what": "UPS demand surcharges and Amazon Shipping per-package peak surcharges begin."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "FedEx reports its first results as a pure-play parcel company (after market close)."
+  },
+  {
+   "date": "Late October 2026",
+   "what": "UPS Q3 and Amazon Q3 results: first full quarter for UPS after the Amazon glide-down (dates not yet confirmed in our sources)."
+  },
+  {
+   "date": "Q4 2026",
+   "what": "UPS 2027 general rate increase (not published as of 29 Sep) and USPS January 2027 price filing, including its request for density pricing authority."
+  },
+  {
+   "date": "2026-11-22",
+   "what": "Peak-period surcharge step-up at UPS and Amazon Shipping (FedEx from 23 Nov) to 26 to 27 Dec."
+  },
+  {
+   "date": "2027-01-04",
+   "what": "FedEx 2027 rates take effect, +5.9% average; DHL Express US +5.9% from 1 Jan."
+  },
+  {
+   "date": "2027-01-17",
+   "what": "USPS holiday prices and the 8% temporary transportation increase expire."
+  },
+  {
+   "date": "2027-02-01",
+   "what": "FedEx zone reclassification for select US origin-destination ZIP pairs."
+  },
+  {
+   "date": "2027-07-01",
+   "what": "Statutory repeal of the US de minimis exemption takes effect."
+  }
+ ],
+ "sources": [
+  {
+   "t": "Amazon delivered more parcels in 2025 than the Big 3 (ShipMatrix 2025 US parcel market release)",
+   "u": "https://shipmatrix.com/wp-content/uploads/2026/03/SMx-Press-Release-on-2025-Parcel-Market-3.16.2026.pdf",
+   "pub": "ShipMatrix",
+   "date": "2026-03-16"
+  },
+  {
+   "t": "Parcel Shipping Index 2026 report",
+   "u": "https://www.pitneybowes.com/content/dam/pitneybowes/us/en/shipping-index/dmr-5127-parcel-shipping-index-report-2026-ebook.pdf",
+   "pub": "Pitney Bowes",
+   "date": "2026"
+  },
+  {
+   "t": "The Parcel Market Is Becoming More Competitive and More Complicated",
+   "u": "https://www.slbperformance.com/2026/08/12/the-parcel-market-is-becoming-more-competitive-and-more-complicated/",
+   "pub": "SLB Performance",
+   "date": "2026-08-12"
+  },
+  {
+   "t": "Amazon overtakes USPS as top delivery provider by volume: report",
+   "u": "https://www.supplychaindive.com/news/amazon-postal-service-delivery-rankings-shipmatrix/814866/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-03-17"
+  },
+  {
+   "t": "Our Parcel Forum Recap, Orlando",
+   "u": "https://www.cirrusglobaladvisors.com/post/our-parcel-forum-recap-orlando",
+   "pub": "Cirrus Global Advisors",
+   "date": "2026-09-17"
+  },
+  {
+   "t": "UPS Releases 2Q 2026 Earnings",
+   "u": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+   "pub": "UPS Investor Relations",
+   "date": "2026-07-28"
+  },
+  {
+   "t": "UPS shift away from Amazon shows bigger payoff",
+   "u": "https://www.freightwaves.com/news/ups-shift-away-from-amazon-shows-bigger-payoff",
+   "pub": "FreightWaves",
+   "date": "2026-07-28"
+  },
+  {
+   "t": "UPS Says Amazon Glide-Down Is Complete, Boosts 2026 Outlook",
+   "u": "https://www.benzinga.com/markets/earnings/26/07/60724348/ups-says-amazon-glide-down-is-complete-boosts-2026-outlook",
+   "pub": "Benzinga",
+   "date": "2026-07-28"
+  },
+  {
+   "t": "UPS Announces Executive Leadership Changes and New Global Operating Model Effective September 1, 2026",
+   "u": "https://about.ups.com/us/en/newsroom/press-releases/our-strategy/ups-announces-executive-leadership-changes-and-new-global-operat.html",
+   "pub": "UPS",
+   "date": "2026-08-31"
+  },
+  {
+   "t": "UPS preps higher holiday surcharges for 2026",
+   "u": "https://www.supplychaindive.com/news/ups-preps-higher-holiday-surcharges-for-2026/828936/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-08-27"
+  },
+  {
+   "t": "FedEx Reports Strong Fourth Quarter and Full-Year Results",
+   "u": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2026/FedEx-Reports-Strong-Fourth-Quarter-and-Full-Year-Results/",
+   "pub": "FedEx Investor Relations",
+   "date": "2026-06-23"
+  },
+  {
+   "t": "FedEx Completes Spin-Off of FedEx Freight",
+   "u": "https://newsroom.fedex.com/newsroom/global-english/fedex-completes-spin-off-of-fedex-freight",
+   "pub": "FedEx Newsroom",
+   "date": "2026-06-01"
+  },
+  {
+   "t": "FedEx closes more U.S. locations as it changes how packages move",
+   "u": "https://finance.yahoo.com/small-business/articles/fedex-closes-more-u-locations-160300304.html",
+   "pub": "TheStreet (via Yahoo Finance)",
+   "date": "2026-08-15"
+  },
+  {
+   "t": "FedEx plans to close over 475 stations due to Network 2.0",
+   "u": "https://www.supplychaindive.com/news/fedex-network-2-station-closures-2026/812251/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-02-13"
+  },
+  {
+   "t": "Shipping Rate Changes (2027)",
+   "u": "https://www.fedex.com/en-us/shipping/rate-changes.html",
+   "pub": "FedEx",
+   "date": "2026-09-18"
+  },
+  {
+   "t": "Surcharge and fee changes 2027",
+   "u": "https://www.fedex.com/content/dam/fedex/us-united-states/services/surcharge_and_fee_changes_2027.pdf",
+   "pub": "FedEx",
+   "date": "2026-09-18"
+  },
+  {
+   "t": "Beyond the 5.9%: What is new in the 2027 FedEx general rate increase (GRI)?",
+   "u": "https://www.loop.com/industry-insights/beyond-the-5-9-what-is-new-in-the-2027-fedex-general-rate-increase-gri",
+   "pub": "Loop",
+   "date": "2026-09-18"
+  },
+  {
+   "t": "FedEx 2027 Rate Increase: 5.9% Is the First of Three",
+   "u": "https://goodingsupplychainadvisors.com/insights/fedex-2027-rate-increase/",
+   "pub": "Gooding Supply Chain Advisors",
+   "date": "2026-09"
+  },
+  {
+   "t": "Weekly Fuel Surcharge Changes",
+   "u": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
+   "pub": "FedEx",
+   "date": "2026-09-28"
+  },
+  {
+   "t": "Demand Surcharges",
+   "u": "https://www.fedex.com/en-us/shipping/rate-changes/demand-surcharges.html",
+   "pub": "FedEx",
+   "date": "2026-09"
+  },
+  {
+   "t": "Fuel Surcharges Hit Record 47.75% as the Diesel Crisis Deepens",
+   "u": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
+   "pub": "TransImpact",
+   "date": "2026-09-25"
+  },
+  {
+   "t": "U.S. Postal Service Announces Temporary Price Change for 2026 Holiday Shipping Season",
+   "u": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
+   "pub": "USPS Newsroom",
+   "date": "2026-08-25"
+  },
+  {
+   "t": "USPS Prioritizes Revenue over Volume",
+   "u": "https://www.practicalecommerce.com/usps-prioritizes-revenue-over-volume",
+   "pub": "Practical Ecommerce",
+   "date": "2026-08-09"
+  },
+  {
+   "t": "Remarks by Postmaster General David Steiner at the Aug. 7, 2026, USPS Board of Governors Meeting",
+   "u": "https://about.usps.com/newsroom/national-releases/2026/0807-remarks-by-postmaster-general-david-steiner-at-the-aug-7-2026-usps-board-of-governors-meeting.htm",
+   "pub": "USPS Newsroom",
+   "date": "2026-08-07"
+  },
+  {
+   "t": "USPS Ground Advantage plan could heat up lightweight package rates",
+   "u": "https://www.supplychaindive.com/news/usps-ground-advantage-plan-could-heat-up-lightweight-package-rates/819854/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-05-12"
+  },
+  {
+   "t": "July 2026 USPS Rate and Rule Changes",
+   "u": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes",
+   "pub": "Pirate Ship",
+   "date": "2026-07"
+  },
+  {
+   "t": "USPS sets 8% temporary rate hike for some domestic products",
+   "u": "https://www.supplychaindive.com/news/usps-sets-temporary-rate-hike-ground-advantage-parcel-select/815753/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-03-25"
+  },
+  {
+   "t": "USPS cutting delivery days 'on the table,' as agency runs out of cash, postmaster general tells lawmakers",
+   "u": "https://federalnewsnetwork.com/agency-oversight/2026/03/usps-cutting-delivery-days-on-the-table-as-agency-runs-out-of-cash-postmaster-general-tells-lawmakers/",
+   "pub": "Federal News Network",
+   "date": "2026-03"
+  },
+  {
+   "t": "2026 FedEx, UPS, Amazon Shipping, and USPS Demand Surcharge Guide",
+   "u": "https://sifted.com/resources/fedex-ups-amazonshipping-usps-2026-demand-surcharge-guide/",
+   "pub": "Sifted",
+   "date": "2026-09-17"
+  },
+  {
+   "t": "What Five Carrier Reports Tell You About 2026-27 Peak Season Pricing",
+   "u": "https://transimpact.com/blog/2026-peak-season-what-to-expect",
+   "pub": "TransImpact",
+   "date": "2026-09-16"
+  },
+  {
+   "t": "Amazon Shipping readies 2026 holiday delivery surcharges",
+   "u": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-09-03"
+  },
+  {
+   "t": "Introducing Amazon Supply Chain Services: Amazon's logistics network, now open to every business",
+   "u": "https://www.aboutamazon.com/news/retail/amazon-supply-chain-services-for-business",
+   "pub": "Amazon",
+   "date": "2026-05-04"
+  },
+  {
+   "t": "Amazon Supply Chain Services Launches Less-Than-Truckload Freight Offering for All Businesses",
+   "u": "https://finance.yahoo.com/economy/policy/articles/amazon-supply-chain-services-launches-100000757.html",
+   "pub": "Business Wire (via Yahoo Finance)",
+   "date": "2026-06-10"
+  },
+  {
+   "t": "Amazon (AMZN) Q2 2026 Earnings Call Transcript",
+   "u": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amazon-amzn-q2-2026-earnings-call-transcript/",
+   "pub": "The Motley Fool",
+   "date": "2026-08-07"
+  },
+  {
+   "t": "Amazon rebrands third-party logistics arms as unified supply chain service",
+   "u": "https://www.freightwaves.com/news/amazon-rebrands-third-party-logistics-arms-as-unified-supply-chain-service",
+   "pub": "FreightWaves",
+   "date": "2026-05"
+  },
+  {
+   "t": "OnTrac aims to turn available capacity into lower delivery prices",
+   "u": "https://www.supplychaindive.com/news/ontrac-aims-to-turn-available-capacity-into-lower-delivery-prices/830393/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-09-15"
+  },
+  {
+   "t": "OnTrac Appoints Mike Brown as Chief Executive Officer Following Record 2025 Volumes and Continued Market Expansion",
+   "u": "https://www.prnewswire.com/news-releases/ontrac-appoints-mike-brown-as-chief-executive-officer-following-record-2025-volumes-and-continued-market-expansion-302659168.html",
+   "pub": "PR Newswire (OnTrac)",
+   "date": "2026-01"
+  },
+  {
+   "t": "Veho Builds West: New Hubs, 66 Markets, and Delivery as a Growth Lever for E-commerce Brands",
+   "u": "https://www.shipveho.com/blog/veho-expands-west-pr",
+   "pub": "Veho",
+   "date": "2026-02-25"
+  },
+  {
+   "t": "Veho Expands Access to Delivery Network Through EasyPost Wallet",
+   "u": "https://finance.yahoo.com/small-business/articles/veho-expands-access-delivery-network-130000480.html",
+   "pub": "Yahoo Finance (Veho release)",
+   "date": "2026-09-23"
+  },
+  {
+   "t": "UniUni Secures $85M USD in Funding to Power Next Phase of Automation and Network Growth",
+   "u": "https://www.uniuni.com/uniuni-secures-85m-usd-in-funding-to-power-next-phase-of-automation-and-network-growth/",
+   "pub": "UniUni",
+   "date": "2026-03-03"
+  },
+  {
+   "t": "Last-Mile eCommerce Delivery Firm UniUni to Go Public in Merger With SPAC at US $1 Billion Valuation",
+   "u": "https://www.bctechnology.com/news/2026/5/14/Last-Mile-eCommerce-Delivery-Firm-UniUni-to-Go-Public-in-Merger-With-SPAC-at-US-1-Billion-Valuation.cfm?id=50429",
+   "pub": "BC Technology",
+   "date": "2026-05-14"
+  },
+  {
+   "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+   "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+   "pub": "Federal Register (CBP)",
+   "date": "2026-06-24"
+  },
+  {
+   "t": "Tariff Watch: Brazil 301 Finalized, Section 122 Expiration Week, and New Postal Duties",
+   "u": "https://www.jmrodgers.com/tariff-watch-brazil-section-301-section-122-postal-duties/",
+   "pub": "JM Rodgers",
+   "date": "2026-07-21"
+  },
+  {
+   "t": "(Follow-up Notice) Resumption of Acceptance of Mail to the United States",
+   "u": "https://www.post.japanpost.jp/service/send/oversea/information/2026/0413_01_en.html",
+   "pub": "Japan Post",
+   "date": "2026-07"
+  },
+  {
+   "t": "Ecommerce Sellers Face 5.9% FedEx and DHL Rate Increases in 2027",
+   "u": "https://www.descartes.com/ecommerce/news/fedex-dhl-2027-rate-increases-ecommerce-sellers",
+   "pub": "Descartes",
+   "date": "2026-09-29"
+  },
+  {
+   "t": "FDX Q1 2027 Earnings Report on 10/28/2026",
+   "u": "https://www.marketbeat.com/earnings/reports/2026-10-28-fedex-co-stock/",
+   "pub": "MarketBeat",
+   "date": "2026-09"
+  },
+  {
+   "t": "Revised U.S. Customs Requirements for Postal Merchandise Destined for the United States w.e.f 23/07/2026",
+   "u": "https://www.potoolsblog.in/2026/07/revised-us-customs-requirements-for.html",
+   "pub": "PO Tools Blog (India Post circular)",
+   "date": "2026-07"
+  },
+  {
+   "t": "From customer to competitor: Amazon expands third-party logistics business",
+   "u": "https://www.costar.com/article/1785783817/from-customer-to-competitor-amazon-expands-third-party-logistics-business",
+   "pub": "CoStar",
+   "date": "2026-02-24"
+  },
+  {
+   "t": "UPS Demand Surcharges (August 26, 2026 update)",
+   "u": "https://assets.ups.com/adobe/assets/urn:aaid:aem:2c542692-de10-4fa3-b507-3b4f181e0953/original/as/demand-surcharges-us-en.pdf",
+   "pub": "UPS",
+   "date": "2026-08-26"
+  },
+  {
+   "t": "Beyond the 5.9%: What Is New in the 2027 FedEx General Rate Increase (GRI)?",
+   "u": "https://parcelindustry.com/article-6714-Beyond-the-59-What-Is-New-in-the-2027-FedEx-General-Rate-Increase-(GRI).html",
+   "pub": "PARCEL Industry",
+   "date": "2026-09-21"
+  },
+  {
+   "t": "UPS ramping up Ground Saver deliveries handled by USPS",
+   "u": "https://www.supplychaindive.com/news/ups-ramping-up-ground-saver-deliveries-handled-by-usps/818736/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-04-30"
+  },
+  {
+   "t": "US Postal Service proposes limited parcel price increases",
+   "u": "https://www.freightwaves.com/news/us-postal-service-proposes-limited-parcel-price-increases",
+   "pub": "FreightWaves",
+   "date": "2026-05-11"
+  },
+  {
+   "t": "US Postal Service makes U-turn on last-mile delivery",
+   "u": "https://www.freightwaves.com/news/us-postal-service-makes-u-turn-on-last-mile-delivery",
+   "pub": "FreightWaves",
+   "date": "2025-11-18"
+  },
+  {
+   "t": "CBP Issues Interim Final Rules Indefinitely Suspending the De Minimis Exemption for Imports",
+   "u": "https://www.thompsonhinesmartrade.com/2026/06/cbp-issues-interim-final-rules-indefinitely-suspending-the-de-minimis-exemption-for-imports/",
+   "pub": "Thompson Hine SmarTrade",
+   "date": "2026-06"
+  },
+  {
+   "t": "Indefinite Suspension of the De Minimis Exemption for Merchandise Arriving Through All Modes Other Than the International Postal Network",
+   "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other",
+   "pub": "Federal Register (CBP)",
+   "date": "2026-06-24"
+  },
+  {
+   "t": "No More Free Ride: Navigating CBP's New International Mail Entry Process",
+   "u": "https://www.troutman.com/insights/no-more-free-ride-navigating-cbps-new-international-mail-entry-process/",
+   "pub": "Troutman Pepper Locke",
+   "date": "2026-07-15"
+  },
+  {
+   "t": "CBP Collects $1B in Duties Since End of De Minimis",
+   "u": "https://www.supplychainbrain.com/articles/43038-cbp-collects-1b-in-duties-since-end-of-de-minimis",
+   "pub": "SupplyChainBrain",
+   "date": "2025-12-23"
+  },
+  {
+   "t": "UPU launches solution to move mail as postal flows to US reach near standstill",
+   "u": "https://www.upu.int/en/press-release/2025/upu-launches-solution-to-move-mail-as-postal-flows-to-us-reach-near-standstill",
+   "pub": "Universal Postal Union",
+   "date": "2025-09-06"
+  },
+  {
+   "t": "Amazon Multi-Channel Fulfillment Expands its Support of Merchants on SHEIN, Shopify, and Walmart",
+   "u": "https://www.businesswire.com/news/home/20250918288719/en/Amazon-Multi-Channel-Fulfillment-Expands-its-Support-of-Merchants-on-SHEIN-Shopify-and-Walmart",
+   "pub": "Business Wire (Amazon)",
+   "date": "2025-09-18"
+  },
+  {
+   "t": "UPS' Happy Returns expands reach to 10K drop-off locations",
+   "u": "https://www.supplychaindive.com/news/ups-happy-returns-expands-reach-to-10k-drop-off-locations/818019/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-04-22"
+  },
+  {
+   "t": "For FedEx, returns a key piece in growing digital toolkit",
+   "u": "https://www.supplychaindive.com/news/fedex-easy-returns-branded-reverse-logistics-strategy/808900/",
+   "pub": "Supply Chain Dive",
+   "date": "2026-01-08"
+  },
+  {
+   "t": "Consumers Expected to Return Nearly $850 Billion in Merchandise in 2025",
+   "u": "https://nrf.com/media-center/press-releases/consumers-expected-to-return-nearly-850-billion-in-merchandise-in-2025",
+   "pub": "National Retail Federation",
+   "date": "2025-10-15"
+  },
+  {
+   "t": "Amazon Has a New Return Fee. Here's How to Get Free Returns",
+   "u": "https://money.com/amazon-returns-fee-ups-store/",
+   "pub": "Money",
+   "date": "2023-04-11"
+  },
+  {
+   "t": "Gofo parcel network quickly mushrooms in 2026",
+   "u": "https://www.freightwaves.com/news/gofo-parcel-network-quickly-mushrooms-in-2026",
+   "pub": "FreightWaves",
+   "date": "2026-08-27"
+  },
+  {
+   "t": "Lone Star Overnight (LSO) Sold to WeDo Logistics",
+   "u": "https://www.lso.com/news/lone-star-overnight-lso-sold-to-wedo-logistics",
+   "pub": "LSO",
+   "date": "2020-11-24"
+  },
+  {
+   "t": "Delivery Service Area Maps",
+   "u": "https://speedeedelivery.com/services/service-area-maps/",
+   "pub": "Spee-Dee Delivery",
+   "date": "undated"
+  }
+ ],
+ "segments": [
+  {
+   "name": "B2C residential lightweight ground (under 1 lb)",
+   "size": "USPS delivered 6.2bn parcels in 2025 (-8.8%). UPS handed about 977,000 Ground Saver parcels a day to USPS for final delivery in Q1 2026, about 44% of Ground Saver volume, with about 1.5m a day expected in Q2; Ground Saver volume fell 27.7% y/y in Q4 2025.",
+   "leaders": "USPS Ground Advantage; Amazon Shipping; UPS Ground Saver (final mile now largely by USPS); FedEx Ground Economy; alternative carriers such as OnTrac, UniUni, GOFO and Veho.",
+   "dynamics": "The two integrators are leaning away from low-yield lightweight volume and USPS has stopped defending it on price. Since 12 Jul 2026 every commercial Ground Advantage parcel under 1 lb pays the 12 to 16 oz rate, an 11.8% average rise, with 4 oz parcels up USD 1.36 to 2.04 depending on zone.",
+   "rules": "USPS: single sub-1 lb rate per zone and DIM divisor cut from 166 to 139 (12 Jul 2026); 8% temporary increase on selected parcel products since 26 Apr; holiday prices 4 Oct 2026 to 17 Jan 2027. Peak fees: UPS Ground Saver USD 0.50 to 0.75 per parcel; FedEx Ground Economy USD 2.55 to 4.05 per parcel.",
+   "read": "Our reading: the lightweight floor is rising from every side at once, so the cheapest residential parcel in 2027 will cost materially more than in 2025 whichever carrier moves it. That widens the window for alternative carriers and Amazon Shipping, but only in dense metros where they can match USPS coverage; rural lightweight volume stays a USPS product at a higher price.",
+   "src": [
+    1,
+    50,
+    24,
+    25,
+    26,
+    21,
+    48,
+    19
+   ]
+  },
+  {
+   "name": "Amazon Shipping and marketplace-led logistics sold to third parties",
+   "size": "Amazon moved 6.9bn US parcels in 2025, 29.9% of volume. Amazon Supply Chain Services runs 80,000+ trailers, 24,000 intermodal containers and 100 freighter aircraft and has moved hundreds of millions of packages for outside shippers over three years. Large online retailers using Multi-Channel Fulfillment rose 40% y/y in 2025.",
+   "leaders": "Amazon (Amazon Shipping, Multi-Channel Fulfillment, Amazon Supply Chain Services); platform-linked last-mile networks such as UniUni and GOFO, which serve TikTok Shop, Shopify and AliExpress flows.",
+   "dynamics": "Amazon unified its third-party logistics offers on 4 May 2026 and opened LTL freight to all businesses on 10 Jun; UPS shares fell 9.5% on the launch day. Since Sep 2025 Multi-Channel Fulfillment ships orders from Shein, Shopify and Walmart merchants in unbranded packaging, seven days a week. A Citi analyst cautioned that Amazon lacks the scale or physical network to displace all competitors.",
+   "rules": "Amazon Shipping peak surcharges run 25 Oct 2026 to 16 Jan 2027 at USD 0.50 to 0.75 per parcel, USD 8.75 to 11.90 additional handling and USD 96.25 to 117.50 large package, the same levels as UPS; for the second year it has no volume-based peak surcharge, unlike UPS and FedEx.",
+   "read": "Our reading: Amazon is competing on access and speed, not on headline price, and the absence of a volume-based peak surcharge is its sharpest commercial lever against the integrators. The risk for shippers is dependency on a network that also competes with them for the end customer.",
+   "src": [
+    1,
+    33,
+    31,
+    32,
+    34,
+    58,
+    30,
+    39,
+    63
+   ]
+  },
+  {
+   "name": "Inbound cross-border after the end of de minimis",
+   "size": "CBP processed over 1.36bn de minimis shipments in FY2024, up from 139m in 2015. On 29 Aug 2025 postal traffic to the US fell 81% against the previous Friday and 88 postal operators suspended some or all US services. By Dec 2025 CBP had processed over 246m formerly duty-free parcels and collected more than USD 1bn in duties.",
+   "leaders": "Postal: USPS with foreign posts such as Japan Post and India Post, now under brokered entry. Express: DHL Express, FedEx and UPS under informal entry. Bulk import plus domestic injection: alternative last-mile carriers such as UniUni and GOFO.",
+   "dynamics": "Executive Order 14324 suspended de minimis from 29 Aug 2025; two CBP interim final rules of 24 Jun 2026 made the suspension indefinite for all modes. Flows are moving from direct postal injection to prepaid-duty postal entry, express informal entry or bulk import with US fulfilment.",
+   "rules": "Non-postal: Entry Type 86 test suspended, Entry Type 11 informal entry is the main route. Postal: informal entry for goods up to USD 2,500 from 24 Jul 2026, filed only by the owner, purchaser or a licensed broker, with a bond in ACE, 10-digit HTSUS codes and monthly duty payment by the 7th of the month after arrival. Entry Type 13 test from 22 Sep 2026. From 22 Oct 2026 goods with partner-agency requirements, Chapter 98/99 duties or duty-free claims must use formal entry or Type 13. Statutory repeal under the One Big Beautiful Bill Act takes effect 1 Jul 2027.",
+   "read": "Our reading: the regulatory end state is now fixed and the remaining question is cost per parcel, which brokerage, bonds and classification push up most for single low-value items. Volume that survives will consolidate into bulk entries and domestic final mile, which strengthens the alternative carriers serving Asian platforms and weakens direct postal flows.",
+   "src": [
+    41,
+    54,
+    53,
+    55,
+    56,
+    57,
+    43,
+    46
+   ]
+  },
+  {
+   "name": "Returns",
+   "size": "US consumers were expected to return USD 849.9bn of merchandise in 2025, 15.8% of sales and 19.3% of online sales (NRF). UPS Happy Returns has 10,000 Return Bars, with 79% of the population within five miles, more than three times the next-largest consolidated network. FedEx Easy Returns launched at 3,000 FedEx Office and Kohl's locations in summer 2025.",
+   "leaders": "UPS (Happy Returns and The UPS Store); Amazon (free drop-off at Whole Foods, Amazon Fresh, Kohl's and Amazon lockers); FedEx (Easy Returns, Branded Returns); USPS, which wants to take e-commerce returns through its 33,000 Post Offices.",
+   "dynamics": "Box-free, label-free consolidated drop-off is the model all four are converging on, because it turns single parcels into consolidated linehaul back to the merchant. Retailers that charge for returns cite higher processing costs (40%) and carrier shipping costs (40%).",
+   "rules": "USPS proposed raising the Parcel Select forwarding and returns fee from USD 3.80 to 6.00 from 12 Jul 2026. In 2023 Amazon introduced a USD 1 fee for UPS Store returns where a free drop-off location is closer. Carrier peak and fuel surcharges apply to return labels as to outbound parcels.",
+   "read": "Our reading: returns are where UPS has the clearest structural lead, and the network density of drop-off points matters more than line-haul price. As carrier costs rise, more merchants will steer customers towards consolidated drop-off or charge for mailed returns, which favours operators with retail footprints.",
+   "src": [
+    61,
+    59,
+    60,
+    62,
+    52,
+    51
+   ]
+  },
+  {
+   "name": "Regional and gig last mile",
+   "size": "'Other' carriers took 7.2% of 2025 US parcel revenue (from 3.4%) on 127% volume growth (Pitney Bowes); ShipMatrix counts 2.5bn parcels, +13%. GOFO runs 300 hubs and stations covering 12,000+ ZIP codes (about 75% of the population) with 400+ linehaul routes, up from 30 a year earlier, and 800,000 parcels a day of capacity in Dallas. Veho serves 66 markets (44% of the population); UniUni covers 65% of the US.",
+   "leaders": "Alphabetically: GOFO, LSO (Texas and neighbouring states), OnTrac (35 states and DC), Spee-Dee (six Upper Midwest states in full, four in part), UniUni, Veho.",
+   "dynamics": "Growth is coming from shippers diversifying away from the integrators and from Asian platform flows now landed in bulk. OnTrac is adding 25 to 30% capacity in 2026 and piloting capacity-based discounts; Veho opened its network to shippers of any size with no contract minimum; UniUni has agreed a SPAC merger valuing it at about USD 1bn.",
+   "rules": "Pricing is the weapon: GOFO quotes rates 15 to 50% below many competitors with no peak surcharges, against integrator residential peak fees of USD 0.50 to 0.80 per parcel. Coverage gaps mean most shippers still need USPS or an integrator for rural ZIP codes.",
+   "read": "Our reading: the segment is past proof of concept and into a capacity race funded by outside capital, which is when service failures and consolidation usually follow. Shippers should treat these carriers as a structural part of the mix in dense corridors while keeping contracts short and monitoring peak on-time performance.",
+   "src": [
+    1,
+    0,
+    63,
+    37,
+    39,
+    40,
+    35,
+    36,
+    38,
+    64,
+    65,
+    19,
+    48
+   ]
+  }
+ ],
+ "price_stack": [
+  {
+   "carrier": "FedEx",
+   "item": "2027 general rate increase (list rates)",
+   "value": "+5.9% average; Ground +6.08% to 6.15% by zone; Express Saver about +3.1%; Ground minimum charge USD 11.99 to 12.70",
+   "effective": "4 Jan 2027",
+   "src": [
+    14,
+    49
+   ]
+  },
+  {
+   "carrier": "FedEx",
+   "item": "2027 residential and area surcharges",
+   "value": "Ground and Home Delivery residential surcharge +6.98%; residential delivery area surcharge USD 6.60 to 7.00; extended delivery area +8% to 9.1%; additional handling +7.1% to 7.6%",
+   "effective": "4 Jan 2027",
+   "src": [
+    15,
+    49
+   ]
+  },
+  {
+   "carrier": "FedEx",
+   "item": "Weekly fuel surcharge",
+   "value": "Ground and Home Delivery 29.75%; domestic Express 33.00%; international export and import 45.50%",
+   "effective": "Week of 28 Sep 2026",
+   "src": [
+    18
+   ]
+  },
+  {
+   "carrier": "UPS",
+   "item": "Weekly fuel surcharge",
+   "value": "Ground 29.50%; domestic air 32.75%; international air export 45%; international air import 47.75% (record)",
+   "effective": "Week of 21 Sep 2026",
+   "src": [
+    20
+   ]
+  },
+  {
+   "carrier": "UPS",
+   "item": "Peak demand surcharge, Ground Residential and Ground Saver",
+   "value": "USD 0.50 per parcel (25 Oct to 21 Nov), USD 0.75 (22 Nov to 26 Dec), USD 0.50 (27 Dec to 16 Jan); Air Residential USD 1.35 to 2.50",
+   "effective": "25 Oct 2026 to 16 Jan 2027",
+   "src": [
+    48
+   ]
+  },
+  {
+   "carrier": "UPS",
+   "item": "Peak demand surcharge, Additional Handling and Large Package",
+   "value": "Additional Handling USD 8.75, rising to 11.90 from 22 Nov to 26 Dec; Large Package USD 96.25, rising to 117.50",
+   "effective": "Through 16 Jan 2027",
+   "src": [
+    48,
+    9
+   ]
+  },
+  {
+   "carrier": "FedEx",
+   "item": "Peak demand surcharge, residential and Ground Economy",
+   "value": "Ground and Home Delivery residential USD 0.50, USD 0.80 from 23 Nov to 27 Dec; Ground Economy USD 2.55, USD 4.05 in the same window",
+   "effective": "26 Oct 2026 to 17 Jan 2027",
+   "src": [
+    19
+   ]
+  },
+  {
+   "carrier": "FedEx",
+   "item": "Peak demand surcharge, Additional Handling and Oversize",
+   "value": "Additional Handling USD 8.80, USD 11.85 from 23 Nov to 27 Dec; Oversize USD 95.75, USD 117.25",
+   "effective": "28 Sep 2026 to 17 Jan 2027",
+   "src": [
+    19
+   ]
+  },
+  {
+   "carrier": "Amazon Shipping",
+   "item": "Peak surcharges",
+   "value": "USD 0.50 per parcel, USD 0.75 from 22 Nov to 26 Dec; additional handling USD 8.75 to 11.90; large package USD 96.25 to 117.50; extra heavy USD 530 to 590; no volume-based surcharge",
+   "effective": "25 Oct 2026 to 16 Jan 2027",
+   "src": [
+    30
+   ]
+  },
+  {
+   "carrier": "USPS",
+   "item": "Temporary holiday prices",
+   "value": "Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select; for example +USD 0.50 on retail Priority Mail and Ground Advantage zones 1 to 4 up to 3 lb, +USD 2.35 on Parcel Select 26 to 70 lb, +USD 18.20 on commercial Priority Mail Express zones 5 to 9, 26 to 70 lb",
+   "effective": "4 Oct 2026 to 17 Jan 2027",
+   "src": [
+    21
+   ]
+  },
+  {
+   "carrier": "USPS",
+   "item": "Temporary transportation-related increase",
+   "value": "8% on selected domestic parcel products including Ground Advantage and Parcel Select",
+   "effective": "26 Apr 2026 to 17 Jan 2027",
+   "src": [
+    26
+   ]
+  },
+  {
+   "carrier": "USPS",
+   "item": "Ground Advantage lightweight restructure and DIM",
+   "value": "All commercial parcels under 1 lb priced at the 12 to 16 oz rate per zone (+11.8% average); DIM divisor cut from 166 to 139",
+   "effective": "12 Jul 2026",
+   "src": [
+    24,
+    25
+   ]
+  },
+  {
+   "carrier": "DHL Express",
+   "item": "2027 general rate increase, US accounts",
+   "value": "+5.9% average",
+   "effective": "1 Jan 2027",
+   "src": [
+    44
+   ]
+  }
+ ],
+ "scorecard": [
+  {
+   "name": "Amazon",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "US volume rose about 9% to 6.9bn parcels in 2025 (29.9% share), while its 2026 peak fees of USD 0.50 to 0.75 per parcel match UPS rather than raise or undercut it.",
+   "src": [
+    1,
+    30
+   ]
+  },
+  {
+   "name": "USPS",
+   "volume": "down",
+   "yield": "up",
+   "position": "losing",
+   "why": "Q3 FY2026 package revenue rose 7.7% on 3.4% fewer packages, after 2025 volume fell 8.8% to 6.2bn and USPS lost first place to Amazon.",
+   "src": [
+    22,
+    1,
+    0
+   ]
+  },
+  {
+   "name": "UPS",
+   "volume": "down",
+   "yield": "up",
+   "position": "holding",
+   "why": "Q2 2026 US domestic volume fell 3.3% but revenue per piece rose 9.3%; its share of US parcel revenue slipped to 31.6% in 2025 from 34%.",
+   "src": [
+    5,
+    1
+   ]
+  },
+  {
+   "name": "FedEx",
+   "volume": "up",
+   "yield": "up",
+   "position": "gaining",
+   "why": "Volume rose 5.1% to 3.9bn in 2025 against a market up 3.3%, and Q4 FY2026 results cite higher US domestic volume and yields ahead of a 5.9% list increase in Jan 2027.",
+   "src": [
+    1,
+    10,
+    14
+   ]
+  },
+  {
+   "name": "Alternative carriers",
+   "volume": "up",
+   "yield": "down",
+   "position": "gaining",
+   "why": "'Other' carriers grew volume 127% and revenue share from 3.4% to 7.2% in 2025, buying share with price: GOFO quotes 15 to 50% below many competitors and OnTrac is piloting capacity-based discounts.",
+   "src": [
+    1,
+    63,
+    35
+   ]
+  },
+  {
+   "name": "Cross-border platforms",
+   "volume": "down",
+   "yield": "up",
+   "position": "losing",
+   "why": "Postal traffic to the US fell 81% on the day de minimis was suspended and CBP collected over USD 1bn of duties on 246m formerly duty-free parcels by Dec 2025, adding cost to every direct shipment.",
+   "src": [
+    57,
+    56,
+    41
+   ]
+  }
+ ],
+ "scenarios": [
+  {
+   "name": "Yield over volume holds through peak",
+   "likelihood": "most likely",
+   "text": "Our reading: UPS publishes a 2027 increase close to FedEx's 5.9% with similar residential and surcharge structure, USPS files further parcel price rises for January, and fuel surcharges stay near current levels. The integrators keep service through peak, Amazon and alternative carriers keep taking residential volume, and inbound cross-border settles into bulk import and domestic final mile after the 22 Oct compliance date.",
+   "triggers": "UPS 2027 rate publication; USPS January 2027 filing and density pricing request; peak on-time data; weekly diesel price; UPS, FedEx and Amazon Q3 results."
+  },
+  {
+   "name": "Alternative carrier shake-out",
+   "likelihood": "plausible",
+   "text": "Our reading: rapid capacity build-out at GOFO, OnTrac, UniUni and Veho meets record fuel costs and peak volumes, service slips in some corridors and at least one network retrenches, is acquired or misses a funding or listing milestone. Shippers move volume back to USPS and the integrators at higher prices, slowing the share gains of 2025.",
+   "triggers": "Peak-week delivery performance by carrier; completion of the UniUni SPAC merger; fuel surcharges above 30% on Ground; announced hub closures or mergers among regional carriers."
+  },
+  {
+   "name": "USPS liquidity shock",
+   "likelihood": "tail risk",
+   "text": "Our reading: without a higher borrowing cap or new pricing authority, USPS cash runs short in 2027, forcing delivery-day cuts or further emergency price rises. Lightweight residential volume would shift abruptly to Amazon Shipping and alternative carriers that cannot yet cover rural ZIP codes, raising prices and lowering service for the whole segment.",
+   "triggers": "Congressional action on the USD 15bn borrowing cap; Board of Governors decisions on delivery days; Postal Regulatory Commission ruling on density pricing; USPS cash position in FY2026 annual results."
+  }
+ ]
+}

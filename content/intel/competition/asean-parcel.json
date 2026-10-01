@@ -1,0 +1,1096 @@
+{
+  "key": "asean-parcel",
+  "region": "AS",
+  "title": "ASEAN parcels: J&T and the platforms take the volume, everyone else takes the hit",
+  "dek": "Southeast Asian e-commerce kept growing at 20% plus in 2025 and parcel volumes rose even faster in 2026, but the gains are concentrating in J&T Express and platform-run logistics. Independents, posts and Vietnamese incumbents are posting thin or falling profits while platforms and carriers pass fuel and logistics costs on to sellers.",
+  "as_of": "2026-10-01",
+  "stats": [
+    {
+      "big": "US$185bn",
+      "label": "Southeast Asia e-commerce GMV, 2025 projection, e-Conomy SEA 2025 (Google, Temasek, Bain)",
+      "src": 0
+    },
+    {
+      "big": "53%",
+      "label": "Shopee share of US$157.6bn regional platform e-commerce GMV, 2025 (top three platforms: 98.8%), Momentum Works",
+      "src": 1
+    },
+    {
+      "big": "5.52bn",
+      "label": "J&T Express Southeast Asia parcels, H1 2026, up 71.2% year on year, J&T Express",
+      "src": 3
+    },
+    {
+      "big": "38.1%",
+      "label": "J&T Express Southeast Asia market share, H1 2026, up 5.3 points, 9.5 points ahead of the number two, J&T results slides",
+      "src": 4
+    },
+    {
+      "big": "~47%",
+      "label": "Southeast Asia express market volume growth, H1 2026, as cited by J&T Express",
+      "src": 4
+    },
+    {
+      "big": "~US$0.54",
+      "label": "J&T Southeast Asia revenue per parcel, H1 2026 (US$3.0bn revenue / 5.52bn parcels, our calculation)",
+      "src": 8
+    }
+  ],
+  "players": [
+    {
+      "name": "SPX Express (Shopee, Sea Ltd)",
+      "type": "Platform logistics",
+      "scale": "Shopee Q2 2026: GMV US$38.3bn (+28.4%), 4.2bn gross orders (+27.5%); Indonesian instant-delivery orders +80% with cost per order down about 20%; fulfilment orders +20% quarter on quarter.",
+      "strategy": "Sea runs its own first-to-last-mile network so that Shopee controls delivery speed and cost per order. SPX is also selling capacity outside Shopee, for instance through Carousell in Singapore and, in Vietnam, through more than 100 pickup points serving individual senders since Q3 2025.",
+      "moves": "April 2026: SPX added to Carousell Official Delivery, giving more than 1,400 drop-off points in Singapore. August 2026: Sea reported faster-growing fulfilment and 1-hour instant delivery in urban areas.",
+      "pressure": "Sea's Q2 2026 cost of revenue rose 51.9%, mainly logistics costs and investment, and value-added services revenue fell 9% as more revenue was netted against shipping subsidies.",
+      "src": [
+        6,
+        7,
+        42,
+        31
+      ]
+    },
+    {
+      "name": "J&T Express",
+      "type": "Express",
+      "scale": "Southeast Asia H1 2026: 5.52bn parcels (+71.2%), 30.5m a day, 38.1% share, revenue about US$3.0bn (+63.8%); 127 sorting centres and 75 automated lines at end Q2 2026. Group adjusted EBIT per parcel US$0.025 (+77%).",
+      "strategy": "A core carrier for TikTok Shop, Lazada and Shopee at the same time, it is adding automated sorting capacity; our reading is that it is positioning as the low-cost neutral network. It is also starting to target non-platform shippers, which management describes as still at an early stage.",
+      "moves": "June 2026: 213m parcels in the 'Double 6' campaign (+83.5%), with Indonesia +112% and Thailand +89%. August 2026: capital expenditure to be weighted towards automation in Thailand and Vietnam.",
+      "pressure": "Our calculation puts its Southeast Asian revenue per parcel at about US$0.54 in H1 2026, so margins depend on cost per parcel continuing to drop, and on platforms that also run their own carriers.",
+      "src": [
+        3,
+        4,
+        2,
+        8,
+        43,
+        5
+      ]
+    },
+    {
+      "name": "TikTok Shop / Tokopedia",
+      "type": "Platform logistics",
+      "scale": "TikTok Shop SEA platform GMV US$45.6bn in 2025 (doubled); with Tokopedia it reached 65.7% of Shopee's regional GMV. In Vietnam, 43.4% of e-commerce value in H1 2026 against Shopee's 54.5%.",
+      "strategy": "Rather than building its own courier fleet, TikTok Shop runs logistics through partner carriers, with J&T named its strategic partner in Vietnam since 2024. It is now charging sellers for logistics directly instead of absorbing the cost.",
+      "moves": "1 May 2026: an Indonesian seller logistics service fee, capped at Rp5,055 per order on TikTok Shop and Rp10,110 on Tokopedia. 1 June 2026: sellers charged up to Rp5,000 for each failed delivery and each buyer-preference return, with fees waived for three months and the system active from 1 September.",
+      "pressure": "Sellers' total fees keep rising, while new Indonesian rules require fee transparency, seller consent to fee changes and monitoring of below-cost selling.",
+      "src": [
+        47,
+        1,
+        48,
+        35,
+        31,
+        17,
+        18,
+        21
+      ]
+    },
+    {
+      "name": "Lazada Logistics (LEX) and Cainiao",
+      "type": "Platform logistics",
+      "scale": "Lazada is the third of the three platforms that together hold 98.8% of regional platform GMV. Cainiao runs more than 20 warehousing facilities across 10 Asia-Pacific markets, six of them in Southeast Asia.",
+      "strategy": "LEX remains Lazada's in-house logistics arm, while Alibaba's Cainiao sells warehousing and fulfilment to cross-border sellers. Lazada is cutting costs to defend its position in markets where it is doing well, such as Singapore, Thailand and the Philippines.",
+      "moves": "23 June 2026: Lazada cut about 5% of its Southeast Asian workforce, including Singapore, citing organisational efficiency.",
+      "pressure": "Our reading: it is losing ground in volume to Shopee and TikTok Shop, which limits the scale its logistics arm can reach.",
+      "src": [
+        1,
+        50,
+        45,
+        37,
+        31
+      ]
+    },
+    {
+      "name": "Ninja Van",
+      "type": "Express",
+      "scale": "About 2m parcels a day across six markets; US$80m internal round in August 2025 at about US$1bn valuation, versus over US$2bn in 2021.",
+      "strategy": "A platform-agnostic courier now focused on profitability, having shelved its IPO until profitability improves. In Malaysia it is passing fuel costs through on East Malaysia lanes.",
+      "moves": "13 April 2026: a RM1.95/kg emergency fuel surcharge on West to East Malaysia and intra-Sabah/Sarawak deliveries, reviewed weekly. May 2026: delays of 4 to 8 days or more in Singapore, which it blamed on an unexpected surge in volume.",
+      "pressure": "Our reading: it has to fund network capacity on thin margins without the platform order flow that J&T and SPX have.",
+      "src": [
+        9,
+        10,
+        46,
+        11
+      ]
+    },
+    {
+      "name": "Flash Express",
+      "type": "Express",
+      "scale": "Thai unicorn since 2021; closed Malaysia on 31 January 2026, with more than 10,000 jobs reported affected.",
+      "strategy": "It has pulled back to Thailand, its home market. It blamed the Malaysian exit on platform 'self-preferencing' and exclusive deals that denied independent couriers volume.",
+      "moves": "1 April 2026: added 3 baht per parcel in Thailand, alongside J&T and KEX, citing fuel costs.",
+      "pressure": "Our reading: its access to marketplace parcels depends on platform carrier-selection rules.",
+      "src": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "KEX Express (SF Holding)",
+      "type": "Express",
+      "scale": "More than 15,000 service points, 12 major sorting centres and 99.9% coverage of Thailand; linked to 65 destinations through SF Express.",
+      "strategy": "After delisting under SF ownership, KEX says it is moving from a mass-volume courier to an 'end-to-end' logistics provider (fulfilment, customs clearance, freight forwarding) with a focus on premium and high-value parcels.",
+      "moves": "10 June 2026: announced its transformation, targeting stronger growth in H2 2026. 1 April 2026: added 3 baht per parcel for fuel.",
+      "pressure": "Our reading: it is moving away from low-price marketplace volume, which J&T, SPX and Flash dominate.",
+      "src": [
+        15,
+        16,
+        14
+      ]
+    },
+    {
+      "name": "National posts (Pos Malaysia, SingPost, Pos Indonesia, Vietnam Post, Thailand Post)",
+      "type": "Postal",
+      "scale": "Pos Malaysia Q2 FY2026 revenue RM481.3m (+9%), postal parcels +34.3%, H1 pre-tax loss RM55.4m. SingPost quarter to June 2026: domestic parcels +36.5% to 7.1m, operating profit S$4.1m. Vietnam Post/EMS Q1 2026 revenue about VND481bn (-7.4%).",
+      "strategy": "The posts are using parcels and cost cuts to offset falling mail, and are taking on roles the state gives them, such as Thailand Post collecting duties on postal imports.",
+      "moves": "July 2026: SingPost commissioned a S$30m automated parcel sortation facility targeting 10%+ cost reduction. August 2026: Indonesia's Danantara and BP BUMN put Pos Indonesia's transformation under close governance review.",
+      "pressure": "Our reading: posts are still loss-making or low-margin. Their volume is growing from a small base while platform-linked networks take most of the parcels.",
+      "src": [
+        28,
+        29,
+        31,
+        22,
+        30
+      ]
+    },
+    {
+      "name": "Vietnamese incumbents (Viettel Post, GHN, GHTK)",
+      "type": "Express",
+      "scale": "Viettel Post claims 22.3% of 2025 delivery revenue, with GHN, GHTK, VNPost and J&T each between 12.4% and 15.7%. Viettel Post H1 2026 net profit VND111.7bn (-33%); GHN parent SCommerce H1 2026 net profit VND92.4bn (-94.5%).",
+      "strategy": "They are moving away from pure e-commerce last mile into infrastructure, B2B and international work: Viettel Post became FedEx's network partner in Vietnam from April 2026 and added cold-chain trucks, while SCommerce is building automated sorting centres.",
+      "moves": "April 2026: Viettel Post added a 15% fuel surcharge. May 2026: SCommerce issued VND580bn of ADB-guaranteed bonds for a sorting centre in Tay Ninh. July 2026: Viettel Post added 40 refrigerated trucks.",
+      "pressure": "Our reading: shopee and TikTok Shop hold nearly 98% of Vietnamese e-commerce value and decide which carriers buyers see. SPX and J&T control the largest order streams.",
+      "src": [
+        36,
+        32,
+        34,
+        33,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "Lalamove",
+      "type": "Last mile",
+      "scale": "2025 group revenue US$2.14bn, GTV US$12.36bn, 1.03bn orders; overseas revenue 9.2% of the total; intra-city commission rate down from 12.2% (2023) to 10.9% (2025).",
+      "strategy": "On-demand same-day vans and bikes (our reading: a complement to parcel networks rather than a rival). It is widening its Philippine footprint and has filed for a Hong Kong listing.",
+      "moves": "30 April 2026: seventh Hong Kong IPO filing. 28 September 2026: entered Mindanao (eight cities) and expanded in Visayas.",
+      "pressure": "Our reading: commission rates and gross margins are falling, from 61.2% in 2023 to 50.5% in 2025.",
+      "src": [
+        38,
+        39
+      ]
+    },
+    {
+      "name": "Chinese entrants (JD Logistics, BEST, Cainiao, plus SF through KEX)",
+      "type": "Express",
+      "scale": "JD Logistics international express to seven ASEAN countries since October 2024, with local warehouses in Malaysia and Vietnam. BEST is in six SEA markets, with about 140m SEA parcels in 2023. Cainiao has warehousing in six SEA markets.",
+      "strategy": "These players serve Chinese brands and sellers moving stock into the region through cross-border lines and local warehouses rather than building mass last-mile networks, with J&T the exception.",
+      "moves": "No major 2026 network move found in sources checked; their recent expansion steps date from 2024 to 2025.",
+      "pressure": "Our reading: tighter low-value import rules in Indonesia, Thailand and Vietnam favour stock held locally over direct small parcels.",
+      "src": [
+        44,
+        51,
+        45,
+        21,
+        22
+      ]
+    }
+  ],
+  "battlegrounds": [
+    {
+      "h": "Platforms decide who gets the parcels",
+      "text": "Shopee and TikTok Shop hold nearly 98% of Vietnamese e-commerce value, and Vietnamese carriers say buyers see only part of the carriers that qualify for an order. Flash Express left Malaysia in January 2026 citing platform self-preferencing, while SPX now sells capacity to outside users in Singapore and Vietnam. J&T grew Southeast Asian volume 71% in H1 2026 as a core partner of all three platforms. Our reading: in ASEAN, access to marketplace volume now matters more than price or service quality, and an independent courier without a platform anchor struggles to stay at scale.",
+      "src": [
+        35,
+        13,
+        42,
+        31,
+        3,
+        8
+      ]
+    },
+    {
+      "h": "The price war has become a cost war",
+      "text": "J&T's Southeast Asian revenue works out at about US$0.54 per parcel in H1 2026 (our calculation from reported revenue and volume). When fuel spiked in spring 2026, carriers added surcharges rather than absorbing the cost: 3 baht per parcel in Thailand, 15% at Viettel Post and RM1.95/kg at Ninja Van in East Malaysia. Viettel Post's H1 profit still fell 33% and GHN's parent fell 94.5%. Our reading: only operators with the lowest cost per parcel make money at today's rates, and the rest are relying on surcharges that platforms and sellers resist.",
+      "src": [
+        5,
+        4,
+        14,
+        32,
+        10,
+        34
+      ]
+    },
+    {
+      "h": "Platforms push logistics costs onto sellers",
+      "text": "In Indonesia, TikTok Shop and Tokopedia began charging sellers a logistics service fee on 1 May 2026, and from June they added charges for failed deliveries and returns. Shopee raised its Gratis Ongkir XTRA free-shipping fees on 2 May, and in Vietnam it adjusted its PiShip shipping service fee from 23 May. Shopee's take rate rose from 8.6% in 2022 to 13.5% at end 2025, and sellers report effective cuts near 30% including logistics. Our reading: platforms are funding free shipping and faster delivery out of seller margins, which keeps buyer prices low but drives sellers towards fulfilment programmes run by the platforms.",
+      "src": [
+        17,
+        18,
+        19,
+        20,
+        41
+      ]
+    },
+    {
+      "h": "Consolidation through exits and repositioning rather than mergers",
+      "text": "No large parcel merger in ASEAN was found for June to September 2026. Instead, Flash Express has left Malaysia, Ninja Van raised money at roughly half its 2021 valuation, Lazada cut about 5% of staff, and KEX repositioned itself towards end-to-end and premium logistics. Southeast Asian logistics-tech funding reached US$339m in 2026 to date, the highest since 2021 but well below 2021's US$1.1bn. Our reading: with capital scarce, weaker networks are likely to shrink, sell or specialise rather than be bought outright.",
+      "src": [
+        12,
+        9,
+        37,
+        15,
+        49
+      ]
+    },
+    {
+      "h": "Regulators close the small-parcel channel",
+      "text": "Since 1 January 2026, Thailand has charged import duty on online imports from 1 baht (previously exempt up to 1,500 baht), with Lazada, Shopee, Shein, TikTok Shop and Temu collecting. Vietnam ended its VAT exemption on express imports under VND1m in February 2025, and its e-commerce law in force since 1 July 2026 requires foreign platforms with no Vietnamese presence to post a bank deposit. Indonesia's Permendag 19/2026 sets a US$100 FOB minimum per unit for cross-border goods sold on platforms and requires platforms to curb below-cost selling. Our reading: the regulatory direction in ASEAN mirrors the US and EU ending de minimis, which favours goods stocked in-country over direct parcels from China.",
+      "src": [
+        22,
+        23,
+        24,
+        25,
+        21
+      ]
+    },
+    {
+      "h": "Chinese supply keeps arriving, but through local sellers",
+      "text": "China's exports to Southeast Asia rose 30.2% year on year in August 2026. Momentum Works notes Shopee and TikTok Shop are already 'full of Chinese sellers' drawing on the same supply pool as Temu, whose 2025 Philippine GMV it estimates at no more than US$50m. ASEAN DEFA, concluded in May 2026 and due to be signed in Manila in November, aims to harmonise e-commerce, payments and data rules. Our reading: rather than a flood of direct small parcels, the flows redirected from the US and EU are coming in through locally registered sellers and warehouses, which benefits domestic carriers and fulfilment providers more than cross-border postal lanes.",
+      "src": [
+        40,
+        41,
+        26,
+        27
+      ]
+    }
+  ],
+  "our_read": "Our reading is that ASEAN parcels have become a contest between two models: platform-controlled logistics (SPX, and TikTok Shop's managed carrier network) and one neutral carrier with the lowest costs (J&T). Volumes are growing quickly, around 47% in H1 2026 on J&T's estimate, but the value goes to whoever controls order flow or has the lowest cost per parcel. Mid-sized independents, the posts and Vietnam's incumbents are growing revenue while profits shrink, and they are moving into B2B, cold chain, premium or cross-border niches. Platforms are passing logistics costs to sellers through fees, so marketplace sellers are effectively paying for the faster delivery. Governments are tightening on low-value imports and below-cost selling at the same time, which narrows the direct parcel channel from China and favours goods stocked in the region.",
+  "implications": [
+    {
+      "who": "Merchants / platforms",
+      "text": "Budget for logistics as a platform fee line that keeps rising (logistics service fees, failed-delivery and return charges, free-shipping programme fees) rather than as a carrier rate you negotiate. Selling direct or through several channels is the main way to keep a choice of carrier, since on the marketplaces the platforms decide which carriers buyers see."
+    },
+    {
+      "who": "Cross-border operators into ASEAN",
+      "text": "Indonesia's US$100 FOB minimum, Thailand's duty from 1 baht and Vietnam's VAT and foreign-platform deposit rules make direct low-value parcels costlier and riskier. Plans should move towards bulk import, local registration and in-country stock, with duties and taxes collected at checkout."
+    },
+    {
+      "who": "Carriers",
+      "text": "Matching J&T or SPX on cost per parcel requires automation and scale that few others can fund. The options left are to become a platform's dependable overflow partner, to specialise (premium, bulky, cold chain, B2B, on-demand) or to merge. Fuel surcharges stick only where the carrier still has pricing power."
+    }
+  ],
+  "watch": [
+    {
+      "date": "October 2026 (expected)",
+      "what": "J&T Express Q3 2026 operational update on parcel volumes; Q1 and Q2 updates came on 13 April and 7 July."
+    },
+    {
+      "date": "November 2026",
+      "what": "ASEAN DEFA signing at the ASEAN Summit in Manila."
+    },
+    {
+      "date": "November 2026 (expected)",
+      "what": "e-Conomy SEA 2026 report from Google, Temasek and Bain; the 2025 edition was published on 11 November 2025."
+    },
+    {
+      "date": "11 November 2026",
+      "what": "11.11 campaign peak: watch J&T and platform volume disclosures and on-time performance."
+    },
+    {
+      "date": "November 2026 (expected)",
+      "what": "Sea Ltd Q3 2026 results: Shopee GMV, logistics costs and shipping subsidies."
+    },
+    {
+      "date": "12 December 2026",
+      "what": "12.12 campaign peak and the start of year-end surcharges."
+    },
+    {
+      "date": "December 2026",
+      "what": "End of the six-month 'in legalisation process' window for online sellers under Indonesia's Permendag 19/2026 (signed 8 June), which may remove unregistered sellers."
+    },
+    {
+      "date": "1 January 2027",
+      "what": "Vietnam's VeriGoods traceability becomes mandatory for high-risk goods."
+    }
+  ],
+  "sources": [
+    {
+      "t": "e-Conomy SEA 2025 report: ASEAN's digital economy poised to surpass $300 billion in GMV",
+      "u": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/e-conomy-sea-2025-report-aseans-digital-economy-poised-to-surpass-300-billion",
+      "pub": "Temasek (Google, Temasek, Bain)",
+      "date": "2025-11-11"
+    },
+    {
+      "t": "Southeast Asia's platform ecommerce reaches US$157.6B in 2025",
+      "u": "https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-reaches-us157-6b-in-2025-with-top-platforms-expanding-share-to-98-8/",
+      "pub": "Momentum Works",
+      "date": "2026-04-14"
+    },
+    {
+      "t": "J&T Express average daily parcel volume exceeds 100 million in the second quarter of 2026",
+      "u": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
+      "pub": "J&T Express via PR Newswire",
+      "date": "2026-07-07"
+    },
+    {
+      "t": "J&T Express adjusted net profit up 124.3% YoY in 1H2026",
+      "u": "https://www.newswire.ca/news-releases/j-amp-t-express-adjusted-net-profit-up-124-3-yoy-in-1h2026-overall-profitability-continues-to-strengthen-839187168.html",
+      "pub": "J&T Express via Newswire",
+      "date": "2026-08-20"
+    },
+    {
+      "t": "J&T Express 1H2026 slides: non-China revenue hits 50%, profit doubles",
+      "u": "https://www.investing.com/news/company-news/jt-express-1h2026-slides-nonchina-revenue-hits-50-profit-doubles-93CH-4869182",
+      "pub": "Investing.com",
+      "date": "2026-08-20"
+    },
+    {
+      "t": "J&T Express reports 18.5% YoY revenue growth for FY2025",
+      "u": "https://www.prnewswire.com/news-releases/jt-express-reports-18-5-yoy-revenue-growth-for-fy2025-new-markets-achieve-full-year-profitability-for-the-first-time-302728427.html",
+      "pub": "J&T Express via PR Newswire",
+      "date": "2026-03-30"
+    },
+    {
+      "t": "Sea Limited reports second quarter 2026 results",
+      "u": "https://cdn.sea.com/investor/2Q2026/wFBC39MbqnfLb3MGY6LP/2026.08.11%20Sea%20Second%20Quarter%202026%20Results.pdf",
+      "pub": "Sea Limited",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "Sea Limited (SE) Q2 2026 earnings call transcript",
+      "u": "https://www.fool.com/earnings/call-transcripts/2026/08/11/sea-limited-se-q2-2026-earnings-call-transcript/",
+      "pub": "The Motley Fool",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "Earnings call transcript: J&T Express H1 2026",
+      "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-jt-express-h1-2026-profit-surges-as-nonchina-revenue-hits-50-93CH-4869158",
+      "pub": "Investing.com",
+      "date": "2026-08-20"
+    },
+    {
+      "t": "Alibaba-backed Ninja Van faces $1B valuation reset",
+      "u": "https://finance.yahoo.com/news/alibaba-backed-ninja-van-faces-193138910.html",
+      "pub": "Yahoo Finance",
+      "date": "2025-08-11"
+    },
+    {
+      "t": "Ninja Van Emergency Fuel Surcharge (EFS) update 2026",
+      "u": "https://blog.ninjavan.co/en-my/latest-update-on-emergency-fuel-surcharge-efs-2026/",
+      "pub": "Ninja Van Malaysia",
+      "date": "2026-05-15"
+    },
+    {
+      "t": "Ninja Van S'pore apologises for recent delivery delays",
+      "u": "https://mothership.sg/2026/05/ninjavan-apologise-delivery-delays/",
+      "pub": "Mothership",
+      "date": "2026-05-15"
+    },
+    {
+      "t": "Flash Express to permanently shut down Malaysian operations on January 31",
+      "u": "https://marketech-apac.com/flash-express-to-permanently-shut-down-malaysian-operations-on-january-31/",
+      "pub": "Marketech APAC",
+      "date": "2026-01-05"
+    },
+    {
+      "t": "Flash Express retreats from Malaysia: a grim omen for e-commerce competition",
+      "u": "https://www.nationthailand.com/business/tech/40061123",
+      "pub": "The Nation Thailand",
+      "date": "2026-01-12"
+    },
+    {
+      "t": "J&T Express, KEX and Flash Express raise shipping fees by 3 baht",
+      "u": "https://brandinside.asia/thailands-major-parcel-delivery-firms-raise-shipping-fees-by-3-baht-citing-rising-fuel-costs/",
+      "pub": "Brand Inside",
+      "date": "2026-03-31"
+    },
+    {
+      "t": "KEX marks 20 years with a major business transformation",
+      "u": "https://th.kex-express.com/en/news/361271/kex-marks-20-years-with-a-major-business-transformation-toward-becoming-an-end-to-end-smart-logistics-solution-targets-stronger-growth-in-h2-2026-with-smart-technology-to-drive-premium-delivery-deman",
+      "pub": "KEX Express",
+      "date": "2026-06-10"
+    },
+    {
+      "t": "KEX ignites 2026 with tech-powered transformation",
+      "u": "https://th.kex-express.com/en/news/355346/kex-ignites-2026-with-tech%E2%80%91powered-transformation-advancing-as-thailands-leading-logistics-solution-provider-and-setting-new-global-delivery-standards",
+      "pub": "KEX Express",
+      "date": "2026-01-29"
+    },
+    {
+      "t": "Pedagang Tokopedia dan TikTok Shop kena biaya logistik mulai Mei 2026",
+      "u": "https://katadata.co.id/digital/e-commerce/69d891b708dd3/pedagang-tokopedia-dan-tiktok-shop-kena-biaya-logistik-mulai-mei-2026",
+      "pub": "Katadata",
+      "date": "2026-04-10"
+    },
+    {
+      "t": "TikTok Shop bebankan biaya pengiriman gagal dan retur ke seller",
+      "u": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller",
+      "pub": "Bisnis.com",
+      "date": "2026-05-31"
+    },
+    {
+      "t": "Shopee naikkan biaya gratis ongkir ke penjual mulai 2 Mei, bersifat opsional",
+      "u": "https://katadata.co.id/digital/e-commerce/69dc895b0656c/shopee-naikkan-biaya-gratis-ongkir-ke-penjual-mulai-2-mei-bersifat-opsional",
+      "pub": "Katadata",
+      "date": "2026-04-13"
+    },
+    {
+      "t": "Shopee lai tang hang loat loai phi tu cuoi thang 5/2026",
+      "u": "https://www.sapo.vn/blog/shopee-tang-phi-hang-loat-tu-23-05",
+      "pub": "Sapo",
+      "date": "2026-05-28"
+    },
+    {
+      "t": "Permendag baru e-commerce terbit, ini 10 poin pentingnya",
+      "u": "https://www.cnnindonesia.com/ekonomi/20260609133130-92-1367064/permendag-baru-e-commerce-terbit-ini-10-poin-pentingnya",
+      "pub": "CNN Indonesia",
+      "date": "2026-06-09"
+    },
+    {
+      "t": "Thailand Customs to tax online imports from 1 baht in 2026",
+      "u": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/",
+      "pub": "Khaosod English",
+      "date": "2025-12-22"
+    },
+    {
+      "t": "Viet Nam to impose VAT on low-value express-imported goods",
+      "u": "https://vietnamnews.vn/economy/1692261/viet-nam-to-impose-vat-on-low-value-express-imported-goods.html",
+      "pub": "Viet Nam News",
+      "date": "2025-02-15"
+    },
+    {
+      "t": "Vietnam: Law on e-commerce 2025 effective July 1, 2026",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/tnf-vietnam-law-on-e-commerce-2025-effective-july-1-2026.html",
+      "pub": "KPMG",
+      "date": "2026-06-24"
+    },
+    {
+      "t": "Vietnam logistics and customs regulation update: 15 key changes effective July 1, 2026",
+      "u": "https://voltransvn.com/2026/07/06/vietnam-logistics-customs-regulation-update-15-key-changes-effective-july-1-2026/",
+      "pub": "Voltrans",
+      "date": "2026-07-06"
+    },
+    {
+      "t": "ASEAN concludes Digital Economy Framework Agreement talks",
+      "u": "https://worldef.com/2026/06/05/asean-concludes-digital-economy-framework/",
+      "pub": "WORLDEF",
+      "date": "2026-06-05"
+    },
+    {
+      "t": "Timor-Leste to sign ASEAN Digital Economy Framework Agreement in Manila",
+      "u": "https://en.tatoli.tl/2026/09/30/timor-leste-to-sign-asean-digital-economy-framework-agreement-in-manila/17/",
+      "pub": "Tatoli",
+      "date": "2026-09-30"
+    },
+    {
+      "t": "Pos Malaysia Group reports second quarter FY2026 results",
+      "u": "https://www.ipc.be/news-portal/general-news/2026/08/24/10/00/pos-malaysia-group-reports-second-quarter-fy2026-results",
+      "pub": "IPC",
+      "date": "2026-08-14"
+    },
+    {
+      "t": "SingPost's Q1 operating profit up 55.2% to $4.1 million",
+      "u": "https://sg.news.yahoo.com/singpost-q1-operating-profit-55-103600847.html",
+      "pub": "Yahoo News Singapore",
+      "date": "2026-08-26"
+    },
+    {
+      "t": "BP BUMN-Danantara kawal ketat transformasi PT Pos Indonesia",
+      "u": "https://pasardana.id/news/2026/8/6/bp-bumn-danantara-kawal-ketat-transformasi-pt-pos-indonesia",
+      "pub": "Pasardana",
+      "date": "2026-08-06"
+    },
+    {
+      "t": "Doanh nghiep chuyen phat thoat khoi cai bong TMDT",
+      "u": "https://nhadautu.vn/khi-nguon-hang-tmdt-khong-con-la-be-do-cua-doanh-nghiep-chuyen-phat-d105447.html",
+      "pub": "Nha Dau Tu",
+      "date": "2026-06-05"
+    },
+    {
+      "t": "Da thu them phu phi xang dau 15%, vi sao loi nhuan Viettel Post van di lui?",
+      "u": "https://tuoitre.vn/da-thu-them-phu-phi-xang-dau-15-vi-sao-loi-nhuan-viettel-post-van-di-lui-10026080311352196.htm",
+      "pub": "Tuoi Tre",
+      "date": "2026-08-03"
+    },
+    {
+      "t": "Viettel Post cong bo chien luoc mo rong ha tang logistics",
+      "u": "https://vtcnews.vn/viettel-post-cong-bo-chien-luoc-mo-rong-ha-tang-logistics-ar1032972.html",
+      "pub": "VTC News",
+      "date": "2026-08-06"
+    },
+    {
+      "t": "Loi nhuan cong ty dung sau Giao Hang Nhanh bat ngo giam 94%",
+      "u": "https://tuoitre.vn/loi-nhuan-cong-ty-dung-sau-giao-hang-nhanh-bat-ngo-giam-94-100260914145321015.htm",
+      "pub": "Tuoi Tre",
+      "date": "2026-09-14"
+    },
+    {
+      "t": "Shopee, TikTok nam gan 98% thi truong, hang giao nhan canh tranh the nao?",
+      "u": "https://genk.vn/shopee-tiktok-nam-gan-98-thi-truong-hang-giao-nhan-canh-tranh-the-nao-de-duoc-khach-hang-chon-165260929092432318.chn",
+      "pub": "GenK",
+      "date": "2026-09-29"
+    },
+    {
+      "t": "Viettel Post tuyen bo chiem hon 22% thi phan",
+      "u": "https://vietnambiz.vn/viettel-post-tuyen-bo-chiem-hon-22-thi-phan-dan-dau-thi-truong-chuyen-phat-202641141945835.htm",
+      "pub": "VietnamBiz",
+      "date": "2026-04-01"
+    },
+    {
+      "t": "Lazada lays off about 5% of workforce in Southeast Asia, including S'pore",
+      "u": "https://mothership.sg/2026/06/lazada-layoffs-5-percent/",
+      "pub": "Mothership",
+      "date": "2026-06-23"
+    },
+    {
+      "t": "Lalamove files for Hong Kong IPO for the seventh time",
+      "u": "https://finance.biggo.com/news/fDsf6J0BNl__-4_GPtmw",
+      "pub": "BigGo Finance",
+      "date": "2026-04-30"
+    },
+    {
+      "t": "Lalamove sets wheels in motion across Mindanao, more parts of Visayas",
+      "u": "https://www.philstar.com/business/biz-memos/2026/09/28/2559529/lalamove-sets-wheels-motion-across-mindanao-more-parts-visayas",
+      "pub": "The Philippine Star",
+      "date": "2026-09-28"
+    },
+    {
+      "t": "China's exports pick up in August, jumping 25% as its trade surplus widens",
+      "u": "https://www.bnnbloomberg.ca/business/international/2026/09/08/chinas-exports-pick-up-in-august-jumping-25-as-its-trade-surplus-widens/",
+      "pub": "BNN Bloomberg (AP)",
+      "date": "2026-09-08"
+    },
+    {
+      "t": "Why have ecommerce prices in SEA not reached the true floor?",
+      "u": "https://thelowdown.momentum.asia/why-have-ecommerce-prices-in-sea-not-reached-the-true-floor/",
+      "pub": "Momentum Works",
+      "date": "2026-05-04"
+    },
+    {
+      "t": "Carousell, Shopee-affiliated courier SPX Express expand delivery network",
+      "u": "https://technode.global/2026/04/02/e-commerce-platform-carousell-shopee-affiliated-courier-spx-express-expand-delivery-network/",
+      "pub": "TNGlobal",
+      "date": "2026-04-02"
+    },
+    {
+      "t": "J&T Express's 'Double 6' parcel volume hits new high, surging 83.5% YoY in Southeast Asia",
+      "u": "https://www.prnewswire.com/news-releases/jt-expresss-double-6-parcel-volume-hits-new-high-surging-83-5-yoy-in-southeast-asia-302795112.html",
+      "pub": "J&T Express via PR Newswire",
+      "date": "2026-06-09"
+    },
+    {
+      "t": "JD Logistics expands international express delivery to seven Southeast Asian countries",
+      "u": "https://jdcorporateblog.com/jd-logistics-expands-international-express-delivery-to-seven-southeast-asian-countries/",
+      "pub": "JD.com",
+      "date": "2024-10-23"
+    },
+    {
+      "t": "Cainiao expands APAC supply chain, now operating warehousing and fulfillment in 10 markets",
+      "u": "https://www.prnewswire.com/apac/news-releases/cainiao-expands-apac-supply-chain-now-operating-warehousing-and-fulfillment-in-10-markets-302504041.html",
+      "pub": "Cainiao via PR Newswire",
+      "date": "2025-07-14"
+    },
+    {
+      "t": "Ninja Van implements RM1.95 per kg delivery fee as fuel prices spike",
+      "u": "https://says.com/my/news/ninja-van-delivery-surcharge",
+      "pub": "SAYS",
+      "date": "2026-04-13"
+    },
+    {
+      "t": "TikTok Shop and Shopee GMV tracker: SEA 2026",
+      "u": "https://digitalinasia.com/tiktok-shop-shopee-gmv-tracker/",
+      "pub": "Digital in Asia",
+      "date": "2026-06-24"
+    },
+    {
+      "t": "TikTok Shop narrows the gap with Shopee in Southeast Asia's e-commerce market",
+      "u": "https://kr-asia.com/tiktok-shop-narrows-the-gap-with-shopee-in-southeast-asias-e-commerce-market",
+      "pub": "KrASIA",
+      "date": "2026-03-03"
+    },
+    {
+      "t": "Southeast Asia logistics-tech funding hits $17.7B, Singapore leads: Tracxn",
+      "u": "https://technode.global/2026/09/22/southeast-asia-logistics-tech-funding-hits-17-7b-singapore-leads-tracxn/",
+      "pub": "TNGlobal",
+      "date": "2026-09-22"
+    },
+    {
+      "t": "Momentum Works: Ecommerce in Southeast Asia 2026 (press release)",
+      "u": "https://thelowdown.momentum.asia/wp-content/uploads/2026/04/Embargoed-Press-release-Momentum-Works-Ecommerce-in-SEA-2026.pdf",
+      "pub": "Momentum Works",
+      "date": "2026-04-14"
+    },
+    {
+      "t": "BEST Inc. expands into Indonesia with cross-border and SaaS services",
+      "u": "https://www.prnewswire.com/news-releases/best-inc-expands-into-indonesia-with-cross-border-and-saas-services-to-strengthen-global-strategy-302233877.html",
+      "pub": "BEST Inc. via PR Newswire",
+      "date": "2024-08-29"
+    },
+    {
+      "t": "e-Conomy SEA 2025: Ekonomi digital Indonesia mendekati GMV $100 miliar tahun ini",
+      "u": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/",
+      "pub": "Google Indonesia",
+      "date": "2025-11-13"
+    },
+    {
+      "t": "Gratis ongkir dibatasi, ini aturan baru Komdigi soal kurir ecommerce",
+      "u": "https://www.cnbcindonesia.com/tech/20250516150544-37-633843/gratis-ongkir-dibatasi-ini-aturan-baru-komdigi-soal-kurir-ecommerce",
+      "pub": "CNBC Indonesia",
+      "date": "2025-05-16"
+    },
+    {
+      "t": "Halalbihalal ASPERINDO 2026: sektor kurir serap 6 juta tenaga kerja",
+      "u": "https://www.asperindo.id/blog/halalbihalal-asperindo-2026-sektor-kurir-serap-6-juta-tenaga-kerja-perkuat-stabilitas-dan-sinergi-nasional/",
+      "pub": "ASPERINDO",
+      "date": "2026-04-09"
+    },
+    {
+      "t": "Kajian KPPU: algoritma Shopee pengaruhi pilihan kurir, JNT kehilangan peluang",
+      "u": "https://katadata.co.id/digital/e-commerce/6a6322b0bd7f5/kajian-kppu-algoritma-shopee-pengaruhi-pilihan-kurir-jnt-kehilangan-peluang",
+      "pub": "Katadata",
+      "date": "2026-07-24"
+    },
+    {
+      "t": "Salahgunakan dominasi, KPPU intervensi algoritma e-commerce Shopee",
+      "u": "https://ekonomi.espos.id/salahgunakan-dominasi-kppu-intervensi-algoritma-e-commerce-shopee-2235749",
+      "pub": "Espos",
+      "date": "2026-07-23"
+    },
+    {
+      "t": "Vietnam's digital economy to touch $39 billion in 2025",
+      "u": "https://vir.com.vn/vietnams-digital-economy-to-touch-39-billion-in-2025-141430.html",
+      "pub": "Vietnam Investment Review",
+      "date": "2025-11-26"
+    },
+    {
+      "t": "Nguoi Viet co 4,1 ty buu gui mot nam",
+      "u": "https://vnexpress.net/nguoi-viet-co-4-1-ty-buu-gui-mot-nam-5122517.html",
+      "pub": "VnExpress",
+      "date": "2026-09-21"
+    },
+    {
+      "t": "Phat trien buu chinh so dua tren du lieu, quan ly buu gui theo muc do rui ro",
+      "u": "https://baochinhphu.vn/phat-trien-buu-chinh-so-dua-tren-du-lieu-quan-ly-buu-gui-theo-muc-do-rui-ro-102260818101521162.htm",
+      "pub": "Bao Chinh phu",
+      "date": "2026-08-18"
+    },
+    {
+      "t": "Nguoi Viet do gan 292.000 ty dong mua sam o Shopee, TikTok Shop",
+      "u": "https://index.vn/tin-tuc/nguoi-viet-do-gan-292-000-ty-dong-mua-sam-o-shopee-tik-tok-shop",
+      "pub": "Index.vn",
+      "date": "2026-07-25"
+    },
+    {
+      "t": "Temu tam dung hoat dong tai Viet Nam",
+      "u": "https://vietnambiz.vn/temu-tam-dung-hoat-dong-tai-viet-nam-2024124174926937.htm",
+      "pub": "VietnamBiz",
+      "date": "2024-12-04"
+    },
+    {
+      "t": "Vietnam e-commerce platform withholding tax Jul 2025",
+      "u": "https://www.vatcalc.com/vietnam/vietnam-e-commerce-platform-withholding-tax-jul-2025/",
+      "pub": "VATCalc",
+      "date": "2025-06-14"
+    },
+    {
+      "t": "Thailand's digital economy set for $56 billion milestone in 2025",
+      "u": "https://www.thestorythailand.com/en/google-digital-economy-2/",
+      "pub": "The Story Thailand",
+      "date": "2025-11-27"
+    },
+    {
+      "t": "The great delivery shake-up: Thailand's parcel wars enter a new era",
+      "u": "https://www.nationthailand.com/business/corporate/40050725",
+      "pub": "The Nation Thailand",
+      "date": "2025-06-02"
+    },
+    {
+      "t": "'แฟลช-ปณท-เคอีเอ็กซ์' ชิงดำ 'สงครามส่งด่วน' จับตา 'กฏหมายใหม่' เปลี่ยนเกม",
+      "u": "https://www.bangkokbiznews.com/tech/gadget/1182907",
+      "pub": "Bangkok Biz News",
+      "date": "2025-06-02"
+    },
+    {
+      "t": "Thai e-commerce hits 1 trillion baht milestone amid TikTok shopping boom",
+      "u": "https://www.nationthailand.com/business/economy/40052525",
+      "pub": "The Nation Thailand",
+      "date": "2025-07-14"
+    },
+    {
+      "t": "Thai shoppers flock online amid economic slowdown as Shopee, Lazada and TikTok rake in billions",
+      "u": "https://www.nationthailand.com/news/general/40057033",
+      "pub": "The Nation Thailand",
+      "date": "2025-10-20"
+    },
+    {
+      "t": "2024 Thailand regulatory: value added tax",
+      "u": "https://www.dhl.com/discover/en-tw/ship-with-dhl/export-with-dhl/2024-thailand-vat-change",
+      "pub": "DHL Discover",
+      "date": ""
+    },
+    {
+      "t": "Philippine digital economy to reach $36B",
+      "u": "https://business.inquirer.net/560239/ph-digital-economy-to-reach-36b",
+      "pub": "Inquirer Business",
+      "date": "2025-11-27"
+    },
+    {
+      "t": "TikTok Shop to charge sellers P5 fee starting December 1",
+      "u": "https://www.philstar.com/headlines/2025/11/17/2487784/tiktok-shop-charge-sellers-p5-fee-starting-december-1",
+      "pub": "The Philippine Star",
+      "date": "2025-11-17"
+    },
+    {
+      "t": "TikTok aims to surpass 2025 sales despite rising prices",
+      "u": "https://www.philstar.com/business/2026/05/17/2528410/tiktok-aims-surpass-2025-sales-despite-rising-prices",
+      "pub": "The Philippine Star",
+      "date": "2026-05-17"
+    },
+    {
+      "t": "LBC Express returns to profit in 2025",
+      "u": "https://www.bworldonline.com/corporate/2026/04/16/743191/lbc-express-returns-to-profit-in-2025/",
+      "pub": "BusinessWorld",
+      "date": "2026-04-16"
+    },
+    {
+      "t": "BOC sets rules on cross-border e-commerce goods clearance",
+      "u": "https://aisl.ph/boc-sets-rules-on-cross-border-e-commerce-goods-clearance/",
+      "pub": "AISL",
+      "date": "2025-02-14"
+    },
+    {
+      "t": "DoF reviewing 'de minimis' rule, says Recto",
+      "u": "https://bworldonline.com/top-stories/2025/05/02/669907/dof-reviewing-de-minimis-rule-says-recto/",
+      "pub": "BusinessWorld",
+      "date": "2025-05-02"
+    },
+    {
+      "t": "Retailers warn P57B imports entering tax-free under 'de minimis' rule",
+      "u": "https://business.inquirer.net/578653/retailers-warn-p57b-imports-entering-tax-free-under-de-minimis-rule",
+      "pub": "Inquirer Business",
+      "date": "2026-03-11"
+    },
+    {
+      "t": "Soon taking effect: the 12% VAT on digital services",
+      "u": "https://www.pwc.com/ph/en/tax/tax-publications/taxwise-or-otherwise/2025/soon-taking-effect-the-12-vat-on-digital-services.html",
+      "pub": "PwC Philippines",
+      "date": "2025-05-15"
+    },
+    {
+      "t": "e-Conomy SEA 2025: Malaysia leads region with 19% digital economy surge",
+      "u": "https://techwireasia.com/2025/11/malaysia-digital-economy-leads-sea-growth-2025/",
+      "pub": "Techwire Asia",
+      "date": "2025-11-25"
+    },
+    {
+      "t": "Malaysia's courier market projected to reach RM6.9b this year, says Fahmi",
+      "u": "https://www.malaymail.com/news/money/2025/10/22/malaysias-courier-market-projected-to-reach-rm69b-this-year-says-fahmi/195534",
+      "pub": "Malay Mail",
+      "date": "2025-10-22"
+    },
+    {
+      "t": "MCMC: no mandatory minimum price for courier services",
+      "u": "https://www.businesstoday.com.my/2025/02/19/mcmc-no-mandatory-minimum-price-for-courier-services/",
+      "pub": "Business Today",
+      "date": "2025-02-19"
+    },
+    {
+      "t": "Govt to study floor price for courier services to ensure fair competition, says Fahmi",
+      "u": "https://theedgemalaysia.com/node/782636",
+      "pub": "The Edge Malaysia",
+      "date": "2025-11-25"
+    },
+    {
+      "t": "With no respite from intense competition, courier players seek diversification",
+      "u": "https://theedgemalaysia.com/node/793283",
+      "pub": "The Edge Malaysia",
+      "date": "2026-02-24"
+    },
+    {
+      "t": "Sales tax on imported low-value goods sold online",
+      "u": "https://www.mof.gov.my/portal/en/news/press-release/sales-tax-on-imported-low-value-goods-sold-online",
+      "pub": "Ministry of Finance Malaysia",
+      "date": "2023-12-18"
+    },
+    {
+      "t": "Singapore's digital economy GMV to reach $29B in 2025: report",
+      "u": "https://technode.global/2025/11/11/singapores-digital-economy-gmv-to-reach-29b-in-2025-report/",
+      "pub": "TNGlobal",
+      "date": "2025-11-11"
+    },
+    {
+      "t": "Overseas Vendor Registration regime",
+      "u": "https://www.customs.gov.sg/permits-and-licences/mandatory-requirements/overseas-vendor-registration-regime/",
+      "pub": "Singapore Customs",
+      "date": "2026-02-23"
+    },
+    {
+      "t": "Singapore GST: 9% rate and registration rules (2026)",
+      "u": "https://jurisdb.org/country/singapore/vat-sales-tax",
+      "pub": "JurisDB",
+      "date": "2026-09"
+    },
+    {
+      "t": "SingPost to divest Australia business at A$1.02bn in enterprise value",
+      "u": "https://www.singpost.com/corporate/media-centre/singpost-divest-australia-business-a102bn-enterprise-value",
+      "pub": "SingPost",
+      "date": "2024-12-02"
+    },
+    {
+      "t": "Shopee, Lazada, and TikTok Shop in Southeast Asia: what the data shows in 2026",
+      "u": "https://cube.asia/shopee-lazada-and-tiktok-shop-in-southeast-asia-what-the-data-shows-in-2026/",
+      "pub": "Cube Asia",
+      "date": "2026-06-02"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Indonesia",
+      "size": "E-commerce GMV about US$71bn in 2025 (+14%), within a digital economy near US$100bn (e-Conomy SEA). Indonesia is about 37% of regional platform GMV, but Momentum Works puts its 2025 platform growth at only 2.2%. The courier association says daily shipments can exceed 30m parcels.",
+      "leaders": "Shopee, and TikTok Shop with Tokopedia (TikTok Shop Indonesia GMV US$13.1bn in 2025). A KPPU survey published in July 2026 gives SPX 48.5% of Shopee deliveries on the sellers' side and 61.5% on the buyers' side, and found J&T's probability of selection 98.2% lower on Shopee transactions. J&T's Indonesian 'Double 6' volume rose 112% in June 2026.",
+      "dynamics": "Platforms are moving logistics costs to sellers: TikTok Shop and Tokopedia logistics fees from 1 May 2026, failed-delivery and return charges from June, and higher Shopee free-shipping programme fees from 2 May. KPPU halted its SPX self-preferencing case after Shopee committed to change its courier algorithm, but its July 2026 review found the algorithm still steers buyers to SPX and that only about five of roughly 700 licensed couriers can operate effectively on Shopee.",
+      "rules": "Permenkomdigi 8/2025 (May 2025) limits courier discounts that take tariffs below cost to three days a month; platform-funded free shipping is outside its scope. Permendag 19/2026 (June 2026) sets a US$100 FOB minimum per unit for cross-border goods sold on platforms, requires fee transparency and seller consent to fee changes, and targets below-cost selling.",
+      "read": "Our reading: Indonesia is the region's largest parcel pool, but platform GMV has nearly stopped growing, so carriers fight for share of a flat base while the platforms decide routing. The KPPU review shows that a behavioural remedy has not moved volume away from SPX, and the courier-discount rule protects tariffs only where platforms are not paying.",
+      "src": [
+        52,
+        50,
+        54,
+        47,
+        55,
+        56,
+        43,
+        17,
+        18,
+        19,
+        53,
+        21
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "size": "E-commerce GMV US$25bn in 2025 (+17%) within a US$39bn digital economy (e-Conomy SEA). Sales on the four main platforms reached VND291.6tn in H1 2026 (+44.1%). The postal sector handled about 4.1bn items in 2025, more than 90% of them parcels, for revenue above VND87,000bn.",
+      "leaders": "Shopee held 54.5% and TikTok Shop 43.4% of H1 2026 e-commerce value. Viettel Post claims 22.3% of 2025 delivery revenue, with GHN, GHTK, VNPost and J&T each between 12.4% and 15.7%; SPX carries Shopee volume and serves individual senders through pickup points.",
+      "dynamics": "Incumbents grow revenue but lose profit: Viettel Post's H1 2026 revenue rose 2% to VND10,230bn while profit fell 33%, despite a 15% fuel surcharge from April, and GHN's parent SCommerce saw profit fall 94.5% as debt rose 85.1% to fund sorting centres. Temu suspended sales on 4 December 2024 after failing to complete registration with the Ministry of Industry and Trade.",
+      "rules": "VAT on express imports under VND1m since February 2025. Since 1 July 2025 platforms withhold VAT and personal income tax for individual sellers (Decree 117/2025). The e-commerce law in force from 1 July 2026 requires foreign platforms without a local presence to post a deposit. An amended Postal Law with risk-based parcel management is due before the National Assembly in October 2026.",
+      "read": "Our reading: Vietnam has the fastest platform sales growth among the larger ASEAN markets, but two platforms control routing, so the incumbents' revenue lags the market and their margins are falling. They are spending on sorting, B2B and cold chain to earn returns outside marketplace volume.",
+      "src": [
+        57,
+        60,
+        58,
+        59,
+        35,
+        36,
+        31,
+        32,
+        34,
+        61,
+        23,
+        62,
+        24
+      ]
+    },
+    {
+      "name": "Thailand",
+      "size": "E-commerce GMV US$33bn in 2025 (+22%, the fastest in the region on e-Conomy SEA figures); Momentum Works puts 2025 platform GMV growth at 51.8%. The express parcel market was about 100bn baht in 2024 (+12%), at 10 to 12m parcels a day.",
+      "leaders": "Shopee Thailand reported 2024 revenue of 49.96bn baht and Lazada Thailand 30.16bn baht. Thailand Post leads in parcels, Flash Express is second and J&T grows on TikTok Shop volume; Thailand Post carries only about 1 to 2% of TikTok deliveries. J&T's Thai 'Double 6' volume rose 89% in June 2026.",
+      "dynamics": "Exits and repositioning: SCG closed SCG Express after losses in every year from 2019 to 2023, and KEX's revenue fell from 17,145m baht in 2022 to 9,616m baht in 2024 as its loss widened to 5,991m baht, before delisting and a move to premium logistics. On 1 April 2026 J&T, KEX and Flash added 3 baht per parcel for fuel.",
+      "rules": "7% VAT on imports valued at or below 1,500 baht since 5 July 2024. From 1 January 2026, import duty applies from 1 baht, with Lazada, Shopee, Shein, TikTok Shop and Temu collecting, on an estimated 250m parcels a year. A draft Postal Business Act would license private carriers and create a regulator covering rates and service standards.",
+      "read": "Our reading: Thailand pairs the region's fastest e-commerce growth with its tightest low-value import regime, which pushes Chinese supply towards locally stocked sellers. The parcel market has already shed weaker players, and the uniform fuel surcharge in April suggests the remaining carriers have regained some pricing power.",
+      "src": [
+        63,
+        50,
+        64,
+        67,
+        66,
+        43,
+        65,
+        15,
+        14,
+        68,
+        22
+      ]
+    },
+    {
+      "name": "Philippines",
+      "size": "E-commerce GMV US$24bn in 2025, up from US$20bn, within a US$36bn digital economy (+16%); video commerce is 25% of e-commerce GMV (e-Conomy SEA). Momentum Works records platform GMV growth above 20% in 2025.",
+      "leaders": "Shopee, Lazada and TikTok Shop; TikTok Shop says its local sellers' sales grew 200% in 2025. LBC Express returned to a P246.06m profit in 2025 on service revenue down 1.89% to P14.03bn. Lalamove extended on-demand delivery to eight Mindanao cities in September 2026.",
+      "dynamics": "Platforms added per-order seller fees: Shopee and Lazada from 3 September 2025, TikTok Shop from 1 December 2025 (P5 per order, charged at P3 initially). Growth is spreading beyond Luzon, with TikTok Shop and Lalamove both targeting the Visayas and Mindanao in 2026.",
+      "rules": "The de minimis remains PHP10,000, free of duty and tax; the Philippine Retailers Association estimates P57bn of imports a year enter tax-free under it, and the Finance Department said in May 2025 it was reviewing the rule. CAO 01-2025 requires accreditation of platforms, e-retailers and forwarders and sets up a dedicated e-commerce clearance system. RA 12023 has applied 12% VAT to non-resident digital service providers since 2 June 2025.",
+      "read": "Our reading: the Philippines is the main ASEAN market where low-value direct imports remain largely untaxed, which keeps the cross-border parcel lane open for now. A lower de minimis would follow the regional pattern and is the main regulatory risk to that lane; domestically, inter-island reach is what separates carriers.",
+      "src": [
+        69,
+        50,
+        71,
+        72,
+        39,
+        70,
+        75,
+        74,
+        73,
+        76
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "size": "E-commerce GMV US$20bn in 2025 (+21%) within a US$39bn digital economy (+19%, the region's fastest); Momentum Works puts 2025 platform GMV growth at 47.6%. Parcel volume passed 899m by Q3 2024, against 52m in 2015, and the courier market was projected at RM6.8bn to RM6.9bn for 2025.",
+      "leaders": "J&T Express and SPX Xpress hold 73.5% of the domestic courier market, and 15 of 102 licensees carry 98% of parcels. J&T Malaysia earned RM69.94m in FY2024.",
+      "dynamics": "Flash Express closed on 31 January 2026, citing platform self-preferencing. Pos Malaysia lost RM132.17m in the nine months to September 2025 and GDEX remains loss-making; Ninja Van Malaysia cut its loss to RM3.41m in FY2024 and added a RM1.95/kg fuel surcharge on East Malaysia lanes from 13 April 2026.",
+      "rules": "10% sales tax on imported goods of RM500 or less sold online since 1 January 2024, with sellers registering above RM500,000 of such sales a year. MCMC's RM5 reference price for parcels up to 2kg is non-binding; in November 2025 the government said it was studying a mandatory floor price.",
+      "read": "Our reading: Malaysia is the clearest duopoly in ASEAN parcels, and Flash's exit shows the cost of operating without platform volume. A mandatory floor price would lift yields for smaller carriers but would not remove the two leaders' cost and order-flow advantage.",
+      "src": [
+        77,
+        50,
+        79,
+        78,
+        80,
+        81,
+        12,
+        13,
+        46,
+        82
+      ]
+    },
+    {
+      "name": "Singapore",
+      "size": "Digital economy US$29bn in 2025 (+7%, e-Conomy SEA); Momentum Works records platform GMV growth above 20%. SingPost delivered 7.1m domestic parcels in the quarter to June 2026 (+36.5%).",
+      "leaders": "SingPost, Ninja Van and the platform networks. SPX joined Carousell's delivery options in April 2026, adding more than 1,400 drop-off points. Lazada, whose regional GMV Cube estimates fell 28% in 2025, cut about 5% of its staff, including in Singapore, in June 2026.",
+      "dynamics": "Ninja Van apologised in May 2026 for delays of four to eight days or more, which it blamed on an unexpected rise in volume. SingPost sold its Australian business at A$1.02bn enterprise value (announced December 2024) and is investing S$30m in automated parcel sortation.",
+      "rules": "GST on imported low-value goods (S$400 or less) has been collected at the point of sale through the Overseas Vendor Registration regime since 1 January 2023; the GST rate has been 9% since January 2024.",
+      "read": "Our reading: Singapore is a small, mature parcel market where growth comes from platforms and resale marketplaces rather than new buyers. Its tax regime is settled, so competition turns on reliability at peaks and on access to drop-off networks rather than on price.",
+      "src": [
+        83,
+        50,
+        29,
+        42,
+        87,
+        37,
+        11,
+        86,
+        84,
+        85
+      ]
+    }
+  ],
+  "scorecard": [
+    {
+      "name": "SPX",
+      "volume": "up",
+      "yield": "down",
+      "position": "gaining",
+      "why": "Shopee gross orders rose 27.5% to 4.2bn in Q2 2026 and SPX handles 48.5% to 61.5% of Shopee deliveries in Indonesia, while Sea's value-added services revenue fell 9% as more revenue was netted against shipping subsidies.",
+      "src": [
+        6,
+        55,
+        80
+      ]
+    },
+    {
+      "name": "J&T",
+      "volume": "up",
+      "yield": "down",
+      "position": "gaining",
+      "why": "Southeast Asian parcels rose 71.2% to 5.52bn in H1 2026 and share rose 5.3 points to 38.1%, but revenue grew 63.8%, so revenue per parcel fell by about 4% (our calculation).",
+      "src": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "TikTok Shop / Tokopedia",
+      "volume": "up",
+      "yield": "up",
+      "position": "gaining",
+      "why": "Regional GMV doubled to US$45.6bn in 2025 and reached 43.4% of Vietnamese e-commerce value in H1 2026, while new seller fees (up to Rp5,055 per order in Indonesia, P5 in the Philippines) raise what it collects per order.",
+      "src": [
+        47,
+        35,
+        17,
+        70
+      ]
+    },
+    {
+      "name": "Lazada / LEX",
+      "volume": "down",
+      "yield": "up",
+      "position": "losing",
+      "why": "Cube estimates Lazada GMV fell 28% in 2025, cutting its share of the three platforms to 9% from 16%; it added per-order seller fees in the Philippines from September 2025 and cut about 5% of staff in June 2026.",
+      "src": [
+        87,
+        70,
+        37
+      ]
+    },
+    {
+      "name": "Ninja Van",
+      "volume": "flat",
+      "yield": "up",
+      "position": "losing",
+      "why": "About 2m parcels a day after a 2025 round at roughly half its 2021 valuation; it passes fuel costs through (RM1.95/kg on East Malaysia lanes) and cut its Malaysian loss to RM3.41m in FY2024, but J&T and SPX hold 73.5% of that market.",
+      "src": [
+        9,
+        46,
+        81,
+        80
+      ]
+    },
+    {
+      "name": "Flash Express",
+      "volume": "down",
+      "yield": "up",
+      "position": "losing",
+      "why": "Closed Malaysia on 31 January 2026, with more than 10,000 jobs reported affected, and fell back on Thailand, where it added 3 baht per parcel from 1 April 2026.",
+      "src": [
+        12,
+        14
+      ]
+    },
+    {
+      "name": "KEX",
+      "volume": "down",
+      "yield": "up",
+      "position": "losing",
+      "why": "Revenue fell from 17,145m baht in 2022 to 9,616m baht in 2024 as losses widened to 5,991m baht; after delisting it is shifting to premium and end-to-end logistics and added 3 baht per parcel in April 2026.",
+      "src": [
+        65,
+        15,
+        14
+      ]
+    },
+    {
+      "name": "Vietnamese incumbents",
+      "volume": "flat",
+      "yield": "up",
+      "position": "losing",
+      "why": "Viettel Post's H1 2026 revenue rose 2% while platform sales grew 44.1%, and a 15% fuel surcharge did not prevent a 33% profit fall; GHN's parent saw profit drop 94.5%.",
+      "src": [
+        32,
+        60,
+        34
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Two-network consolidation continues",
+      "likelihood": "most likely",
+      "text": "Our reading: J&T and the platform-run networks keep taking share through the 11.11 and 12.12 peaks and into 2027, with regional volume growth staying well above GMV growth. Platforms keep adding seller fees rather than raising buyer prices, and mid-sized independents shrink, specialise or leave individual markets rather than merge. Posts and Vietnamese incumbents grow revenue slowly while profits stay under pressure.",
+      "triggers": "J&T Q3 and Q4 2026 updates showing Southeast Asian volume growth above 40%; further platform fee notices to sellers; another carrier leaving a market or a business line; Sea's Q3 2026 results showing logistics cost per order still falling."
+    },
+    {
+      "name": "Regulators rebalance platforms and carriers",
+      "likelihood": "plausible",
+      "text": "Our reading: competition and postal regulators turn studies into binding rules: a mandatory courier floor price in Malaysia, enforced algorithm neutrality in Indonesia, licensing and rate oversight under new postal laws in Vietnam and Thailand. Independent carriers regain some volume and yield on marketplaces, platform networks grow more slowly, and sellers pay more. A lower Philippine de minimis would close the last large untaxed low-value lane.",
+      "triggers": "Vietnam's National Assembly passing the amended Postal Law; a Malaysian decision on a mandatory floor price; KPPU reopening or extending its Shopee courier case; progress on Thailand's Postal Business Act; a Philippine Finance Department proposal to lower the PHP10,000 threshold; ASEAN DEFA signature in November 2026."
+    },
+    {
+      "name": "Price war returns",
+      "likelihood": "tail risk",
+      "text": "Our reading: a demand slowdown or a well-funded new push, for instance a Chinese platform or carrier building local networks to place goods redirected from the US and EU, restarts below-cost pricing. Fuel surcharges are withdrawn, revenue per parcel falls faster than cost per parcel, and losses spread from independents to the leaders, forcing a second round of exits and possibly the first large merger.",
+      "triggers": "J&T revenue per parcel falling faster than its cost per parcel; carriers withdrawing fuel surcharges while fuel stays high; a large funding round or acquisition by a new entrant; Chinese exports to ASEAN continuing to grow by 25% or more year on year."
+    }
+  ]
+}

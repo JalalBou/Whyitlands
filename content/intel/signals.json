@@ -1,0 +1,852 @@
+{
+ "updated": "2026-10-01",
+ "signals": [
+  {
+   "key": "alternative-carriers-structural-share",
+   "regions": [
+    "NA"
+   ],
+   "title": "Alternative carriers are taking residential share for good",
+   "claim": "As UPS and FedEx trade volume for yield, regional and last-mile carriers are capturing a structurally larger share of US e-commerce parcels and investing ahead of demand.",
+   "evidence": [
+    {
+     "date": "2026-08-12",
+     "co": "Pitney Bowes",
+     "text": "'Other' carriers grew US parcel volume 127% in 2025 and their revenue share rose from 3.4% to 7.2%, while UPS volume fell 8.7%.",
+     "src": "SLB Performance (Pitney Bowes PSI)",
+     "url": "https://www.slbperformance.com/2026/08/12/the-parcel-market-is-becoming-more-competitive-and-more-complicated/"
+    },
+    {
+     "date": "2026-09-17",
+     "co": "ShipMatrix",
+     "text": "ShipMatrix counts alternative carriers at 2.5bn US parcels in 2025 (+13.0%), with USD 12bn of revenue, as reported in a Parcel Forum recap.",
+     "src": "Cirrus Global Advisors",
+     "url": "https://www.cirrusglobaladvisors.com/post/our-parcel-forum-recap-orlando"
+    },
+    {
+     "date": "2026-07-28",
+     "co": "UPS",
+     "text": "UPS Q2 2026 US domestic volume fell 3.3% while revenue per piece rose 9.3% after the Amazon glide-down.",
+     "src": "FreightWaves",
+     "url": "https://www.freightwaves.com/news/ups-shift-away-from-amazon-shows-bigger-payoff"
+    },
+    {
+     "date": "2026-09-15",
+     "co": "OnTrac",
+     "text": "OnTrac is adding 25 to 30% network capacity in 2026 and piloting discounts when capacity is available.",
+     "src": "Supply Chain Dive",
+     "url": "https://www.supplychaindive.com/news/ontrac-aims-to-turn-available-capacity-into-lower-delivery-prices/830393/"
+    },
+    {
+     "date": "2026-09-23",
+     "co": "Veho",
+     "text": "Veho opened its network to shippers of any size with no contract or volume minimum.",
+     "src": "Yahoo Finance (Veho release)",
+     "url": "https://finance.yahoo.com/small-business/articles/veho-expands-access-delivery-network-130000480.html"
+    }
+   ],
+   "inference": "Two independent indices show alternative carriers growing far faster than the market, even though they disagree on magnitude. Integrators are deliberately ceding low-yield residential parcels, and alternative networks are adding capacity and removing contract barriers to catch them. For shippers this makes a third or fourth carrier a durable cost lever; for parcel operators the residential segment is fragmenting rather than consolidating around the Big 3.",
+   "confidence": "medium",
+   "confirm": "Peak 2026 passes without major service failures at alternative carriers, and the 2026 indices show their share rising again.",
+   "refute": "Alternative carriers' share stalls or reverses as UPS and FedEx discount to refill networks, or a major alternative carrier fails or retrenches.",
+   "monitor": [
+    "Alternative carrier share in the 2026 Pitney Bowes and ShipMatrix indices",
+    "UPS and FedEx domestic volume versus revenue per piece",
+    "Capacity announcements and funding at OnTrac, UniUni, Veho"
+   ],
+   "status": "confirmed",
+   "stories": [
+    "networks-consolidate"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "usps-lifts-lightweight-floor",
+   "regions": [
+    "NA"
+   ],
+   "title": "USPS abandons cheap lightweight parcels for yield",
+   "claim": "USPS is using pricing rather than volume to repair its finances, which raises the price floor for lightweight e-commerce parcels across the US market.",
+   "evidence": [
+    {
+     "date": "2026-07-12",
+     "co": "USPS",
+     "text": "All commercial Ground Advantage parcels under 1 lb now pay a single rate per zone (+11.8% average) and the DIM divisor fell from 166 to 139.",
+     "src": "Pirate Ship",
+     "url": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes"
+    },
+    {
+     "date": "2026-08-09",
+     "co": "USPS",
+     "text": "Q3 FY2026 shipping and package revenue rose 7.7% to USD 8.25bn while package volume fell 3.4%, and the Postmaster General said USPS has 'more price to take in the marketplace'.",
+     "src": "Practical Ecommerce",
+     "url": "https://www.practicalecommerce.com/usps-prioritizes-revenue-over-volume"
+    },
+    {
+     "date": "2026-09-16",
+     "co": "TransImpact",
+     "text": "USPS's peak increment for 0 to 3 lb Ground Advantage to distant zones is 57.1% higher than last year's, on top of an 8% temporary transportation increase since April.",
+     "src": "TransImpact",
+     "url": "https://transimpact.com/blog/2026-peak-season-what-to-expect"
+    },
+    {
+     "date": "2026-08-07",
+     "co": "USPS",
+     "text": "USPS will request density rate authority in its January 2027 price change, worth USD 600m to 800m.",
+     "src": "USPS Newsroom",
+     "url": "https://about.usps.com/newsroom/national-releases/2026/0807-remarks-by-postmaster-general-david-steiner-at-the-aug-7-2026-usps-board-of-governors-meeting.htm"
+    }
+   ],
+   "inference": "For years USPS anchored the low end of lightweight residential pricing. Its own filings now show it raising exactly those prices, and the Postmaster General frames it as a deliberate revenue-over-volume choice backed by a cash crisis. This lets UPS, FedEx, Amazon Shipping and alternative carriers price lightweight parcels higher without losing to the post, and it hits low-value merchants and cross-border sellers who relied on Ground Advantage.",
+   "confidence": "high",
+   "confirm": "The January 2027 USPS filing includes further Ground Advantage increases or density pricing, and USPS package revenue keeps rising faster than volume.",
+   "refute": "USPS cuts lightweight prices or signs large volume-recovery contracts at discounts, or the Postal Regulatory Commission blocks the new authority.",
+   "monitor": [
+    "USPS January 2027 price filing and PRC decision",
+    "USPS quarterly package volume versus revenue",
+    "Shift of sub-1 lb volume to Amazon Shipping and alternative carriers"
+   ],
+   "status": "confirmed",
+   "stories": [],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "amazon-carrier-prices-as-peer",
+   "regions": [
+    "NA"
+   ],
+   "title": "Amazon sells its network but prices like UPS",
+   "claim": "Amazon is turning its logistics network into a third-party carrier at scale, yet is aligning its parcel accessorials with UPS rather than starting a price war.",
+   "evidence": [
+    {
+     "date": "2026-05-04",
+     "co": "Amazon",
+     "text": "Amazon launched Amazon Supply Chain Services, offering freight, fulfilment and 2 to 5 day parcel shipping to any business, with P&G, 3M, Lands' End and American Eagle as named customers.",
+     "src": "Amazon",
+     "url": "https://www.aboutamazon.com/news/retail/amazon-supply-chain-services-for-business"
+    },
+    {
+     "date": "2026-06-10",
+     "co": "Amazon",
+     "text": "Amazon opened its LTL freight service to all businesses and destinations, backed by more than 80,000 trailers and 24,000 intermodal containers.",
+     "src": "Business Wire (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/economy/policy/articles/amazon-supply-chain-services-launches-100000757.html"
+    },
+    {
+     "date": "2026-09-03",
+     "co": "Amazon Shipping",
+     "text": "Amazon Shipping set peak surcharges for its first peak as a service open to all businesses, without a volume-based surcharge.",
+     "src": "Supply Chain Dive",
+     "url": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/"
+    },
+    {
+     "date": "2026-09-16",
+     "co": "TransImpact",
+     "text": "Amazon Shipping's peak additional handling (USD 11.90) and large package (USD 117.50) charges match UPS on every accessorial line.",
+     "src": "TransImpact",
+     "url": "https://transimpact.com/blog/2026-peak-season-what-to-expect"
+    },
+    {
+     "date": "2026-08-07",
+     "co": "Amazon",
+     "text": "Amazon's Q2 2026 shipping costs rose USD 27.9bn or 19% y/y on fuel inflation and higher line haul rates.",
+     "src": "The Motley Fool (earnings call transcript)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amazon-amzn-q2-2026-earnings-call-transcript/"
+    }
+   ],
+   "inference": "Amazon is already the largest US parcel carrier and is now commercialising its network to non-Amazon shippers. But matching UPS accessorials and absorbing a 19% rise in its own shipping costs suggest it will compete on access, speed and bundling (no volume surcharge, freight plus parcel) rather than on headline price. For integrators the threat is share loss at the margin rather than a price collapse; for shippers Amazon is a credible extra carrier but not a cheap one.",
+   "confidence": "medium",
+   "confirm": "Amazon Shipping 2027 rates rise in line with FedEx and UPS, and Amazon discloses growing third-party parcel volume.",
+   "refute": "Amazon Shipping undercuts the 2027 integrator GRIs materially or pulls back third-party capacity at peak.",
+   "monitor": [
+    "Amazon Shipping 2027 rate announcement",
+    "Third-party volume disclosures in Amazon Q3 and Q4 results",
+    "Shipper allocation surveys including Amazon Shipping"
+   ],
+   "status": "emerging",
+   "stories": [
+    "platforms-go-local"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "asean-platform-gated-volume",
+   "regions": [
+    "AS"
+   ],
+   "title": "Platform-gated volume pushes ASEAN independents into retreat",
+   "claim": "Because platforms control which carriers sellers and buyers can use, independent ASEAN couriers are exiting, specialising or losing profit even though the market is growing about 47% a year.",
+   "evidence": [
+    {
+     "date": "2026-01-12",
+     "co": "Flash Express",
+     "text": "Flash Express exited Malaysia, citing platform self-preferencing and exclusive deals that denied independent couriers volume; more than 10,000 jobs were reported affected.",
+     "src": "The Nation Thailand",
+     "url": "https://www.nationthailand.com/business/tech/40061123"
+    },
+    {
+     "date": "2026-09-29",
+     "co": "Vietnamese carriers",
+     "text": "Vietnamese carriers report that only part of the carriers qualifying for an order are shown to buyers, with Shopee and TikTok Shop holding nearly 98% of e-commerce value.",
+     "src": "GenK",
+     "url": "https://genk.vn/shopee-tiktok-nam-gan-98-thi-truong-hang-giao-nhan-canh-tranh-the-nao-de-duoc-khach-hang-chon-165260929092432318.chn"
+    },
+    {
+     "date": "2026-09-14",
+     "co": "SCommerce (GHN)",
+     "text": "GHN's parent reported H1 2026 net profit down 94.5% to VND92.4bn.",
+     "src": "Tuoi Tre",
+     "url": "https://tuoitre.vn/loi-nhuan-cong-ty-dung-sau-giao-hang-nhanh-bat-ngo-giam-94-100260914145321015.htm"
+    },
+    {
+     "date": "2026-08-03",
+     "co": "Viettel Post",
+     "text": "Viettel Post's H1 2026 net profit fell 33% to VND111.7bn despite a 15% fuel surcharge.",
+     "src": "Tuoi Tre",
+     "url": "https://tuoitre.vn/da-thu-them-phu-phi-xang-dau-15-vi-sao-loi-nhuan-viettel-post-van-di-lui-10026080311352196.htm"
+    },
+    {
+     "date": "2026-08-20",
+     "co": "J&T Express",
+     "text": "J&T, a core carrier for TikTok Shop, Lazada and Shopee, raised its Southeast Asian share by 5.3 points to 38.1% in H1 2026, against market growth of about 47%.",
+     "src": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/jt-express-1h2026-slides-nonchina-revenue-hits-50-profit-doubles-93CH-4869182"
+    }
+   ],
+   "inference": "Volumes are growing quickly, yet independent operators outside the platform-linked networks are losing profit or leaving. Taken together, this suggests the main constraint is access to platform order flow, not demand or price. For sellers, a shrinking pool of independents means less leverage on off-platform shipping. For operators, the realistic paths are to become a platform's dependable partner, to specialise, or to consolidate.",
+   "confidence": "medium",
+   "confirm": "Further market exits or distressed sales of mid-sized couriers, or competition authorities opening cases on carrier self-preferencing in Thailand, Indonesia or Vietnam.",
+   "refute": "Independent couriers returning to profit growth in H2 2026 while platforms widen the carriers buyers can choose from.",
+   "monitor": [
+    "J&T Southeast Asia share versus market growth in the Q3 update",
+    "Profit trends at Viettel Post, SCommerce and Ninja Van",
+    "Competition rulings on platform logistics in Thailand and Indonesia"
+   ],
+   "status": "emerging",
+   "stories": [
+    "platforms-go-local",
+    "networks-consolidate"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "asean-cost-pass-through",
+   "regions": [
+    "AS"
+   ],
+   "title": "ASEAN parcel margins now come from pass-through, not price cuts",
+   "claim": "Platforms and carriers in ASEAN are protecting margins by passing logistics and fuel costs on to sellers, while unit revenue per parcel keeps falling.",
+   "evidence": [
+    {
+     "date": "2026-04-10",
+     "co": "TikTok Shop / Tokopedia",
+     "text": "From 1 May 2026, Indonesian sellers pay a logistics service fee capped at Rp5,055 (TikTok Shop) or Rp10,110 (Tokopedia) per order.",
+     "src": "Katadata",
+     "url": "https://katadata.co.id/digital/e-commerce/69d891b708dd3/pedagang-tokopedia-dan-tiktok-shop-kena-biaya-logistik-mulai-mei-2026"
+    },
+    {
+     "date": "2026-05-31",
+     "co": "TikTok Shop",
+     "text": "Sellers are charged up to Rp5,000 per failed delivery and per buyer-preference return, with the system active from 1 September 2026.",
+     "src": "Bisnis.com",
+     "url": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller"
+    },
+    {
+     "date": "2026-04-13",
+     "co": "Shopee Indonesia",
+     "text": "Shopee raised its Gratis Ongkir XTRA seller fees from 2 May 2026, for example fashion accessories from 5.5% to 7.5%.",
+     "src": "Katadata",
+     "url": "https://katadata.co.id/digital/e-commerce/69dc895b0656c/shopee-naikkan-biaya-gratis-ongkir-ke-penjual-mulai-2-mei-bersifat-opsional"
+    },
+    {
+     "date": "2026-03-31",
+     "co": "Flash Express, J&T, KEX",
+     "text": "Three Thai carriers added 3 baht per parcel from 1 April 2026, citing fuel.",
+     "src": "Brand Inside",
+     "url": "https://brandinside.asia/thailands-major-parcel-delivery-firms-raise-shipping-fees-by-3-baht-citing-rising-fuel-costs/"
+    },
+    {
+     "date": "2026-08-20",
+     "co": "J&T Express",
+     "text": "Group adjusted EBIT per parcel rose 77% to US$0.025 in H1 2026, while Southeast Asian parcels grew 71.2%.",
+     "src": "J&T Express via Newswire",
+     "url": "https://www.newswire.ca/news-releases/j-amp-t-express-adjusted-net-profit-up-124-3-yoy-in-1h2026-overall-profitability-continues-to-strengthen-839187168.html"
+    }
+   ],
+   "inference": "Revenue of about US$0.54 per parcel (our calculation) alongside higher profit per parcel and new seller fees shows the price war has not ended but has changed who pays. Buyers still see free or cheap shipping, while sellers carry more of the cost through platform fees and surcharges. Merchants should expect logistics to keep rising as a share of their platform fees in the 2026 peak, and carriers without scale efficiency cannot copy this model.",
+   "confidence": "medium",
+   "confirm": "Further seller-side logistics fees for 11.11/12.12 or in other markets (Thailand, Vietnam, Philippines), and fuel surcharges staying in place after fuel prices ease.",
+   "refute": "Platforms cutting seller logistics fees to win sellers back, or J&T reporting lower profit per parcel in H2 2026.",
+   "monitor": [
+    "Platform seller-fee announcements before 11.11",
+    "J&T revenue per parcel and adjusted EBIT per parcel",
+    "Withdrawal or retention of the April 2026 fuel surcharges"
+   ],
+   "status": "emerging",
+   "stories": [
+    "platforms-go-local",
+    "hormuz-fuel"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "asean-closes-small-parcel-door",
+   "regions": [
+    "AS"
+   ],
+   "title": "Chinese supply enters ASEAN through local sellers, not direct small parcels",
+   "claim": "ASEAN governments are closing the direct low-value parcel channel just as Chinese exports to the region accelerate, so the extra supply comes in through bulk imports and locally registered sellers rather than direct small parcels.",
+   "evidence": [
+    {
+     "date": "2026-09-08",
+     "co": "China customs (via AP)",
+     "text": "China's exports to Southeast Asia rose 30.2% year on year in August 2026.",
+     "src": "BNN Bloomberg (AP)",
+     "url": "https://www.bnnbloomberg.ca/business/international/2026/09/08/chinas-exports-pick-up-in-august-jumping-25-as-its-trade-surplus-widens/"
+    },
+    {
+     "date": "2026-06-09",
+     "co": "Indonesia Ministry of Trade",
+     "text": "Permendag 19/2026 requires a US$100 FOB minimum per unit for cross-border goods sold on platforms and verification of foreign sellers.",
+     "src": "CNN Indonesia",
+     "url": "https://www.cnnindonesia.com/ekonomi/20260609133130-92-1367064/permendag-baru-e-commerce-terbit-ini-10-poin-pentingnya"
+    },
+    {
+     "date": "2025-12-22",
+     "co": "Thailand Customs",
+     "text": "Thailand taxes online imports from 1 baht from 1 January 2026, with five platforms collecting duties at checkout.",
+     "src": "Khaosod English",
+     "url": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/"
+    },
+    {
+     "date": "2026-07-06",
+     "co": "Vietnam government",
+     "text": "From 1 July 2026, foreign platforms with no Vietnamese presence must post a bank deposit, and seller verification is mandatory.",
+     "src": "Voltrans",
+     "url": "https://voltransvn.com/2026/07/06/vietnam-logistics-customs-regulation-update-15-key-changes-effective-july-1-2026/"
+    },
+    {
+     "date": "2026-05-04",
+     "co": "Momentum Works",
+     "text": "Shopee and TikTok Shop are 'full of Chinese sellers', and Temu's 2025 Philippine GMV is estimated at no more than US$50m.",
+     "src": "Momentum Works",
+     "url": "https://thelowdown.momentum.asia/why-have-ecommerce-prices-in-sea-not-reached-the-true-floor/"
+    }
+   ],
+   "inference": "These facts together suggest that Chinese supply redirected from the US and EU is entering ASEAN through domestic marketplace sellers and local stock rather than cross-border small parcels. That benefits domestic carriers, fulfilment centres and bonded or bulk freight lanes, and cross-border parcel operators relying on direct-to-consumer small packets face shrinking room. Our confidence is medium because we found no direct data on cross-border parcel counts into ASEAN for 2026.",
+   "confidence": "medium",
+   "confirm": "Customs data showing fewer low-value parcel declarations in Thailand, Indonesia or Vietnam alongside rising B2B imports, or Chinese platforms adding local warehouses in ASEAN.",
+   "refute": "Cross-border small-parcel volumes into ASEAN rising sharply in 2026 despite the new rules, or the rules being relaxed under DEFA.",
+   "monitor": [
+    "Monthly China export data to ASEAN",
+    "Low-value parcel declaration counts published by Thai and Vietnamese customs",
+    "DEFA text on de minimis and customs at the November signing"
+   ],
+   "status": "emerging",
+   "stories": [
+    "de-minimis-end",
+    "asean-digital",
+    "us-china-rivalry"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "eu-fees-pull-platform-stock-inside",
+   "regions": [
+    "EU",
+    "CN"
+   ],
+   "title": "EU parcel fees pull Chinese platform stock inside the EU",
+   "claim": "With a EUR 3 duty per item since July and a EUR 2 handling fee from November, Chinese platforms and their logistics arms are moving stock into EU warehouses spread across both Western and Central Europe, rather than shipping single parcels from China.",
+   "evidence": [
+    {
+     "date": "2026-06-17",
+     "co": "Cainiao",
+     "text": "Cainiao signed a 10-year lease on a 26,000 m2 robotised fulfilment centre in the Netherlands, after four warehouse launches in April 2026 in the UK, France, Spain and Poland.",
+     "src": "Max Freights",
+     "url": "https://company.maxfreights.com/2026/06/17/new-fulfilment-centre-in-the-netherlands/"
+    },
+    {
+     "date": "2026-07-02",
+     "co": "CECZ Logistic Park (Vac, Hungary)",
+     "text": "The Vac Smart Fulfillment Center, 33,000 m2 with about 700 robots and capacity for 150,000 parcels a day, serves cross-border e-commerce firms including Temu, AliExpress and Shein as a Central and Eastern Europe consolidation hub.",
+     "src": "Xinhua",
+     "url": "https://english.news.cn/20260702/76530f02f497449db364613f51055510/c.html"
+    },
+    {
+     "date": "2026-07-21",
+     "co": "Cainiao",
+     "text": "Cainiao connected Western Europe to Poland, Hungary, Czechia, Romania and Bulgaria in 4 to 6 days, covering parcel shipping between 35 European countries and regions.",
+     "src": "Parcel and Postal Technology International",
+     "url": "https://www.parcelandpostaltechnologyinternational.com/news/cross-border/cainiao-connects-eastern-europe-to-cross-border-logistics-service.html"
+    },
+    {
+     "date": "2026-08-25",
+     "co": "Cainiao",
+     "text": "Cainiao opened warehouses near Paris and in Mannheim (20,000 m2 with 40,000 m2 more planned), its seventh European opening since April 2026.",
+     "src": "International Transport Journal",
+     "url": "https://transportjournal.com/2026/08/25/cainiao-opens-warehouse-in-paris-and-mannheim/"
+    },
+    {
+     "date": "2026-09-21",
+     "co": "European Commission",
+     "text": "The Commission set the Union handling fee at EUR 2 per e-commerce item in a draft delegated act, to apply from 1 November 2026 on top of the EUR 3 per item customs duty in force since 1 July 2026.",
+     "src": "European Commission; Agence Europe",
+     "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en"
+    }
+   ],
+   "inference": "Our reading is that per-item charges make single-parcel shipping from China structurally more expensive, while one bulk import into an EU warehouse spreads duty and fees across many orders. The footprint is not concentrated in Central Europe: Cainiao is opening in Paris, Mannheim and Rotterdam as much as in Poland, with Hungarian and Polish hubs serving the East. For EU parcel operators this shifts Chinese volume from inbound cross-border lanes to domestic and intra-EU B2C flows, where they compete on price with local carriers; merchants selling against these platforms should expect delivery times measured in days, not weeks.",
+   "confidence": "medium",
+   "confirm": "Platforms report a rising share of EU orders shipped from EU stock after 1 November 2026, and EU low-value import declarations fall while intra-EU parcel volumes from platform warehouses grow.",
+   "refute": "Low-value import item counts into the EU stay flat or rise after November 2026, or platforms close or sublet EU warehouses.",
+   "monitor": [
+    "Monthly EU low-value import declarations (H7) after 1 Nov 2026",
+    "New EU warehouse leases by Cainiao, Temu, Shein, AliExpress",
+    "Postal and parcel operators' contracts with Chinese platforms for domestic delivery"
+   ],
+   "status": "emerging",
+   "stories": [
+    "platforms-go-local",
+    "eu-customs-reform",
+    "de-minimis-end"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "ooh-ownership-consolidates",
+   "regions": [
+    "EU",
+    "UK"
+   ],
+   "title": "Locker networks consolidate into fewer, larger owners",
+   "claim": "Out-of-home delivery is becoming core infrastructure in Europe and the UK, and ownership of locker and PUDO networks is concentrating in a handful of carrier-backed groups while non-carrier owners exit.",
+   "evidence": [
+    {
+     "date": "2026-05-26",
+     "co": "GLS",
+     "text": "GLS France agreed to acquire the Relais Colis brand and its nearly 7,000 pickup points; GLS's European out-of-home network exceeded 140,000 points by April 2026, up 42% year on year.",
+     "src": "International Transport Journal",
+     "url": "https://transportjournal.com/2026/05/26/gls-france-acquires-network-of-relais-colis/"
+    },
+    {
+     "date": "2026-08-11",
+     "co": "bpost",
+     "text": "Bpost launched an open Bbox City Network in Ostend that rival carriers such as DHL can deliver into; locker usage in Ostend doubled over 12 months.",
+     "src": "Bnode press release",
+     "url": "https://press.bnode.com/bpost-and-ostend-launch-first-bbox-city-network-easing-pressure-on-the-city-while-offering-a-range-of-additional-services"
+    },
+    {
+     "date": "2026-09-04",
+     "co": "InPost",
+     "text": "InPost reported 70,000 lockers in Europe and plans about 19,000 more in 2026, with the euro area taking the largest share.",
+     "src": "Shev IO",
+     "url": "https://shev.io/en/news/inpost-expands-european-network-to-70000-parcel-lockers"
+    },
+    {
+     "date": "2026-09-18",
+     "co": "FedEx / Advent",
+     "text": "A FedEx and Advent-led consortium secured 89.81% of InPost in a takeover valuing it at EUR 7.8 billion.",
+     "src": "Reuters via TradingView",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45A0S0:0-fedex-advent-led-consortium-secures-over-89-of-inpost-shares-in-takeover-offer/"
+    },
+    {
+     "date": "2026-09-23",
+     "co": "Quadient / IDS",
+     "text": "Quadient agreed to sell its open UK network of about 3,000 lockers to Royal Mail's owner IDS for EUR 65 million and announced its intention to sell the whole lockers business.",
+     "src": "Quadient press release (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/09/23/3367676/0/en/quadient-announces-intention-to-sell-lockers-business-as-a-first-step-sale-of-uk-open-network-signed-for-65-million.html"
+    }
+   ],
+   "inference": "Our reading is that lockers have moved from an add-on to the cheapest last-mile option, so carriers want to own them rather than rent them: a global integrator now co-owns Europe's largest locker operator, Royal Mail buys a third-party network, and a technology vendor exits. At the same time, owners open their networks to rivals to raise utilisation, so the likely end state is a few large owners selling access. For merchants this means delivery choice at checkout will increasingly depend on which locker networks a carrier can reach, and access pricing becomes a new negotiation point.",
+   "confidence": "high",
+   "confirm": "Further locker or PUDO network acquisitions by carriers, more open-access agreements, or regulators reviewing locker access terms.",
+   "refute": "Competition authorities block or condition locker deals, or carriers slow locker roll-outs because utilisation disappoints.",
+   "monitor": [
+    "InPost squeeze-out and delisting, and any change in its open-network policy",
+    "Sale of Quadient's remaining locker networks",
+    "Share of B2C parcels delivered out-of-home reported by GLS, InPost, DHL, Royal Mail"
+   ],
+   "status": "confirmed",
+   "stories": [
+    "networks-consolidate"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "posts-reprice-letters-rebuild-for-parcels",
+   "regions": [
+    "EU",
+    "UK"
+   ],
+   "title": "Posts reprice letters while rebuilding networks around parcels",
+   "claim": "European posts are combining steep regulated letter increases and product cuts with investment in parcel-designed networks, so the universal letter service is being run for cash while capital goes to parcels.",
+   "evidence": [
+    {
+     "date": "2026-07-27",
+     "co": "La Poste",
+     "text": "La Poste announced a 6.73% average increase for 2027, taking the Lettre Verte from EUR 1.52 to EUR 1.67, while consumer Colissimo rises 4.1%.",
+     "src": "liti.fr; Caisse des Dépôts",
+     "url": "https://liti.fr/les-tarifs-des-timbres-et-des-colis-augmentent-au-1er-janvier-2027/"
+    },
+    {
+     "date": "2026-08-07",
+     "co": "bpost",
+     "text": "Bnode said bpost is moving towards a parcel-led operating model, with dynamic rounds and later start times from September; mail and press volumes fell 16.8% in a strike-hit Q2.",
+     "src": "Bnode press release",
+     "url": "https://press.bnode.com/transformation-remains-on-track-as-diversified-portfolio-supports-resilience-in-challenging-quarter"
+    },
+    {
+     "date": "2026-08-21",
+     "co": "Deutsche Post",
+     "text": "Deutsche Post will withdraw the Maxibrief from 1 January 2027, costing senders of goods at least EUR 1.29 more per shipment.",
+     "src": "Berliner Kurier",
+     "url": "https://www.berliner-kurier.de/verbraucher/deutsche-post-briefversand-2027-li.10314149"
+    },
+    {
+     "date": "2026-08-26",
+     "co": "ACM / PostNL",
+     "text": "The Dutch regulator ACM set PostNL's 2027 regulated tariff headroom at EUR 3.5929, about 12.7% above 2026.",
+     "src": "Transport Online",
+     "url": "https://www.transport-online.nl/136224/post-versturen-mogelijk-weer-duurder-in-2027-postnl-krijgt-hogere-tariefruimte/"
+    },
+    {
+     "date": "2026-09-25",
+     "co": "bpost",
+     "text": "Bpost opened its third parcel-designed distribution centre in 12 months, citing a 14% fall in letters and record parcel days of up to 829,000 items.",
+     "src": "Bnode press release",
+     "url": "https://press.bnode.com/bpost-opens-new-distribution-centre-tailored-to-parcel-delivery"
+    }
+   ],
+   "inference": "Our reading is that regulators are now accepting double-digit or near-double-digit letter increases because volume decline makes the universal service unaffordable otherwise, and posts use that room while redirecting capital to parcel sites, trailers and lockers. Small goods currently sent as large letters, as with the German Maxibrief, are being pushed into parcel products at higher prices. Merchants shipping light items by letter post should expect a step change in cost in 2027, and parcel competitors should expect posts to compete harder on parcels with networks built for them. Royal Mail differs: it held stamp prices in October 2026 and raised parcels about 8%, a reminder that the mix depends on each regulator.",
+   "confidence": "medium",
+   "confirm": "Further regulatory approvals of large letter increases or reduced delivery frequency in 2027, and more posts announcing parcel-only sites or separate parcel entities.",
+   "refute": "Regulators cap 2027 letter increases near inflation, or posts cut parcel capex while letter volumes stabilise.",
+   "monitor": [
+    "Bundesnetzagentur decision on Deutsche Post 2027 postage",
+    "PostNL 2027 stamp price within the ACM cap",
+    "Universal service obligation reviews in the UK, Germany, Belgium and France"
+   ],
+   "status": "emerging",
+   "stories": [
+    "networks-consolidate"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "integrators-index-geopolitical-cost",
+   "regions": [
+    "GLOBAL"
+   ],
+   "title": "Integrators turn geopolitical cost into permanent price mechanics",
+   "claim": "Rather than one-off war surcharges, DHL, FedEx and UPS are building fuel and risk volatility into structural pricing tools: weekly indexation, merged tables at the higher level, and flat emergency fees, all stacked with 2027 general increases.",
+   "evidence": [
+    {
+     "date": "2026-06-02",
+     "co": "UPS",
+     "text": "UPS replaced per-pound surge charges, first applied on Middle East routes, with flat per-package surge emergency fees on US exports from 31 May 2026 (for example USD 8.75 additional handling, USD 96 large package).",
+     "src": "TransImpact",
+     "url": "https://transimpact.com/blog/ups-adds-new-surge-emergency-fees-and-higher-fuel-surcharges"
+    },
+    {
+     "date": "2026-06-18",
+     "co": "FedEx",
+     "text": "FedEx merged its international export and import fuel surcharge tables from 22 June 2026, moving exports onto the higher former import level.",
+     "src": "Supply Chain Dive",
+     "url": "https://www.supplychaindive.com/news/fedex-fuel-surcharge-change-raises-heat-on-export-shipments/823062/"
+    },
+    {
+     "date": "2026-07-27",
+     "co": "DHL Express",
+     "text": "DHL Express, which has updated fuel surcharges weekly since April 2026 amid Strait of Hormuz disruption, cut its US fuel tables by 2 points from 3 August 2026.",
+     "src": "Supply Chain Dive",
+     "url": "https://www.supplychaindive.com/news/dhl-express-to-lower-import-export-fuel-surcharge-calculations/826162/"
+    },
+    {
+     "date": "2026-09-28",
+     "co": "FedEx",
+     "text": "FedEx's international fuel surcharge reached 45.50% for 28 September to 4 October 2026, up from 44.50% the previous week.",
+     "src": "FedEx",
+     "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html"
+    },
+    {
+     "date": "2026-09-30",
+     "co": "DHL Express",
+     "text": "DHL Express announced a 5.9% average 2027 increase in the UK, citing energy, compliance and customs costs, while its UK international fuel surcharge stands at 46.25% and is published at 48.00% for 5 to 11 October.",
+     "src": "Air Cargo Week; DHL Express UK",
+     "url": "https://aircargoweek.com/dhl-express-average-rate-increase-of-5-9-percent-for-2027-in-united-kingdom/"
+    }
+   ],
+   "inference": "Our reading is that the 2026 Gulf disruption has accelerated a shift from discretionary emergency surcharges to formula-based mechanisms that react within a week, and that the 2027 base increases come on top rather than absorbing fuel. With fuel surcharges near or above 45% on international express, the surcharge is now a cost line comparable in size to a large share of the base rate. Shippers should negotiate fuel caps, table offsets or index choice explicitly rather than only base discounts, and cross-border merchants should expect landed delivery costs to move weekly. The DHL table cut and the suspension of its Israel risk surcharge show the mechanics can move down, but nothing so far shows a return to monthly or fixed fuel pricing.",
+   "confidence": "medium",
+   "confirm": "Weekly fuel indexation retained after jet fuel prices ease, or new structural fees in 2027 rate guides linked to risk or rerouting.",
+   "refute": "Carriers revert to monthly fuel tables or lower their fuel tables materially as jet fuel prices fall.",
+   "monitor": [
+    "Weekly DHL, FedEx and UPS international fuel surcharge tables",
+    "UPS 2027 general rate increase and surcharge changes",
+    "US Gulf Coast jet fuel spot price and Strait of Hormuz transit status"
+   ],
+   "status": "emerging",
+   "stories": [
+    "hormuz-fuel"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "china-express-growth-moves-offshore",
+   "regions": [
+    "CN"
+   ],
+   "title": "Chinese parcel growth now happens outside China",
+   "claim": "With domestic volume growth slowing and prices policed upward, Chinese express and platform logistics groups are putting their incremental capacity into overseas hubs and networks.",
+   "evidence": [
+    {
+     "date": "2026-09-21",
+     "co": "State Post Bureau (China)",
+     "text": "Jan to Aug 2026 express volume grew 4.6% while revenue grew 7.4%, and a new round of regional per-parcel price rises took effect on 20 Sep in Jiangsu, Anhui and Henan.",
+     "src": "Tencent News",
+     "url": "https://news.qq.com/rain/a/20260921A08YLE00"
+    },
+    {
+     "date": "2026-08-18",
+     "co": "ZTO Express",
+     "text": "ZTO's Q2 volume rose only 6.5% while price per parcel rose 15.5%, and it guided full-year volume growth to 6 to 10%, citing slowing industry growth.",
+     "src": "Stock Titan (ZTO results release)",
+     "url": "https://www.stocktitan.net/news/ZTO/zto-reports-second-quarter-2026-unaudited-financial-424tafj64gf8.html"
+    },
+    {
+     "date": "2026-07-07",
+     "co": "J&T Express",
+     "text": "J&T's Q2 volume grew 136.5% in Latin America and the Middle East and 63.2% in South-east Asia, against 10.6% in China.",
+     "src": "PR Newswire (J&T Global Express)",
+     "url": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html"
+    },
+    {
+     "date": "2026-09-23",
+     "co": "JD Logistics",
+     "text": "JD Logistics' overseas floor space passed 2 million sq m across more than 200 warehouses in 26 countries and regions; its property arm then signed a 150,000 sq m site in Abu Dhabi.",
+     "src": "PR Newswire (JD Logistics)",
+     "url": "https://www.prnewswire.com/news-releases/jingdong-logistics-details-global-network-build-out-and-the-expansion-of-joylogistics-operations-302888323.html"
+    },
+    {
+     "date": "2026-08-28",
+     "co": "Cainiao",
+     "text": "Cainiao took its Mexican last-mile network from 20 states to nationwide coverage with a 20,000 sq m sorting centre and 38 delivery stations.",
+     "src": "Air Cargo News",
+     "url": "https://www.aircargonews.net/e-commerce-logistics/2026/08/cainiao-strengthens-cross-border-customs-clearance-capabilities-in-mexico/"
+    }
+   ],
+   "inference": "Our reading: the anti-involution policy is restoring domestic margins but not domestic growth, so the growth story of Chinese logistics groups is shifting to owned assets abroad (warehouses, sorting centres, freighter hubs) rather than China-origin air parcels alone. For merchants and parcel operators in Latin America, the Gulf and ASEAN, this means Chinese-owned last-mile and clearance capacity competing directly with posts and local couriers, often bundled with the platforms' own flows. It also gives the platforms a route around de minimis closures by landing stock in-market.",
+   "confidence": "high",
+   "confirm": "Q3 2026 results showing overseas volume or revenue growth well above domestic at J&T, JD Logistics, SF and Cainiao; further hub or warehouse announcements in Mexico, Brazil, the Gulf or ASEAN.",
+   "refute": "A renewed domestic price war or a sharp rebound in China volume growth pulling capital back home; overseas sites announced but left under-utilised.",
+   "monitor": [
+    "J&T new-markets daily volume per quarter",
+    "JD Logistics overseas warehouse floor space",
+    "State Post Bureau monthly revenue vs volume growth gap"
+   ],
+   "status": "confirmed",
+   "stories": [
+    "platforms-go-local",
+    "de-minimis-end"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "brazil-reopens-as-platforms-own-last-mile",
+   "regions": [
+    "SA",
+    "NA"
+   ],
+   "title": "Brazil reopens cross-border as platforms lock in last mile",
+   "claim": "Brazil is cutting the tax on small cross-border parcels just as marketplaces finish building their own delivery networks, so the reopening is likely to benefit platform logistics rather than Correios, while Mexico moves the other way.",
+   "evidence": [
+    {
+     "date": "2026-09-10",
+     "co": "Government of Brazil",
+     "text": "President Lula signed the law making 0% federal import tax on purchases up to USD 50 permanent and cutting the rate above USD 50 from 60% towards 30%.",
+     "src": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/09/10/lula-sanciona-isencao-da-taxa-das-blusinhas-em-compras-ate-50-dolares/"
+    },
+    {
+     "date": "2026-08-05",
+     "co": "Mercado Libre",
+     "text": "Mercado Libre's cross-border GMV rose 60% in Q2 2026 and volume through its China fulfilment centre jumped 170% quarter on quarter.",
+     "src": "Mercado Libre press release via Nasdaq",
+     "url": "https://www.nasdaq.com/press-release/mercado-libre-q2-2026-revenue-surpasses-10-billion-deepening-engagement-strengthens"
+    },
+    {
+     "date": "2026-07-29",
+     "co": "Shopee Brazil",
+     "text": "Shopee is expanding from 16 to 26 Brazilian distribution centres in 2026.",
+     "src": "Mercado & Consumo",
+     "url": "https://mercadoeconsumo.com.br/29/07/2026/logistica/shopee-aumenta-em-mais-de-60-o-numero-de-centros-de-distribuicao-no-brasil-em-2026/"
+    },
+    {
+     "date": "2026-09-03",
+     "co": "Amazon Brazil",
+     "text": "Amazon opened a 700,000 packages a week fulfilment centre in Paraná for same-day delivery.",
+     "src": "Diário do Grande ABC",
+     "url": "https://www.dgabc.com.br/Noticia/4344918/primeiro-centro-de-distribuicao-da-amazon-e-aberto-no-parana-"
+    },
+    {
+     "date": "2026-09-30",
+     "co": "Correios",
+     "text": "Correios' share of international parcel delivery fell from 93% in August 2024 to 31% in June 2025, and it is seeking about R$7 billion in new loans after an R$8.5 billion 2025 loss.",
+     "src": "O Brasilianista",
+     "url": "https://obrasilianista.com.br/2026/09/30/economia/o-que-saiu-do-papel-desde-o-inicio-do-plano-de-reestruturacao-dos-correios"
+    },
+    {
+     "date": "2026-05-18",
+     "co": "Mexico Ministry of Economy",
+     "text": "Mexico applies tariffs of up to 50% on 1,463 tariff lines from countries without a trade agreement, including China.",
+     "src": "El Cronista Mexico",
+     "url": "https://www.cronista.com/mexico/finanzas-economia/adios-a-las-compras-en-shein-y-temu-ratifican-impuestos-de-hasta-el-50-en-todos-los-articulos-procedentes-de-china-por-falta-de-acuerdo-comercial/"
+    }
+   ],
+   "inference": "Our reading: the tax cut lowers landed cost for Asian goods entering Brazil, but the volume is likely to flow through marketplace-controlled clearance and last-mile capacity (Mercado Libre, Shopee, Amazon and Chinese networks such as Cainiao and J&T) rather than restoring the postal channel. Mexico is heading the opposite way on tariffs, so the two largest LatAm markets now need different cross-border playbooks: direct parcel in Brazil, in-country stock in Mexico. Independent couriers and Correios face being squeezed between platform-owned networks.",
+   "confidence": "medium",
+   "confirm": "Q3 and Q4 2026 data showing a rise in Remessa Conforme import declarations, with marketplace or Chinese carriers rather than Correios capturing the growth; further DC openings by Temu or Shein in Brazil.",
+   "refute": "Finance Ministry using its new powers to reinstate rates or impose tight purchase limits; Correios regaining international parcel share.",
+   "monitor": [
+    "Receita Federal Remessa Conforme monthly volumes",
+    "Mercado Libre cross-border GMV growth",
+    "Correios international parcel share and loan drawdown"
+   ],
+   "status": "emerging",
+   "stories": [
+    "latam-split",
+    "platforms-go-local",
+    "de-minimis-end"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "gulf-hub-reroutes-not-retreats",
+   "regions": [
+    "ME"
+   ],
+   "title": "Gulf e-commerce hub reroutes by air and road",
+   "claim": "Despite the Hormuz closure, the UAE is keeping its role as an e-commerce gateway by shifting flows from Jebel Ali shipping to air, road and east-coast ports, and is lowering duty friction to hold volume.",
+   "evidence": [
+    {
+     "date": "2026-08-13",
+     "co": "DP World",
+     "text": "Jebel Ali container throughput fell 90.1% in Q2 2026, and DP World took 50-year concessions for two new terminals at Fujairah, outside the strait.",
+     "src": "WorldCargo News",
+     "url": "https://www.worldcargonews.com/business/2026/08/dp-world-h1-profit-throughput-hit-by-hormuz-impact-at-jebel-ali/"
+    },
+    {
+     "date": "2026-09-01",
+     "co": "Dubai Customs",
+     "text": "Dubai air cargo customs transactions rose 53% to 18.2 million in H1 2026, with free zone transactions (largely e-commerce) up 62% and 6.2 million postal parcels handled.",
+     "src": "Air Cargo Week",
+     "url": "https://aircargoweek.com/dubai-air-cargo-customs-transactions-rise-53-percent/"
+    },
+    {
+     "date": "2026-08-05",
+     "co": "Dubai Customs",
+     "text": "Dubai raised its customs duty exemption for e-commerce shipments to AED 1,000 from 3 Aug 2026.",
+     "src": "Gulf Today",
+     "url": "https://www.gulftoday.ae/news/2026/08/05/dubai-customs-exempts-e-commerce-shipments-up-to-dhs1000-from-customs-duties"
+    },
+    {
+     "date": "2026-09-14",
+     "co": "DP World",
+     "text": "DP World is expanding its truck fleet from 700 to 1,000 and runs an Amsterdam to Dubai road service, while saying land routing costs three to four times sea.",
+     "src": "SupplyChainBrain",
+     "url": "https://www.supplychainbrain.com/articles/44837-ports-giant-dp-world-redraws-hormuz-logistics-with-truck-bet"
+    },
+    {
+     "date": "2026-09-28",
+     "co": "JINGDONG Property (JD.com)",
+     "text": "JD.com's property arm signed for a 150,000 sq m logistics facility at Kezad, Abu Dhabi, due in 2028.",
+     "src": "The National",
+     "url": "https://www.thenationalnews.com/business/property/2026/09/28/jdcoms-new-logistics-hub-at-abu-dhabis-kezad-to-create-1000-jobs/"
+    }
+   ],
+   "inference": "Our reading: the hub is not emptying but changing mode. Small parcels, which can bear air freight costs, have grown through Dubai while sea containers collapsed, and the duty threshold change makes direct-to-consumer air parcels cheaper still. Long-term bets such as the JD Kezad site suggest Chinese platforms see the Gulf position as durable. For shippers this means higher, more volatile landed costs on bulk replenishment (road and air surcharges) but continued viability of Dubai-based cross-border parcel flows to the GCC.",
+   "confidence": "medium",
+   "confirm": "H2 2026 Dubai Customs data showing continued growth in free zone e-commerce transactions; more fulfilment investment at Fujairah, Khor Fakkan, Kezad or Saudi Red Sea ports.",
+   "refute": "A fall in Dubai air cargo or postal parcel volumes in H2 2026, or platforms relocating regional fulfilment to Saudi Red Sea ports or Oman permanently.",
+   "monitor": [
+    "Dubai Customs free zone transaction counts",
+    "Jebel Ali quarterly TEU vs Fujairah build-out",
+    "Gulf air cargo and road surcharge levels"
+   ],
+   "status": "emerging",
+   "stories": [
+    "mena-gateway",
+    "hormuz-fuel",
+    "de-minimis-end"
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "key": "north-africa-formalises-parcel-rules",
+   "regions": [
+    "NAF"
+   ],
+   "title": "North Africa rewrites parcel rules as Chinese supply rises",
+   "claim": "Morocco, Egypt and Algeria are formalising courier and e-commerce clearance rules while Chinese supply drives marketplace growth, but evidence that the region is becoming a nearshore fulfilment base for Europe is still thin.",
+   "evidence": [
+    {
+     "date": "2026-08-12",
+     "co": "Jumia",
+     "text": "Items from Chinese sellers on Jumia grew 96% year on year in Q2 2026, and 75% of packages went through pickup stations.",
+     "src": "Stock Titan (Jumia 6-K)",
+     "url": "https://www.stocktitan.net/sec-filings/JMIA/6-k-jumia-technologies-ag-current-report-foreign-issuer-902b1801c402.html"
+    },
+    {
+     "date": "2026-05-21",
+     "co": "FTL-CGEM (Morocco)",
+     "text": "Moroccan transport operators objected that draft law 036-25, which opens express parcel delivery to licensed private operators, keeps Barid Al-Maghrib's monopoly below 1 kg and imposes fees and five-year licences.",
+     "src": "La Vie Eco",
+     "url": "https://www.lavieeco.com/affaires/reforme-postale-les-operateurs-denoncent-un-monopole-renforce-de-barid-al-maghrib/"
+    },
+    {
+     "date": "2026-09-28",
+     "co": "Egyptian Customs Authority",
+     "text": "Egypt's customs authority unveiled a cross-border e-commerce roadmap on digitalisation, data exchange and risk management with the EU, GIZ and ITC.",
+     "src": "Shof News",
+     "url": "https://shofnews.com/138769/%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%B7%D8%B1%D9%8A%D9%82-%D8%AC%D9%85%D8%B1%D9%83%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B5%D8%B1/"
+    },
+    {
+     "date": "2026-01-04",
+     "co": "Ministry of Posts and ARPCE (Algeria)",
+     "text": "Algeria's 2026 express courier specifications make delivery dates a contractual obligation and require complaint handling and data protection.",
+     "src": "Algerie360",
+     "url": "https://www.algerie360.com/courrier-express-voici-ce-que-prevoit-le-nouveau-cahier-des-charges-2026/"
+    },
+    {
+     "date": "2026-09-14",
+     "co": "West Med Container Terminal (Marsa Maroc / TIL)",
+     "text": "Nador West Med's East terminal completed live trials ahead of Q4 2026 commercial start, adding Moroccan port capacity alongside Tanger Med (84 million tonnes in H1, +6%).",
+     "src": "WorldCargo News",
+     "url": "https://www.worldcargonews.com/news/2026/09/nador-west-med-east-terminal-is-ready-for-its-first-ship/"
+    },
+    {
+     "date": "2026-06-14",
+     "co": "Capmad",
+     "text": "Analysis of the EU EUR 3 parcel duty says platforms are moving stock into European warehouses and that logistics platforms in Morocco or Egypt could capture value-added services, without citing concrete projects.",
+     "src": "Capmad",
+     "url": "https://www.capmad.com/post/smallparcel-tax-in-europe-how-shein-temu-and-aliexpress-are-already-optimising-around-the-3-duty"
+    }
+   ],
+   "inference": "Our reading: the near-term story in North Africa is inbound, not outbound. Chinese goods are feeding domestic marketplaces, and governments are responding by licensing couriers and digitising clearance, which should raise service standards but also compliance costs for informal operators. Port capacity in northern Morocco is expanding, yet the platforms' visible answer to the EU EUR 3 duty so far is warehousing inside the EU (for example Poland), not in Morocco or Egypt. Merchants should treat North Africa nearshore fulfilment for Europe as an option to watch rather than a trend.",
+   "confidence": "low",
+   "confirm": "Adoption of Morocco's law 036-25 and first private express licences; a named platform or Chinese logistics group opening e-commerce fulfilment in Tanger Med, Nador or SCZone aimed at EU customers.",
+   "refute": "Draft laws stalling in parliament; Chinese seller growth on Jumia slowing; EU-bound platform stock continuing to concentrate only inside the EU.",
+   "monitor": [
+    "Status of Morocco draft law 036-25",
+    "Egyptian customs e-commerce clearance times and rules",
+    "E-commerce warehouse announcements at Tanger Med, Nador West Med and SCZone"
+   ],
+   "status": "emerging",
+   "stories": [
+    "mena-gateway",
+    "eu-customs-reform"
+   ],
+   "first_seen": "2026-10-01"
+  }
+ ]
+}

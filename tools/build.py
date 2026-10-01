@@ -714,7 +714,8 @@ def page_markets():
         desks.append(f"""<div data-show="{show_for(k)}" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="mk_kicker">Market intelligence</span></div>
 <h1 data-i18n="mk_h1">Who is winning, who is paying.</h1><p class="mk-take"><b data-i18n="mk_our_read">Our read</b> {E(m['take'])}</p></div></section>
-<section class="section"><div class="wrap">{market_summary_table(k)}
+{signals_block(k)}{comp_teasers(k)}{watch_block(k)}{moves_block(k)}
+<section class="section"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mk_res_k">Results</div><h2 data-i18n="mk_res_h">Latest quarterly results</h2></div></div>{market_summary_table(k)}
 <div class="cos">{''.join(company_card(c) for c in m['companies'])}</div>
 {('<h2 style="margin:40px 0 14px" data-i18n="mk_next">Next results and dates</h2><ul class="watch">' + watch + '</ul>') if watch else ''}
 </div></section></div>""")
@@ -879,6 +880,7 @@ def page_story(s):
 <div class="chain4">{''.join(cols)}</div>
 <div class="st-read"><div class="kicker" data-i18n="mk_our_read">Our read</div><p>{E(plain(s.get('our_read', '')))}</p></div>
 {('<h3 class="st-sub" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
+{story_signals(s['key'])}
 {('<h3 class="st-sub" data-i18n="st_lens">The lens behind the decisions</h3><div class="chips-row">' + docs + '</div>') if docs else ''}
 {('<h3 class="st-sub" data-i18n="st_cos">Companies visibly affected</h3><div class="chips-row">' + cos + '</div>') if cos else ''}
 {('<h3 class="st-sub" data-i18n="st_sols">Solution landscape</h3><div class="chips-row">' + sols + '</div>') if sols else ''}
@@ -981,6 +983,175 @@ def page_404():
     return out + footer()
 
 
+# ---------- Intelligence layer: signals, price and service watch, moves, competition ----------
+_ip = C / "intel"
+_ld = lambda p, d: json.loads(p.read_text()) if p.exists() else d
+SIGNALS = _ld(_ip / "signals.json", {"signals": []})["signals"]
+MOVES = _ld(_ip / "moves.json", {"moves": []})["moves"]
+PWATCH = _ld(_ip / "watch.json", {"items": []})["items"]
+COMPS = [json.loads(p.read_text()) for p in sorted((_ip / "competition").glob("*.json"))] if (_ip / "competition").exists() else []
+CONF = {"low": 1, "medium": 2, "high": 3}
+MOVE_T = {"capacity": "Capacity", "acquisition": "M&A", "network": "Network", "partnership": "Partnership", "closure": "Closure", "pricing": "Pricing", "product": "Product"}
+
+
+def noread(t):
+    t = re.sub(r"^\s*Our (reading|read)( is that)?\s*:?\s*", "", t or "", flags=re.I)
+    return t[:1].upper() + t[1:]
+
+
+def in_region(item, k):
+    rs = item.get("regions") or []
+    return k == "GLOBAL" or k in rs
+
+
+def fdate(iso):
+    try:
+        d = datetime.date.fromisoformat(iso)
+        return f"{d.day} {d.strftime('%b %Y')}"
+    except Exception:
+        return iso or ""
+
+
+def signal_card(s, open_=False, anchor=False):
+    lv = CONF.get(s.get("confidence"), 1)
+    dots = "".join(f'<i class="{"on" if i < lv else ""}"></i>' for i in range(3))
+    ev = "".join(f'<li><span class="tl-when">{E(fdate(e.get("date")))}</span><p><b>{E(e.get("co", ""))}</b> {E(e["text"])} <a class="src-a" href="{E(e["url"])}" rel="noopener">{E(e.get("src", "source"))}</a></p></li>' for e in s.get("evidence", []))
+    mon = "".join(f"<li>{E(m)}</li>" for m in s.get("monitor", []))
+    rg = " · ".join(RNAME.get(r, r) for r in s.get("regions", []))
+    st = s.get("status", "emerging")
+    return f"""<article class="sig"{(' id="sig-' + E(s['key']) + '"') if anchor else ''} data-regions="{','.join(s.get('regions', []))}">
+<div class="sig-top"><span class="pill sig-st sig-{E(st)}" data-i18n="si_{E(st)}">{E(st.capitalize())}</span><span class="sig-conf" title="Confidence: {E(s.get('confidence', ''))}"><span data-i18n="si_conf">Confidence</span> <span class="dots">{dots}</span> <span data-i18n="si_c_{E(s.get('confidence', 'low'))}">{E(s.get('confidence', ''))}</span></span><span class="sig-rg">{E(rg)}</span></div>
+<h3>{E(s['title'])}</h3><p class="sig-claim">{E(s['claim'])}</p>
+<div class="sig-read"><b data-i18n="si_read">Our reading</b> {E(noread(s.get('inference', '')))}</div>
+<details{' open' if open_ else ''}><summary><span data-i18n="si_evidence">The evidence</span> ({len(s.get('evidence', []))}) <span data-i18n="si_and">and what would change our mind</span></summary>
+<ul class="sig-ev">{ev}</ul>
+<div class="sig-cr"><div><div class="kicker" data-i18n="si_confirm">Would confirm it</div><p>{E(s.get('confirm', ''))}</p></div><div><div class="kicker" style="color:var(--coral)" data-i18n="si_refute">Would prove it wrong</div><p>{E(s.get('refute', ''))}</p></div></div>
+{('<div class="kicker" data-i18n="si_monitor">What we monitor</div><ul class="sig-mon">' + mon + '</ul>') if mon else ''}
+</details>{story_chips(s.get('stories'))}
+</article>"""
+
+
+def signals_block(k, items=None):
+    sig = items if items is not None else [s for s in SIGNALS if in_region(s, k) and k != "GLOBAL"] if k != "GLOBAL" else SIGNALS
+    if not sig:
+        return ""
+    sig = sorted(sig, key=lambda s: (-CONF.get(s.get("confidence"), 0), s["title"]))
+    return f"""<section class="section intel"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="si_k">Signals</div><h2 data-i18n="si_h">What the facts add up to</h2><p class="intel-dek" data-i18n="si_dek">No single fact below is news. Put side by side, at least three dated, sourced facts from different players point to a shift nobody has announced. Each signal says how confident we are, and what would prove it wrong.</p></div></div>
+<div class="sigs">{''.join(signal_card(s, anchor=(k == 'GLOBAL' and items is None)) for s in sig)}</div></div></section>"""
+
+
+def watch_block(k):
+    items = [w for w in PWATCH if (k in (w.get("regions") or [])) or (k == "GLOBAL" and "GLOBAL" in (w.get("regions") or []))]
+    if not items:
+        return ""
+    rows = "".join(f'<tr><td class="co-n">{E(w["carrier"])}</td><td>{E(w["item"])}{("<div class=snote>" + E(w["note"]) + "</div>") if w.get("note") else ""}</td><td class="pw-v">{E(w["value"])}{("<div class=snote>" + E(w["change"]) + "</div>") if w.get("change") else ""}</td><td class="date">{E(w.get("effective", ""))}</td><td><a class="src-a" href="{E(w["url"])}" rel="noopener">{E(w.get("src", "source"))}</a></td></tr>' for w in items)
+    return f"""<section class="section intel" style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="pw_k">Price and service watch</div><h2 data-i18n="pw_h">What shipping costs right now</h2><p class="intel-dek" data-i18n="pw_dek">Published fuel surcharges, peak fees, 2027 rate increases, regulated tariffs and service changes, as the carriers and authorities state them. Fuel surcharges move weekly: check the date.</p></div></div>
+<div class="table-wrap pw-table"><table><thead><tr><th data-i18n="pw_who">Carrier or authority</th><th data-i18n="pw_what">What</th><th data-i18n="pw_val">Value</th><th data-i18n="pw_when">Effective</th><th data-i18n="sources_art">Source</th></tr></thead><tbody>{rows}</tbody></table></div></div></section>"""
+
+
+def moves_block(k, limit=14):
+    items = [m for m in MOVES if in_region(m, k)][:limit]
+    if not items:
+        return ""
+    li = "".join(f'<li data-regions="{",".join(m.get("regions", []))}"><span class="tl-when">{E(fdate(m["date"]))}</span><div><span class="pill mv-t mv-{E(m.get("type", ""))}">{E(MOVE_T.get(m.get("type"), m.get("type", "")))}</span> <b>{E(m["co"])}</b><p>{E(m["text"])} <a class="src-a" href="{E(m["url"])}" rel="noopener">{E(m.get("src", "source"))}</a></p>{story_chips(m.get("stories"))}</div></li>' for m in items)
+    return f"""<section class="section intel" style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mv_k">Moves</div><h2 data-i18n="mv_h">Who is building, buying or pulling out</h2><p class="intel-dek" data-i18n="mv_dek">Capacity, network, M&amp;A, partnerships, closures and pricing moves, dated and sourced. Patterns across these lines are where the signals come from.</p></div></div>
+<ul class="moves">{li}</ul></div></section>"""
+
+
+def comp_teasers(k):
+    cs = [c for c in COMPS if k == "GLOBAL" or c["region"] == k]
+    if not cs:
+        return ""
+    cards = "".join(f'<a class="cp-teaser" href="/markets/{E(c["key"])}"><div class="kicker"><span data-i18n="cp_k">Competition deep dive</span> · {E(RNAME.get(c["region"], c["region"]))}</div><h3>{E(c["title"])}</h3><p>{E(c["dek"])}</p><span class="more" data-i18n="cp_open">Read the deep dive →</span></a>' for c in cs)
+    return f'<section class="section" style="padding-top:0"><div class="wrap"><div class="cp-teasers">{cards}</div></div></section>'
+
+
+def cp_cites(idx):
+    idx = [n for n in (idx or []) if isinstance(n, int)]
+    return ('<sup class="cite">' + "".join(f'<a href="#c-{n + 1}">{n + 1}</a>' for n in idx) + "</sup>") if idx else ""
+
+
+ARROW = {"up": ("▲", "up"), "down": ("▼", "down"), "flat": ("▬", "flat")}
+POS_I18N = {"gaining": "cp_gaining", "holding": "cp_holding", "losing": "cp_losing"}
+
+
+def cp_deep(c):
+    """Scorecard, segment or country breakdown, price stack and scenarios for a deep dive."""
+    out = {}
+    sc = c.get("scorecard") or []
+    if sc:
+        def ar(v, kind):
+            a, cls = ARROW.get(v, ("", ""))
+            lab = {"v": ("cp_volume", "Volume"), "y": ("cp_yield", "Yield")}[kind]
+            return f'<span class="ar-l" data-i18n="{lab[0]}">{lab[1]}</span><span class="ar ar-{cls}" title="{E(v)}">{a} <span data-i18n="cp_{E(v)}">{E(v)}</span></span>'
+        rows = "".join(f'<tr><td class="co-n">{E(x["name"])}</td><td>{ar(x.get("volume"), "v")}</td><td>{ar(x.get("yield"), "y")}</td><td><span class="pos pos-{E(x.get("position", ""))}" data-i18n="{POS_I18N.get(x.get("position"), "")}">{E(x.get("position", ""))}</span></td><td class="sc-why">{E(x.get("why", ""))}{cp_cites(x.get("src"))}</td></tr>' for x in sc)
+        out["score"] = f"""<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_sc_k">Scorecard</div><h2 data-i18n="cp_sc_h">Who is gaining, who is losing</h2><p class="intel-dek" data-i18n="cp_sc_dek">Volume and yield (revenue per parcel) direction over the latest reported periods. The position column is our reading.</p></div></div>
+<div class="table-wrap sc-table"><table><thead><tr><th data-i18n="cp_player">Player</th><th data-i18n="cp_volume">Volume</th><th data-i18n="cp_yield">Yield</th><th data-i18n="cp_position">Position</th><th data-i18n="cp_why">Why</th></tr></thead><tbody>{rows}</tbody></table></div>"""
+    seg = c.get("countries") or c.get("segments") or []
+    if seg:
+        isc = bool(c.get("countries"))
+        cards = "".join(f"""<details class="cp-seg"{' open' if i == 0 else ''}><summary><h3>{E(x['name'])}</h3><span class="cp-seg-read"><b data-i18n="si_read">Our reading</b> {E(noread(x.get('read', '')))}</span></summary>
+<dl><dt data-i18n="cp_size">Size</dt><dd>{E(x.get('size', ''))}</dd><dt data-i18n="cp_leaders">Leaders</dt><dd>{E(x.get('leaders', ''))}</dd><dt data-i18n="cp_dynamics">Dynamics</dt><dd>{E(x.get('dynamics', ''))}</dd><dt data-i18n="cp_rules">Rules that bite</dt><dd>{E(x.get('rules', ''))}{cp_cites(x.get('src'))}</dd></dl></details>""" for i, x in enumerate(seg))
+        k, h = ("cp_ct_k", "cp_ct_h") if isc else ("cp_sg_k", "cp_sg_h")
+        out["seg"] = f"""<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="{k}">{'Country by country' if isc else 'Segment by segment'}</div><h2 data-i18n="{h}">{'Six markets, six rulebooks' if isc else 'Five markets inside one market'}</h2><p class="intel-dek" data-i18n="cp_sg_dek">The first line of each card is our reading; open it for the sourced facts.</p></div></div><div class="cp-segs">{cards}</div>"""
+    ps = c.get("price_stack") or []
+    if ps:
+        rows = "".join(f'<tr><td class="co-n">{E(x["carrier"])}</td><td>{E(x["item"])}</td><td class="pw-v">{E(x["value"])}</td><td class="date">{E(x.get("effective", ""))}</td><td>{cp_cites(x.get("src"))}</td></tr>' for x in ps)
+        out["price"] = f"""<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_ps_k">The price stack</div><h2 data-i18n="cp_ps_h">What a shipper pays on top of the base rate</h2><p class="intel-dek" data-i18n="cp_ps_dek">Rate increases, fuel and peak surcharges as published by the carriers. Fuel moves weekly: check the date.</p></div></div>
+<div class="table-wrap pw-table"><table><thead><tr><th data-i18n="pw_who">Carrier or authority</th><th data-i18n="pw_what">What</th><th data-i18n="pw_val">Value</th><th data-i18n="pw_when">Effective</th><th data-i18n="sources_art">Source</th></tr></thead><tbody>{rows}</tbody></table></div>"""
+    scn = c.get("scenarios") or []
+    if scn:
+        cards = "".join(f'<div class="cp-scn cp-scn-{i}"><div class="kicker" data-i18n="cp_l_{E(x.get("likelihood", "").replace(" ", "_"))}">{E(x.get("likelihood", ""))}</div><h3>{E(x["name"])}</h3><p>{E(noread(x.get("text", "")))}</p><p class="cp-trig"><b data-i18n="cp_triggers">Watch for</b> {E(x.get("triggers", ""))}</p></div>' for i, x in enumerate(scn))
+        out["scn"] = f"""<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_scn_k">Next 12 months</div><h2 data-i18n="cp_scn_h">Three scenarios</h2><p class="intel-dek" data-i18n="cp_scn_dek">Our reading, grounded in the facts above. The likelihood labels are judgements, not probabilities.</p></div></div><div class="cp-scns">{cards}</div>"""
+    return out
+
+
+def page_competition(c):
+    S = c.get("sources", [])
+    stats = "".join(f'<div class="cp-stat"><b>{E(x["big"])}</b><span>{E(x["label"])}{cp_cites([x.get("src")])}</span></div>' for x in c.get("stats", []))
+    players = "".join(f"""<article class="cp-pl"><div class="cp-pl-h"><h3>{E(p['name'])}</h3><span class="co-seg">{E(p.get('type', ''))}</span></div>
+<p class="cp-scale">{E(p.get('scale', ''))}</p><p><b data-i18n="cp_strategy">Strategy</b> {E(p.get('strategy', ''))}</p><p><b data-i18n="cp_moves">Latest moves</b> {E(p.get('moves', ''))}</p><p class="cp-press"><b data-i18n="cp_pressure">Under pressure from</b> {E(p.get('pressure', ''))}{cp_cites(p.get('src'))}</p></article>""" for p in c.get("players", []))
+    bgs = "".join(f'<div class="cp-bg"><h3>{E(b["h"])}</h3><p>{E(b["text"])}{cp_cites(b.get("src"))}</p></div>' for b in c.get("battlegrounds", []))
+    imps = "".join(f'<div class="cp-imp"><div class="kicker">{E(i["who"])}</div><p>{E(i["text"])}</p></div>' for i in c.get("implications", []))
+    wt = "".join(f'<li><span class="tl-when">{E(fdate(w["date"]))}</span><span>{E(w["what"])}</span></li>' for w in c.get("watch", []))
+    sig = [s for s in SIGNALS if c["region"] in s.get("regions", [])]
+    srcs = "".join(f'<li id="c-{n + 1}" value="{n + 1}"><a href="{E(s["u"])}" rel="noopener">{E(s["t"])}</a>{(" · " + E(s["pub"])) if s.get("pub") else ""}{(" · " + E(s["date"])) if s.get("date") else ""}</li>' for n, s in enumerate(S))
+    D = cp_deep(c)
+    out = head(f"{c['title']} · WhyItLands", c["dek"], f"/markets/{c['key']}")
+    out += header("markets")
+    out += f"""<main id="main">
+<section class="rhero"><div class="wrap"><div class="kicker"><a href="/markets#{c['region'].lower()}" style="color:inherit" data-i18n="nav_markets">Market Intelligence</a> · <span data-i18n="cp_k">Competition deep dive</span> · {E(RNAME.get(c['region'], c['region']))} · <span data-i18n="baro_asof">As of</span> {E(fdate(c.get('as_of', '')))}</div><h1>{E(c['title'])}</h1><p>{E(c['dek'])}</p></div></section>
+<section class="section"><div class="wrap">
+<div class="kicker" data-i18n="cp_structure">Market structure</div><div class="cp-stats">{stats}</div>
+<div class="st-read"><div class="kicker" data-i18n="mk_our_read">Our read</div><p>{E(noread(c.get('our_read', '')))}</p></div>
+{D.get('score', '')}
+<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_bg_k">Battlegrounds</div><h2 data-i18n="cp_bg_h">Where the competition is fought</h2></div></div>
+<div class="cp-bgs">{bgs}</div>
+{D.get('seg', '')}{D.get('price', '')}
+<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_pl_k">Players</div><h2 data-i18n="cp_pl_h">Who does what, and what squeezes them</h2><p class="intel-dek" data-i18n="cp_pl_dek">Scale and moves are sourced facts; strategy and pressure combine company statements with our reading, marked as such.</p></div></div>
+<div class="cp-pls">{players}</div>
+{D.get('scn', '')}
+<div class="section-head" style="margin-top:44px"><div><div class="kicker" data-i18n="cp_imp_k">So what</div><h2 data-i18n="cp_imp_h">What it means for you</h2></div></div>
+<div class="cp-imps">{imps}</div>
+</div></section>
+{signals_block(c['region'], sig) if sig else ''}
+<section class="section" style="padding-top:0"><div class="wrap">
+{('<h2 style="margin:0 0 14px" data-i18n="st_next">What comes next</h2><ul class="watch">' + wt + '</ul>') if wt else ''}
+<section class="sources-list" style="max-width:900px"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
+<p style="margin-top:24px"><a class="btn btn-ink" href="/markets#{c['region'].lower()}" data-i18n="cp_back">Back to Market Intelligence →</a></p>
+</div></section></main>
+"""
+    return out + footer()
+
+
+def story_signals(key):
+    sig = [s for s in SIGNALS if key in (s.get("stories") or [])]
+    if not sig:
+        return ""
+    return '<h3 class="st-sub" data-i18n="st_signals">Signals on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/markets#sig-{E(s["key"])}">{E(s["title"])}</a>' for s in sig) + "</div>"
+
+
+
 def write(path, text):
     p = OUT / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(text)
 
@@ -994,6 +1165,8 @@ if doctrines:
     write("doctrines.html", page_doctrines())
 if MARKETS:
     write("markets.html", page_markets())
+for _c in COMPS:
+    write(f"markets/{_c['key']}.html", page_competition(_c))
 write("storylines.html", page_storylines())
 for _s in STORYDATA["storylines"]:
     write(f"storylines/{_s['key']}.html", page_story(_s))
@@ -1030,7 +1203,7 @@ out += """<main id="main" class="prose" style="text-align:center;padding-bottom:
 })();
 </script>"""
 write("confirmed.html", out + footer())
-urls = ["/", "/storylines", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings] + [f"/storylines/{x['key']}" for x in STORYDATA["storylines"]]
+urls = ["/", "/storylines", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings] + [f"/storylines/{x['key']}" for x in STORYDATA["storylines"]] + [f"/markets/{c['key']}" for c in COMPS]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

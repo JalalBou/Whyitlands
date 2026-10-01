@@ -113,6 +113,10 @@
   function initRegion() {
     var hash = (location.hash || '').replace('#', '').toUpperCase();
     if (/^(GLOBAL|EMEA|EU|UK|NA|SA|AS|CN|ME|NAF)$/.test(hash)) state.region = hash;
+    if (/^SIG-/.test(hash)) {
+      state.region = 'GLOBAL';
+      setTimeout(function () { var el = document.getElementById(location.hash.slice(1)); if (el) { var d = el.querySelector('details'); if (d) d.open = true; el.scrollIntoView({ block: 'start' }); el.classList.add('sig-hl'); } }, 60);
+    }
     $$('#regionbar .chip').forEach(function (c) {
       c.addEventListener('click', function () {
         state.region = c.getAttribute('data-region'); store('wil-region', state.region);
