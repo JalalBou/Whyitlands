@@ -127,6 +127,28 @@ def header(active=""):
 """
 
 
+def subnav(items, sticky=True):
+    """Sticky in-page section bar shared by long pages. items: (anchor_id, i18n_key, label)."""
+    links = "".join(f'<a href="#{a}" data-i18n="{k}">{E(l)}</a>' for a, k, l in items if a)
+    return f'<nav class="subnav" aria-label="On this page"><div class="wrap"><span class="subnav-k" data-i18n="sec_jump">On this page</span><div class="subnav-l">{links}</div></div></nav>'
+
+
+def auto_subnav(html, pairs):
+    """Give the section heads whose kicker uses one of the i18n keys an id, and return (html, subnav)."""
+    items = []
+    for key, sid, label in pairs:
+        pat = '<div class="section-head"'
+        k = html.find(f'data-i18n="{key}"')
+        if k == -1:
+            continue
+        h = html.rfind(pat, 0, k)
+        if h == -1:
+            continue
+        html = html[:h] + f'<div id="{sid}" class="section-head"' + html[h + len(pat):]
+        items.append((sid, key, label))
+    return html, (subnav(items) if len(items) > 2 else "")
+
+
 def regionbar(keys, default):
     chips = "".join(f'<button class="chip" data-region="{k}" aria-pressed="{str(k==default).lower()}" data-region-label="{k}">{RNAME[k]}</button>' for k in keys)
     return f"""<div class="regionbar" id="regionbar"><div class="wrap">{i('your_region', 'Your region', 'span', 'kicker')}
@@ -349,6 +371,16 @@ def page_home():
     out += f"""<main id="main" data-region-page>
 {heroes}
 {home_barometer()}
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
+<div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
+</div></section>
+<section class="section" style="padding-top:0" id="coming"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="ag_kicker">Agenda</span> · <span data-current-region>GLOBAL</span></div><h2 data-i18n="ag_h">What’s coming, and when</h2></div><a class="more" href="/radar" data-i18n="rr_open">Open the radar →</a></div>
+<div class="agenda">
+<div class="ag-col"><h3 class="ag-h" data-i18n="rr_home_h">The next regulatory deadlines</h3>{home_radar_list()}</div>
+<div class="ag-col"><h3 class="ag-h" data-i18n="ag_cal">Elections, summits and trade shows</h3>{filters()}<div class="timeline" data-timeline="home" data-limit="6" aria-live="polite"></div></div>
+</div></div></section>
 <section class="intro-video"><div class="wrap iv-grid">
 <div class="iv-text"><div class="kicker" data-i18n="iv_kicker">WhyItLands in 100 seconds</div>
 <h2 data-i18n="iv_title">Everyone sees what happens. We explain why.</h2>
@@ -358,45 +390,19 @@ def page_home():
 <div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4?v=20261001b" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 100 seconds"></video>
 <button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:43</span></button></div>
 </div></section>
-
 {home_storylines()}
-{home_radar()}
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
-<div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
-</div></section>
-
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div><div class="kicker"><span data-i18n="mk_kicker">Market intelligence</span> · <span data-current-region>GLOBAL</span></div>{i('mk_h1', 'Who is winning, who is paying.', 'h2')}</div><a class="more" href="/markets" data-i18n="mk_all">All results →</a></div>
-{mk}
-</div></section>
-
-<section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('why_kicker', 'The why', 'div', 'kicker')}{i('why_title', 'From geopolitics to the parcel', 'h2')}</div></div>
-<div class="why-grid">{why_cards()}</div>
-</div></section>
-
-<section class="section" style="padding-top:0" id="coming"><div class="wrap">
-<div class="section-head"><div><div class="kicker"><span data-i18n="cal_kicker">Calendar</span> · <span data-current-region>GLOBAL</span></div>{i('coming_title', 'What’s coming', 'h2')}</div></div>
-{filters()}
-<div class="timeline" data-timeline="home" data-limit="8" aria-live="polite"></div>
-</div></section>
-
 <section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div>{i('wire_kicker', 'Industry wire', 'div', 'kicker')}{i('wire_title', 'What moved this week', 'h2')}</div></div>
 <div class="bento">{''.join(tiles)}</div>
 </div></section>
-
 <section class="section" style="padding-top:0"><div class="wrap">
-<div class="section-head"><div>{i('deals_kicker', 'Deals & investments', 'div', 'kicker')}{i('deals_title', 'The deal tracker', 'h2')}</div></div>
-<div class="table-wrap"><table><thead><tr><th data-i18n="th_date">Date</th><th data-i18n="th_company">Company</th><th data-i18n="th_deal">Deal</th><th data-i18n="th_region">Region</th><th data-i18n="th_source">Source</th></tr></thead><tbody data-filter-rows>{deals}</tbody></table></div>
+<div class="section-head"><div><div class="kicker"><span data-i18n="mk_kicker">Market intelligence</span> · <span data-current-region>GLOBAL</span></div>{i('mk_h1', 'Who is winning, who is paying.', 'h2')}</div><a class="more" href="/markets" data-i18n="mk_all">All results →</a></div>
+{mk}
 </div></section>
-
 <section class="section" style="padding-top:0" data-show="{show_for(*DESK_ORDER)}" hidden><div class="wrap">
 <div class="section-head"><div><div class="kicker"><span data-i18n="shows_kicker">Trade shows</span> · <span data-current-region>GLOBAL</span></div>{i('shows_title', 'What the shows told us', 'h2')}</div></div>
 {expos}
 </div></section>
-
 <section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div>{i('sources_kicker', 'Sources', 'div', 'kicker')}{i('sources_title', 'Close to the ground, in the local language', 'h2')}<p style="margin-top:14px;color:var(--muted-2);max-width:680px" data-i18n="sources_dek">Institutions, trade press and niche regional media, read in their original language. Every fact links to its source.</p></div></div>
 <div class="src-grid">{srcs}</div>
@@ -594,11 +600,13 @@ def page_briefing(b):
     out += header("briefings")
     out += f"""<main id="main">
 <section class="art-head"><div class="wrap"><div class="kicker">{E(b['section'])}</div><h1>{E(b['title'])}</h1><p style="color:var(--on-ink-muted);font-size:clamp(17px,1.6vw,20px);max-width:760px;margin-bottom:18px">{inline(b['dek'], [])}</p><div class="meta">{E(b['date_label'])} · {mins} <span data-i18n="min_read">min read</span> · {len(S)} <span data-i18n="n_sources">sources</span> · Jalal Boucheikha</div></div></section>
+<div class="art-shell"><aside class="art-side" aria-label="In this briefing"><div class="kicker" data-i18n="in_this_briefing">In this briefing</div><nav class="side-toc">{tocs}</nav><a class="btn btn-coral side-cta" href="#csuite" data-i18n="jump_csuite">Jump to the actions for leaders</a></aside>
 <div class="art">
 <div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{kp}</ul>
 <div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the actions for leaders</a></div></div>
-{('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
+<div class="art-ctx">{('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
 {(lambda rr: ('<div class="part-of rr-of"><span data-i18n="rr_on">On the Regulatory Radar</span> ' + " · ".join(f'<a href="/radar#rr-{E(x["key"])}">{E(x["title"])}</a>' for x in rr) + '</div>') if rr else '')(radar_for_url(f"/briefings/{b['slug']}"))}
+</div>
 {lang_note()}
 <nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
 <span id="listen"></span>{audio}
@@ -608,7 +616,7 @@ def page_briefing(b):
 <section class="sources-list"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
 <p class="method-note" data-i18n="method_note">Facts are sourced; analysis, scenarios and recommendations are WhyItLands’ own reading. AI-assisted research, reviewed by Jalal Boucheikha.</p>
 <div style="margin-top:40px">{feedback_card()}</div>
-</div>
+</div></div>
 <section class="section"><div class="wrap"><div class="section-head"><div>{i('read_next', 'Read next', 'div', 'kicker')}</div></div><div class="bgrid">{rel}</div></div></section>
 <button class="btn btn-ink backpill" id="backpill" hidden data-i18n="back_text">↩ Back to the text</button>
 </main>
@@ -722,8 +730,9 @@ def page_markets():
         desks.append(f"""<div data-show="{show_for(k)}" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="mk_kicker">Market intelligence</span></div>
 <h1 data-i18n="mk_h1">Who is winning, who is paying.</h1><p class="mk-take"><b data-i18n="mk_our_read">Our read</b> {E(m['take'])}</p></div></section>
-{signals_block(k)}{comp_teasers(k)}{watch_block(k)}{moves_block(k)}
-<section class="section"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mk_res_k">Results</div><h2 data-i18n="mk_res_h">Latest quarterly results</h2></div></div>{market_summary_table(k)}
+{subnav([("sig-" + k if signals_block(k) else None, "si_k", "Signals"), ("dd-" + k if comp_teasers(k) else None, "cp_k", "Competition deep dive"), ("pw-" + k if watch_block(k) else None, "pw_k", "Price and service watch"), ("mv-" + k if moves_block(k) else None, "mv_k", "Moves"), ("res-" + k, "mk_res_k", "Results"), ("solutions" if SOL else None, "sol_kicker", "Solution landscape")])}
+{signals_block(k, sid="sig-" + k)}<div id="dd-{k}">{comp_teasers(k)}</div>{watch_block(k, sid="pw-" + k)}{moves_block(k, sid="mv-" + k)}
+<section class="section" id="res-{k}"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mk_res_k">Results</div><h2 data-i18n="mk_res_h">Latest quarterly results</h2></div></div>{market_summary_table(k)}
 <div class="cos">{''.join(company_card(c) for c in m['companies'])}</div>
 {('<h2 style="margin:40px 0 14px" data-i18n="mk_next">Next results and dates</h2><ul class="watch">' + watch + '</ul>') if watch else ''}
 </div></section></div>""")
@@ -884,20 +893,23 @@ def page_story(s):
     out += f"""<main id="main">
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-i18n="st_kicker">Storyline</span> · {E(' · '.join(RNAME.get(r, r) for r in s.get('regions', [])))}</div><h1>{E(s['title'])}</h1><p>{E(plain(s['why']))}</p></div></section>
 <section class="section"><div class="wrap">
-<div class="section-head"><div><div class="kicker" data-i18n="st_chain_k">The chain</div><h2 data-i18n="st_chain_h">From geopolitics to the parcel</h2></div></div>
+<div class="section-head" id="chain"><div><div class="kicker" data-i18n="st_chain_k">The chain</div><h2 data-i18n="st_chain_h">From geopolitics to the parcel</h2></div></div>
 <div class="chain4">{''.join(cols)}</div>
 <div class="st-read"><div class="kicker" data-i18n="mk_our_read">Our read</div><p>{E(plain(s.get('our_read', '')))}</p></div>
-{('<h3 class="st-sub" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
+{('<h3 class="st-sub" id="next" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
 {story_signals(s['key'])}
 {story_radar(s['key'])}
 {('<h3 class="st-sub" data-i18n="st_lens">The lens behind the decisions</h3><div class="chips-row">' + docs + '</div>') if docs else ''}
 {('<h3 class="st-sub" data-i18n="st_cos">Companies visibly affected</h3><div class="chips-row">' + cos + '</div>') if cos else ''}
 {('<h3 class="st-sub" data-i18n="st_sols">Solution landscape</h3><div class="chips-row">' + sols + '</div>') if sols else ''}
-{('<h3 class="st-sub" data-i18n="st_brs">Read the full analysis</h3><div class="bgrid">' + brs + '</div>') if brs else ''}
-<section class="sources-list" style="max-width:860px"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
+{('<h3 class="st-sub" id="analysis" data-i18n="st_brs">Read the full analysis</h3><div class="bgrid">' + brs + '</div>') if brs else ''}
+<section class="sources-list" id="sources" style="max-width:860px"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
 <p style="margin-top:24px"><a class="btn btn-ink" href="/storylines" data-i18n="st_all">All storylines →</a></p>
 </div></section></main>
 """
+    _items = [(a, k, l) for a, k, l in [("chain", "st_chain_k", "The chain"), ("next", "st_next", "What comes next"), ("signals", "st_signals", "Signals"), ("rules", "st_rules", "Rules"), ("analysis", "st_brs", "Read the full analysis"), ("sources", "sources_art", "Sources")] if f'id="{a}"' in out]
+    _i = out.index("</section>", out.index('<main id="main">')) + len("</section>")
+    out = out[:_i] + subnav(_items) + out[_i:]
     return out + footer()
 
 
@@ -907,7 +919,7 @@ def page_storylines():
     out += header("storylines") + regionbar(REGION_ORDER, "GLOBAL")
     out += f"""<main id="main" data-region-page><section class="rhero"><div class="wrap"><div class="kicker" data-i18n="st_kicker_all">Storylines</div><h1 data-i18n="st_h1">The why behind the whats.</h1><p>{E(plain(STORYDATA.get('intro', '')))}</p>
 <ol class="legend4">{''.join(f'<li class="mc-{L}"><b data-i18n="lay_{L}">{E(n)}</b></li>' for L, n in LAYERS)}</ol></div></section>
-<section class="section"><div class="wrap"><div class="sgrid" data-filter-stories>{cards}</div></div></section></main>
+<section class="section"><div class="wrap"><div class="sgrid" data-filter-stories data-limit-vis="6">{cards}</div></div></section></main>
 """
     return out + footer()
 
@@ -939,7 +951,7 @@ def home_storylines():
         return ""
     return f"""<section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div><div class="kicker"><span data-i18n="st_kicker_all">Storylines</span> · <span data-current-region>GLOBAL</span></div><h2 data-i18n="st_home_h">Follow the thread</h2></div><a class="more" href="/storylines" data-i18n="st_all">All storylines →</a></div>
-<div class="sgrid" data-filter-stories>{''.join(story_card(s) for s in STORYDATA['storylines'])}</div></div></section>"""
+<div class="sgrid" data-filter-stories data-limit-vis="6">{''.join(story_card(s) for s in STORYDATA['storylines'])}</div></div></section>"""
 
 
 def page_glossary():
@@ -1040,30 +1052,30 @@ def signal_card(s, open_=False, anchor=False):
 </article>"""
 
 
-def signals_block(k, items=None):
+def signals_block(k, items=None, sid=None):
     sig = items if items is not None else [s for s in SIGNALS if in_region(s, k) and k != "GLOBAL"] if k != "GLOBAL" else SIGNALS
     if not sig:
         return ""
     sig = sorted(sig, key=lambda s: (-CONF.get(s.get("confidence"), 0), s["title"]))
-    return f"""<section class="section intel"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="si_k">Signals</div><h2 data-i18n="si_h">What the facts add up to</h2><p class="intel-dek" data-i18n="si_dek">No single fact below is news. Put side by side, at least three dated, sourced facts from different players point to a shift nobody has announced. Each signal says how confident we are, and what would prove it wrong.</p></div></div>
-<div class="sigs">{''.join(signal_card(s, anchor=(k == 'GLOBAL' and items is None)) for s in sig)}</div></div></section>"""
+    return f"""<section class="section intel"{(' id="' + sid + '"') if sid else ''}><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="si_k">Signals</div><h2 data-i18n="si_h">What the facts add up to</h2><p class="intel-dek" data-i18n="si_dek">No single fact below is news. Put side by side, at least three dated, sourced facts from different players point to a shift nobody has announced. Each signal says how confident we are, and what would prove it wrong.</p></div></div>
+<div class="sigs" data-limit-vis="6">{''.join(signal_card(s, anchor=(k == 'GLOBAL' and items is None)) for s in sig)}</div></div></section>"""
 
 
-def watch_block(k):
+def watch_block(k, sid=None):
     items = [w for w in PWATCH if (k in (w.get("regions") or [])) or (k == "GLOBAL" and "GLOBAL" in (w.get("regions") or []))]
     if not items:
         return ""
     rows = "".join(f'<tr><td class="co-n">{E(w["carrier"])}</td><td>{E(w["item"])}{("<div class=snote>" + E(w["note"]) + "</div>") if w.get("note") else ""}</td><td class="pw-v">{E(w["value"])}{("<div class=snote>" + E(w["change"]) + "</div>") if w.get("change") else ""}</td><td class="date">{E(w.get("effective", ""))}</td><td><a class="src-a" href="{E(w["url"])}" rel="noopener">{E(w.get("src", "source"))}</a></td></tr>' for w in items)
-    return f"""<section class="section intel" style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="pw_k">Price and service watch</div><h2 data-i18n="pw_h">What shipping costs right now</h2><p class="intel-dek" data-i18n="pw_dek">Published fuel surcharges, peak fees, 2027 rate increases, regulated tariffs and service changes, as the carriers and authorities state them. Fuel surcharges move weekly: check the date.</p></div></div>
+    return f"""<section class="section intel"{(' id="' + sid + '"') if sid else ''} style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="pw_k">Price and service watch</div><h2 data-i18n="pw_h">What shipping costs right now</h2><p class="intel-dek" data-i18n="pw_dek">Published fuel surcharges, peak fees, 2027 rate increases, regulated tariffs and service changes, as the carriers and authorities state them. Fuel surcharges move weekly: check the date.</p></div></div>
 <div class="table-wrap pw-table"><table><thead><tr><th data-i18n="pw_who">Carrier or authority</th><th data-i18n="pw_what">What</th><th data-i18n="pw_val">Value</th><th data-i18n="pw_when">Effective</th><th data-i18n="sources_art">Source</th></tr></thead><tbody>{rows}</tbody></table></div></div></section>"""
 
 
-def moves_block(k, limit=14):
+def moves_block(k, limit=14, sid=None):
     items = [m for m in MOVES if in_region(m, k)][:limit]
     if not items:
         return ""
     li = "".join(f'<li data-regions="{",".join(m.get("regions", []))}"><span class="tl-when">{E(fdate(m["date"]))}</span><div><span class="pill mv-t mv-{E(m.get("type", ""))}">{E(MOVE_T.get(m.get("type"), m.get("type", "")))}</span> <b>{E(m["co"])}</b><p>{E(m["text"])} <a class="src-a" href="{E(m["url"])}" rel="noopener">{E(m.get("src", "source"))}</a></p>{story_chips(m.get("stories"))}</div></li>' for m in items)
-    return f"""<section class="section intel" style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mv_k">Moves</div><h2 data-i18n="mv_h">Who is building, buying or pulling out</h2><p class="intel-dek" data-i18n="mv_dek">Capacity, network, M&amp;A, partnerships, closures and pricing moves, dated and sourced. Patterns across these lines are where the signals come from.</p></div></div>
+    return f"""<section class="section intel"{(' id="' + sid + '"') if sid else ''} style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mv_k">Moves</div><h2 data-i18n="mv_h">Who is building, buying or pulling out</h2><p class="intel-dek" data-i18n="mv_dek">Capacity, network, M&amp;A, partnerships, closures and pricing moves, dated and sourced. Patterns across these lines are where the signals come from.</p></div></div>
 <ul class="moves">{li}</ul></div></section>"""
 
 
@@ -1080,7 +1092,7 @@ def cp_cites(idx):
     return ('<sup class="cite">' + "".join(f'<a href="#c-{n + 1}">{n + 1}</a>' for n in idx) + "</sup>") if idx else ""
 
 
-ARROW = {"up": ("▲", "up"), "down": ("▼", "down"), "flat": ("▬", "flat")}
+CP_ARROW = {"up": ("▲", "up"), "down": ("▼", "down"), "flat": ("▬", "flat")}
 POS_I18N = {"gaining": "cp_gaining", "holding": "cp_holding", "losing": "cp_losing"}
 
 
@@ -1090,7 +1102,7 @@ def cp_deep(c):
     sc = c.get("scorecard") or []
     if sc:
         def ar(v, kind):
-            a, cls = ARROW.get(v, ("", ""))
+            a, cls = CP_ARROW.get(v, ("", ""))
             lab = {"v": ("cp_volume", "Volume"), "y": ("cp_yield", "Yield")}[kind]
             return f'<span class="ar-l" data-i18n="{lab[0]}">{lab[1]}</span><span class="ar ar-{cls}" title="{E(v)}">{a} <span data-i18n="cp_{E(v)}">{E(v)}</span></span>'
         rows = "".join(f'<tr><td class="co-n">{E(x["name"])}</td><td>{ar(x.get("volume"), "v")}</td><td>{ar(x.get("yield"), "y")}</td><td><span class="pos pos-{E(x.get("position", ""))}" data-i18n="{POS_I18N.get(x.get("position"), "")}">{E(x.get("position", ""))}</span></td><td class="sc-why">{E(x.get("why", ""))}{cp_cites(x.get("src"))}</td></tr>' for x in sc)
@@ -1128,6 +1140,7 @@ def page_competition(c):
     D = cp_deep(c)
     out = head(f"{c['title']} · WhyItLands", c["dek"], f"/markets/{c['key']}")
     out += header("markets")
+    out += "<!--CPMAIN-->"
     out += f"""<main id="main">
 <section class="rhero"><div class="wrap"><div class="kicker"><a href="/markets#{c['region'].lower()}" style="color:inherit" data-i18n="nav_markets">Market Intelligence</a> · <span data-i18n="cp_k">Competition deep dive</span> · {E(RNAME.get(c['region'], c['region']))} · <span data-i18n="baro_asof">As of</span> {E(fdate(c.get('as_of', '')))}</div><h1>{E(c['title'])}</h1><p>{E(c['dek'])}</p></div></section>
 <section class="section"><div class="wrap">
@@ -1150,14 +1163,17 @@ def page_competition(c):
 <p style="margin-top:24px"><a class="btn btn-ink" href="/markets#{c['region'].lower()}" data-i18n="cp_back">Back to Market Intelligence →</a></p>
 </div></section></main>
 """
-    return out + footer()
+    pre, main = out.split("<!--CPMAIN-->")
+    main, nav = auto_subnav(main, [("cp_sc_k", "scorecard", "Scorecard"), ("cp_bg_k", "battlegrounds", "Battlegrounds"), ("cp_ct_k", "countries", "Country by country"), ("cp_sg_k", "segments", "Segment by segment"), ("cp_ps_k", "prices", "The price stack"), ("cp_pl_k", "players", "Players"), ("cp_scn_k", "scenarios", "Next 12 months"), ("cp_imp_k", "so-what", "So what")])
+    i_ = main.index("</section>") + len("</section>")
+    return pre + main[:i_] + nav + main[i_:] + footer()
 
 
 def story_signals(key):
     sig = [s for s in SIGNALS if key in (s.get("stories") or [])]
     if not sig:
         return ""
-    return '<h3 class="st-sub" data-i18n="st_signals">Signals on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/markets#sig-{E(s["key"])}">{E(s["title"])}</a>' for s in sig) + "</div>"
+    return '<h3 class="st-sub" id="signals" data-i18n="st_signals">Signals on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/markets#sig-{E(s["key"])}">{E(s["title"])}</a>' for s in sig) + "</div>"
 
 
 
@@ -1251,16 +1267,24 @@ def page_radar():
 <p data-i18n="rr_dek">Customs, tax, trade, postal, platform and product-safety rules that reshape the cost, data and liability of a parcel. Each one with its dates, who it hits, what to prepare and our reading. Sourced from the official texts first.</p>
 <div class="rr-stats"><div><b id="rr-n">{len(RADAR)}</b><span data-i18n="rr_tracked">rules tracked</span></div><div><b id="rr-nf">{n_force}</b><span data-i18n="rr_inforce">already in force</span></div><div><b id="rr-np">{n_pipe}</b><span data-i18n="rr_pipe">in the pipeline</span></div><div class="rr-next"><b id="rr-next-cd">·</b><span><span data-i18n="rr_nextdl">Next deadline</span>: <a id="rr-next-a" href="#"></a></span></div></div>
 </div></section>
+{subnav([("agenda", "rr_tl_h", "The next 18 months"), ("register", "rr_reg_k", "The register")])}
 <section class="section"><div class="wrap">
 <div class="chips chips-light rr-domains" role="group" aria-label="Topic">{dchips}</div>
-<div class="section-head" style="margin-top:28px"><div><div class="kicker" data-i18n="rr_tl_k">Agenda</div><h2 data-i18n="rr_tl_h">The next 18 months, date by date</h2></div></div>
+<div class="section-head" id="agenda" style="margin-top:28px"><div><div class="kicker" data-i18n="rr_tl_k">Agenda</div><h2 data-i18n="rr_tl_h">The next 18 months, date by date</h2></div></div>
 <div class="rr-months">{tl}</div>
-<div class="section-head" style="margin-top:56px"><div><div class="kicker" data-i18n="rr_reg_k">The register</div><h2 data-i18n="rr_reg_h">Every rule, what it does, what to prepare</h2><p class="intel-dek" data-i18n="rr_reg_dek">Ordered by the next deadline. Status reflects the legal state today: consultation, proposed, adopted (not yet applying), in force, or suspended.</p></div></div>
+<div class="section-head" id="register" style="margin-top:56px"><div><div class="kicker" data-i18n="rr_reg_k">The register</div><h2 data-i18n="rr_reg_h">Every rule, what it does, what to prepare</h2><p class="intel-dek" data-i18n="rr_reg_dek">Ordered by the next deadline. Status reflects the legal state today: consultation, proposed, adopted (not yet applying), in force, or suspended.</p></div></div>
 <div class="rrs">{''.join(rr_card(it, today) for it in items)}</div>
 <p class="method-note" style="margin-top:32px" data-i18n="rr_note">Information, not legal advice. Dates come from official texts or quality legal and trade press, and slip often: always check the current text before acting.</p>
 </div></section></main>
 """
     return out + footer()
+
+
+def home_radar_list(n=6):
+    today = datetime.date.today().isoformat()
+    ev = sorted(((d["date"], d["what"], it) for it in RADAR for d in it.get("dates", []) if d["date"] >= today), key=lambda x: x[0])
+    li = "".join(f'<li data-regions="{",".join(it.get("regions", []))}"><span class="cd" data-cd="{d}"></span><span class="tl-when">{E(fdate(d))}</span><div><a href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a><p>{E(w)}</p></div></li>' for d, w, it in ev[:40])
+    return f'<ul class="rr-tl rr-home" data-radar-home data-n="{n}">{li}</ul>'
 
 
 def home_radar():
@@ -1277,7 +1301,7 @@ def story_radar(key):
     its = [it for it in RADAR if key in (it.get("stories") or [])]
     if not its:
         return ""
-    return '<h3 class="st-sub" data-i18n="st_rules">Rules on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a>' for it in its) + "</div>"
+    return '<h3 class="st-sub" id="rules" data-i18n="st_rules">Rules on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a>' for it in its) + "</div>"
 
 
 def write(path, text):

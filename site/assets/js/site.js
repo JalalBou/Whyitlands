@@ -98,6 +98,7 @@
     var firstOwn = $$('[data-filter-regions] .bcard').filter(function (el) { return !el.hidden && el.style.order === '0'; })[0];
     $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
     if (window.WIL_runSearch) window.WIL_runSearch();
+    applyLimits();
     if (window.WIL_radar) window.WIL_radar();
     var nc = $('#nl-form .nl-chips'); if (nc && !nc.getAttribute('data-touched') && typeof syncNlRegions === 'function') syncNlRegions();
     $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
@@ -174,6 +175,57 @@
     });
   }
 
+
+  // Show the first N visible items of a long list, with a "Show all" button.
+  function applyLimits() {
+    $$('[data-limit-vis]').forEach(function (box) {
+      var n = +box.getAttribute('data-limit-vis');
+      var items = Array.prototype.filter.call(box.children, function (el) { return !el.hidden && !el.classList.contains('lim-more'); });
+      items.forEach(function (el, i) { el.classList.toggle('lim-hide', i >= n); });
+      var btn = box.nextElementSibling && box.nextElementSibling.classList.contains('lim-btn') ? box.nextElementSibling : null;
+      if (!btn) {
+        btn = document.createElement('button'); btn.type = 'button'; btn.className = 'btn btn-light lim-btn';
+        btn.addEventListener('click', function () { var o = box.classList.toggle('lim-open'); btn.setAttribute('aria-expanded', String(o)); setLabel(); });
+        box.parentNode.insertBefore(btn, box.nextSibling);
+      }
+      function setLabel() { btn.textContent = box.classList.contains('lim-open') ? (t('show_less') || 'Show less') : (t('show_all') || 'Show all') + ' (' + items.length + ')'; }
+      btn.hidden = items.length <= n; setLabel();
+    });
+  }
+
+  // Highlight the current section in the in-page bar and the briefing side contents.
+  function initScrollSpy() {
+    var links = $$('.subnav-l a, .side-toc a').filter(function (a) { return a.getAttribute('href').charAt(0) === '#'; });
+    if (!links.length || !('IntersectionObserver' in window)) return;
+    var targets = [];
+    links.forEach(function (a) {
+      var el = document.getElementById(a.getAttribute('href').slice(1));
+      if (el && targets.indexOf(el) === -1) targets.push(el);
+    });
+    var current = null;
+    function mark(id) {
+      if (id === current) return; current = id;
+      links.forEach(function (a) {
+        var on = a.getAttribute('href') === '#' + id; a.classList.toggle('on', on);
+        if (on && a.closest('.subnav-l')) { var bar = a.closest('.subnav-l'); bar.scrollTo({ left: a.offsetLeft - 24, behavior: 'smooth' }); }
+      });
+    }
+    var io = new IntersectionObserver(function () {
+      var best = null;
+      targets.forEach(function (el) {
+        if (!el.offsetParent) return;
+        var r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight * 0.35) best = el;
+      });
+      if (best) mark(best.id);
+    }, { rootMargin: '0px 0px -60% 0px', threshold: [0, 1] });
+    targets.forEach(function (el) { io.observe(el); });
+    window.addEventListener('scroll', function () {
+      var best = null;
+      targets.forEach(function (el) { if (el.offsetParent && el.getBoundingClientRect().top < window.innerHeight * 0.35) best = el; });
+      if (best) mark(best.id);
+    }, { passive: true });
+  }
   /* ---------- Newsletter regions (multi-select) ---------- */
   var EMEA_R = ['EU', 'UK', 'ME', 'NAF'];
   function nlBoxes() { return $$('#nl-form input[name=regions]'); }
@@ -357,6 +409,7 @@
     window.WIL_radar();
   }
   initVideo();
+  initScrollSpy();
   initNlRegions();
   initRadar();
   function initSearch() {
