@@ -8,6 +8,10 @@
     "The EU charges €3 per tariff line on parcels under €150 since July; a €2 handling fee per item follows on 1 November.",
     "Hormuz: no ceasefire, the strait runs on Iranian permits and Brent was $104 on 28 September."
   ],
-  "number": {"big": "$104.46", "label": "Brent per barrel at midday on 28 September, up from $67.33 a year earlier. It reaches the parcel through jet fuel and integrator surcharges."},
-  "doctrine": "weaponised-interdependence"
+  "number": {
+    "big": "$104.46",
+    "label": "Brent per barrel at midday on 28 September, up from $67.33 a year earlier. It reaches the parcel through jet fuel and integrator surcharges."
+  },
+  "doctrine": "weaponised-interdependence",
+  "storyline": "de-minimis-end"
 }

@@ -1,0 +1,530 @@
+{
+ "as_of": "2026-10-01",
+ "note": "Levels are WhyItLands' reading of the sourced storylines, 1 = low pressure, 5 = high pressure.",
+ "regions": {
+  "GLOBAL": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 4,
+     "trend": "up",
+     "note": "Jet fuel more than doubled and per-parcel duties and fees in the US and EU raise landed and delivery cost.",
+     "stories": [
+      "hormuz-fuel",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "flat",
+     "note": "Gulf detours and a partial Suez return keep two transit profiles on the same lanes.",
+     "stories": [
+      "hormuz-fuel",
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 4,
+     "trend": "flat",
+     "note": "Direct China to consumer parcels into the US and EU sit at a structurally lower level, with Brazil the exception.",
+     "stories": [
+      "de-minimis-end",
+      "platforms-go-local"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 5,
+     "trend": "up",
+     "note": "Every parcel becomes a declaration in the US and EU, with the UK and Japan following in 2028.",
+     "stories": [
+      "de-minimis-end",
+      "eu-customs-reform",
+      "uk-three-rulebooks"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Stock moves into local warehouses while lockers and takeovers consolidate last-mile networks.",
+     "stories": [
+      "platforms-go-local",
+      "networks-consolidate"
+     ]
+    }
+   ]
+  },
+  "EMEA": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 4,
+     "trend": "up",
+     "note": "The EU's €3 duty plus €2 fee from 1 November and Hormuz fuel surcharges both land on the parcel.",
+     "stories": [
+      "eu-customs-reform",
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "flat",
+     "note": "Gulf cargo detours around Jebel Ali while Suez reopens only in stages.",
+     "stories": [
+      "hormuz-fuel",
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 4,
+     "trend": "flat",
+     "note": "Direct low-value parcels into the EU's main gateways have roughly halved since July.",
+     "stories": [
+      "eu-customs-reform",
+      "platforms-go-local"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 4,
+     "trend": "up",
+     "note": "EU importer liability, the UK's 2028 regime and Egypt's advance cargo data all add filing work.",
+     "stories": [
+      "eu-customs-reform",
+      "uk-three-rulebooks",
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Bulk inbound to EU warehouses, relay shifting to Tanger Med and new Gulf gateways reshape routes.",
+     "stories": [
+      "platforms-go-local",
+      "mena-gateway",
+      "hormuz-fuel"
+     ]
+    }
+   ]
+  },
+  "EU": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 4,
+     "trend": "up",
+     "note": "The €2 handling fee from 1 November adds to the €3 duty per tariff line, a 50% uplift on a €10 basket.",
+     "stories": [
+      "eu-customs-reform",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "up",
+     "note": "New fees and product identifiers start on 1 November, at peak, and integrators warn of holds at borders.",
+     "stories": [
+      "eu-customs-reform"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 4,
+     "trend": "flat",
+     "note": "Belgian and Dutch customs count roughly half the small parcels of a year ago.",
+     "stories": [
+      "eu-customs-reform",
+      "platforms-go-local"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 5,
+     "trend": "up",
+     "note": "Platforms become the importer, with fines of 1% to 6% of import value and the Data Hub from 2028.",
+     "stories": [
+      "eu-customs-reform"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Platforms move stock into Polish, Dutch and German warehouses while FedEx and Advent take control of InPost.",
+     "stories": [
+      "platforms-go-local",
+      "networks-consolidate"
+     ]
+    }
+   ]
+  },
+  "UK": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 2,
+     "trend": "flat",
+     "note": "No customs duty on parcels up to £135 until October 2028, unless the 28 October Budget brings it forward.",
+     "stories": [
+      "uk-three-rulebooks"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "flat",
+     "note": "Royal Mail's First Class ran at 75.7% on time against a 93% target, under Ofcom investigation.",
+     "stories": [
+      "networks-consolidate"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 2,
+     "trend": "flat",
+     "note": "The UK stays the soft landing for direct parcels, though low-value imports were 11% lower early in 2026.",
+     "stories": [
+      "uk-three-rulebooks",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 3,
+     "trend": "up",
+     "note": "The 2028 design brings full classification and fiscal representatives, and exporters already face EU and US rules.",
+     "stories": [
+      "uk-three-rulebooks"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Shein's Cannock centre, Evri's growth and InPost's new owners turn the UK into an out-of-home race.",
+     "stories": [
+      "networks-consolidate",
+      "platforms-go-local"
+     ]
+    }
+   ]
+  },
+  "NA": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 4,
+     "trend": "flat",
+     "note": "Section 301 tariffs of 10% to 12.5%, a 50% duty on some Canadian goods and duty-advancement fees weigh on landed cost.",
+     "stories": [
+      "us-china-rivalry",
+      "north-america-rulebook",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 2,
+     "trend": "flat",
+     "note": "CBP says it is coping, but partner agency requirements take effect on 22 October, just before peak.",
+     "stories": [
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 3,
+     "trend": "flat",
+     "note": "China to US e-commerce air volume is roughly flat, while fewer small Canadian firms export south.",
+     "stories": [
+      "us-china-rivalry",
+      "north-america-rulebook"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 5,
+     "trend": "flat",
+     "note": "Every item needs a licensed filer, a bond and a 10-digit classification, with repeal fixed in statute for July 2027.",
+     "stories": [
+      "de-minimis-end",
+      "north-america-rulebook"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Chinese platforms ship in bulk to American warehouses and Mexico's rates push stock into local fulfilment.",
+     "stories": [
+      "us-china-rivalry",
+      "platforms-go-local",
+      "north-america-rulebook"
+     ]
+    }
+   ]
+  },
+  "SA": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 2,
+     "trend": "down",
+     "note": "Brazil's zero federal tax up to $50 and Argentina's higher caps lower landed cost, though ICMS still applies.",
+     "stories": [
+      "latam-split"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 2,
+     "trend": "flat",
+     "note": "No major transit shock, but a 74% jump in Brazilian declarations tests clearance and last-mile capacity at peak.",
+     "stories": [
+      "latam-split"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 2,
+     "trend": "down",
+     "note": "Direct parcels into Brazil and Argentina are growing fast, while Mexico's volume moves into containers.",
+     "stories": [
+      "latam-split",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 3,
+     "trend": "up",
+     "note": "Brazil's new law adds seller vetting and reporting for platforms, and the CBS consumption tax arrives in 2027.",
+     "stories": [
+      "latam-split"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 3,
+     "trend": "up",
+     "note": "Mexico rewards local fulfilment and marketplace logistics gains as Correios loses clearance volume.",
+     "stories": [
+      "latam-split",
+      "north-america-rulebook"
+     ]
+    }
+   ]
+  },
+  "AS": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 3,
+     "trend": "up",
+     "note": "Thailand taxes online imports from 1 baht and US-bound goods pay Section 301 rates of 10% to 12.5%.",
+     "stories": [
+      "asean-digital",
+      "us-china-rivalry"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "up",
+     "note": "Tier 2 transshipment ratings raise the risk of holds on consolidated US-bound shipments.",
+     "stories": [
+      "asean-digital"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 2,
+     "trend": "flat",
+     "note": "Intra-regional parcels keep compounding, with J&T's Southeast Asian volume up 63% in the second quarter.",
+     "stories": [
+      "asean-digital"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 4,
+     "trend": "up",
+     "note": "Origin evidence for US lanes plus Thai, Indonesian and Japanese parcel regimes create parallel tracks.",
+     "stories": [
+      "asean-digital",
+      "de-minimis-end"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 3,
+     "trend": "up",
+     "note": "Barriers on cross-border parcels push stock into in-market fulfilment run by platforms.",
+     "stories": [
+      "asean-digital",
+      "platforms-go-local"
+     ]
+    }
+   ]
+  },
+  "CN": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 4,
+     "trend": "flat",
+     "note": "Exports pay a 12.5% US Section 301 tariff and the EU's per-line duty, while China to Europe air rates have softened.",
+     "stories": [
+      "us-china-rivalry",
+      "eu-customs-reform"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 2,
+     "trend": "flat",
+     "note": "China to Europe air capacity is ample after rates fell, so transit pressure comes mainly from Gulf routing.",
+     "stories": [
+      "platforms-go-local",
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 4,
+     "trend": "up",
+     "note": "Low-value exports to Europe fell 25% in July and air e-commerce exports 40% in August.",
+     "stories": [
+      "platforms-go-local",
+      "eu-customs-reform"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 4,
+     "trend": "up",
+     "note": "Platforms face EU importer liability and DSA fines, and a draft Chinese law adds countermeasures.",
+     "stories": [
+      "eu-customs-reform",
+      "platforms-go-local"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 5,
+     "trend": "up",
+     "note": "Exports through overseas warehouses grew 3.3-fold in the first half, backed by tax rebates.",
+     "stories": [
+      "platforms-go-local"
+     ]
+    }
+   ]
+  },
+  "ME": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 5,
+     "trend": "flat",
+     "note": "Brent above $100, jet fuel roughly doubled and overland detours at four to five times the sea cost.",
+     "stories": [
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 5,
+     "trend": "flat",
+     "note": "Sea transit from China stretched to 35 to 45 days and Jebel Ali volumes are down 90%.",
+     "stories": [
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 3,
+     "trend": "flat",
+     "note": "Middle East to Asia air volumes fell 11% in August, though Dubai's higher duty exemption helps direct parcels.",
+     "stories": [
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 3,
+     "trend": "up",
+     "note": "Sanctions screening on Gulf routings and UAE e-invoicing from January 2027 add obligations.",
+     "stories": [
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 5,
+     "trend": "up",
+     "note": "Cargo moves to Khor Fakkan, Fujairah, Salalah and Saudi Red Sea corridors around Hormuz.",
+     "stories": [
+      "hormuz-fuel"
+     ]
+    }
+   ]
+  },
+  "NAF": {
+   "gauges": [
+    {
+     "dim": "cost",
+     "level": 3,
+     "trend": "flat",
+     "note": "Morocco taxes every e-commerce import, with 40% duty on clothing, and Egypt adds data platform fees.",
+     "stories": [
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "speed",
+     "level": 3,
+     "trend": "down",
+     "note": "Gemini services returning to Suez cut Asia to Europe transit, though Houthi risk keeps a Cape option open.",
+     "stories": [
+      "mena-gateway",
+      "hormuz-fuel"
+     ]
+    },
+    {
+     "dim": "volume",
+     "level": 3,
+     "trend": "flat",
+     "note": "Approval and financing rules keep the formal parcel channel into Algeria and Tunisia narrow.",
+     "stories": [
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "compliance",
+     "level": 4,
+     "trend": "up",
+     "note": "Egypt's advance cargo data, Algeria's import programme and EU carbon rules raise the filing load.",
+     "stories": [
+      "mena-gateway"
+     ]
+    },
+    {
+     "dim": "network",
+     "level": 4,
+     "trend": "up",
+     "note": "Relay moves from Algeciras to Tanger Med and Nador West Med opens a second gateway in the fourth quarter.",
+     "stories": [
+      "mena-gateway"
+     ]
+    }
+   ]
+  }
+ }
+}

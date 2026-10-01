@@ -10,19 +10,27 @@
   "chain": [
     {
       "k": "Geopolitics",
-      "t": "Hormuz: war since February, strait restricted, Brent above $100"
+      "t": "Hormuz: war since February, strait restricted, Brent above $100",
+      "story": "hormuz-fuel",
+      "layer": "geopolitics"
     },
     {
       "k": "Trade",
-      "t": "US–China truce: tariff cuts on ~$30bn each way"
+      "t": "US–China truce: tariff cuts on ~$30bn each way",
+      "story": "us-china-rivalry",
+      "layer": "decision"
     },
     {
       "k": "Customs",
-      "t": "US and EU: small-parcel duty exemption ends"
+      "t": "US and EU: small-parcel duty exemption ends",
+      "story": "de-minimis-end",
+      "layer": "decision"
     },
     {
       "k": "Market",
-      "t": "Local stock, network consolidation, landed price guaranteed at checkout"
+      "t": "Local stock, network consolidation, landed price guaranteed at checkout",
+      "story": "platforms-go-local",
+      "layer": "market"
     }
   ],
   "wire": [
@@ -36,7 +44,11 @@
       "regions": [
         "EU",
         "EMEA"
-      ]
+      ],
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     },
     {
       "style": "coral",
@@ -48,7 +60,11 @@
       "regions": [
         "GLOBAL",
         "CN"
-      ]
+      ],
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
     },
     {
       "style": "lime",
@@ -58,7 +74,11 @@
       "url": "https://www.ipc.be/",
       "regions": [
         "GLOBAL"
-      ]
+      ],
+      "stories": [
+        "de-minimis-end"
+      ],
+      "layer": "parcel"
     },
     {
       "style": "",
@@ -69,7 +89,11 @@
       "regions": [
         "AS",
         "CN"
-      ]
+      ],
+      "stories": [
+        "asean-digital"
+      ],
+      "layer": "market"
     },
     {
       "style": "",
@@ -80,7 +104,11 @@
       "regions": [
         "EU",
         "EMEA"
-      ]
+      ],
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     },
     {
       "style": "blue",
@@ -91,7 +119,11 @@
       "regions": [
         "EU",
         "EMEA"
-      ]
+      ],
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     },
     {
       "style": "",
@@ -102,7 +134,9 @@
       "regions": [
         "UK",
         "EMEA"
-      ]
+      ],
+      "stories": [],
+      "layer": "market"
     }
   ],
   "why": [
@@ -111,21 +145,34 @@
       "title": "Hormuz puts a fuel bill on every air parcel",
       "what": "Brent has been above $100 since the war began in February.",
       "why": "Integrators and Asia–Europe air freight pass it on through fuel surcharges.",
-      "means": "Cross-border margins are squeezed just before peak season."
+      "means": "Cross-border margins are squeezed just before peak season.",
+      "stories": [
+        "hormuz-fuel"
+      ],
+      "layer": "parcel"
     },
     {
       "region": "North America",
       "title": "The $800 free pass is gone. US clearance now runs on data",
       "what": "The de minimis exemption has been suspended indefinitely since 24 June 2026.",
       "why": "Duties are now paid monthly by a designated filer, usually the operator.",
-      "means": "An edge for those who master customs data: classification, origin, value."
+      "means": "An edge for those who master customs data: classification, origin, value.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "layer": "decision"
     },
     {
       "region": "China",
       "title": "A trade truce, but no return to direct small parcels",
       "what": "Tariff cuts on about $30bn of goods each way in September.",
       "why": "The US de minimis exemption is not restored by the truce.",
-      "means": "Platforms keep moving stock into local warehouses."
+      "means": "Platforms keep moving stock into local warehouses.",
+      "stories": [
+        "us-china-rivalry",
+        "platforms-go-local"
+      ],
+      "layer": "decision"
     }
   ],
   "deals": [
@@ -135,7 +182,11 @@
       "deal": "New parcel distribution centre in Maldegem (7,930 m²)",
       "region": "EU",
       "src": "Post & Parcel",
-      "url": "https://postandparcel.info/"
+      "url": "https://postandparcel.info/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     },
     {
       "date": "18 Sep",
@@ -143,7 +194,11 @@
       "deal": "InPost offer: 89.81% of shares tendered",
       "region": "EU",
       "src": "Post & Parcel",
-      "url": "https://postandparcel.info/"
+      "url": "https://postandparcel.info/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     },
     {
       "date": "10 Sep",
@@ -151,7 +206,9 @@
       "deal": "341 electric vans, fleet above 4,000",
       "region": "UK",
       "src": "Post & Parcel",
-      "url": "https://postandparcel.info/"
+      "url": "https://postandparcel.info/",
+      "stories": [],
+      "layer": "market"
     },
     {
       "date": "8 Sep",
@@ -159,7 +216,11 @@
       "deal": "Raised TIM offer: €6.65 a share, two-thirds threshold dropped",
       "region": "EU",
       "src": "Post & Parcel",
-      "url": "https://postandparcel.info/"
+      "url": "https://postandparcel.info/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
     }
   ],
   "global_coming": [
@@ -168,14 +229,23 @@
       "when": "3 Nov 2026",
       "type": "Geopolitics",
       "what": "US midterm elections, with tariffs a key voter issue.",
-      "region": "NA"
+      "region": "NA",
+      "stories": [
+        "us-china-rivalry",
+        "north-america-rulebook"
+      ],
+      "layer": "geopolitics"
     },
     {
       "date": "2026-11-18",
       "when": "18–19 Nov 2026",
       "type": "Geopolitics",
       "what": "APEC leaders’ meeting, Shenzhen.",
-      "region": "CN"
+      "region": "CN",
+      "stories": [
+        "us-china-rivalry"
+      ],
+      "layer": "geopolitics"
     }
   ],
   "sources": [
@@ -330,19 +400,27 @@
     "chain": [
       {
         "k": "EU",
-        "t": "€3 duty per tariff line since July, €2 handling fee per item from 1 November"
+        "t": "€3 duty per tariff line since July, €2 handling fee per item from 1 November",
+        "story": "eu-customs-reform",
+        "layer": "decision"
       },
       {
         "k": "UK",
-        "t": "£135 relief removed by October 2028; Autumn Budget on 28 October"
+        "t": "£135 relief removed by October 2028; Autumn Budget on 28 October",
+        "story": "uk-three-rulebooks",
+        "layer": "decision"
       },
       {
         "k": "Middle East",
-        "t": "Hormuz restricted and no ceasefire: Brent at $104 on 28 September"
+        "t": "Hormuz restricted and no ceasefire: Brent at $104 on 28 September",
+        "story": "hormuz-fuel",
+        "layer": "geopolitics"
       },
       {
         "k": "North Africa",
-        "t": "Tanger Med and Suez rerouting make North Africa Europe's nearest hub"
+        "t": "Tanger Med and Suez rerouting make North Africa Europe's nearest hub",
+        "story": "mena-gateway",
+        "layer": "market"
       }
     ]
   }

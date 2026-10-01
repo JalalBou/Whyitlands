@@ -13,6 +13,13 @@
     "CN",
     "SA"
   ],
+  "stories": [
+    "de-minimis-end",
+    "eu-customs-reform",
+    "platforms-go-local",
+    "uk-three-rulebooks",
+    "latam-split"
+  ],
   "title": "The small-parcel door closes: who pays, who declares, and where volume goes",
   "dek": "The US, the EU, the UK and Japan are ending duty-free treatment for low-value e-commerce parcels, while Brazil has just reopened its door. For carriers and platforms, the question is no longer whether a small parcel pays, but who declares it, on what data and from which warehouse.",
   "keypoints": [
@@ -49,7 +56,7 @@
       ]
     },
     {
-      "p": "The €3 duty is only the first layer. The reformed Union Customs Code entered into force on 20 September 2026, after final approval by the European Parliament on 16 September. It makes online platforms and distance sellers the importer of record for their sales, with general application from 21 September 2027. On 28 September, the Commission adopted a delegated act setting a €2 handling fee on low-value items, now subject to a 30-day objection period and targeted for 1 November 2026. The EU Customs Data Hub opens for e-commerce on 1 July 2028.",
+      "p": "The €3 duty is only the first layer. The reformed Union Customs Code entered into force on 20 September 2026, after final approval by the European Parliament on 16 September. It makes online platforms and distance sellers the importer of record for their sales, with general application from 21 September 2027. On 21 September, the Commission adopted a delegated act setting a €2 handling fee on low-value items, now subject to a 30-day objection period and targeted for 1 November 2026. The EU Customs Data Hub opens for e-commerce on 1 July 2028.",
       "src": [
         9,
         10,

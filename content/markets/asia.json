@@ -31,7 +31,11 @@
           "src": [
             0,
             1
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Higher oil prices raised the transport cost ratio, while international and cross-border e-commerce became the growth engine."
         },
         {
           "name": "ZTO Express",
@@ -60,7 +64,11 @@
           "src": [
             2,
             3
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Fuel added to transport cost per parcel in the quarter, even as pricing discipline lifted average revenue."
         },
         {
           "name": "JD Logistics",
@@ -89,7 +97,12 @@
           "src": [
             4,
             5
-          ]
+          ],
+          "stories": [
+            "platforms-go-local",
+            "hormuz-fuel"
+          ],
+          "exposure": "An overseas warehouse footprint in 26 countries positions it for local stock abroad, while energy cost volatility weighs on costs."
         },
         {
           "name": "Alibaba Group (incl. Cainiao, AliExpress)",
@@ -137,7 +150,11 @@
           ],
           "src": [
             6
-          ]
+          ],
+          "stories": [
+            "platforms-go-local"
+          ],
+          "exposure": "AliExpress reached profit as international sourcing shifted towards local supply, the warehouse moving closer to the buyer."
         },
         {
           "name": "PDD Holdings (Temu, Pinduoduo)",
@@ -165,7 +182,13 @@
           "src": [
             7,
             8
-          ]
+          ],
+          "stories": [
+            "eu-customs-reform",
+            "de-minimis-end",
+            "platforms-go-local"
+          ],
+          "exposure": "EU duties on low-value shipments raised Temu's international costs, and its answer is more local merchants and overseas warehousing."
         },
         {
           "name": "YTO Express",
@@ -190,7 +213,8 @@
           "outlook": "No numeric guidance captured.",
           "src": [
             9
-          ]
+          ],
+          "stories": []
         }
       ],
       "watch": [
@@ -255,7 +279,11 @@
             10,
             11,
             12
-          ]
+          ],
+          "stories": [
+            "asean-digital"
+          ],
+          "exposure": "Southeast Asian parcel growth drove the profit jump, the intra-regional surge at the heart of ASEAN's digital rulebook."
         },
         {
           "name": "Yamato Holdings",
@@ -284,7 +312,11 @@
           "src": [
             13,
             14
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Corporate freight stagnated, including the impact of Middle East geopolitics, while parcel unit prices rose as planned."
         },
         {
           "name": "Japan Post Holdings (Japan Post Co.)",
@@ -326,7 +358,8 @@
           "src": [
             15,
             16
-          ]
+          ],
+          "stories": []
         },
         {
           "name": "Singapore Post",
@@ -353,7 +386,8 @@
           "outlook": "New S$30m automated sortation facility targets more than 10% cost reduction.",
           "src": [
             17
-          ]
+          ],
+          "stories": []
         },
         {
           "name": "Sea Limited (Shopee, SPX Express)",
@@ -400,7 +434,8 @@
           ],
           "src": [
             18
-          ]
+          ],
+          "stories": []
         },
         {
           "name": "Delhivery",
@@ -428,7 +463,11 @@
           "src": [
             19,
             20
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Higher fuel and labour costs grew faster than revenue during the Ecom Express integration."
         }
       ],
       "watch": [

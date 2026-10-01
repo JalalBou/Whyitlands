@@ -86,6 +86,7 @@
     }
     filterSet($$('.bento .tile[data-regions]'));
     filterSet($$('[data-filter-topics] > .topic[data-regions]'));
+    filterSet($$('[data-filter-stories] > .scard[data-regions]'));
     filterSet($$('[data-filter-rows] tr[data-regions]'));
     $$('[data-filter-regions] .bcard').forEach(function (el) {
       var rs = (el.getAttribute('data-regions') || '').split(',');
@@ -122,6 +123,15 @@
   }
 
   /* ---------- Calendar ---------- */
+  var SMAP = {};
+  try { var sm = $('#story-map'); if (sm) SMAP = JSON.parse(sm.textContent); } catch (e) {}
+  var LAYN = { geopolitics: 'lay_geopolitics', decision: 'lay_decision', market: 'lay_market', parcel: 'lay_parcel' };
+  function chipsHtml(stories, layer) {
+    var h = '';
+    if (layer && LAYN[layer]) h += '<span class="lay lay-' + layer + '">' + (t(LAYN[layer]) || layer) + '</span>';
+    (stories || []).forEach(function (k) { if (SMAP[k]) h += '<a class="schip" href="/storylines/' + k + '">' + SMAP[k] + '</a>'; });
+    return h ? '<span class="chips-s">' + h + '</span>' : '';
+  }
   var COMING = [];
   try { var cd = $('#coming-data'); if (cd) COMING = JSON.parse(cd.textContent); } catch (e) {}
   function today() { var d = new Date(); return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }

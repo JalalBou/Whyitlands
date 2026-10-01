@@ -102,6 +102,7 @@ def header(active=""):
 <a class="brand" href="/" aria-label="WhyItLands, home">WhyItLands{PARCEL}</a>
 <span class="tagline">Where it lands, and why.</span>
 <nav class="head-nav" aria-label="Main">
+{nav('/storylines', 'nav_storylines', 'Storylines', 'storylines')}
 {nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
 {nav('/markets', 'nav_markets', 'Market Intelligence', 'markets')}
 {nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
@@ -115,10 +116,11 @@ def header(active=""):
 </header>
 <nav class="tabbar" aria-label="Sections">
 <a href="/" {'aria-current="page"' if active == 'home' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg><span data-i18n="tab_home">Home</span></a>
+<a href="/storylines" {'aria-current="page"' if active == 'storylines' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M6 8l5 8M18 8l-5 8"/></svg><span data-i18n="nav_storylines">Storylines</span></a>
 <a href="/briefings/" {'aria-current="page"' if active == 'briefings' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg><span data-i18n="nav_briefings">Briefings</span></a>
 <a href="/markets" {'aria-current="page"' if active == 'markets' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span data-i18n="tab_markets">Market Intel.</span></a>
 <a href="/doctrines" {'aria-current="page"' if active == 'doctrines' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg><span data-i18n="nav_doctrines">Doctrines</span></a>
-<a href="/#about"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span data-i18n="nav_about">About</span></a>
+
 </nav>
 """
 
@@ -175,7 +177,8 @@ def footer():
 
 def coming_json():
     data = json.dumps(all_coming(), ensure_ascii=False).replace("</", "<\\/")
-    return f'<script type="application/json" id="coming-data">{data}</script>\n'
+    smap = json.dumps({k: v["short"] for k, v in STORIES.items()}, ensure_ascii=False)
+    return f'<script type="application/json" id="coming-data">{data}</script>\n<script type="application/json" id="story-map">{smap}</script>\n'
 
 
 def filters():
@@ -256,17 +259,18 @@ def hero_block(k):
     if k == "GLOBAL":
         h = home["hero"]
         kicker, title, em, dek = h["kicker"], h["title"], h["title_em"], h["dek"]
-        chain = [(c["k"], c["t"]) for c in home["chain"]]
+        chain = [(c["k"], c["t"], c.get("story")) for c in home["chain"]]
     elif k == "EMEA":
         e = home["emea"]
         kicker, title, em, dek = e["kicker"], e["title"], e["title_em"], e["dek"]
-        chain = [(c["k"], c["t"]) for c in e["chain"]]
+        chain = [(c["k"], c["t"], c.get("story")) for c in e["chain"]]
     else:
         r = regions[k]
         kicker = RNAME[k] + " · " + b["date_label"]
         title, em, dek = r["headline"], "", plain(b["dek"])
-        chain = [("", plain(x)) for x in b["keypoints"][:4]]
-    ch = "".join(f'<li><span class="n">{n}</span><div>{("<b>" + E(lbl.upper()) + "</b>") if lbl else ""}<span>{E(t)}</span></div></li>' for n, (lbl, t) in enumerate(chain, 1))
+        sk = (b.get("stories") or [None])[0]
+        chain = [("", plain(x), sk) for x in b["keypoints"][:4]]
+    ch = "".join((f'<li><a class="chain-a" href="/storylines/{st}">' if st in STORIES else '<li>') + f'<span class="n">{n}</span><div>{("<b>" + E(lbl.upper()) + "</b>") if lbl else ""}<span>{E(t)}</span>{"<em class=chain-go>" + E(STORIES[st]["short"]) + " →</em>" if st in STORIES else ""}</div>' + ('</a></li>' if st in STORIES else '</li>') for n, (lbl, t, st) in enumerate(chain, 1))
     return f"""<section class="hero" data-show="{k}"{'' if k == 'GLOBAL' else ' hidden'}>{ARCS}
 <div class="wrap hero-grid">
 <div><span class="kicker">{E(kicker)}</span>
@@ -304,18 +308,18 @@ def why_cards():
     out = []
     for w in home["why"]:
         code = RN_CODE.get(w["region"], "GLOBAL")
-        out.append((show_for("GLOBAL", code), w["region"], w["title"], w["what"], w["why"], w["means"], None))
+        out.append((show_for("GLOBAL", code), w["region"], w["title"], w["what"], w["why"], w["means"], None, w.get("stories")))
     for b in briefings:
         k = b.get("region", "GLOBAL")
         if k == "GLOBAL":
             continue
         imp = next((x["impact"] for x in b["body"] if "impact" in x), "")
-        out.append((show_for(k), RNAME.get(k, k), b["title"], plain(b["keypoints"][0]), plain(b["keypoints"][1]) if len(b["keypoints"]) > 1 else "", plain(imp), b["slug"]))
+        out.append((show_for(k), RNAME.get(k, k), b["title"], plain(b["keypoints"][0]), plain(b["keypoints"][1]) if len(b["keypoints"]) > 1 else "", plain(imp), b["slug"], b.get("stories")))
     cards = []
-    for sh, reg, title, what, why, means, slug in out:
+    for sh, reg, title, what, why, means, slug, sts in out:
         link = f'<a class="more" href="/briefings/{slug}" data-i18n="read_briefing">Read the briefing</a>' if slug else ""
         cards.append(f"""<article class="why" data-show="{sh}"><span class="kicker">{E(reg)}</span><h3>{E(title)}</h3>
-<dl><div><dt data-i18n="what_happened">What happened</dt><dd>{E(what)}</dd></div><div><dt data-i18n="why">Why</dt><dd>{E(why)}</dd></div><div><dt data-i18n="what_means">What it means</dt><dd>{E(means)}</dd></div></dl>{link}</article>""")
+<dl><div><dt data-i18n="what_happened">What happened</dt><dd>{E(what)}</dd></div><div><dt data-i18n="why">Why</dt><dd>{E(why)}</dd></div><div><dt data-i18n="what_means">What it means</dt><dd>{E(means)}</dd></div></dl>{story_chips(sts)}{link}</article>""")
     return "".join(cards)
 
 
@@ -326,9 +330,10 @@ def page_home():
         if w.get("big"): inner += f'<span class="big">{E(w["big"])}</span>'
         if w.get("lede"): inner += f'<p class="lede">{E(w["lede"])}</p>'
         if w.get("text"): inner += f'<p>{E(w["text"])}</p>'
+        inner += story_chips(w.get("stories"), w.get("layer"))
         inner += f'<span class="src">{src_link(w["src"], w.get("url"))}</span>'
         tiles.append(f'<article class="tile {w["style"]}" data-regions="{",".join(w.get("regions", []))}">{inner}</article>')
-    deals = "".join(f'<tr data-regions="{E(d["region"])}"><td class="date">{E(d["date"])}</td><td class="co">{E(d["co"])}</td><td>{E(d["deal"])}</td><td><span class="pill">{E(d["region"])}</span></td><td>{src_link(d["src"], d.get("url"))}</td></tr>' for d in home["deals"])
+    deals = "".join(f'<tr data-regions="{E(d["region"])}"><td class="date">{E(d["date"])}</td><td class="co">{E(d["co"])}</td><td>{E(d["deal"])}{story_chips(d.get("stories"), d.get("layer"))}</td><td><span class="pill">{E(d["region"])}</span></td><td>{src_link(d["src"], d.get("url"))}</td></tr>' for d in home["deals"])
     srcs = "".join(f'<div class="src-card"><div class="kicker">{E(s["k"])}</div><p>' + " · ".join(E(n) + (f'<span class="lng">{l}</span>' if l else "") for n, l in s["items"]) + "</p></div>" for s in home["sources"])
     heroes = "".join(hero_block(k) for k in REGION_ORDER)
     mk = "".join(home_market_block(k) for k in REGION_ORDER)
@@ -337,7 +342,7 @@ def page_home():
     out += header("home") + regionbar(REGION_ORDER, "GLOBAL")
     out += f"""<main id="main" data-region-page>
 {heroes}
-
+{home_barometer()}
 <section class="intro-video"><div class="wrap iv-grid">
 <div class="iv-text"><div class="kicker" data-i18n="iv_kicker">WhyItLands in 90 seconds</div>
 <h2 data-i18n="iv_title">Everyone sees what happens. We explain why.</h2>
@@ -348,7 +353,8 @@ def page_home():
 <button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:37</span></button></div>
 </div></section>
 
-<section class="section"><div class="wrap">
+{home_storylines()}
+<section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
 <div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
 </div></section>
@@ -492,7 +498,7 @@ def bcard(b, big=False):
     regs = ",".join(b.get("regions", []))
     return (f'<a class="bcard{" big" if big else ""}" href="/briefings/{b["slug"]}" data-regions="{regs}" data-primary="{b.get("region", "GLOBAL")}" data-date="{b["date"]}" data-text="{E((b["title"] + " " + plain(b["dek"]) + " " + b["section"]).lower())}">'
             f'<span class="kicker">{E(b["section"])}</span><h3>{E(b["title"])}</h3><p>{E(plain(b["dek"]))}</p>'
-            f'<span class="bmeta">{E(b["date_label"])}{(" · updated " + E(date_label(b["updated"]))) if b.get("updated") else ""} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
+            f'{story_chips((b.get("stories") or [])[:2], link=False)}<span class="bmeta">{E(b["date_label"])}{(" · updated " + E(date_label(b["updated"]))) if b.get("updated") else ""} · {reading_minutes(b)} <span data-i18n="min_read">min read</span></span></a>')
 
 
 def desk_briefings(k):
@@ -513,7 +519,7 @@ def sol_cites(idx):
 def topic_html(tp, compact=False):
     players = "".join(f"""<article class="pl"><div class="pl-top"><h4>{E(x['name'])}</h4><span class="pl-type">{E(x.get('type', ''))}</span></div><p>{E(x.get('what', ''))}</p><p class="pl-pos">{E(x.get('position', ''))}</p><p class="pl-src">{sol_cites(x.get('src'))}</p></article>""" for x in sorted(tp["players"], key=lambda x: x["name"].lower()))
     head_ = "" if compact else f'<h3>{E(tp["title"])}</h3>'
-    return f"""<div class="topic" id="sol-{E(tp['key'])}" data-regions="{','.join(tp.get('regions', []))}">{head_}<p class="need"><b data-i18n="sol_need">What the rule requires</b> {E(tp.get('need', ''))}</p><div class="pls">{players}</div>{('<p class="sol-watch"><b data-i18n="sol_watch">Still moving</b> ' + E(tp['watch']) + '</p>') if tp.get('watch') else ''}</div>"""
+    return f"""<div class="topic" id="sol-{E(tp['key'])}" data-regions="{','.join(tp.get('regions', []))}">{head_}{story_chips(tp.get('stories'), 'decision')}<p class="need"><b data-i18n="sol_need">What the rule requires</b> {E(tp.get('need', ''))}</p><div class="pls">{players}</div>{('<p class="sol-watch"><b data-i18n="sol_watch">Still moving</b> ' + E(tp['watch']) + '</p>') if tp.get('watch') else ''}</div>"""
 
 
 def page_briefing(b):
@@ -584,6 +590,7 @@ def page_briefing(b):
 <div class="art">
 <div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{kp}</ul>
 <div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the C-suite actions</a></div></div>
+{('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
 {lang_note()}
 <nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
 <span id="listen"></span>{audio}
@@ -681,6 +688,7 @@ def company_card(c):
 <div class="kpis">{kpi('Revenue', c.get('revenue'), c.get('revenue_chg'))}{kpi(c.get('ebit_label') or 'Operating profit', c.get('ebit'), c.get('ebit_chg'), margin)}</div>
 {('<p class="co-vol"><b data-i18n="mk_volumes">Volumes</b> ' + E(c['volume']) + '</p>') if c.get('volume') else ''}
 {('<p class="co-prev"><b data-i18n="mk_trend">Trend</b> ' + E(c['vs_prev']) + '</p>') if c.get('vs_prev') else ''}
+{('<p class="co-why"><b data-i18n="mk_why">Why</b> ' + E(c['exposure']) + '</p>') if c.get('exposure') else ''}{story_chips(c.get('stories'))}
 <div class="co-cols"><div><div class="kicker" data-i18n="mk_drivers">What drove it</div><ul>{lst(c.get('highlights'))}</ul></div><div><div class="kicker" style="color:var(--coral)" data-i18n="mk_challenges">Main challenges</div><ul>{lst(c.get('challenges'))}</ul></div></div>
 {segs}
 {('<p class="co-out"><b data-i18n="mk_outlook">Outlook</b> ' + E(c['outlook']) + '</p>') if c.get('outlook') else ''}
@@ -792,6 +800,137 @@ def page_briefing_version(b):
     return html_.replace('<main id="main">', f'<main id="main"><div class="ar-banner"><div class="wrap"><span data-i18n="ar_banner_b">Archived version</span> · {E(date_label(b["_ver"]))} · <a href="/briefings/{E(b["slug"])}" data-i18n="ar_latest">Read the latest version</a></div></div>', 1).replace(f'<link rel="canonical" href="{BASE}/briefings/{b["slug"]}">', f'<link rel="canonical" href="{BASE}/briefings/{b["slug"]}"><meta name="robots" content="noindex">')
 
 
+# ---------- Storylines (golden thread) ----------
+_stp = C / "storylines.json"
+STORYDATA = json.loads(_stp.read_text()) if _stp.exists() else {"storylines": [], "sources": []}
+STORIES = {s["key"]: s for s in STORYDATA["storylines"]}
+_bp = C / "barometer.json"
+BARO = json.loads(_bp.read_text()) if _bp.exists() else None
+LAYERS = [("geopolitics", "Geopolitics"), ("decision", "Decision & law"), ("market", "Market"), ("parcel", "Parcel impact")]
+LAYER_NAME = dict(LAYERS)
+DIMS = [("cost", "Cost"), ("speed", "Speed"), ("volume", "Volume"), ("compliance", "Compliance"), ("network", "Network")]
+DIM_NAME = dict(DIMS)
+
+
+def story_chips(keys, layer=None, link=True):
+    keys = [k for k in (keys or []) if k in STORIES]
+    if not keys and not layer:
+        return ""
+    lay = f'<span class="lay lay-{layer}" data-i18n="lay_{layer}">{E(LAYER_NAME.get(layer, layer))}</span>' if layer in LAYER_NAME else ""
+    ch = "".join((f'<a class="schip" href="/storylines/{k}">' if link else '<span class="schip">') + E(STORIES[k]["short"]) + ('</a>' if link else '</span>') for k in keys)
+    return f'<span class="chips-s">{lay}{ch}</span>'
+
+
+def st_cites(idx):
+    S = STORYDATA["sources"]
+    idx = [n for n in (idx or []) if isinstance(n, int) and 0 <= n < len(S)]
+    return ('<sup class="cite">' + "".join(f'<a href="#s-{n + 1}" title="{E(S[n].get("pub") or S[n]["t"])}">{n + 1}</a>' for n in idx) + "</sup>") if idx else ""
+
+
+ARROW = {"up": "↑", "down": "↓", "mixed": "↕", "flat": "→"}
+
+
+def mini_chain(s):
+    c = s["chain"]
+    first = lambda L: plain(c.get(L, [{}])[0].get("text", "")) if c.get(L) else ""
+    return "".join(f'<li class="mc-{L}"><b data-i18n="lay_{L}">{E(n)}</b><span>{E(first(L))}</span></li>' for L, n in LAYERS)
+
+
+def story_card(s):
+    return f"""<a class="scard" href="/storylines/{s['key']}" data-regions="{','.join(s.get('regions', []))}"><span class="kicker">{E(' · '.join(RNAME.get(r, r) for r in s.get('regions', [])))}</span><h3>{E(s['title'])}</h3><p>{E(plain(s['why']))}</p><ol class="minichain">{mini_chain(s)}</ol></a>"""
+
+
+def company_region(name):
+    for k, m in MARKETS.items():
+        for c in m["companies"]:
+            if c["name"] == name:
+                return k
+    return None
+
+
+def page_story(s):
+    c = s["chain"]
+    cols = []
+    for L, n in LAYERS:
+        items = []
+        for it in c.get(L, []):
+            if L == "parcel":
+                items.append(f'<li><span class="pdim">{ARROW.get(it.get("dir"), "")} <span data-i18n="dim_{it.get("dim")}">{E(DIM_NAME.get(it.get("dim"), it.get("dim", "")))}</span></span><p>{E(plain(it["text"]))}{st_cites(it.get("src"))}</p></li>')
+            else:
+                stt = f'<span class="pill st-{E(it.get("status", "").replace(" ", "-"))}">{E(it.get("status", ""))}</span>' if it.get("status") else ""
+                items.append(f'<li><span class="tl-when">{E(it.get("date", ""))}</span>{stt}<p>{E(plain(it["text"]))}{st_cites(it.get("src"))}</p></li>')
+        cols.append(f'<div class="layer layer-{L}"><div class="layer-h"><span class="ln">{LAYERS.index((L, n)) + 1}</span><span data-i18n="lay_{L}">{E(n)}</span></div><ul>{"".join(items)}</ul></div>')
+    docs = "".join(f'<a class="schip" href="/doctrines#{E(k)}">{E(next((x["name"] for x in (doctrines or {}).get("schools", []) if x["key"] == k), k))}</a>' for k in s.get("doctrines", []))
+    bys = {b["slug"]: b for b in briefings}
+    brs = "".join(bcard(bys[x]) for x in s.get("briefings", []) if x in bys)
+    cos = "".join(f'<a class="schip" href="/markets#{(company_region(n) or "global").lower()}">{E(n)}</a>' for n in s.get("companies", []))
+    sols = "".join(f'<a class="schip" href="/markets#solutions">{E(next((t["title"] for t in (SOL or {}).get("topics", []) if t["key"] == k), k))}</a>' for k in s.get("solutions", []))
+    nxt = "".join(f'<li><span class="tl-when">{E(x["date"])}</span><span>{E(x["text"])}</span></li>' for x in s.get("next", []))
+    used = sorted({n for L, _ in LAYERS for it in c.get(L, []) for n in (it.get("src") or [])})
+    S = STORYDATA["sources"]
+    srcs = "".join(f'<li id="s-{n + 1}" value="{n + 1}"><a href="{E(S[n]["u"])}" rel="noopener">{E(S[n]["t"])}</a>{(" · " + E(S[n]["pub"])) if S[n].get("pub") else ""}</li>' for n in used if n < len(S))
+    others = "".join(story_card(x) for x in STORYDATA["storylines"] if x["key"] != s["key"] and set(x.get("regions", [])) & set(s.get("regions", [])))[:0] or ""
+    out = head(f"{s['title']} · WhyItLands", plain(s["why"]), f"/storylines/{s['key']}")
+    out += header("storylines")
+    out += f"""<main id="main">
+<section class="rhero"><div class="wrap"><div class="kicker"><span data-i18n="st_kicker">Storyline</span> · {E(' · '.join(RNAME.get(r, r) for r in s.get('regions', [])))}</div><h1>{E(s['title'])}</h1><p>{E(plain(s['why']))}</p></div></section>
+<section class="section"><div class="wrap">
+<div class="section-head"><div><div class="kicker" data-i18n="st_chain_k">The chain</div><h2 data-i18n="st_chain_h">From geopolitics to the parcel</h2></div></div>
+<div class="chain4">{''.join(cols)}</div>
+<div class="st-read"><div class="kicker" data-i18n="mk_our_read">Our read</div><p>{E(plain(s.get('our_read', '')))}</p></div>
+{('<h3 class="st-sub" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
+{('<h3 class="st-sub" data-i18n="st_lens">The lens behind the decisions</h3><div class="chips-row">' + docs + '</div>') if docs else ''}
+{('<h3 class="st-sub" data-i18n="st_cos">Companies visibly affected</h3><div class="chips-row">' + cos + '</div>') if cos else ''}
+{('<h3 class="st-sub" data-i18n="st_sols">Solution landscape</h3><div class="chips-row">' + sols + '</div>') if sols else ''}
+{('<h3 class="st-sub" data-i18n="st_brs">Read the full analysis</h3><div class="bgrid">' + brs + '</div>') if brs else ''}
+<section class="sources-list" style="max-width:860px"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
+<p style="margin-top:24px"><a class="btn btn-ink" href="/storylines" data-i18n="st_all">All storylines →</a></p>
+</div></section></main>
+"""
+    return out + footer()
+
+
+def page_storylines():
+    cards = "".join(story_card(s) for s in STORYDATA["storylines"])
+    out = head("Storylines · WhyItLands", "Each storyline follows one chain, from geopolitics to decisions and laws, to market reactions, to the impact on parcels.", "/storylines")
+    out += header("storylines") + regionbar(REGION_ORDER, "GLOBAL")
+    out += f"""<main id="main" data-region-page><section class="rhero"><div class="wrap"><div class="kicker" data-i18n="st_kicker_all">Storylines</div><h1 data-i18n="st_h1">The why behind the whats.</h1><p>{E(plain(STORYDATA.get('intro', '')))}</p>
+<ol class="legend4">{''.join(f'<li class="mc-{L}"><b data-i18n="lay_{L}">{E(n)}</b></li>' for L, n in LAYERS)}</ol></div></section>
+<section class="section"><div class="wrap"><div class="sgrid" data-filter-stories>{cards}</div></div></section></main>
+"""
+    return out + footer()
+
+
+def barometer_block(k):
+    if not BARO or k not in BARO.get("regions", {}):
+        return ""
+    gs = []
+    for g in BARO["regions"][k]["gauges"]:
+        lv = int(g.get("level", 0))
+        segs = "".join(f'<i class="{"on" if n < lv else ""}"></i>' for n in range(5))
+        st = "".join(f'<a href="/storylines/{x}">{E(STORIES[x]["short"])}</a>' for x in g.get("stories", []) if x in STORIES)
+        gs.append(f'<div class="gauge lv{lv}"><div class="g-top"><span data-i18n="dim_{g["dim"]}">{E(DIM_NAME.get(g["dim"], g["dim"]))}</span><span class="g-tr tr-{g.get("trend")}">{ARROW.get(g.get("trend"), "")}</span></div><div class="g-bar">{segs}</div><p>{E(g.get("note", ""))}</p><div class="g-st">{st}</div></div>')
+    return f'<div class="baro" data-show="{k}"{"" if k == "GLOBAL" else " hidden"}>{"".join(gs)}</div>'
+
+
+def home_barometer():
+    if not BARO:
+        return ""
+    return f"""<section class="section baro-sec"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="baro_kicker">Parcel barometer</span> · <span data-current-region>GLOBAL</span></div><h2 data-i18n="baro_h">Pressure on the parcel, and why.</h2></div><a class="more" href="/storylines" data-i18n="st_all">All storylines →</a></div>
+{''.join(barometer_block(k) for k in REGION_ORDER)}
+<p class="method-note">{E(BARO.get('note', ''))} · <span data-i18n="baro_asof">As of</span> {E(date_label(BARO.get('as_of', home.get('edition', ''))))}</p>
+</div></section>"""
+
+
+def home_storylines():
+    if not STORYDATA["storylines"]:
+        return ""
+    return f"""<section class="section" style="padding-top:0"><div class="wrap">
+<div class="section-head"><div><div class="kicker"><span data-i18n="st_kicker_all">Storylines</span> · <span data-current-region>GLOBAL</span></div><h2 data-i18n="st_home_h">Follow the thread</h2></div><a class="more" href="/storylines" data-i18n="st_all">All storylines →</a></div>
+<div class="sgrid" data-filter-stories>{''.join(story_card(s) for s in STORYDATA['storylines'])}</div></div></section>"""
+
+
 def page_glossary():
     rows = "".join(f'<div id="g-{E(k)}" style="padding:14px 0;border-top:1px solid var(--line)"><dt style="font-weight:600"><span style="font:500 14px var(--mono);color:var(--blue-ink);margin-right:10px">{E(k)}</span>{E(v[0])}</dt><dd style="margin:4px 0 0;color:var(--muted-2)">{E(v[1])}</dd></div>' for k, v in sorted(gloss.items()))
     out = head("Glossary · WhyItLands", "Acronyms used across WhyItLands briefings, from customs and trade to logistics and institutions.", "/glossary")
@@ -855,6 +994,9 @@ if doctrines:
     write("doctrines.html", page_doctrines())
 if MARKETS:
     write("markets.html", page_markets())
+write("storylines.html", page_storylines())
+for _s in STORYDATA["storylines"]:
+    write(f"storylines/{_s['key']}.html", page_story(_s))
 write("archive.html", page_archive())
 for _a in ARCH:
     write(f"archive/{_a['edition']}.html", page_edition(_a))
@@ -888,7 +1030,7 @@ out += """<main id="main" class="prose" style="text-align:center;padding-bottom:
 })();
 </script>"""
 write("confirmed.html", out + footer())
-urls = ["/", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings]
+urls = ["/", "/storylines", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings] + [f"/storylines/{x['key']}" for x in STORYDATA["storylines"]]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

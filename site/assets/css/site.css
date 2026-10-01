@@ -485,3 +485,65 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .ed-links{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;font-weight:600}
 .ar-banner{background:var(--lime);font-size:14px;font-weight:600;padding:10px 0}
 @media (max-width:720px){.ed{grid-template-columns:1fr;gap:6px}}
+
+/* Golden thread: storylines, layers, barometer */
+.chips-s{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}
+.lay{display:inline-flex;align-items:center;gap:5px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lay::before{content:"";width:8px;height:8px;border-radius:2px;background:currentColor}
+.lay-geopolitics{color:#D9431F}.lay-decision{color:var(--blue)}.lay-market{color:#3B4152}.lay-parcel{color:#5E7212}
+.tile.dark .lay,.tile.coral .lay,.tile.blue .lay{color:#fff}
+.schip{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:999px;background:var(--paper);border:1px solid var(--line);font:600 12px var(--sans);color:var(--ink);text-decoration:none;white-space:nowrap}
+.schip:hover{background:var(--ink);color:#fff}
+.tile.dark .schip,.tile.coral .schip,.tile.blue .schip{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.25);color:#fff}
+.bcard.big .schip{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.2);color:#fff}
+.chain-a{display:grid;grid-template-columns:34px 1fr;gap:12px;color:inherit;text-decoration:none}
+.chain li:has(.chain-a){display:block}
+.chain-a:hover span{color:#fff}
+.chain-go{display:block;font:600 12px var(--sans);font-style:normal;color:var(--lime);margin-top:4px}
+.sgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.scard{background:var(--card);border-radius:var(--r-lg);padding:24px;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:var(--ink);border:1px solid rgba(11,15,26,.05);transition:transform .25s,box-shadow .25s}
+.scard:hover{transform:translateY(-3px);box-shadow:0 22px 50px -30px rgba(11,15,26,.45);color:var(--ink)}
+.scard .kicker{color:var(--coral)}
+.scard h3{font-size:26px;line-height:1.1}
+.scard p{font-size:14px;color:var(--muted-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.minichain,.legend4{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:0}
+.minichain li{display:grid;grid-template-columns:104px 1fr;gap:10px;padding:7px 0 7px 12px;border-left:3px solid;font-size:13px;color:var(--muted-2);line-height:1.35}
+.minichain li span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.minichain b,.legend4 b{font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.mc-geopolitics{border-color:var(--coral)!important}.mc-decision{border-color:var(--blue)!important}.mc-market{border-color:var(--ink)!important}.mc-parcel{border-color:#9DBB1F!important}
+.legend4{flex-direction:row;gap:10px;margin-top:22px;flex-wrap:wrap}
+.legend4 li{border-left:4px solid;padding:4px 10px}
+.legend4 b{color:#fff}
+.chain4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;position:relative}
+.layer{background:var(--card);border-radius:var(--r-md);padding:18px;border-top:6px solid}
+.layer-geopolitics{border-color:var(--coral)}.layer-decision{border-color:var(--blue)}.layer-market{border-color:var(--ink)}.layer-parcel{border-color:#9DBB1F;background:#FAFDEB}
+.layer-h{display:flex;align-items:center;gap:10px;font:700 15px var(--sans);margin-bottom:10px}
+.layer-h .ln{width:26px;height:26px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font:500 12px var(--mono)}
+.layer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.layer li{border-top:1px solid var(--line);padding-top:10px}
+.layer li:first-child{border-top:0;padding-top:0}
+.layer p{font-size:14px;line-height:1.5;color:#1B2030;margin:4px 0 0}
+.layer .pill{margin-left:6px;height:20px;font-size:10px}
+.st-in-force{background:var(--coral-soft);color:var(--coral-ink)}.st-adopted{background:var(--blue-soft);color:var(--blue-ink)}.st-proposed,.st-expected{background:var(--lime-soft);color:var(--lime-ink)}
+.pdim{font:700 13px var(--sans);color:var(--ink)}
+.st-read{background:var(--ink);color:#fff;border-radius:var(--r-lg);padding:24px 28px;margin:22px 0}
+.st-read .kicker{color:var(--lime)}.st-read p{color:#E6E8EF;font-size:17px;margin-top:8px;max-width:900px}
+.st-sub{font-size:26px;margin:28px 0 12px}
+.chips-row{display:flex;flex-wrap:wrap;gap:8px}
+.chips-row .schip{height:32px;font-size:14px;padding:0 14px;background:#fff}
+.baro-sec{background:#fff;padding:clamp(36px,5vw,64px) 0}
+.baro{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.gauge{background:var(--paper);border-radius:var(--r-md);padding:16px;display:flex;flex-direction:column;gap:8px}
+.g-top{display:flex;justify-content:space-between;align-items:center;font:700 16px var(--sans)}
+.g-tr{font:700 20px var(--sans)}.tr-up{color:var(--coral)}.tr-down{color:#2F7A1F}.tr-flat{color:var(--muted)}
+.g-bar{display:grid;grid-template-columns:repeat(5,1fr);gap:3px}
+.g-bar i{height:8px;border-radius:2px;background:rgba(11,15,26,.1)}
+.lv1 .g-bar i.on{background:#9DBB1F}.lv2 .g-bar i.on{background:#C8D84A}.lv3 .g-bar i.on{background:#F2B33D}.lv4 .g-bar i.on{background:#FF8A5A}.lv5 .g-bar i.on{background:var(--coral)}
+.gauge p{font-size:13px;line-height:1.45;color:var(--muted-2);margin:0}
+.g-st{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
+.g-st a{font:600 11px var(--sans);text-decoration:none;color:var(--blue-ink);background:var(--blue-soft);border-radius:999px;padding:2px 8px}
+.part-of{margin:-16px 0 24px;font-size:15px;font-weight:600}
+.part-of span{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.co-why{background:var(--blue-soft);padding:8px 12px;border-radius:10px}
+@media (max-width:1020px){.sgrid{grid-template-columns:1fr 1fr}.chain4{grid-template-columns:1fr 1fr}.baro{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:720px){.sgrid,.chain4{grid-template-columns:1fr}.baro{grid-template-columns:1fr 1fr}.minichain li{grid-template-columns:90px 1fr}}

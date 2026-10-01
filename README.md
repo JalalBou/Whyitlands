@@ -44,6 +44,10 @@ Until these are set, the forms answer with a polite error and nothing is sent.
 PostHog (EU region), cookieless (`persistence: memory`), no session recording. Paste the project key in `site/assets/js/config.js`.
 Tracked events: `region_selected`, `language_selected`, `calendar_filtered`, `audio_played`, `audio_completed`, `acronym_opened`, `source_opened`, `scroll_depth`, `newsletter_signup`, `contact_opened`, `contact_sent`, `feedback_sent`.
 
+## The golden thread
+
+Every item is linked to a storyline (`content/storylines.json`, 11 storylines) and to a layer of the causal model: geopolitics → decision & law → market → parcel impact. Tag new items with `"stories": [...]` and `"layer"` (wire, deals, calendar, companies, solution topics, briefings). The parcel barometer (`content/barometer.json`) is our weekly reading of pressure on cost, speed, volume, compliance and network per region.
+
 ## Editorial rules
 
 - Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. Never mention Asendia.

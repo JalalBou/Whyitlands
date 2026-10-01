@@ -28,7 +28,9 @@
             "Net margin still thin at 2.6%"
           ],
           "outlook": "No numerical guidance; management points to Accelerate28 and a diversified multimodal model to sustain growth.",
-          "src": [0, 1]
+          "src": [0, 1],
+          "stories": ["hormuz-fuel"],
+          "exposure": "Customers paid for alternative routes around the Gulf disruption, lifting freight forwarding to a record while rerouting raised costs."
         },
         {
           "name": "Emirates Group (Emirates SkyCargo, dnata)",
@@ -59,7 +61,9 @@
             {"name": "Emirates SkyCargo", "revenue": "AED16.2bn", "ebit": "not disclosed", "note": "2.4m tonnes (+3%), yield -3%"},
             {"name": "dnata", "revenue": "AED23.6bn (+12%)", "ebit": "PBT AED1.6bn (+2%)", "note": "Profit after tax -4%"}
           ],
-          "src": [2, 3]
+          "src": [2, 3],
+          "stories": ["hormuz-fuel"],
+          "exposure": "The Middle East conflict disrupted Dubai hub operations from late February, on top of weaker cargo yields."
         },
         {
           "name": "DP World",
@@ -90,7 +94,9 @@
             {"name": "Logistics, Parks and Economic Zones", "revenue": "US$5.9bn (+24.2%)", "ebit": "Adj. EBITDA US$682m (+6.1%)", "note": "11.6% margin"},
             {"name": "Marine Services", "revenue": "US$2.3bn (+7.2%)", "ebit": "Adj. EBITDA US$494m", "note": "Revenue +7.2%"}
           ],
-          "src": [4, 5, 6]
+          "src": [4, 5, 6],
+          "stories": ["hormuz-fuel"],
+          "exposure": "Hormuz disruption cut vessel calls at Jebel Ali, and the Fujairah terminals are its answer to reduce dependence on the strait."
         },
         {
           "name": "Agility Global",
@@ -116,7 +122,9 @@
             "Menzies EBIT only +5% against +31% revenue"
           ],
           "outlook": "No numerical guidance; management confident in the Saudi logistics market and its development pipeline.",
-          "src": [7]
+          "src": [7],
+          "stories": ["hormuz-fuel"],
+          "exposure": "Regional disruption closed Menzies' Kuwait operations and higher fuel costs pressured margins."
         },
         {
           "name": "SPL (Saudi Post) / Naqel Express",
@@ -125,7 +133,8 @@
           "revenue": "not disclosed",
           "vs_prev": "SPL is state-owned and does not publish periodic financial results; Naqel Express, fully acquired by SPL, is not separately reported.",
           "outlook": "No published figures available; excluded from quantitative comparison.",
-          "src": []
+          "src": [],
+          "stories": []
         }
       ],
       "watch": []
@@ -157,7 +166,9 @@
             "Limited interim disclosure: 2026 performance not yet visible"
           ],
           "outlook": "No numerical guidance published.",
-          "src": [8, 9, 10]
+          "src": [8, 9, 10],
+          "stories": ["mena-gateway"],
+          "exposure": "Added container capacity supports its role as Europe's nearest gateway, though 2026 performance is not yet disclosed."
         },
         {
           "name": "Marsa Maroc",
@@ -183,7 +194,9 @@
             "Operating expenses excluding depreciation +4.7%"
           ],
           "outlook": "No numerical guidance; focus on Nador West Med ramp-up and international expansion.",
-          "src": [11, 12]
+          "src": [11, 12],
+          "stories": ["mena-gateway"],
+          "exposure": "Heavy investment in Nador West Med builds Morocco's second gateway to Europe, while transshipment volumes dipped."
         },
         {
           "name": "Jumia",
@@ -209,7 +222,8 @@
             "Weaker demand in Ivory Coast on lower cocoa farmgate prices"
           ],
           "outlook": "2026 GMV +20-30% (perimeter-adjusted), Q3 GMV +15-25%; adjusted EBITDA loss US$25-30m; breakeven targeted in Q4 2026 and full-year profitability in 2027.",
-          "src": [13]
+          "src": [13],
+          "stories": []
         },
         {
           "name": "Barid Al-Maghrib",
@@ -222,7 +236,8 @@
           "segments": [
             {"name": "Al Barid Bank", "revenue": "Net banking income MAD3.2bn", "ebit": "Net income MAD930.5m (+61.7%)", "note": "Banking arm; not representative of mail and parcel economics"}
           ],
-          "src": [14]
+          "src": [14],
+          "stories": []
         }
       ],
       "watch": []

@@ -48,7 +48,12 @@
             2,
             3,
             22
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel",
+            "us-china-rivalry"
+          ],
+          "exposure": "Fuel expense jumped with the Hormuz war and tariff changes weighed on international flows, so yield increases carried the quarter."
         },
         {
           "name": "UPS",
@@ -97,7 +102,11 @@
           "src": [
             4,
             5
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "More than half of the international revenue-per-piece gain came from fuel surcharges, yet international margin still fell: the fuel shock lifts revenue, not profit."
         },
         {
           "name": "Amazon",
@@ -146,7 +155,12 @@
           "src": [
             6,
             7
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel",
+            "us-china-rivalry"
+          ],
+          "exposure": "Middle East fuel and line-haul costs pushed up shipping costs, while most tariff costs were absorbed and partly offset by tariff refunds."
         }
       ],
       "watch": [
@@ -186,7 +200,11 @@
           "src": [
             8,
             9
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Fuel-related transportation costs add to the pressure, but the main drags remain domestic: falling parcel volumes and the debt limit."
         },
         {
           "name": "Canada Post (incl. Purolator)",
@@ -236,7 +254,8 @@
             10,
             11,
             21
-          ]
+          ],
+          "stories": []
         }
       ],
       "watch": [
@@ -297,7 +316,11 @@
             12,
             13,
             14
-          ]
+          ],
+          "stories": [
+            "latam-split"
+          ],
+          "exposure": "Fast cross-border growth through its China fulfilment centre shows Brazil's open door to small imports feeding volume, at the cost of shipping subsidies."
         },
         {
           "name": "Correios",
@@ -326,7 +349,8 @@
           "src": [
             15,
             16
-          ]
+          ],
+          "stories": []
         },
         {
           "name": "Magazine Luiza (Magalu)",
@@ -357,7 +381,8 @@
             18,
             19,
             20
-          ]
+          ],
+          "stories": []
         }
       ],
       "watch": [

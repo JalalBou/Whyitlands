@@ -52,7 +52,11 @@
             0,
             1,
             2
-          ]
+          ],
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Express profit rose on fuel pass-through and air freight capacity constraints: in this crisis the integrator with pricing power gains."
         },
         {
           "name": "La Poste Groupe",
@@ -95,7 +99,11 @@
           "src": [
             3,
             4
-          ]
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "Mail losses push the group further into parcels and out-of-home delivery, in a European parcel market under strong price pressure."
         },
         {
           "name": "Poste Italiane",
@@ -131,7 +139,11 @@
           ],
           "src": [
             5
-          ]
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "Parcel revenue grew but logistics profit collapsed, while the group restructures its network and diversifies through the TIM bid."
         },
         {
           "name": "PostNL",
@@ -160,7 +172,12 @@
           "src": [
             7,
             8
-          ]
+          ],
+          "stories": [
+            "eu-customs-reform",
+            "de-minimis-end"
+          ],
+          "exposure": "New EU import duties and weak Asian webshop volumes hit parcels, the first visible cost of the end of duty-free entry."
         },
         {
           "name": "Bnode (formerly bpostgroup)",
@@ -207,7 +224,11 @@
           ],
           "src": [
             10
-          ]
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "With Belgian last mile at break-even and mail falling, earnings now rest on cross-border and 3PL units: the posts' parcel pivot under strain."
         },
         {
           "name": "InPost",
@@ -236,7 +257,12 @@
           "src": [
             11,
             12
-          ]
+          ],
+          "stories": [
+            "eu-customs-reform",
+            "networks-consolidate"
+          ],
+          "exposure": "EU customs fee changes hit Poland marketplace volumes, while the locker network and the FedEx pilot extend its out-of-home lead."
         },
         {
           "name": "PostNord",
@@ -264,7 +290,11 @@
           "outlook": "Management points to continued transformation; no numeric guidance.",
           "src": [
             13
-          ]
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "Collapsing letters and losses in Denmark contrast with parcel infrastructure investment in Sweden: the shift from mail to parcels."
         },
         {
           "name": "Austrian Post",
@@ -306,7 +336,12 @@
           ],
           "src": [
             14
-          ]
+          ],
+          "stories": [
+            "eu-customs-reform",
+            "de-minimis-end"
+          ],
+          "exposure": "National and international duties and fees on cross-border e-commerce are a stated headwind, even as parcel growth stays ahead of the market."
         },
         {
           "name": "CTT Correios de Portugal",
@@ -335,7 +370,13 @@
           "src": [
             15,
             16
-          ]
+          ],
+          "stories": [
+            "de-minimis-end",
+            "eu-customs-reform",
+            "hormuz-fuel"
+          ],
+          "exposure": "The end of de minimis hit customs clearance revenue and led Chinese platforms to cut spending, while fuel inflation added cost."
         },
         {
           "name": "Swiss Post (Switzerland, non-EU)",
@@ -364,7 +405,8 @@
           "src": [
             17,
             18
-          ]
+          ],
+          "stories": []
         }
       ],
       "watch": [
@@ -424,7 +466,12 @@
             20,
             21,
             23
-          ]
+          ],
+          "stories": [
+            "uk-three-rulebooks",
+            "networks-consolidate"
+          ],
+          "exposure": "Universal service reform and the out-of-home push shift Royal Mail and GLS resources from letters to parcels."
         },
         {
           "name": "Evri",
@@ -452,7 +499,11 @@
           "outlook": "Target 1.4bn parcels a year and UK's largest parcel company by 2030.",
           "src": [
             22
-          ]
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "The DHL eCommerce UK merger and investment in ParcelShop and locker points make it a consolidator in UK parcels."
         }
       ],
       "watch": [

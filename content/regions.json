@@ -29,31 +29,45 @@
         "date": "2026-11-01",
         "when": "1 Nov 2026",
         "type": "Regulation",
-        "what": "EU handling fee on parcels under €150 due to apply. The Commission proposes €2, pending the objection period."
+        "what": "EU handling fee on parcels under €150 due to apply. The Commission proposes €2, pending the objection period.",
+        "stories": [
+          "eu-customs-reform"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2027-03-16",
         "when": "16–18 Mar 2027",
         "type": "Expo",
-        "what": "LogiMAT 2027, Stuttgart."
+        "what": "LogiMAT 2027, Stuttgart.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-06-02",
         "when": "2–3 Jun 2027",
         "type": "Expo",
-        "what": "DELIVER Europe 2027, Amsterdam."
+        "what": "DELIVER Europe 2027, Amsterdam.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-01-01",
         "when": "2027",
         "type": "Regulation",
-        "what": "New EU Customs Authority in Lille expected to start operating."
+        "what": "New EU Customs Authority in Lille expected to start operating.",
+        "stories": [
+          "eu-customs-reform"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2027-09-29",
         "when": "29–30 Sep 2027",
         "type": "Expo",
-        "what": "Parcel+Post Expo 2027, Paris."
+        "what": "Parcel+Post Expo 2027, Paris.",
+        "stories": [],
+        "layer": "market"
       }
     ]
   },
@@ -87,25 +101,39 @@
         "date": "2026-10-28",
         "when": "28 Oct 2026",
         "type": "Geopolitics",
-        "what": "Autumn Budget. The law removing the £135 relief is expected in the Finance Bill."
+        "what": "Autumn Budget. The law removing the £135 relief is expected in the Finance Bill.",
+        "stories": [
+          "uk-three-rulebooks",
+          "de-minimis-end"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2026-12-24",
         "when": "Before Christmas",
         "type": "Regulation",
-        "what": "Royal Mail universal service reform fully rolled out."
+        "what": "Royal Mail universal service reform fully rolled out.",
+        "stories": [
+          "uk-three-rulebooks",
+          "networks-consolidate"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2027-02-09",
         "when": "9–10 Feb 2027",
         "type": "Expo",
-        "what": "The Delivery Conference, London."
+        "what": "The Delivery Conference, London.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-06-29",
         "when": "29 Jun–1 Jul 2027",
         "type": "Expo",
-        "what": "Multimodal 2027, Birmingham."
+        "what": "Multimodal 2027, Birmingham.",
+        "stories": [],
+        "layer": "market"
       }
     ]
   },
@@ -139,31 +167,47 @@
         "date": "2026-11-03",
         "when": "3 Nov 2026",
         "type": "Geopolitics",
-        "what": "US midterm elections, with tariffs a key voter issue."
+        "what": "US midterm elections, with tariffs a key voter issue.",
+        "stories": [
+          "us-china-rivalry",
+          "north-america-rulebook"
+        ],
+        "layer": "geopolitics"
       },
       {
         "date": "2027-01-10",
         "when": "10–12 Jan 2027",
         "type": "Expo",
-        "what": "NRF Retail’s Big Show, New York."
+        "what": "NRF Retail’s Big Show, New York.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-02-08",
         "when": "8–10 Feb 2027",
         "type": "Expo",
-        "what": "Manifest 2027, Las Vegas."
+        "what": "Manifest 2027, Las Vegas.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-04-19",
         "when": "19–21 Apr 2027",
         "type": "Expo",
-        "what": "ProMat 2027, Chicago."
+        "what": "ProMat 2027, Chicago.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-07-01",
         "when": "1 Jul 2027",
         "type": "Regulation",
-        "what": "Statutory repeal of the US de minimis exemption takes effect; USMCA annual joint review."
+        "what": "Statutory repeal of the US de minimis exemption takes effect; USMCA annual joint review.",
+        "stories": [
+          "de-minimis-end",
+          "north-america-rulebook"
+        ],
+        "layer": "decision"
       }
     ]
   },
@@ -197,25 +241,40 @@
         "date": "2026-10-04",
         "when": "4 Oct 2026",
         "type": "Geopolitics",
-        "what": "Brazil general election, first round (run-off 25 Oct)."
+        "what": "Brazil general election, first round (run-off 25 Oct).",
+        "stories": [
+          "latam-split"
+        ],
+        "layer": "geopolitics"
       },
       {
         "date": "2026-12-31",
         "when": "Pending",
         "type": "Regulation",
-        "what": "Brazil implementing rules after the end of the 20% import tax up to US$50 (law signed 10 Sep)."
+        "what": "Brazil implementing rules after the end of the 20% import tax up to US$50 (law signed 10 Sep).",
+        "stories": [
+          "latam-split",
+          "de-minimis-end"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2027-01-01",
         "when": "2027",
         "type": "Regulation",
-        "what": "New federal VAT (CBS) to apply to small imports; rate still to be confirmed."
+        "what": "New federal VAT (CBS) to apply to small imports; rate still to be confirmed.",
+        "stories": [
+          "latam-split"
+        ],
+        "layer": "decision"
       },
       {
         "date": "2027-04-13",
         "when": "13–15 Apr 2027",
         "type": "Expo",
-        "what": "Intermodal South America 2027, São Paulo."
+        "what": "Intermodal South America 2027, São Paulo.",
+        "stories": [],
+        "layer": "market"
       }
     ]
   },
@@ -249,25 +308,38 @@
         "date": "2026-10-22",
         "when": "22–24 Oct 2026",
         "type": "Expo",
-        "what": "India Warehousing & Logistics Show, Mumbai."
+        "what": "India Warehousing & Logistics Show, Mumbai.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2026-11-16",
         "when": "16–18 Nov 2026",
         "type": "Geopolitics",
-        "what": "ASEAN Summit in Manila; signing of the digital economy agreement targeted."
+        "what": "ASEAN Summit in Manila; signing of the digital economy agreement targeted.",
+        "stories": [
+          "asean-digital"
+        ],
+        "layer": "geopolitics"
       },
       {
         "date": "2027-03-03",
         "when": "3–4 Mar 2027",
         "type": "Expo",
-        "what": "DELIVER Asia 2027, Singapore."
+        "what": "DELIVER Asia 2027, Singapore.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2028-04-01",
         "when": "1 Apr 2028",
         "type": "Regulation",
-        "what": "Japan plans to end the ¥10,000 consumption-tax exemption on low-value imports."
+        "what": "Japan plans to end the ¥10,000 consumption-tax exemption on low-value imports.",
+        "stories": [
+          "asean-digital",
+          "de-minimis-end"
+        ],
+        "layer": "decision"
       }
     ]
   },
@@ -301,31 +373,46 @@
         "date": "2026-11-03",
         "when": "3–6 Nov 2026",
         "type": "Expo",
-        "what": "CeMAT ASIA 2026, Shanghai."
+        "what": "CeMAT ASIA 2026, Shanghai.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2026-11-05",
         "when": "5–10 Nov 2026",
         "type": "Geopolitics",
-        "what": "China International Import Expo, Shanghai."
+        "what": "China International Import Expo, Shanghai.",
+        "stories": [],
+        "layer": "geopolitics"
       },
       {
         "date": "2026-11-18",
         "when": "18–19 Nov 2026",
         "type": "Geopolitics",
-        "what": "APEC Economic Leaders’ Meeting, Shenzhen."
+        "what": "APEC Economic Leaders’ Meeting, Shenzhen.",
+        "stories": [
+          "us-china-rivalry"
+        ],
+        "layer": "geopolitics"
       },
       {
         "date": "2026-12-02",
         "when": "2–4 Dec 2026",
         "type": "Expo",
-        "what": "China International Logistics and Supply Chain Fair, Shenzhen (dates to confirm)."
+        "what": "China International Logistics and Supply Chain Fair, Shenzhen (dates to confirm).",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2026-12-31",
         "when": "Pending",
         "type": "Regulation",
-        "what": "Revised E-Commerce Law extending rules to logistics and payment providers."
+        "what": "Revised E-Commerce Law extending rules to logistics and payment providers.",
+        "stories": [
+          "platforms-go-local",
+          "us-china-rivalry"
+        ],
+        "layer": "decision"
       }
     ]
   },
@@ -359,25 +446,33 @@
         "date": "2026-10-30",
         "when": "30 Oct 2026",
         "type": "Regulation",
-        "what": "UAE: large businesses must appoint an e-invoicing service provider."
+        "what": "UAE: large businesses must appoint an e-invoicing service provider.",
+        "stories": [],
+        "layer": "decision"
       },
       {
         "date": "2027-01-01",
         "when": "1 Jan 2027",
         "type": "Regulation",
-        "what": "UAE e-invoicing goes live."
+        "what": "UAE e-invoicing goes live.",
+        "stories": [],
+        "layer": "decision"
       },
       {
         "date": "2027-02-02",
         "when": "2–3 Feb 2027",
         "type": "Expo",
-        "what": "Breakbulk Middle East, Dubai."
+        "what": "Breakbulk Middle East, Dubai.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2027-06-08",
         "when": "8–10 Jun 2027",
         "type": "Expo",
-        "what": "transport logistic Middle East, Riyadh."
+        "what": "transport logistic Middle East, Riyadh.",
+        "stories": [],
+        "layer": "market"
       }
     ]
   },
@@ -411,25 +506,35 @@
         "date": "2026-09-29",
         "when": "29 Sep–1 Oct 2026",
         "type": "Expo",
-        "what": "Transport Middle East – Egypt, Cairo."
+        "what": "Transport Middle East – Egypt, Cairo.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2026-10-20",
         "when": "20–22 Oct 2026",
         "type": "Expo",
-        "what": "LogiTerre 2026, Casablanca."
+        "what": "LogiTerre 2026, Casablanca.",
+        "stories": [],
+        "layer": "market"
       },
       {
         "date": "2026-11-15",
         "when": "Autumn 2026",
         "type": "Geopolitics",
-        "what": "Morocco: the new majority debates the 2027 budget after the 23 September elections."
+        "what": "Morocco: the new majority debates the 2027 budget after the 23 September elections.",
+        "stories": [
+          "mena-gateway"
+        ],
+        "layer": "geopolitics"
       },
       {
         "date": "2026-12-01",
         "when": "Dec 2026",
         "type": "Expo",
-        "what": "Handling Expo, Cairo (dates to confirm)."
+        "what": "Handling Expo, Cairo (dates to confirm).",
+        "stories": [],
+        "layer": "market"
       }
     ]
   }

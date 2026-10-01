@@ -69,6 +69,9 @@
         42,
         3,
         1
+      ],
+      "stories": [
+        "de-minimis-end"
       ]
     },
     {
@@ -132,6 +135,10 @@
         8,
         10,
         11
+      ],
+      "stories": [
+        "eu-customs-reform",
+        "de-minimis-end"
       ]
     },
     {
@@ -195,6 +202,10 @@
         15,
         16,
         17
+      ],
+      "stories": [
+        "uk-three-rulebooks",
+        "de-minimis-end"
       ]
     },
     {
@@ -259,6 +270,11 @@
         9,
         0,
         15
+      ],
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform",
+        "uk-three-rulebooks"
       ]
     },
     {
@@ -329,6 +345,10 @@
         9,
         0,
         15
+      ],
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform"
       ]
     },
     {
@@ -405,6 +425,10 @@
         0,
         3,
         10
+      ],
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform"
       ]
     },
     {
@@ -449,6 +473,9 @@
       "src": [
         38,
         43
+      ],
+      "stories": [
+        "latam-split"
       ]
     }
   ],

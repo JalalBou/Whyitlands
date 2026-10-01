@@ -73,6 +73,15 @@ num = ""
 if number:
     num = f'''<tr><td style="background:#FF5A36;padding:26px 30px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#FFD5C8">NUMBER OF THE WEEK</div>
 <div style="{S};font-size:56px;line-height:1;color:#FFFFFF;margin:8px 0">{E(number["big"])}</div><div style="{F};font-size:14px;line-height:1.5;color:#FFE9E2">{E(number["label"])}</div></td></tr>'''
+sthtml = ""
+_stp = C / "storylines.json"
+if cfg.get("storyline") and _stp.exists():
+    _st = next((x for x in json.loads(_stp.read_text())["storylines"] if x["key"] == cfg["storyline"]), None)
+    if _st:
+        _steps = "".join(f'<tr><td style="{M};font-size:11px;letter-spacing:1px;color:#5A6072;padding:6px 12px 6px 0;white-space:nowrap;vertical-align:top">{L.upper()}</td><td style="{F};font-size:14px;line-height:1.45;color:#0B0F1A;padding:6px 0">{E(plain(_st["chain"][L][-1]["text"]))}</td></tr>' for L in ("geopolitics", "decision", "market", "parcel") if _st["chain"].get(L))
+        sthtml = f'''<tr><td style="background:#FFFFFF;padding:26px 30px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#2B45E0">STORYLINE OF THE WEEK</div>
+<a href="{SITE}/storylines/{_st['key']}" style="{S};font-size:24px;line-height:1.15;color:#0B0F1A;text-decoration:none;display:block;margin:8px 0 10px">{E(_st['title'])}</a>
+<table cellpadding="0" cellspacing="0">{_steps}</table><a href="{SITE}/storylines/{_st['key']}" style="{F};font-size:14px;color:#2B45E0;display:inline-block;margin-top:10px">Follow the full chain →</a></td></tr>'''
 dhtml = ""
 if doc:
     dhtml = f'''<tr><td style="background:#0B0F1A;padding:26px 30px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#D7F75B">DOCTRINE OF THE WEEK</div>
@@ -93,6 +102,7 @@ out = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport"
 <div style="background:#D7F75B;border-radius:12px;padding:14px 16px;margin:18px 0"><div style="{M};font-size:11px;letter-spacing:1px;color:#4A5A0B">WHAT IT MEANS FOR YOU</div><div style="{F};font-size:15px;line-height:1.5;color:#0B0F1A;margin-top:4px">{E(plain(imp(lead['slug'])))}</div></div>
 <a href="{U}{lead['slug']}" style="{F};display:inline-block;background:#FF5A36;color:#FFFFFF;font-weight:700;font-size:15px;text-decoration:none;padding:12px 22px;border-radius:999px">Read the analysis</a></td></tr>
 <tr><td style="background:#FFFFFF;padding:0 30px 10px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#5A6072;padding-top:24px">BY REGION</div><table width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px">{rows}</table></td></tr>
+{sthtml}
 {num}
 <tr><td style="background:#FFFFFF;padding:26px 30px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#5A6072">WHAT’S COMING</div><table cellpadding="0" cellspacing="0" style="margin-top:8px">{cal}</table>
 <a href="{SITE}/markets" style="{F};font-size:14px;color:#2B45E0;display:inline-block;margin-top:14px">Latest results of the sector: Market Intelligence →</a></td></tr>
