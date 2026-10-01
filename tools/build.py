@@ -111,7 +111,7 @@ def header(active=""):
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
 <ul class="lang-menu" role="menu" hidden>{langs}</ul></div>
 <a class="btn btn-coral head-sub" href="/#newsletter" data-i18n="subscribe">Subscribe</a>
-{f'<a class="me-link" href="{LINKEDIN}" rel="noopener" target="_blank" aria-label="Jalal Boucheikha on LinkedIn"><img src="/assets/img/jalal.jpg" alt="" width="36" height="36"><span class="li-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg></span></a>' if LINKEDIN else ""}
+{f'<a class="me-link" href="{LINKEDIN}" rel="noopener" target="_blank" aria-label="Jalal Boucheikha on LinkedIn"><img src="/assets/img/jalal.jpg?v=2" alt="" width="36" height="36"><span class="li-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg></span></a>' if LINKEDIN else ""}
 </nav>
 </div>
 </header>
@@ -138,7 +138,7 @@ def contact_dialog():
     topics = "".join(f'<button type="button" class="chip" data-topic-i="{n}" aria-pressed="{str(n==0).lower()}">{t}</button>' for n, t in enumerate(["Collaboration", "Speaking", "Press", "Tip or correction", "Other"]))
     return f"""<dialog class="modal" id="contact" aria-labelledby="ct-title">
 <div class="modal-in">
-<div class="modal-top"><div class="who"><img src="/assets/img/jalal.jpg" alt="" width="56" height="56">
+<div class="modal-top"><div class="who"><img src="/assets/img/jalal.jpg?v=2" alt="" width="56" height="56">
 <div><h2 id="ct-title" style="font-size:34px;line-height:1" data-i18n="ct_title">Get in touch</h2><p style="font-size:14px;color:var(--muted);margin-top:4px" data-i18n="ct_sub">Messages go straight to Jalal.</p></div></div>
 <button class="xbtn" data-close data-i18n-aria="close" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
 <div class="status" id="ct-status" hidden role="status"></div>
@@ -209,7 +209,7 @@ ARCS = """<svg class="hero-arcs" viewBox="0 0 1440 700" preserveAspectRatio="xMi
 def about_nl():
     return f"""<section class="section" style="padding-top:0" id="about"><div class="wrap">
 <div class="about">
-<div class="portrait"><img src="/assets/img/jalal.jpg" alt="Jalal Boucheikha" width="220" height="220" loading="lazy"></div>
+<div class="portrait"><img src="/assets/img/jalal.jpg?v=2" alt="Jalal Boucheikha" width="220" height="220" loading="lazy"></div>
 <div>{i('about_kicker', 'About', 'div', 'kicker')}<h2>Jalal Boucheikha</h2>{i('role', 'Senior leader in e-commerce logistics', 'div', 'role')}<p class="role-2" data-i18n="role_2">Background in engineering, energy, strategy consulting and product leadership. Expertise in cross-border parcels, customs and compliance, carrier networks and product strategy.</p>
 <p data-i18n="about_1">With an engineer’s grounding in how systems work, I lead product where operations, commercial, compliance and strategy meet: the side of cross-border parcels that decides how they are processed, cleared, routed and tracked.</p>
 <p data-i18n="about_2">My day-to-day is multicultural and multi-regional, with teams and partners across several continents, and a practice of agile at scale inside a large organisation.</p>
@@ -355,7 +355,7 @@ def page_home():
 <p data-i18n="iv_dek">WhyItLands connects geopolitics, trade rules and doctrines to what they change for parcels: cost, speed, margin and networks. Written for executives and senior leaders in domestic and cross-border e-commerce logistics.</p>
 <ul class="iv-list"><li><b data-i18n="nav_storylines">Storylines</b><span data-i18n="iv_s">Each crisis traced from geopolitics to law, market and parcel</span></li><li><b data-i18n="nav_briefings">Briefings</b><span data-i18n="iv_b">Long-form analyses confronting every point of view</span></li><li><b data-i18n="nav_markets">Market Intelligence</b><span data-i18n="iv_m">Signals, prices, moves and results of 40+ players</span></li><li><b data-i18n="nav_radar">Regulatory Radar</b><span data-i18n="iv_r">The rules coming, their dates and what to prepare</span></li></ul>
 </div>
-<div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4?v=20261001" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 100 seconds"></video>
+<div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4?v=20261001b" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 100 seconds"></video>
 <button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:43</span></button></div>
 </div></section>
 
