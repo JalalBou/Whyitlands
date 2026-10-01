@@ -40,7 +40,7 @@ def texts(b):
         elif "views" in x: out += [clean(v["actor"]) + ". " + clean(v["stance"]) + " " + clean(v["text"]) for v in x["views"]]
         elif "doctrines" in x: out += [clean(d["school"]) + ". " + clean(d["reading"]) + " For the parcel: " + clean(d["parcel"]) for d in x["doctrines"]]
         elif "scenarios" in x: out += ["Scenarios."] + [clean(s["name"]) + ". " + clean(s["text"]) for s in x["scenarios"]]
-        elif "csuite" in x: out += ["For the C-suite."] + [clean(c) for c in x["csuite"]]
+        elif "csuite" in x: out += ["For executives and senior leaders."] + [clean(c) for c in x["csuite"]]
         elif "impact" in x: out.append("Bottom line. " + clean(x["impact"]))
     return out
 

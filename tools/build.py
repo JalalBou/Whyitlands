@@ -105,6 +105,7 @@ def header(active=""):
 {nav('/storylines', 'nav_storylines', 'Storylines', 'storylines')}
 {nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
 {nav('/markets', 'nav_markets', 'Market Intelligence', 'markets')}
+{nav('/radar', 'nav_radar', 'Regulatory Radar', 'radar')}
 {nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
 {nav('/#about', 'nav_about', 'About', 'about')}
 <div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
@@ -119,6 +120,7 @@ def header(active=""):
 <a href="/storylines" {'aria-current="page"' if active == 'storylines' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M6 8l5 8M18 8l-5 8"/></svg><span data-i18n="nav_storylines">Storylines</span></a>
 <a href="/briefings/" {'aria-current="page"' if active == 'briefings' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h11l3 3v13H5z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg><span data-i18n="nav_briefings">Briefings</span></a>
 <a href="/markets" {'aria-current="page"' if active == 'markets' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span data-i18n="tab_markets">Market Intel.</span></a>
+<a href="/radar" {'aria-current="page"' if active == 'radar' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6-6"/></svg><span data-i18n="tab_radar">Radar</span></a>
 <a href="/doctrines" {'aria-current="page"' if active == 'doctrines' else ''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg><span data-i18n="nav_doctrines">Doctrines</span></a>
 
 </nav>
@@ -208,7 +210,7 @@ def about_nl():
     return f"""<section class="section" style="padding-top:0" id="about"><div class="wrap">
 <div class="about">
 <div class="portrait"><img src="/assets/img/jalal.jpg" alt="Jalal Boucheikha" width="220" height="220" loading="lazy"></div>
-<div>{i('about_kicker', 'About', 'div', 'kicker')}<h2>Jalal Boucheikha</h2>{i('role', 'Shipping Product Director at Asendia', 'div', 'role')}
+<div>{i('about_kicker', 'About', 'div', 'kicker')}<h2>Jalal Boucheikha</h2>{i('role', 'Senior leader in e-commerce logistics', 'div', 'role')}<p class="role-2" data-i18n="role_2">Background in engineering, energy, strategy consulting and product leadership. Expertise in cross-border parcels, customs and compliance, carrier networks and product strategy.</p>
 <p data-i18n="about_1">With an engineer’s grounding in how systems work, I lead product where operations, commercial, compliance and strategy meet: the side of cross-border parcels that decides how they are processed, cleared, routed and tracked.</p>
 <p data-i18n="about_2">My day-to-day is multicultural and multi-regional, with teams and partners across several continents, and a practice of agile at scale inside a large organisation.</p>
 <p data-i18n="about_3">I started WhyItLands to explain the why behind the decisions reshaping e-commerce logistics, domestic and cross-border, in a form that is quick to read and easy to check.</p>
@@ -344,16 +346,17 @@ def page_home():
 {heroes}
 {home_barometer()}
 <section class="intro-video"><div class="wrap iv-grid">
-<div class="iv-text"><div class="kicker" data-i18n="iv_kicker">WhyItLands in 90 seconds</div>
+<div class="iv-text"><div class="kicker" data-i18n="iv_kicker">WhyItLands in 100 seconds</div>
 <h2 data-i18n="iv_title">Everyone sees what happens. We explain why.</h2>
-<p data-i18n="iv_dek">WhyItLands connects geopolitics, trade rules and doctrines to what they change for parcels: cost, speed, margin and networks. Written for the C-suite of domestic and cross-border e-commerce logistics.</p>
-<ul class="iv-list"><li><b data-i18n="nav_briefings">Briefings</b><span data-i18n="iv_b">Long-form analyses confronting every point of view</span></li><li><b data-i18n="nav_markets">Market Intelligence</b><span data-i18n="iv_m">Latest results of 40+ players, region by region</span></li><li><b data-i18n="nav_doctrines">Doctrines</b><span data-i18n="iv_d">The schools of thought behind each decision</span></li></ul>
+<p data-i18n="iv_dek">WhyItLands connects geopolitics, trade rules and doctrines to what they change for parcels: cost, speed, margin and networks. Written for executives and senior leaders in domestic and cross-border e-commerce logistics.</p>
+<ul class="iv-list"><li><b data-i18n="nav_storylines">Storylines</b><span data-i18n="iv_s">Each crisis traced from geopolitics to law, market and parcel</span></li><li><b data-i18n="nav_briefings">Briefings</b><span data-i18n="iv_b">Long-form analyses confronting every point of view</span></li><li><b data-i18n="nav_markets">Market Intelligence</b><span data-i18n="iv_m">Signals, prices, moves and results of 40+ players</span></li><li><b data-i18n="nav_radar">Regulatory Radar</b><span data-i18n="iv_r">The rules coming, their dates and what to prepare</span></li></ul>
 </div>
-<div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 90 seconds"></video>
-<button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:37</span></button></div>
+<div class="iv-media"><video id="iv" src="/assets/video/whyitlands-explainer.mp4?v=20261001" poster="/assets/video/poster.jpg" preload="none" playsinline controlslist="nodownload" aria-label="WhyItLands explained in 100 seconds"></video>
+<button class="iv-play" type="button" aria-label="Play the video"><svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><span data-i18n="iv_play">Watch · 1:43</span></button></div>
 </div></section>
 
 {home_storylines()}
+{home_radar()}
 <section class="section" style="padding-top:0"><div class="wrap">
 <div class="section-head"><div><div class="kicker"><span data-i18n="briefings_kicker">Briefings</span> · <span data-current-region>GLOBAL</span></div>{i('briefings_title', 'The analysis, region by region', 'h2')}</div><a class="more" href="/briefings/" data-i18n="all_briefings_arrow">All briefings →</a></div>
 <div class="bgrid" data-filter-regions data-order-regions>{''.join(bcard(x) for x in briefings)}</div>
@@ -556,8 +559,8 @@ def page_briefing(b):
             body.append(f'<h2 id="watchlist" data-i18n="watchlist">Watchlist</h2><ul class="watch">{rows}</ul>')
         elif "csuite" in blk:
             rows = "".join(f"<li>{inline(x, used)}</li>" for x in blk["csuite"])
-            toc.append(("csuite", "For the C-suite"))
-            body.append(f'<section class="csuite" id="csuite"><div class="kicker" data-i18n="csuite_kicker">Decisions</div><h2 data-i18n="csuite">For the C-suite</h2><ol>{rows}</ol></section>')
+            toc.append(("csuite", "For executives and senior leaders"))
+            body.append(f'<section class="csuite" id="csuite"><div class="kicker" data-i18n="csuite_kicker">Decisions</div><h2 data-i18n="csuite">For executives and senior leaders</h2><ol>{rows}</ol></section>')
         elif "landscape" in blk and SOL:
             tp = next((x for x in SOL["topics"] if x["key"] == blk["landscape"].get("topic")), None)
             if tp:
@@ -589,7 +592,7 @@ def page_briefing(b):
 <section class="art-head"><div class="wrap"><div class="kicker">{E(b['section'])}</div><h1>{E(b['title'])}</h1><p style="color:var(--on-ink-muted);font-size:clamp(17px,1.6vw,20px);max-width:760px;margin-bottom:18px">{inline(b['dek'], [])}</p><div class="meta">{E(b['date_label'])} · {mins} <span data-i18n="min_read">min read</span> · {len(S)} <span data-i18n="n_sources">sources</span> · Jalal Boucheikha</div></div></section>
 <div class="art">
 <div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{kp}</ul>
-<div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the C-suite actions</a></div></div>
+<div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the actions for leaders</a></div></div>
 {('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
 {lang_note()}
 <nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
@@ -881,6 +884,7 @@ def page_story(s):
 <div class="st-read"><div class="kicker" data-i18n="mk_our_read">Our read</div><p>{E(plain(s.get('our_read', '')))}</p></div>
 {('<h3 class="st-sub" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
 {story_signals(s['key'])}
+{story_radar(s['key'])}
 {('<h3 class="st-sub" data-i18n="st_lens">The lens behind the decisions</h3><div class="chips-row">' + docs + '</div>') if docs else ''}
 {('<h3 class="st-sub" data-i18n="st_cos">Companies visibly affected</h3><div class="chips-row">' + cos + '</div>') if cos else ''}
 {('<h3 class="st-sub" data-i18n="st_sols">Solution landscape</h3><div class="chips-row">' + sols + '</div>') if sols else ''}
@@ -1152,6 +1156,96 @@ def story_signals(key):
 
 
 
+# ---------- Regulatory Radar ----------
+RADAR = []
+for _f in sorted((C / "radar").glob("*.json")) if (C / "radar").exists() else []:
+    RADAR += json.loads(_f.read_text()).get("items", [])
+RR_STATUS = {"consultation": "Consultation", "proposed": "Proposed", "adopted": "Adopted", "in-force": "In force", "suspended": "Suspended"}
+RR_DOMAIN = {"customs": "Customs", "tax": "Tax", "trade": "Trade and tariffs", "postal": "Postal", "platforms": "Platforms", "product-safety": "Product safety", "data": "Data", "sustainability": "Sustainability", "labour": "Labour"}
+RR_ORDER = {"in-force": 0, "adopted": 1, "proposed": 2, "consultation": 3, "suspended": 4}
+
+
+def rr_next(it, today):
+    ds = sorted(d["date"] for d in it.get("dates", []) if d.get("date", "") >= today)
+    return ds[0] if ds else "9999"
+
+
+def rr_card(it, today):
+    S = it.get("sources", [])
+    def cite(n):
+        return f'<a class="src-a" href="{E(S[n]["u"])}" rel="noopener">{E(S[n].get("pub") or "source")}</a>' if isinstance(n, int) and 0 <= n < len(S) else ""
+    dates = "".join(f'<li class="{"past" if d["date"] < today else ""}"><span class="tl-when" data-cd="{E(d["date"])}">{E(fdate(d["date"]))}</span><span>{E(d["what"])} {cite(d.get("src"))}</span></li>' for d in sorted(it.get("dates", []), key=lambda d: d["date"]))
+    hits = "".join(f"<span>{E(h)}</span>" for h in it.get("hits", []))
+    prep = "".join(f"<li>{E(x)}</li>" for x in it.get("prepare", []))
+    srcs = "".join(f'<li><a href="{E(x["u"])}" rel="noopener">{E(x["t"])}</a>{(" · " + E(x["pub"])) if x.get("pub") else ""}{(" · " + E(x["date"])) if x.get("date") else ""}</li>' for x in S)
+    st = it.get("status", "")
+    return f"""<article class="rr" id="rr-{E(it['key'])}" data-status="{E(it.get('status', ''))}" data-regions="{','.join(it.get('regions', []))}" data-domain="{E(it.get('domain', ''))}" data-next="{rr_next(it, today)}">
+<div class="rr-top"><span class="pill rr-st rr-{E(st)}" data-i18n="rr_s_{E(st)}">{E(RR_STATUS.get(st, st))}</span><span class="rr-dom" data-i18n="rr_d_{E(it.get('domain', ''))}">{E(RR_DOMAIN.get(it.get('domain'), it.get('domain', '')))}</span><span class="rr-jur">{E(it.get('jurisdiction', ''))}</span></div>
+<h3>{E(it['title'])}</h3><p>{E(it.get('summary', ''))}</p>
+<div class="rr-parcel"><b data-i18n="rr_parcel">For a parcel</b> {E(it.get('parcel', ''))}</div>
+{('<ul class="rr-dates">' + dates + '</ul>') if dates else ''}
+<details><summary data-i18n="rr_more">Who it hits, what to prepare, our reading</summary>
+{('<div class="kicker" data-i18n="rr_hits">Directly affected</div><div class="rr-hits">' + hits + '</div>') if hits else ''}
+{('<div class="kicker" data-i18n="rr_prepare">What to prepare</div><ul class="rr-prep">' + prep + '</ul>') if prep else ''}
+<div class="sig-read"><b data-i18n="si_read">Our reading</b> {E(noread(it.get('read', '')))}</div>
+<div class="kicker" data-i18n="sources_art">Sources</div><ol class="rr-src">{srcs}</ol>
+</details>{story_chips(it.get('stories'))}
+</article>"""
+
+
+def page_radar():
+    today = datetime.date.today().isoformat()
+    horizon = (datetime.date.today() + datetime.timedelta(days=550)).isoformat()
+    ev = sorted(((d["date"], d["what"], it) for it in RADAR for d in it.get("dates", []) if today <= d["date"] <= horizon), key=lambda x: x[0])
+    months, tl = {}, ""
+    for d, w, it in ev:
+        months.setdefault(d[:7], []).append((d, w, it))
+    for m, rows in months.items():
+        mlabel = datetime.date.fromisoformat(m + "-01").strftime("%B %Y")
+        li = "".join(f'<li data-regions="{",".join(it.get("regions", []))}" data-domain="{E(it.get("domain", ""))}" data-date="{d}"><span class="cd" data-cd="{d}"></span><span class="tl-when">{E(fdate(d))}</span><div><a href="#rr-{E(it["key"])}">{E(it["title"])}</a><p>{E(w)}</p><span class="rr-jur">{E(it.get("jurisdiction", ""))}</span></div></li>' for d, w, it in rows)
+        tl += f'<div class="rr-month"><h3>{E(mlabel)}</h3><ul class="rr-tl">{li}</ul></div>'
+    items = sorted(RADAR, key=lambda it: (rr_next(it, today), RR_ORDER.get(it.get("status"), 9)))
+    doms = sorted({it.get("domain") for it in RADAR if it.get("domain")}, key=lambda d: list(RR_DOMAIN).index(d) if d in RR_DOMAIN else 99)
+    dchips = '<button class="chip" data-domain-f="" aria-pressed="true" data-i18n="rr_all">All topics</button>' + "".join(f'<button class="chip" data-domain-f="{E(d)}" aria-pressed="false" data-i18n="rr_d_{E(d)}">{E(RR_DOMAIN.get(d, d))}</button>' for d in doms)
+    n_force = sum(1 for it in RADAR if it.get("status") == "in-force")
+    n_pipe = sum(1 for it in RADAR if it.get("status") in ("adopted", "proposed", "consultation"))
+    out = head("Regulatory Radar · WhyItLands", "The rules reshaping e-commerce logistics, region by region: customs, tax, trade, postal, platform and product-safety measures, with their dates, who they hit and what to prepare.", "/radar")
+    out += header("radar") + regionbar(REGION_ORDER, "GLOBAL")
+    out += f"""<main id="main" data-region-page data-radar>
+<section class="rhero"><div class="wrap"><div class="kicker"><span data-current-region>GLOBAL</span> · <span data-i18n="nav_radar">Regulatory Radar</span></div>
+<h1 data-i18n="rr_h1">What the rules will change, and when.</h1>
+<p data-i18n="rr_dek">Customs, tax, trade, postal, platform and product-safety rules that reshape the cost, data and liability of a parcel. Each one with its dates, who it hits, what to prepare and our reading. Sourced from the official texts first.</p>
+<div class="rr-stats"><div><b id="rr-n">{len(RADAR)}</b><span data-i18n="rr_tracked">rules tracked</span></div><div><b id="rr-nf">{n_force}</b><span data-i18n="rr_inforce">already in force</span></div><div><b id="rr-np">{n_pipe}</b><span data-i18n="rr_pipe">in the pipeline</span></div><div class="rr-next"><b id="rr-next-cd">·</b><span><span data-i18n="rr_nextdl">Next deadline</span>: <a id="rr-next-a" href="#"></a></span></div></div>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="chips chips-light rr-domains" role="group" aria-label="Topic">{dchips}</div>
+<div class="section-head" style="margin-top:28px"><div><div class="kicker" data-i18n="rr_tl_k">Agenda</div><h2 data-i18n="rr_tl_h">The next 18 months, date by date</h2></div></div>
+<div class="rr-months">{tl}</div>
+<div class="section-head" style="margin-top:56px"><div><div class="kicker" data-i18n="rr_reg_k">The register</div><h2 data-i18n="rr_reg_h">Every rule, what it does, what to prepare</h2><p class="intel-dek" data-i18n="rr_reg_dek">Ordered by the next deadline. Status reflects the legal state today: consultation, proposed, adopted (not yet applying), in force, or suspended.</p></div></div>
+<div class="rrs">{''.join(rr_card(it, today) for it in items)}</div>
+<p class="method-note" style="margin-top:32px" data-i18n="rr_note">Information, not legal advice. Dates come from official texts or quality legal and trade press, and slip often: always check the current text before acting.</p>
+</div></section></main>
+"""
+    return out + footer()
+
+
+def home_radar():
+    today = datetime.date.today().isoformat()
+    ev = sorted(((d["date"], d["what"], it) for it in RADAR for d in it.get("dates", []) if d["date"] >= today), key=lambda x: x[0])
+    if not ev:
+        return ""
+    li = "".join(f'<li data-regions="{",".join(it.get("regions", []))}"><span class="cd" data-cd="{d}"></span><span class="tl-when">{E(fdate(d))}</span><div><a href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a><p>{E(w)}</p></div></li>' for d, w, it in ev[:40])
+    return f"""<section class="section" style="padding-top:0" id="radar-teaser"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="nav_radar">Regulatory Radar</div><h2 data-i18n="rr_home_h">The next regulatory deadlines</h2></div><a class="btn btn-ink" href="/radar" data-i18n="rr_open">Open the radar →</a></div>
+<ul class="rr-tl rr-home" data-radar-home>{li}</ul></div></section>"""
+
+
+def story_radar(key):
+    its = [it for it in RADAR if key in (it.get("stories") or [])]
+    if not its:
+        return ""
+    return '<h3 class="st-sub" data-i18n="st_rules">Rules on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a>' for it in its) + "</div>"
+
+
 def write(path, text):
     p = OUT / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(text)
 
@@ -1163,6 +1257,8 @@ for b in briefings:
 write("briefings/index.html", page_briefings_index())
 if doctrines:
     write("doctrines.html", page_doctrines())
+if RADAR:
+    write("radar.html", page_radar())
 if MARKETS:
     write("markets.html", page_markets())
 for _c in COMPS:
@@ -1203,7 +1299,7 @@ out += """<main id="main" class="prose" style="text-align:center;padding-bottom:
 })();
 </script>"""
 write("confirmed.html", out + footer())
-urls = ["/", "/storylines", "/briefings/", "/archive", "/markets", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings] + [f"/storylines/{x['key']}" for x in STORYDATA["storylines"]] + [f"/markets/{c['key']}" for c in COMPS]
+urls = ["/", "/storylines", "/briefings/", "/archive", "/markets", "/radar", "/doctrines", "/glossary", "/method", "/legal"] + [f"/briefings/{b['slug']}" for b in briefings] + [f"/storylines/{x['key']}" for x in STORYDATA["storylines"]] + [f"/markets/{c['key']}" for c in COMPS]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print("built", len(urls), "pages")

@@ -1,0 +1,1104 @@
+{
+  "items": [
+    {
+      "key": "cn-ecommerce-returns-relief-2027",
+      "title": "China extends tax-free returns for e-commerce exports to end-2027",
+      "jurisdiction": "China (Ministry of Finance, General Administration of Customs, State Taxation Administration)",
+      "regions": [
+        "CN"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Goods exported under China's cross-border e-commerce customs codes 1210, 9610, 9710 and 9810 between 1 January 2026 and 31 December 2027 can be shipped back within six months of export free of import duty, import VAT and consumption tax, provided they are unsold stock or customer returns in original condition (food excluded). Any export VAT refund must be repaid first. Since 1 April 2026, such returns can re-enter through any customs office in China, not only the office of export.",
+      "dates": [
+        {
+          "date": "2026-04-01",
+          "what": "Returns of e-commerce retail exports may enter through any customs office nationwide",
+          "src": 1
+        },
+        {
+          "date": "2027-12-31",
+          "what": "Last export date covered by the returns tax relief (Announcement 2026 No. 16)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Chinese cross-border sellers",
+        "Overseas warehouse operators",
+        "Reverse logistics providers",
+        "Freight forwarders"
+      ],
+      "parcel": "An unsold or returned item can go back to China tax-free through the nearest customs office, which lowers the cost of consolidated reverse flows from overseas warehouses.",
+      "prepare": [
+        "Offer consolidated returns-to-China from destination hubs, priced against local liquidation or disposal",
+        "Keep item-level records linking each return to its original export code and return reason (platform records, refusal notices)",
+        "Plan consolidations around the six-month window from the export date"
+      ],
+      "read": "Our reading: Beijing is lowering the exit cost of holding stock abroad, which supports the shift from direct parcels to overseas warehouses. The relief has been renewed twice since it was introduced in 2023, so a further extension after 2027 is plausible but not announced.",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "China Monthly Tax Brief: February 2026 (Announcement [2026] No. 16 on returned cross-border e-commerce exports)",
+          "u": "https://www.china-briefing.com/news/china-monthly-tax-brief-february-2026/",
+          "pub": "China Briefing",
+          "date": "2026-03-11"
+        },
+        {
+          "t": "China to expand cross-customs return policy for e-commerce exports",
+          "u": "https://english.www.gov.cn/news/202603/15/content_WS69b60842c6d00ca5f9a09e4b.html",
+          "pub": "State Council of the PRC (english.gov.cn)",
+          "date": "2026-03-15"
+        },
+        {
+          "t": "Three departments set out tax policy for returned cross-border e-commerce exports",
+          "u": "https://finance.sina.com.cn/roll/2026-02-11/doc-inhmmvzi4683795.shtml",
+          "pub": "Sina Finance",
+          "date": "2026-02-11"
+        }
+      ]
+    },
+    {
+      "key": "cn-platform-tax-reporting",
+      "title": "China makes platforms report seller identities and income every quarter",
+      "jurisdiction": "China (State Council; State Taxation Administration)",
+      "regions": [
+        "CN"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "Since 1 October 2025, internet platforms serving China, including foreign platforms providing for-profit services there, must report the identity and income data of merchants and individuals selling through them to the tax authorities each quarter. Domestic operators cannot avoid the rule through offshore registration, and Amazon said it would report Chinese sellers' data. Penalties range from RMB 20,000 to RMB 500,000, with possible suspension for serious breaches.",
+      "dates": [
+        {
+          "date": "2026-10-31",
+          "what": "Quarterly identity and income report for Q3 2026 due (rule: within the month after quarter end)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Chinese cross-border sellers",
+        "Domestic and foreign marketplaces with Chinese sellers",
+        "Export logistics providers"
+      ],
+      "parcel": "No change at the border, but Chinese sellers' real revenues become visible to the tax authority, which makes undervalued or informal export flows harder to sustain.",
+      "prepare": [
+        "Check that seller identities in your onboarding and customs data match the entities sellers now report to Chinese tax authorities",
+        "Align declared values in export and import data with platform sale prices, since gaps are easier to detect",
+        "Budget for churn among small Chinese merchants facing a higher effective tax bill"
+      ],
+      "read": "Our reading: the rule pushes Chinese e-commerce exporters towards formal, taxed structures. That favours larger sellers and formal export channels, and is likely to speed up consolidation of the long tail of small merchants that fed the direct-parcel model.",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "New China platform information reporting rules: deadlines and compliance",
+          "u": "https://www.china-briefing.com/news/china-platform-information-reporting-rules/",
+          "pub": "China Briefing",
+          "date": "2025-10-22"
+        },
+        {
+          "t": "Online platforms file initial tax info",
+          "u": "https://govt.chinadaily.com.cn/s/202510/18/WS68f6464d498e3685503366b6/online-platforms-file-initial-tax-info.html",
+          "pub": "China Daily",
+          "date": "2025-10-18"
+        }
+      ]
+    },
+    {
+      "key": "cn-ecommerce-law-amendment",
+      "title": "China's draft E-Commerce Law rewrite reaches logistics and adds countermeasures",
+      "jurisdiction": "China (draft amendment to the E-Commerce Law)",
+      "regions": [
+        "CN"
+      ],
+      "domain": "platforms",
+      "status": "proposed",
+      "summary": "A draft amendment to China's E-Commerce Law, published for comment in July 2026, would extend oversight from platforms and merchants to the wider platform economy, including logistics providers, payment processors, data infrastructure and AI shopping agents. It raises maximum fines from RMB 2 million to RMB 5 million, keeps platforms jointly liable when they outsource duties, and adds a clause on countermeasures to protect Chinese companies abroad.",
+      "dates": [
+        {
+          "date": "2026-08-04",
+          "what": "Public comment period on the draft closed",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Chinese platforms",
+        "Logistics providers serving Chinese platforms",
+        "Payment processors",
+        "Foreign carriers with Chinese platform contracts"
+      ],
+      "parcel": "Carriers handling Chinese platform volume could face Chinese oversight and data requests on top of destination-market rules.",
+      "prepare": [
+        "Add conflict-of-laws and data-request clauses to contracts with Chinese platforms",
+        "Map which shipment and customer data you hold for Chinese platforms and where it is stored",
+        "Track the draft through the State Council and the NPC Standing Committee"
+      ],
+      "read": "Our reading: no adoption date has been set, the draft still has to pass the State Council and the NPC Standing Committee, and the final text may change. The countermeasures clause is the part to watch: it gives Beijing a legal basis to respond to EU or US enforcement against its platforms.",
+      "stories": [
+        "platforms-go-local",
+        "us-china-rivalry"
+      ],
+      "sources": [
+        {
+          "t": "China is rewriting e-commerce law to tighten platform rules and add countermeasures",
+          "u": "https://thenextweb.com/news/china-ecommerce-law-amendment-platform-countermeasures",
+          "pub": "The Next Web",
+          "date": "2026-07-04"
+        },
+        {
+          "t": "Amending China's E-Commerce Law: a brand owner's reading of the draft",
+          "u": "https://www.changtsi.com/news/insight/4249.html",
+          "pub": "Chang Tsi & Partners",
+          "date": "2026-08-05"
+        },
+        {
+          "t": "China proposes expanding E-Commerce Law to cover more digital businesses",
+          "u": "https://www.bloomberg.com/news/articles/2026-07-04/china-proposes-expanding-e-commerce-law-scope-platform-rules",
+          "pub": "Bloomberg",
+          "date": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "key": "asean-defa-signature",
+      "title": "ASEAN digital economy pact set for signature in Manila",
+      "jurisdiction": "ASEAN member states",
+      "regions": [
+        "AS"
+      ],
+      "domain": "trade",
+      "status": "proposed",
+      "summary": "ASEAN concluded negotiations on the Digital Economy Framework Agreement (DEFA) at the senior economic officials' meeting of 27 to 29 May 2026. It covers digital trade, cross-border e-commerce, interoperable digital payments, digital identity, cybersecurity and cross-border data flows. Signature is targeted for the 49th ASEAN Summit in Manila, for which the Philippines has declared 16 to 18 November special non-working days in the capital region.",
+      "dates": [
+        {
+          "date": "2026-05-29",
+          "what": "DEFA negotiations concluded (meeting of 27 to 29 May)",
+          "src": 0
+        },
+        {
+          "date": "2026-11-16",
+          "what": "49th ASEAN Summit in Manila (16 to 18 November), targeted DEFA signature",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Cross-border e-commerce platforms",
+        "Posts and express operators in ASEAN",
+        "Customs brokers"
+      ],
+      "parcel": "No tariff or tax change; over time, interoperable e-documents, payments and data rules could cut paperwork costs on intra-ASEAN parcels.",
+      "prepare": [
+        "Identify which ASEAN customs and invoice data flows could move to paperless exchange once DEFA work starts",
+        "Do not count on DEFA to remove national parcel taxes: Thai duty, Vietnamese VAT and Indonesian price floors stay",
+        "Track ratification country by country after November"
+      ],
+      "read": "Our reading: signature in November is likely, but the agreement still needs ratification and does not touch tariffs or consumption taxes. Its value for parcels lies in data and paperless trade, which favours operators that already run customs data pipelines.",
+      "stories": [
+        "asean-digital"
+      ],
+      "sources": [
+        {
+          "t": "ASEAN Digital Economy Framework Agreement: negotiations concluded, targeted for signing in November 2026",
+          "u": "https://www.rajahtannasia.com/viewpoints/asean-digital-economy-framework-agreement-negotiations-concluded-targeted-for-signing-in-november-2026/",
+          "pub": "Rajah & Tann Asia",
+          "date": "2026-07-02"
+        },
+        {
+          "t": "NCR gets three non-working days for ASEAN Summit",
+          "u": "https://tribune.net.ph/2026/09/23/ncr-gets-three-non-working-days-for-asean-summit",
+          "pub": "Daily Tribune",
+          "date": "2026-09-23"
+        },
+        {
+          "t": "ASEAN to sign DEFA in November after concluding negotiations",
+          "u": "https://cebudailynews.inquirer.net/733330/asean-to-sign-defa-in-november-after-concluding-negotiations",
+          "pub": "Cebu Daily News"
+        }
+      ]
+    },
+    {
+      "key": "id-permendag-19-2026",
+      "title": "Indonesia keeps a US$100 floor on cross-border goods sold online",
+      "jurisdiction": "Indonesia (Ministry of Trade)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "platforms",
+      "status": "in-force",
+      "summary": "Trade Minister Regulation 19 of 2026 (Permendag 19/2026), in force since 8 June 2026, keeps the US$100 FOB per-unit minimum price for imported goods sold cross-border on platforms, unless listed on a government exemption list that had not been published at enactment. Platforms must show domestic products in the first row of search results and suspend sellers who miss licensing deadlines. Foreign platforms with at least 1,000 consumer transactions, 1,000 packages a year or 1% of domestic internet traffic must appoint a representative office.",
+      "dates": [
+        {
+          "date": "2026-06-08",
+          "what": "Permendag 19/2026 enters into force; new sellers have six months from registration to obtain licences",
+          "src": 0
+        },
+        {
+          "date": "2027-12-08",
+          "what": "End of the 18-month compliance window for sellers registered before 8 June 2026 (our calculation from the regulation's start date)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Foreign marketplaces",
+        "Cross-border sellers",
+        "Indonesian couriers"
+      ],
+      "parcel": "Direct cross-border parcels of items priced under US$100 per unit are effectively shut out of Indonesian platforms, which moves volume to bulk imports and local sellers.",
+      "prepare": [
+        "Treat Indonesia as a local-stock market for low-priced goods: price bulk import and in-country fulfilment instead of direct parcels",
+        "Check licensing status of the sellers you serve, since platforms must suspend those past their deadline",
+        "Watch for publication of the exemption list for goods under US$100"
+      ],
+      "read": "Our reading: the floor is a market-access rule rather than a tax, so it cannot be absorbed at checkout. It confirms Indonesia as the strictest large ASEAN market for direct cross-border parcels.",
+      "stories": [
+        "asean-digital",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Indonesia e-commerce regulation: key changes explained (Permendag 19/2026)",
+          "u": "https://www.dfdl.com/insights/legal-and-tax-updates/indonesia-ecommerce-regulation-permendag-19-2026/",
+          "pub": "DFDL",
+          "date": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "key": "vn-ecommerce-law-foreign-platforms",
+      "title": "Vietnam requires foreign marketplaces to post VND 20 billion deposits",
+      "jurisdiction": "Vietnam (National Assembly; Government)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "platforms",
+      "status": "in-force",
+      "summary": "Vietnam's Law on E-commerce (Law 122/2025/QH15) took effect on 1 July 2026 with Decree 248/2026/ND-CP. Foreign platforms with a .vn domain, a Vietnamese-language interface or 100,000 transactions a year with Vietnamese buyers must register; foreign intermediary platforms with ordering functions must hold an escrow deposit of at least VND 20 billion in a Vietnamese bank and name a Vietnam-resident representative. Low-value express imports have paid 10% VAT since 18 February 2025.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "Law on E-commerce and Decree 248/2026/ND-CP take effect",
+          "src": 0
+        },
+        {
+          "date": "2027-06-30",
+          "what": "Deadline for platforms registered before 1 July 2026 to bring their dossiers into line",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Foreign marketplaces",
+        "Cross-border sellers",
+        "Express and postal operators delivering in Vietnam"
+      ],
+      "parcel": "Cross-border orders into Vietnam increasingly come through platforms with a legal presence and a deposit at stake, which raises pressure for accurate seller, value and VAT data on each parcel.",
+      "prepare": [
+        "Confirm which platform customers are registered in Vietnam and have posted the deposit",
+        "Build VAT on low-value express imports into landed-cost quotes",
+        "Plan for platforms' updated dossiers before 30 June 2027"
+      ],
+      "read": "Our reading: the deposit and resident representative make Vietnam costly for platforms that only ship direct, which tilts them towards local entities and local stock. Enforcement against unregistered platforms is the variable to watch.",
+      "stories": [
+        "asean-digital",
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "Vietnam: Law on e-commerce 2025 effective July 1, 2026",
+          "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/tnf-vietnam-law-on-e-commerce-2025-effective-july-1-2026.html",
+          "pub": "KPMG",
+          "date": "2026-06-24"
+        },
+        {
+          "t": "New regulations on e-commerce activities under the Law on E-commerce 2025 and Decree 248/2026/ND-CP",
+          "u": "https://www.bizconsult.vn/legal-update-september-2026-new-regulations-on-e-commerce-activities-under-the-law-on-e-commerce-2025-and-decree-248-2026-nd-cp-effective-from-1-july-2026/",
+          "pub": "BizConsult",
+          "date": "2026-09"
+        },
+        {
+          "t": "Vietnam: Electronic Commerce Law targeting cross-border platforms",
+          "u": "https://www.bakermckenzie.com/en/insight/publications/2026/02/vietnam-electronic-commerce-law-targeting-cross-border-platforms",
+          "pub": "Baker McKenzie",
+          "date": "2026-02-26"
+        },
+        {
+          "t": "Vietnam imposes VAT on low-value imported goods",
+          "u": "https://en.vietnamplus.vn/vietnam-imposes-vat-on-low-value-imported-goods-post310103.vnp",
+          "pub": "VietnamPlus",
+          "date": "2025-02-18"
+        }
+      ]
+    },
+    {
+      "key": "vn-postal-law-revision",
+      "title": "Vietnam's revised Postal Law goes to the National Assembly in October",
+      "jurisdiction": "Vietnam (National Assembly)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "postal",
+      "status": "proposed",
+      "summary": "The Government has approved a revised Postal Law of eight chapters and 52 articles, due before the second session of the 16th National Assembly in October 2026. It would replace licences with online registration, split operators into network and non-network providers, require an identifier for every item, sender data collection and risk classification, and extend the universal service to parcels at uniform rates in remote areas. Platforms could contract delivery directly with carriers rather than through each seller.",
+      "dates": [
+        {
+          "date": "2026-10-01",
+          "what": "Second session of the 16th National Assembly, where the draft is due for consideration (month only)",
+          "src": 0
+        },
+        {
+          "date": "2027-07-01",
+          "what": "Expected entry into force, according to Baker McKenzie (not confirmed in official summaries)",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Express and parcel carriers in Vietnam",
+        "Vietnam Post",
+        "E-commerce platforms",
+        "Cross-border carriers with Vietnamese last-mile partners"
+      ],
+      "parcel": "Every item would need a unique identifier, verified sender data and a risk classification, adding data requirements to last-mile delivery, including cross-border parcels handed over in Vietnam.",
+      "prepare": [
+        "Check that inbound data passed to Vietnamese partners can carry sender identity and item identifiers",
+        "Review authorisations held in Vietnam: existing ones stay valid for 12 months after the law applies, then registration is required",
+        "Follow the implementing decrees, which will set the detail of sender identification"
+      ],
+      "read": "Our reading: passage in the October session is likely given Government approval, but the operating detail will sit in decrees. Universal service for parcels at uniform rates gives the designated public operator a funded role in remote delivery that private carriers will have to price against.",
+      "stories": [
+        "asean-digital"
+      ],
+      "sources": [
+        {
+          "t": "Proposal for uniform shipping rates in remote areas (draft revised Postal Law)",
+          "u": "https://thanhnien.vn/de-xuat-vung-sau-vung-xa-duoc-gui-hang-voi-cuoc-phi-thong-nhat-185260930185038206.htm",
+          "pub": "Thanh Niên",
+          "date": "2026-09-30"
+        },
+        {
+          "t": "Việt Nam draft postal law seeks to build digital infrastructure for e-commerce",
+          "u": "https://vietnamnews.vn/economy/1800960/viet-nam-draft-postal-law-seeks-to-build-digital-infrastructure-for-e-commerce.html",
+          "pub": "Viet Nam News",
+          "date": "2026-09-30"
+        },
+        {
+          "t": "Vietnam: Draft Postal Law reshapes delivery framework",
+          "u": "https://www.bakermckenzie.com/en/insight/publications/2026/08/vietnam-draft-postal-law-reshapes-delivery-framework",
+          "pub": "Baker McKenzie",
+          "date": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "key": "th-duty-from-first-baht",
+      "title": "Thailand taxes every online import from the first baht",
+      "jurisdiction": "Thailand (Customs Department; Revenue Department)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Since 1 January 2026, imported goods bought online pay 7% VAT and import duty from 1 baht, ending the 1,500 baht exemption. Officials estimated about 250 million parcels a year worth over 45 billion baht would be affected, with duty around 30% for clothing and footwear and around 20% for bags. Lazada, Shopee, SHEIN, TikTok Shop and Temu agreed with Customs to collect at checkout; on Thailand Post items tax is paid at delivery, and couriers pre-pay and recover it.",
+      "dates": [],
+      "hits": [
+        "Foreign marketplaces",
+        "Thailand Post",
+        "Express couriers",
+        "Cross-border sellers"
+      ],
+      "parcel": "Every parcel into Thailand now carries duty and VAT; platform-collected parcels clear on pre-paid data, others pay at the door or through the courier.",
+      "prepare": [
+        "Move Thai lanes to duty-paid checkout through platform or seller collection rather than collection on delivery",
+        "Send classification and value data before arrival so platform-paid parcels clear without holds",
+        "Price the cash-flow cost where couriers pre-pay duty and recover it later"
+      ],
+      "read": "Our reading: the rule is settled and a reversal is unlikely. The next pressure point is enforcement against goods that fail Thai industrial and food and drug standards, which face removal or bans, alongside a continued shift of Chinese sellers to stock held in Thailand.",
+      "stories": [
+        "asean-digital",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Thailand Customs to tax online imports from 1 baht in 2026",
+          "u": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/",
+          "pub": "Khaosod English",
+          "date": "2025-12-22"
+        },
+        {
+          "t": "Online imports now taxed from first baht as rule starts Jan 1",
+          "u": "https://www.nationthailand.com/news/policy/40060625",
+          "pub": "The Nation Thailand",
+          "date": "2026-01-01"
+        },
+        {
+          "t": "Thailand: new VAT rules for low-value imported goods now in effect",
+          "u": "https://www.bdo.global/en-gb/insights/tax/indirect-tax/thailand-new-vat-rules-for-low-value-imported-goods-now-in-effect",
+          "pub": "BDO",
+          "date": "2026-01-13"
+        }
+      ]
+    },
+    {
+      "key": "my-lvg-tax-courier-floor-price",
+      "title": "Malaysia studies a courier floor price; Budget 2027 due on 9 October",
+      "jurisdiction": "Malaysia (Ministry of Finance; Ministry of Communications; MCMC)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "postal",
+      "status": "consultation",
+      "summary": "Malaysia has charged 10% sales tax on imported low-value goods of RM500 or less sold online since 1 January 2024, with sellers and marketplaces registering once such sales exceed RM500,000 in 12 months. Separately, Communications Minister Fahmi Fadzil said in November 2025 that the government was studying a mandatory floor price for courier services, including cost audits and industry price assessments; MCMC's reference prices remain advisory. Budget 2027 is due to be tabled on 9 October 2026.",
+      "dates": [
+        {
+          "date": "2026-10-09",
+          "what": "Budget 2027 tabled in the Dewan Rakyat",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Domestic couriers",
+        "Marketplaces",
+        "Foreign sellers of low-value goods",
+        "Pos Malaysia"
+      ],
+      "parcel": "Low-value imports already carry 10% sales tax collected by registered sellers; a floor price, if adopted, would set a minimum on domestic delivery rates.",
+      "prepare": [
+        "Model Malaysian last-mile costs under a floor-price scenario before renewing platform contracts",
+        "Confirm low-value goods sales tax registration and collection for the sellers you clear",
+        "Check the 9 October budget for any change to the low-value goods regime or the courier sector"
+      ],
+      "read": "Our reading: we found no decision on the floor price as of 1 October 2026, and MCMC said in February 2025 there was no mandatory minimum price. A floor would lift smaller carriers' yields but would not change the order-flow advantage of platform-linked networks.",
+      "stories": [
+        "asean-digital"
+      ],
+      "sources": [
+        {
+          "t": "Malaysia imposes tax on the import of low value goods",
+          "u": "https://www.aseanbriefing.com/news/malaysia-imposes-tax-on-the-import-of-low-value-goods/",
+          "pub": "ASEAN Briefing",
+          "date": "2024-01-23"
+        },
+        {
+          "t": "Govt to study floor price for courier services to ensure fair competition, says Fahmi",
+          "u": "https://theedgemalaysia.com/node/782636",
+          "pub": "The Edge Malaysia",
+          "date": "2025-11-25"
+        },
+        {
+          "t": "University students, institutions among Budget 2027 priorities, says Anwar",
+          "u": "https://www.thestar.com.my/news/nation/2026/10/01/university-students-institutions-among-budget-2027-priorities-says-anwar",
+          "pub": "The Star",
+          "date": "2026-10-01"
+        },
+        {
+          "t": "MCMC: no mandatory minimum price for courier services",
+          "u": "https://www.businesstoday.com.my/2025/02/19/mcmc-no-mandatory-minimum-price-for-courier-services/",
+          "pub": "Business Today",
+          "date": "2025-02-19"
+        }
+      ]
+    },
+    {
+      "key": "ph-de-minimis-review",
+      "title": "Philippines keeps its PHP10,000 de minimis under review",
+      "jurisdiction": "Philippines (Department of Finance; Bureau of Customs)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "customs",
+      "status": "consultation",
+      "summary": "Imports valued at PHP10,000 or less enter the Philippines free of duty and tax, under a threshold set in 2016 that the Finance Secretary may adjust every three years. The Department of Finance said in May 2025 it was reviewing the rule. In March 2026 the Philippine Retailers Association estimated that about PHP57.4 billion of goods a year enter under it and asked for a lower threshold rather than abolition.",
+      "dates": [],
+      "hits": [
+        "Foreign marketplaces",
+        "Cross-border sellers",
+        "Express and postal operators",
+        "Philippine retailers"
+      ],
+      "parcel": "For now, low-value parcels into the Philippines stay free of duty and tax, which keeps the direct cross-border lane open.",
+      "prepare": [
+        "Keep Philippine direct-parcel contracts short, with rate-change clauses",
+        "Prepare duty-paid checkout so the lane can switch quickly if the threshold falls",
+        "Monitor Department of Finance and Bureau of Customs issuances"
+      ],
+      "read": "Our reading: the Philippines is the last large ASEAN market with a high de minimis, and regional practice points to a cut. We found no published proposal or date, so timing is uncertain.",
+      "stories": [
+        "asean-digital",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Value of tax-free small-value imports raised to P10K",
+          "u": "https://www.dof.gov.ph/value-of-tax-free-small-value-imports-raised-to-p10k/",
+          "pub": "Department of Finance (Philippines)",
+          "date": "2016-10-13"
+        },
+        {
+          "t": "DoF reviewing 'de minimis' rule, says Recto",
+          "u": "https://bworldonline.com/top-stories/2025/05/02/669907/dof-reviewing-de-minimis-rule-says-recto/",
+          "pub": "BusinessWorld",
+          "date": "2025-05-02"
+        },
+        {
+          "t": "Retailers warn P57B imports entering tax-free under 'de minimis' rule",
+          "u": "https://business.inquirer.net/578653/retailers-warn-p57b-imports-entering-tax-free-under-de-minimis-rule",
+          "pub": "Inquirer Business",
+          "date": "2026-03-11"
+        }
+      ]
+    },
+    {
+      "key": "jp-low-value-consumption-tax-2028",
+      "title": "Japan ends the ¥10,000 consumption-tax exemption on imports in April 2028",
+      "jurisdiction": "Japan (National Diet; Ministry of Finance)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "tax",
+      "status": "adopted",
+      "summary": "Japan's 2026 tax reform, passed by the Diet on 31 March 2026, ends the consumption-tax exemption on imported goods of ¥10,000 or less per item from 1 April 2028. Foreign sellers with more than ¥10 million a year of such sales must register, and platforms with annual transactions above ¥5 billion become deemed suppliers, collecting tax at the point of sale. The 60% valuation discount for personal-use imports is also being abolished; its start date is not confirmed in our sources.",
+      "dates": [
+        {
+          "date": "2027-01-01",
+          "what": "Start of the January to March 2027 period used to designate large platforms as deemed suppliers",
+          "src": 1
+        },
+        {
+          "date": "2027-10-01",
+          "what": "Registration opens for foreign sellers of low-value goods",
+          "src": 1
+        },
+        {
+          "date": "2028-04-01",
+          "what": "Consumption tax on low-value imports collected at point of sale; border exemption ends",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Foreign marketplaces",
+        "Cross-border sellers",
+        "Express and postal operators serving Japan"
+      ],
+      "parcel": "From April 2028, a parcel under ¥10,000 either arrives with tax already collected by a registered seller or platform, or pays import consumption tax at the border.",
+      "prepare": [
+        "Add a field to Japanese declarations showing whether tax was collected at sale and by which registered seller or platform",
+        "Ask platform customers whether they will cross the ¥5 billion threshold measured on January to March 2027",
+        "Recalculate landed cost for personal-use imports once the 60% valuation discount ends"
+      ],
+      "read": "Our reading: with the law passed, slippage is unlikely; the risk is operational, in matching parcels to registration numbers at the border. Like the EU and UK models, it moves the tax point to the platform, which favours duty-paid flows and in-market stock.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Japan: 2026 tax reform bills passed by National Diet",
+          "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/03/japan-2026-tax-reform-bills.html",
+          "pub": "KPMG",
+          "date": "2026-03-31"
+        },
+        {
+          "t": "Japan Tax Update: 2026 tax reform",
+          "u": "https://www.pwc.com/jp/en/taxnews/pdf/jtu-20260114-en.pdf",
+          "pub": "PwC Japan",
+          "date": "2026-01-14"
+        }
+      ]
+    },
+    {
+      "key": "kr-ecommerce-act-local-representative",
+      "title": "South Korea makes large foreign marketplaces name a local representative",
+      "jurisdiction": "South Korea (National Assembly; Korea Fair Trade Commission)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "platforms",
+      "status": "adopted",
+      "summary": "Amendments to Korea's E-Commerce Act, passed by the National Assembly on 30 December 2025, require foreign e-commerce operators above sales or user thresholds to designate a Korea-based representative for consumer complaints, disputes and Fair Trade Commission investigations. Other provisions, including review disclosure and seller identity checks, applied from 21 July 2026; the representative requirement applies from 21 January 2027. The duty-free limit for personal overseas purchases stays at US$150 (US$200 for US goods), which the government said in 2024 it was reviewing.",
+      "dates": [
+        {
+          "date": "2026-07-21",
+          "what": "Main provisions of the amended E-Commerce Act take effect",
+          "src": 1
+        },
+        {
+          "date": "2027-01-21",
+          "what": "Foreign operators above the thresholds must have a designated Korea-based representative",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Foreign marketplaces",
+        "Cross-border sellers"
+      ],
+      "parcel": "No change at customs; the marketplaces behind Korean cross-border parcels become directly answerable to the Korean regulator.",
+      "prepare": [
+        "Confirm which platform customers will appoint Korean representatives and how complaints and returns will be routed",
+        "Expect regulator requests for shipment and delivery records to arrive through platform representatives",
+        "Keep the US$150 duty-free limit on the watch list"
+      ],
+      "read": "Our reading: Seoul is regulating the platform rather than the parcel. A cut in the US$150 limit has been discussed since 2024 without a decision, and we found no date for one.",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "E-Commerce Act amendment passes National Assembly plenary (press release)",
+          "u": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156737475",
+          "pub": "Korea Fair Trade Commission (korea.kr)",
+          "date": "2025-12-30"
+        },
+        {
+          "t": "South Korea e-commerce rules force Temu and Shein to answer for Korean consumers",
+          "u": "https://www.techtimes.com/articles/320514/20260715/south-korea-e-commerce-rules-force-temu-shein-answer-korean-consumers.htm",
+          "pub": "Tech Times",
+          "date": "2026-07-15"
+        },
+        {
+          "t": "Gov't considering lowering duty-free limit for overseas direct purchases to below US$150",
+          "u": "https://www.businesskorea.co.kr/news/articleView.html?idxno=217215",
+          "pub": "BusinessKorea",
+          "date": "2024-05-16"
+        }
+      ]
+    },
+    {
+      "key": "in-courier-export-cap-removed",
+      "title": "India removes the value cap on courier exports",
+      "jurisdiction": "India (Central Board of Indirect Taxes and Customs)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "From 1 April 2026, India removed the INR 1 million (Rs 10 lakh) per-consignment ceiling on courier exports through Notifications 33/2026 and 34/2026-Customs (N.T.). Uncleared goods can be returned or re-exported after 15 days if not prohibited or under enforcement action, re-import declarations for e-commerce returns carry more data, and authorised couriers bear storage charges on goods unclaimed beyond 30 days.",
+      "dates": [
+        {
+          "date": "2026-04-01",
+          "what": "Amended courier import and export regulations take effect",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Indian e-commerce exporters",
+        "Express integrators",
+        "India Post",
+        "Courier operators"
+      ],
+      "parcel": "Higher-value e-commerce exports can now leave India by courier instead of switching to conventional cargo, and returns carry more data fields.",
+      "prepare": [
+        "Review Indian courier export products for consignments that previously had to move as cargo",
+        "Update return and re-import processes for the new declaration fields",
+        "Set rules for unclaimed inbound goods, since couriers now carry storage costs after 30 days"
+      ],
+      "read": "Our reading: India is using customs facilitation to grow e-commerce exports while many markets tighten low-value imports. The reforms favour operators with Indian courier licences and export consolidation capacity.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "How India's 2026 e-commerce export reforms benefit traders",
+          "u": "https://www.india-briefing.com/news/india-ecommerce-export-courier-trade-reforms-2026-cbic-amendments-43846.html",
+          "pub": "India Briefing",
+          "date": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "key": "ae-dubai-ecommerce-exemption-einvoicing",
+      "title": "Dubai lifts its e-commerce duty exemption to AED 1,000; UAE e-invoicing from 2027",
+      "jurisdiction": "United Arab Emirates (Dubai Customs; Ministry of Finance)",
+      "regions": [
+        "ME"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Under Dubai Customs Notice 16/2026, cross-border e-commerce shipments valued up to AED 1,000 have been exempt from customs duty since 3 August 2026, up from AED 300; tobacco, e-cigarettes, nicotine liquids and alcohol are excluded, and duty-paid returns within 60 days qualify. Separately, Ministerial Decisions 243 and 244 of 2025 make B2B and B2G e-invoicing mandatory from 1 January 2027 for businesses with revenue of AED 50 million or more and from 1 July 2027 for the rest.",
+      "dates": [
+        {
+          "date": "2026-08-03",
+          "what": "Dubai AED 1,000 e-commerce duty exemption takes effect",
+          "src": 0
+        },
+        {
+          "date": "2026-10-30",
+          "what": "Deadline for large businesses to appoint an accredited e-invoicing service provider (extended from 31 July)",
+          "src": 2
+        },
+        {
+          "date": "2027-01-01",
+          "what": "E-invoicing mandatory for businesses with revenue of AED 50 million or more",
+          "src": 2
+        },
+        {
+          "date": "2027-07-01",
+          "what": "E-invoicing mandatory for businesses below AED 50 million",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Cross-border marketplaces",
+        "Express integrators",
+        "Gulf e-commerce sellers",
+        "Logistics firms invoicing in the UAE"
+      ],
+      "parcel": "Most B2C parcels into Dubai no longer pay customs duty (VAT treatment is not addressed in the reports we reviewed), while logistics firms' own B2B invoices move to e-invoicing in 2027.",
+      "prepare": [
+        "Update Dubai landed-cost calculations for the AED 1,000 duty threshold",
+        "Appoint an accredited e-invoicing provider by 30 October 2026 if UAE revenue is AED 50 million or more",
+        "Confirm with Dubai Customs how the exemption applies to parcels cleared in other emirates"
+      ],
+      "read": "Our reading: Dubai is lowering friction on parcels while war-related transport costs push the other way. The exemption is a Dubai measure; we did not find equivalent notices from other emirates.",
+      "stories": [
+        "hormuz-fuel"
+      ],
+      "sources": [
+        {
+          "t": "Dubai Customs exempts e-commerce shipments up to Dhs1,000 from customs duties",
+          "u": "https://www.gulftoday.ae/news/2026/08/05/dubai-customs-exempts-e-commerce-shipments-up-to-dhs1000-from-customs-duties",
+          "pub": "Gulf Today",
+          "date": "2026-08-05"
+        },
+        {
+          "t": "Dubai raises e-commerce customs duty exemption to AED 1,000",
+          "u": "https://www.vatupdate.com/2026/09/12/dubai-raises-e-commerce-customs-duty-exemption-to-aed-1000/",
+          "pub": "VATupdate",
+          "date": "2026-09-12"
+        },
+        {
+          "t": "UAE defines e-invoicing scope and implementation timeline via two Ministerial Decisions",
+          "u": "https://www.vatupdate.com/2026/07/18/uae-two-ministerial-decisions-set-e-invoicing-scope-and-timeline/",
+          "pub": "VATupdate",
+          "date": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "key": "sa-zatca-low-value-einvoicing",
+      "title": "Saudi Arabia: no duty under SAR 1,000, VAT on everything, e-invoicing widens",
+      "jurisdiction": "Saudi Arabia (Zakat, Tax and Customs Authority, ZATCA)",
+      "regions": [
+        "ME"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "ZATCA exempts personal online purchases below SAR 1,000, including shipping and insurance, from customs duty, but charges VAT on the full declared amount including shipping, insurance and customs fees. Since October 2024, individuals' online-store shipments up to SAR 1,000 carry a SAR 15 declaration processing fee. On 24 July 2026 ZATCA announced Wave 25 of e-invoicing integration for taxpayers whose VAT-able revenue exceeded SAR 187,500 in any year from 2022 to 2025, with integration due by 1 February 2027.",
+      "dates": [
+        {
+          "date": "2026-07-24",
+          "what": "ZATCA announces Wave 25 of e-invoicing integration",
+          "src": 2
+        },
+        {
+          "date": "2027-02-01",
+          "what": "Wave 25 taxpayers must complete e-invoicing integration",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Cross-border marketplaces",
+        "Express integrators",
+        "Saudi SME sellers",
+        "Logistics service providers"
+      ],
+      "parcel": "A low-value parcel into Saudi Arabia pays no duty below SAR 1,000 but pays VAT on its full landed value plus a SAR 15 declaration fee.",
+      "prepare": [
+        "Quote Saudi landed cost VAT-inclusive, including shipping and the SAR 15 fee",
+        "Check whether Saudi entities in your group or partner network fall into Wave 25 and must integrate by 1 February 2027",
+        "Provide consignees with the customs declaration on request, as ZATCA advises"
+      ],
+      "read": "Our reading: halving the e-invoicing threshold brings small sellers and service firms into real-time reporting, giving ZATCA a fuller picture of domestic e-commerce. We found no announced change to the SAR 1,000 duty threshold.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "E-Store Customers: customs duty and VAT on online purchases",
+          "u": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs_individual/e-stores-customers.aspx",
+          "pub": "Zakat, Tax and Customs Authority (ZATCA)"
+        },
+        {
+          "t": "ZATCA issues the Fees Rules on Customs Services provided at customs ports",
+          "u": "https://zatca.gov.sa/en/MediaCenter/News/Pages/news_1282.aspx",
+          "pub": "Zakat, Tax and Customs Authority (ZATCA)",
+          "date": "2024-09-06"
+        },
+        {
+          "t": "ZATCA determines the criteria for selecting the targeted taxpayers in Wave 25 of e-invoicing",
+          "u": "https://zatca.gov.sa/en/MediaCenter/News/Pages/Wave25-E-invoicing.aspx",
+          "pub": "Zakat, Tax and Customs Authority (ZATCA)",
+          "date": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "key": "tr-postal-express-duty-free-abolished",
+      "title": "Turkey abolishes the €30 duty-free allowance on postal and express imports",
+      "jurisdiction": "Türkiye (Presidency; Ministry of Trade)",
+      "regions": [
+        "ME"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "A presidential decision published in the Official Gazette on 7 January 2026, effective 30 days later, removed the €30 duty-free allowance for non-commercial goods imported by post or express. Such imports now pay a flat 30% on EU-origin goods and 60% on goods from elsewhere, with an extra 20% on certain products; medicines and dietary supplements keep an exemption up to €1,500. The limit had already been cut from €150 to €30 in August 2024.",
+      "dates": [],
+      "hits": [
+        "Foreign marketplaces",
+        "Express integrators",
+        "Postal operators",
+        "Cross-border sellers"
+      ],
+      "parcel": "Every postal or express parcel bought abroad now pays 30% or 60%, which makes EU origin a pricing advantage and closes the small-order duty-free lane.",
+      "prepare": [
+        "Price Turkish lanes duty-paid with origin-dependent rates, and verify EU origin claims",
+        "Assess holding fast-moving, low-ticket stock inside Turkey",
+        "Plan for lower volumes from non-EU origins on direct parcel lanes"
+      ],
+      "read": "Our reading: three cuts in under two years show a consistent policy to protect domestic retail and the trade balance, so a reversal is unlikely. The 30-point gap between EU and non-EU origin favours EU-based fulfilment for Turkish consumers.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Turkey ends duty-free limit for goods sent by mail",
+          "u": "https://www.agbi.com/trade/2026/01/turkey-scraps-duty-free-allowance-for-non-commercial-goods-purchased-abroad/",
+          "pub": "AGBI",
+          "date": "2026-01"
+        },
+        {
+          "t": "Duty-free online shopping ends in Turkey: €30 limit abolished",
+          "u": "https://businessturkeytoday.com/duty-free-online-shopping-ends-in-turkey-e30-limit-abolished.html/amp",
+          "pub": "Business Turkey Today",
+          "date": "2026-01"
+        },
+        {
+          "t": "Has the €30 limit on shopping abroad been lifted? Customs limit in 2026",
+          "u": "https://www.hurriyet.com.tr/bilgi/galeri/yurt-disi-gumruk-vergisi-siniri-2026-ne-kadar-oldu-dustu-mu-30-euro-siniri-kalkti-mi-43078592",
+          "pub": "Hürriyet"
+        }
+      ]
+    },
+    {
+      "key": "ma-finance-bill-2027",
+      "title": "Morocco's 2027 finance bill: first test for the new government's import line",
+      "jurisdiction": "Morocco (Government; Parliament)",
+      "regions": [
+        "NAF"
+      ],
+      "domain": "tax",
+      "status": "proposed",
+      "summary": "Morocco's 2027 finance bill must be filed in Parliament by 20 October 2026, as Fatima Ezzahra El Mansouri, appointed head of government on 29 September, forms a coalition. Reported orientations focus on cutting the deficit to 3% of GDP, tax treatment of FIFA 2030 operations, green excise and customs anti-fraud tools; we found no published measure on e-commerce imports. Since July 2022, all online purchases from foreign platforms pay duty and 20% VAT, with customs citing 40% duty on textiles.",
+      "dates": [
+        {
+          "date": "2026-09-29",
+          "what": "Fatima Ezzahra El Mansouri appointed head of government",
+          "src": 3
+        },
+        {
+          "date": "2026-10-20",
+          "what": "Latest date to file the 2027 finance bill in Parliament",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Foreign marketplaces",
+        "Barid Al-Maghrib",
+        "Express integrators",
+        "Moroccan importers"
+      ],
+      "parcel": "No change yet: inbound e-commerce parcels keep paying duty and VAT; the bill will show whether rates or collection methods change in 2027.",
+      "prepare": [
+        "Read the bill's customs provisions on filing for any change to e-commerce, textile duties or import VAT",
+        "Keep moving Moroccan lanes to upstream clearance with duties shown at checkout",
+        "Prepare for customs anti-fraud tools such as electronic seals and real-time tracking"
+      ],
+      "read": "Our reading: the outgoing majority has already set the bill's fiscal frame, so a reversal of the 2022 e-commerce taxation is unlikely. Coalition talks could push filing close to the deadline.",
+      "stories": [
+        "mena-gateway"
+      ],
+      "sources": [
+        {
+          "t": "PLF 2027: a budget roadmap already well marked out",
+          "u": "https://www.lavieeco.com/au-royaume/evenement/plf-2027-une-feuille-de-route-budgetaire-deja-bien-balisee/",
+          "pub": "La Vie éco",
+          "date": "2026-09-18"
+        },
+        {
+          "t": "PLF 2027: the main tax and customs measures under study",
+          "u": "https://fr.le360.ma/economie/plf-2027-les-principales-mesures-fiscales-et-douanieres-a-letude_V6MAOEE5PBGZ3F26VA76N6JNNA/",
+          "pub": "Le360",
+          "date": "2026-09-14"
+        },
+        {
+          "t": "Taxes on online purchases: the effects of the latest customs decision",
+          "u": "https://www.lebrief.ma/taxes-sur-les-achats-en-ligne-quid-des-effets-de-la-derniere-decision-de-la-douane/",
+          "pub": "LeBrief",
+          "date": "2022-06-30"
+        },
+        {
+          "t": "Morocco: Fatima Zahra El Mansouri, first woman head of government",
+          "u": "https://oeildafrique.com/2026/09/30/cheffe-gouvernement-maroc-el-mansouri/",
+          "pub": "L'Oeil d'Afrique",
+          "date": "2026-09-30"
+        }
+      ]
+    },
+    {
+      "key": "eg-aci-air-ecommerce-track",
+      "title": "Egypt: advance cargo data for air freight, e-commerce track in design",
+      "jurisdiction": "Egypt (Egyptian Customs Authority; Ministry of Finance)",
+      "regions": [
+        "NAF"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Egypt made Advance Cargo Information (ACI) mandatory for all air freight from 1 January 2026: air waybills must carry an ACID number obtained by the Egyptian importer and a consignor code, or shipments face rejection, fines or return. Inbound air cargo processing fees were cut to US$95 per consignment from US$175 for a six-month introductory period. On 28 September 2026 customs head Ahmed Amawi set out a roadmap for cross-border e-commerce based on pre-arrival data and risk-based parcel classification, with EU, GIZ and ITC support, without implementation dates.",
+      "dates": [
+        {
+          "date": "2026-09-28",
+          "what": "Customs presents cross-border e-commerce roadmap at a workshop with EU, GIZ and ITC",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Air forwarders",
+        "Express integrators",
+        "Egypt Post",
+        "Cross-border sellers"
+      ],
+      "parcel": "An air shipment to Egypt without an ACID number can be refused; e-commerce parcels may later get a lighter, risk-based track.",
+      "prepare": [
+        "Make ACID and consignor codes mandatory booking fields for every Egypt-bound air shipment",
+        "Confirm with Egyptian partners how express and postal consignments are treated under ACI",
+        "Follow the customs e-commerce workstream for draft rules on low-value shipments"
+      ],
+      "read": "Our reading: Egypt is building a data-first border, and the e-commerce track is likely to reuse the ACI model. Until rules are published, pre-registration cost and delay fall on shippers and forwarders.",
+      "stories": [
+        "mena-gateway"
+      ],
+      "sources": [
+        {
+          "t": "Egypt to enforce mandatory ACI for air freight starting January 1, 2026",
+          "u": "https://www.lufthansa-cargo.com/en/l/73549692",
+          "pub": "Lufthansa Cargo"
+        },
+        {
+          "t": "Cairo's digital customs reset: Egypt cuts air cargo fees to protect throughput as ACI goes mandatory",
+          "u": "https://aircargoweek.com/cairos-digital-customs-reset-egypt-cuts-air-cargo-fees-to-protect-throughput-as-aci-goes-mandatory/",
+          "pub": "Air Cargo Week",
+          "date": "2026-01-16"
+        },
+        {
+          "t": "Egyptian customs sets a roadmap to ease cross-border shipments with the EU and GIZ",
+          "u": "https://www.dostor.org/5719437",
+          "pub": "Al-Dostor",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "wto-ecommerce-moratorium-lapsed",
+      "title": "WTO duty moratorium on electronic transmissions lapses; 66 members go plurilateral",
+      "jurisdiction": "World Trade Organization",
+      "regions": [
+        "GLOBAL"
+      ],
+      "domain": "trade",
+      "status": "suspended",
+      "summary": "WTO members failed to renew the moratorium on customs duties on electronic transmissions at the 14th Ministerial Conference in Yaoundé (26 to 30 March 2026), so it lapsed, the first lapse since 1999. 66 members representing about 70% of world trade began interim implementation of the plurilateral E-Commerce Agreement, which includes a commitment not to impose such duties; it enters into force once 45 members complete domestic acceptance. India and other developing members argue the moratorium costs them tariff revenue.",
+      "dates": [],
+      "hits": [
+        "Marketplaces",
+        "Software and digital content sellers",
+        "Logistics platforms selling digital services across borders"
+      ],
+      "parcel": "No direct change for physical parcels; the risk is new duties on cross-border digital services such as software, data and subscriptions.",
+      "prepare": [
+        "Map digital revenue streams exposed to possible duties in markets outside the E-Commerce Agreement",
+        "Track which of your markets accept the E-Commerce Agreement",
+        "Watch WTO General Council meetings in Geneva for an attempt to reinstate the moratorium"
+      ],
+      "read": "Our reading: at the lapse, the Computer and Communications Industry Association noted that no government had imposed such duties, so the first mover is the signal to watch. The split mirrors parcel customs: rules are now set by coalitions rather than consensus.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "CCIA laments failure to extend WTO e-commerce moratorium at MC14",
+          "u": "https://ccianet.org/news/2026/03/ccia-laments-failure-to-extend-wto-e-commerce-moratorium-at-mc14/",
+          "pub": "CCIA",
+          "date": "2026-03-30"
+        },
+        {
+          "t": "Outcome of the 14th WTO Ministerial Conference",
+          "u": "https://policy.trade.ec.europa.eu/news/outcome-14th-wto-ministerial-conference-2026-03-30_en",
+          "pub": "European Commission (DG Trade)",
+          "date": "2026-03-30"
+        },
+        {
+          "t": "WTO's 14th Ministerial Conference: e-commerce developments",
+          "u": "https://www.pwc.com/gx/en/tax/newsletters/tax-policy-bulletin/assets/pwc-wto-e-commerce-developments.pdf",
+          "pub": "PwC",
+          "date": "2026-04-02"
+        },
+        {
+          "t": "What the WTO e-commerce moratorium is and why members are split",
+          "u": "https://www.malaymail.com/news/money/2026/03/29/what-the-wto-ecommerce-moratorium-is-and-why-members-are-split/214322",
+          "pub": "Malay Mail",
+          "date": "2026-03-29"
+        }
+      ]
+    },
+    {
+      "key": "upu-remuneration-2026-2030",
+      "title": "UPU's 2026-2030 pay system moves small packets to per-item rates",
+      "jurisdiction": "Universal Postal Union",
+      "regions": [
+        "GLOBAL"
+      ],
+      "domain": "postal",
+      "status": "in-force",
+      "summary": "The 28th Universal Postal Congress in Dubai adopted an Integrated Remuneration System for 2026 to 2030: letter-post pay is based on item content rather than bulk weight, small packets move to a per-item method by 2027, and parcel rates can increasingly be self-declared from domestic tariffs and linked to delivery performance. Congress also added a delivered-duty-paid (DDP) service to the product plan and raised mandatory item scans from six to twelve. The UPU says it prepared DDP solutions for EU countries ahead of the EU's July 2026 change.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "EU low-value duty applies; UPU says it prepared DDP solutions for EU destinations ahead of it",
+          "src": 1
+        },
+        {
+          "date": "2027-01-01",
+          "what": "Small packets move to per-item remuneration (year only; month not stated)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Postal operators",
+        "Platforms and sellers using postal small packets",
+        "Cross-border consolidators"
+      ],
+      "parcel": "A light small packet will cost the sending post more per item, which raises the floor price of the cheapest postal e-commerce channel.",
+      "prepare": [
+        "Re-cost postal small-packet products per item rather than per kilo for 2027",
+        "Check partner posts' readiness for twelve scan events and DDP",
+        "Compare postal DDP with commercial channels on EU and US lanes"
+      ],
+      "read": "Our reading: per-item pay removes the bulk-weight advantage that made posts the cheapest route for light Chinese parcels. Combined with the end of de minimis, it narrows the price gap between postal and commercial channels.",
+      "stories": [
+        "de-minimis-end",
+        "networks-consolidate"
+      ],
+      "sources": [
+        {
+          "t": "UPU leaves Dubai with bold new outlook",
+          "u": "https://www.upu.int/en/news/2025/december/upu-leaves-dubai-with-bold-new-outlook",
+          "pub": "Universal Postal Union",
+          "date": "2025-12-16"
+        },
+        {
+          "t": "Readying the network for a regulatory overhaul: three trends shaping the postal landscape",
+          "u": "https://www.upu.int/en/news/2026/september/readying-the-network-for-a-regulatory-overhaul-three-gamechanging-trends-shaping-the-postal-landsc",
+          "pub": "Universal Postal Union",
+          "date": "2026-09-28"
+        },
+        {
+          "t": "Decisions of the 2025 Dubai Congress",
+          "u": "https://www.upu.int/UPU/media/upu/files/aboutUpu/acts/07-actsAndOtherDecisions2025DubaiCongress/2025DubaiCongressDecisionsEn.pdf",
+          "pub": "Universal Postal Union"
+        }
+      ]
+    }
+  ]
+}

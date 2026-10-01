@@ -98,6 +98,7 @@
     var firstOwn = $$('[data-filter-regions] .bcard').filter(function (el) { return !el.hidden && el.style.order === '0'; })[0];
     $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
     if (window.WIL_runSearch) window.WIL_runSearch();
+    if (window.WIL_radar) window.WIL_radar();
     $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
     $$('[data-current-region]').forEach(function (el) { var R = t('R') || {}; el.textContent = (R[state.region] || state.region).toUpperCase(); });
     // Regional page: show the matching desk.
@@ -274,7 +275,63 @@
     v.addEventListener('play', function () { box.classList.add('playing'); track('video_played', {}); });
     v.addEventListener('ended', function () { track('video_completed', {}); });
   }
+
+  // Regulatory Radar: region + topic filters, countdowns.
+  function daysTo(iso) {
+    var p = iso.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]); var n = new Date(); n.setHours(0, 0, 0, 0);
+    return Math.round((d - n) / 86400000);
+  }
+  function fillCountdowns() {
+    $$('.cd[data-cd]').forEach(function (el) { var n = daysTo(el.getAttribute('data-cd')); el.textContent = n <= 0 ? 'D−0' : 'D−' + n; el.classList.toggle('soon', n <= 45); });
+  }
+  var radarDomain = '';
+  window.WIL_radar = function () {
+    var root = $('[data-radar]');
+    var homeList = $('[data-radar-home]');
+    if (homeList) {
+      var shown = 0;
+      $$('li', homeList).forEach(function (li) {
+        var rs = (li.getAttribute('data-regions') || '').split(',');
+        var ok = (inRegion(rs) || rs.indexOf('GLOBAL') > -1) && shown < 6;
+        li.hidden = !ok; if (ok) shown++;
+      });
+    }
+    if (!root) return;
+    function keep(el) {
+      var rs = (el.getAttribute('data-regions') || '').split(',');
+      return (inRegion(rs) || rs.indexOf('GLOBAL') > -1) && (!radarDomain || el.getAttribute('data-domain') === radarDomain);
+    }
+    var n = 0, nf = 0, np = 0;
+    $$('.rr', root).forEach(function (el) {
+      el.hidden = !keep(el); if (el.hidden) return; n++;
+      var st = el.getAttribute('data-status');
+      if (st === 'in-force') nf++; else if (st === 'adopted' || st === 'proposed' || st === 'consultation') np++;
+    });
+    var e1 = $('#rr-nf'); if (e1) e1.textContent = nf; var e2 = $('#rr-np'); if (e2) e2.textContent = np;
+    var first = null;
+    $$('.rr-tl li', root).forEach(function (el) { el.hidden = !keep(el); if (!el.hidden && !first) first = el; });
+    $$('.rr-month', root).forEach(function (m) { m.hidden = !$$('li', m).some(function (li) { return !li.hidden; }); });
+    var cnt = $('#rr-n'); if (cnt) cnt.textContent = n;
+    var a = $('#rr-next-a'), cd = $('#rr-next-cd');
+    if (a && cd) {
+      if (first) { var l = $('a', first); a.textContent = l.textContent; a.href = l.getAttribute('href'); cd.textContent = 'D−' + Math.max(0, daysTo(first.getAttribute('data-date'))); }
+      else { a.textContent = ''; cd.textContent = '·'; }
+    }
+  };
+  function initRadar() {
+    fillCountdowns();
+    $$('[data-domain-f]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        radarDomain = b.getAttribute('data-domain-f');
+        $$('[data-domain-f]').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+        window.WIL_radar();
+        if (window.posthog && posthog.capture) posthog.capture('radar_topic', { topic: radarDomain || 'all' });
+      });
+    });
+    window.WIL_radar();
+  }
   initVideo();
+  initRadar();
   function initSearch() {
     var q = $('#bq'), m = $('#bm'); if (!q) return;
     function run() {

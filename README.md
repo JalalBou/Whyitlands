@@ -58,6 +58,10 @@ Lives in `content/intel/`:
 
 Signals about competitors rest on public sources only, cover players evenly, and never use anything known from the author's employment.
 
+## Regulatory Radar (/radar)
+
+`content/radar/*.json` (europe, americas, asia-mena-global), one `{"items": [...]}` per file, schema in `content/radar/SCHEMA.md`. Each rule has a status (consultation, proposed, adopted, in-force, suspended), dated milestones with a source each, who it hits, the parcel impact, what to prepare, our reading and storylines. The page shows an 18-month agenda with countdowns and the full register, filtered by region and topic; the home page shows the next deadlines; storyline pages link the rules on that storyline. Information, not legal advice.
+
 ## Editorial rules
 
 - Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. Never mention Asendia.

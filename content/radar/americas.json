@@ -1,0 +1,1148 @@
+{
+  "items": [
+    {
+      "key": "us-postal-informal-entry-2026",
+      "title": "US mail clears as a full import: brokered entry, agency data from 22 October",
+      "jurisdiction": "United States",
+      "regions": [
+        "NA"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "CBP suspended the $800 de minimis exemption indefinitely for all modes on 24 June 2026. Since 24 July, mailed goods worth $2,500 or less clear through a new postal informal entry that only the owner, the purchaser or a licensed customs broker they designate may file, with a customs bond, a 10-digit tariff classification per item and duty paid through Pay.gov by the 7th of the following month. An electronic version, Entry Type 13, has been running as a voluntary test since 22 September.",
+      "dates": [
+        {
+          "date": "2026-07-24",
+          "what": "Postal informal entry process starts for mail valued at $2,500 or less",
+          "src": 0
+        },
+        {
+          "date": "2026-09-22",
+          "what": "Entry Type 13 electronic informal entry for mail starts as a voluntary test, open until CBP announces its end",
+          "src": 1
+        },
+        {
+          "date": "2026-10-01",
+          "what": "FDA prior notice for food arriving by international mail must include the mail service name and tracking number",
+          "src": 3
+        },
+        {
+          "date": "2026-10-22",
+          "what": "Compliance date for partner government agency data and Chapter 98 and 99 requirements under the postal informal entry rule",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Foreign postal operators",
+        "Licensed customs brokers",
+        "Cross-border marketplaces and sellers",
+        "USPS"
+      ],
+      "parcel": "Every mailed item into the United States now needs a named filer, a bond, a 10-digit classification, origin and value, so clearance becomes a per-item cost on top of the duty.",
+      "prepare": [
+        "Secure a filing position before peak: a licensed broker with a continuous bond, or a partner that holds one, and test Entry Type 13 rather than relying on monthly spreadsheets",
+        "Make item-level data (10-digit code, origin, verified value) a condition of induction for US-bound mail, and flag food, cosmetics and other agency-regulated goods separately",
+        "Price US-bound mail as landed cost per item, with duty, filing and advancement fees shown to the shipper"
+      ],
+      "read": "Our reading: 22 October falls just before peak, so the main risk is holds on agency-regulated goods with incomplete data rather than a lack of filing capacity. Because foreign posts can no longer file, clearance margin moves to whoever holds the broker licence and the customer data.",
+      "stories": [
+        "de-minimis-end",
+        "us-china-rivalry"
+      ],
+      "sources": [
+        {
+          "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+          "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+          "pub": "Federal Register (CBP)",
+          "date": "2026-06-24"
+        },
+        {
+          "t": "Test of the New Electronic Informal Entry Process for Mail",
+          "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12668/test-of-the-new-electronic-informal-entry-process-for-mail",
+          "pub": "Federal Register (CBP)",
+          "date": "2026-06-24"
+        },
+        {
+          "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes of importation; new postal entry procedures",
+          "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+          "pub": "KPMG TaxNewsFlash",
+          "date": "2026-06-24"
+        },
+        {
+          "t": "Prior Notice: Adding Requirement To Submit Mail Tracking Number for Articles of Food Arriving by International Mail",
+          "u": "https://www.federalregister.gov/documents/2025/09/25/2025-18655/prior-notice-adding-requirement-to-submit-mail-tracking-number-for-articles-of-food-arriving-by",
+          "pub": "Federal Register (FDA)",
+          "date": "2025-09-25"
+        }
+      ]
+    },
+    {
+      "key": "us-de-minimis-statutory-repeal-2027",
+      "title": "US de minimis repeal written into statute from 1 July 2027",
+      "jurisdiction": "United States",
+      "regions": [
+        "NA"
+      ],
+      "domain": "customs",
+      "status": "adopted",
+      "summary": "Section 70531 of the One Big Beautiful Bill Act (H.R. 1) ends duty-free de minimis entry for commercial shipments from all countries from 1 July 2027. The same section has allowed civil penalties since August 2025 of up to $5,000 for a first violation and $10,000 for each later one against anyone who enters, or facilitates entry of, goods under the exemption in breach of customs law. CBP's current suspension is administrative; the statute makes it permanent.",
+      "dates": [
+        {
+          "date": "2027-07-01",
+          "what": "Statutory repeal of the de minimis exemption for commercial shipments takes effect",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Cross-border marketplaces and sellers",
+        "Express integrators",
+        "Postal operators",
+        "Customs brokers"
+      ],
+      "parcel": "From mid-2027 no future administration can restore duty-free low-value entry by rule: it would take a new act of Congress.",
+      "prepare": [
+        "Plan US-bound networks on the assumption that duty-paid, fully entered parcels are permanent, not a temporary regime",
+        "Review contracts and pricing that assume a return of de minimis, and remove that assumption from 2027 budgets",
+        "Assess bulk import plus domestic fulfilment for best-selling items where per-parcel clearance cost exceeds margin"
+      ],
+      "read": "Our reading: the July 2027 date matters less operationally, since CBP already applies the suspension to all modes, than politically: it removes the option of a quick reversal after the November 2026 midterms. Any new alternative duty programme would need legislation, which we see no sign of.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Customs De Minimis Ending In 2027: Big Beautiful Bill Impact Analysis for Supply Chains",
+          "u": "https://www.beneschlaw.com/insight/customs-de-minimis-ending-in-2027-big-beautiful-bill-impact-analysis-for-supply-chains/",
+          "pub": "Benesch",
+          "date": "2025-07-11"
+        },
+        {
+          "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes of importation; new postal entry procedures",
+          "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+          "pub": "KPMG TaxNewsFlash",
+          "date": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "key": "us-section-301-forced-labour-tariffs",
+      "title": "US rebuilds tariffs on Section 301 after IEEPA and Section 122",
+      "jurisdiction": "United States",
+      "regions": [
+        "NA",
+        "CN"
+      ],
+      "domain": "trade",
+      "status": "in-force",
+      "summary": "After the Supreme Court struck down the IEEPA tariffs on 20 February 2026, a 10% Section 122 surcharge applied from 24 February until it expired on 24 July. It was replaced the same day by Section 301 tariffs tied to forced-labour import enforcement: 12.5% on products of China, Brazil, Vietnam and 35 other economies, 10% on Canada, Mexico, the UK, India and others, with USMCA goods of Canada and Mexico entered duty-free, Section 232 goods, pharmaceuticals and civil aircraft excluded. Refunds of IEEPA duties run through CBP's phased CAPE process, and some remain tied up in the courts.",
+      "dates": [
+        {
+          "date": "2026-07-24",
+          "what": "Section 122 surcharge expires and Section 301 tariffs of 10% or 12.5% on 60 economies take effect",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Cross-border marketplaces and sellers",
+        "Express integrators",
+        "Customs brokers",
+        "Importers of record"
+      ],
+      "parcel": "A China-origin parcel now pays 12.5% on top of normal duties, and the rate depends on proven origin, so supplier and origin data set the landed cost.",
+      "prepare": [
+        "Update landed-cost engines with the Section 301 rate by origin and the exclusion annexes, and check USMCA claims on Canadian and Mexican goods",
+        "Check whether IEEPA and Section 122 duties paid on your entries are eligible for refund, and track protest deadlines (180 days from liquidation)",
+        "Add change-of-law clauses to US inbound contracts, since the legal basis of the tariffs has changed three times in 2026"
+      ],
+      "read": "Our reading: the legal basis has changed but the tariff level on small parcels has not fallen, so planning should assume a durable 10% to 12.5% layer. The court challenges to Section 122 and the pending refunds show legal risk, but they create cash recovery opportunities rather than a route back to duty-free parcels.",
+      "stories": [
+        "us-china-rivalry",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Forced-Labour Section 301 Tariffs on 60 Economies Take Effect on 24 July: An Overview of the Final Action",
+          "u": "https://globaltradealert.org/blog/forced-labour-section-301-final-action",
+          "pub": "Global Trade Alert",
+          "date": "2026-07-24"
+        },
+        {
+          "t": "Fact Sheet: USTR Section 301 Action in Response to the Failure of 60 Economies to Ban Imports Produced with Forced Labor",
+          "u": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/july/fact-sheet-ustr-section-301-action-response-failure-60-economies-ban-imports-produced-forced-labor",
+          "pub": "Office of the United States Trade Representative",
+          "date": "2026-07"
+        },
+        {
+          "t": "A Tale of Tariff Substitution",
+          "u": "https://www.kroll.com/en/publications/a-tale-of-tariff-substitution",
+          "pub": "Kroll",
+          "date": "2026-09-09"
+        },
+        {
+          "t": "Months after IEEPA tariffs were struck down, some refunds remain caught between Customs and the courts",
+          "u": "https://kesq.com/stacker-international/2026/09/22/months-after-ieepa-tariffs-were-struck-down-some-refunds-remain-caught-between-customs-and-the-courts/",
+          "pub": "KESQ (Stacker)",
+          "date": "2026-09-22"
+        },
+        {
+          "t": "Tax Insights: US Court of International Trade strikes down section 122 tariffs",
+          "u": "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/us-court-strike-down-section-122-tariffs-2026.html",
+          "pub": "PwC Canada",
+          "date": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "key": "us-china-truce-2027",
+      "title": "US-China truce extended to 10 January 2027, parcels left out",
+      "jurisdiction": "United States and China",
+      "regions": [
+        "NA",
+        "CN"
+      ],
+      "domain": "trade",
+      "status": "adopted",
+      "summary": "On 24 September Washington and Beijing extended the pause on tariff increases agreed after the October 2025 Busan summit from 10 November 2026 to 10 January 2027. They then agreed tariff cuts on $60 billion of goods, $30 billion each way; the American list includes small appliances, tableware, blankets, toys, holiday decorations and children's car seats. Nothing published reopens duty-free entry for low-value shipments, and we found no start date for the cuts.",
+      "dates": [
+        {
+          "date": "2026-09-24",
+          "what": "Truce extended from 10 November 2026 to 10 January 2027",
+          "src": 0
+        },
+        {
+          "date": "2026-09-28",
+          "what": "Tariff cuts on $60 billion of goods announced, $30 billion each way (start date not published)",
+          "src": 1
+        },
+        {
+          "date": "2027-01-10",
+          "what": "Extended truce expires unless renewed",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Chinese cross-border platforms",
+        "Transpacific air cargo",
+        "Express integrators",
+        "US importers of consumer goods"
+      ],
+      "parcel": "Some typical e-commerce categories may become cheaper to import in bulk, but each China-origin parcel still pays normal duty plus the 12.5% Section 301 tariff.",
+      "prepare": [
+        "Treat 10 January 2027 as a repricing date for transpacific capacity and any contract priced on current tariffs",
+        "Map your top SKUs against the American list of reduced tariffs once it is published with codes and dates",
+        "Keep options open between direct parcel and bulk import plus US fulfilment for China-origin goods"
+      ],
+      "read": "Our reading: the truces are getting shorter and cover bulk trade in non-sensitive goods, not the parcel channel. Slippage of the tariff cuts is likely until Washington publishes lines and an effective date.",
+      "stories": [
+        "us-china-rivalry",
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "US says trade truce with China extended till Jan. 10, 2027, ahead of Trump-Xi meet",
+          "u": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/092426-us-says-trade-truce-with-china-extended-till-jan-10-2027-ahead-of-trump-xi-meet",
+          "pub": "S&P Global",
+          "date": "2026-09-24"
+        },
+        {
+          "t": "China - US agree tariff cuts on US$60b of goods as trade truce extended",
+          "u": "https://www.thevibes.com/articles/world/127776/china-us-agree-tariff-cuts-on-us60b-of-goods-as-trade-truce-extended",
+          "pub": "The Vibes",
+          "date": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "key": "us-section-338-canada",
+      "title": "US 50% Section 338 duty and import bans hit Canadian goods",
+      "jurisdiction": "United States",
+      "regions": [
+        "NA"
+      ],
+      "domain": "trade",
+      "status": "in-force",
+      "summary": "Under Section 338 of the Tariff Act of 1930, a 50% duty has applied since 22 August 2026 to about $20 billion of Canadian goods across 554 tariff lines, including alcohol, dairy, maple syrup, plywood and ice hockey equipment, with no exemption for USMCA-qualifying goods. Proclamations signed on 8 September widened the duty list from 15 September (adding items such as cheese, furniture and lighting) and banned imports of certain Canadian alcohol, dairy products and motorcycles over 800 cc from 29 September.",
+      "dates": [
+        {
+          "date": "2026-08-22",
+          "what": "50% Section 338 duty takes effect on 554 tariff lines of Canadian goods",
+          "src": 0
+        },
+        {
+          "date": "2026-09-15",
+          "what": "Widened duty lists take effect",
+          "src": 1
+        },
+        {
+          "date": "2026-09-29",
+          "what": "Import bans on certain Canadian alcoholic beverages, dairy products and motorcycles over 800 cc take effect",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Canadian online sellers",
+        "Canada Post and couriers on the Canada-US lane",
+        "US importers"
+      ],
+      "parcel": "A Canadian parcel of maple syrup, cheese or hockey gear to an American buyer pays 50% on top of clearance costs, and some alcohol and dairy can no longer be shipped at all.",
+      "prepare": [
+        "Screen Canada-to-US parcels against the Section 338 lists and the banned categories before induction",
+        "Advise Canadian shippers to move affected categories into US warehouse stock or to non-US markets",
+        "Watch for further proclamations, which have come at two- to three-week intervals"
+      ],
+      "read": "Our reading: the move from duties to bans shows the instrument can escalate quickly and without USMCA protection, so the Canada-US e-commerce lane should be priced with short tenors. Small Canadian exporters are the most exposed.",
+      "stories": [
+        "north-america-rulebook"
+      ],
+      "sources": [
+        {
+          "t": "Fifty Percent Section 338 Tariffs on Many Canadian Goods Effective August 22",
+          "u": "https://www.dwt.com/insights/2026/08/section-338-tariffs-canadian-goods",
+          "pub": "Davis Wright Tremaine",
+          "date": "2026-08-27"
+        },
+        {
+          "t": "From Duties to Import Bans: President Trump Escalates Section 338 Actions Against Canadian Goods",
+          "u": "https://www.troutman.com/insights/from-duties-to-import-bans-president-trump-escalates-section-338-actions-against-canadian-goods/",
+          "pub": "Troutman Pepper Locke",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "key": "canada-surtax-us-goods-parcels",
+      "title": "Canada's counter-tariffs reach low-value US parcels",
+      "jurisdiction": "Canada",
+      "regions": [
+        "NA"
+      ],
+      "domain": "trade",
+      "status": "in-force",
+      "summary": "Since 8 September 2026 Canada has applied surtaxes of 15%, 25% and 50% to C$27.6 billion of US goods, including steel, aluminium, furniture, apparel, appliances, dairy and seafood. CBSA guidance (Customs Notice 26-23) says the surtax applies even to goods that would otherwise qualify for relief under the Postal Imports Remission Order or the Courier Imports Remission Order, so low-value parcels from US retailers are not carved out.",
+      "dates": [
+        {
+          "date": "2026-09-08",
+          "what": "Canadian surtaxes on C$27.6 billion of US goods take effect, including on low-value postal and courier shipments",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "US online retailers selling to Canada",
+        "Couriers and Canada Post on inbound US flows",
+        "Customs brokers"
+      ],
+      "parcel": "A US-origin parcel of covered goods now owes surtax in Canada even below the C$40 and C$150 thresholds, so it must be accounted for and charged.",
+      "prepare": [
+        "Update Canada-bound landed-cost calculators with surtax by tariff line and origin marking, including for low-value orders",
+        "Make sure DDP checkouts collect the surtax up front to avoid refused deliveries",
+        "Check whether US sellers can ship affected goods from non-US stock or Canadian warehouses"
+      ],
+      "read": "Our reading: removing the low-value carve-out turns a trade dispute into a per-parcel cost for cross-border e-commerce, which favours sellers holding stock in Canada. Expect the lists to move with each round of the Section 338 escalation.",
+      "stories": [
+        "north-america-rulebook"
+      ],
+      "sources": [
+        {
+          "t": "Canada announces counter-tariffs on U.S. goods",
+          "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/08/canada-counter-tariffs-us-goods.html",
+          "pub": "KPMG TaxNewsFlash",
+          "date": "2026-08-26"
+        },
+        {
+          "t": "Canada's Surtax on U.S. Goods Takes Effect Sept. 8, 2026",
+          "u": "https://www.ghy.com/trade-compliance/canada-counter-tariffs-us-goods-september-2026/",
+          "pub": "GHY International",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "key": "usmca-annual-review",
+      "title": "USMCA not renewed: yearly reviews, interim deals sought by year end",
+      "jurisdiction": "United States, Mexico and Canada",
+      "regions": [
+        "NA"
+      ],
+      "domain": "trade",
+      "status": "in-force",
+      "summary": "At the joint review on 1 July 2026 the United States did not agree to renew the USMCA in its current form. The agreement stays in force to 2036 but now faces a joint review every year, the next in July 2027. USTR Jamieson Greer has said he would like interim arrangements with Canada and with Mexico by the end of 2026, with rules of origin and other harder issues left to 2027; a fourth US-Mexico round was postponed to October without a date.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "United States declines to renew the USMCA at the six-year joint review",
+          "src": 0
+        },
+        {
+          "date": "2026-12-31",
+          "what": "USTR's stated goal for interim arrangements with Canada and Mexico (an aim, not a deadline)",
+          "src": 2
+        },
+        {
+          "date": "2027-07-01",
+          "what": "Next annual USMCA joint review (month only)",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "North American cross-border shippers",
+        "Couriers and posts on intra-regional lanes",
+        "Manufacturers using regional supply chains"
+      ],
+      "parcel": "Treaty preferences that still lower costs for regional parcels, such as Canada's and Mexico's courier thresholds for US goods, are now open to renegotiation every year.",
+      "prepare": [
+        "Replace multi-year price commitments on North American lanes with change-of-law clauses tied to each July review",
+        "Keep proof-of-origin and supplier data ready, since rules of origin are at the centre of the talks",
+        "Track the Mexico round 4 date and any interim text for customs or e-commerce provisions"
+      ],
+      "read": "Our reading: an interim deal with Mexico is more likely than with Canada, where Greer said on 25 September he saw no urgency. De minimis is not a confirmed workstream of the review, so low-value relief inside the region is likely to stay one-way.",
+      "stories": [
+        "north-america-rulebook"
+      ],
+      "sources": [
+        {
+          "t": "Ambassador Greer Issues Statement on the USMCA Joint Review",
+          "u": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+          "pub": "Office of the United States Trade Representative",
+          "date": "2026-07-01"
+        },
+        {
+          "t": "USMCA 2026 Joint Review: United States declines to extend Agreement, triggering annual reviews",
+          "u": "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual",
+          "pub": "White & Case",
+          "date": "2026-07-02"
+        },
+        {
+          "t": "US trade chief Greer aiming for 'interim arrangements' on USMCA by year end",
+          "u": "https://wtaq.com/2026/07/22/us-trade-chief-greer-aiming-for-interim-arrangements-on-usmca-by-year-end/",
+          "pub": "WTAQ (Reuters)",
+          "date": "2026-07-22"
+        },
+        {
+          "t": "USMCA Joint Review Tracker",
+          "u": "https://www.icpainc.org/usmca-joint-review-tracker-home/",
+          "pub": "International Compliance Professionals Association (ICPA)",
+          "date": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "key": "usps-pricing-and-solvency",
+      "title": "USPS: temporary peak prices, density pricing delayed, cash tight in 2027",
+      "jurisdiction": "United States",
+      "regions": [
+        "NA"
+      ],
+      "domain": "postal",
+      "status": "adopted",
+      "summary": "The Postal Regulatory Commission approved temporary holiday prices on Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select from 4 October 2026 to 17 January 2027. On 21 August it refused USPS's request to use estimated FY2026 density authority for a January 2027 increase, so a January change to market-dominant prices can only use CPI authority and density-based rises must wait for a July 2027 change filed in April. Postmaster General David Steiner has said USPS will run out of cash in early 2027 and that fewer delivery days, post office closures and a higher borrowing cap are on the table.",
+      "dates": [
+        {
+          "date": "2026-08-21",
+          "what": "PRC denies USPS waiver to use FY2026 density rate authority for a January 2027 price change",
+          "src": 0
+        },
+        {
+          "date": "2026-10-04",
+          "what": "Temporary holiday prices start on four domestic parcel products",
+          "src": 2
+        },
+        {
+          "date": "2027-01-01",
+          "what": "Earliest window for a CPI-only market-dominant price change (month only; we found no filing as of 1 October)",
+          "src": 1
+        },
+        {
+          "date": "2027-01-17",
+          "what": "Temporary holiday prices end",
+          "src": 2
+        },
+        {
+          "date": "2027-07-01",
+          "what": "Earliest price change using density authority, filed in April 2027 (month only)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "E-commerce shippers of lightweight parcels",
+        "Consolidators and parcel injectors",
+        "Alternative last-mile carriers"
+      ],
+      "parcel": "Lightweight residential parcels cost more through USPS during peak, and USPS's cash position points to further price and service changes in 2027.",
+      "prepare": [
+        "Rebuild Q4 rate cards with the USPS holiday prices and compare zone by zone with alternative carriers",
+        "Budget for a larger USPS increase in July 2027 rather than January",
+        "Prepare contingency plans for slower or fewer delivery days in rural areas if Congress does not act"
+      ],
+      "read": "Our reading: the PRC denial delays rather than prevents density pricing, so the bigger shipping price step is likely mid-2027. The cash deadline gives Congress until early 2027 to act, and service cuts are the fallback if it does not.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "PRC Denies USPS Motion to Allow January Density Rate Increase",
+          "u": "https://www.newsmediaalliance.org/prc-denies-usps-motion-to-allow-january-density-rate-increase/",
+          "pub": "News/Media Alliance",
+          "date": "2026-08-24"
+        },
+        {
+          "t": "Postal Regulatory Commission denies USPS January rate hike request",
+          "u": "https://nna.org/postal-regulatory-commission-denies-usps-january-rate-hike-request",
+          "pub": "National Newspaper Association",
+          "date": "2026-08"
+        },
+        {
+          "t": "U.S. Postal Service Announces Temporary Price Change for 2026 Holiday Shipping Season",
+          "u": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
+          "pub": "USPS Newsroom",
+          "date": "2026-08-25"
+        },
+        {
+          "t": "USPS Temporary Price Change Approved for 2026 Holiday Shipping Season",
+          "u": "https://www.fp-usa.com/usps-temporary-price-change-for-2026-holiday-season",
+          "pub": "FP Mailing Solutions",
+          "date": "2026-09-18"
+        },
+        {
+          "t": "USPS floats more financial aid from Congress as way to avoid running out of cash next year",
+          "u": "https://federalnewsnetwork.com/management/2026/05/usps-floats-more-financial-aid-from-congress-as-way-to-avoid-running-out-of-cash-next-year/",
+          "pub": "Federal News Network",
+          "date": "2026-05-08"
+        }
+      ]
+    },
+    {
+      "key": "us-state-retail-delivery-fees",
+      "title": "US state delivery fees: Colorado raises its charge, others weigh one",
+      "jurisdiction": "US states (Colorado, Minnesota)",
+      "regions": [
+        "NA"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "Colorado's retail delivery fee rose from $0.28 to $0.31 per delivery on 1 July 2026, for motor-vehicle deliveries containing at least one taxable item, and runs at that rate to 30 June 2027 with yearly inflation adjustments. Minnesota charges $0.50 on deliveries of $100 or more by retailers with over $1 million of Minnesota sales. In May 2026 proposals were reported in Vermont, Virginia, Washington and New York; we could not confirm whether any passed.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "Colorado retail delivery fee rises to $0.31 per delivery",
+          "src": 0
+        },
+        {
+          "date": "2027-07-01",
+          "what": "Next possible Colorado inflation adjustment (current rate applies to 30 June 2027)",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Online retailers and marketplaces",
+        "Delivery platforms",
+        "Carriers invoicing on behalf of retailers"
+      ],
+      "parcel": "Each taxable home delivery in these states carries a fixed fee that the retailer must collect, show and remit, separate from sales tax.",
+      "prepare": [
+        "Make checkout and invoicing systems able to add state delivery fees by destination and order value",
+        "Track state legislative sessions for new fees in 2027",
+        "Check marketplace-facilitator rules on who collects the fee"
+      ],
+      "read": "Our reading: the amounts are small, but each new state adds a compliance line for every order, and fixed per-delivery charges weigh most on low-value orders.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "Colorado Increases Retail Delivery Fee Rate, Effective July 1, 2026",
+          "u": "https://www.salestaxinstitute.com/resources/colorado-increases-retail-delivery-fee-rate-effective-july-1-2026",
+          "pub": "Sales Tax Institute",
+          "date": "2026-05-27"
+        },
+        {
+          "t": "Colorado Retail Delivery Fee Update: Increase to $0.31 in 2026",
+          "u": "https://sovos.com/regulatory-updates/sut/colorado-retail-delivery-fee-2026-increase/",
+          "pub": "Sovos",
+          "date": "2026-05-04"
+        },
+        {
+          "t": "Retail Delivery Fee",
+          "u": "https://www.revenue.state.mn.us/retail-delivery-fee",
+          "pub": "Minnesota Department of Revenue",
+          "date": ""
+        },
+        {
+          "t": "Every Time You Order Online, More States Want a Cut. The Retail Delivery Fee Is Spreading",
+          "u": "https://sales.tax/sales-tax-updates/retail-delivery-fee-states-2026-ecommerce/",
+          "pub": "The Sales Tax People",
+          "date": "2026-05-18"
+        }
+      ]
+    },
+    {
+      "key": "canada-low-value-carm",
+      "title": "Canada keeps one-way courier thresholds and extends CARM courier relief",
+      "jurisdiction": "Canada",
+      "regions": [
+        "NA"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Under CUSMA, courier shipments from the US or Mexico enter Canada free of duty up to C$150 and free of tax up to C$40; shipments from other origins keep a C$20 combined threshold, and postal shipments do not get the CUSMA courier thresholds. Courier low-value shipments up to C$3,300 get simplified release and accounting. CBSA Customs Notice 26-13 extends operational measures for releasing commercial goods in the courier programme under CARM for 12 months from 12 June 2026, while importers register in the CARM portal, obtain a BN15 and post security for release prior to payment.",
+      "dates": [
+        {
+          "date": "2026-06-12",
+          "what": "CBSA extends courier low value shipment measures under CARM for 12 months",
+          "src": 1
+        },
+        {
+          "date": "2027-06-12",
+          "what": "Extended courier measures due to end (12 months from 12 June 2026; exact end date not confirmed)",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Couriers in the CLVS programme",
+        "Canada Post",
+        "US and Mexican sellers",
+        "Customs brokers"
+      ],
+      "parcel": "US-origin courier parcels into Canada keep higher thresholds than postal parcels, while commercial importers must complete CARM registration before the temporary measures end.",
+      "prepare": [
+        "Push commercial shippers to register in CARM and post release-prior-to-payment security well before June 2027",
+        "Route eligible US and Mexican goods by courier rather than post where the CUSMA thresholds apply",
+        "Remember that Canada's 2026 surtax on US goods applies below these thresholds"
+      ],
+      "read": "Our reading: the thresholds are unlikely to change before the USMCA review settles, but the end of the CARM measures in mid-2027 is a hard date for courier operators with unregistered commercial clients.",
+      "stories": [
+        "north-america-rulebook"
+      ],
+      "sources": [
+        {
+          "t": "Overview of key changes affecting imports (CUSMA)",
+          "u": "https://www.cbsa-asfc.gc.ca/services/cusma-aceum/overview-survol-eng.html",
+          "pub": "Canada Border Services Agency",
+          "date": ""
+        },
+        {
+          "t": "CBSA Extends CLVS Operational Measures for Commercial Goods Release Under CARM",
+          "u": "https://www.ghy.com/trade-compliance/cbsa-clvs-operational-measures-carm-commercial-goods-release/",
+          "pub": "GHY International",
+          "date": "2026-06-16"
+        }
+      ]
+    },
+    {
+      "key": "canada-post-community-mailboxes",
+      "title": "Canada Post to begin ending door-to-door delivery",
+      "jurisdiction": "Canada",
+      "regions": [
+        "NA"
+      ],
+      "domain": "postal",
+      "status": "adopted",
+      "summary": "Canada Post plans to convert about four million addresses that still receive door-to-door delivery to community mailboxes over about five years. The first phase covers about 136,000 addresses in 13 communities, including Ottawa, North Vancouver, Moncton and Winnipeg, from late 2026 or early 2027. It is also reviewing post office networks in urban and suburban areas it considers over-served.",
+      "dates": [
+        {
+          "date": "2026-12-01",
+          "what": "First conversions of about 136,000 addresses begin (stated as late 2026 or early 2027; month approximate)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Canada Post",
+        "Parcel shippers to Canadian homes",
+        "Alternative last-mile carriers",
+        "Out-of-home delivery networks"
+      ],
+      "parcel": "Small parcels that fit a community mailbox go there instead of the door, and larger ones are more likely to end at a pickup point, which changes first-attempt delivery and the customer experience.",
+      "prepare": [
+        "Review Canadian delivery promises and tracking messages for addresses moving to community mailboxes",
+        "Assess demand for lockers and pickup points in the first 13 communities",
+        "Watch for parcel-size rules at community mailboxes that affect packaging choices"
+      ],
+      "read": "Our reading: the change cuts Canada Post's delivery cost but may push some e-commerce volume to carriers that still deliver to the door. Timetable slippage is possible given the scale and local opposition.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "Canada Post moving forward with preliminary work on multi-year transformation",
+          "u": "https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/news-release/2026-04-16-canada-post-moving-forward-with-preliminary-work-on-multi-year-transformation",
+          "pub": "Canada Post",
+          "date": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "key": "mexico-parcel-rate-non-treaty-tariffs",
+      "title": "Mexico taxes Asian parcels at 33.5% and tariffs non-treaty goods",
+      "jurisdiction": "Mexico",
+      "regions": [
+        "NA",
+        "CN",
+        "AS"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Since 15 August 2025, rule 3.7.35 of Mexico's foreign trade rules applies a 33.5% global rate to courier imports from countries without a trade agreement with Mexico, against 19% before. US and Canadian courier shipments keep preferential treatment: exempt under $50, 17% from $50 to $117 and 19% above. Since 1 January 2026 tariffs of 5% to 50% apply on 1,463 tariff lines from non-agreement countries such as China, India and South Korea, with textiles at 25% to 35%.",
+      "dates": [
+        {
+          "date": "2027-07-01",
+          "what": "Next USMCA joint review, which frames the preferential courier treatment for US and Canadian goods (month only)",
+          "src": 4
+        }
+      ],
+      "hits": [
+        "Asian cross-border platforms",
+        "Couriers and parcel operators in Mexico",
+        "Mexican fulfilment and last-mile providers"
+      ],
+      "parcel": "A direct parcel from China into Mexico pays a third of its value in import taxes, so platforms now ship containers and deliver from Mexican warehouses.",
+      "prepare": [
+        "Sell container clearance, bonded or local warehousing and domestic last mile rather than cross-border air parcels for Asian origins",
+        "Audit origin documents on US-fulfilled flows to keep the sub-$50 exemption",
+        "Plan for the 2027 customs reform, which tightens valuation controls"
+      ],
+      "read": "Our reading: a year on, Mexican logistics firms say the rate relocated rather than stopped Asian volume, with stock moving into local warehouses. We see no sign that Mexico will ease the rate while it is aligning with Washington on Chinese imports.",
+      "stories": [
+        "north-america-rulebook",
+        "latam-split",
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "Mexico raises the import tax on parcel shipments to 33.5%",
+          "u": "https://thelogisticsworld.com/actualidad-logistica/mexico-lleva-al-33-5-el-impuesto-a-importaciones-por-paqueteria/",
+          "pub": "The Logistics World",
+          "date": "2025-08-04"
+        },
+        {
+          "t": "Mexico publishes decree adjusting tariffs on countries without a trade agreement",
+          "u": "https://expansion.mx/economia/2025/12/29/mexico-decreto-cierra-puerta-barata-china-y-paises-sin-tlc",
+          "pub": "Expansión",
+          "date": "2025-12-29"
+        },
+        {
+          "t": "One year of the 33.5% rate on parcel imports: what has changed in e-commerce",
+          "u": "https://www.tyt.com.mx/nota/un-ano-de-aranceles-del-33-5-en-importaciones-que-ha-cambiado-en-el-ecommerce",
+          "pub": "T21 / TyT",
+          "date": "2026-08-27"
+        },
+        {
+          "t": "SAT updates rules for courier and parcel imports: 33.5% and 19% global rates",
+          "u": "https://calatravaconsultores.com.mx/2025/07/30/sat-actualiza-reglas-para-importacion-por-mensajeria-y-paqueteria-aplicara-tasas-globales-del-33-5-y-19/",
+          "pub": "Calatrava Consultores",
+          "date": "2025-07-30"
+        },
+        {
+          "t": "USMCA 2026 Joint Review: United States declines to extend Agreement, triggering annual reviews",
+          "u": "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual",
+          "pub": "White & Case",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "key": "mexico-customs-reform-2027",
+      "title": "Mexico's 2027 package: undervaluation crackdown and platform withholding",
+      "jurisdiction": "Mexico",
+      "regions": [
+        "NA"
+      ],
+      "domain": "customs",
+      "status": "proposed",
+      "summary": "With the 2027 economic package delivered on 8 September, President Sheinbaum sent Congress a reform of the Customs Law aimed at undervaluation. It would cut from 50% to 20% the value gap that triggers a presumed infringement, let customs seize goods whenever the declared value is below that of identical or similar goods, and remove the option of releasing suspect goods against a guarantee. The package also proposes extending income tax and VAT withholding by digital platforms to sellers that are legal entities.",
+      "dates": [
+        {
+          "date": "2026-09-08",
+          "what": "2027 economic package delivered to Congress",
+          "src": 0
+        },
+        {
+          "date": "2026-09-09",
+          "what": "Customs Law reform initiative sent to the Chamber of Deputies",
+          "src": 1
+        },
+        {
+          "date": "2026-10-20",
+          "what": "Deadline for the Chamber of Deputies to approve the 2027 Income Law (the customs reform's timetable is not fixed)",
+          "src": 0
+        },
+        {
+          "date": "2026-10-31",
+          "what": "Deadline for the Senate to approve the 2027 Income Law",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Importers and customs brokers",
+        "Couriers and consolidators",
+        "Marketplaces and their sellers"
+      ],
+      "parcel": "Declared values on consolidated e-commerce imports face tighter checks and possible seizure, so valuation evidence becomes a condition of release.",
+      "prepare": [
+        "Check that declared values on consolidated and bonded imports can be backed by transaction evidence",
+        "Review broker contracts for liability if goods are seized under the new thresholds",
+        "Prepare marketplace systems for wider seller withholding if the package passes"
+      ],
+      "read": "Our reading: the reform does not target courier rates directly, but it hits the bulk-import model that platforms adopted after the 33.5% rate. Approval is likely given the governing majority; the entry-into-force date is not yet published.",
+      "stories": [
+        "north-america-rulebook",
+        "latam-split"
+      ],
+      "sources": [
+        {
+          "t": "Customs, cadastre and digital payments: the 2027 Economic Package reaches Congress",
+          "u": "https://www.proceso.com.mx/economia/2026/9/9/aduanas-catastro-y-pagos-digitales-asi-llega-el-paquete-economico-2027-al-congreso-379638.html",
+          "pub": "Proceso",
+          "date": "2026-09-09"
+        },
+        {
+          "t": "Sheinbaum wants to change the rules at customs: this is what she proposes",
+          "u": "https://www.elfinanciero.com.mx/nacional/2026/09/09/sheinbaum-quiere-cambiar-las-reglas-en-las-aduanas-esto-es-lo-que-propone/",
+          "pub": "El Financiero",
+          "date": "2026-09-09"
+        },
+        {
+          "t": "Customs Law reform 2027: undervaluation and seizure",
+          "u": "https://www.stratego-st.com/publicaciones/proyecto-de-reforma-a-la-ley-aduanera/",
+          "pub": "ST Stratego",
+          "date": "2026-09-18"
+        },
+        {
+          "t": "2027 Economic Package: executive summary",
+          "u": "https://www.ey.com/es_mx/technical/tax/boletines-fiscales/ey-tax-flash-resumen-paquete-economico-2027",
+          "pub": "EY Mexico",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "key": "brazil-zero-rate-law-15502",
+      "title": "Brazil makes zero tax on imports up to US$50 law before the vote",
+      "jurisdiction": "Brazil",
+      "regions": [
+        "SA",
+        "CN"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "Law 15,502/2026, published on 10 September, lets the Finance Minister set the federal import tax at zero on purchases up to US$50 under the simplified regime and at up to 30% on purchases up to US$3,000, against 20% and 60% before; state ICMS still applies. Platforms and logistics operators must verify seller identity and bank data, monitor undervaluation and split shipments, and report quarterly to anti-piracy authorities. The industry confederation's challenge at the Supreme Court has been sent to the full court without a date.",
+      "dates": [
+        {
+          "date": "2026-09-10",
+          "what": "Law 15,502/2026 published",
+          "src": 0
+        },
+        {
+          "date": "2026-10-04",
+          "what": "General election, first round",
+          "src": 3
+        },
+        {
+          "date": "2026-10-25",
+          "what": "Presidential run-off, if needed",
+          "src": 3
+        },
+        {
+          "date": "2026-12-10",
+          "what": "First Finance Ministry impact assessment due, three months after publication (approximate date)",
+          "src": 1
+        },
+        {
+          "date": "2027-01-05",
+          "what": "New presidential term begins",
+          "src": 3
+        },
+        {
+          "date": "2027-04-30",
+          "what": "Annual report to Congress on the effects of the measure due",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Cross-border platforms certified under Remessa Conforme",
+        "Express and courier operators",
+        "Correios",
+        "Brazilian retailers and manufacturers"
+      ],
+      "parcel": "A sub-US$50 parcel into Brazil is cheaper but still pays ICMS, and its clearance data must now support seller vetting and split-shipment checks.",
+      "prepare": [
+        "Treat the law's platform duties as your data specification: verified seller ID, tax ID and item value on every Brazil-bound consignment",
+        "Buy peak Asia-Brazil capacity with flexibility, since import declarations rose 74% year on year in August",
+        "Model a reversal scenario around the impact reviews and the Supreme Court case"
+      ],
+      "read": "Our reading: the zero rate is likely to hold through the election, so reversal risk sits in the December impact review, the Supreme Court and the 2027 consumption tax. The 30% power for mid-value parcels is the less noticed upside.",
+      "stories": [
+        "latam-split",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Law that allows zeroing the 'blouse tax' on purchases up to US$50 is signed",
+          "u": "https://www12.senado.leg.br/noticias/materias/2026/09/11/sancionada-lei-que-autoriza-zerar-taxa-das-blusinhas-ate-us-50",
+          "pub": "Agência Senado",
+          "date": "2026-09-11"
+        },
+        {
+          "t": "End of the 'blouse tax' on purchases up to US$50 is now law",
+          "u": "https://www.camara.leg.br/noticias/1304183-fim-da-taxa-das-blusinhas-para-compras-ate-us-50-agora-e-lei",
+          "pub": "Agência Câmara de Notícias",
+          "date": "2026-09-11"
+        },
+        {
+          "t": "Without the 'blouse tax', international purchases rise 74% in August",
+          "u": "https://www.poder360.com.br/brasil/sem-taxa-das-blusinhas-compras-internacionais-sobem-74-em-agosto/",
+          "pub": "Poder360",
+          "date": "2026-09-24"
+        },
+        {
+          "t": "Elections 2026: the main dates of the electoral calendar",
+          "u": "https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-confira-as-principais-datas-do-calendario-eleitoral",
+          "pub": "Tribunal Superior Eleitoral",
+          "date": "2026-03"
+        },
+        {
+          "t": "Toffoli keeps the end of the 'blouse tax' and will take the case to the plenary",
+          "u": "https://www.gazetadopovo.com.br/economia/toffoli-mantem-taxa-das-blusinhas-suspensa-e-levara-caso-a-plenario/",
+          "pub": "Gazeta do Povo",
+          "date": "2026-05-26"
+        }
+      ]
+    },
+    {
+      "key": "brazil-cbs-ibs-imports-2027",
+      "title": "Brazil's CBS consumption tax applies to small imports from 2027",
+      "jurisdiction": "Brazil",
+      "regions": [
+        "SA"
+      ],
+      "domain": "tax",
+      "status": "adopted",
+      "summary": "From 1 January 2027 the federal consumption tax CBS takes full effect and PIS and Cofins end; from 2029 to 2033 the subnational IBS gradually replaces ICMS and ISS. Low-value international purchases, including those up to US$50, will be subject to CBS from 2027, with one estimate putting the federal burden at about 9.43%. Customs systems are being adapted: Remessa Conforme platforms must show IBS and CBS at checkout under a May 2026 ordinance that also grades them Gold, Silver or Bronze, and the import declaration (DUIMP) gained item-level IBS and CBS fields on 27 September.",
+      "dates": [
+        {
+          "date": "2026-05-14",
+          "what": "Portaria Coana 193/2026: Remessa Conforme platforms must itemise IBS, CBS, ICMS and other charges; Gold, Silver and Bronze compliance tiers",
+          "src": 2
+        },
+        {
+          "date": "2026-09-27",
+          "what": "DUIMP import declaration adds item-level IBS and CBS fields",
+          "src": 3
+        },
+        {
+          "date": "2027-01-01",
+          "what": "CBS takes full effect and PIS and Cofins end; CBS applies to low-value international purchases",
+          "src": 0
+        },
+        {
+          "date": "2029-01-01",
+          "what": "IBS starts gradually replacing ICMS and ISS, with full transition by 2033",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Cross-border platforms",
+        "Couriers and Remessa Conforme carriers",
+        "Brazilian importers"
+      ],
+      "parcel": "The zero federal import tax does not mean zero federal tax: from 2027 a small parcel will carry CBS, and checkout data must show it.",
+      "prepare": [
+        "Model Brazil landed cost for 2027 with CBS on top of ICMS, even at the zero import-tax rate",
+        "Align checkout and clearance data with the Remessa Conforme ordinance to protect your tier rating",
+        "Write tax-change clauses into 2027 contracts with platforms and shippers"
+      ],
+      "read": "Our reading: CBS gives Brasília a way to tax small imports without reopening the politically costly import tax, so the parity debate is likely to move here after the election. The final CBS rate is not yet set, so 2027 prices should carry a margin for it.",
+      "stories": [
+        "latam-split"
+      ],
+      "sources": [
+        {
+          "t": "CBS will tax international purchases in 2027",
+          "u": "https://www.contabeis.com.br/noticias/77821/cbs-vai-tributar-compras-internacionais-em-2027/",
+          "pub": "Contábeis",
+          "date": "2026-07-02"
+        },
+        {
+          "t": "How the tax reform affects your pocket from 2027",
+          "u": "https://www.correiobraziliense.com.br/economia/2026/08/7484180-como-a-reforma-tributaria-afeta-seu-bolso-a-partir-de-2027.html",
+          "pub": "Correio Braziliense",
+          "date": "2026-08-20"
+        },
+        {
+          "t": "Remessa Conforme will have new requirements on IBS and CBS",
+          "u": "https://www.contabeis.com.br/noticias/76760/remessa-conforme-tera-novas-exigencias-sobre-ibs-e-cbs/",
+          "pub": "Contábeis",
+          "date": "2026-05-14"
+        },
+        {
+          "t": "DUIMP changes on 27/09/2026 to receive IBS and CBS",
+          "u": "https://www.dinastiacontabil.com.br/duimp-ibs-cbs-importacao-27-setembro-2026/",
+          "pub": "Dinastia Contábil",
+          "date": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "key": "argentina-postal-courier-unified",
+      "title": "Argentina opens the postal channel to US$3,000 shipments",
+      "jurisdiction": "Argentina",
+      "regions": [
+        "SA"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Decree 604/2026, published on 17 July, unified the treatment of postal and courier imports, with a duty exemption for shipments up to US$400 limited to five a year per person. ARCA General Resolution 5884/2026 of 30 July lets the official postal operator deliver door to door shipments of up to US$3,000 FOB for personal use, up to three units of the same item, with the option to pay duties before arrival.",
+      "dates": [
+        {
+          "date": "2026-07-17",
+          "what": "Decree 604/2026 published, unifying postal and courier regimes",
+          "src": 0
+        },
+        {
+          "date": "2026-07-30",
+          "what": "ARCA General Resolution 5884/2026 extends the US$3,000 cap to postal shipments",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Correo Argentino",
+        "Couriers",
+        "Cross-border platforms",
+        "Foreign posts sending to Argentina"
+      ],
+      "parcel": "Postal and courier parcels into Argentina now compete on the same terms, with duty prepayment possible before arrival.",
+      "prepare": [
+        "Add Argentina postal and courier capacity for peak, with prepaid-duty options at checkout",
+        "Keep contracts short given exposure to exchange-rate and policy reversals",
+        "Build controls for the five-shipments-a-year limit on the US$400 exemption"
+      ],
+      "read": "Our reading: Argentina is the clearest regional bet on the shopper, and the reform should pull more low-value volume into the postal channel. The policy rests on one government's priorities, so reversal risk rises with any change of direction or currency stress.",
+      "stories": [
+        "latam-split"
+      ],
+      "sources": [
+        {
+          "t": "Postal shipments: the ARCA controls that apply in September for purchases from abroad",
+          "u": "https://blog.mycontador.com.ar/envios-postales-los-controles-de-arca-que-rigen-en-septiembre-para-compras-del-exterior/",
+          "pub": "MyContador",
+          "date": "2026-09-15"
+        },
+        {
+          "t": "Resolución General 5884/2026",
+          "u": "https://www.boletinoficial.gob.ar/detalleAviso/primera/345190/20260730",
+          "pub": "Boletín Oficial de la República Argentina (ARCA)",
+          "date": "2026-07-30"
+        },
+        {
+          "t": "The government simplifies imports through Correo Argentino",
+          "u": "https://www.argentina.gob.ar/noticias/el-gobierno-simplifica-la-importacion-por-correo-argentino",
+          "pub": "Government of Argentina",
+          "date": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "key": "chile-vat-low-value-imports",
+      "title": "Chile collects 19% VAT through platforms on goods up to US$500",
+      "jurisdiction": "Chile",
+      "regions": [
+        "SA"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "Since 25 October 2025, under Law 21.713, foreign platforms collect 19% VAT at checkout on goods up to US$500 bought from abroad and declare it quarterly to the tax authority, the SII. The first two periods raised about US$94 million from about 30 platforms, with AliExpress, Amazon, Temu, Shein and eBay the largest contributors.",
+      "dates": [
+        {
+          "date": "2026-05-04",
+          "what": "SII reports about US$94 million collected over the first two quarterly periods",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Cross-border platforms",
+        "Couriers and the postal operator",
+        "Chilean retailers"
+      ],
+      "parcel": "Tax is collected at checkout rather than at the border, so parcels arrive tax-paid and clearance depends on platform registration data.",
+      "prepare": [
+        "Make sure Chile-bound flows from registered platforms carry proof that VAT was collected, to avoid double charging at the border",
+        "Offer non-registered sellers a DDP route that collects VAT before dispatch",
+        "Use Chile as a reference case for platform collection elsewhere in the region"
+      ],
+      "read": "Our reading: Chile's model, collecting VAT through platforms from the first dollar, is the template Colombia's e-commerce chamber is now asking for. Revenue figures support keeping it, so we see little risk of reversal.",
+      "stories": [
+        "latam-split"
+      ],
+      "sources": [
+        {
+          "t": "VAT on goods bought abroad for up to US$500 raises over US$41 million in its first quarterly declaration period",
+          "u": "https://www.sii.cl/noticias/2026/270126noti01pcr.htm",
+          "pub": "Servicio de Impuestos Internos (SII), Chile",
+          "date": "2026-01-27"
+        },
+        {
+          "t": "End of the VAT exemption on purchases from foreign platforms raises US$94 million since entry into force",
+          "u": "https://www.latercera.com/pulso/noticia/fin-de-exencion-del-iva-a-compras-en-plataformas-extranjeras-recauda-us94-millones-desde-su-entrada-en-vigencia/",
+          "pub": "La Tercera",
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "key": "colombia-vat-threshold-200",
+      "title": "Colombia keeps US$200 VAT relief after court blocks cut",
+      "jurisdiction": "Colombia",
+      "regions": [
+        "SA"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "The government cut the VAT exemption for low-value postal and courier imports from US$200 to US$50 through emergency decrees (1474 of 2025 and 044 of 2026), but the Constitutional Court suspended them on 29 January and struck down the emergency on 9 April, restoring the US$200 threshold. The Colombian e-commerce chamber now asks for digital platforms, rather than couriers, to collect VAT on each transaction, and says proposals have gone to the Finance Ministry and Congress.",
+      "dates": [
+        {
+          "date": "2026-04-09",
+          "what": "Constitutional Court strikes down the economic emergency; US$200 VAT threshold restored",
+          "src": 0
+        },
+        {
+          "date": "2026-09-28",
+          "what": "E-commerce chamber calls for platform collection of VAT on low-value imports",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Cross-border platforms",
+        "Couriers and the postal operator",
+        "Colombian retailers"
+      ],
+      "parcel": "Parcels under US$200 still enter Colombia without VAT when conditions are met, but a move to platform collection would add 19% at checkout.",
+      "prepare": [
+        "Price Colombia lanes on the current US$200 threshold but model a platform-collected 19% VAT",
+        "Check US-routed flows that rely on the Colombia-US trade agreement for eligibility",
+        "Follow any 2026-27 tax bill in Congress for de minimis changes"
+      ],
+      "read": "Our reading: the court ruled on the emergency procedure, not on the policy, so a VAT cut through ordinary legislation remains possible. Timing depends on Congress, and we found no bill number yet.",
+      "stories": [
+        "latam-split"
+      ],
+      "sources": [
+        {
+          "t": "Court strikes down the economic emergency: what changes?",
+          "u": "https://www.tributi.com/blog/finanzas-personales/post/corte-tumba-emergencia-economica-que-cambia-con-esto",
+          "pub": "Tributi",
+          "date": "2026-04-13"
+        },
+        {
+          "t": "The Constitutional Court struck down the Petro government's economic emergency",
+          "u": "https://www.infobae.com/colombia/2026/04/09/la-corte-constitucional-tumbo-la-emergencia-economica-decretada-por-el-gobierno-petro/",
+          "pub": "Infobae",
+          "date": "2026-04-09"
+        },
+        {
+          "t": "Shein and Temu in Colombia: e-commerce chamber asks for VAT changes",
+          "u": "https://www.eluniversal.com.co/colombia/2026/09/28/shein-y-temu-en-colombia-camara-de-comercio-electronico-pide-cambios-en-el-iva/",
+          "pub": "El Universal",
+          "date": "2026-09-28"
+        },
+        {
+          "t": "Do Temu and Shein purchases pay VAT in Colombia? What you need to know",
+          "u": "https://www.elheraldo.co/economia/2026/09/25/las-compras-de-temu-y-shein-pagan-iva-en-colombia-esto-es-lo-que-debe-saber/",
+          "pub": "El Heraldo",
+          "date": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}
