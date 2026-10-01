@@ -99,6 +99,7 @@
     $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
     if (window.WIL_runSearch) window.WIL_runSearch();
     if (window.WIL_radar) window.WIL_radar();
+    var nc = $('#nl-form .nl-chips'); if (nc && !nc.getAttribute('data-touched') && typeof syncNlRegions === 'function') syncNlRegions();
     $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
     $$('[data-current-region]').forEach(function (el) { var R = t('R') || {}; el.textContent = (R[state.region] || state.region).toUpperCase(); });
     // Regional page: show the matching desk.
@@ -173,6 +174,31 @@
     });
   }
 
+  /* ---------- Newsletter regions (multi-select) ---------- */
+  var EMEA_R = ['EU', 'UK', 'ME', 'NAF'];
+  function nlBoxes() { return $$('#nl-form input[name=regions]'); }
+  function nlRegions() {
+    var v = nlBoxes().filter(function (b) { return b.checked; }).map(function (b) { return b.value; });
+    return (!v.length || v.indexOf('GLOBAL') > -1) ? ['GLOBAL'] : v;
+  }
+  function syncNlRegions() {
+    // Pre-select the region the reader is browsing.
+    var want = state.region === 'GLOBAL' ? ['GLOBAL'] : (state.region === 'EMEA' ? EMEA_R : [state.region]);
+    nlBoxes().forEach(function (b) { b.checked = want.indexOf(b.value) > -1; });
+  }
+  function initNlRegions() {
+    var boxes = nlBoxes(); if (!boxes.length) return;
+    boxes.forEach(function (b) {
+      b.addEventListener('change', function () {
+        var all = boxes.filter(function (x) { return x.value === 'GLOBAL'; })[0];
+        if (b.value === 'GLOBAL' && b.checked) boxes.forEach(function (x) { if (x !== b) x.checked = false; });
+        else if (b.value !== 'GLOBAL' && b.checked && all) all.checked = false;
+        if (!boxes.some(function (x) { return x.checked; }) && all) all.checked = true;
+        b.closest('.nl-chips').setAttribute('data-touched', '1');
+      });
+    });
+    syncNlRegions();
+  }
   /* ---------- Forms ---------- */
   function post(url, data) {
     return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
@@ -183,8 +209,8 @@
     var nl = $('#nl-form');
     if (nl) nl.addEventListener('submit', function (e) {
       e.preventDefault(); var b = $('button', nl); b.disabled = true;
-      post('/api/subscribe', { email: nl.email.value, region: nl.region ? nl.region.value : state.region, lang: state.lang, hp: nl.website.value })
-        .then(function () { status($('#nl-status'), true, t('nl_ok')); nl.reset(); track('newsletter_signup', {}); })
+      post('/api/subscribe', { email: nl.email.value, regions: nlRegions(), lang: state.lang, hp: nl.website.value })
+        .then(function () { var rs = nlRegions(); status($('#nl-status'), true, t('nl_ok')); nl.reset(); syncNlRegions(); track('newsletter_signup', { regions: rs.join(','), count: rs.length }); })
         .catch(function (e) { status($('#nl-status'), false, t('err_generic'), e); })
         .then(function () { b.disabled = false; });
     });
@@ -331,6 +357,7 @@
     window.WIL_radar();
   }
   initVideo();
+  initNlRegions();
   initRadar();
   function initSearch() {
     var q = $('#bq'), m = $('#bm'); if (!q) return;

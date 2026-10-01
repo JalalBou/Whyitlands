@@ -5,6 +5,16 @@
 import { json, clean, isEmail, esc, readBody, sameOrigin, brevo } from './_lib.js';
 
 const REGIONS = ['GLOBAL', 'EMEA', 'EU', 'UK', 'NA', 'SA', 'AS', 'CN', 'ME', 'NAF'];
+const EMEA = ['EU', 'UK', 'ME', 'NAF'];
+// One or more regions; EMEA expands to its four regions; GLOBAL (or nothing) means all regions.
+function pickRegions(v) {
+  let list = Array.isArray(v) ? v : String(v || '').split(',');
+  list = list.map((x) => String(x).trim().toUpperCase()).filter((x) => REGIONS.includes(x));
+  if (list.includes('EMEA')) list = list.filter((x) => x !== 'EMEA').concat(EMEA);
+  list = [...new Set(list)];
+  if (!list.length || list.includes('GLOBAL')) return ['GLOBAL'];
+  return REGIONS.filter((x) => list.includes(x));
+}
 const LANGS = ['en', 'fr', 'de', 'it', 'es', 'pt'];
 const SITE = 'https://www.whyitlands.com';
 
@@ -31,12 +41,12 @@ export async function onRequestPost({ request, env }) {
   if (clean(b.hp)) return json({ ok: true });
   const email = clean(b.email, 200).toLowerCase();
   if (!isEmail(email)) return json({ ok: false, error: 'invalid_email' }, 400);
-  const region = REGIONS.includes(b.region) ? b.region : 'GLOBAL';
+  const regions = pickRegions(b.regions != null ? b.regions : b.region);
   const lang = LANGS.includes(b.lang) ? b.lang : 'en';
   const missing = ['BREVO_API_KEY', 'BREVO_LIST_ID', 'SENDER_EMAIL'].filter((k) => !env[k]);
   if (missing.length) return json({ ok: false, error: 'missing ' + missing.join(',') }, 503);
 
-  const payload = b64u(new TextEncoder().encode(JSON.stringify({ e: email, r: region, l: lang, x: Date.now() + 7 * 864e5 })));
+  const payload = b64u(new TextEncoder().encode(JSON.stringify({ e: email, r: regions, l: lang, x: Date.now() + 7 * 864e5 })));
   const link = `${SITE}/api/confirm?t=${payload}.${await hmac(env, payload)}`;
   const [subject, line, cta, foot] = COPY[lang];
   const html = `<div style="background:#F4F2EC;padding:28px 12px;font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
@@ -60,10 +70,19 @@ export async function onRequestGet({ request, env }) {
   let d; try { d = JSON.parse(unb64u(payload)); } catch (e) { return fail('link'); }
   if (!d || !isEmail(d.e) || Date.now() > d.x) return fail('expired');
   const base = { email: d.e, listIds: [Number(env.BREVO_LIST_ID)], updateEnabled: true };
+  const regs = pickRegions(d.r);
+  // REGIONS is stored as ",EU,UK," so the newsletter template can test membership with "in".
+  const attributes = { REGION: regs[0], REGIONS: ',' + regs.join(',') + ',', LANGUAGE: d.l };
   try {
-    await brevo(env, '/contacts', { ...base, attributes: { REGION: d.r, LANGUAGE: d.l } });
+    await brevo(env, '/contacts', { ...base, attributes });
   } catch (e) {
-    try { await brevo(env, '/contacts', base); } catch (e2) { return fail('save'); }
+    // First multi-region signup: create the text attributes if Brevo does not have them yet, then retry.
+    for (const a of ['REGIONS', 'REGION', 'LANGUAGE']) {
+      try { await brevo(env, '/contacts/attributes/normal/' + a, { type: 'text' }); } catch (e3) { /* already exists */ }
+    }
+    try { await brevo(env, '/contacts', { ...base, attributes }); } catch (e4) {
+      try { await brevo(env, '/contacts', base); } catch (e2) { return fail('save'); }
+    }
   }
   return Response.redirect(`${SITE}/confirmed`, 302);
 }

@@ -60,7 +60,11 @@ Signals about competitors rest on public sources only, cover players evenly, and
 
 ## Regulatory Radar (/radar)
 
-`content/radar/*.json` (europe, americas, asia-mena-global), one `{"items": [...]}` per file, schema in `content/radar/SCHEMA.md`. Each rule has a status (consultation, proposed, adopted, in-force, suspended), dated milestones with a source each, who it hits, the parcel impact, what to prepare, our reading and storylines. The page shows an 18-month agenda with countdowns and the full register, filtered by region and topic; the home page shows the next deadlines; storyline pages link the rules on that storyline. Information, not legal advice.
+`content/radar/*.json` (europe, americas, asia-mena-global), one `{"items": [...]}` per file, schema in `content/radar/SCHEMA.md`. Each rule has a status (consultation, proposed, adopted, in-force, suspended), dated milestones with a source each, who it hits, the parcel impact, what to prepare, our reading and storylines. The page shows an 18-month agenda with countdowns and the full register, filtered by region and topic; the home page shows the next deadlines; storyline pages link the rules on that storyline. Information, not legal advice. Each rule date links automatically to every briefing, storyline, signal, calendar item or deep dive that mentions the same date about the same rule (tools/thread.py: same date, same jurisdiction, shared rule keywords); briefings show the rules they mention. Nothing to tag by hand: keep dates in ISO form in content and in plain words ("1 November 2026") in text.
+
+## Newsletter regions
+
+Subscribers pick one or more regions. Brevo stores REGIONS as ",EU,UK," (plus REGION = first pick). tools/newsletter.py wraps each region block in Brevo conditions, so each subscriber sees their regions; contacts with no REGIONS or GLOBAL see everything. Set "personalise": false in content/newsletter.json to send identical content.
 
 ## Editorial rules
 

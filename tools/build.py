@@ -226,9 +226,13 @@ def about_nl():
 <form id="nl-form" class="field-row" novalidate="false">
 <label class="sr-only" for="nl-email" data-i18n="work_email">Work email</label>
 <input class="input" id="nl-email" name="email" type="email" autocomplete="email" required data-i18n-ph="work_email" placeholder="Work email">
-<select class="input" name="region" aria-label="Region">{''.join(f'<option value="{k}" data-region-label="{k}">{RNAME[k]}</option>' for k in REGION_ORDER)}</select>
+
 <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
 <button class="btn btn-ink" type="submit" data-i18n="sign_up">Sign up</button>
+<fieldset class="nl-regions"><legend data-i18n="nl_regions">Your regions: pick one or more</legend><div class="nl-chips">
+<label class="nl-chip"><input type="checkbox" name="regions" value="GLOBAL" checked><span data-i18n="nl_all">All regions</span></label>
+{''.join(f'<label class="nl-chip"><input type="checkbox" name="regions" value="{k}"><span data-region-label="{k}">{RNAME[k]}</span></label>' for k in REGION_ORDER if k not in ("GLOBAL", "EMEA"))}
+</div></fieldset>
 </form>
 <div class="status" id="nl-status" hidden role="status" style="margin-top:12px"></div>
 <p class="fine" data-i18n="nl_fine">We send a confirmation email first. Region and language can be changed in every issue.</p></div>
@@ -594,6 +598,7 @@ def page_briefing(b):
 <div class="keypoints">{i('key_points', 'Key points', 'div', 'kicker')}<ul>{kp}</ul>
 <div class="kp-links"><a class="btn btn-coral" href="#csuite" style="height:40px;font-size:14px" data-i18n="jump_csuite">Jump to the actions for leaders</a></div></div>
 {('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
+{(lambda rr: ('<div class="part-of rr-of"><span data-i18n="rr_on">On the Regulatory Radar</span> ' + " · ".join(f'<a href="/radar#rr-{E(x["key"])}">{E(x["title"])}</a>' for x in rr) + '</div>') if rr else '')(radar_for_url(f"/briefings/{b['slug']}"))}
 {lang_note()}
 <nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
 <span id="listen"></span>{audio}
@@ -1160,6 +1165,35 @@ def story_signals(key):
 RADAR = []
 for _f in sorted((C / "radar").glob("*.json")) if (C / "radar").exists() else []:
     RADAR += json.loads(_f.read_text()).get("items", [])
+import sys as _sys
+_sys.path.insert(0, str(ROOT / "tools"))
+import thread as _thread
+RLINKS = _thread.link_radar(RADAR, _thread.index_mentions(C)) if RADAR else {}
+KIND_LABEL = {"briefing": "Briefing", "storyline": "Storyline", "signal": "Signal", "calendar": "Calendar", "competition": "Deep dive", "results": "Results", "move": "Move"}
+
+
+def rr_mentions(key, date):
+    ms = RLINKS.get(key, {}).get(date, [])
+    if not ms:
+        return ""
+    order = list(KIND_LABEL)
+    ms = sorted(ms, key=lambda m: order.index(m["kind"]) if m["kind"] in order else 99)
+    a = lambda m: f'<a class="rr-m" href="{E(m["url"])}" title="{E(m["snippet"])}"><span class="rr-mk" data-i18n="rk_{m["kind"]}">{KIND_LABEL.get(m["kind"], m["kind"])}</span>{E(m["title"])}</a>'
+    li = "".join(a(m) for m in ms[:5])
+    more = f'<details class="rr-more"><summary>+{len(ms) - 5}</summary>{"".join(a(m) for m in ms[5:])}</details>' if len(ms) > 5 else ""
+    return f'<div class="rr-ms"><span class="rr-ml" data-i18n="rr_also">Also on the site</span>{li}{more}</div>'
+
+
+def radar_for_url(path):
+    """Radar rules whose dates are mentioned on the page at this path."""
+    out = []
+    for it in RADAR:
+        for d, ms in RLINKS.get(it["key"], {}).items():
+            if any(m["url"].split("#")[0] == path for m in ms):
+                out.append(it); break
+    return out
+
+
 RR_STATUS = {"consultation": "Consultation", "proposed": "Proposed", "adopted": "Adopted", "in-force": "In force", "suspended": "Suspended"}
 RR_DOMAIN = {"customs": "Customs", "tax": "Tax", "trade": "Trade and tariffs", "postal": "Postal", "platforms": "Platforms", "product-safety": "Product safety", "data": "Data", "sustainability": "Sustainability", "labour": "Labour"}
 RR_ORDER = {"in-force": 0, "adopted": 1, "proposed": 2, "consultation": 3, "suspended": 4}
@@ -1174,7 +1208,7 @@ def rr_card(it, today):
     S = it.get("sources", [])
     def cite(n):
         return f'<a class="src-a" href="{E(S[n]["u"])}" rel="noopener">{E(S[n].get("pub") or "source")}</a>' if isinstance(n, int) and 0 <= n < len(S) else ""
-    dates = "".join(f'<li class="{"past" if d["date"] < today else ""}"><span class="tl-when" data-cd="{E(d["date"])}">{E(fdate(d["date"]))}</span><span>{E(d["what"])} {cite(d.get("src"))}</span></li>' for d in sorted(it.get("dates", []), key=lambda d: d["date"]))
+    dates = "".join(f'<li class="{"past" if d["date"] < today else ""}"><span class="tl-when" data-cd="{E(d["date"])}">{E(fdate(d["date"]))}</span><span>{E(d["what"])} {cite(d.get("src"))}{rr_mentions(it["key"], d["date"])}</span></li>' for d in sorted(it.get("dates", []), key=lambda d: d["date"]))
     hits = "".join(f"<span>{E(h)}</span>" for h in it.get("hits", []))
     prep = "".join(f"<li>{E(x)}</li>" for x in it.get("prepare", []))
     srcs = "".join(f'<li><a href="{E(x["u"])}" rel="noopener">{E(x["t"])}</a>{(" · " + E(x["pub"])) if x.get("pub") else ""}{(" · " + E(x["date"])) if x.get("date") else ""}</li>' for x in S)
@@ -1202,7 +1236,7 @@ def page_radar():
         months.setdefault(d[:7], []).append((d, w, it))
     for m, rows in months.items():
         mlabel = datetime.date.fromisoformat(m + "-01").strftime("%B %Y")
-        li = "".join(f'<li data-regions="{",".join(it.get("regions", []))}" data-domain="{E(it.get("domain", ""))}" data-date="{d}"><span class="cd" data-cd="{d}"></span><span class="tl-when">{E(fdate(d))}</span><div><a href="#rr-{E(it["key"])}">{E(it["title"])}</a><p>{E(w)}</p><span class="rr-jur">{E(it.get("jurisdiction", ""))}</span></div></li>' for d, w, it in rows)
+        li = "".join(f'<li data-regions="{",".join(it.get("regions", []))}" data-domain="{E(it.get("domain", ""))}" data-date="{d}"><span class="cd" data-cd="{d}"></span><span class="tl-when">{E(fdate(d))}</span><div><a href="#rr-{E(it["key"])}">{E(it["title"])}</a><p>{E(w)}</p><span class="rr-jur">{E(it.get("jurisdiction", ""))}</span>{rr_mentions(it["key"], d)}</div></li>' for d, w, it in rows)
         tl += f'<div class="rr-month"><h3>{E(mlabel)}</h3><ul class="rr-tl">{li}</ul></div>'
     items = sorted(RADAR, key=lambda it: (rr_next(it, today), RR_ORDER.get(it.get("status"), 9)))
     doms = sorted({it.get("domain") for it in RADAR if it.get("domain")}, key=lambda d: list(RR_DOMAIN).index(d) if d in RR_DOMAIN else 99)
@@ -1275,6 +1309,7 @@ for _nf in (ROOT / "newsletter").glob("20*.html"):
     if _nf.stem > datetime.date.today().isoformat():
         continue
     _t = _nf.read_text().replace("{{ update_profile }}", "/#newsletter").replace("{{ unsubscribe }}", "/#newsletter")
+    _t = re.sub(r"\{%[^%]*%\}", "", _t)  # web archive shows every region
     write(f"archive/newsletter/{_nf.stem}.html", _t)
 write("glossary.html", page_glossary())
 write("method.html", page_method())
