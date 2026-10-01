@@ -28,7 +28,7 @@ window.WIL_I18N = {
     get_in_touch: "Get in touch",
     nl_title1: "Every week:", nl_title2: "where it lands, and why.",
     nl_dek: "The week’s geopolitical shifts, deals and reforms for your region, in seven minutes. Free, one-click unsubscribe.",
-    work_email: "Work email", sign_up: "Sign up", nl_fine: "We send a confirmation email first. Region and language can be changed in every issue.",
+    work_email: "Work email", sign_up: "Sign up", nl_fine: "We send a confirmation email first. Your regions can be changed in every issue.",
     nl_ok: "Almost there: check your inbox and confirm your subscription.",
     fb_title: "Spotted an error, have a tip?", fb_dek: "Write anonymously or with your name. Every message is read.",
     fb_msg: "Your message", fb_name: "Name or email (optional)", send: "Send", fb_ok: "Thank you, your message has been sent.",

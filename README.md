@@ -11,7 +11,7 @@ https://www.whyitlands.com
 | `content/` | All editorial content as JSON: home page, regional desks, briefings, glossary, settings. **Edit here.** |
 | `tools/build.py` | Turns `content/` into static pages in `site/`. Standard-library Python only. |
 | `site/` | The published website (what Cloudflare Pages serves). Generated pages are committed. |
-| `site/assets/js/i18n.js` | Interface text in EN (default), FR, DE, IT, ES, PT. |
+| `site/assets/js/i18n.js` | Interface text. The site is English only (no language switch); other languages in this file are unused. |
 | `site/assets/js/config.js` | Public settings, including the PostHog key for analytics. |
 | `src/` | Cloudflare Worker: serves `site/` and handles the contact, feedback and newsletter APIs (`src/api/`). |
 | `wrangler.jsonc` | Worker configuration (name `whyitlands`, static assets from `site/`). |

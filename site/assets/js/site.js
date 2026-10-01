@@ -3,7 +3,7 @@
   'use strict';
   var CFG = window.WIL_CONFIG || {};
   var I18N = window.WIL_I18N || {};
-  var LANGS = ['en', 'fr'];
+  var LANGS = ['en'];  // English only
   var EMEA = ['EU', 'UK', 'ME', 'NAF'];
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -238,6 +238,7 @@
       $('.rb-cur', bar).textContent = label;
       $('.rb-c', bar).textContent = (cur + 1) + '/' + n;
       bar.classList.toggle('show', h.scrollTop > 240);
+      r.classList.toggle('vis', h.scrollTop > window.innerHeight * 0.6);
     }
     window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
     window.addEventListener('resize', update);

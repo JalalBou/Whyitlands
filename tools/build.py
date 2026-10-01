@@ -31,7 +31,7 @@ REGION_ORDER = ["GLOBAL", "EMEA", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF
 DESK_ORDER = ["EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
 RNAME = {"GLOBAL": "Global", "EMEA": "EMEA", "EU": "EU", "UK": "UK", "NA": "North America", "SA": "South America",
          "AS": "Asia", "CN": "China", "ME": "Middle East", "NAF": "North Africa"}
-LANGS = [("en", "English"), ("fr", "Français")]
+LANGS = [("en", "English")]  # English only
 
 PARCEL = ('<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/>'
           '<polygon points="2.5,7.25 12,12 12,21.75 2.5,17" fill="#FF5A36"/><polygon points="21.5,7.25 12,12 12,21.75 21.5,17" fill="#D9431F"/>'
@@ -108,8 +108,6 @@ def header(active=""):
 {nav('/radar', 'nav_radar', 'Regulatory Radar', 'radar')}
 {nav('/doctrines', 'nav_doctrines', 'Doctrines', 'doctrines')}
 {nav('/#about', 'nav_about', 'About', 'about')}
-<div class="lang"><button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><span class="lang-code">EN</span><svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
-<ul class="lang-menu" role="menu" hidden>{langs}</ul></div>
 <a class="btn btn-coral head-sub" href="/#newsletter" data-i18n="subscribe">Subscribe</a>
 {f'<a class="me-link" href="{LINKEDIN}" rel="noopener" target="_blank" aria-label="Jalal Boucheikha on LinkedIn"><img src="/assets/img/jalal.jpg?v=2" alt="" width="36" height="36"><span class="li-badge"><svg width="12" height="12" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg></span></a>' if LINKEDIN else ""}
 </nav>
@@ -265,7 +263,7 @@ def about_nl():
 </div></fieldset>
 </form>
 <div class="status" id="nl-status" hidden role="status" style="margin-top:12px"></div>
-<p class="fine" data-i18n="nl_fine">We send a confirmation email first. Region and language can be changed in every issue.</p></div>
+<p class="fine" data-i18n="nl_fine">We send a confirmation email first. Your regions can be changed in every issue.</p></div>
 {feedback_card()}
 </div></section>
 """
@@ -617,7 +615,6 @@ def page_briefing(b):
 <div class="art-ctx">{('<div class="part-of"><span data-i18n="st_part">Part of the storyline</span> ' + " · ".join(f'<a href="/storylines/{k}">{E(STORIES[k]["title"])}</a>' for k in (b.get("stories") or []) if k in STORIES) + '</div>') if b.get("stories") else ''}
 {(lambda rr: ('<div class="part-of rr-of"><span data-i18n="rr_on">On the Regulatory Radar</span> ' + " · ".join(f'<a href="/radar#rr-{E(x["key"])}">{E(x["title"])}</a>' for x in rr) + '</div>') if rr else '')(radar_for_url(f"/briefings/{b['slug']}"))}
 </div>
-{lang_note()}
 <nav class="toc" aria-label="In this briefing"><span class="kicker" data-i18n="in_this_briefing">In this briefing</span>{tocs}</nav>
 <span id="listen"></span>{audio}
 <div class="art-body" style="margin-top:28px">{''.join(body)}</div>
