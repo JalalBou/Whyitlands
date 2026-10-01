@@ -99,6 +99,7 @@
     $$('[data-filter-regions] .bcard').forEach(function (el) { el.classList.toggle('big', el === firstOwn); });
     if (window.WIL_runSearch) window.WIL_runSearch();
     applyLimits();
+    if (window.WIL_rail) window.WIL_rail();
     if (window.WIL_radar) window.WIL_radar();
     var nc = $('#nl-form .nl-chips'); if (nc && !nc.getAttribute('data-touched') && typeof syncNlRegions === 'function') syncNlRegions();
     $$('[data-show]').forEach(function (el) { el.hidden = el.getAttribute('data-show').split(',').indexOf(state.region) === -1; });
@@ -193,38 +194,76 @@
     });
   }
 
-  // Highlight the current section in the in-page bar and the briefing side contents.
-  function initScrollSpy() {
-    var links = $$('.subnav-l a, .side-toc a').filter(function (a) { return a.getAttribute('href').charAt(0) === '#'; });
-    if (!links.length || !('IntersectionObserver' in window)) return;
-    var targets = [];
-    links.forEach(function (a) {
-      var el = document.getElementById(a.getAttribute('href').slice(1));
-      if (el && targets.indexOf(el) === -1) targets.push(el);
-    });
-    var current = null;
-    function mark(id) {
-      if (id === current) return; current = id;
-      links.forEach(function (a) {
-        var on = a.getAttribute('href') === '#' + id; a.classList.toggle('on', on);
-        if (on && a.closest('.subnav-l')) { var bar = a.closest('.subnav-l'); bar.scrollTo({ left: a.offsetLeft - 24, behavior: 'smooth' }); }
-      });
+  // Page rail: where you are, what is done, what comes next (desktop side rail, phone contents bar).
+  function initRail() {
+    var rails = $$('.rail');
+    if (!rails.length) return;
+    var bar = null;
+    function activeRail() { return rails.filter(function (r) { return !r.closest('[hidden]'); })[0]; }
+    function ensureBar() {
+      if (bar) return bar;
+      bar = document.createElement('div'); bar.className = 'railbar';
+      bar.innerHTML = '<div class="rb-prog"><i></i></div><div class="wrap rb-row"><span class="rb-cur"></span><button type="button" class="rb-btn"><span>' + (t('rail_contents') || 'Contents') + '</span> <b class="rb-c"></b></button></div>';
+      var head = $('.site-head'); head.parentNode.insertBefore(bar, head.nextSibling);
+      $('.rb-btn', bar).addEventListener('click', function () { var r = activeRail(); if (r) { r.classList.add('open'); document.body.classList.add('rail-open'); } });
+      return bar;
     }
-    var io = new IntersectionObserver(function () {
-      var best = null;
-      targets.forEach(function (el) {
-        if (!el.offsetParent) return;
-        var r = el.getBoundingClientRect();
-        if (r.top < window.innerHeight * 0.35) best = el;
+    function close() { rails.forEach(function (r) { r.classList.remove('open'); }); document.body.classList.remove('rail-open'); }
+    rails.forEach(function (r) {
+      $('.rail-x', r).addEventListener('click', close);
+      $$('a', r).forEach(function (a) { a.addEventListener('click', function () { close(); track('rail_jump', { to: a.getAttribute('href') }); }); });
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    document.addEventListener('click', function (e) { if (document.body.classList.contains('rail-open') && !e.target.closest('.rail') && !e.target.closest('.rb-btn')) close(); });
+    ensureBar();
+    var ticking = false;
+    function update() {
+      ticking = false;
+      var r = activeRail(); if (!r) return;
+      var links = $$('ol a', r), cur = 0, line = window.innerHeight * 0.32;
+      links.forEach(function (a, i) {
+        var el = document.getElementById(a.getAttribute('href').slice(1));
+        if (el && el.offsetParent !== null && el.getBoundingClientRect().top < line) cur = i;
       });
-      if (best) mark(best.id);
-    }, { rootMargin: '0px 0px -60% 0px', threshold: [0, 1] });
-    targets.forEach(function (el) { io.observe(el); });
-    window.addEventListener('scroll', function () {
-      var best = null;
-      targets.forEach(function (el) { if (el.offsetParent && el.getBoundingClientRect().top < window.innerHeight * 0.35) best = el; });
-      if (best) mark(best.id);
-    }, { passive: true });
+      links.forEach(function (a, i) { var li = a.parentNode; li.classList.toggle('on', i === cur); li.classList.toggle('done', i < cur); });
+      if (r.scrollHeight > r.clientHeight + 4 && links[cur]) {
+        var li = links[cur].parentNode, top = li.offsetTop, h = r.clientHeight;
+        if (top < r.scrollTop + 40 || top > r.scrollTop + h - 60) r.scrollTop = Math.max(0, top - h / 2);
+      }
+      var n = links.length, label = links[cur] ? links[cur].textContent : '';
+      $('.rail-c', r).textContent = (cur + 1) + '/' + n;
+      var h = document.documentElement, frac = Math.min(1, Math.max(0, h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)));
+      r.style.setProperty('--prog', frac);
+      $('.rb-prog i', bar).style.transform = 'scaleX(' + frac + ')';
+      $('.rb-cur', bar).textContent = label;
+      $('.rb-c', bar).textContent = (cur + 1) + '/' + n;
+      bar.classList.toggle('show', h.scrollTop > 240);
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+    window.addEventListener('resize', update);
+    window.WIL_rail = update;
+    update();
+  }
+
+  // Welcome band (home): full on a first visit, one line afterwards. Video opens in an overlay.
+  function initWelcome() {
+    var w = $('#welcome');
+    if (w) {
+      var seen = false; try { seen = localStorage.getItem('wil-welcomed') === '1'; localStorage.setItem('wil-welcomed', '1'); } catch (e) {}
+      if (seen) w.classList.add('compact');
+      var more = $('.wl-more', w); if (more) more.addEventListener('click', function () { w.classList.remove('compact'); track('welcome_expanded', {}); });
+    }
+    var dlg = $('#vdlg'), v = $('#iv');
+    if (!dlg || !v) return;
+    $$('[data-video]').forEach(function (b) {
+      b.addEventListener('click', function () { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', ''); v.play().catch(function () {}); });
+    });
+    function shut() { v.pause(); if (dlg.close) dlg.close(); else dlg.removeAttribute('open'); }
+    $('.vdlg-x', dlg).addEventListener('click', shut);
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) shut(); });
+    dlg.addEventListener('close', function () { v.pause(); });
+    v.addEventListener('play', function () { track('video_played', {}); });
+    v.addEventListener('ended', function () { track('video_completed', {}); });
   }
   /* ---------- Newsletter regions (multi-select) ---------- */
   var EMEA_R = ['EU', 'UK', 'ME', 'NAF'];
@@ -348,7 +387,7 @@
   }
 
   function initVideo() {
-    var v = $('#iv'); if (!v) return; var box = v.parentNode, b = $('.iv-play', box);
+    var v = $('#iv'); if (!v) return; var box = v.parentNode, b = $('.iv-play', box); if (!b) return;
     b.addEventListener('click', function () { v.controls = true; v.play(); });
     v.addEventListener('play', function () { box.classList.add('playing'); track('video_played', {}); });
     v.addEventListener('ended', function () { track('video_completed', {}); });
@@ -409,7 +448,8 @@
     window.WIL_radar();
   }
   initVideo();
-  initScrollSpy();
+  initRail();
+  initWelcome();
   initNlRegions();
   initRadar();
   function initSearch() {
