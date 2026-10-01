@@ -48,6 +48,16 @@ Tracked events: `region_selected`, `language_selected`, `calendar_filtered`, `au
 
 Every item is linked to a storyline (`content/storylines.json`, 11 storylines) and to a layer of the causal model: geopolitics → decision & law → market → parcel impact. Tag new items with `"stories": [...]` and `"layer"` (wire, deals, calendar, companies, solution topics, briefings). The parcel barometer (`content/barometer.json`) is our weekly reading of pressure on cost, speed, volume, compliance and network per region.
 
+## Intelligence layer (Market Intelligence)
+
+Lives in `content/intel/`:
+- `signals.json`: syntheses. Each signal needs at least three dated, sourced facts from different players (`evidence`), an `inference` (our reading), `confidence` (low/medium/high), `status` (emerging/confirmed/faded), `confirm`, `refute`, `monitor`, `regions`, `stories`. A signal goes live only with three independent facts. Faded signals stay in the file: they are the track record.
+- `watch.json`: price and service watch (fuel surcharges, peak fees, rate increases, regulated tariffs, service changes) as published, with effective date and source.
+- `moves.json`: dated capacity, network, M&A, partnership, closure, pricing and product moves, newest first.
+- `competition/<key>.json`: competition deep dives (US, ASEAN) rendered at `/markets/<key>`: stats, scorecard, battlegrounds, segments or countries, price stack, players, scenarios, implications, watch, sources (cited by index; append only).
+
+Signals about competitors rest on public sources only, cover players evenly, and never use anything known from the author's employment.
+
 ## Editorial rules
 
 - Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. Never mention Asendia.
