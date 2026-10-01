@@ -99,8 +99,8 @@ def header(active=""):
         return f'<a class="navlink" href="{href}"{cur} data-i18n="{key}">{label}</a>'
     return f"""<header class="site-head">
 <div class="wrap head-row">
-<a class="brand" href="/" aria-label="WhyItLands, home">WhyItLands{PARCEL}</a>
-<span class="tagline">Where it lands, and why.</span>
+<div class="brand-wrap"><a class="brand" href="/" aria-label="WhyItLands, home">WhyItLands{PARCEL}</a>
+<span class="tagline">Where it lands, and why.</span></div>
 <nav class="head-nav" aria-label="Main">
 {nav('/storylines', 'nav_storylines', 'Storylines', 'storylines')}
 {nav('/briefings/', 'nav_briefings', 'Briefings', 'briefings')}
