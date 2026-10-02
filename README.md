@@ -68,7 +68,7 @@ Region codes: GLOBAL; EMEA group = EU, UK, ME (Middle East), NAF (North Africa);
 
 ## Regional balance
 
-Every weekly update keeps a minimum per major region (EU, UK, North America, South America, China, North Asia, Southeast Asia, South Asia, Oceania, Middle East and North Africa): at least one wire item or move per region, and the Sunday summary reports the count per region. Competition deep dives exist for the US, EU, UK and ASEAN.
+Every weekly update keeps a minimum per major region (EU, UK, North America, South America, China, North Asia, Southeast Asia, South Asia, Oceania, Middle East and North Africa): at least one wire item or move per region, and the Sunday summary reports the count per region. Competition deep dives exist for the US, EU, UK, Southeast Asia (ASEAN), North Asia, South Asia and Oceania.
 
 ## Regulatory Radar (/radar)
 

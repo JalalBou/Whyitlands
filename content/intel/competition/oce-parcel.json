@@ -1,0 +1,824 @@
+{
+  "key": "oce-parcel",
+  "region": "OCE",
+  "title": "Oceania parcels: Australia Post keeps the network, fuel and speed set the terms",
+  "dek": "Australians spent A$82.6bn online in 2025 and New Zealanders NZ$12.7bn, and the posts still carry most of it. In 2026 the contest moved to fuel pass-through, overnight delivery and access to regional networks, while private-equity and sovereign owners reshaped the independents and Sendle collapsed and returned under a new owner.",
+  "as_of": "2026-10-02",
+  "stats": [
+    {
+      "big": "A$82.6bn",
+      "label": "Australian online spending in 2025, up 14%, across 9.8 million households; pure marketplaces took A$18.9bn (23%), Australia Post eCommerce Report 2026",
+      "src": 0
+    },
+    {
+      "big": "70%",
+      "label": "Australia Post share of national e-commerce parcels (at least 95% in regional areas), as cited by the Australian Parcels Industry Forum to a Senate inquiry, September 2026",
+      "src": 9
+    },
+    {
+      "big": "+5.3%",
+      "label": "Australia Post parcel volume growth, 2025-26; parcels and services revenue A$8.01bn (+4.8%), group underlying loss A$107.6m",
+      "src": 1
+    },
+    {
+      "big": "NZ$12.7bn",
+      "label": "New Zealand online spending in 2025, up 10%; domestic retailers took 80% and grew 11% against 5% for offshore, NZ Post Business IQ",
+      "src": 31
+    },
+    {
+      "big": "85m",
+      "label": "Parcels delivered by NZ Post in 2025-26, with a record 575,000 in one day after Black Friday",
+      "src": 22
+    },
+    {
+      "big": "4.8% to 19.5%",
+      "label": "Range of Australia Post's monthly parcel contract and StarTrack fuel surcharge between April and June 2026; 13.5% for November 2026",
+      "src": 4
+    }
+  ],
+  "players": [
+    {
+      "name": "Australia Post / StarTrack",
+      "type": "State-owned postal operator and express carrier",
+      "scale": "2025-26 group revenue A$9.83bn (+4.0%); parcels and services revenue A$8.01bn (+4.8%), parcel volumes +5.3%; 283 million parcels in July to December 2025, 111 million of them in the November-December peak; 1,510 parcel locker banks (+64.3%); about 4,000 retail outlets, 2,500 of them regional.",
+      "strategy": "Turn a letters network into a parcels network: more lockers and out-of-home points, five regional parcel facilities under development (reported at the half year), the acquisition of the same-day delivery platform Rendr and a re-commerce partnership with Vinted. Capital investment rose 11.1% to A$413.3m, part-funded by A$173.2m of property sale proceeds.",
+      "moves": "1 July 2026: parcel prices up 4.95% on average and 4.25% for contract customers. Monthly fuel surcharge moved from 4.8% in early April to 19.5% in June and is 13.5% for November. 1 September 2026: Basic Postage Rate up from A$1.70 to A$1.85 after the ACCC raised no objection.",
+      "pressure": "Underlying loss before tax of A$107.6m once A$139.4m of property gains are excluded; letters lost A$63.2m as volumes fell 14.7%; operating costs +3.9%. A Senate inquiry is examining a leaked plan to reshape the post office network, and rival carriers are asking the Senate for access to regional post offices.",
+      "src": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "name": "Amazon Australia (Amazon Flex and own logistics)",
+      "type": "Platform logistics",
+      "scale": "2025 accounts lodged with ASIC in April 2026: direct product sales A$2.33bn (+20%), third-party seller fees A$1.14bn, subscriptions A$632.8m and advertising A$392.2m. Eight fulfilment centres and 12 logistics sites.",
+      "strategy": "Compete on speed with its own network: Amazon says 72% of Australians can get free next-day delivery or faster with Prime. It is investing A$1.6bn between 2024 and 2027 in five new operational sites and 4,500 jobs, and A$750m in a robotic fulfilment centre at Logan, Queensland, due in 2028 to process more than 125 million packages a year.",
+      "moves": "August 2026: overnight Prime delivery in Sydney and Melbourne (order by 10pm, delivered 4am to 8am) alongside afternoon and evening same-day windows, free on orders over A$49; Amazon Day lets members group a week's orders into one delivery.",
+      "pressure": "Our reading: each faster window adds last-mile cost per order, and the 2025 accounts show retail revenue growing more slowly in product sales than in fees, subscriptions and advertising, so delivery speed is paid for by the marketplace and Prime model rather than by delivery charges. The sources we used do not break out Amazon Flex driver numbers or parcel volumes.",
+      "src": [
+        14,
+        12,
+        13
+      ]
+    },
+    {
+      "name": "Toll Group",
+      "type": "Contract logistics and forwarding (Japan Post)",
+      "scale": "Sales above A$5.1bn in the year to March 2025, at break-even; Toll Global Forwarding grew 41.5% while Toll Global Logistics was flat.",
+      "strategy": "Since Japan Post sold Toll's global express unit (express parcels, domestic forwarding and New Zealand operations, 41% of group revenue at the time of the sale process), Toll has concentrated on contract logistics and forwarding rather than domestic e-commerce parcels.",
+      "moves": "Japan Post's restructuring of Toll continued through 2025, with The Loadstar reporting asset sales to manage cash. We found no 2026 move by Toll back into domestic parcels in the sources used.",
+      "pressure": "Profitability: a break-even year on more than A$5bn of sales. Our reading: Toll is now a supplier of warehousing and line-haul to the parcel market rather than a direct competitor in home delivery.",
+      "src": [
+        15,
+        41
+      ]
+    },
+    {
+      "name": "Aramex Australia and New Zealand",
+      "type": "Franchised courier network (majority-owned by ADQ since 2025)",
+      "scale": "The New Zealand High Court described Aramex as the third-largest courier company in New Zealand. Aramex group operates in more than 65 countries.",
+      "strategy": "A franchised courier model built on the former Fastway networks, serving small and medium e-commerce senders. Ownership changed in July 2025 when Abu Dhabi's ADQ, through Q Logistics, completed a tender offer giving it 63.16% of Aramex together with AD Ports Group, with Aramex joining ADQ's transport and logistics cluster.",
+      "moves": "4 March 2026: the High Court approved a NZ$700,000 penalty in a Commerce Commission case over a non-compete clause in a 2021 reseller agreement with Zappy, a cartel provision under the Commerce Act; Aramex admitted the breach, called it unintentional and received a 30% reduction for cooperation.",
+      "pressure": "Our reading: the new owner's priorities for Oceania have not been set out publicly in the sources we used, and a franchised network is exposed when fuel moves faster than franchisee pricing. The Commerce Commission case also raises the compliance bar on reseller and franchise contracts.",
+      "src": [
+        19,
+        18
+      ]
+    },
+    {
+      "name": "CouriersPlease",
+      "type": "Independent parcel courier (Pacific Equity Partners)",
+      "scale": "Part of Freight Management Holdings, sold by SingPost to Pacific Equity Partners at an enterprise value of A$1.02bn, completed on 27 March 2025, together with efm Logistics, Border Express, BagTrans, Spectrum Logistics and Logistics Holdings Australia.",
+      "strategy": "Our reading: as part of a private-equity owned freight and parcels group, CouriersPlease sits alongside B2B line-haul and 4PL businesses, which gives it scope to share network costs across freight and e-commerce volumes.",
+      "moves": "Ownership change to Pacific Equity Partners completed in March 2025; we found no published 2026 volume or pricing figures for CouriersPlease in the sources used.",
+      "pressure": "Our reading: with Australia Post holding about 70% of e-commerce parcels on the industry forum's estimate, independents compete for the remaining share against Amazon's own network and on fuel recovery speed.",
+      "src": [
+        17,
+        9
+      ]
+    },
+    {
+      "name": "Team Global Express (TGE)",
+      "type": "Express parcels and freight (Allegro Funds)",
+      "scale": "FY25 revenue A$2.9bn (unchanged), statutory EBITDA A$104m (up A$99.7m), total comprehensive loss A$115.6m (A$74m better than the prior year), available liquidity A$93.4m.",
+      "strategy": "Formerly Toll Global Express, bought from Japan Post by Allegro; the company is focusing on operational performance after completing its separation from Toll, and is pushing for access to Australia Post's regional retail network for collections and returns.",
+      "moves": "2025: separated its Tasmanian operations into Strait Link Logistics and began selling it to SLAH Group (A$25m deposit received in June 2025). September 2026: as a member of the Australian Parcels Industry Forum, asked a Senate inquiry to open Australia Post's regional post offices to rival carriers.",
+      "pressure": "Still loss-making at the comprehensive level and carrying heavy finance costs since the buyout; flat revenue in a growing online market.",
+      "src": [
+        16,
+        42,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Sendle",
+      "type": "Digital courier platform (brand relaunched under new owner)",
+      "scale": "Founded in 2014 and raised more than A$100m; served thousands of small businesses before it stopped operating on 11 January 2026.",
+      "strategy": "Originally a carbon-neutral small-business courier using other carriers' networks. In August 2025 it merged with US firms FirstMile and ACI Logistix to form Fast Group; the brand, trademarks and domain were later bought by Andrew McKenna of McKenna Worldwide Services, with Quantium Solutions handling deliveries in the relaunched business.",
+      "moves": "January 2026: deliveries suspended after Fast Group ran out of capital; investor Federation said ACI Logistix had not been current on its obligations at the merger. February 2026: McGrathNicol appointed liquidators. July 2026: relaunch announced for September 2026, without the old company's debts.",
+      "pressure": "Rebuilding customer trust after an abrupt shutdown that cancelled bookings and left parcels in transit.",
+      "src": [
+        20,
+        21
+      ]
+    },
+    {
+      "name": "NZ Post / CourierPost",
+      "type": "State-owned postal operator",
+      "scale": "2025-26 revenue NZ$1,267m (+NZ$44m), EBITDA NZ$157m (+NZ$33m), net profit NZ$17m; 85 million parcels and 134 million letters; 17.1 million parcels in the November-December peak.",
+      "strategy": "Completed a multi-year automated parcel processing network, restructured urban retail and expanded the Fliway and SCS integrated logistics division. The 2025 Postal Deed allows delivery two days a week to most addresses after three years, or earlier if mail falls below 120 million items a year.",
+      "moves": "1 July 2026: prices for all domestic Courier and Express products increased (individual rates notified to account holders) and the medium letter rose 70 cents to NZ$3.60. October 2026 variable rate for domestic courier 7.10% (6.50% fuel plus 0.60% road user charge), based on diesel with a two-month lag.",
+      "pressure": "Letters fell to 134 million from 158 million a year earlier. Our reading: Freightways reported a 3.6 point gain in New Zealand express market share in 2025-26, so share is moving away from at least one rival, and NZ Post's two-month fuel lag is slower than Freightways' one week.",
+      "src": [
+        22,
+        24,
+        23,
+        25,
+        38,
+        26,
+        27
+      ]
+    },
+    {
+      "name": "NZ Couriers and Freightways Express Package",
+      "type": "Listed express and parcel group (New Zealand and Australia)",
+      "scale": "FY26 group revenue NZ$1.46bn (+13.5%), NPAT NZ$94m (+17.3%); Express Package revenue +16.4%, EBITA NZ$168.1m (+17.3%), margin 13.6%; New Zealand volumes +5.1%; Australia now 39% of group revenue.",
+      "strategy": "Win share with business customers in New Zealand while growing in Australia through Allied Express (volume +20%) and the VTFE acquisition; annual price reviews and cost-recovery initiatives.",
+      "moves": "FY26: net market share gain of 3.6 points in New Zealand; cut fuel recovery lag from two months to about one week after diesel passed 350 cents a litre in March 2026.",
+      "pressure": "Same-customer volumes fell 1.2% in the fourth quarter after the fuel shock; about NZ$2m of margin lost to fuel timing; management expects conditions to be softer for longer.",
+      "src": [
+        26,
+        27
+      ]
+    },
+    {
+      "name": "Temu and Shein (inbound marketplaces)",
+      "type": "Cross-border marketplaces",
+      "scale": "Pure online marketplaces took A$18.9bn, 23% of Australian online spending, in 2025. In New Zealand, Temu is the main online retailer for 17% of shoppers and direct household imports of low-value goods rose 20%; spending with online department and variety stores, the category that includes Temu, rose 33% in 2024.",
+      "strategy": "Temu launched a Local Seller Program in Australia in March 2025, adding Australian merchants and locally held stock alongside direct parcels from China.",
+      "moves": "February 2026: the ACCC turned its focus to online retailers including Shein and Temu over unsafe products. 1 April 2026: New Zealand's low-value goods levy of NZ$2.21 per air consignment and NZ$2.09 by sea took effect.",
+      "pressure": "Both countries keep the A$1,000 and NZ$1,000 duty lines but collect GST at checkout, so the pressure is on product safety and cost recovery rather than duty. Our reading: the shift to local sellers moves part of this volume from international inbound to domestic parcels.",
+      "src": [
+        0,
+        30,
+        36,
+        35,
+        28,
+        33,
+        37
+      ]
+    }
+  ],
+  "battlegrounds": [
+    {
+      "h": "Who gets into Australia Post's regional network",
+      "text": "The Australian Parcels Industry Forum, representing FedEx and Team Global Express, and the Conference of Asia Pacific Express Carriers told a Senate inquiry in September 2026 that Australia Post holds 70% of e-commerce parcels nationally and at least 95% in the regions, and that licensed post offices are barred from handling rivals' parcels. They cite modelling of A$1.5bn of revenue over ten years from opening the network. A separate Senate inquiry, moved by the Coalition in June 2026, is examining a leaked plan to convert or close up to 36 metropolitan licensed post offices. Our reading: regional access is now the main regulatory risk for Australia Post's parcel margin, and the most direct route for rivals to reach regional customers without building their own networks.",
+      "src": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "h": "Fuel pass-through speed",
+      "text": "Australia Post's monthly contract and StarTrack fuel surcharge went from 4.8% in early April 2026 to 12% from 23 April and 19.5% in June, then fell to 6.9% in September before rising to 13.5% for November. Freightways cut its fuel recovery lag from two months to about one week, while NZ Post's variable fuel rate still uses a two-month lag. Canberra halved fuel excise for three months from April. Our reading: in 2026 the speed of passing fuel to customers mattered more to carrier margins than the annual price review.",
+      "src": [
+        4,
+        6,
+        7,
+        26,
+        27,
+        25,
+        40
+      ]
+    },
+    {
+      "h": "Overnight and same-day as the new standard",
+      "text": "Amazon now offers overnight and two same-day windows in Sydney and Melbourne and says 72% of Australians can get next-day delivery or faster. Australia Post bought the same-day delivery platform Rendr. Our reading: speed is becoming a feature of the marketplace and the subscription rather than a premium service, which moves margin to whoever owns the order and pushes carriers without a platform anchor towards B2B and regional work.",
+      "src": [
+        12,
+        1,
+        2
+      ]
+    },
+    {
+      "h": "Out-of-home delivery",
+      "text": "Australia Post's locker network grew 64.3% to 1,510 banks in 2025-26, and 32% of Australian shoppers say they would switch retailers for out-of-home collection. The leaked retail plan includes replacing some outlets with parcel lockers. Our reading: locker density is becoming Australia Post's main cost advantage in cities, as its post office network is in the regions.",
+      "src": [
+        1,
+        0,
+        11
+      ]
+    },
+    {
+      "h": "Ownership churn among the independents",
+      "text": "In two years every large independent has changed hands or come under review: CouriersPlease passed to Pacific Equity Partners in March 2025, ADQ took 63.16% of Aramex in July 2025, Team Global Express is owned by Allegro and is divesting its Tasmanian business, Japan Post has narrowed Toll to logistics and forwarding, and Sendle collapsed in January 2026 before its brand was bought and relaunched. Our reading: financial owners will price for return on capital, which makes a price war less likely and fuel surcharges stickier.",
+      "src": [
+        17,
+        18,
+        16,
+        15,
+        20,
+        21
+      ]
+    },
+    {
+      "h": "An open border and the local-seller shift",
+      "text": "Most goods worth A$1,000 or less enter Australia with no duty at the border and GST has been collected at checkout since 2018; New Zealand collects GST at checkout and since April 2026 adds a levy of NZ$2.21 per air consignment. Temu is adding Australian sellers, and in New Zealand domestic retailers took 80% of online spending in 2025, growing 11% against 5% for offshore. Our reading: the border is not closing, so the change in inbound flows comes from platforms holding more stock and sellers in the country, which turns cross-border parcels into domestic ones.",
+      "src": [
+        34,
+        33,
+        28,
+        36,
+        31
+      ]
+    }
+  ],
+  "our_read": "Our reading is that Oceania's parcel market is concentrated rather than contested on price. Australia Post carries about 70% of Australian e-commerce parcels on its rivals' own estimate and NZ Post delivered 85 million parcels in 2025-26, and both posts are raising prices while their letter businesses shrink. The real competition in 2026 was elsewhere: how fast carriers passed a fuel shock to customers, how quickly Amazon made overnight and same-day delivery a free part of Prime, and whether regulators will open Australia Post's regional network to rivals. The independents are now mostly owned by private equity or sovereign investors, and Sendle's collapse showed what happens when an asset-light model runs short of capital. With duty-free thresholds staying in place, inbound volume from Chinese platforms keeps growing, but more of it is turning into domestic parcels as Temu adds local sellers.",
+  "implications": [
+    {
+      "who": "Merchants / platforms",
+      "text": "Plan for two price changes a year and a monthly fuel line: Australia Post moved its surcharge between 4.8% and 19.5% in three months and NZ Post indexes to diesel each month. Negotiate caps, floors or notice periods on fuel, and use lockers and out-of-home points where shoppers accept them, as they lower delivery cost and failed-delivery rates."
+    },
+    {
+      "who": "Cross-border operators into Oceania",
+      "text": "The duty thresholds are stable, but New Zealand's NZ$2.21 air levy per consignment rewards consolidation, and GST collection at checkout is a condition of selling in both markets. Holding fast-moving stock in the country is becoming necessary to match next-day expectations set by Amazon and by local sellers on the marketplaces."
+    },
+    {
+      "who": "Carriers",
+      "text": "Fuel recovery speed and regional reach decide margin more than base rates. Watch the Senate process on regional post office access, which could lower the cost of serving regional Australia for every carrier, and price peak capacity early: last year NZ Post handled 575,000 parcels in a single day and Australia Post 111 million in the November-December peak."
+    }
+  ],
+  "watch": [
+    {
+      "date": "2026-10-22",
+      "what": "United States: new Informal Entry Type 13 process for certain postal goods, affecting Australian and New Zealand senders, who also pay a 12.5% Section 301 tariff."
+    },
+    {
+      "date": "2026-11-01",
+      "what": "Australia Post publishes its December 2026 fuel surcharge (rates are released 30 days in advance; November is 13.5%, October 11.5%)."
+    },
+    {
+      "date": "2026-11-11",
+      "what": "Singles' Day: New Zealand online spending on the day rose 42% in 2025; first test of peak volumes after the Q4 softening Freightways reported."
+    },
+    {
+      "date": "2026-11-27",
+      "what": "Black Friday: NZ Post's record of 575,000 parcels in a day and Australia Post's 111 million November-December parcels in 2025 are the benchmarks."
+    },
+    {
+      "date": "2026-12",
+      "what": "Senate inquiries into Australia Post's retail network and rivals' request for regional parcel access: watch for hearings, recommendations and the government's response."
+    },
+    {
+      "date": "2027-02",
+      "what": "Australia Post and Freightways half-year results (released on 27 February and 16 February in 2026): parcel volume growth, fuel recovery and yield."
+    },
+    {
+      "date": "2027-07-01",
+      "what": "Expected date of Australia Post and NZ Post annual business price changes, both applied on 1 July in 2026."
+    },
+    {
+      "date": "2028",
+      "what": "Planned opening of Amazon's A$750m robotic fulfilment centre at Logan, Queensland, designed to process more than 125 million packages a year."
+    },
+    {
+      "date": "2028-09-25",
+      "what": "New Zealand: two delivery days a week for most addresses under the 2025 Postal Deed, or earlier if mail volumes fall below 120 million items a year."
+    }
+  ],
+  "sources": [
+    {
+      "t": "7 eCommerce trends you can't ignore from the Australia Post eCommerce Report 2026",
+      "u": "https://auspost.com.au/business/grow-your-business/business-ideas-blog/ecommerce-trends",
+      "pub": "Australia Post",
+      "date": "2026-03-19"
+    },
+    {
+      "t": "Australia Post Reports Loss, Uses Property Sales for Investment",
+      "u": "https://www.miragenews.com/australia-post-reports-loss-uses-property-sales-1734663/",
+      "pub": "Mirage News (Australia Post release)",
+      "date": "2026-08-28"
+    },
+    {
+      "t": "Australia Post \"has never stood still\"",
+      "u": "https://postandparcel.info/162661/news/e-commerce/australia-post-has-never-stood-still/",
+      "pub": "Post & Parcel",
+      "date": "2026-08-28"
+    },
+    {
+      "t": "Australia Post focuses on investing for the future as it delivers modest half-year profit",
+      "u": "https://www.ipc.be/news-portal/general-news/2026/03/02/15/29/australia-post-focuses-on-investing-for-the-future",
+      "pub": "International Post Corporation",
+      "date": "2026-03-02"
+    },
+    {
+      "t": "Fuel surcharge",
+      "u": "https://auspost.com.au/business/shipping/postage-costs/fuel-surcharge",
+      "pub": "Australia Post",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Australia Post hikes parcel prices by 4.95%, forcing small businesses to pass on costs",
+      "u": "https://www.smartcompany.com.au/transport-logistics/australia-post-price-increase-parcel-small-business-pass-costs/",
+      "pub": "SmartCompany",
+      "date": "2026-06-10"
+    },
+    {
+      "t": "Australia Post raises fuel surcharge for contract parcel customers",
+      "u": "https://www.retailbiz.com.au/latest-news/australia-post-raises-fuel-surcharge-for-contract-parcel-customers/",
+      "pub": "Retailbiz",
+      "date": "2026-03-26"
+    },
+    {
+      "t": "Australia Post reduces Fuel Surcharge for contract customers",
+      "u": "https://postandparcel.info/162064/news/post/australia-post-reduces-fuel-surcharge-for-contract-customers/",
+      "pub": "Post & Parcel",
+      "date": "2026-06-04"
+    },
+    {
+      "t": "ACCC provides final view on stamp price increase",
+      "u": "https://postandparcel.info/162476/news/e-commerce/accc-provides-final-view-on-stamp-price-increase/",
+      "pub": "Post & Parcel",
+      "date": "2026-07-28"
+    },
+    {
+      "t": "Australia Post urged to allow competitors to deliver parcels in the regions",
+      "u": "https://www.smartcompany.com.au/retail/australia-post-urged-to-allow-competitors-to-deliver-parcels-in-the-regions/",
+      "pub": "SmartCompany",
+      "date": "2026-10-01"
+    },
+    {
+      "t": "Pass the parcel: Australia Post urged to ease monopoly",
+      "u": "https://au.news.yahoo.com/pass-parcel-australia-post-urged-065324168.html",
+      "pub": "Yahoo News Australia (AAP)",
+      "date": "2026-09-30"
+    },
+    {
+      "t": "Senate inquiry to probe Australia Post's reported plan to reshape post office network",
+      "u": "https://region.com.au/senate-inquiry-to-probe-australia-posts-reported-plan-to-reshape-post-office-network/977337/",
+      "pub": "Region",
+      "date": "2026-06-29"
+    },
+    {
+      "t": "From order to door in as little as 5 hours: Amazon's Prime free same-day delivery gets even faster",
+      "u": "https://amazonau.gcs-web.com/news-releases/news-release-details/order-door-little-5-hours-amazons-prime-free-same-day-delivery",
+      "pub": "Amazon Australia",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "Amazon investing $750m in Queensland's first robotic fulfillment centre",
+      "u": "https://www.tiq.qld.gov.au/news-and-events/news/amazon-investing-in-queenslands-first-robotic-fulfillment-centre",
+      "pub": "Trade and Investment Queensland",
+      "date": "2026-03-13"
+    },
+    {
+      "t": "Subscriptions, advertising surpass product sales for Amazon Australia",
+      "u": "https://insideretail.com.au/digital/ecommerce/subscriptions-advertising-surpass-product-sales-for-amazon-australia-202604",
+      "pub": "Inside Retail Australia",
+      "date": "2026-04"
+    },
+    {
+      "t": "Toll Group breaks even, just... but!",
+      "u": "https://theloadstar.com/toll-group-breaks-even-just-but/",
+      "pub": "The Loadstar",
+      "date": "2025-08-15"
+    },
+    {
+      "t": "TGE announces FY25 results and divestment",
+      "u": "https://www.trailermag.com.au/tge-announces-fy25-results-and-divestment/",
+      "pub": "Trailer Magazine",
+      "date": "2025-08-01"
+    },
+    {
+      "t": "SingPost Completes Sale of FMH, Unlocking S$289.5 Million Gain",
+      "u": "https://www.singpost.com/corporate/media-centre/singpost-completes-sale-fmh-unlocking-s2895-million1-gain",
+      "pub": "Singapore Post",
+      "date": "2025-03-27"
+    },
+    {
+      "t": "ADQ completes acquisition of majority stake in Aramex",
+      "u": "https://www.adq.ae/newsroom/adq-completes-acquisition-of-majority-stake-in-aramex",
+      "pub": "ADQ",
+      "date": "2025-07-22"
+    },
+    {
+      "t": "Commerce Commission v Aramex New Zealand Holdings Limited [2026] NZHC 444 (judgment)",
+      "u": "https://www.comcom.govt.nz/assets/Documents/timeline/Commerce-Commission-v-Aramex-New-Zealand-Holdings-Limited-Judgment-4-March-2026.pdf",
+      "pub": "High Court of New Zealand via Commerce Commission",
+      "date": "2026-03-04"
+    },
+    {
+      "t": "Sendle is dead, killed by a US merger partner who misled the Aussie startup's key investor, Federation",
+      "u": "https://www.startupdaily.net/topic/business/sendle-is-dead-killed-by-a-us-merger-partner-who-misled-the-aussie-startups-key-investor-federation/",
+      "pub": "Startup Daily",
+      "date": "2026-01-13"
+    },
+    {
+      "t": "Sendle is back and under new ownership",
+      "u": "https://www.smartcompany.com.au/transport-logistics/sendle-is-back-under-new-ownership/",
+      "pub": "SmartCompany",
+      "date": "2026-07-23"
+    },
+    {
+      "t": "NZ Post returns to profitability in Financial Year 2025/26 (FY26)",
+      "u": "https://www.nzpost.co.nz/about-us/media-centre/media-release/nz-post-returns-to-profitability-in-financial-year-202526-fy26",
+      "pub": "NZ Post",
+      "date": "2026-08-27"
+    },
+    {
+      "t": "NZ Post letter hits $3.60 as prices spiral",
+      "u": "https://b2bnews.co.nz/news/nz-post-letter-hits-3-point-60-as-prices-spiral/",
+      "pub": "B2B News",
+      "date": "2026-07-01"
+    },
+    {
+      "t": "Business pricing and product changes from 1 July 2026",
+      "u": "https://www.nzpost.co.nz/about-us/business-july-2026",
+      "pub": "NZ Post",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Variable prices",
+      "u": "https://www.nzpost.co.nz/about-us/who-we-are/terms-of-business/variable-fuel-rates",
+      "pub": "NZ Post",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Freightways FY26 slides: strong growth clouded by Q4 softening",
+      "u": "https://au.investing.com/news/company-news/freightways-fy26-slides-strong-growth-clouded-by-q4-softening-93CH-4601788",
+      "pub": "Investing.com",
+      "date": "2026-08-17"
+    },
+    {
+      "t": "Analysis: Freightways Group Limited (FRW)",
+      "u": "https://www.nzx.com/companies/FRW/analysis",
+      "pub": "NZX",
+      "date": "2026-08-17"
+    },
+    {
+      "t": "Industry pack: low-value goods levy from 1 April 2026",
+      "u": "https://www.customs.govt.nz/media/0befgvrr/change-1-low-value-goods-levy-3.pdf",
+      "pub": "New Zealand Customs Service",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "NZ Temu tax: $2.21 customs levy won't save local retailers",
+      "u": "https://b2bnews.co.nz/news/nz-temu-tax-2-point-21-customs-levy-wont-save-local-retailers/",
+      "pub": "B2B News",
+      "date": "2026-04-08"
+    },
+    {
+      "t": "Temu tax gap costs NZ retailers as offshore spending surges 33%",
+      "u": "https://b2bnews.co.nz/news/temu-tax-gap-costs-nz-retailers-as-offshore-spending-surges-33-percent/",
+      "pub": "B2B News",
+      "date": "2026-04-15"
+    },
+    {
+      "t": "Growth shifts, favouring local retailers in 2025",
+      "u": "https://www.nzpostbusinessiq.co.nz/latest-ecommerce-insights/growth-shifts-favouring-local-retailers-2025",
+      "pub": "NZ Post Business IQ",
+      "date": "2026-06-10"
+    },
+    {
+      "t": "Peak 25 insights to drive Peak 26 success",
+      "u": "https://www.nzpostbusinessiq.co.nz/tools-resources/peak-25-insights-drive-peak-26-success",
+      "pub": "NZ Post Business IQ",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "GST on low value imported goods",
+      "u": "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/gst-for-non-resident-businesses/gst-on-low-value-imported-goods",
+      "pub": "Australian Taxation Office",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Import declarations",
+      "u": "https://www.abf.gov.au/imports/Pages/How-to-import/Import-declarations.aspx",
+      "pub": "Australian Border Force",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "ACCC turns focus on online retailers like Shein, Temu for dodgy products",
+      "u": "https://www.smartcompany.com.au/retail/accc-turns-focus-online-retailers-shein-temu-dodgy-products/",
+      "pub": "SmartCompany",
+      "date": "2026-02-19"
+    },
+    {
+      "t": "Temu report says more sellers use marketplace in Australia",
+      "u": "https://itbrief.com.au/story/temu-report-says-more-sellers-use-marketplace-in-australia",
+      "pub": "IT Brief Australia",
+      "date": "2026-09-02"
+    },
+    {
+      "t": "GST on low-value imported goods: application date",
+      "u": "https://www.taxpolicy.ird.govt.nz/news/2019/2019-06-17-gst-low-value-imported-goods-application-date",
+      "pub": "Inland Revenue, Tax Policy",
+      "date": "2019-06-17"
+    },
+    {
+      "t": "Postal Deed of Understanding",
+      "u": "https://www.mbie.govt.nz/science-and-technology/it-communications-and-broadband/postal-services-in-new-zealand/postal-deed-of-understanding",
+      "pub": "Ministry of Business, Innovation and Employment",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Fuel statistics",
+      "u": "https://fuelplan.gov.au/fuel-statistics",
+      "pub": "National Fuel Security Plan, Australian Government",
+      "date": "2026-09-22"
+    },
+    {
+      "t": "Government halves fuel excise for three months to ease cost of petrol, diesel",
+      "u": "https://www.abc.net.au/news/2026-03-30/fuel-excise-halved-three-months-petrol-diesel/106510432",
+      "pub": "ABC News",
+      "date": "2026-03-30"
+    },
+    {
+      "t": "AFR: Bidders galore: Japan Post's Toll nightmare attracts bargain hunters",
+      "u": "https://theloadstar.com/afr-bidders-galore-japan-posts-toll-nightmare-attracts-bargain-hunters/",
+      "pub": "The Loadstar",
+      "date": "2021-01-21"
+    },
+    {
+      "t": "Prepping a A$1bn-plus Team Global Express sale",
+      "u": "https://theloadstar.com/prepping-a-a1bn-plus-team-global-express-sale/",
+      "pub": "The Loadstar",
+      "date": "2023"
+    },
+    {
+      "t": "Business pricing updates",
+      "u": "https://auspost.com.au/business/shipping/postage-costs/business-pricing-updates",
+      "pub": "Australia Post",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "US import tariff changes",
+      "u": "https://auspost.com.au/disruptions-and-updates/international-service-updates/us-tariffs",
+      "pub": "Australia Post",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Forced labor Section 301 tariffs imposed to replace expiring Section 122 tariffs: what importers need to know",
+      "u": "https://www.bakerdonelson.com/forced-labor-section-301-tariffs-imposed-to-replace-expiring-section-122-tariffs-what-importers-need-to-know",
+      "pub": "Baker Donelson",
+      "date": "2026-07-24"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Australia",
+      "size": "Online spending of A$82.6bn in 2025 (+14%) across 9.8 million households; average basket A$96; pure marketplaces A$18.9bn (23%). Australia Post delivered 283 million parcels in the second half of 2025, 111 million of them in November and December.",
+      "leaders": "Australia Post and StarTrack (about 70% of e-commerce parcels nationally and at least 95% in the regions, on the industry forum's estimate), Amazon's own network, Team Global Express (A$2.9bn revenue in FY25), CouriersPlease (Pacific Equity Partners) and Aramex's franchised network. Toll now focuses on logistics and forwarding.",
+      "dynamics": "Parcel prices rose 4.95% on average on 1 July 2026 and the monthly fuel surcharge swung between 4.8% and 19.5% in the second quarter. Amazon added overnight and same-day windows in Sydney and Melbourne in August. Sendle shut in January and relaunched under a new owner. Rival carriers are lobbying the Senate for access to Australia Post's regional post offices.",
+      "rules": "No duty at the border for most goods worth A$1,000 or less; GST on low-value imports collected at checkout by overseas merchants and platforms since 1 July 2018. The ACCC reviews Australia Post's reserved letter prices (no objection to the A$1.85 stamp from 1 September 2026) and has turned its attention to product safety on Shein and Temu. A Senate committee is examining Australia Post's retail network plans.",
+      "read": "Our reading: Australia is a one-network market for e-commerce parcels outside the big cities, and the main question for 2027 is regulatory rather than commercial: whether Canberra forces open the regional post office network. In the cities, Amazon and the lockers are setting the service standard.",
+      "src": [
+        0,
+        3,
+        9,
+        16,
+        17,
+        5,
+        4,
+        12,
+        20,
+        21,
+        34,
+        33,
+        8,
+        35,
+        11
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "size": "Online spending of NZ$12.7bn in 2025 (+10%); online took 23.4% of retail spending in the fourth quarter. NZ Post delivered 85 million parcels in 2025-26. Customs data quoted in April 2026 showed low-value import packages rising to 24 million in 2023-24.",
+      "leaders": "NZ Post and CourierPost, Freightways (NZ Couriers and its other express brands, New Zealand volumes +5.1% and a 3.6 point share gain in FY26) and Aramex, which the High Court described as the third-largest courier company.",
+      "dynamics": "Domestic retailers grew online sales 11% in 2025 against 5% for offshore, though Temu is the main online retailer for 17% of shoppers. Freightways' same-customer volumes fell 1.2% in the April-June quarter after the fuel shock. NZ Post returned to profit after finishing its parcel automation programme and raised all domestic courier prices on 1 July.",
+      "rules": "GST on low-value imported goods collected at checkout since 1 December 2019; Customs low-value goods levy of NZ$2.21 per air and NZ$2.09 per sea consignment from 1 April 2026. The Commerce Commission secured a NZ$700,000 cartel penalty against Aramex in March 2026. The 2025 Postal Deed lets NZ Post cut most deliveries to two days a week.",
+      "read": "Our reading: New Zealand is a two-network market where Freightways is gaining share from business senders while NZ Post builds a lower-cost parcel network on the back of fewer letter delivery days. The levy is a cost-recovery charge, not protection, so inbound parcels keep flowing.",
+      "src": [
+        31,
+        32,
+        22,
+        29,
+        26,
+        19,
+        30,
+        24,
+        37,
+        28,
+        38
+      ]
+    }
+  ],
+  "price_stack": [
+    {
+      "carrier": "Australia Post",
+      "item": "Annual parcel price change",
+      "value": "+4.95% average across parcel services; +4.25% average for contract customers; MyPost Business rates and pickups included",
+      "effective": "1 Jul 2026",
+      "src": [
+        5,
+        43
+      ]
+    },
+    {
+      "carrier": "Australia Post / StarTrack",
+      "item": "Monthly fuel surcharge (parcel contracts and StarTrack)",
+      "value": "13.5% for November 2026; 11.5% October; 6.9% September; published 30 days in advance",
+      "effective": "1 Nov 2026",
+      "src": [
+        4
+      ]
+    },
+    {
+      "carrier": "Australia Post / StarTrack",
+      "item": "Fuel surcharge during the 2026 fuel shock",
+      "value": "4.8% (1 to 22 April) to 12% (from 23 April) and 19.5% (June), then 12.3% (July) after fuel prices stabilised",
+      "effective": "Apr to Jul 2026",
+      "src": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "carrier": "StarTrack",
+      "item": "Express and Premium fuel surcharge step-up; rate schedules",
+      "value": "Express and Premium surcharge raised from 15.5% to 22.7%; StarTrack additional charges and standard rate schedules changed on 1 July 2026",
+      "effective": "23 Apr 2026; 1 Jul 2026",
+      "src": [
+        6,
+        43
+      ]
+    },
+    {
+      "carrier": "Australia Post",
+      "item": "Basic Postage Rate (reserved letters)",
+      "value": "A$1.70 to A$1.85; ACCC raised no objection",
+      "effective": "1 Sep 2026",
+      "src": [
+        8
+      ]
+    },
+    {
+      "carrier": "NZ Post / CourierPost",
+      "item": "Annual domestic Courier and Express price change",
+      "value": "All domestic Courier and Express prices increased; percentages notified to each account holder, not published",
+      "effective": "1 Jul 2026",
+      "src": [
+        24
+      ]
+    },
+    {
+      "carrier": "NZ Post / CourierPost",
+      "item": "Variable fuel and road user rate, domestic courier",
+      "value": "7.10% (6.50% variable fuel rate plus 0.60% road user charge); transport services 33.90%; two-month lag to diesel index",
+      "effective": "Oct 2026",
+      "src": [
+        25
+      ]
+    },
+    {
+      "carrier": "NZ Post",
+      "item": "Standard Mail letter prices",
+      "value": "Medium letter +70 cents to NZ$3.60; large NZ$4.90; oversize NZ$6.20",
+      "effective": "1 Jul 2026",
+      "src": [
+        24,
+        23
+      ]
+    },
+    {
+      "carrier": "New Zealand Customs",
+      "item": "Low-value goods cost-recovery levy (consignments of NZ$1,000 or less)",
+      "value": "NZ$2.21 plus GST per air consignment; NZ$2.09 plus GST per sea consignment",
+      "effective": "1 Apr 2026",
+      "src": [
+        28,
+        29
+      ]
+    },
+    {
+      "carrier": "Freightways (NZ Couriers and brands)",
+      "item": "Fuel recovery mechanism",
+      "value": "Recovery lag cut from about two months to about one week after diesel passed 350 cents a litre in March 2026",
+      "effective": "FY26 (to Jun 2026)",
+      "src": [
+        27,
+        26
+      ]
+    }
+  ],
+  "scorecard": [
+    {
+      "name": "Australia Post / StarTrack",
+      "volume": "up",
+      "yield": "flat",
+      "position": "holding",
+      "why": "Parcel volumes rose 5.3% while parcels and services revenue rose 4.8%, so revenue per parcel was broadly flat despite price rises; it keeps about 70% of e-commerce parcels but faces Senate pressure to open its regional network.",
+      "src": [
+        1,
+        5,
+        9
+      ]
+    },
+    {
+      "name": "Amazon Australia",
+      "volume": "up",
+      "yield": "down",
+      "position": "gaining",
+      "why": "Direct product sales rose 20% in 2025 and Amazon extended free overnight and same-day delivery; our reading is that faster free delivery lowers delivery revenue per order, recovered through fees, Prime and advertising.",
+      "src": [
+        14,
+        12
+      ]
+    },
+    {
+      "name": "Team Global Express",
+      "volume": "flat",
+      "yield": "flat",
+      "position": "holding",
+      "why": "FY25 revenue was unchanged at A$2.9bn and EBITDA improved by A$99.7m, but the group still reported a A$115.6m comprehensive loss and is selling its Tasmanian business.",
+      "src": [
+        16
+      ]
+    },
+    {
+      "name": "Sendle",
+      "volume": "down",
+      "yield": "flat",
+      "position": "losing",
+      "why": "Operations stopped on 11 January 2026 and the company went into liquidation; the brand is being relaunched by a new owner from a standing start.",
+      "src": [
+        20,
+        21
+      ]
+    },
+    {
+      "name": "NZ Post / CourierPost",
+      "volume": "flat",
+      "yield": "up",
+      "position": "holding",
+      "why": "EBITDA rose NZ$33m on NZ$44m more revenue and domestic courier prices rose on 1 July; the release we read did not give a parcel growth rate, and Freightways reported a 3.6 point share gain in the same market.",
+      "src": [
+        22,
+        24,
+        26
+      ]
+    },
+    {
+      "name": "Freightways (NZ Couriers)",
+      "volume": "up",
+      "yield": "up",
+      "position": "gaining",
+      "why": "Express Package revenue grew 16.4% against New Zealand volume growth of 5.1%, with a 3.6 point share gain and faster fuel recovery, despite a 1.2% fall in same-customer volumes in Q4.",
+      "src": [
+        26,
+        27
+      ]
+    },
+    {
+      "name": "Temu and Shein",
+      "volume": "up",
+      "yield": "flat",
+      "position": "gaining",
+      "why": "New Zealand household low-value imports rose 20% and Temu is the main online retailer for 17% of New Zealanders, while New Zealand's new levy and ACCC scrutiny add cost without closing the door.",
+      "src": [
+        30,
+        28,
+        35
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Posts hold, speed and fuel set the terms",
+      "likelihood": "most likely",
+      "text": "Our reading: Australia Post and NZ Post keep most e-commerce volume, with annual price rises and monthly fuel surcharges passed through quickly. Amazon widens overnight and same-day coverage, Freightways keeps taking business share in New Zealand, and financial owners of the independents protect margin rather than cut price. The Senate produces recommendations on regional access but no binding change before 2028.",
+      "triggers": "Australia Post fuel surcharge staying between about 7% and 14%; Freightways and Australia Post half-year results in February 2027 showing parcel volume growth of around 5%; no government response mandating access to licensed post offices."
+    },
+    {
+      "name": "Regional access opens",
+      "likelihood": "plausible",
+      "text": "Our reading: after the Senate inquiries, Canberra requires or negotiates access for rival carriers to Australia Post's licensed post offices for collections and returns. Rivals extend regional coverage at lower cost, Australia Post's regional share falls from its 95% level and it leans harder on lockers and price in the cities.",
+      "triggers": "A Senate committee recommendation on third-party parcel access; a government response or ministerial direction; Australia Post changes to licensee contracts allowing competitor parcels."
+    },
+    {
+      "name": "Second fuel shock and a weaker independent",
+      "likelihood": "tail risk",
+      "text": "Our reading: renewed disruption in the Gulf pushes diesel and jet fuel back above second-quarter levels before Australia's reserves are rebuilt. Surcharges return to around 20%, demand softens further, and a leveraged independent or franchised network cuts service or changes hands, repeating Sendle's exit on a larger scale.",
+      "triggers": "Australia Post surcharge above 15%; Australian diesel or jet fuel days of cover falling below September 2026 levels; covenant or refinancing news at a private-equity owned carrier; franchisee disputes over fuel recovery."
+    }
+  ]
+}

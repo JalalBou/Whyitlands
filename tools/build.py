@@ -1127,6 +1127,7 @@ def comp_teasers(k):
 
 
 def cp_cites(idx):
+    idx = [idx] if isinstance(idx, int) else idx
     idx = [n for n in (idx or []) if isinstance(n, int)]
     return ('<sup class="cite">' + "".join(f'<a href="#c-{n + 1}">{n + 1}</a>' for n in idx) + "</sup>") if idx else ""
 

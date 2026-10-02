@@ -1,0 +1,984 @@
+{
+  "key": "nea-parcel",
+  "region": "NEA",
+  "title": "North Asia parcels: Japan prices scarce capacity, Korea races to seven days, Taiwan goes to the store",
+  "dek": "Japan delivered 5.03 billion parcels in fiscal 2024 and Korea 6.42 billion in 2025, yet the two markets compete in opposite ways. Japanese carriers ration driver hours and raise prices; Japan Post lifted Yu-Pack rates by about 10% on 1 October. Korean carriers add seven-day and dawn delivery while unit prices fall and Coupang carries an estimated 37% of parcels. In Taiwan, convenience-store counters and platform lockers decide where the parcel ends its journey.",
+  "as_of": "2026-10-02",
+  "stats": [
+    {
+      "big": "5.03bn",
+      "label": "Parcels delivered in Japan in fiscal 2024 (April 2024 to March 2025), up 0.5%, MLIT",
+      "src": [
+        0
+      ]
+    },
+    {
+      "big": "+2.7%",
+      "label": "Combined fiscal 2025 volume growth at Yamato, Sagawa and Japan Post, to 4.84 billion parcels, the second consecutive year of growth",
+      "src": [
+        6
+      ]
+    },
+    {
+      "big": "6.42bn",
+      "label": "Parcels handled in South Korea in 2025, up 7.75%, or 125.5 per person; 3.31 billion in the first half of 2026 (+6.67%)",
+      "src": [
+        24,
+        25
+      ]
+    },
+    {
+      "big": "₩2,262",
+      "label": "CJ Logistics average parcel unit price in Q1 2026, down 3.7% year on year and the ninth consecutive quarterly decline",
+      "src": [
+        27
+      ]
+    },
+    {
+      "big": "NT$671.6bn",
+      "label": "Taiwan online retail sales in 2025, up 2.8% while total retail fell 0.2%; online took 13.9% of retail",
+      "src": [
+        50,
+        51
+      ]
+    },
+    {
+      "big": "31.0%",
+      "label": "Share of Japanese parcels received by lockers, pick-up points or other alternatives in April 2026; the government targets about 50% by fiscal 2030",
+      "src": [
+        1
+      ]
+    }
+  ],
+  "players": [
+    {
+      "name": "Yamato Holdings (Yamato Transport)",
+      "type": "Listed parcel network, Japan's largest by volume",
+      "scale": "Q1 of the year to March 2027 (April to June 2026): revenue ¥443.3bn (+1.4%), operating loss ¥4.9bn (narrowed by ¥1.6bn). TA-Q-BIN volume fell 3.0% to 449.4 million (-4.3% in June) while Nekopos and Kuroneko Yu-Packet rose 18.2% to 126.8 million. Plans about 2.41 billion parcels for the full year (+0.9%).",
+      "strategy": "Pricing for value rather than volume: average unit prices rose as planned through pricing optimisation, and management says there is \"still ample room for further increases\". Demand-based allocation of staff and vehicles is cutting costs in urban short-distance transport.",
+      "moves": "Full-year forecast kept at revenue ¥1,918bn (+2.8%) and operating profit ¥42bn (+48.4%). Corporate parcel volume fell short of plan, which Yamato attributes to stagnant freight movement and the situation in the Middle East, while the small-business and individual segment remained solid.",
+      "pressure": "Its decision to stop outsourcing small lightweight parcels to Japan Post, notified in October 2024, led Japan Post to sue for damages in December 2024. Large-parcel TA-Q-BIN volume is declining and the group posted a net loss of ¥5.9bn in the quarter.",
+      "src": [
+        8,
+        10,
+        7,
+        6,
+        13
+      ]
+    },
+    {
+      "name": "SG Holdings (Sagawa Express)",
+      "type": "Listed parcel and B2B delivery network with global forwarding",
+      "scale": "Q1 (April to June 2026): group revenue ¥447.3bn (+21.7%), operating profit ¥20.1bn (+14.9%). Delivery segment revenue ¥268.5bn (+6.7%) but operating profit ¥12.7bn (-7.4%). Hikyaku parcel volume up 7.0%; about 1.39 billion parcels planned for the year.",
+      "strategy": "Grow B2C volume, led by cross-border e-commerce, while widening forwarding through the consolidation of Morrison Express, which lifted global logistics revenue 127.9% to ¥112.7bn.",
+      "moves": "Peak-season surcharge of ¥20 to ¥150 per kg, by destination, on Hikyaku international parcels picked up from 1 October 2026 to 5 February 2027.",
+      "pressure": "Average delivery unit price fell as small parcels took a larger share of volume, although unit prices on cross-border e-commerce improved year on year.",
+      "src": [
+        15,
+        6,
+        16
+      ]
+    },
+    {
+      "name": "Japan Post (Japan Post Holdings)",
+      "type": "State-controlled postal operator (Yu-Pack, Yu-Packet) with Toll in international logistics",
+      "scale": "Fiscal 2025: 565.5 million Yu-Pack (+1.3%) and 562.6 million Yu-Packet (+4.7%) items, while total acceptance fell 5.0% to 16.05 billion items on falling mail. June 2026: Yu-Pack +7.9%, Yu-Packet +12.7%, mail -7.0%. Q1 postal and domestic logistics revenue ¥570.9bn with an operating loss of ¥5.6bn against a ¥0.4bn profit a year earlier; Toll revenue ¥154.5bn.",
+      "strategy": "Shift from letters to parcels and recover cost through price; pursue collaboration with carriers outside the group after Yamato's 2024 decision; add trucking capacity through the 2025 management buyout of Tonami Holdings with its founding family.",
+      "moves": "1 October 2026: Yu-Pack basic rates up about 10% on average (Tokyo to Hokkaido 60-size from ¥1,410 to ¥1,550); Yu-Packet a flat ¥360 for all thicknesses; Click Post from ¥185 to ¥240 with a 2 kg limit. Resumed all postal items to the United States on 14 April 2026, with prepaid duties for items from $100 to $2,500.",
+      "pressure": "Lost its truck operating licence for about 2,500 vehicles for five years in June 2025 over driver alcohol-check failures; outsourcing costs rose ¥3.8bn in the quarter; mail continues to fall.",
+      "src": [
+        11,
+        12,
+        6,
+        9,
+        13,
+        14,
+        21,
+        5
+      ]
+    },
+    {
+      "name": "Amazon Japan (Amazon Logistics)",
+      "type": "Marketplace and retailer with its own delivery network",
+      "scale": "More than 65 delivery stations, 16 dedicated same-day facilities, over 120 delivery service partner companies and tens of thousands of Amazon Flex drivers across all 47 prefectures; more than 4,500 lockers (Amazon's figures, December 2025).",
+      "strategy": "Build its own last mile beside the national carriers: next-day delivery nationwide for orders placed before 11:59 pm, an Express Mart same-day service, and Amazon Key access to more than 30,000 buildings with auto-lock entrances.",
+      "moves": "Opened six delivery stations in 2025 and the Nagoya Minato fulfilment centre; in August 2026 opened a second Amagasaki fulfilment centre of about 111,000 m² with about 3,000 drive units, handling more than 500,000 items a day. Invested more than ¥44bn in Hyogo prefecture in 2025.",
+      "pressure": "Its own network depends on contracted delivery partners and Flex drivers, in the same tight labour market as the carriers; Amazon does not disclose Japanese parcel volumes.",
+      "src": [
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "name": "Coupang (Coupang Logistics Services)",
+      "type": "E-commerce platform with its own fulfilment and delivery, Korea and Taiwan",
+      "scale": "Q2 2026: revenue $8.9bn (+4%, +10% at constant currency); Product Commerce $7.4bn and 24.7 million active customers (+3%); Developing Offerings $1.4bn (+24% at constant currency). Trade press estimates its share of Korean parcels at about 37%.",
+      "strategy": "Own the whole chain from warehouse to door, with Rocket Delivery and dawn delivery, and export the model: four fulfilment centres in Taiwan, Rocket Delivery across about 70% of the island seven days a week, more than 10,000 Korean sellers, and over $900m invested in Taiwan in 2025.",
+      "moves": "Operating loss of $556m in Q2, including about $410m of Korean administrative fines that it is appealing; gross margin 28.2% (-188 bp). Founder Bom Kim said dawn delivery came one year into the Taiwan build against four in Korea.",
+      "pressure": "PIPC fine of ₩624.68bn over a breach affecting 37.5 million people; refused a KFTC inspection in August, prompting the KFTC chair to threaten a criminal referral; its logistics arm was the most heavily fined of five carriers in the KFTC's May 2026 contract case.",
+      "src": [
+        33,
+        34,
+        35,
+        26,
+        36,
+        37,
+        32
+      ]
+    },
+    {
+      "name": "CJ Logistics (O-NE)",
+      "type": "Listed third-party parcel, contract logistics and forwarding group",
+      "scale": "Q2 2026: revenue ₩3.38tn (+10.9%), operating profit ₩101.6bn (-11.9%). O-NE parcel revenue ₩984.8bn (+8.5%), operating profit ₩40.9bn (-10.7%). Parcel volume +12.1% and dawn and same-day volume +65%. Largest third-party parcel carrier.",
+      "strategy": "Seven-day 'Maeil O-NE' delivery, consumer-to-consumer 'Bonae O-NE', flexible hub operations and fulfilment for platform partners; grow global and cross-border logistics in the United States and India.",
+      "moves": "Q1 2026 volume +14.3% but average unit price ₩2,262 per box (-3.7%), a ninth consecutive quarterly fall. A US centre in Elwood, Illinois, built with Korea Ocean Business Corporation, reached full operation on 2 September 2026.",
+      "pressure": "Volume growth is not converting into profit: parcel and contract logistics operating profit both fell in Q2, and forwarding was weakened by US-Iran tension. Fined ₩612m by the KFTC in May.",
+      "src": [
+        28,
+        29,
+        27,
+        32
+      ]
+    },
+    {
+      "name": "Hanjin",
+      "type": "Listed parcel and logistics carrier (Hanjin group)",
+      "scale": "Q2 2026: revenue ₩847.8bn (+14.4%), operating profit ₩28.7bn (-22.4%); first half revenue ₩1.627tn (+10.7%), operating profit ₩48.5bn (-24.6%).",
+      "strategy": "Seven-day delivery nationwide, a same-day service ('One-click Today Delivery') launched in November 2025, plus investment in smart logistics, automation and global infrastructure.",
+      "moves": "Parcel volume increased in the quarter, but the company cited supply-chain instability, fixed costs from global expansion and e-commerce competition for lower profit. Q1 operating profit fell 38.1%.",
+      "pressure": "Fined ₩696m by the KFTC in May 2026; delayed written contracts in 270 cases.",
+      "src": [
+        30,
+        27,
+        32
+      ]
+    },
+    {
+      "name": "Lotte Global Logistics",
+      "type": "Parcel and logistics arm of the Lotte group",
+      "scale": "First half 2026: revenue ₩1.78tn (+7.5%), operating profit ₩36.3bn (-11.2%). Last-mile (parcel) revenue ₩654.8bn (-3.3%), operating profit about ₩0.6bn against ₩8.6bn a year earlier.",
+      "strategy": "Grow contract logistics and overseas business (global revenue +51.8% to ₩203.4bn) and invest ₩320.7bn by 2031, including ₩58.2bn for parcel network upgrades and ₩205bn for an apparel centre in Yeoju.",
+      "moves": "Joined seven-day delivery in January 2026; Q1 revenue rose 3.2% while operating profit fell 10.5%.",
+      "pressure": "Parcel profit has almost disappeared under falling unit prices. Fined ₩633m by the KFTC in May 2026, with 580 cases of delayed contracts.",
+      "src": [
+        31,
+        27,
+        32
+      ]
+    },
+    {
+      "name": "Korea Post",
+      "type": "Government postal operator (Ministry of Science and ICT)",
+      "scale": "2025: postal business deficit of ₩311.6bn (₩165.9bn in 2024), offset by deposit and insurance surpluses; group operating surplus forecast at ₩904.5bn.",
+      "strategy": "Defend the universal network through tariff increases and new government services carried by postal delivery staff; keep EMS open for exporters.",
+      "moves": "Standard letter rate raised to ₩500 on 1 July 2026, the first increase in five years. Resumed EMS to the United States on 22 September 2025 with the sender paying duty.",
+      "pressure": "Falling letter volumes and network costs; Korea Post is not among the five private carriers the KFTC says hold more than 90% of the parcel market.",
+      "src": [
+        41,
+        42,
+        43,
+        32
+      ]
+    },
+    {
+      "name": "Taiwan: Chunghwa Post and the convenience-store networks",
+      "type": "State-owned post plus store pick-up networks (7-Eleven, FamilyMart) and platform lockers",
+      "scale": "Chunghwa Post earned NT$10.15bn in 2025, but its postal business lost about NT$1.94bn as letters fell to 1.73 billion pieces. A 2024 survey found 87.2% of online shoppers used 7-Eleven pick-up, 68.0% FamilyMart and 65.7% Shopee's own store-to-store service.",
+      "strategy": "Chunghwa Post is moving from letters to parcels and express, with same-day and next-day options and door-to-door pick-up. Uni-President, owner of 7-Eleven Taiwan and T-Cat, agreed in 2024 to take 30% of PChome; FamilyMart runs eight logistics centres and plans a NT$3.2bn hub in Hsinchu.",
+      "moves": "Chunghwa Post left mail and parcel postage unchanged for 2026. T-Cat home delivery became available in more than 4,400 FamilyMart stores from 28 April 2026 (NT$130 for an S60 ambient parcel). Shopee runs more than 3,100 Shopee Xpress pick-up points and opens about 100 a month.",
+      "pressure": "Platform lockers and free shipping draw parcels away from store counters, and Coupang's own Rocket Delivery reaches about 70% of the island.",
+      "src": [
+        55,
+        56,
+        54,
+        53,
+        52,
+        35
+      ]
+    }
+  ],
+  "battlegrounds": [
+    {
+      "h": "Japan: pricing hours, not parcels",
+      "text": "Since April 2024 Japanese truck drivers have been capped at 960 hours of overtime a year, and MLIT plans for a transport capacity shortfall in fiscal 2030. Since April 2026 large shippers must file efficiency plans and appoint a chief logistics officer. The carriers have responded with price: Yamato says unit prices rose as planned with ample room for more, and Japan Post raised Yu-Pack by about 10% on 1 October 2026. Our reading: in Japan capacity, not demand, sets the parcel price, and shippers that cannot offer predictable volume or flexible delivery days will pay the most.",
+      "src": [
+        4,
+        2,
+        3,
+        7,
+        14
+      ]
+    },
+    {
+      "h": "Small parcels: the volume grows, the yield does not",
+      "text": "Growth in Japan is in small, thin parcels. Yamato's Nekopos and Kuroneko Yu-Packet volume rose 18.2% in Q1 while TA-Q-BIN fell 3.0%, Japan Post's Yu-Packet rose 12.7% in June, and Sagawa's average unit price fell on a higher share of small parcels even as volume rose 7.0%. Japan Post has moved Yu-Packet to a flat ¥360 and Click Post to ¥240. The Yamato and Japan Post handover of small parcels has turned into a damages suit. Our reading: the small-parcel tier is being repriced upwards across all three networks, which raises the floor for cross-border sellers into Japan.",
+      "src": [
+        10,
+        12,
+        15,
+        14,
+        13
+      ]
+    },
+    {
+      "h": "Korea: the seven-day race and falling unit prices",
+      "text": "Coupang carries an estimated 37% of Korean parcels on its own network. CJ Logistics answered with seven-day 'Maeil O-NE' delivery, Hanjin runs seven days nationwide with a same-day service, and Lotte joined in January 2026. Volume rose (CJ +12.1% in Q2), but CJ's unit price fell for a ninth quarter, Hanjin's operating profit fell 22.4% and Lotte's parcel profit almost vanished. Our reading: Korea is a volume market priced below its cost of service, and the third-party carriers are buying share with weekend capacity rather than with price increases.",
+      "src": [
+        26,
+        28,
+        29,
+        27,
+        30,
+        31
+      ]
+    },
+    {
+      "h": "Platforms building or orchestrating their own last mile",
+      "text": "Coupang owns its delivery chain and has taken it to Taiwan; Naver launched 'N-Delivery FBN' in July 2026 to manage inventory, returns and dawn and Sunday delivery through partner logistics firms in its fulfilment alliance; Amazon runs more than 65 delivery stations in Japan; Shopee has more than 3,100 pick-up points in Taiwan. Our reading: platforms decide who carries the parcel, and carriers that are not inside a platform alliance compete for the residual, lower-density volume.",
+      "src": [
+        35,
+        40,
+        17,
+        52
+      ]
+    },
+    {
+      "h": "Out-of-home delivery: lockers, stores and pick-up points",
+      "text": "In Japan 31.0% of parcels used alternative receipt methods in April 2026 and the redelivery rate fell to 7.6%; the target is about 50% by fiscal 2030. Amazon has more than 4,500 lockers in Japan. In Taiwan, store pick-up is the default: 87.2% of surveyed online shoppers used 7-Eleven pick-up in 2024. T-Cat entered more than 4,400 FamilyMart stores in April 2026, while Shopee converts staffed points to unstaffed lockers. Our reading: the network that owns the pick-up point owns the customer relationship at the end of the parcel, which is why convenience chains, platforms and carriers are all investing in it.",
+      "src": [
+        1,
+        17,
+        54,
+        53,
+        52
+      ]
+    },
+    {
+      "h": "Rules on labour, data and contracts",
+      "text": "Korea's KFTC fined Coupang's logistics arm, Hanjin, Lotte Global Logistics, CJ Logistics and Logen ₩3.078bn in May 2026 for shifting safety liability onto delivery agencies and issuing contracts late. A committee reviewed a cap of 12 night shifts a month, and a bill to let large marts deliver at dawn has been stuck since May. In Japan, Japan Post lost truck licences for about 2,500 vehicles over alcohol-check failures. Our reading: compliance on drivers and subcontractors is now a cost line in both markets, and it weighs most on the operators with the largest subcontracted workforces.",
+      "src": [
+        32,
+        38,
+        39,
+        5
+      ]
+    }
+  ],
+  "our_read": "Our reading is that North Asia holds three different parcel markets that share one pressure: delivery labour. Japan is short of drivers, so price is set by capacity; Yamato and Japan Post are raising rates, Sagawa grows on cross-border parcels at a lower unit price, and Amazon builds its own network alongside. Korea is the opposite: volume grew 7.75% to 6.42 billion parcels in 2025 and every large carrier now offers seven-day delivery, but unit prices keep falling and third-party carriers' parcel profits are shrinking while Coupang carries an estimated 37% of parcels and faces regulators on data, contracts and inspections. Taiwan is a pick-up market where convenience-store groups, Shopee and Coupang compete for the counter and the locker. Across all three, platforms rather than carriers increasingly decide where parcels go, and cross-border flows depend on tax and tariff choices in Tokyo, Seoul, Taipei and Washington over the next eighteen months.",
+  "implications": [
+    {
+      "who": "Merchants / platforms",
+      "text": "In Japan, budget for annual rate rises and use the new small-parcel prices (Yu-Packet ¥360, Click Post ¥240) to review packaging thickness and weight. Offer lockers and pick-up points at checkout, as the government is pushing for 50% alternative receipt. In Korea, seven-day and dawn delivery are available from every large carrier at falling unit prices, so negotiate service levels rather than price. In Taiwan, store pick-up is the expected option."
+    },
+    {
+      "who": "Cross-border operators into North Asia",
+      "text": "Plan for Japan's point-of-sale consumption tax from 1 April 2028, with seller registration opening on 1 October 2027, and Korea's domestic-agent rule from 21 January 2027. Expect higher peak surcharges into Japan, such as Sagawa's ¥20 to ¥150 per kg on international parcels until February 2027, and consider in-market stock where volume justifies it, as Coupang does in Taiwan."
+    },
+    {
+      "who": "Carriers",
+      "text": "In Japan, driver hours are the scarce asset: sell guaranteed capacity and reward shippers that accept flexible days and out-of-home delivery. In Korea, compete on density and contract compliance, as the KFTC is examining subcontracting and liability terms across the five largest carriers. In Taiwan, partnerships with convenience-store networks or platform lockers determine reach."
+    }
+  ],
+  "watch": [
+    {
+      "date": "2026-12-31",
+      "what": "United States: USTR findings in the Section 301 excess-capacity investigations covering Japan, Korea and Taiwan (no date set; tariffs currently capped at 12.5% for Japan and Korea and 10% for Taiwan)."
+    },
+    {
+      "date": "2027-01-10",
+      "what": "Expiry of the extended US-China trade truce, which affects Chinese platforms' volumes into Korea, Japan and Taiwan."
+    },
+    {
+      "date": "2027-01-21",
+      "what": "Korea: foreign platforms with ₩1tn of sales or 1 million monthly domestic users must have appointed a domestic agent."
+    },
+    {
+      "date": "2027-02-05",
+      "what": "Japan: last pickups subject to Sagawa's peak-season surcharge on Hikyaku international parcels."
+    },
+    {
+      "date": "2027-07-01",
+      "what": "United States: statutory repeal of the $800 de minimis exemption, already suspended for all modes."
+    },
+    {
+      "date": "2027-10-01",
+      "what": "Japan: registration opens for sellers of imported goods worth ¥10,000 or less ahead of point-of-sale consumption tax."
+    },
+    {
+      "date": "2028-04-01",
+      "what": "Japan: the consumption-tax exemption for low-value imports ends; registered sellers and large platforms collect tax at checkout."
+    }
+  ],
+  "sources": [
+    {
+      "t": "令和６年度 宅配便・メール便取扱実績について",
+      "u": "https://www.mlit.go.jp/report/press/jidosha04_hh_000341.html",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "date": "2025-08-27"
+    },
+    {
+      "t": "宅配便の多様な受取方法の利用率は約31.0%",
+      "u": "https://www.mlit.go.jp/report/press/tokatsu01_hh_001025.html",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "date": "2026-07-10"
+    },
+    {
+      "t": "2030年度に想定される輸送力不足への対応方針",
+      "u": "https://www.mlit.go.jp/seisakutokatsu/freight/content/001984794.pdf",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "date": ""
+    },
+    {
+      "t": "Japan's CLO mandate: logistics moves into the boardroom",
+      "u": "https://valuechainasia.com/articles/human-resources/japan-chief-logistics-officer-mandate-asia",
+      "pub": "Value Chain Asia",
+      "date": "2026-04-21"
+    },
+    {
+      "t": "Money and labor shortages: changes affecting people's lives in Japan from April 2024",
+      "u": "https://www.nippon.com/en/japan-data/h01952/",
+      "pub": "Nippon.com",
+      "date": ""
+    },
+    {
+      "t": "Japan Post stripped of truck transport business license",
+      "u": "https://www.nippon.com/en/news/yjj2025062500650/japan-post-stripped-of-truck-transport-biz-license.html",
+      "pub": "Nippon.com (Jiji Press)",
+      "date": "2025-06-25"
+    },
+    {
+      "t": "ヤマト・佐川・日本郵便…宅配便の「取扱個数」増加率トップはどこ？【10月から10％値上げも】",
+      "u": "https://diamond.jp/articles/-/396527",
+      "pub": "Diamond Online",
+      "date": "2026-08-07"
+    },
+    {
+      "t": "Q&A summary, first quarter results for the fiscal year ending March 2027 (conducted on 4 August 2026)",
+      "u": "https://www.yamato-hd.co.jp/investors/library/briefing/pdf/E_1q_faq_2027_03.pdf",
+      "pub": "Yamato Holdings",
+      "date": "2026-08-04"
+    },
+    {
+      "t": "Consolidated Financial Results for the First Three Months of the Fiscal Year Ending March 31, 2027",
+      "u": "https://www.yamato-hd.co.jp/english/investors/library/results/pdf/1q_consolidated_2027_03.pdf",
+      "pub": "Yamato Holdings",
+      "date": "2026-08-03"
+    },
+    {
+      "t": "Financial results for the three months ended June 30, 2026 (presentation)",
+      "u": "https://www.japanpost.jp/en/ir/library/earnings/pdf/20260807_02.pdf",
+      "pub": "Japan Post Holdings",
+      "date": "2026-08-07"
+    },
+    {
+      "t": "ヤマト宅急便4.3％減、ネコポス系は16％増",
+      "u": "https://www.logi-today.com/973805",
+      "pub": "LOGISTICS TODAY",
+      "date": "2026-07-06"
+    },
+    {
+      "t": "日本郵便／2025年度の引受物数160億5332万通で5.0％減、荷物は0.8％減",
+      "u": "https://www.lnews.jp/2026/05/s0511705.html",
+      "pub": "LNEWS",
+      "date": "2026-05-11"
+    },
+    {
+      "t": "日本郵便／6月の引受物数、郵便物7.0％減、荷物3.0％増",
+      "u": "https://www.lnews.jp/2026/08/s0803704.html",
+      "pub": "LNEWS",
+      "date": "2026-08-03"
+    },
+    {
+      "t": "Material for Small Meeting (FY2024 results and FY2025 forecasts)",
+      "u": "https://www.japanpost.jp/en/ir/library/presentation/pdf/2026_q1_01.pdf",
+      "pub": "Japan Post Holdings",
+      "date": "2025-06"
+    },
+    {
+      "t": "日本郵便、「ゆうパック」を平均10％値上げ、「ゆうパケット」は全サイズ360円の新運賃、「クリックポスト」は185円→240円に改定へ",
+      "u": "https://netshop.impress.co.jp/n/2026/07/07/16365",
+      "pub": "Netshop Tantosha Forum (Impress)",
+      "date": "2026-07-07"
+    },
+    {
+      "t": "SGHD 決算／4～6月の売上高21.7％増、グローバル物流が1948％増益",
+      "u": "https://www.lnews.jp/2026/08/s0807710.html",
+      "pub": "LNEWS",
+      "date": "2026-08-07"
+    },
+    {
+      "t": "佐川急便／10月1日集荷分から飛脚国際宅配便に繁忙期追加金を導入",
+      "u": "https://www.lnews.jp/2026/09/s0929101.html",
+      "pub": "LNEWS",
+      "date": "2026-09-29"
+    },
+    {
+      "t": "Amazon、2025年の物流・配送拠点やサービスの拡大について",
+      "u": "https://press.aboutamazon.com/jp/news/fulfillment-and-delivery/2025/12/2025logistics-operations",
+      "pub": "Amazon Japan Press Center",
+      "date": "2025-12"
+    },
+    {
+      "t": "Amazon、関西最大のフルフィルメントセンターを尼崎市に新設 市内2拠点目",
+      "u": "https://press.aboutamazon.com/jp/news/operations/2026/8/amazon-launches-new-amagasaki-fc",
+      "pub": "Amazon Japan Press Center",
+      "date": "2026-08-05"
+    },
+    {
+      "t": "Amazonが、お客様の利便性向上につながる迅速な配送を強化するためにデリバリーステーションへの投資を強化",
+      "u": "https://www.aboutamazon.jp/news/delivery-and-logistics/amazon-expands-delivery-station-investment",
+      "pub": "About Amazon Japan",
+      "date": "2025-07-01"
+    },
+    {
+      "t": "令和6年度電子商取引に関する市場調査の結果を取りまとめました",
+      "u": "https://www.meti.go.jp/press/2025/08/20250826005/20250826005.html",
+      "pub": "Ministry of Economy, Trade and Industry (METI)",
+      "date": "2025-08-26"
+    },
+    {
+      "t": "News: resumption of acceptance of postal items to the United States",
+      "u": "https://www.post.japanpost.jp/service/send/oversea/information/2026/0413_01_en.html",
+      "pub": "Japan Post",
+      "date": "2026-04-13"
+    },
+    {
+      "t": "Japan to introduce point-of-sale consumption tax for low value goods from April 2028",
+      "u": "https://www.vatupdate.com/2026/01/17/japan-to-introduce-point-of-sale-consumption-tax-for-low-value-goods-from-april-2028/",
+      "pub": "VATupdate",
+      "date": "2026-01-17"
+    },
+    {
+      "t": "Japan Finance Ministry considering consumption tax on low-cost imported goods priced at ¥10,000 or less (The Yomiuri Shimbun)",
+      "u": "https://asianews.network/japan-finance-ministry-considering-consumption-tax-on-low-cost-imported-goods-priced-at-10000-or-less/",
+      "pub": "Asia News Network",
+      "date": "2025-05-16"
+    },
+    {
+      "t": "지난해 '택배' 물동량 사상 첫 '60억개' 돌파…국민 1인당 연 125회 받았다",
+      "u": "https://www.etnews.com/20260424000221",
+      "pub": "Electronic Times (etnews)",
+      "date": "2026-04-24"
+    },
+    {
+      "t": "상반기 택배, 역대 최대 33억개 돌파…국민 1인당 72회 꼴",
+      "u": "https://www.etnews.com/20260810000249",
+      "pub": "Electronic Times (etnews)",
+      "date": "2026-08-10"
+    },
+    {
+      "t": "쿠팡의 시장 독주 속 경쟁 구도 재편…CJ대한통운·롯데·한진, 대응 전략 강화",
+      "u": "https://www.thedelivery.co.kr/news_view.jsp?ncd=8031",
+      "pub": "The Delivery",
+      "date": "2025-12-26"
+    },
+    {
+      "t": "CJ·롯데·한진 더 많이 날라도 이익은 뒷걸음…택배 단가 9분기째↓",
+      "u": "https://www.mt.co.kr/industry/2026/05/17/2026051511293961136",
+      "pub": "Money Today",
+      "date": "2026-05-17"
+    },
+    {
+      "t": "CJ대한통운, 2분기 매출 3.4조…투자 부담에 영업익은 12%↓",
+      "u": "https://www.ajunews.com/view/20260811100125891",
+      "pub": "Aju News",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "CJ대한통운, 2분기 영업익 1016억...전년 대비 12%↓",
+      "u": "https://economist.co.kr/article/view/ecn202608110048",
+      "pub": "Economist (Korea)",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "한진, 2분기 영업익 287억원…전년比 22.4% 감소",
+      "u": "https://view.asiae.co.kr/article/2026070910175903806",
+      "pub": "The Asia Business Daily",
+      "date": "2026-07-09"
+    },
+    {
+      "t": "롯데글로벌로지스, 상반기 매출 7.5%↑…글로벌사업 51.8% 성장",
+      "u": "https://www.newscj.com/news/articleView.html?idxno=3425337",
+      "pub": "Newscj",
+      "date": "2026-08-15"
+    },
+    {
+      "t": "Korea fines Coupang, CJ Logistics 30.7 billion won over unfair delivery contracts",
+      "u": "https://en.sedaily.com/finance/2026/05/18/coupang-cj-logistics-among-5-delivery-firms-fined-307",
+      "pub": "Seoul Economic Daily",
+      "date": "2026-05-18"
+    },
+    {
+      "t": "Coupang announces results for second quarter 2026",
+      "u": "https://ir.aboutcoupang.com/news-events/news/news-details/2026/Coupang-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "pub": "Coupang Inc. (investor relations)",
+      "date": "2026-08-04"
+    },
+    {
+      "t": "Q2 2026 Coupang earnings call script",
+      "u": "https://s206.q4cdn.com/919117365/files/doc_financials/2026/q2/Q2-26-Earnings-Call-Script_.pdf",
+      "pub": "Coupang Inc. (investor relations)",
+      "date": "2026-08-04"
+    },
+    {
+      "t": "Coupang turns to Taiwan as key hub for global growth",
+      "u": "https://www.koreatimes.co.kr/business/companies/20260919/coupang-turns-to-taiwan-as-key-hub-for-global-growth",
+      "pub": "The Korea Times",
+      "date": "2026-09-19"
+    },
+    {
+      "t": "One unrevoked key, 37.5 million people: what the Coupang data breach reveals about data access",
+      "u": "https://securiti.ai/blog/coupang-data-breach-pipc-fine-data-access/",
+      "pub": "Securiti",
+      "date": "2026"
+    },
+    {
+      "t": "Coupang sues Korea Fair Trade Commission over antitrust inspection",
+      "u": "https://www.koreajoongangdaily.com/business/coupang-turns-away-antitrust-inspectors-in-unprecedented-move-as-ftc-chief-threatens-criminal-referral/12846042",
+      "pub": "Korea JoongAng Daily",
+      "date": "2026-08-26"
+    },
+    {
+      "t": "Policymakers review proposal to cap night shifts for delivery workers to 12 per month",
+      "u": "https://www.koreajoongangdaily.com/business/policymakers-review-proposal-to-cap-night-shifts-for-delivery-workers-to-12-per-month/12284743",
+      "pub": "Korea JoongAng Daily",
+      "date": "2025-12-29"
+    },
+    {
+      "t": "[기획] 납품대금법은 통과, 새벽배송법은 하세월…유통 규제 '엇갈린 시계'",
+      "u": "https://www.m-i.kr/news/articleView.html?idxno=1417783",
+      "pub": "Maeil Ilbo",
+      "date": "2026-09-27"
+    },
+    {
+      "t": "네이버, 'N배송 FBN' 도입…새벽·일요배송 확대",
+      "u": "https://www.fnnews.com/news/202607160912544645",
+      "pub": "Financial News",
+      "date": "2026-07-16"
+    },
+    {
+      "t": "오늘부터 우편요금 500원...적자 못이겨 5년만 인상",
+      "u": "https://www.fnnews.com/news/202607011038128036",
+      "pub": "Financial News",
+      "date": "2026-07-01"
+    },
+    {
+      "t": "지난해 우체국 9045억원 흑자…예금·보험으로 우편 적자 만회",
+      "u": "https://www.news1.kr/it-science/general-it/6037466",
+      "pub": "News1",
+      "date": "2026-01-13"
+    },
+    {
+      "t": "Korea Post resumes express mail service to U.S.",
+      "u": "https://www.koreajoongangdaily.com/business/korea-post-resumes-express-mail-service-to-us/11739974",
+      "pub": "Korea JoongAng Daily",
+      "date": "2025-09-22"
+    },
+    {
+      "t": "매출 1조·월 100만명 이상 접속 해외플랫폼, 국내대리인 의무 지정해야",
+      "u": "https://www.mt.co.kr/economy/2026/07/14/2026071409432386543",
+      "pub": "Money Today",
+      "date": "2026-07-14"
+    },
+    {
+      "t": "K-뷰티 열풍, 2분기 역직구 38.7% 급증…직구는 14분기만에 감소",
+      "u": "https://supple.kr/news/cmscycvgd003z7r76llxi9o8p",
+      "pub": "Supple",
+      "date": "2026-08-03"
+    },
+    {
+      "t": "中 저가제품 유입 창구로 악용... 150弗이하 수입품 면세 손본다",
+      "u": "https://v.daum.net/v/20251012184647536",
+      "pub": "Daum News (Korean press report)",
+      "date": "2025-10-12"
+    },
+    {
+      "t": "AliExpress, Temu surge in Korea, topping W4tr in transactions",
+      "u": "https://www.koreaherald.com/article/10417213",
+      "pub": "The Korea Herald",
+      "date": "2025-02-11"
+    },
+    {
+      "t": "Shinsegae-Alibaba e-commerce venture gets green light",
+      "u": "https://insideretail.asia/2025/09/19/shinsegae-alibaba-e-commerce-venture-gets-green-light/",
+      "pub": "Inside Retail Asia",
+      "date": "2025-09-19"
+    },
+    {
+      "t": "Temu secures first logistics hub in Korea: reports",
+      "u": "https://www.koreaherald.com/article/10446258",
+      "pub": "The Korea Herald",
+      "date": "2025-03-20"
+    },
+    {
+      "t": "台灣電商產業迎關鍵轉折 2025-2026年邁向結構升級",
+      "u": "https://www.ctee.com.tw/news/20260127700708-431202",
+      "pub": "Commercial Times (CTEE)",
+      "date": "2026-01-27"
+    },
+    {
+      "t": "台灣零售業25年來第3次衰退！電視購物跌破千億元門檻，「這類型通路」成擴張引擎",
+      "u": "https://www.bnext.com.tw/article/90039/2025-taiwan-retail-ecommerce-report",
+      "pub": "BusinessNext (數位時代)",
+      "date": "2026"
+    },
+    {
+      "t": "Shopee's Quiet Takeover of Taiwan's Retail Map",
+      "u": "https://english.cw.com.tw/article/article.action?id=4846",
+      "pub": "CommonWealth Magazine",
+      "date": "2026-06-23"
+    },
+    {
+      "t": "統一集團黑貓宅急便打進全家超商通路 即日起全家可用黑貓宅配了",
+      "u": "https://ec.ltn.com.tw/article/breakingnews/5418218",
+      "pub": "Liberty Times (自由財經)",
+      "date": "2026-04-28"
+    },
+    {
+      "t": "超商取貨賺什麼？統一認購網家股份、全家急推物流中心，背後都藏「這盤生意」",
+      "u": "https://www.businessweekly.com.tw/business/blog/3017475",
+      "pub": "Business Weekly (商周)",
+      "date": "2024-12-19"
+    },
+    {
+      "t": "中華郵政去年獲利破百億！郵務卻虧近20億成最大挑戰",
+      "u": "https://www.ctee.com.tw/news/20260125700528-431401",
+      "pub": "Commercial Times (CTEE)",
+      "date": "2026-01-25"
+    },
+    {
+      "t": "中華郵政新郵附帶發行票品明年調漲「漲幅最高達50％」郵件包裹暫不漲",
+      "u": "https://money.udn.com/money/story/122328/9189283",
+      "pub": "Economic Daily News (UDN)",
+      "date": "2025-12-08"
+    },
+    {
+      "t": "Chunghwa Post resumes some small parcel services to U.S.",
+      "u": "https://focustaiwan.tw/society/202510010021",
+      "pub": "Focus Taiwan (CNA)",
+      "date": "2025-10-01"
+    },
+    {
+      "t": "防中國等低價進口小額包裹 立委提免稅門檻降至1000元 財長允納入考慮",
+      "u": "https://www.cna.com.tw/news/afe/202504160053.aspx",
+      "pub": "Central News Agency (CNA)",
+      "date": "2025-04-16"
+    },
+    {
+      "t": "China exploiting duty exemptions (editorial)",
+      "u": "https://www.taipeitimes.com/News/editorials/archives/2026/02/03/2003851662",
+      "pub": "Taipei Times",
+      "date": "2026-02-03"
+    },
+    {
+      "t": "US administration rebuilds global tariff program under Section 301",
+      "u": "https://www.morganlewis.com/pubs/2026/07/us-administration-rebuilds-global-tariff-program-under-section-301",
+      "pub": "Morgan Lewis",
+      "date": "2026-07-27"
+    },
+    {
+      "t": "Taiwan's Section 301 tariff rate not final: Cheng",
+      "u": "https://focustaiwan.tw/politics/202607240020",
+      "pub": "Focus Taiwan (CNA)",
+      "date": "2026-07-24"
+    },
+    {
+      "t": "Kim Jeong-kwan: the United States confirmed its stance to keep the tariff rate at around 15%",
+      "u": "https://www.khan.co.kr/en/article/202610010818007/",
+      "pub": "The Kyunghyang Shinmun",
+      "date": "2026-10-01"
+    },
+    {
+      "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-06-23"
+    },
+    {
+      "t": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "u": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "pub": "CNBC",
+      "date": "2026-09-24"
+    },
+    {
+      "t": "USTR launches awaited Section 301 investigations of 16 economies for manufacturing overcapacity",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/03/ustr-launches-awaited-section-301-investigations",
+      "pub": "Holland & Knight",
+      "date": "2026-03"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "size": "B2C e-commerce of ¥26.1tn in 2024 (+5.1%). 5.03 billion parcels in fiscal 2024 (+0.5%), with TA-Q-BIN, Hikyaku and Yu-Pack taking about 95.2% of truck-delivered parcels; the three largest carriers handled 4.84 billion in fiscal 2025 (+2.7%).",
+      "leaders": "Yamato (about 2.41 billion parcels planned for fiscal 2026), Sagawa Express (about 1.39 billion) and Japan Post, with Amazon's own network of more than 65 delivery stations alongside.",
+      "dynamics": "Capacity is the constraint: overtime caps for drivers, new shipper obligations, Yu-Pack up about 10% from 1 October 2026 and Yamato signalling further increases. Small parcels grow fastest and dilute unit price. Japan Post and Yamato are in litigation over small-parcel outsourcing.",
+      "rules": "Revised logistics law in force from April 2026 (plans, reports and a chief logistics officer for large shippers). The consumption-tax exemption for imports of ¥10,000 or less ends on 1 April 2028, with registered sellers and large platforms collecting tax at checkout; imports of that size reached 169.66 million cases in 2024. Postal exports to the United States travel with duty prepaid, the American de minimis exemption is suspended for all modes, and combined US tariffs on Japanese goods are capped at 12.5% since 24 July 2026 pending an excess-capacity investigation.",
+      "read": "Our reading: Japan is a three-network market where price follows scarce driver hours. Expect annual rate rises, more pressure to use lockers and pick-up points, and fewer discounts for volume that arrives at peak times.",
+      "src": [
+        20,
+        0,
+        6,
+        17,
+        14,
+        7,
+        13,
+        3,
+        22,
+        23,
+        21,
+        63,
+        60,
+        65
+      ]
+    },
+    {
+      "name": "South Korea",
+      "size": "6.42 billion parcels in 2025 (+7.75%), 125.5 per person; 3.31 billion in the first half of 2026 (+6.67%), with forecasts of 6.6 to 6.8 billion for the year. Online direct sales abroad reached ₩1.2032tn in Q2 2026 (+38.7%).",
+      "leaders": "Coupang Logistics Services (about 37% of parcels on a trade-press estimate), CJ Logistics, Hanjin, Lotte Global Logistics and Logen, which together with Coupang hold more than 90% of the market according to the KFTC; Korea Post alongside.",
+      "dynamics": "Seven-day, dawn and same-day delivery are now standard offers from all large carriers, while CJ's unit price has fallen for nine quarters and profits are down across the third-party carriers. Naver orchestrates fulfilment through partners; AliExpress and Temu sales in Korea reached ₩4.28tn in 2024; Gmarket and AliExpress formed a joint venture, and Temu secured a logistics hub in Gimpo.",
+      "rules": "Duty-free limit of $150 ($200 for some American goods), under review after 184.18 million overseas direct purchases in 2024. Large foreign platforms must appoint a domestic agent from 21 January 2027. The KFTC and PIPC are pursuing Coupang; night-work limits for delivery workers and dawn delivery by large marts are under debate. Korean goods face a 12.5% US tariff ceiling, and Seoul says Washington will hold the rate at about 15% in some form; the US-China truce now runs to 10 January 2027.",
+      "read": "Our reading: Korea is a dense, fast and cheap market where the cost of speed is borne by carrier margins. Regulation of labour and data is the most likely force to raise prices, rather than competition.",
+      "src": [
+        24,
+        25,
+        45,
+        26,
+        32,
+        27,
+        40,
+        47,
+        48,
+        49,
+        46,
+        44,
+        36,
+        37,
+        38,
+        39,
+        60,
+        62,
+        64
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "size": "Online retail sales of NT$671.6bn in 2025 (+2.8%), 13.9% of retail, while total retail fell 0.2%. A population of 23 million.",
+      "leaders": "Chunghwa Post, the convenience-store networks (7-Eleven, owned by Uni-President, and FamilyMart), T-Cat home delivery, Shopee's own Shopee Xpress network, and Coupang's Rocket Delivery.",
+      "dynamics": "Shopee introduced free shipping with no minimum in 2026 and runs more than 3,100 pick-up points; Coupang has four fulfilment centres and covers about 70% of the island; T-Cat entered FamilyMart stores in April 2026. Chunghwa Post kept parcel postage unchanged for 2026 while its postal business lost money.",
+      "rules": "Imports of NT$2,000 or less are duty free up to six times every six months; a proposal to cut the limit to NT$1,000 for goods from China was considered in 2025 but not adopted. Taiwan exports to the United States face a 10% Section 301 ceiling, not yet final; Chunghwa Post resumed only some small parcel services to the United States in October 2025.",
+      "read": "Our reading: Taiwan is a pick-up market rather than a doorstep market, and the contest is between convenience-store groups and platforms for control of the counter. Coupang's growth adds a doorstep alternative that pushes the others to speed up.",
+      "src": [
+        50,
+        51,
+        35,
+        52,
+        53,
+        56,
+        55,
+        58,
+        59,
+        61,
+        57
+      ]
+    }
+  ],
+  "price_stack": [
+    {
+      "carrier": "Japan Post",
+      "item": "Yu-Pack basic rates",
+      "value": "About +10% on average; Tokyo to Hokkaido 60-size from ¥1,410 to ¥1,550; packaging also up (120-size box ¥380 to ¥420)",
+      "effective": "1 Oct 2026",
+      "src": [
+        14
+      ]
+    },
+    {
+      "carrier": "Japan Post",
+      "item": "Yu-Packet and Click Post (small parcels)",
+      "value": "Yu-Packet a flat ¥360 for all thicknesses (was ¥250, ¥310 or ¥360); Click Post from ¥185 to ¥240, weight limit raised from 1 kg to 2 kg",
+      "effective": "1 Oct 2026",
+      "src": [
+        14
+      ]
+    },
+    {
+      "carrier": "Japan Post",
+      "item": "Postal items to the United States",
+      "value": "All postal items accepted again; duty prepaid with a DDP mark through a certified provider for items from $100 to $2,500",
+      "effective": "14 Apr 2026",
+      "src": [
+        21
+      ]
+    },
+    {
+      "carrier": "Yamato Transport",
+      "item": "Average unit price (TA-Q-BIN)",
+      "value": "Unit prices rose as planned in Q1 through pricing optimisation; management sees \"still ample room for further increases\"",
+      "effective": "Apr-Jun 2026",
+      "src": [
+        7
+      ]
+    },
+    {
+      "carrier": "Sagawa Express",
+      "item": "Peak-season surcharge, Hikyaku international parcels",
+      "value": "¥20 to ¥150 per kg depending on destination",
+      "effective": "1 Oct 2026 to 5 Feb 2027 pickups",
+      "src": [
+        16
+      ]
+    },
+    {
+      "carrier": "CJ Logistics",
+      "item": "Average parcel unit price",
+      "value": "₩2,262 per box, down 3.7% year on year; ninth consecutive quarterly decline",
+      "effective": "Q1 2026",
+      "src": [
+        27
+      ]
+    },
+    {
+      "carrier": "Korea Post",
+      "item": "Standard domestic letter rate",
+      "value": "Raised to ₩500, the first increase in five years, after a ₩311.6bn postal deficit in 2025",
+      "effective": "1 Jul 2026",
+      "src": [
+        41
+      ]
+    },
+    {
+      "carrier": "T-Cat (at FamilyMart)",
+      "item": "Store-dropped home delivery",
+      "value": "NT$130 for an S60 ambient parcel, NT$160 chilled; NT$10 more for outlying islands",
+      "effective": "28 Apr 2026",
+      "src": [
+        53
+      ]
+    },
+    {
+      "carrier": "Chunghwa Post",
+      "item": "Domestic mail and parcel postage",
+      "value": "Unchanged for 2026; only philatelic items rise, by about 25% to 50%",
+      "effective": "2026",
+      "src": [
+        56
+      ]
+    },
+    {
+      "carrier": "Shopee Taiwan",
+      "item": "Consumer shipping fee",
+      "value": "Nationwide free shipping with no minimum purchase and no fixed promotion days",
+      "effective": "Early 2026",
+      "src": [
+        52
+      ]
+    }
+  ],
+  "scorecard": [
+    {
+      "name": "Yamato Holdings",
+      "volume": "up",
+      "yield": "up",
+      "position": "holding",
+      "why": "Q1 volume rose about 1.0% as small parcels grew 18.2% and TA-Q-BIN fell 3.0% (4.3% in June); unit prices rose as planned and management sees room for more, but corporate volumes are weak.",
+      "src": [
+        6,
+        10,
+        7
+      ]
+    },
+    {
+      "name": "SG Holdings (Sagawa)",
+      "volume": "up",
+      "yield": "down",
+      "position": "gaining",
+      "why": "Hikyaku volume rose 7.0% on cross-border e-commerce, the fastest of the three Japanese networks, but average delivery unit price fell on a higher small-parcel mix and delivery profit fell 7.4%.",
+      "src": [
+        15,
+        6
+      ]
+    },
+    {
+      "name": "Japan Post",
+      "volume": "up",
+      "yield": "up",
+      "position": "holding",
+      "why": "Yu-Pack grew 7.5% in April and May and 7.9% in June, and Yu-Packet faster, as it picks up small parcels; the 1 October rise of about 10% lifts yield, but the domestic segment lost ¥5.6bn in Q1 as mail fell.",
+      "src": [
+        6,
+        12,
+        14,
+        9
+      ]
+    },
+    {
+      "name": "Coupang",
+      "volume": "up",
+      "yield": "down",
+      "position": "holding",
+      "why": "Active customers rose 3% and Product Commerce revenue 8% at constant currency, and it keeps an estimated 37% of Korean parcels; gross margin fell 188 bp and fines and regulatory action weigh on the Korean business.",
+      "src": [
+        33,
+        26,
+        36,
+        37
+      ]
+    },
+    {
+      "name": "CJ Logistics",
+      "volume": "up",
+      "yield": "down",
+      "position": "gaining",
+      "why": "Parcel volume rose 14.3% in Q1 and 12.1% in Q2 on seven-day delivery, but unit price fell for a ninth quarter and O-NE operating profit fell 10.7%.",
+      "src": [
+        27,
+        29,
+        28
+      ]
+    },
+    {
+      "name": "Hanjin",
+      "volume": "up",
+      "yield": "down",
+      "position": "holding",
+      "why": "Parcel volume and revenue grew (Q2 revenue +14.4%), but operating profit fell 22.4% in Q2 and 38.1% in Q1 as competition and fixed costs bit.",
+      "src": [
+        30,
+        27
+      ]
+    },
+    {
+      "name": "Lotte Global Logistics",
+      "volume": "flat",
+      "yield": "down",
+      "position": "losing",
+      "why": "Parcel revenue fell 3.3% in the first half despite seven-day delivery, and parcel operating profit dropped from ₩8.6bn to about ₩0.6bn; growth is coming from overseas and contract logistics instead.",
+      "src": [
+        31,
+        27
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Japan reprices, Korea grinds",
+      "likelihood": "most likely",
+      "text": "Our reading: Japanese carriers keep raising rates each year, small-parcel prices converge upwards after Japan Post's October changes, and volumes grow by low single digits. In Korea volumes keep rising by 6% to 8% a year while unit prices stay flat or fall, so third-party carriers rely on contract logistics and overseas growth for profit. Taiwan's pick-up networks keep consolidating around convenience chains and platforms.",
+      "triggers": "Yamato and Japan Post half-year results in November showing higher unit prices; Korean monthly parcel volumes on track for 6.6 to 6.8 billion in 2026; CJ Logistics unit price still below the prior year in Q3."
+    },
+    {
+      "name": "Korean price reset",
+      "likelihood": "plausible",
+      "text": "Our reading: a binding limit on night work, tougher KFTC enforcement on subcontracting, or a slowdown at Coupang after its regulatory disputes lets the third-party carriers push through the first broad price increase in years. Dawn and Sunday delivery become premium services rather than free ones.",
+      "triggers": "A night-shift cap for delivery workers passed into law; KFTC criminal referral or new sanctions against Coupang; CJ, Hanjin or Lotte announcing general tariff increases."
+    },
+    {
+      "name": "Tariff and tax shock on cross-border flows",
+      "likelihood": "tail risk",
+      "text": "Our reading: US findings in the excess-capacity investigation push tariffs above current ceilings for Japan, Korea or Taiwan, while Korea cuts its $150 duty-free limit or Taiwan lowers its NT$2,000 limit early. Export parcels to the United States shrink, inbound low-value parcels slow, and carriers that grew on cross-border e-commerce, such as Sagawa, lose their fastest-growing segment.",
+      "triggers": "USTR findings with rates above 15% for Japan or Korea; Korea's Ministry of Economy and Finance announcing a lower duty-free limit; expiry of the US-China truce on 10 January 2027 without renewal."
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+ "key": "sas-parcel",
+ "region": "SAS",
+ "as_of": "2026-10-02",
+ "title": "South Asia parcels: India consolidates around Delhivery while captive networks open up and fuel doubles the surcharge",
+ "dek": "India's express parcel market is growing fast but margins are thin. Delhivery has absorbed Ecom Express, Shadowfax is the fastest-growing challenger, and Flipkart and Amazon now sell their own networks to outsiders. India Post is turning itself into a wholesale last mile, while fuel surcharges, labour codes and the US tariff regime raise the cost of every parcel.",
+ "stats": [
+  {
+   "big": "4.8-5.5bn",
+   "label": "India e-commerce shipments FY2025, within an express parcel market of 8-9bn shipments in FY2024, Redseer",
+   "src": 0
+  },
+  {
+   "big": "24-29bn",
+   "label": "Express parcel shipments forecast for FY2030 (19-23% a year), of which e-commerce 15-16bn, Redseer",
+   "src": 0
+  },
+  {
+   "big": "322m",
+   "label": "Delhivery express parcels in April to June 2026, +55% y/y after absorbing Ecom Express",
+   "src": 3
+  },
+  {
+   "big": "~50%",
+   "label": "Delhivery's share of traditional e-commerce shipments handled by third-party carriers after the Ecom Express deal, Redseer (Sep 2025)",
+   "src": 1
+  },
+  {
+   "big": "+69%",
+   "label": "India Post parcel segment growth in FY2025-26; total revenue Rs 15,296 crore, +16%",
+   "src": 25
+  },
+  {
+   "big": "108.8%",
+   "label": "Blue Dart domestic fuel surcharge from 1 Sep 2026, up from 55.6% in Jan 2026",
+   "src": 11
+  }
+ ],
+ "players": [
+  {
+   "name": "Delhivery (incl. Ecom Express)",
+   "type": "Listed independent network: express parcel, part-truckload freight, supply chain services",
+   "scale": "Q1 FY2027 (Apr to Jun 2026) revenue Rs 2,931 crore, +27.8%; 322m express parcels, +55%; part-truckload 542,000 tonnes, +18.4%. EBITDA margin 5.3% against 6.5% a year earlier; profit after tax Rs 32 crore, -65%.",
+   "strategy": "Scale and density: Delhivery completed the Ecom Express acquisition (up to Rs 1,407 crore) on 18 Jul 2025, exited about 1.1m sq ft of overlapping space and kept seven facilities. It serves the warehouses behind quick commerce rather than its last mile, and says it is gaining share from other third-party carriers and from shippers with in-house logistics.",
+   "moves": "FY2027 express volume guidance of 20 to 30%, tracking the mid to upper end. Fuel surcharge indexed monthly on the previous month's average price, covering about 97 to 98% of contracts. New lines include Rapid (sub-two-hour), Delhivery Local in six cities and international service in four countries.",
+   "pressure": "Express yields are falling as the lighter Ecom Express mix enters the base; minimum wage increases cost about 60 basis points of margin with no contractual pass-through. Expenses rose 29.4% against revenue of 27.8% in Q1. Amazon's opening of its network to all businesses in May 2026 coincided with a 4% fall in Delhivery shares.",
+   "src": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    1,
+    22
+   ]
+  },
+  {
+   "name": "Blue Dart Express (DHL Group)",
+   "type": "Premium air and ground express integrator, listed subsidiary of DHL Group",
+   "scale": "Q1 FY2027 revenue Rs 1,658 crore, +15% from Rs 1,442 crore; standalone profit after tax Rs 87 crore, +85%. Network covers 56,400+ delivery locations in India.",
+   "strategy": "Price over volume in the premium segment. Blue Dart applies an annual general price increase of 9 to 12% and passes fuel through a monthly surcharge, while Redseer describes it as dominant in premium air express.",
+   "moves": "1 Oct 2026: announced a 9 to 12% domestic general price increase from 1 Jan 2027, with customers signing up between 1 Oct and 31 Dec 2026 exempt. Domestic fuel surcharge raised to 108.8% from 1 Sep 2026; the Brent-linked surcharge index is suspended.",
+   "pressure": "Management cites rising labour and utility costs and aviation fuel volatility. Shipment volumes were not disclosed in the sources we used, so the growth split between price and volume is unclear.",
+   "src": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    1
+   ]
+  },
+  {
+   "name": "Shadowfax Technologies",
+   "type": "Listed asset-light last-mile network for e-commerce, quick commerce and hyperlocal",
+   "scale": "Q1 FY2027 revenue Rs 1,358 crore, +65%; profit Rs 65.4 crore, about eight times a year earlier. 16,372 pin codes served at end of June 2026.",
+   "strategy": "Low-cost, high-density delivery for large platforms, now diversifying into D2C (400+ brand partners, business up 2.7 times in Q1) and dark stores for quick commerce (47 of a planned 100 live at 30 Jun). Redseer credited it with about 8 percentage points of share gain between Jul 2024 and Jul 2025.",
+   "moves": "Listed in Jan 2026 after a Rs 19.07bn IPO priced at Rs 118 to 124; shares opened about 9% below the offer price. FY2027 revenue growth guidance raised to 38 to 40% from 28 to 30%; Prime Large coverage reached 10,000 pin codes, target raised to 12,000.",
+   "pressure": "Top clients including Flipkart, Meesho, Zepto and Zomato accounted for about 74% of revenue at IPO, and several run their own logistics arms.",
+   "src": [
+    13,
+    14,
+    1
+   ]
+  },
+  {
+   "name": "Ekart (Flipkart)",
+   "type": "Marketplace captive network opening to third parties",
+   "scale": "Reaches 95%+ of Indian pin codes, 80+ product categories and 1m+ sq ft of dedicated warehousing; 300+ franchise outlets in Delhi, Mumbai, Bengaluru and Surat.",
+   "strategy": "Turn the Flipkart network into a third-party business through franchises, end-to-end fulfilment and a B2B hub network for bulk freight, while using India Post for lower-density areas in a more asset-light model.",
+   "moves": "22 May 2026: Department of Posts and Flipkart signed a last-mile agreement covering more than 160,000 post offices, prepaid and cash-on-delivery parcels and returns. 28 Jul 2026: Ekart opened its network to D2C brands, MSMEs and manufacturers, targeting 1,000+ franchise outlets by end-2026. Flipkart Minutes runs 800+ micro-fulfilment centres, with nearly 1,200 planned.",
+   "pressure": "Ekart must win third-party volume from independent carriers that also serve Flipkart, while Flipkart itself shifts rural volume to India Post.",
+   "src": [
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "name": "Amazon Transportation Services / Amazon Shipping India",
+   "type": "Marketplace network sold to third parties",
+   "scale": "Amazon Transportation Services FY2025 revenue Rs 5,284 crore, +8%, net loss Rs 33.9 crore, -57%. Amazon Shipping serves 14,000+ pin codes for third-party shippers.",
+   "strategy": "Amazon sells B2C last mile (Amazon Shipping, launched nationally in Dec 2024) and freight to outside businesses, and is investing in speed through Amazon Now. Its Global Selling programme links the network to exports: more than USD 20bn cumulative exports from India, with a USD 80bn target for 2030.",
+   "moves": "Apr 2026: Amazon Now extended to 100 cities with a Rs 2,800 crore commitment to operations and quick commerce, aiming for over 1,000 micro-fulfilment centres. May 2026: Amazon Supply Chain Services launched globally; Indian executives quoted by Business Standard expect pricing pressure in B2B contracts.",
+   "pressure": "Amazon Retail India, which carries fresh and quick delivery, lost Rs 1,158.3 crore in FY2026 (+193.8%) on revenue of Rs 3,065.1 crore.",
+   "src": [
+    19,
+    18,
+    24,
+    20,
+    21,
+    22,
+    23
+   ]
+  },
+  {
+   "name": "Xpressbees",
+   "type": "Private independent e-commerce network",
+   "scale": "FY2025 operating revenue Rs 2,874 crore and net loss Rs 370 crore.",
+   "strategy": "Redseer describes Xpressbees as having narrowed its footprint to improve profitability. We found no public IPO filing.",
+   "moves": "No major public moves identified in 2026 in the sources we checked.",
+   "pressure": "Delhivery's chief executive Sahil Barua said in May 2026: \"I don't see a reason for them to exist.\" Our reading: with flat revenue and widening losses in FY2025, Xpressbees is the most exposed of the large independents to further consolidation.",
+   "src": [
+    6,
+    1
+   ]
+  },
+  {
+   "name": "India Post (Department of Posts)",
+   "type": "National postal operator",
+   "scale": "FY2025-26 revenue Rs 15,296 crore, +16%; parcels segment +69%. More than 160,000 post offices.",
+   "strategy": "From cost centre to logistics provider: premium Speed Post (24 and 48-hour products in six metros since Mar 2026), wholesale last mile for private networks, and an export channel through 1,013 Dak Ghar Niryat Kendras.",
+   "moves": "1 Oct 2025: first inland Speed Post document tariff revision since 2012. 22 May 2026: Flipkart last-mile agreement. 1 Aug 2026: parcel and Speed Post parcel tariffs revised and a new Parcel Last Mile service for contracted bulk customers, from Rs 15 per parcel up to 2 kg at a delivery office.",
+   "pressure": "Its US service has to work under CBP's postal entry rule of Jun 2026; we found no public Department of Posts notice on how the US product has been adapted.",
+   "src": [
+    25,
+    17,
+    28,
+    27,
+    26,
+    30,
+    42
+   ]
+  },
+  {
+   "name": "Quick-commerce networks (Blinkit, Zepto, Swiggy Instamart)",
+   "type": "Captive dark-store and rider networks",
+   "scale": "Blinkit: 2,443 dark stores at end Jun 2026 (+200 in the quarter), 31.8m monthly transacting customers, 521,000 monthly delivery partners. Instamart: 1,171 stores in 131 cities, Q1 FY2027 gross order value Rs 7,907 crore, 11.5 crore orders. Zepto: 1,139 dark stores in 66 cities.",
+   "strategy": "Store density and assortment rather than discounting: Blinkit raised its steady-state assumptions to Rs 11 lakh daily order value and Rs 2.5 crore capex per store; Instamart shed over 4m unprofitable users and reached contribution breakeven in May 2026.",
+   "moves": "Jan 2026: labour ministry pressed firms to drop the 10-minute promise and Blinkit removed it from messaging. Zepto filed its DRHP on 2 Jan 2026 and received SEBI approval on 8 May 2026 for a Rs 8,010 crore fresh issue; the IPO has not launched.",
+   "pressure": "Blinkit's chief executive called Q1 FY2027 \"the peak of competitive intensity that we have seen to date\". Zepto lost Rs 5,905 crore in FY2026; Instamart's adjusted EBITDA loss was Rs 778 crore in Q1.",
+   "src": [
+    31,
+    33,
+    34,
+    35
+   ]
+  },
+  {
+   "name": "DTDC Express",
+   "type": "Private franchise-led courier and express network",
+   "scale": "FY2026 revenue Rs 2,655 crore, +7.4%; 16,500 franchise partners covering 96% of India's population; international 21% of revenue.",
+   "strategy": "Technology and automation over network expansion: Bharat One hub with 2,500 tonnes a day of capacity, automated sorting in Haryana, and 75 Raftaar dark stores for fast delivery. Target to double revenue by 2030.",
+   "moves": "Sep 2026: said it is evaluating a public share offering, with no timeline announced. International business growing 13 to 14% a year.",
+   "pressure": "Competes with listed Delhivery and Blue Dart, which are investing heavily in technology; growth is well below the e-commerce market.",
+   "src": 36
+  },
+  {
+   "name": "Bangladesh courier networks (Pathao, Steadfast, RedX, Sundarban)",
+   "type": "Domestic courier and social-commerce delivery networks",
+   "scale": "Over 700 courier companies, 114 licensed. Pathao handles 250,000+ orders a day through 300 hubs; Sundarban covers all 64 districts with 700+ branches.",
+   "strategy": "Pathao is bundling delivery with commerce: Pathao Commerce, launched 15 Sep 2026, combines storefronts, orders, inventory, payments and delivery for about 200,000 merchants that account for more than 80% of Bangladesh's digital commerce.",
+   "moves": "Pathao Commerce launch (Sep 2026). Comparable 2026 data for Pakistan and Sri Lanka could not be verified for this report.",
+   "pressure": "Courier delivery is described as a thin-margin commodity business; Bangladesh lost the right to route third-country exports through Indian ports and airports in Apr 2025.",
+   "src": [
+    46,
+    47,
+    48
+   ]
+  }
+ ],
+ "battlegrounds": [
+  {
+   "h": "Consolidation: Delhivery takes the middle of the market",
+   "text": "Delhivery absorbed Ecom Express in Jul 2025 and grew express volume 72.5% y/y to 306m in Q4 FY2026 and 55% to 322m in Q1 FY2027. Redseer puts it at nearly half of traditional e-commerce shipments handled by third parties. Xpressbees' revenue was flat and its loss widened to Rs 370 crore in FY2025. Our reading: the independent tier is shrinking to Delhivery plus Shadowfax, with others pushed to niches or deals.",
+   "src": [
+    5,
+    6,
+    3,
+    1
+   ]
+  },
+  {
+   "h": "Captive networks go to market",
+   "text": "Ekart opened its network to D2C brands and MSMEs in Jul 2026 with a franchise model and B2B hubs; Amazon Shipping has sold last mile to third parties since Dec 2024 and Amazon Supply Chain Services launched in May 2026. Redseer estimates third parties carry nearly 70% of vertical e-commerce shipments but only about a third of horizontal marketplace volumes. Our reading: the marketplaces are monetising spare capacity, which caps how far independents can raise D2C prices.",
+   "src": [
+    15,
+    18,
+    22,
+    1
+   ]
+  },
+  {
+   "h": "Speed: dark stores grow, the 10-minute promise retreats",
+   "text": "Blinkit added 200 dark stores in Q1 FY2027 to 2,443, Amazon Now reached 100 cities and Shadowfax runs 47 dark stores for clients. Under labour ministry pressure in Jan 2026, platforms dropped the 10-minute promise. Delhivery stays out of quick-commerce last mile, calling it low-margin. Our reading: speed competition is moving from minutes to assortment and store economics, which favours operators with density over those with rider fleets alone.",
+   "src": [
+    31,
+    20,
+    13,
+    35,
+    4
+   ]
+  },
+  {
+   "h": "Cost stack: fuel, wages and the social security levy",
+   "text": "Blue Dart's domestic fuel surcharge rose from 55.6% in Jan to 108.8% in Sep 2026 and its Brent-linked index is suspended. Diesel rose 3 to 3.5% in May 2026, with truckers expecting freight up 2.5 to 3%. The labour codes in force since 21 Nov 2025 require aggregators to contribute 1 to 2% of turnover, capped at 5% of worker payouts, and minimum wage rises cost Delhivery about 60 basis points. Our reading: fuel is passed through by contract, labour is not, so margins hinge on how fast carriers can reprice for wages.",
+   "src": [
+    11,
+    37,
+    39,
+    38,
+    4
+   ]
+  },
+  {
+   "h": "India Post becomes the wholesale last mile",
+   "text": "Parcels revenue rose 69% in FY2025-26. The Flipkart agreement uses 160,000+ post offices for prepaid, cash-on-delivery and returns, and from 1 Aug 2026 a Parcel Last Mile tariff lets contracted bulk shippers inject at delivery offices from Rs 15 per parcel up to 2 kg. Our reading: India Post is setting a published price for rural last mile that private networks will benchmark against their own delivery costs.",
+   "src": [
+    25,
+    17,
+    26
+   ]
+  },
+  {
+   "h": "Exports: cheaper to send, harder to land in the US",
+   "text": "India removed the Rs 10 lakh courier export cap from 1 Apr 2026 and extended export rebates to postal shipments. The US now applies a 10% Section 301 tariff on Indian goods (and on Bangladesh, Pakistan and Sri Lanka), requires a filer and bond for every postal entry since 24 Jul, and since 18 Sep holds power to impose up to 100% on major buyers of Russian energy. Blue Dart's international fuel surcharge reached 46.25% on 28 Sep. Our reading: Indian B2C exports shift toward consolidated courier and platform stock in overseas warehouses, away from single postal items.",
+   "src": [
+    40,
+    41,
+    30,
+    43,
+    42,
+    44,
+    12
+   ]
+  }
+ ],
+ "our_read": "Our reading: India's parcel market is growing at high volume and low margin, and 2026 has been a year of consolidation rather than new entry. Delhivery has become the default independent network, Shadowfax is the challenger with the best growth and the most concentrated client book, and Xpressbees looks most exposed. The marketplaces are now sellers of logistics as well as buyers, and India Post is turning into wholesale infrastructure for rural delivery. Costs are moving up through fuel, wages and the gig-worker levy, and only the premium tier is clearly repricing ahead of them. Over the next 12 months we expect further consolidation, firmer D2C and premium pricing, and Indian exports to the US moving to consolidated courier and platform stock while the tariff risk stays open.",
+ "implications": [
+  {
+   "who": "Merchants / shippers",
+   "text": "Budget 2027 premium express at 9 to 12% plus a fuel surcharge that has nearly doubled in 2026, and negotiate caps or index terms. For D2C, test Ekart and Amazon Shipping capacity against independents, and price India Post Parcel Last Mile for rural pin codes."
+  },
+  {
+   "who": "Cross-border operators and exporters",
+   "text": "Plan India to US flows around the CBP filer and bond rule and the 22 Oct 2026 compliance date, favour consolidated courier or platform stock over single postal items, and write tariff-change clauses tied to the Russia sanctions law."
+  },
+  {
+   "who": "Carriers",
+   "text": "Density and client diversification decide survival: wage costs are not covered by fuel clauses, captive networks are now competitors for third-party volume, and quick-commerce value lies in middle mile into dark stores rather than the last mile."
+  }
+ ],
+ "watch": [
+  {
+   "date": "2026-10-18",
+   "what": "Approximate deadline for the tariff provisions of the Sanctioning Russia and Iran Act to take effect, within 30 days of signing on 18 Sep."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "CBP compliance date for partner government agency requirements on postal informal entries, affecting India Post and courier exports to the US."
+  },
+  {
+   "date": "2026-12-31",
+   "what": "End of Blue Dart's onboarding window exempt from its 2027 price increase; Ekart's target date for 1,000+ franchise outlets."
+  },
+  {
+   "date": "2027-01-01",
+   "what": "Blue Dart domestic general price increase of 9 to 12% takes effect."
+  },
+  {
+   "date": "2027-03-31",
+   "what": "Blinkit's target of 3,000 dark stores; end of FY2027 against Delhivery's 20 to 30% express volume guidance and Shadowfax's 38 to 40% revenue guidance."
+  },
+  {
+   "date": "2027-07-01",
+   "what": "Statutory repeal of the US commercial de minimis exemption."
+  },
+  {
+   "date": "2027-11-08",
+   "what": "SEBI approval for Zepto's IPO (granted 8 May 2026, valid 18 months) lapses if the issue has not opened."
+  }
+ ],
+ "sources": [
+  {
+   "t": "Express parcel to account for 24-29bn shipments by FY2030: Redseer",
+   "u": "https://www.itln.in/logistics/express-parcel-to-account-for-24-29bn-shipments-by-fy2030-redseer-1354857",
+   "pub": "ITLN",
+   "date": "2025-03-28"
+  },
+  {
+   "t": "Logistics at Scale: India's 3PL Market Rewrites the Leaderboard on the Road to a Billion Parcels, says Redseer",
+   "u": "https://www.prnewswire.com/in/news-releases/logistics-at-scale-indias-3pl-market-rewrites-the-leaderboard-on-the-road-to-a-billion-parcels---says-redseer-302567971.html",
+   "pub": "PR Newswire (Redseer)",
+   "date": "2025-09-26"
+  },
+  {
+   "t": "Delhivery Q1FY27 result: Profit falls 65% to Rs 32 crore, revenue up 28%",
+   "u": "https://www.business-standard.com/amp/companies/quarterly-results/delhivery-q1fy27-result-profit-falls-65-to-32-crore-revenue-up-28-126080800965_1.html",
+   "pub": "Business Standard",
+   "date": "2026-08-08"
+  },
+  {
+   "t": "Delhivery Q1 FY27 slides: volumes surge 55% as margins compress",
+   "u": "https://www.investing.com/news/company-news/delhivery-q1-fy27-slides-volumes-surge-55-as-margins-compress-93CH-4847668",
+   "pub": "Investing.com",
+   "date": "2026-08-08"
+  },
+  {
+   "t": "Delhivery Q1 FY27 earnings call transcript (filing to BSE)",
+   "u": "https://www.delhivery.com/uploads/2026/08/Delhivery%20Earnings%20Call%20Transcript_Q1FY27.pdf",
+   "pub": "Delhivery",
+   "date": "2026-08-13"
+  },
+  {
+   "t": "Delhivery trims Ecom Express integration costs below Rs 300 cr estimate",
+   "u": "https://www.itln.in/logistics/delhivery-trims-ecom-express-integration-costs-below-300-cr-estimate-1357053",
+   "pub": "ITLN",
+   "date": "2025-11-07"
+  },
+  {
+   "t": "No reason for XpressBees to exist: Delhivery's Sahil Barua",
+   "u": "https://www.medianama.com/2026/05/223-no-reason-xpressbees-exist-delhiverys-sahil-barua/",
+   "pub": "MediaNama",
+   "date": "2026-05-18"
+  },
+  {
+   "t": "Blue Dart Q1 FY27 revenue rises 15%; net profit jumps 85% YoY",
+   "u": "https://www.itln.in/logistics/blue-dart-q1-fy27-revenue-rises-15-net-profit-jumps-85-yoy-1360117",
+   "pub": "ITLN",
+   "date": "2026-08-01"
+  },
+  {
+   "t": "Blue Dart Announces General Price Increase Effective January 1, 2027",
+   "u": "https://www.logisticsinsider.in/blue-dart-announces-general-price-increase-effective-january-1-2027/",
+   "pub": "Logistics Insider",
+   "date": "2026-10-01"
+  },
+  {
+   "t": "Blue Dart Express Announces 9-12% Domestic Price Increase Effective January 1, 2027",
+   "u": "https://www.sahi.com/news/blue-dart-express-announces-9-12-domestic-price-increase-effective-january-1-2027",
+   "pub": "Sahi",
+   "date": "2026-10-01"
+  },
+  {
+   "t": "Blue Dart Announces General Price Increase Effective January 1st, 2026",
+   "u": "https://www.bluedart.com/press333",
+   "pub": "Blue Dart",
+   "date": "2025-09-29"
+  },
+  {
+   "t": "Fuel Surcharge (domestic and regional)",
+   "u": "https://www.bluedart.com/fuel-surcharge",
+   "pub": "Blue Dart",
+   "date": "2026-09-01"
+  },
+  {
+   "t": "International Fuel Surcharge",
+   "u": "https://www.bluedart.com/international-fuel-surcharge",
+   "pub": "Blue Dart",
+   "date": "2026-09-28"
+  },
+  {
+   "t": "After A Stellar Q1, Shadowfax Elevates FY27 Revenue Guidance",
+   "u": "https://inc42.com/buzz/after-a-stellar-q1-shadowfax-elevates-fy27-revenue-guidance/",
+   "pub": "Inc42",
+   "date": "2026-08-01"
+  },
+  {
+   "t": "India's Shadowfax slips on listing as client concentration spooks investors",
+   "u": "https://techcrunch.com/2026/01/27/indias-shadowfax-slips-on-listing-as-client-concentration-spooks-investors",
+   "pub": "TechCrunch",
+   "date": "2026-01-27"
+  },
+  {
+   "t": "Flipkart's Ekart opens nationwide logistics network to third-party biz",
+   "u": "https://www.business-standard.com/amp/companies/start-ups/flipkart-s-ekart-opens-nationwide-logistics-network-to-third-party-biz-126072801174_1.html",
+   "pub": "Business Standard",
+   "date": "2026-07-28"
+  },
+  {
+   "t": "Flipkart's India Post tie-up signals a more asset-light logistics strategy",
+   "u": "https://www.business-standard.com/amp/companies/news/flipkart-india-post-partnership-hybrid-logistics-last-mile-delivery-126052800642_1.html",
+   "pub": "Business Standard",
+   "date": "2026-05-28"
+  },
+  {
+   "t": "Department of Posts and Flipkart sign agreement for last mile parcel delivery services",
+   "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264218&reg=48&lang=2",
+   "pub": "Press Information Bureau, Government of India",
+   "date": "2026-05-22"
+  },
+  {
+   "t": "Amazon launches Amazon Freight and Amazon Shipping in India",
+   "u": "https://www.aboutamazon.in/news/operations/amazon-freight-amazon-shipping-logistics-launch-india",
+   "pub": "Amazon India",
+   "date": "2024-12-10"
+  },
+  {
+   "t": "Amazon India Culls Cash Burn Across Domains In FY25",
+   "u": "https://inc42.com/buzz/amazon-india-culls-cash-burn-across-domains-in-fy25/",
+   "pub": "Inc42",
+   "date": "2025-10-24"
+  },
+  {
+   "t": "Amazon to take 'Now' quick-commerce service to 100 cities at Rs 2,800 Cr investment",
+   "u": "https://yourstory.com/2026/04/amazon-now-quick-commerce-service-100-cities-rs-2800-cr-investment",
+   "pub": "YourStory",
+   "date": "2026-04-27"
+  },
+  {
+   "t": "Amazon scales its quick delivery service 'Amazon Now' in 100 cities",
+   "u": "https://www.medianama.com/2026/04/223-amazon-quick-delivery-service-amazon-now-100-cities/",
+   "pub": "MediaNama",
+   "date": "2026-04-28"
+  },
+  {
+   "t": "Amazon opens its supply chain to all: Can Indian logistics firms keep up?",
+   "u": "https://www.business-standard.com/industry/news/amazon-supply-chain-services-india-logistics-market-impact-126050600898_1.html",
+   "pub": "Business Standard",
+   "date": "2026-05-06"
+  },
+  {
+   "t": "Amazon India's FY26 Loss up 48% to Rs 2,793 Crore, Revenue cross Rs 40,000 Crore",
+   "u": "https://lapaasvoice.com/amazon-indias-fy26-loss-up-48-to-%E2%82%B92793-crore-revenue-cross-%E2%82%B940000-crore-revenue-milestone",
+   "pub": "Lapaas Voice",
+   "date": "2026"
+  },
+  {
+   "t": "Amazon says India e-commerce exports top $20 bn, sets $80 bn goal for 2030",
+   "u": "https://www.outlookbusiness.com/news/amazon-crosses-20-billion-in-exports-from-india-sets-80-billion-target-by-2030",
+   "pub": "Outlook Business",
+   "date": "2025-10-27"
+  },
+  {
+   "t": "India Post achieved record revenue of Rs 15,296 crore in financial year 2025-26: Union Minister Jyotiraditya M Scindia",
+   "u": "https://newsonair.gov.in/india-post-achieved-record-revenue-of-15296-crore-in-financial-year-2025-26-union-minister-jyotiraditya-m-scindia/",
+   "pub": "News On AIR (All India Radio)",
+   "date": "2026-04-21"
+  },
+  {
+   "t": "India Post Introduces IIP SPP Last Mile Service and Revises Parcel and Speed Post Tariffs from 1 August 2026",
+   "u": "https://www.potoolsblog.in/2026/08/india-post-introduces-iip-spp-last-mile.html",
+   "pub": "PO Tools Blog",
+   "date": "2026-08-01"
+  },
+  {
+   "t": "Department of Posts revises inland Speed Post document tariff, introduces new features",
+   "u": "https://www.newsonair.gov.in/department-of-posts-revises-inland-speed-post-document-tariff-introduces-new-features",
+   "pub": "News On AIR (All India Radio)",
+   "date": "2025-09-27"
+  },
+  {
+   "t": "India Post launches 24- and 48-hour premium delivery services across major cities",
+   "u": "https://www.newsgram.com/business/2026/03/17/india-post-launches-24-and-48-hour-premium-delivery-services-across-major-cities",
+   "pub": "NewsGram",
+   "date": "2026-03-17"
+  },
+  {
+   "t": "India to resume international postal services to the US starting tomorrow",
+   "u": "https://www.newsonair.gov.in/india-to-resume-international-postal-services-to-the-us-starting-tomorrow",
+   "pub": "News On AIR (All India Radio)",
+   "date": "2025-10-14"
+  },
+  {
+   "t": "Export benefits extended to postal channel, relief for MSME exporters",
+   "u": "https://knnindia.co.in/news/newsdetails/msme/export-benefits-extended-to-postal-channel-relief-for-msme-exporters",
+   "pub": "KNN India",
+   "date": "2026-01-20"
+  },
+  {
+   "t": "7 key takeaways from Eternal Q1 FY27 earnings call",
+   "u": "https://www.medianama.com/2026/07/223-takeaways-eternal-q1-fy27-earnings-call/",
+   "pub": "MediaNama",
+   "date": "2026-07-24"
+  },
+  {
+   "t": "Blinkit Plans 3,000 Dark Stores by March 2027, Keeps Focus on Top Cities",
+   "u": "https://www.ciol.com/news/blinkit-plans-3000-dark-stores-by-march-2027-keeps-focus-on-top-cities-10576163",
+   "pub": "CIOL",
+   "date": "2026"
+  },
+  {
+   "t": "Swiggy's Instamart Hits Contribution Margin Breakeven In Q1 FY27",
+   "u": "https://inc42.com/buzz/swiggys-instamart-hits-contribution-margin-breakeven-in-q1-fy27/",
+   "pub": "Inc42",
+   "date": "2026-07-30"
+  },
+  {
+   "t": "Zepto IPO Date, Price, GMP, Review, Analysis and Details",
+   "u": "https://www.chittorgarh.com/ipo/zepto-ipo/2819/",
+   "pub": "Chittorgarh",
+   "date": "2026"
+  },
+  {
+   "t": "India reportedly tells quick-commerce firms to drop 10-minute delivery promise",
+   "u": "https://techcrunch.com/2026/01/13/india-reportedly-tells-quick-commerce-firms-to-drop-10-minute-delivery-promise/",
+   "pub": "TechCrunch",
+   "date": "2026-01-13"
+  },
+  {
+   "t": "DTDC Express Targets Revenue Doubling by 2030, Eyes IPO",
+   "u": "https://www.whalesbook.com/news/English/transportation/DTDC-Express-Targets-Revenue-Doubling-by-2030-Eyes-IPO/6ab937425aacb956d081e0fb",
+   "pub": "Whalesbook",
+   "date": "2026-09-27"
+  },
+  {
+   "t": "Diesel Price Hike Raises Concerns for Transport Sector; Freight Rates May Rise 2.5-3%",
+   "u": "https://www.logisticsinsider.in/diesel-price-hike-raises-concerns-for-transport-sector-freight-rates-may-rise-2-5-3/",
+   "pub": "Logistics Insider",
+   "date": "2026-05-15"
+  },
+  {
+   "t": "Gig Workers' Welfare: Swiggy, Urban Company, Uber Required to Contribute 1-2% of Annual Turnover",
+   "u": "https://www.angelone.in/news/economy/gig-workers-welfare-swiggy-urban-company-uber-required-to-contribute-1-2-of-annual-turnover",
+   "pub": "Angel One",
+   "date": "2025-11"
+  },
+  {
+   "t": "Government Makes the Four Labour Codes effective to Simplify and Streamline Labour Laws",
+   "u": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2192463&reg=3&lang=2",
+   "pub": "Press Information Bureau, Government of India",
+   "date": "2025-11-21"
+  },
+  {
+   "t": "Highlights of Union Budget 2026-27",
+   "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&reg=48&lang=2",
+   "pub": "Press Information Bureau, Government of India",
+   "date": "2026-02-01"
+  },
+  {
+   "t": "CBIC operationalises comprehensive reforms for e-commerce exports and courier trade from April 1st",
+   "u": "https://www.tribuneindia.com/news/cbic-reforms/cbic-operationalises-comprehensive-reforms-for-e-commerce-exports-and-courier-trade-from-april-1st",
+   "pub": "The Tribune",
+   "date": "2026-03-31"
+  },
+  {
+   "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+   "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+   "pub": "Federal Register (CBP)",
+   "date": "2026-06-24"
+  },
+  {
+   "t": "And the (Tariff) Beat Goes On: New Section 301 Forced-Labor Tariffs",
+   "u": "https://www.hklaw.com/en/insights/publications/2026/07/and-the-tariff-beat-goes-on",
+   "pub": "Holland & Knight",
+   "date": "2026-07-24"
+  },
+  {
+   "t": "US bill empowers Trump to target India with 100% tariff over Russian energy",
+   "u": "https://www.business-standard.com/amp/economy/news/us-congress-russia-sanctions-bill-india-tariffs-trump-russian-oil-126091700100_1.html",
+   "pub": "Business Standard",
+   "date": "2026-09-17"
+  },
+  {
+   "t": "De minimis exemption slated to end in 2027",
+   "u": "https://www.supplychaindive.com/news/de-minimis-ends-trump-big-beautiful-bill/751935/",
+   "pub": "Supply Chain Dive",
+   "date": "2025-07-04"
+  },
+  {
+   "t": "How couriers are powering e-commerce, everyday life",
+   "u": "https://www.thedailystar.net/business/business-plus/news/how-couriers-are-powering-e-commerce-everyday-life-3932681",
+   "pub": "The Daily Star",
+   "date": "2025-08-24"
+  },
+  {
+   "t": "Pathao Launches Pathao Commerce, Strategic Coherence, and Pathao's Motivation",
+   "u": "https://futurestartup.com/2026/09/15/pathao-launches-pathao-commerce-strategic-coherence-and-pathaos-motivation/",
+   "pub": "Future Startup",
+   "date": "2026-09-15"
+  },
+  {
+   "t": "3rd country export: India revokes transshipment for Bangladesh",
+   "u": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/3rd-country-export-india-revokes-transshipment-bangladesh-3867491",
+   "pub": "The Daily Star",
+   "date": "2025-04-10"
+  },
+  {
+   "t": "Delhivery share rises 2% on CCI nod to acquire Ecom Express for Rs 1,407 cr",
+   "u": "https://www.business-standard.com/amp/markets/news/delhivery-share-rises-2-on-cci-nod-to-acquire-ecom-express-for-1-407-cr-125061800205_1.html",
+   "pub": "Business Standard",
+   "date": "2025-06-18"
+  },
+  {
+   "t": "Delhivery Ltd (BOM:543529) Q1 2027 earnings call highlights",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/delhivery-ltd-bom-543529-q1-010155471.html",
+   "pub": "Yahoo Finance (GuruFocus)",
+   "date": "2026-08-08"
+  }
+ ],
+ "segments": [
+  {
+   "name": "Marketplace and D2C e-commerce delivery",
+   "size": "4.8 to 5.5bn e-commerce shipments in FY2025, forecast 15 to 16bn by FY2030 (23 to 24% a year). Delhivery moved 322m express parcels in Q1 FY2027.",
+   "leaders": "Delhivery (incl. Ecom Express); Shadowfax; Ekart; Amazon Shipping; Xpressbees; Valmo-type captive networks and smaller regionals.",
+   "dynamics": "Third parties carry nearly 70% of vertical e-commerce but only a third of horizontal marketplace volumes. D2C is the growth pocket: 40 to 45% y/y at Delhivery and 2.7 times at Shadowfax in Q1.",
+   "rules": "Fuel surcharges indexed monthly at Delhivery for 97 to 98% of contracts; labour codes in force since 21 Nov 2025.",
+   "read": "Our reading: price discipline is improving because the loss-making tier is shrinking, but captive networks selling spare capacity will keep D2C rates competitive. Client concentration remains the main risk for the challengers.",
+   "src": [
+    0,
+    1,
+    3,
+    4,
+    13,
+    39
+   ]
+  },
+  {
+   "name": "Quick commerce and hyperlocal",
+   "size": "Quick commerce was 7 to 10% of the express parcel market in FY2024, with forecast growth of 33 to 50% a year. Blinkit, Instamart and Zepto ran about 4,750 dark stores between them by mid-2026.",
+   "leaders": "Blinkit, Swiggy Instamart, Zepto, Flipkart Minutes, Amazon Now; Shadowfax and DTDC (Raftaar) as third-party store and last-mile operators.",
+   "dynamics": "Competitive intensity peaked in Q1 FY2027 according to Blinkit; Instamart cut discounting and reached contribution breakeven; Amazon committed Rs 2,800 crore. Zepto's IPO is approved but not launched.",
+   "rules": "Labour ministry pressure ended the 10-minute promise in Jan 2026; aggregator social security contribution of 1 to 2% of turnover.",
+   "read": "Our reading: this is a captive segment. Third-party carriers win the middle mile into dark stores, not the last mile, and that is where Delhivery has chosen to play.",
+   "src": [
+    0,
+    31,
+    33,
+    34,
+    20,
+    35,
+    38,
+    36,
+    13,
+    16
+   ]
+  },
+  {
+   "name": "Premium express and B2B",
+   "size": "Blue Dart Q1 FY2027 revenue Rs 1,658 crore (+15%); Delhivery part-truckload 542,000 tonnes (+18.4%); DTDC FY2026 revenue Rs 2,655 crore (+7.4%). Traditional courier was about 2bn parcels, 17% of express volume in FY2025.",
+   "leaders": "Blue Dart (DHL Group), DTDC, Delhivery part-truckload, Ekart B2B hubs, India Post Speed Post 24/48.",
+   "dynamics": "Premium players are growing profit faster than revenue through price: Blue Dart's profit rose 85% on 15% revenue growth. Delhivery's part-truckload yields rose 37 paise, only 6 paise of it from fuel.",
+   "rules": "Blue Dart general price increase 9 to 12% from 1 Jan 2027; domestic fuel surcharge 108.8% from 1 Sep 2026.",
+   "read": "Our reading: this is the one segment where list prices are rising in real terms, so shippers should expect annual increases near double digits plus fuel.",
+   "src": [
+    7,
+    3,
+    36,
+    0,
+    4,
+    8,
+    11,
+    28
+   ]
+  },
+  {
+   "name": "Cross-border exports from India after the US de minimis end",
+   "size": "Amazon Global Selling exports from India passed USD 20bn cumulative by Oct 2025, with a USD 80bn target for 2030. India Post counts 1,013 postal export centres.",
+   "leaders": "Blue Dart and DHL Group for express; DTDC international (21% of revenue); Amazon Global Selling; India Post; Delhivery international (four countries).",
+   "dynamics": "India cut export friction (no courier value cap since 1 Apr 2026, rebates for postal exports) while the US raised it (postal filer and bond rule from 24 Jul 2026, 10% Section 301 tariff, up to 100% possible under the Russia sanctions law).",
+   "rules": "CBP postal informal entry for items up to USD 2,500 with partner agency requirements from 22 Oct 2026; statutory repeal of the commercial de minimis from 1 Jul 2027.",
+   "read": "Our reading: the parcel economics of an India to US order now depend on filing and duty handling more than on the line-haul rate, which favours express and platform channels over single postal items.",
+   "src": [
+    24,
+    30,
+    36,
+    6,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "name": "Postal and rural last mile",
+   "size": "India Post FY2025-26 revenue Rs 15,296 crore (+16%), parcels +69%. Bangladesh: 700+ courier firms, with Pathao at 250,000+ orders a day.",
+   "leaders": "India Post; Ekart and Amazon in rural India; in Bangladesh Pathao, Steadfast, RedX and Sundarban.",
+   "dynamics": "India Post sells last mile wholesale to private networks (Flipkart agreement) and launched premium Speed Post in metros. In Bangladesh, social commerce merchants drive volume and Pathao is bundling commerce software with delivery.",
+   "rules": "India Post Parcel and Speed Post Parcel tariffs revised from 1 Aug 2026 (Gazette S.O. 4241(E)); Parcel Last Mile from Rs 15 (up to 2 kg) for contracted customers.",
+   "read": "Our reading: the post is becoming infrastructure for its competitors in India. Data for Pakistan and Sri Lanka is too thin to draw a comparable conclusion.",
+   "src": [
+    25,
+    46,
+    17,
+    28,
+    47,
+    26
+   ]
+  }
+ ],
+ "price_stack": [
+  {
+   "carrier": "Blue Dart",
+   "item": "Domestic general price increase",
+   "value": "+9% to 12% average, varying by product and customer profile; customers signing up 1 Oct to 31 Dec 2026 exempt",
+   "effective": "1 Jan 2027",
+   "src": [
+    8,
+    9
+   ]
+  },
+  {
+   "carrier": "Blue Dart",
+   "item": "Previous domestic general price increase",
+   "value": "+9% to 12% average",
+   "effective": "1 Jan 2026",
+   "src": 10
+  },
+  {
+   "carrier": "Blue Dart",
+   "item": "Domestic and regional fuel surcharge",
+   "value": "108.8% (99.0% in Aug, 78.0% in Apr, 55.6% in Jan 2026); Brent-linked index suspended",
+   "effective": "1 Sep 2026",
+   "src": 11
+  },
+  {
+   "carrier": "Blue Dart",
+   "item": "International fuel surcharge",
+   "value": "46.25% (38.25% on 3 Aug 2026)",
+   "effective": "28 Sep 2026",
+   "src": 12
+  },
+  {
+   "carrier": "Delhivery",
+   "item": "Fuel surcharge mechanism",
+   "value": "Indexed monthly on previous month's average fuel price; about 97 to 98% of contracts covered",
+   "effective": "Q1 FY2027 (Apr to Jun 2026)",
+   "src": 4
+  },
+  {
+   "carrier": "India Post",
+   "item": "India Post Parcel and Speed Post Parcel tariffs",
+   "value": "All weight slabs from 500 g to 5 kg replaced for retail and contractual customers (Post Office (Sixth Amendment) Regulations 2026)",
+   "effective": "1 Aug 2026",
+   "src": 26
+  },
+  {
+   "carrier": "India Post",
+   "item": "Parcel Last Mile for contracted bulk customers",
+   "value": "Up to 2 kg: Rs 15 at delivery office, Rs 20 at parcel hub; 2 to 5 kg: Rs 22 and Rs 35; plus GST",
+   "effective": "1 Aug 2026",
+   "src": 26
+  },
+  {
+   "carrier": "India Post",
+   "item": "Inland Speed Post (documents) tariff",
+   "value": "Local up to 50 g Rs 19; up to 50 g beyond 200 km Rs 47; registration Rs 5 per item; first revision since 2012",
+   "effective": "1 Oct 2025",
+   "src": 27
+  },
+  {
+   "carrier": "Road freight (market)",
+   "item": "Diesel price increase passed to truck freight",
+   "value": "Diesel +3 to 3.5%; freight rates expected +2.5 to 3%",
+   "effective": "May 2026",
+   "src": 37
+  },
+  {
+   "carrier": "Platform aggregators",
+   "item": "Social security contribution under the Code on Social Security",
+   "value": "1 to 2% of annual turnover, capped at 5% of payments to gig and platform workers",
+   "effective": "Labour codes in force 21 Nov 2025",
+   "src": [
+    38,
+    39
+   ]
+  }
+ ],
+ "scorecard": [
+  {
+   "name": "Delhivery",
+   "volume": "up",
+   "yield": "down",
+   "position": "gaining",
+   "why": "Express parcels +55% to 322m in Q1 FY2027, but express yields fell on the lighter Ecom Express mix and EBITDA margin dropped to 5.3%.",
+   "src": [
+    3,
+    4,
+    2
+   ]
+  },
+  {
+   "name": "Blue Dart",
+   "volume": "flat",
+   "yield": "up",
+   "position": "holding",
+   "why": "Revenue +15% and profit +85% in Q1 FY2027 with 9 to 12% annual price rises; volumes were not disclosed, so 'flat' is our reading.",
+   "src": [
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Shadowfax",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Revenue +65% and profit eight times higher in Q1 FY2027, guidance raised to 38 to 40%; per-order yield not disclosed.",
+   "src": 13
+  },
+  {
+   "name": "Ekart",
+   "volume": "flat",
+   "yield": "flat",
+   "position": "holding",
+   "why": "Opened to third parties in Jul 2026 while Flipkart routes lower-density volume through India Post; no volume data published. Our reading.",
+   "src": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Amazon (Shipping / Transportation Services)",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Transportation revenue +8% with losses cut 57% in FY2025; Amazon Now at 100 cities with Rs 2,800 crore committed.",
+   "src": [
+    19,
+    20
+   ]
+  },
+  {
+   "name": "Xpressbees",
+   "volume": "flat",
+   "yield": "flat",
+   "position": "losing",
+   "why": "FY2025 revenue broadly flat with net loss widening to Rs 370 crore; Redseer notes a narrowed footprint.",
+   "src": [
+    6,
+    1
+   ]
+  },
+  {
+   "name": "India Post",
+   "volume": "up",
+   "yield": "up",
+   "position": "gaining",
+   "why": "Parcels +69% in FY2025-26, new Flipkart last-mile contract and tariff revisions in Oct 2025 and Aug 2026.",
+   "src": [
+    25,
+    17,
+    26
+   ]
+  },
+  {
+   "name": "Quick-commerce networks",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Blinkit added 200 stores in a quarter and Instamart orders rose to 11.5 crore, while Blinkit's order value held at Rs 518.",
+   "src": [
+    31,
+    33
+   ]
+  },
+  {
+   "name": "DTDC",
+   "volume": "flat",
+   "yield": "flat",
+   "position": "holding",
+   "why": "FY2026 revenue +7.4%, below market growth, with international business growing 13 to 14%.",
+   "src": 36
+  }
+ ],
+ "scenarios": [
+  {
+   "name": "Disciplined consolidation",
+   "likelihood": "most likely",
+   "text": "Our reading: Delhivery and Shadowfax keep taking independent share, Blue Dart's 2027 increase sticks, and fuel surcharges stay elevated but passed through. Ekart and Amazon add third-party volume at competitive D2C rates, and India Post's Parcel Last Mile becomes a reference price for rural delivery. Margins recover slowly as wage costs are repriced.",
+   "triggers": "Q2 FY2027 results from Delhivery, Blue Dart and Shadowfax; festive-season volumes; monthly Blue Dart fuel surcharge; Ekart franchise count against its 1,000 target."
+  },
+  {
+   "name": "Captive price war",
+   "likelihood": "plausible",
+   "text": "Our reading: Ekart and Amazon price third-party capacity aggressively to fill networks, while a listed Zepto funds another round of quick-commerce discounting. Independents lose D2C pricing power just as wage and fuel costs rise, and a further consolidation deal follows among the weaker networks.",
+   "triggers": "Ekart and Amazon Shipping rate cards for D2C; Zepto IPO launch; Blinkit and Instamart discounting commentary; any sale or funding round at Xpressbees."
+  },
+  {
+   "name": "US tariff shock on Indian exports",
+   "likelihood": "tail risk",
+   "text": "Our reading: Washington uses the Russia sanctions law to impose a high tariff on Indian goods. Small-parcel exports to the US fall, cross-border volume diverts to the UK, Gulf and EU, and international express pricing softens while domestic networks are unaffected.",
+   "triggers": "A presidential determination naming India under the Sanctioning Russia and Iran Act; progress or failure of the India-US interim trade agreement; CBP enforcement after 22 Oct 2026."
+  }
+ ]
+}

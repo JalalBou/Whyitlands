@@ -425,7 +425,7 @@
           "ebit_chg": "vs +¥0.4bn a year earlier",
           "margin": "-1.0%",
           "vs_prev": "Domestic logistics slipped into loss on mail decline and higher outsourcing costs; group net income rose 63.8% to ¥125.3bn on Japan Post Bank.",
-          "volume": "Total items -4.0%; mail -5.9%; Yu-Pack -1.2%",
+          "volume": "Mail down (June -7.0%); parcels up in each month of the quarter (April +4.3%, June +3.0%), with Yu-Pack and Yu-Packet both growing",
           "highlights": [
             "International logistics (Toll) revenue +¥45.2bn to ¥154.5bn; EBIT ¥2.3bn",
             "Group net income ¥125.3bn, 33% of full-year forecast"
@@ -433,7 +433,7 @@
           "challenges": [
             "Digital substitution driving mail decline",
             "Outsourcing costs up ¥3.8bn",
-            "Yu-Pack volume down despite e-commerce growth"
+            "Parcel growth does not offset the fall in mail"
           ],
           "outlook": "Group full-year net income forecast of ¥380bn.",
           "segments": [
@@ -452,7 +452,10 @@
           ],
           "src": [
             15,
-            16
+            16,
+            40,
+            41,
+            42
           ],
           "stories": []
         },
@@ -932,6 +935,27 @@
       "u": "https://www.sahi.com/news/blue-dart-express-reports-q1-consolidated-net-profit-of-88-5-crore-versus-46-9-crore-yoy-1624-PE1_COR",
       "pub": "Sahi",
       "date": "2026-07-31"
+    },
+    {
+      "t": "日本郵便／4月の引受物数、郵便物4.1％減、荷物4.3％増",
+      "u": "https://www.lnews.jp/2026/05/s0529705.html",
+      "pub": "LNEWS",
+      "date": "2026-05-29",
+      "lang": "ja"
+    },
+    {
+      "t": "日本郵便／6月の引受物数、郵便物7.0％減、荷物3.0％増",
+      "u": "https://www.lnews.jp/2026/08/s0803704.html",
+      "pub": "LNEWS",
+      "date": "2026-08-03",
+      "lang": "ja"
+    },
+    {
+      "t": "６月の郵便・荷物 ゆうパック、ゆうパケットとも好調続く",
+      "u": "https://cargo-news.online/news/detail.php?id=11677",
+      "pub": "Cargo News",
+      "date": "2026-08",
+      "lang": "ja"
     }
   ]
 }

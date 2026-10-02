@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Neural-voice audio for WhyItLands briefings (Kokoro, voice af_heart).
+"""Neural-voice audio for WhyItLands briefings (Kokoro, British male narrator: 70% bm_george + 30% am_onyx, en-gb, speed 0.95).
 
 python3 tools/tts.py plan            -> prints a JSON list of slugs whose audio is missing or stale
 python3 tools/tts.py make <slug>     -> writes site/assets/audio/<slug>.m4a and <slug>.meta.json
@@ -12,6 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BR = os.path.join(ROOT, "content", "briefings")
 AUD = os.path.join(ROOT, "site", "assets", "audio")
 SAY = {"VAT", "NATO", "ASEAN", "APEC", "OPEC", "IATA", "CENTCOM", "UNCTAD", "MERCOSUR", "ECLAC", "IMEC", "BEUC", "MOFCOM", "PGSA", "IOSS", "UKGT", "OFCOM", "CEPAL", "SISSE", "USMCA", "EUCA"}
+VOICE_ID = "bm_george:0.7+am_onyx:0.3|en-gb|0.95"  # part of the hash: changing it re-records every briefing
 CUR = {"€": "euros", "$": "dollars", "£": "pounds", "¥": "yen"}
 
 
@@ -46,7 +47,7 @@ def texts(b):
 
 
 def text_hash(b):
-    return hashlib.sha1("\n".join(texts(b)).encode()).hexdigest()[:12]
+    return hashlib.sha1((VOICE_ID + "\n" + "\n".join(texts(b))).encode()).hexdigest()[:12]
 
 
 def load():
@@ -67,6 +68,7 @@ def make(slug):
     from kokoro_onnx import Kokoro
     f, b = load()[slug]
     k = Kokoro("kokoro-v1.0.onnx", "voices-v1.0.bin")
+    voice = np.add(k.get_voice_style("bm_george") * 0.7, k.get_voice_style("am_onyx") * 0.3)
     out, sr = [], 24000
     for p in texts(b):
         parts, buf = [], ""
@@ -75,7 +77,7 @@ def make(slug):
             else: buf = (buf + " " + c).strip()
         if buf: parts.append(buf)
         for c in parts:
-            a, sr = k.create(c, voice="af_heart", speed=1.0, lang="en-us")
+            a, sr = k.create(c, voice=voice, speed=0.95, lang="en-gb")
             out += [a, np.zeros(int(sr * .25))]
         out.append(np.zeros(int(sr * .45)))
     w = np.concatenate(out)
