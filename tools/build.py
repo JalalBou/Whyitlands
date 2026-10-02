@@ -191,8 +191,8 @@ def footer():
     return f"""<footer class="site-foot">
 <div class="wrap">
 <div class="foot-row"><a class="brand" href="/">WhyItLands{PARCEL}</a>
-<nav aria-label="Footer"><a href="/archive" data-i18n="ar_kicker">Archive</a><a href="/method" data-i18n="method">Method</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a href="#" data-contact="footer" data-i18n="get_in_touch">Get in touch</a></nav></div>
-<p class="disclose" data-i18n="disclose">AI-assisted monitoring, curated and reviewed by Jalal Boucheikha. Every fact is sourced.</p>
+<nav aria-label="Footer"><a href="/archive" data-i18n="ar_kicker">Archive</a><a href="/method">How it’s made</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a href="#" data-contact="footer" data-i18n="get_in_touch">Get in touch</a></nav></div>
+<p class="disclose">Researched and written with AI under Jalal Boucheikha’s editorial rules. Every fact is sourced. <a href="/method">How WhyItLands is made</a></p>
 </div>
 </footer>
 {contact_dialog()}
@@ -251,6 +251,7 @@ def about_nl():
 <blockquote>“Complexity should be invisible. What you expose to your merchants, your partners, your customers should be simple, reliable and programmable.”</blockquote>
 <div class="cta">{f'<a class="btn btn-light" href="{LINKEDIN}" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg><span data-i18n="li_btn">Connect on LinkedIn</span></a>' if LINKEDIN else ""}<a class="btn btn-ghost-dark" href="#" data-contact="about" data-i18n="get_in_touch">Get in touch</a></div>
 <p style="font-size:13px;margin-top:22px;color:#8C93A6" data-i18n="about_note">WhyItLands is a personal project. Views are my own and do not represent my employer.</p>
+<p style="font-size:13px;margin-top:-6px"><a href="/method" style="color:#C8CCD6">How WhyItLands is made, and how it uses AI →</a></p>
 </div></div>
 </div></section>
 
@@ -368,6 +369,42 @@ def why_cards():
     return "".join(cards)
 
 
+def week60_block(k):
+    today = datetime.date.today().isoformat()
+    b = lead_for(k)
+    imp = next((x["impact"] for x in b["body"] if "impact" in x), "") or (b["keypoints"][0] if b["keypoints"] else "")
+    members = set(GROUPS.get(k, [k]))
+    ev = sorted(((d["date"], d["what"], it) for it in RADAR for d in it.get("dates", []) if d["date"] >= today and (k == "GLOBAL" or members & set(it.get("regions", [])))), key=lambda x: x[0])
+    if not ev:
+        ev = sorted(((d["date"], d["what"], it) for it in RADAR for d in it.get("dates", []) if d["date"] >= today and "GLOBAL" in it.get("regions", [])), key=lambda x: x[0])
+    rules, seen = [], set()
+    for d, w, it in ev:
+        if it["key"] in seen:
+            continue
+        seen.add(it["key"])
+        rules.append(f"""<article class="w60-c w60-rule" data-d="{d}"{'' if not rules else ' hidden'}><div class="w60-k"><span>2</span>Next deadline</div><div class="w60-big"><span class="cd" data-cd="{d}"></span> {E(fdate(d))}</div><h3>{E(it['title'])}</h3><p>{E(w)}</p><p class="w60-means"><b>For your parcels</b> {E(it.get('parcel', ''))}</p><a class="more" href="/radar#rr-{E(it['key'])}">Open in the Radar →</a></article>""")
+        if len(rules) == 3:
+            break
+    rule = "".join(rules)
+    gauge = ""
+    if BARO and k in BARO.get("regions", {}):
+        gs = BARO["regions"][k]["gauges"]
+        g = max(gs, key=lambda g: (int(g.get("level", 0)), g.get("trend") == "up"))
+        lv = int(g.get("level", 0))
+        segs = "".join(f'<i class="{"on" if n < lv else ""}"></i>' for n in range(5))
+        gauge = f"""<article class="w60-c lv{lv}"><div class="w60-k"><span>3</span>Where the pressure is</div><div class="w60-big">{E(DIM_NAME.get(g['dim'], g['dim']))} <small>{lv}/5 {ARROW.get(g.get('trend'), '')}</small></div><div class="g-bar">{segs}</div><p>{E(g.get('note', ''))}</p><a class="more" href="#barometer">The full barometer →</a></article>"""
+    story = f"""<article class="w60-c"><div class="w60-k"><span>1</span>The story that matters</div><div class="w60-big w60-date">{E(b['date_label'])}</div><h3>{E(b['title'])}</h3><p class="w60-means"><b>What it means</b> {E(plain(imp))}</p><a class="more" href="/briefings/{b['slug']}">Read the briefing, {reading_minutes(b)} min →</a></article>"""
+    return f'<div class="w60-grid" data-show="{k}"{"" if k == "GLOBAL" else " hidden"}>{story}{rule}{gauge}</div>'
+
+
+def week60():
+    return f"""<section class="w60" id="week"><div class="wrap">
+<div class="w60-head"><div class="kicker">This week in 60 seconds · <span data-current-region>GLOBAL</span></div><h2>Three things to know</h2></div>
+{''.join(week60_block(k) for k in REGION_ORDER)}
+</div></section>
+"""
+
+
 def page_home():
     WELCOME = """<section class="welcome" id="welcome"><div class="wrap wl-row">
 <div class="wl-text"><p class="wl-h" data-i18n="wl_h">WhyItLands explains why world events land on the cost, speed and rules of a parcel.</p>
@@ -393,9 +430,10 @@ def page_home():
     mk = "".join(home_market_block(k) for k in REGION_ORDER)
     expos = "".join(home_expos(k) for k in DESK_ORDER)
     out = head("WhyItLands · Where it lands, and why", "Geopolitics connected, factually and with sources, to e-commerce logistics, domestic and cross-border. A clear information grid for senior leaders: what is happening, what is coming, and why.", "/")
-    HOME_RAIL = subnav([("barometer", "baro_kicker", "Parcel barometer"), ("briefings", "briefings_kicker", "Briefings"), ("coming", "ag_kicker", "Agenda"), ("storylines", "st_kicker_all", "Storylines"), ("wire", "wire_kicker", "Industry wire"), ("mk-home", "mk_kicker", "Market intelligence"), ("about", "about_kicker", "About"), ("newsletter", "subscribe", "Subscribe")])
+    HOME_RAIL = subnav([("week", "", "This week in 60 seconds"), ("barometer", "baro_kicker", "Parcel barometer"), ("briefings", "briefings_kicker", "Briefings"), ("coming", "ag_kicker", "Agenda"), ("storylines", "st_kicker_all", "Storylines"), ("wire", "wire_kicker", "Industry wire"), ("mk-home", "mk_kicker", "Market intelligence"), ("about", "about_kicker", "About"), ("newsletter", "subscribe", "Subscribe")])
     out += header("home") + WELCOME + regionbar(REGION_ORDER, "GLOBAL")
     out += f"""<main id="main" data-region-page>
+{week60()}
 {heroes}
 {HOME_RAIL}
 {home_barometer()}
@@ -983,19 +1021,42 @@ def page_glossary():
 
 
 def page_method():
-    out = head("Method · WhyItLands", "How WhyItLands selects, checks and explains the news: primary sources, local-language media, and an explicit what / why / what it means structure.", "/method")
-    out += header() + """<main id="main" class="prose"><div class="kicker" data-i18n="method">Method</div><h1>How WhyItLands works</h1>
-<p>WhyItLands connects geopolitical and regulatory events to their effects on e-commerce logistics, domestic and cross-border. Each item answers three questions: what happened, why, and what it means for the parcel.</p>
-<h2>Sources first</h2>
-<p>Facts come from primary sources where they exist: official texts, institutions (UPU, IPC, WTO, European Commission, U.S. CBP, WCO), company filings and results. Trade press and regional media are read in their original language to catch what international coverage misses. Every fact links to its source.</p>
-<h2>AI-assisted, human-reviewed</h2>
-<p>Monitoring and first drafts are assisted by AI. Selection, framing and final review are done by Jalal Boucheikha. Quotes are never invented; if a statement cannot be traced to a source, it is not published.</p>
-<h2>Videos</h2>
-<p>Videos are only embedded from identified channels (official bodies, organisers, companies or established media), after their content has been checked.</p>
+    corr = json.loads((C / "corrections.json").read_text()) if (C / "corrections.json").exists() else {"items": []}
+    rows = "".join(f'<tr><td class="date">{E(fdate(x["date"]))}</td><td><a href="{E(x["page"])}">{E(x["page"])}</a></td><td>{E(x["what"])}</td></tr>' for x in corr["items"])
+    out = head("How WhyItLands is made · WhyItLands", "Who writes WhyItLands, how it is researched with AI under written editorial rules, where the facts come from, how it is updated every week and how errors are corrected.", "/method")
+    out += header() + """<main id="main" class="prose"><div class="kicker">How it’s made</div><h1>How WhyItLands is made</h1>
+<p class="lead">WhyItLands is a personal project by Jalal Boucheikha. It is researched and written with AI, under editorial rules he wrote and is responsible for. This page explains who does what, where the facts come from and how errors are fixed, so you can decide how far to trust it.</p>
+<h2>Who does what</h2>
+<p><strong>Jalal Boucheikha</strong> set the editorial line: the causal model (geopolitics, then decisions and laws, then the market, then the parcel), the regions and topics covered, the sourcing rules below and the tone. He is accountable for everything published here. If something is wrong, it is his error to correct.</p>
+<p><strong>AI agents</strong> (Claude, by Anthropic) do the research and the drafting, and carry out the weekly updates, working to those written rules. Routine updates such as prices, dates, moves and results are published as part of that weekly cycle.</p>
+<p><strong>The audio</strong> versions of briefings are read by a synthetic voice.</p>
+<h2>The weekly cycle</h2>
+<ul>
+<li><strong>Wednesday:</strong> Market Intelligence. Fuel surcharges and rate changes, moves, quarterly results and signals.</li>
+<li><strong>Thursday:</strong> Regulatory Radar. New rules, changed statuses and slipped dates; the Shopper pulse once a month.</li>
+<li><strong>Friday:</strong> regions, storylines, the parcel barometer and, when a genuinely new topic appears, a new briefing.</li>
+<li><strong>Sunday:</strong> the edition: front page, wire and the newsletter, sent on Monday at 07:30 Paris time.</li>
+</ul>
+<p>Competition deep dives are fully refreshed each results season (February, May, August, November) and patched when a player reports or makes a major move.</p>
+<h2>The rules every page follows</h2>
+<ul>
+<li><strong>Every fact links to its source.</strong> No quote, number, date or link is ever invented. If a statement cannot be traced to a source, it is not published.</li>
+<li><strong>Primary sources first:</strong> official journals and texts, regulators and customs authorities, statistics offices, international bodies (UPU, WCO, WTO, IPC), carrier service guides and company results. Then quality and trade press, read in the original language for the Americas, Asia-Pacific and the Middle East.</li>
+<li><strong>Facts and reading are kept apart.</strong> Anything that is analysis is labelled “our reading”.</li>
+<li><strong>Signals need evidence.</strong> A signal is only published when at least three dated, sourced facts from different players point the same way, and each one states what would prove it wrong.</li>
+<li><strong>Regional balance.</strong> Eleven regions are covered every week, with no region allowed to dominate the front page.</li>
+<li><strong>No promotion.</strong> When a solution provider is named, at least three are named for the same need, in alphabetical order. There are no sponsors.</li>
+<li><strong>Videos</strong> are only embedded from identified channels (official bodies, organisers, companies or established media).</li>
+</ul>
+<h2>How to read the judgements</h2>
+<p>The parcel barometer levels (1 = low pressure, 5 = high) and the likelihood labels on scenarios are judgements drawn from the sourced storylines, not measurements or probabilities. The coverage figure on the front page is an order of magnitude built from published national figures, with the method shown next to it.</p>
+<h2>What it is not</h2>
+<p>WhyItLands is information, not legal, customs, tax or investment advice. Rules and dates change often: always check the current official text before acting.</p>
 <h2>Corrections</h2>
-<p>Spotted an error? Use the feedback form on any page. Confirmed corrections are flagged in the article.</p>
+<p>Spotted an error? Use the feedback form on any page or the “Get in touch” button. Confirmed corrections are fixed in place and logged below.</p>
+<div class="table-wrap"><table class="corr"><thead><tr><th>Date</th><th>Page</th><th>What changed</th></tr></thead><tbody>""" + rows + """</tbody></table></div>
 <h2>Independence</h2>
-<p>WhyItLands is a personal project. It has no sponsors and does not use confidential information from any employer. Views are the author’s own.</p>
+<p>WhyItLands has no sponsors and no advertising. It uses only public sources and never uses confidential information from any employer. Views are the author’s own and do not represent his employer.</p>
 </main>"""
     return out + footer()
 
@@ -1359,7 +1420,29 @@ def story_radar(key):
     return '<h3 class="st-sub" id="rules" data-i18n="st_rules">Rules on this storyline</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/radar#rr-{E(it["key"])}">{E(it["title"])}</a>' for it in its) + "</div>"
 
 
+PDF_BTN = '<button type="button" class="pdf-btn" data-pdf title="Saves this page as you see it: pick your region and open the sections you want first. In the print window, choose “Save as PDF”."><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg><span>Download PDF</span></button>'
+PDF_PAGES = re.compile(r"^(briefings/(?!index\.html).+|storylines/.+|markets/.+|markets\.html|radar\.html|doctrines\.html|method\.html)$")
+
+
+def add_pdf(text):
+    """Adds the Download PDF button at the end of every page hero (or under the title on prose pages)."""
+    out, pos, n = [], 0, 0
+    for m in re.finditer(r'<section class="(rhero|art-head)"', text):
+        if m.start() < pos:
+            continue
+        end = text.index("</div></section>", m.start())
+        out.append(text[pos:end] + f'<div class="pdf-row">{PDF_BTN}</div>')
+        pos, n = end, n + 1
+    out.append(text[pos:])
+    text = "".join(out)
+    if not n and '<main id="main" class="prose">' in text:
+        text = text.replace("</h1>", f'</h1><div class="pdf-row">{PDF_BTN}</div>', 1)
+    return text
+
+
 def write(path, text):
+    if PDF_PAGES.match(path) and path.endswith(".html"):
+        text = add_pdf(text)
     p = OUT / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(text)
 
 

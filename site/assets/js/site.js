@@ -197,6 +197,37 @@
     });
   }
 
+  // Download PDF: a print layout made for A4, opened through the browser's print window ("Save as PDF").
+  function initPdf() {
+    var btns = $$('[data-pdf]');
+    if (!btns.length) return;
+    var title0 = document.title, cover = null;
+    function prep() {
+      var main = document.getElementById('main');
+      var reg = main && main.hasAttribute('data-region-page') ? (document.querySelector('[data-current-region]') || {}).textContent : '';
+      var h1 = Array.prototype.filter.call(document.querySelectorAll('main h1'), function (h) { return !h.closest('[hidden]'); })[0];
+      var name = (h1 ? h1.textContent : title0.split(' · ')[0]).trim();
+      var day = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      cover = document.createElement('div'); cover.className = 'print-cover';
+      cover.innerHTML = '<div class="pc-brand">WhyItLands<span>Where it lands, and why.</span></div><div class="pc-meta">' + (reg && reg !== 'GLOBAL' ? 'Region: ' + reg + ' · ' : '') + 'whyitlands.com' + location.pathname.replace(/\.html$/, '') + '<br>Downloaded ' + day + '</div>';
+      if (main) main.insertBefore(cover, main.firstChild);
+      document.title = 'WhyItLands - ' + name.replace(/[\\/:*?"<>|]+/g, ' ').slice(0, 90) + ' - ' + new Date().toISOString().slice(0, 10);
+    }
+    function restore() {
+      if (cover && cover.parentNode) cover.parentNode.removeChild(cover); cover = null;
+      document.title = title0;
+    }
+    window.addEventListener('beforeprint', function () { if (!cover) prep(); });
+    window.addEventListener('afterprint', restore);
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        track('pdf_download', { path: location.pathname });
+        if (!cover) prep();
+        window.print();
+      });
+    });
+  }
+
   // Page rail: where you are, what is done, what comes next (desktop side rail, phone contents bar).
   function initRail() {
     var rails = $$('.rail');
@@ -410,7 +441,16 @@
     var p = iso.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]); var n = new Date(); n.setHours(0, 0, 0, 0);
     return Math.round((d - n) / 86400000);
   }
+  function pickDeadlines() {
+    // The front page is built a few times a week: if a deadline has passed since, show the next one.
+    $$('.w60-grid').forEach(function (g) {
+      var rs = $$('.w60-rule', g), first = null;
+      rs.forEach(function (r) { var ok = !first && daysTo(r.getAttribute('data-d')) >= 0; if (ok) first = r; r.hidden = !ok; });
+      if (!first && rs.length) rs[rs.length - 1].hidden = false;
+    });
+  }
   function fillCountdowns() {
+    pickDeadlines();
     $$('.cd[data-cd]').forEach(function (el) { var n = daysTo(el.getAttribute('data-cd')); el.textContent = n <= 0 ? 'D−0' : 'D−' + n; el.classList.toggle('soon', n <= 45); });
   }
   var radarDomain = '';
@@ -461,6 +501,7 @@
   }
   initVideo();
   initRail();
+  initPdf();
   initWelcome();
   initNlRegions();
   initRadar();

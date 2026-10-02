@@ -1,0 +1,8 @@
+{
+  "note": "Every factual correction to published content is logged here, newest first: date, page, what changed.",
+  "items": [
+    {"date": "2026-10-02", "page": "/markets/nea-parcel", "what": "Japan Post parcel volumes: an earlier line showed Yu-Pack volume down 1.2%. Replaced with Japan Post's monthly figures as reported by LNEWS and Cargo News."},
+    {"date": "2026-10-01", "page": "/markets/us-parcel", "what": "US postal duty collection: corrected to duties paid by the 7th of the month following arrival, as set out by U.S. Customs and Border Protection."},
+    {"date": "2026-10-01", "page": "/radar", "what": "Italy's fee on low-value parcels: start date corrected to 1 December 2026."}
+  ]
+}

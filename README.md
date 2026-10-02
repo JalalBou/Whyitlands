@@ -85,3 +85,12 @@ Subscribers pick one or more regions. Brevo stores REGIONS as ",EU,UK," (plus RE
 - Every fact has a source. No invented quotes.
 - Videos are embedded only from identified channels, after checking (`content/regions.json` → `videos`: `{id, title, channel, start}`).
 - Nothing confidential from any employer. AI assistance is disclosed on every page.
+- **Corrections log.** Whenever a published fact is corrected (not a routine weekly update of a price or status, but something that was wrong), add an entry at the top of `content/corrections.json`: `{date, page, what}` with the page path and one plain sentence on what changed. It is shown on `/method` ("How WhyItLands is made"). Keep that page accurate if the weekly cycle or the rules change.
+
+## Front page: This week in 60 seconds
+
+Built automatically for every region and group from existing content, nothing to maintain: (1) the region's lead briefing and its bottom line, (2) the next Regulatory Radar deadline for the region with its "parcel" line (falls back to GLOBAL rules; the page carries the next three and the browser shows the first that has not passed), (3) the barometer gauge with the highest level. Keep briefings' `impact` blocks, Radar `parcel` lines and barometer notes short and concrete: they appear here.
+
+## Download PDF
+
+Briefings, storylines, competition deep dives, Market Intelligence, the Regulatory Radar, Doctrines and How it's made carry a "Download PDF" button (added by `write()` in `tools/build.py`, list in `PDF_PAGES`). It opens the browser's print window with an A4 print stylesheet (`@media print` in `site.css`): site chrome hidden, a WhyItLands cover line with the page address and download date, page numbers. The PDF holds the page as the reader sees it (chosen region, opened sections).
