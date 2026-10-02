@@ -23,4 +23,4 @@
 Rules: every number exactly as published, with a real URL you opened; state method/sample; prefer large repeated surveys
 (postal associations, national statistics offices, Eurostat, central banks, regulators such as Ofcom/ARCEP/PRC, large
 carrier or platform studies), flag vendor-run surveys in sponsor_note; most recent edition (2025-2026); British spelling;
-no em-dash; never mention Asendia.
+no em-dash; never mention the author's employer.

@@ -80,7 +80,7 @@ Subscribers pick one or more regions. Brevo stores REGIONS as ",EU,UK," (plus RE
 
 ## Editorial rules
 
-- Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. Never mention Asendia.
+- Solution providers (compliance, landed cost, customs data, brokerage): whenever one is named, name at least three for the same need, in alphabetical order, neutrally, with sources. Landscape lives in `content/solutions.json`. never mention the author's employer.
 
 - Every fact has a source. No invented quotes.
 - Videos are embedded only from identified channels, after checking (`content/regions.json` → `videos`: `{id, title, channel, start}`).
