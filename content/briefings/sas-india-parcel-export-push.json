@@ -748,5 +748,10 @@
       "u": "https://gjepc.org/solitaire/india-post-resumes-all-postal-services-to-the-us-launches-ddp-product-with-6-5-lower-duty-on-jewellery/",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/sas-india-parcel-export-push.m4a",
+    "minutes": 23,
+    "hash": "4c3b7c5fef55"
+  }
 }

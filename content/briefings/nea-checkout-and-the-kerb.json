@@ -825,5 +825,10 @@
       "u": "https://link.springer.com/article/10.1007/s42533-021-00089-5",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/nea-checkout-and-the-kerb.m4a",
+    "minutes": 22,
+    "hash": "0dc8854b219b"
+  }
 }

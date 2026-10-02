@@ -695,5 +695,10 @@
       "u": "https://www.smartcompany.com.au/transport-logistics/australia-post-daily-letter-delivery-cut-second-day/",
       "lang": "en"
     }
-  ]
+  ],
+  "audio": {
+    "src": "/assets/audio/oce-open-door-fuel-bill.m4a",
+    "minutes": 22,
+    "hash": "91044b9260d3"
+  }
 }
