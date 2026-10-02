@@ -47,7 +47,7 @@ window.WIL_I18N = {
     ct_consent: "I agree that my details are used only to answer this message. They are never shared or added to a mailing list.",
     ct_spam: "Protected against spam. No email address is shown on the site.",
     ct_ok: "Thank you, message received. Jalal usually replies within a few working days.", close: "Close",
-    R: {GLOBAL: "Global", EMEA: "EMEA", EU: "EU", UK: "UK", NA: "North America", SA: "South America", AS: "Asia", CN: "China", ME: "Middle East", NAF: "North Africa"}
+    R: {GLOBAL: "Global", EMEA: "EMEA", APAC: "APAC", EU: "EU", UK: "UK", NA: "North America", SA: "South America", AS: "Asia", NEA: "North Asia", SEA: "Southeast Asia", SAS: "South Asia", OCE: "Oceania", CN: "China", ME: "Middle East", NAF: "North Africa"}
   },
   fr: {
     nav_storylines: "Fils rouges", lay_geopolitics: "Géopolitique", lay_decision: "Décision et loi", lay_market: "Marché", lay_parcel: "Impact colis", dim_cost: "Coût", dim_speed: "Délai", dim_volume: "Volume", dim_compliance: "Conformité", dim_network: "Réseau", st_kicker: "Fil rouge", st_kicker_all: "Fils rouges", st_h1: "Le pourquoi derrière les faits.", st_home_h: "Suivre le fil", st_chain_k: "La chaîne", st_chain_h: "De la géopolitique au colis", st_next: "Prochaines étapes", st_lens: "La doctrine derrière les décisions", st_cos: "Entreprises visiblement touchées", st_sols: "Panorama des solutions", st_brs: "Lire l’analyse complète", st_all: "Tous les fils rouges →", st_part: "Fil rouge", baro_kicker: "Baromètre du colis", baro_h: "La pression sur le colis, et pourquoi.", baro_asof: "Au", mk_why: "Pourquoi",

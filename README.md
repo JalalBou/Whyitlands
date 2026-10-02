@@ -62,9 +62,13 @@ Signals about competitors rest on public sources only, cover players evenly, and
 
 `content/intel/shoppers.json` (schema in `content/intel/SHOPPERS_SCHEMA.md`): shopper behaviour trends on delivery (speed, price, duties at checkout, lockers, returns, platforms, sustainability, trust, tracking) with the published number, direction, why (our reading), what it means, the source with method and sample, and a note when the survey is vendor-run. Rendered per region in Market Intelligence and linked from storylines.
 
+## Regions
+
+Region codes: GLOBAL; EMEA group = EU, UK, ME (Middle East), NAF (North Africa); NA (North America), SA (South America); APAC group = CN (China), NEA (North Asia: Japan, South Korea, Taiwan), SEA (Southeast Asia), SAS (South Asia: India and neighbours), OCE (Oceania: Australia, New Zealand). Groups are selectors only: content is always tagged with the specific region codes. The old code AS is retired (visitors and subscribers who had it are mapped to APAC / the four Asian groups).
+
 ## Regional balance
 
-Every weekly update keeps a minimum per major region (EU, UK, North America, Asia-Pacific incl. Japan, Korea, India, Australia, China, South America, Middle East and North Africa): at least one wire item or move per region, and the Sunday summary reports the count per region. Competition deep dives exist for the US, EU, UK and ASEAN.
+Every weekly update keeps a minimum per major region (EU, UK, North America, South America, China, North Asia, Southeast Asia, South Asia, Oceania, Middle East and North Africa): at least one wire item or move per region, and the Sunday summary reports the count per region. Competition deep dives exist for the US, EU, UK and ASEAN.
 
 ## Regulatory Radar (/radar)
 

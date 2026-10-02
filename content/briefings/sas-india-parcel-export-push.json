@@ -1,0 +1,752 @@
+{
+  "slug": "sas-india-parcel-export-push",
+  "date": "2026-10-02",
+  "date_label": "2 October 2026",
+  "section": "Geopolitics · South Asia",
+  "region": "SAS",
+  "regions": [
+    "SAS",
+    "NA",
+    "CN"
+  ],
+  "stories": [
+    "de-minimis-end",
+    "platforms-go-local",
+    "us-china-rivalry"
+  ],
+  "title": "India opens the door to parcel exports while Washington rewrites the toll",
+  "dek": "New Delhi has removed the courier export cap, opened post offices to exporters and let foreign platforms hold export stock. Washington has ended duty-free parcels, set a 10% tariff and taken power to impose up to 100% over Russian oil. For carriers and platforms, filing capacity and stock positioning now decide who carries India's small exports.",
+  "keypoints": [
+    "India removed the ₹10 lakh value cap on courier exports from 1 April 2026 and counts 1,013 postal export centres for small sellers, where export rebates now apply to postal shipments.",
+    "Press Note 3 of 2026 lets foreign-funded platforms own inventory in India for export only, while domestic inventory selling stays banned.",
+    "Indian goods pay a 10% Section 301 tariff since 24 July, but every postal parcel to the United States now needs a buyer, owner or licensed broker to file the entry.",
+    "A law signed on 18 September lets Washington impose tariffs of up to 100% on major buyers of Russian energy, a direct risk for India to United States parcel lanes.",
+    "India's domestic parcel market is consolidating: Delhivery's express volumes rose 55% after absorbing Ecom Express, and India Post is becoming a last-mile partner for private networks."
+  ],
+  "body": [
+    {
+      "h": "What is happening"
+    },
+    {
+      "p": "India is trying to turn millions of small sellers into exporters just as its largest customer makes every small parcel harder to send. New Delhi has spent 2026 opening doors for e-commerce exports. Washington has rebuilt its tariffs on new legal foundations, ended duty-free entry for low-value parcels and, since 18 September, holds a new power to tax India over Russian oil. At home, a fast-growing parcel market is consolidating around a few networks and a reformed India Post.",
+      "src": [
+        0,
+        11,
+        19,
+        24
+      ]
+    },
+    {
+      "p": "The export push started with the budget. On 1 February, Finance Minister Nirmala Sitharaman announced the \"complete removal of the current value cap of ₹10 lakh per consignment on courier exports\". The Central Board of Indirect Taxes and Customs, [[CBIC]], applied it from 1 April through Notifications 33/2026 and 34/2026-Customs (N.T.). Uncleared goods at courier terminals can now be returned after 15 days, and returned e-commerce parcels are checked on risk rather than one by one.",
+      "src": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "p": "The postal channel opened in parallel. India Post reports 1,013 Dak Ghar Niryat Kendras, postal export centres that help small firms with paperwork and customs, and since 15 January postal exports qualify for duty drawback and the RoDTEP and RoSCTL rebate schemes. The goal dates from the Foreign Trade Policy of March 2023, which cited $200 to $300 billion of e-commerce export potential by 2030 and announced export hubs; operators for five pilot hubs were named in Delhi, Bengaluru and Mumbai, but we could not confirm how many now operate.",
+      "src": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "p": "In July, New Delhi touched a taboo. Press Note 3 of 2026, dated 23 July, lets e-commerce companies with foreign direct investment, [[FDI]], own inventory for one purpose only: exporting goods made in India to overseas customers. Inventory-based selling to Indian consumers stays prohibited, as it has been since 2016. The Directorate General of Foreign Trade, [[DGFT]], issued implementing notices on 5 August.",
+      "src": [
+        6,
+        7
+      ]
+    },
+    {
+      "p": "Washington moved the other way. In August 2025 it raised tariffs on Indian goods to 50%, half of it a penalty for buying Russian oil, and suspended duty-free entry for parcels under $800. India Post suspended most services to the United States from late August and resumed on 15 October with a delivered-duty-paid, [[DDP]], service: duty collected at booking and remitted to United States Customs and Border Protection, [[CBP]], through approved third parties, at a flat 50% of declared value.",
+      "src": [
+        18,
+        41,
+        10,
+        42
+      ]
+    },
+    {
+      "p": "Then the legal ground shifted. A joint statement of 6 February 2026 set out a framework with an 18% tariff on Indian goods. On 20 February the Supreme Court struck down tariffs imposed under the International Emergency Economic Powers Act, [[IEEPA]]. Since 24 July India has faced a 10% Section 301 tariff, linked by the Office of the United States Trade Representative, [[USTR]], to weak enforcement of forced-labour import bans. Bangladesh, Pakistan and Sri Lanka also pay 10%; China and Vietnam 12.5%. India and Bangladesh are also among 16 economies in a Section 301 investigation into excess capacity opened on 11 March.",
+      "src": [
+        15,
+        13,
+        14,
+        21
+      ]
+    },
+    {
+      "p": "For parcels, the rule that matters is CBP's interim rule of 24 June 2026. It suspends the de minimis exemption for mail indefinitely and, from 24 July, creates a postal informal entry for items up to $2,500. Only the owner or purchaser, or a licensed customs broker they designate, may file. Filers need a customs bond and must pay by the seventh day of the month after arrival; requirements for goods regulated by other agencies apply from 22 October. A 2025 law repeals the commercial de minimis exemption by statute from 1 July 2027.",
+      "src": [
+        11,
+        12
+      ]
+    },
+    {
+      "p": "The newest risk arrived last month. On 18 September President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which authorises tariffs of up to 100% on goods from major buyers of Russian energy, with broad discretion over who is hit and at what rate. Russia supplied about 30% of India's crude imports in 2025-26.",
+      "src": [
+        19,
+        20
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "New Delhi: Commerce and Finance ministries",
+          "stance": "A trade deal only counts if it beats India's competitors; meanwhile, make exporting cheap at home.",
+          "text": "Commerce minister Piyush Goyal said on 3 September: \"As soon as the US is able to give us the preferential rate, in comparison to our competition, we will finalise the BTA and announce the final details.\" On 1 October, after meeting Ambassador Jamieson Greer in Milwaukee, he reported \"a productive discussion\" towards an early interim agreement. At home, the budget, customs changes and postal export centres aim to lower the fixed cost of a first export.",
+          "src": [
+            16,
+            17,
+            0
+          ]
+        },
+        {
+          "actor": "Washington: White House, USTR and Congress",
+          "stance": "Market access is leverage, on tariffs, on Russian oil and on the data behind each parcel.",
+          "text": "The February framework tied a lower tariff to Indian commitments on industrial tariffs, purchases and digital trade barriers. The Section 301 cases rebuilt country tariffs after the court ruling. The Russia sanctions law, passed 262 to 159 in the House, gives the President authority but not an obligation to tax India. CBP's postal rule moves the filing duty to buyers, owners and their licensed brokers.",
+          "src": [
+            15,
+            13,
+            20,
+            19,
+            11
+          ]
+        },
+        {
+          "actor": "Platforms: Amazon, Flipkart and the Shein-Reliance model",
+          "stance": "India is a sourcing base for the world, under Indian rules on data and ownership.",
+          "text": "Amazon said in October 2025 that sellers on its Global Selling programme had passed $20 billion of cumulative exports from India, with more than 200,000 exporters and the United States as the main destination, and set an $80 billion goal for 2030. Press Note 3 of 2026 now lets foreign-funded platforms hold export stock. Shein returned to India in 2025 only through Reliance Retail, with products sourced in India and customer data stored in India.",
+          "src": [
+            22,
+            6,
+            35
+          ]
+        },
+        {
+          "actor": "Carriers and India Post",
+          "stance": "Domestic volume is strong; the margin is in density, scale and new products.",
+          "text": "Delhivery handled 322 million express parcels in April to June 2026, up 55%, helped by integrating Ecom Express, which it agreed to buy for up to ₹1,407 crore. Its chief executive said the company is \"gaining share relative to other 3PLs and also from customers with in-house logistics\". India Post signed a last-mile agreement with Flipkart on 22 May covering more than 160,000 post offices and launched guaranteed next-day Speed Post between six metros in March.",
+          "src": [
+            24,
+            25,
+            31,
+            32
+          ]
+        },
+        {
+          "actor": "Exporters and small firms",
+          "stance": "Two years of uncertainty; diversify and keep shipping.",
+          "text": "The director general of the Federation of Indian Export Organisations, [[FIEO]], said: \"Uncertainty over exports to the US has persisted for nearly two years now.\" Exports to the United States averaged $6.5 billion a month under the 50% tariff against $8.1 billion in the previous six months, yet reached $87.31 billion for 2025-26. On the July investment rule, Business Standard reported that the Confederation of All India Traders, [[CAIT]], sought a rollback, while its secretary general Praveen Khandelwal called it \"a visionary step\" and demanded bonded, segregated warehouses and quarterly audits.",
+          "src": [
+            18,
+            8,
+            9
+          ]
+        },
+        {
+          "actor": "Consumers and delivery workers",
+          "stance": "Fast enough is fine; ten minutes is not worth the risk.",
+          "text": "After more than 200,000 gig workers protested on New Year's Eve, the labour ministry pressed quick-commerce firms in January to drop the ten-minute promise, and Blinkit removed it from its messaging. A LocalCircles survey of more than 90,000 responses found 74% of quick-commerce users backed the move and 38% never wanted such deliveries.",
+          "src": [
+            29,
+            30
+          ]
+        },
+        {
+          "actor": "Dhaka, Islamabad and Colombo",
+          "stance": "Same American tariff as India, fewer tools to use it.",
+          "text": "Bangladesh, Pakistan and Sri Lanka pay the same 10% Section 301 rate as India, and Bangladesh is among the economies with tariff-rate quotas for textiles and apparel planned from 1 September 2026. Bangladesh also lost in April 2025 the right to route third-country exports through Indian airports and ports, after India cited congestion; about 1,000 to 1,500 tonnes a month had used the route.",
+          "src": [
+            14,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "p": "The views do not line up. New Delhi measures success relative to Asian rivals, while Washington uses the tariff to win concessions on unrelated issues such as energy. Platforms want to hold stock; small traders fear export stock will leak into the protected domestic market. Our reading is that these tensions, more than any single rate, will shape the cost of an Indian parcel over the next year.",
+      "src": [
+        16,
+        19,
+        8
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Hedging and multi-alignment (S. Jaishankar, The India Way)",
+          "reading": "In The India Way (2020), external affairs minister S. Jaishankar describes a foreign policy that engages several powers at once and accepts the contradictions. In 2026 India negotiates with Washington, keeps buying Russian oil, implements agreements with the United Kingdom and Oman, expects to sign one with the European Union in December and selectively eases rules on Chinese capital.",
+          "parcel": "India will not pick one rulebook. Plan India export lanes as several products: a United States lane priced for tariff and filing risk, and United Kingdom, Gulf and EU lanes that may get cheaper as agreements take effect.",
+          "src": [
+            37,
+            18,
+            33
+          ]
+        },
+        {
+          "school": "Developmentalism and infant-industry protection (List)",
+          "reading": "Friedrich List argued that a developing economy should build its industry before opening fully. India applies the logic selectively: it subsidises exports by small firms, through rebates on postal shipments and an uncapped courier channel, while keeping foreign inventory models out of domestic retail and requiring Shein's Indian platform to sell only goods sourced in India.",
+          "parcel": "Expect India to keep making outbound parcels cheaper and inbound platform models harder. Export-side services, consolidation and returns handling are where policy will help; domestic retail fulfilment for foreign-owned stock stays closed.",
+          "src": [
+            39,
+            3,
+            6,
+            35
+          ]
+        },
+        {
+          "school": "Geoeconomics (Luttwak; Blackwill and Harris)",
+          "reading": "Robert Blackwill and Jennifer Harris define geoeconomics as using economic tools for geopolitical ends. The Russia sanctions law uses access to the American consumer to change India's energy purchases. The parcel is not the target, but it pays the rate.",
+          "parcel": "India to United States parcel lanes carry a political risk premium that can move overnight. Contracts and rate cards need tariff-change clauses, and DDP pricing must be recalculated whenever the rate moves.",
+          "src": [
+            38,
+            19,
+            15
+          ]
+        },
+        {
+          "school": "Weaponised interdependence (Farrell and Newman)",
+          "reading": "Henry Farrell and Abraham Newman show how states that control network hubs can watch and block flows. India used that logic against China after the 2020 border clash, banning 59 Chinese-linked apps, and allowed Shein back only with customer data stored in India. Washington applies it through the data each postal entry must carry.",
+          "parcel": "Control of seller data, payment data and customs data is the condition of market access on both sides. Carriers serving India need data residency in India for domestic flows and item-level data, including classification and origin, for the United States.",
+          "src": [
+            40,
+            33,
+            35,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: cheaper duty, heavier paperwork"
+    },
+    {
+      "p": "For an Indian seller shipping a kurta or a brass lamp to an American buyer, three things changed in 2026. The duty fell: the 50% IEEPA rate behind the flat postal charge was struck down, and Indian goods now pay the most-favoured-nation rate plus the 10% Section 301 tariff, unless exempt. The filing burden rose: the buyer, the owner or a licensed broker they designate must file, with a bond and a ten-digit tariff code. And the risk rose: one decision under the Russia sanctions law could raise the rate again.",
+      "src": [
+        10,
+        13,
+        11,
+        19
+      ]
+    },
+    {
+      "p": "Our reading is that the second change matters most for small sellers: duty is a percentage, compliance is a fixed cost per parcel. India Post's 2025 model relied on CBP-approved third parties receiving the duty it collected; under the 2026 rule it has to be rebuilt around brokers acting for buyers or sellers. We found no public notice from the Department of Posts on how its American service has been adapted, so shippers should confirm the process before relying on the postal lane.",
+      "src": [
+        10,
+        11
+      ]
+    },
+    {
+      "p": "The courier and platform channels are better placed. The removal of the courier value cap lets a seller consolidate higher-value orders without switching to air cargo, and the return module addresses a real pain point: e-commerce exports see return rates of 20 to 25%, against under 5% for traditional exports. In our view, the likely effect is a shift of Indian business-to-consumer exports to the United States away from single postal items and towards consolidated courier shipments and platform-held stock in American warehouses.",
+      "src": [
+        2,
+        1
+      ]
+    },
+    {
+      "p": "Press Note 3 of 2026 reinforces that shift. A foreign-funded platform can now buy from Indian makers, hold the stock in India and ship it abroad, which allows bulk exports to overseas fulfilment centres rather than one parcel per order. The traders' demand for bonded, segregated warehouses would, if adopted, add a customs-controlled layer to that flow. Our reading is that the rule favours operators that combine bonded storage, export documentation and line-haul to the destination market.",
+      "src": [
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "h": "The domestic market: density, consolidation and limits on speed"
+    },
+    {
+      "p": "Delhivery's revenue rose 28% to almost ₹3,000 crore in the April to June quarter, though its operating margin fell to 4.9% as wages and fuel rose. Shadowfax lifted revenue 65% to ₹1,358 crore and runs 47 of 100 planned dark stores for quick commerce, with Amazon Now among its clients. Blue Dart's revenue reached ₹1,658 crore, against ₹1,442 crore a year earlier.",
+      "src": [
+        24,
+        23,
+        26,
+        27
+      ]
+    },
+    {
+      "p": "Quick commerce is reshaping the last mile. Blinkit ended June with 2,443 dark stores after adding 200 in the quarter. Delhivery has chosen not to chase that market's last mile, describing it as low-margin work that platforms will eventually bring in-house, and serves the warehouses and dark stores behind it instead. The government's intervention on ten-minute delivery shows that labour and road safety now set limits on speed promises.",
+      "src": [
+        28,
+        24,
+        29,
+        30
+      ]
+    },
+    {
+      "p": "India Post is repositioning as a subcontractor for private networks in places they reach less well. The Flipkart agreement covers prepaid and cash-on-delivery parcels with one-time-password confirmation and tracking across more than 160,000 post offices. Our reading is that the post office is becoming the rural and small-town extension of private networks, while it competes head-on only in premium metro products such as 24-hour Speed Post.",
+      "src": [
+        31,
+        32
+      ]
+    },
+    {
+      "h": "China, neighbours and the shape of the region"
+    },
+    {
+      "p": "India's approach to China is selective rather than closed. It banned 59 Chinese-linked apps after the 2020 Galwan clash, yet in March 2026 let companies with up to 10% Chinese ownership use the automatic investment route, and the finance ministry rejected 41.5% of anti-dumping recommendations in 2025-26 up to 31 December. The trade deficit with China reached $112.2 billion that year. Our reading is that Chinese capital will be let in where it helps Indian manufacturing, while Chinese cross-border consumer platforms stay out unless they localise, as Shein did with Reliance.",
+      "src": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "p": "For the neighbours, the American rate is the same but the toolkit is thinner. Bangladesh's garment exporters are covered by the textile tariff-rate quotas and the excess-capacity investigation, and lost the Indian transshipment route in 2025. India's reforms target a different segment, consumer goods and crafts sold online, but its demand for a margin over Bangladesh shows New Delhi sees its neighbours as rivals for the same American shelf.",
+      "src": [
+        14,
+        21,
+        36,
+        17
+      ]
+    },
+    {
+      "h": "Who offers what: the solution landscape"
+    },
+    {
+      "landscape": {
+        "topic": "us-de-minimis",
+        "note": "Since CBP's July rule, an Indian seller's postal parcel to the United States needs a filer acting for the buyer or owner, a bond and item-level data, and several providers offer filing and duty payment for postal and courier shipments."
+      }
+    },
+    {
+      "figures": [
+        {
+          "big": "10%",
+          "label": "Section 301 tariff on Indian goods since 24 July 2026, also applied to Bangladesh, Pakistan and Sri Lanka"
+        },
+        {
+          "big": "100%",
+          "label": "Ceiling on tariffs the Sanctioning Russia and Iran Act authorises on major buyers of Russian energy, signed 18 September 2026"
+        },
+        {
+          "big": "322m",
+          "label": "Delhivery express parcels in April to June 2026, up 55% year on year"
+        },
+        {
+          "big": "1,013",
+          "label": "Dak Ghar Niryat Kendras, India Post's export centres for small firms, as of January 2026"
+        }
+      ],
+      "src": [
+        13,
+        19,
+        24,
+        3
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: deal in waiting, rate holds",
+          "likelihood": "Most likely",
+          "text": "Talks continue without a clear preferential rate, the 10% tariff stays, and the Russia law is used as leverage rather than applied. Indian e-commerce exports to the United States grow through courier and platform stock, while single postal items stay constrained by the filing rules.",
+          "signal": "Statements after further Goyal-Greer meetings that mention an interim text but no rate, and no tariff action under the Russia law in October."
+        },
+        {
+          "name": "Upside: preferential rate and clear filing",
+          "likelihood": "Plausible",
+          "text": "An interim agreement gives Indian goods a rate below their Asian competitors, and India Post and couriers publish workable broker-backed DDP products. With uncapped courier exports and export stock under Press Note 3, India gains share in apparel, home goods and personal care.",
+          "signal": "A signed interim text with a rate below 10%, and a Department of Posts notice on its American service under the new CBP rule."
+        },
+        {
+          "name": "Downside: sanctions tariff on India",
+          "likelihood": "Less likely, high impact",
+          "text": "Washington uses the Russia sanctions law to impose a high tariff on Indian goods. Small-parcel exports to the United States fall as they did after August 2025, sellers divert to the United Kingdom, the Gulf and Europe, and air capacity out of Delhi, Mumbai and Bengaluru loosens.",
+          "signal": "A presidential determination naming India under the Sanctioning Russia and Iran Act."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-10-18",
+          "when": "By about 18 Oct 2026",
+          "what": "Deadline for the tariff provisions of the Sanctioning Russia and Iran Act to take effect, within 30 days of signing"
+        },
+        {
+          "date": "2026-10-22",
+          "when": "22 Oct 2026",
+          "what": "CBP compliance date for partner government agency requirements on postal informal entries"
+        },
+        {
+          "date": "2026-12-01",
+          "when": "Dec 2026",
+          "what": "Expected signature of the India-European Union free trade agreement"
+        },
+        {
+          "date": "2026-12-31",
+          "when": "No date set",
+          "what": "USTR findings in the Section 301 excess-capacity investigations covering India and Bangladesh"
+        },
+        {
+          "date": "2027-07-01",
+          "when": "1 Jul 2027",
+          "what": "Statutory repeal of the United States commercial de minimis exemption"
+        }
+      ],
+      "src": [
+        19,
+        11,
+        18,
+        21,
+        12
+      ]
+    },
+    {
+      "csuite": [
+        "Rebuild the India to United States postal offer around the filing rule: name the filer for each parcel, secure a customs bond and capture ten-digit classification and origin at order level before 22 October.",
+        "Move volume from single postal items to consolidated courier shipments now that the ₹10 lakh cap is gone, and price returns for a 20 to 25% rate using the new customs return module.",
+        "Offer marketplaces an export-inventory product under Press Note 3 of 2026: bonded storage near gateways, consolidation into overseas fulfilment centres and records proving stock never entered domestic retail.",
+        "Write tariff-change clauses into every India to United States contract, triggered by any determination under the Russia sanctions law, and keep routing plans for the United Kingdom, the Gulf and the EU.",
+        "In domestic India, compete on density, not the ten-minute promise: price India Post last-mile injection against own delivery in smaller towns, and target dark-store replenishment over quick-commerce last mile.",
+        "Run data residency and item-level customs data as separate workstreams: India expects data held at home, the United States wants full item data on every parcel."
+      ]
+    },
+    {
+      "impact": "India is lowering the cost of exporting a parcel just as the United States makes each one harder to receive; the winners will be the operators that turn compliance and stock positioning into a product."
+    }
+  ],
+  "glossary": [
+    "CBIC",
+    "FDI",
+    "DGFT",
+    "DDP",
+    "CBP",
+    "IEEPA",
+    "USTR",
+    "FIEO",
+    "CAIT"
+  ],
+  "glossary_add": {
+    "CBIC": [
+      "Central Board of Indirect Taxes and Customs",
+      "India's customs and indirect tax authority, part of the Ministry of Finance."
+    ],
+    "DGFT": [
+      "Directorate General of Foreign Trade",
+      "The Indian commerce ministry body that runs the Foreign Trade Policy and export schemes."
+    ],
+    "FDI": [
+      "Foreign direct investment",
+      "Investment by a foreign company or investor that gives lasting ownership or control of a business in another country."
+    ],
+    "FIEO": [
+      "Federation of Indian Export Organisations",
+      "India's apex body of export promotion councils and exporters."
+    ],
+    "CAIT": [
+      "Confederation of All India Traders",
+      "An Indian lobby group for small retailers and traders, long opposed to foreign-owned e-commerce models."
+    ],
+    "IEEPA": [
+      "International Emergency Economic Powers Act",
+      "A United States emergency law used for tariffs until the Supreme Court struck those tariffs down in February 2026."
+    ],
+    "USTR": [
+      "Office of the United States Trade Representative",
+      "The United States agency that negotiates trade deals and runs Section 301 investigations."
+    ]
+  },
+  "sources": [
+    {
+      "t": "Highlights of Union Budget 2026-27",
+      "pub": "Press Information Bureau, Government of India",
+      "date": "2026-02-01",
+      "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&reg=48&lang=2",
+      "lang": "en"
+    },
+    {
+      "t": "No ₹10 lakh limit anymore: what Budget 2026 just changed for e-commerce exporters",
+      "pub": "Upstox",
+      "u": "https://upstox.com/news/business-news/latest-updates/no-10-lakh-limit-anymore-what-budget-2026-just-changed-for-e-commerce-exporters/article-188766/",
+      "lang": "en"
+    },
+    {
+      "t": "CBIC operationalises comprehensive reforms for e-commerce exports and courier trade from April 1st",
+      "pub": "The Tribune",
+      "date": "2026-03-31",
+      "u": "https://www.tribuneindia.com/news/cbic-reforms/cbic-operationalises-comprehensive-reforms-for-e-commerce-exports-and-courier-trade-from-april-1st",
+      "lang": "en"
+    },
+    {
+      "t": "Export benefits extended to postal channel, relief for MSME exporters",
+      "pub": "KNN India",
+      "date": "2026-01-20",
+      "u": "https://knnindia.co.in/news/newsdetails/msme/export-benefits-extended-to-postal-channel-relief-for-msme-exporters",
+      "lang": "en"
+    },
+    {
+      "t": "Foreign Trade Policy 2023 announced",
+      "pub": "Press Information Bureau, Government of India",
+      "date": "2023-03-31",
+      "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1912572",
+      "lang": "en"
+    },
+    {
+      "t": "First e-commerce export hub may start operations in March: DGFT",
+      "pub": "Outlook Business",
+      "date": "2025-01-16",
+      "u": "https://www.outlookbusiness.com/economy-and-policy/first-e-commerce-export-hub-may-start-operations-in-march-dgft",
+      "lang": "en"
+    },
+    {
+      "t": "India eases FDI rules for inventory-based e-commerce exports",
+      "pub": "India Briefing (Dezan Shira & Associates)",
+      "u": "https://www.india-briefing.com/news/india-fdi-inventory-based-e-commerce-exports-rule-change-46324.html/",
+      "lang": "en"
+    },
+    {
+      "t": "DPIIT relaxes FDI norms for export-oriented inventory-based e-commerce",
+      "pub": "Bar & Bench",
+      "u": "https://www.barandbench.com/law-firms/view-point/dpiit-relaxes-fdi-norms-for-export-oriented-inventory-based-e-commerce",
+      "lang": "en"
+    },
+    {
+      "t": "Trade body calls for rollback of FDI in inventory-based ecom policy",
+      "pub": "Business Standard",
+      "date": "2026-07-24",
+      "u": "https://www.business-standard.com/industry/news/trade-body-calls-for-an-immediate-rollback-of-new-fdi-export-policy-126072401472_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "CAIT welcomes FDI approval for inventory-based e-commerce model for exports, calls for robust safeguards",
+      "pub": "Hindusthan Samachar",
+      "date": "2026-07-24",
+      "u": "https://english.hindusthansamachar.in/Encyc/2026/7/24/CAIT-welcomes-FDI-in-inventory.php",
+      "lang": "en"
+    },
+    {
+      "t": "India to resume international postal services to the United States of America from 15 October 2025",
+      "pub": "Press Information Bureau, Government of India",
+      "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2178929&reg=48&lang=2",
+      "lang": "en"
+    },
+    {
+      "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+      "pub": "Federal Register (CBP)",
+      "date": "2026-06-24",
+      "u": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+      "lang": "en"
+    },
+    {
+      "t": "De minimis exemption slated to end in 2027",
+      "pub": "Supply Chain Dive",
+      "date": "2025-07-04",
+      "u": "https://www.supplychaindive.com/news/de-minimis-ends-trump-big-beautiful-bill/751935/",
+      "lang": "en"
+    },
+    {
+      "t": "And the (Tariff) Beat Goes On: New Section 301 Forced-Labor Tariffs",
+      "pub": "Holland & Knight",
+      "date": "2026-07-24",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/07/and-the-tariff-beat-goes-on",
+      "lang": "en"
+    },
+    {
+      "t": "Section 301 forced labor tariffs on 60 economies, effective July 24 (CBP guidance available)",
+      "pub": "GHY International",
+      "u": "https://www.ghy.com/trade-compliance/ustr-section-301-forced-labor-60-economies/",
+      "lang": "en"
+    },
+    {
+      "t": "United States-India Joint Statement",
+      "pub": "The White House",
+      "date": "2026-02-06",
+      "u": "https://www.whitehouse.gov/briefings-statements/2026/02/united-states-india-joint-statement/",
+      "lang": "en"
+    },
+    {
+      "t": "India-US trade deal hinges on preferential tariff rate, says Piyush Goyal",
+      "pub": "The Hans India",
+      "date": "2026-09-03",
+      "u": "https://www.thehansindia.com/news/national/india-us-trade-deal-hinges-on-preferential-tariff-rate-says-piyush-goyal-1117532",
+      "lang": "en"
+    },
+    {
+      "t": "Piyush Goyal, US trade chief meet in Milwaukee to push India-US trade deal",
+      "pub": "The Tribune",
+      "date": "2026-10-01",
+      "u": "https://www.tribuneindia.com/news/business/piyush-goyal-us-trade-chief-meet-in-milwaukee-to-push-india-us-trade-deal",
+      "lang": "en"
+    },
+    {
+      "t": "100% US tariff a threat but Indian exporters bet on new markets",
+      "pub": "Business Standard",
+      "date": "2026-09-20",
+      "u": "https://www.business-standard.com/amp/economy/news/100-us-tariff-a-threat-but-indian-exporters-bet-on-new-markets-126092000691_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "Trump signs Russia sanctions bill, India and China face 100% tariff threat",
+      "pub": "Outlook India",
+      "u": "https://www.outlookindia.com/international/trump-signs-russia-sanctions-bill-india-and-china-face-100-tariff-threat",
+      "lang": "en"
+    },
+    {
+      "t": "US bill empowers Trump to target India with 100% tariff over Russian energy",
+      "pub": "Business Standard",
+      "date": "2026-09-17",
+      "u": "https://www.business-standard.com/amp/economy/news/us-congress-russia-sanctions-bill-india-tariffs-trump-russian-oil-126091700100_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "USTR launches awaited Section 301 investigations of 16 economies for manufacturing overcapacity",
+      "pub": "Holland & Knight",
+      "date": "2026-03",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/03/ustr-launches-awaited-section-301-investigations",
+      "lang": "en"
+    },
+    {
+      "t": "Amazon says India e-commerce exports top $20 bn, sets $80 bn goal for 2030",
+      "pub": "Outlook Business",
+      "date": "2025-10-27",
+      "u": "https://www.outlookbusiness.com/news/amazon-crosses-20-billion-in-exports-from-india-sets-80-billion-target-by-2030",
+      "lang": "en"
+    },
+    {
+      "t": "Margin worries weigh on logistics major Delhivery's strong growth outlook",
+      "pub": "Business Standard",
+      "date": "2026-08-13",
+      "u": "https://www.business-standard.com/amp/markets/news/margin-worries-weigh-on-logistics-major-delhivery-s-strong-growth-outlook-126081301290_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "Delhivery Ltd (BOM:543529) Q1 2027 earnings call highlights",
+      "pub": "Yahoo Finance (GuruFocus)",
+      "date": "2026-08-08",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/delhivery-ltd-bom-543529-q1-010155471.html",
+      "lang": "en"
+    },
+    {
+      "t": "Delhivery share rises 2% on CCI nod to acquire Ecom Express for ₹1,407 cr",
+      "pub": "Business Standard",
+      "date": "2025-06-18",
+      "u": "https://www.business-standard.com/amp/markets/news/delhivery-share-rises-2-on-cci-nod-to-acquire-ecom-express-for-1-407-cr-125061800205_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "After a stellar Q1, Shadowfax elevates FY27 revenue guidance",
+      "pub": "Inc42",
+      "date": "2026-08-01",
+      "u": "https://inc42.com/buzz/after-a-stellar-q1-shadowfax-elevates-fy27-revenue-guidance/",
+      "lang": "en"
+    },
+    {
+      "t": "Blue Dart delivers robust Q1 FY27 performance; revenue climbs to ₹1,658 crore, PAT up 85%",
+      "pub": "Business Standard (ANI press release)",
+      "date": "2026-08-01",
+      "u": "https://www.business-standard.com/content/press-releases-ani/blue-dart-delivers-robust-q1-fy27-performance-revenue-climbs-to-1-658-crore-pat-up-85-126080100536_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "Strong Q1 FY27 for Eternal, market share gains likely for Blinkit",
+      "pub": "Business Standard",
+      "date": "2026-07-23",
+      "u": "https://www.business-standard.com/amp/markets/news/strong-q1-fy27-for-eternal-market-share-gains-ahead-for-blinkit-126072301405_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "India reportedly tells quick-commerce firms to drop 10-minute delivery promise",
+      "pub": "TechCrunch",
+      "date": "2026-01-13",
+      "u": "https://techcrunch.com/2026/01/13/india-reportedly-tells-quick-commerce-firms-to-drop-10-minute-delivery-promise/",
+      "lang": "en"
+    },
+    {
+      "t": "74% of consumers back limit on 10-minute deliveries: LocalCircles",
+      "pub": "Business Standard",
+      "date": "2026-01-14",
+      "u": "https://www.business-standard.com/industry/news/74-of-consumers-back-limit-on-10-minute-deliveries-localcircles-126011401097_1.html",
+      "lang": "en"
+    },
+    {
+      "t": "Department of Posts and Flipkart sign agreement for last mile parcel delivery services across India",
+      "pub": "Press Information Bureau, Government of India",
+      "date": "2026-05-22",
+      "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264218&reg=48&lang=2",
+      "lang": "en"
+    },
+    {
+      "t": "India Post launches 24- and 48-hour premium delivery services across major cities",
+      "pub": "NewsGram",
+      "date": "2026-03-17",
+      "u": "https://www.newsgram.com/business/2026/03/17/india-post-launches-24-and-48-hour-premium-delivery-services-across-major-cities",
+      "lang": "en"
+    },
+    {
+      "t": "India's China doctrine of selective derisking",
+      "pub": "East Asia Forum, Soumya Bhowmick",
+      "date": "2026-07-28",
+      "u": "https://eastasiaforum.org/2026/07/28/indias-china-doctrine-of-selective-derisking/",
+      "lang": "en"
+    },
+    {
+      "t": "India dilutes FDI curbs on China, softens anti-dumping stance to court trade",
+      "pub": "EcoNiti",
+      "date": "2026-08-02",
+      "u": "https://www.econiti.org/daily-news/2026-08-02/2026-08-02-india-china-us-fdi-anti-dumping-balancing-act/",
+      "lang": "en"
+    },
+    {
+      "t": "Shein relaunches in India as five-year ban ends",
+      "pub": "SupplyChainBrain",
+      "date": "2025-01-31",
+      "u": "https://www.supplychainbrain.com/articles/41144-shein-relaunches-in-india-as-five-year-ban-ends",
+      "lang": "en"
+    },
+    {
+      "t": "3rd country export: India revokes transshipment for Bangladesh",
+      "pub": "The Daily Star",
+      "date": "2025-04-10",
+      "u": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/3rd-country-export-india-revokes-transshipment-bangladesh-3867491",
+      "lang": "en"
+    },
+    {
+      "t": "The India Way: Strategies for an Uncertain World (S. Jaishankar, HarperCollins, 2020)",
+      "pub": "Wikipedia",
+      "u": "https://en.wikipedia.org/wiki/The_India_Way:_Strategies_for_an_Uncertain_World",
+      "lang": "en"
+    },
+    {
+      "t": "War by Other Means: Geoeconomics and Statecraft",
+      "pub": "Harvard University Press, Robert D. Blackwill and Jennifer M. Harris",
+      "u": "https://www.hup.harvard.edu/books/9780674979796",
+      "lang": "en"
+    },
+    {
+      "t": "The National System of Political Economy",
+      "pub": "Online Library of Liberty, Friedrich List",
+      "u": "https://oll.libertyfund.org/titles/lloyd-the-national-system-of-political-economy",
+      "lang": "en"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion (Farrell and Newman), International Security",
+      "pub": "MIT Press",
+      "date": "2019",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    },
+    {
+      "t": "US-India postal disruption raises questions for air cargo and trade flows",
+      "pub": "Air Cargo Week",
+      "date": "2025-08-29",
+      "u": "https://aircargoweek.com/us-india-postal-disruption-raises-questions-for-air-cargo-and-trade-flows/",
+      "lang": "en"
+    },
+    {
+      "t": "India Post resumes all postal services to the US; launches DDP product with 6.5% lower duty on jewellery",
+      "pub": "Solitaire (GJEPC)",
+      "u": "https://gjepc.org/solitaire/india-post-resumes-all-postal-services-to-the-us-launches-ddp-product-with-6-5-lower-duty-on-jewellery/",
+      "lang": "en"
+    }
+  ]
+}

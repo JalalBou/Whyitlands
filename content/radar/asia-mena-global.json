@@ -166,7 +166,7 @@
       "title": "ASEAN digital economy pact set for signature in Manila",
       "jurisdiction": "ASEAN member states",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "trade",
       "status": "proposed",
@@ -223,7 +223,7 @@
       "title": "Indonesia keeps a US$100 floor on cross-border goods sold online",
       "jurisdiction": "Indonesia (Ministry of Trade)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "platforms",
       "status": "in-force",
@@ -270,7 +270,7 @@
       "title": "Vietnam requires foreign marketplaces to post VND 20 billion deposits",
       "jurisdiction": "Vietnam (National Assembly; Government)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "platforms",
       "status": "in-force",
@@ -335,7 +335,7 @@
       "title": "Vietnam's revised Postal Law goes to the National Assembly in October",
       "jurisdiction": "Vietnam (National Assembly)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "postal",
       "status": "proposed",
@@ -394,7 +394,7 @@
       "title": "Thailand taxes every online import from the first baht",
       "jurisdiction": "Thailand (Customs Department; Revenue Department)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "customs",
       "status": "in-force",
@@ -443,7 +443,7 @@
       "title": "Malaysia studies a courier floor price; Budget 2027 due on 9 October",
       "jurisdiction": "Malaysia (Ministry of Finance; Ministry of Communications; MCMC)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "postal",
       "status": "consultation",
@@ -503,7 +503,7 @@
       "title": "Philippines keeps its PHP10,000 de minimis under review",
       "jurisdiction": "Philippines (Department of Finance; Bureau of Customs)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "domain": "customs",
       "status": "consultation",
@@ -552,7 +552,7 @@
       "title": "Japan ends the ¥10,000 consumption-tax exemption on imports in April 2028",
       "jurisdiction": "Japan (National Diet; Ministry of Finance)",
       "regions": [
-        "AS"
+        "NEA"
       ],
       "domain": "tax",
       "status": "adopted",
@@ -609,7 +609,7 @@
       "title": "South Korea makes large foreign marketplaces name a local representative",
       "jurisdiction": "South Korea (National Assembly; Korea Fair Trade Commission)",
       "regions": [
-        "AS"
+        "NEA"
       ],
       "domain": "platforms",
       "status": "adopted",
@@ -666,7 +666,7 @@
       "title": "India removes the value cap on courier exports",
       "jurisdiction": "India (Central Board of Indirect Taxes and Customs)",
       "regions": [
-        "AS"
+        "SAS"
       ],
       "domain": "customs",
       "status": "in-force",
@@ -1105,7 +1105,7 @@
       "title": "India Post revises parcel tariffs and adds a last-mile-only product",
       "jurisdiction": "India (Department of Posts, Parcel Directorate)",
       "regions": [
-        "AS"
+        "SAS"
       ],
       "domain": "postal",
       "status": "in-force",
@@ -1155,7 +1155,7 @@
       "title": "Australia lifts the regulated stamp price to A$1.85 as letter losses persist",
       "jurisdiction": "Australia (Australia Post, regulated Basic Postage Rate)",
       "regions": [
-        "AS"
+        "OCE"
       ],
       "domain": "postal",
       "status": "in-force",
@@ -1204,7 +1204,7 @@
       "title": "Australia funds e-bike safety standards and online marketplace reforms",
       "jurisdiction": "Australia (Federal Government, 2026-27 Budget)",
       "regions": [
-        "AS"
+        "OCE"
       ],
       "domain": "product-safety",
       "status": "proposed",

@@ -22,7 +22,7 @@
       "co": "Sagawa Express (SG Holdings)",
       "type": "pricing",
       "regions": [
-        "AS"
+        "NEA"
       ],
       "text": "Sagawa added a peak surcharge of ¥20 to ¥150 per kg, depending on destination, to its Hikyaku international parcel service for pickups from 1 Oct 2026 to 5 Feb 2027.",
       "src": "LNEWS",
@@ -35,7 +35,7 @@
       "co": "Lalamove",
       "type": "network",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "Lalamove entered Mindanao (Davao, Cagayan de Oro, General Santos and five other cities) and expanded across Panay and Negros in the Visayas, building on its Cebu presence since 2022.",
       "src": "The Philippine Star",
@@ -123,7 +123,7 @@
       "type": "network",
       "regions": [
         "CN",
-        "AS"
+        "SEA"
       ],
       "text": "SF Airlines launched a Boeing 767 Shanghai to Singapore freighter route, building out Changi as its first overseas hub for South-east Asia, South Asia and Oceania under an MoU signed with Changi Airport Group earlier in 2026.",
       "src": "Air Cargo News",
@@ -285,7 +285,7 @@
       "co": "SCommerce (Giao Hang Nhanh)",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "GHN parent SCommerce reported H1 2026 net profit of VND92.4bn, down 94.5%, while bank loans nearly doubled to VND2,049bn to fund automated sorting, including a Tay Ninh hub financed by a VND580bn ADB-guaranteed bond issued in May.",
       "src": "Tuoi Tre",
@@ -419,8 +419,8 @@
       "co": "CJ Logistics / Korea Ocean Business Corporation",
       "type": "capacity",
       "regions": [
-        "AS",
-        "NA"
+        "NA",
+        "NEA"
       ],
       "text": "CJ Logistics and Korea Ocean Business Corporation began full operation of the Elwood logistics centre near Chicago: 102,775 m2 of floor space and 130 loading docks.",
       "src": "Edaily",
@@ -551,7 +551,7 @@
       "co": "SingPost",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "SingPost reported operating profit up 55.2% to S$4.1m for the quarter to June, with domestic parcels up 36.5% to 7.1m items, and commissioned a S$30m automated parcel sortation facility in July targeting more than 10% cost reduction.",
       "src": "Yahoo News Singapore",
@@ -593,7 +593,7 @@
       "co": "J&T Express",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "J&T reported 5.52bn Southeast Asian parcels in H1 2026 (+71.2%) and a 38.1% regional share (+5.3 points), and added 11 sorting lines in the region (75 in total).",
       "src": "J&T Express via Newswire / Investing.com",
@@ -649,7 +649,7 @@
       "co": "Pos Malaysia",
       "type": "network",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "Pos Malaysia's Q2 FY2026 revenue rose 9.0% to RM481.3m, postal parcel volumes grew 34.3% and the H1 pre-tax loss narrowed 30.6% to RM55.4m.",
       "src": "IPC",
@@ -693,7 +693,7 @@
       "co": "Shopee (Sea Ltd)",
       "type": "product",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "Sea said Shopee's instant-delivery orders in Indonesia grew 80% year on year with cost per order down about 20%, and fulfilment orders rose more than 20% quarter on quarter, on Q2 GMV of US$38.3bn.",
       "src": "The Motley Fool (earnings call transcript)",
@@ -736,7 +736,7 @@
       "co": "Viettel Post",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "Viettel Post added 40 refrigerated container trucks for north-south routes in July and deployed in-house AGV sorting robots, after becoming FedEx's network operating partner in Vietnam from April 2026; H1 net profit fell 33%.",
       "src": "VTC News",
@@ -890,7 +890,7 @@
       "co": "J&T Express",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "J&T handled 2.755bn Southeast Asian parcels in Q2 2026 (+63.2%), and added 6 sorting centres (to 127) and 11 automated sorting lines (to 75) in the region.",
       "src": "J&T Express via PR Newswire",
@@ -904,9 +904,9 @@
       "type": "network",
       "regions": [
         "CN",
-        "AS",
         "SA",
-        "ME"
+        "ME",
+        "SEA"
       ],
       "text": "J&T passed 100 million parcels a day in Q2 2026; volume in its new markets (Latin America, Middle East) rose 136.5% to 211 million, South-east Asia 63.2%, China 10.6%.",
       "src": "PR Newswire (J&T Global Express)",
@@ -950,7 +950,7 @@
       "co": "Lazada",
       "type": "closure",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "Lazada cut about 5% of its Southeast Asian workforce, including in Singapore, citing business needs and organisational efficiency.",
       "src": "Mothership",
@@ -1011,7 +1011,7 @@
       "co": "KEX Express (SF Holding)",
       "type": "product",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "SF-owned KEX announced a transformation into an end-to-end logistics provider (fulfilment, customs clearance, freight forwarding) focused on premium and high-value parcels, using more than 15,000 service points in Thailand.",
       "src": "KEX Express",
@@ -1026,7 +1026,7 @@
       "co": "J&T Express",
       "type": "capacity",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "J&T moved 213m Southeast Asian parcels in the 'Double 6' campaign (+83.5%), averaging 35.51m a day and peaking above 37m, with Indonesia up 112% and Thailand up 89%.",
       "src": "J&T Express via PR Newswire",
@@ -1054,7 +1054,7 @@
       "co": "TikTok Shop (Indonesia)",
       "type": "pricing",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "text": "TikTok Shop by Tokopedia began charging sellers up to Rp5,000 per failed delivery and up to Rp5,000 per buyer-preference return, with fees waived for three months and the system active from 1 September 2026.",
       "src": "Bisnis.com",
@@ -1069,7 +1069,7 @@
       "co": "India Post / Flipkart",
       "type": "partnership",
       "regions": [
-        "AS"
+        "SAS"
       ],
       "text": "The Department of Posts and Flipkart signed a last-mile agreement covering prepaid and cash-on-delivery parcels through India Post's network of more than 160,000 post offices.",
       "src": "Cargo Connect",
@@ -1110,7 +1110,7 @@
       "co": "Australia Post",
       "type": "acquisition",
       "regions": [
-        "AS"
+        "OCE"
       ],
       "text": "Australia Post acquired Rendr, a same-day delivery orchestration platform covering nearly 90% of Australians, whose clients include Chemist Warehouse and Jaycar Electronics.",
       "src": "IT Brief Australia",
@@ -1123,7 +1123,7 @@
       "co": "Coupang",
       "type": "capacity",
       "regions": [
-        "AS"
+        "NEA"
       ],
       "text": "Coupang opened its fourth Taiwan fulfilment centre in Taoyuan, extending next-day Rocket Delivery, weekends included, to 70% of Taiwan and adding more than 3,000 jobs.",
       "src": "Seoul Economic Daily",

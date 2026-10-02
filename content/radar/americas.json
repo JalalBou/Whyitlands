@@ -670,7 +670,8 @@
       "regions": [
         "NA",
         "CN",
-        "AS"
+        "NEA",
+        "SAS"
       ],
       "domain": "customs",
       "status": "in-force",

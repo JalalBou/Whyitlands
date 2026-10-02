@@ -3,11 +3,13 @@
   "date": "2026-09-30",
   "date_label": "30 September 2026",
   "section": "Geopolitics · Southeast Asia",
-  "region": "AS",
+  "region": "SEA",
   "regions": [
-    "AS",
     "NA",
-    "CN"
+    "CN",
+    "NEA",
+    "SAS",
+    "SEA"
   ],
   "stories": [
     "asean-digital",

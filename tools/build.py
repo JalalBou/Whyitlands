@@ -27,10 +27,9 @@ SOL = json.loads(_sp.read_text()) if _sp.exists() else None
 _dp = C / "doctrines.json"
 doctrines = json.loads(_dp.read_text()) if _dp.exists() else None
 
-REGION_ORDER = ["GLOBAL", "EMEA", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
-DESK_ORDER = ["EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
-RNAME = {"GLOBAL": "Global", "EMEA": "EMEA", "EU": "EU", "UK": "UK", "NA": "North America", "SA": "South America",
-         "AS": "Asia", "CN": "China", "ME": "Middle East", "NAF": "North Africa"}
+REGION_ORDER = ["GLOBAL", "EMEA", "EU", "UK", "ME", "NAF", "NA", "SA", "APAC", "CN", "NEA", "SEA", "SAS", "OCE"]
+DESK_ORDER = ["EU", "UK", "ME", "NAF", "NA", "SA", "CN", "NEA", "SEA", "SAS", "OCE"]
+RNAME = {"GLOBAL": "Global", "EMEA": "EMEA", "EU": "EU", "UK": "UK", "NA": "North America", "SA": "South America", "APAC": "APAC", "CN": "China", "NEA": "North Asia", "SEA": "Southeast Asia", "SAS": "South Asia", "OCE": "Oceania", "ME": "Middle East", "NAF": "North Africa"}
 LANGS = [("en", "English")]  # English only
 
 PARCEL = ('<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12,2.5 21.5,7.25 12,12 2.5,7.25" fill="#FF8A6A"/>'
@@ -259,7 +258,7 @@ def about_nl():
 <button class="btn btn-ink" type="submit" data-i18n="sign_up">Sign up</button>
 <fieldset class="nl-regions"><legend data-i18n="nl_regions">Your regions: pick one or more</legend><div class="nl-chips">
 <label class="nl-chip"><input type="checkbox" name="regions" value="GLOBAL" checked><span data-i18n="nl_all">All regions</span></label>
-{''.join(f'<label class="nl-chip"><input type="checkbox" name="regions" value="{k}"><span data-region-label="{k}">{RNAME[k]}</span></label>' for k in REGION_ORDER if k not in ("GLOBAL", "EMEA"))}
+{''.join(f'<label class="nl-chip"><input type="checkbox" name="regions" value="{k}"><span data-region-label="{k}">{RNAME[k]}</span></label>' for k in REGION_ORDER if k not in ("GLOBAL", "EMEA", "APAC"))}
 </div></fieldset>
 </form>
 <div class="status" id="nl-status" hidden role="status" style="margin-top:12px"></div>
@@ -270,13 +269,16 @@ def about_nl():
 
 
 EMEA_SET = ["EU", "UK", "ME", "NAF"]
-RN_CODE = {"Middle East": "ME", "North America": "NA", "China": "CN", "EU": "EU", "UK": "UK", "Asia": "AS", "South America": "SA", "North Africa": "NAF", "Global": "GLOBAL"}
+APAC_SET = ["CN", "NEA", "SEA", "SAS", "OCE"]
+GROUPS = {"EMEA": EMEA_SET, "APAC": APAC_SET}
+RN_CODE = {"Middle East": "ME", "North America": "NA", "China": "CN", "EU": "EU", "UK": "UK", "Asia": "SEA", "North Asia": "NEA", "Southeast Asia": "SEA", "South Asia": "SAS", "Oceania": "OCE", "South America": "SA", "North Africa": "NAF", "Global": "GLOBAL"}
 
 
 def show_for(*keys):
     ks = set(keys)
-    if ks & set(EMEA_SET):
-        ks.add("EMEA")
+    for g, members in GROUPS.items():
+        if ks & set(members):
+            ks.add(g)
     return ",".join(sorted(ks))
 
 
@@ -285,7 +287,9 @@ def lead_for(k):
         return next(x for x in briefings if x["slug"] == home["hero"]["briefing"])
     if k == "EMEA":
         return next(x for x in briefings if x.get("region") == "EU")
-    return next((x for x in briefings if x.get("region") == k), briefings[0])
+    if k == "APAC":
+        return next((x for x in briefings if x.get("region") == "SEA"), briefings[0])
+    return next((x for x in briefings if x.get("region") == k), None) or next((x for x in briefings if k in (x.get("regions") or [])), briefings[0])
 
 
 def hero_block(k):
@@ -294,8 +298,8 @@ def hero_block(k):
         h = home["hero"]
         kicker, title, em, dek = h["kicker"], h["title"], h["title_em"], h["dek"]
         chain = [(c["k"], c["t"], c.get("story")) for c in home["chain"]]
-    elif k == "EMEA":
-        e = home["emea"]
+    elif k in ("EMEA", "APAC") and home.get(k.lower()):
+        e = home[k.lower()]
         kicker, title, em, dek = e["kicker"], e["title"], e["title_em"], e["dek"]
         chain = [(c["k"], c["t"], c.get("story")) for c in e["chain"]]
     else:
@@ -317,7 +321,7 @@ def hero_block(k):
 
 
 def home_market_block(k):
-    keys = EMEA_SET if k == "EMEA" else [k]
+    keys = GROUPS.get(k, [k])
     rows = []
     for kk in keys:
         for c in MARKETS.get(kk, {}).get("companies", []):
@@ -674,7 +678,7 @@ def page_doctrines():
 
 # ---------- Market intelligence ----------
 MARKETS = {}
-MARKET_ORDER = ["GLOBAL", "EU", "UK", "NA", "SA", "AS", "CN", "ME", "NAF"]
+MARKET_ORDER = ["GLOBAL", "EU", "UK", "ME", "NAF", "NA", "SA", "CN", "NEA", "SEA", "SAS", "OCE"]
 for _mf in sorted((C / "markets").glob("*.json")) if (C / "markets").exists() else []:
     _md = json.loads(_mf.read_text())
     _ms = _md.get("sources", [])
@@ -1094,7 +1098,7 @@ SH_DIR = {"up": "↑ rising", "down": "↓ falling", "flat": "→ stable", "new"
 
 
 def shoppers_block(k, sid=None):
-    ts = [t for t in SHOP.get("trends", []) if k == "GLOBAL" or k in t.get("regions", []) or (k == "EMEA" and set(t.get("regions", [])) & set(EMEA_SET))]
+    ts = [t for t in SHOP.get("trends", []) if k == "GLOBAL" or k in t.get("regions", []) or (k in GROUPS and set(t.get("regions", [])) & set(GROUPS[k]))]
     if not ts:
         return ""
     def card(t):

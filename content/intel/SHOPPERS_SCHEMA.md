@@ -5,7 +5,7 @@
  "trends": [
   {"key": "kebab-key",
    "theme": "one of: speed | price | duties | ooh | returns | platforms | sustainability | trust | tracking",
-   "regions": ["GLOBAL"|"EU"|"UK"|"NA"|"SA"|"AS"|"CN"|"ME"|"NAF"],
+   "regions": ["GLOBAL"|"EU"|"UK"|"NA"|"SA"|"CN"|"NEA"|"SEA"|"SAS"|"OCE"|"ME"|"NAF"],
    "title": "Short claim in plain words (max ~80 chars)",
    "big": "61%",                      // the headline number, exactly as published
    "label": "of cross-border shoppers say knowing duties and delivery charges before buying is essential",

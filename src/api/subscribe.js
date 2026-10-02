@@ -4,13 +4,16 @@
 // Needs env: BREVO_API_KEY (secret), BREVO_LIST_ID, SENDER_EMAIL.
 import { json, clean, isEmail, esc, readBody, sameOrigin, brevo } from './_lib.js';
 
-const REGIONS = ['GLOBAL', 'EMEA', 'EU', 'UK', 'NA', 'SA', 'AS', 'CN', 'ME', 'NAF'];
+const REGIONS = ['GLOBAL', 'EMEA', 'APAC', 'EU', 'UK', 'NA', 'SA', 'CN', 'NEA', 'SEA', 'SAS', 'OCE', 'ME', 'NAF'];
+const APAC = ['CN', 'NEA', 'SEA', 'SAS', 'OCE'];
 const EMEA = ['EU', 'UK', 'ME', 'NAF'];
 // One or more regions; EMEA expands to its four regions; GLOBAL (or nothing) means all regions.
 function pickRegions(v) {
   let list = Array.isArray(v) ? v : String(v || '').split(',');
-  list = list.map((x) => String(x).trim().toUpperCase()).filter((x) => REGIONS.includes(x));
+  list = list.map((x) => String(x).trim().toUpperCase()).filter((x) => REGIONS.includes(x) || x === 'AS');
+  if (list.includes('AS')) list = list.filter((x) => x !== 'AS').concat(['SEA', 'NEA', 'SAS', 'OCE']);
   if (list.includes('EMEA')) list = list.filter((x) => x !== 'EMEA').concat(EMEA);
+  if (list.includes('APAC')) list = list.filter((x) => x !== 'APAC').concat(APAC);
   list = [...new Set(list)];
   if (!list.length || list.includes('GLOBAL')) return ['GLOBAL'];
   return REGIONS.filter((x) => list.includes(x));

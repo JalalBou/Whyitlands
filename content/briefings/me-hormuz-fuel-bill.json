@@ -6,9 +6,10 @@
   "region": "ME",
   "regions": [
     "ME",
-    "AS",
     "EU",
-    "GLOBAL"
+    "GLOBAL",
+    "SAS",
+    "SEA"
   ],
   "stories": [
     "hormuz-fuel",

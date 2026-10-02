@@ -4,7 +4,7 @@
   "key": "eu-customs-reform-2026",          // unique kebab-case
   "title": "EU customs reform: platforms become the importer",   // short, plain English, max ~80 chars
   "jurisdiction": "European Union",          // who legislates
-  "regions": ["EU"],                         // from: GLOBAL, EU, UK, NA, SA, AS, CN, ME, NAF
+  "regions": ["EU"],                         // from: GLOBAL, EU, UK, NA, SA, CN, NEA (Japan, Korea, Taiwan), SEA (Southeast Asia), SAS (South Asia), OCE (Australia, New Zealand), ME, NAF
   "domain": "customs",                       // one of: customs, tax, trade, product-safety, postal, data, sustainability, labour, platforms
   "status": "adopted",                       // one of: proposed, adopted, in-force, suspended, consultation
   "summary": "Two or three sentences: what the rule does, in plain words.",

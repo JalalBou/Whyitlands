@@ -18,6 +18,7 @@ much must near never next now only other over same should since some such than t
 those through under until upon very want were what when where which while will with within would year years your from rules rule
 parcel parcels goods import imports from new set sets moves move first last under plus each state states""".split())
 EMEA = {"EU", "UK", "ME", "NAF"}
+APAC = {"CN", "NEA", "SEA", "SAS", "OCE"}
 plain = lambda s: re.sub(r"\[\[([^\]]+)\]\]", r"\1", s or "")
 
 
@@ -146,6 +147,7 @@ def index_mentions(C):
 def _rgn(rs):
     s = set(rs or [])
     if "EMEA" in s: s |= EMEA
+    if "APAC" in s: s |= APAC
     return s
 
 

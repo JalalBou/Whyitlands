@@ -1,0 +1,829 @@
+{
+  "slug": "nea-checkout-and-the-kerb",
+  "date": "2026-10-02",
+  "date_label": "2 October 2026",
+  "section": "Geopolitics · North Asia",
+  "region": "NEA",
+  "regions": [
+    "NEA",
+    "NA",
+    "CN",
+    "SEA"
+  ],
+  "stories": [
+    "de-minimis-end",
+    "us-china-rivalry",
+    "platforms-go-local"
+  ],
+  "title": "North Asia moves the parcel tax to the checkout as its delivery capacity runs short",
+  "dek": "Japan will tax low-value imports at the point of sale from 2028, Korea is making foreign platforms answer locally, and Washington has reset tariffs on all three economies. For carriers, the value now lies in platform data at the border and in scarce hours at the door.",
+  "keypoints": [
+    "Japan ends the consumption-tax exemption for imports of ¥10,000 or less from 1 April 2028, with registered sellers and large platforms collecting at checkout; registration opens on 1 October 2027.",
+    "Korea requires large foreign platforms to appoint a domestic agent from 21 January 2027, keeps its $150 duty-free limit under review, and has fined Coupang 624.68 billion won over a data breach.",
+    "Since 24 July, combined US tariffs are capped at 12.5% for Japan and Korea and 10% for Taiwan, with an excess-capacity investigation still pending.",
+    "Japan's driver-hours cap and new shipper duties keep capacity tight; Japan Post raised Yu-Pack rates by 10% in October and Yamato sees room for more price increases.",
+    "North Asian export parcels to the United States now travel duty paid, while Korean online sales to American shoppers rose 56.8% in the second quarter."
+  ],
+  "body": [
+    {
+      "h": "What is happening"
+    },
+    {
+      "p": "North Asia is rewriting the economics of the parcel from both ends at once. At the border, Japan, South Korea and Taiwan are deciding who collects tax on cheap imports and who answers for the platforms that sell them. At the door, Japan is short of drivers and Korea is arguing about how much night work its delivery model can demand. Across the Pacific, Washington has reset its tariffs on all three economies and tied them to investment pledges. The parcel sits where these pressures meet.",
+      "src": [
+        0,
+        36,
+        6,
+        14
+      ]
+    },
+    {
+      "p": "Japan has made the biggest decision. Its fiscal 2026 tax reform outline, adopted on 26 December 2025, makes sales of imported goods worth ¥10,000 or less subject to consumption tax at the point of sale, and introduces a platform taxation system that shifts the tax obligation on such sales to platform operators. Specialist reporting puts the start at 1 April 2028, with registration for sellers opening on 1 October 2027 and a registration duty for sellers of more than ¥10 million a year of such goods. Platforms facilitating more than ¥5 billion of sales become deemed suppliers. The tax outline deals with consumption tax, not customs duty.",
+      "src": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "p": "The scale explains the urgency. The Yomiuri Shimbun reported that imports of ¥10,000 or less reached 169.66 million cases in 2024, worth ¥425.8 billion, about five times the level of five years earlier. The Finance Ministry's own explanation names two problems: competitive imbalance created by the exemption, and non-filing by foreign businesses.",
+      "src": [
+        3,
+        4
+      ]
+    },
+    {
+      "p": "Korea has chosen a different instrument. Under an E-Commerce Act decree approved on 14 July 2026, foreign online businesses with prior-year sales of at least 1 trillion won, or at least 1 million monthly domestic visitors, must appoint a domestic agent from 21 January 2027. Korea's own duty-free limit of $150 ($200 for some American goods) is unchanged; the Ministry of Economy and Finance said in October 2025 that it was reviewing the system, after 184.18 million overseas direct purchases in 2024.",
+      "src": [
+        36,
+        40
+      ]
+    },
+    {
+      "p": "Taiwan has so far held back. Its rules let consumers import goods worth NT$2,000 or less duty free up to six times every six months. In April 2025 the finance minister said a proposal to lower the limit to NT$1,000 for goods from China would be considered; by early 2026 she told legislators there were no plans to abolish the exemption, according to a Taipei Times editorial that criticised the reversal.",
+      "src": [
+        44,
+        43
+      ]
+    },
+    {
+      "p": "Washington's tariffs complete the picture. After the Supreme Court struck down the tariffs imposed under the International Emergency Economic Powers Act, known as [[IEEPA]], the Office of the United States Trade Representative, [[USTR]], applied Section 301 tariffs from 24 July 2026. For Japan and Korea the combined [[MFN]] and Section 301 rate generally will not exceed 12.5%; for Taiwan the ceiling is 10%. All three are also among 16 economies in a Section 301 excess-capacity investigation opened on 11 March 2026, with findings pending. The American $800 de minimis exemption is suspended for all modes, with statutory repeal on 1 July 2027.",
+      "src": [
+        14,
+        18,
+        19,
+        22
+      ]
+    },
+    {
+      "h": "Points of view"
+    },
+    {
+      "views": [
+        {
+          "actor": "Tokyo: Ministry of Finance and MLIT",
+          "stance": "Tax the parcel at the point of sale, and ration scarce trucking.",
+          "text": "The Finance Ministry frames the reform as fairness: the exemption created a competitive imbalance and foreign sellers did not file. The transport ministry, [[MLIT]], estimates a transport capacity shortfall in fiscal 2030 of about 7% on average assumptions and up to about 25% in the worst case, and relies on shippers as well as carriers to close it.",
+          "src": [
+            4,
+            6
+          ]
+        },
+        {
+          "actor": "Seoul: KFTC, PIPC and the National Assembly",
+          "stance": "Make every platform, domestic or foreign, answerable in Korea.",
+          "text": "The Korea Fair Trade Commission, [[KFTC]], is reaching foreign platforms through domestic agents. The Personal Information Protection Commission, [[PIPC]], fined Coupang 624.68 billion won in June over a breach affecting 37.5 million people. In August Coupang refused a KFTC inspection four times, citing the seven-day notice rule, and chair Ju Biung-ghi said he would pursue criminal charges.",
+          "src": [
+            36,
+            30,
+            31
+          ]
+        },
+        {
+          "actor": "Taipei: Executive Yuan",
+          "stance": "Lock in the American deal first; keep the parcel door open for now.",
+          "text": "Taiwan signed its Agreement on Reciprocal Trade with the United States on 12 February 2026, pending approval by the Legislative Yuan. Vice Premier Cheng Li-chiun said the final rate depends on an American determination once both Section 301 investigations end. Economist Chang Chien-yi argued the lower rate could help Taiwanese manufacturers against rivals in Japan and China.",
+          "src": [
+            21,
+            15,
+            16
+          ]
+        },
+        {
+          "actor": "Washington: White House, USTR and Congress",
+          "stance": "Tariff relief is the price of investment and alignment.",
+          "text": "On 5 September Japan's trade minister Ryosei Akazawa said the two sides had reaffirmed that last year's agreement remains unchanged. Korea's trade minister Kim Jeong-kwan said on 1 October that Washington will keep the rate at about 15%, under Section 301 or in any other form. In February, Republican House chairs Jim Jordan and Scott Fitzgerald accused Seoul of targeted attacks on Coupang, a US-listed company.",
+          "src": [
+            20,
+            17,
+            34
+          ]
+        },
+        {
+          "actor": "Beijing and Chinese platforms",
+          "stance": "Use leverage on Tokyo; go local in Seoul.",
+          "text": "After Prime Minister Sanae Takaichi said in November 2025 that a Chinese attack on Taiwan could be an existential threat to Japan, Beijing restricted exports of dual-use items, including rare earths, to Japan from 6 January 2026. In Korea, where AliExpress and Temu sales reached 4.28 trillion won in 2024, the KFTC cleared a Gmarket and AliExpress joint venture on condition that domestic consumer data stay separate, and Temu secured a logistics hub in Gimpo. Beijing's truce with Washington now runs to 10 January 2027.",
+          "src": [
+            45,
+            37,
+            38,
+            39,
+            46
+          ]
+        },
+        {
+          "actor": "Coupang",
+          "stance": "Customers came back; the model is exportable.",
+          "text": "Founder Bom Kim told investors that most of the spend lost after the breach has already returned. Coupang booked about $410 million of Korean fines in the second quarter, which it will appeal, and a $570 million net loss. In Taiwan, he said, dawn delivery came one year into the logistics build, against four in Korea.",
+          "src": [
+            29,
+            28
+          ]
+        },
+        {
+          "actor": "Carriers and posts",
+          "stance": "Price for scarcity and pick volumes carefully.",
+          "text": "Yamato says unit prices rose as planned and there is still ample room for further increases. Japan Post raised Yu-Pack rates by an average of 10% from October. In Korea, the KFTC fined Coupang Logistics Services, CJ Logistics, Lotte Global Logistics, Hanjin and Logen 3.078 billion won in May for contracts shifting liability for safety accidents onto delivery agencies.",
+          "src": [
+            13,
+            12,
+            32
+          ]
+        },
+        {
+          "actor": "Merchants and consumers",
+          "stance": "Sellers want a level field; shoppers want cheap goods and fast delivery.",
+          "text": "Korean small merchants protested in February against letting large marts deliver at dawn. Consumers push back too: in May 2024 Seoul dropped a planned ban on 80 categories of uncertified overseas purchases within days, and a petition against limits on overnight delivery gathered 67,928 signatures. Korean exporters are the quiet winners, with online sales abroad up 38.7% in the second quarter.",
+          "src": [
+            34,
+            41,
+            33,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "p": "The disagreements cut across the usual lines. Tokyo and Seoul both want a level field for domestic sellers, but Tokyo uses tax collection and Seoul uses legal presence and data rules. Washington defends Coupang as American while pressing Korea to keep investing in the United States. Chinese platforms partner with Korean groups even as Beijing pressures Japan.",
+      "src": [
+        0,
+        36,
+        34,
+        38,
+        45
+      ]
+    },
+    {
+      "h": "Reading it through doctrines"
+    },
+    {
+      "doctrines": [
+        {
+          "school": "Liberal institutionalism and the rules-based trade order (Keohane)",
+          "reading": "Robert Keohane argued that institutions let states cooperate by lowering transaction costs. Japan follows a shared template: in 2019 the [[OECD]] recommended making digital platforms liable for [[VAT]] on sales by online traders.",
+          "parcel": "Where the platform is the taxpayer, the carrier transmits data that must match the platform's records. One data model reusable across markets pays off.",
+          "src": [
+            48,
+            47,
+            0
+          ]
+        },
+        {
+          "school": "Economic nationalism and neo-mercantilism (Hamilton, List, Lighthizer)",
+          "reading": "Robert Lighthizer's view that trade deals should be judged by what they do for domestic industry runs through Washington's approach. Ceilings of 12.5% and 10% are granted against investment pledges and a reciprocal agreement, with the excess-capacity case as a second lever.",
+          "parcel": "North Asian exporters to the United States should treat duty-paid delivery as permanent and rates as revisable. Contracts priced on today's ceiling need clauses for the excess-capacity result.",
+          "src": [
+            50,
+            14,
+            17,
+            19
+          ]
+        },
+        {
+          "school": "Weaponised interdependence (Farrell and Newman)",
+          "reading": "Henry Farrell and Abraham Newman describe how states that control network hubs can watch flows and cut them off. Beijing's controls on Japan use a mineral chokepoint for political signalling; Seoul's data separation condition on the Gmarket and AliExpress venture treats platform data as a hub to protect.",
+          "parcel": "Shipment and customer data become regulated assets in Korea, and carriers holding them inherit the obligations. Inputs for electronics and other categories bound for Japan carry a supply risk that can halt goods with little notice.",
+          "src": [
+            49,
+            45,
+            38
+          ]
+        },
+        {
+          "school": "Hedging and multi-alignment (Kuik)",
+          "reading": "Kuik Cheng-Chwee describes how smaller states engage rival powers while keeping fallback options. Tokyo, Seoul and Taipei are American allies, not hedgers in the Southeast Asian sense, yet each pays for access to the United States while keeping deep ties with China. Taiwan's caution on parcel taxes and Korea's slow threshold review avoid a direct move against Chinese platforms.",
+          "parcel": "Expect separate compliance tracks: duty-paid, origin-heavy flows to the United States, and lighter but tightening rules for Chinese goods coming in. Rules for the two directions will not converge soon.",
+          "src": [
+            51,
+            21,
+            43,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Why it lands on the parcel: the platform becomes the taxpayer"
+    },
+    {
+      "p": "Our reading: the Japanese reform changes who carries the data, not only who pays. Today a parcel of ¥10,000 or less enters free of consumption tax. From April 2028 the tax is charged when the shopper pays, by a registered seller or a deemed-supplier platform, and the registration system is designed to exempt registered sellers from import consumption tax if proper procedures are followed. That only works if the declaration at the border can be matched to the registered sale.",
+      "src": [
+        1,
+        2
+      ]
+    },
+    {
+      "p": "The likely effect is a split in the inbound flow. Large platforms and registered sellers will clear quickly on data they already hold. Unregistered sellers below the ¥10 million threshold will need another route, and the consumer may face tax at the door. Inbound carriers and posts should expect to be asked for matching data rather than for collection.",
+      "src": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "p": "Korea's route reaches the same place by another road. A domestic agent makes a foreign platform answerable to the KFTC, and the decree raises the surcharge ceiling for repeat violations. The parcel itself still enters under the $150 limit. Our reading is that Seoul will keep regulating the platform rather than the parcel until the threshold review ends, because the 2024 reversal showed the political cost of measures that consumers feel directly. In the first eight months of 2025, goods from China made up 77.7% of overseas direct purchase transactions.",
+      "src": [
+        36,
+        41,
+        40
+      ]
+    },
+    {
+      "h": "The door: fewer drivers, more parcels, higher prices"
+    },
+    {
+      "p": "Japan delivered 5.03 billion parcels in fiscal 2024, up 0.5%, three services carrying about 95% of truck volume. Since April 2024 truck drivers have been limited to 960 hours of overtime a year. From April 2026 the revised logistics law requires large shippers to file plans and reports and to appoint a chief logistics officer, [[CLO]]; reporting puts the threshold at 90,000 tonnes a year. In April 2026, 7.6% of parcels needed a second delivery attempt, and 31.0% used lockers, pick-up points or other alternatives; the government target is about 50% by 2030.",
+      "src": [
+        8,
+        5,
+        10,
+        9,
+        7
+      ]
+    },
+    {
+      "p": "The carriers are responding differently. Yamato grew volumes by 1.0% in the first quarter while raising prices for large corporate customers. Sagawa Express grew parcel volumes by 7.0% to June, with cross-border e-commerce among the drivers. Japan Post's Yu-Pack grew 7.5% to May, its small Yu-Packet product 9.6%, and its rates rose 10% from October. Japan Post lost its truck operating licence for about 2,500 vehicles in June 2025, for five years, after failures in driver alcohol checks. Our reading: capacity, not demand, now sets the price of a Japanese parcel.",
+      "src": [
+        12,
+        13,
+        11
+      ]
+    },
+    {
+      "p": "Korea's last mile is run by platforms and five carriers that, the KFTC says, hold more than 90% of the parcel market. Coupang's product commerce arm served 24.7 million active customers in the second quarter. The debate is about labour, not capacity: a government-led committee reviewed a cap of 12 night shifts a month for delivery workers, and a bill to let large marts deliver at dawn has been stuck in committee since May. In our view, any rule on night work changes the cost of next-morning delivery for every operator.",
+      "src": [
+        32,
+        28,
+        33,
+        35
+      ]
+    },
+    {
+      "h": "The export parcel: duty paid, and more of it"
+    },
+    {
+      "p": "The outbound flow is larger than many assume. Japan's trade ministry, [[METI]], estimated purchases by American consumers from Japanese businesses at ¥1.5978 trillion in 2024 and by Chinese consumers at ¥2.6372 trillion. In Korea, online direct sales abroad reached 1.2032 trillion won in the second quarter of 2026, up 38.7%, with sales to the United States up 56.8% and cosmetics at 745.8 billion won. Korean direct purchases from China fell 5.7% in the same quarter.",
+      "src": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "p": "The end of American de minimis interrupted these flows, then reshaped them. Korea Post resumed its [[EMS]] service to the United States on 22 September 2025, with the sender paying duty. Japan Post suspended United States mail on 27 August 2025 and resumed all postal items on 14 April 2026, requiring prepaid duties and a [[DDP]] mark for items from $100 to $2,500 through a certified duty-prepayment provider. Our reading: the North Asian export parcel to the United States is now duty paid by default, which favours sellers that calculate landed cost at checkout.",
+      "src": [
+        24,
+        23,
+        22
+      ]
+    },
+    {
+      "p": "Coupang's Taiwan business shows the other export route: stock placed in the destination market. The company has more than 10,000 Korean sellers in Taiwan, opened a fourth fulfilment centre in Taoyuan in April and says Rocket Delivery reaches about 70% of Taiwan's territory. In our view this is the regional answer to tariffs and thresholds: turn a cross-border parcel into a domestic one.",
+      "src": [
+        42,
+        29
+      ]
+    },
+    {
+      "h": "Who offers what: the solution landscape"
+    },
+    {
+      "landscape": {
+        "topic": "landed-cost-ddp",
+        "note": "Japan's point-of-sale tax from April 2028 and duty-paid postal exports to the United States both require tax and duty to be calculated and collected at checkout, a service several providers sell to merchants and platforms."
+      }
+    },
+    {
+      "figures": [
+        {
+          "big": "169.7m",
+          "label": "Imports of ¥10,000 or less into Japan in 2024, about five times the level of five years earlier"
+        },
+        {
+          "big": "5.03bn",
+          "label": "Parcels delivered in Japan in fiscal 2024, up 0.5%, under a 960-hour annual overtime cap for truck drivers"
+        },
+        {
+          "big": "+56.8%",
+          "label": "Growth in Korean online direct sales to the United States, second quarter of 2026"
+        },
+        {
+          "big": "12.5%",
+          "label": "Ceiling on combined MFN and Section 301 tariffs for Japan and Korea since 24 July 2026 (10% for Taiwan)"
+        }
+      ],
+      "src": [
+        3,
+        8,
+        26,
+        14
+      ]
+    },
+    {
+      "scenarios": [
+        {
+          "name": "Base case: platforms collect, carriers relay, prices rise",
+          "likelihood": "Most likely",
+          "text": "Japan keeps April 2028 and large platforms register early. Korea enforces domestic agents and keeps the $150 limit. Washington's excess-capacity result lands near the 15% Seoul describes. Japanese parcel prices rise faster than volumes.",
+          "signal": "Japanese administrative guidance on registration and data exchange published well before 1 October 2027."
+        },
+        {
+          "name": "Upside: a regional data standard",
+          "likelihood": "Possible",
+          "text": "Platforms, posts and customs agree common data feeds, so declarations match platform records automatically. Registered flows clear faster, and lockers and pick-up points reach Japan's 50% target early.",
+          "signal": "Japan Customs or MLIT pilots with named platforms, and a rising share of non-contact delivery in MLIT's twice-yearly survey."
+        },
+        {
+          "name": "Downside: tariff stacking and a labour squeeze",
+          "likelihood": "Less likely, high impact",
+          "text": "Excess-capacity tariffs stack above current ceilings, Korea caps night work tightly, and China widens pressure on Japan. Export parcels to the United States shrink and Korean next-day delivery costs jump.",
+          "signal": "USTR findings with rates above 15% for Japan or Korea, or a Korean bill limiting night delivery passed into law."
+        }
+      ]
+    },
+    {
+      "watch": [
+        {
+          "date": "2026-12-31",
+          "when": "By end 2026 (no date set)",
+          "what": "USTR findings in the Section 301 excess-capacity investigations covering Japan, Korea and Taiwan"
+        },
+        {
+          "date": "2027-01-10",
+          "when": "10 Jan 2027",
+          "what": "Expiry of the extended US-China trade truce"
+        },
+        {
+          "date": "2027-01-21",
+          "when": "21 Jan 2027",
+          "what": "Korea: foreign platforms above the sales or user thresholds must have appointed a domestic agent"
+        },
+        {
+          "date": "2027-07-01",
+          "when": "1 Jul 2027",
+          "what": "Statutory repeal of the American de minimis exemption"
+        },
+        {
+          "date": "2027-10-01",
+          "when": "1 Oct 2027",
+          "what": "Japan opens registration for sellers of low-value goods"
+        },
+        {
+          "date": "2028-04-01",
+          "when": "1 Apr 2028",
+          "what": "Japan ends the consumption-tax exemption on imports of ¥10,000 or less"
+        }
+      ]
+    },
+    {
+      "csuite": [
+        "Build a Japan 2028 plan: map which shippers will register, which platforms will be deemed suppliers, and what data each must pass to customs.",
+        "Agree data feeds with large platforms before 1 October 2027, and offer unregistered small sellers a compliant route.",
+        "Price Japanese capacity as scarce: index contracts to driver costs and reward shippers that accept lockers and pick-up points.",
+        "In Korea, confirm which entity answers to the KFTC and the PIPC for each platform you serve, and document data flows.",
+        "Make duty-paid the default for North Asian exports to the United States: calculate landed cost at checkout, and include a re-opener for the excess-capacity tariff result in contracts signed this autumn.",
+        "Test in-market stock for fast-moving Korean and Japanese brands, as Coupang does in Taiwan, against the cost of direct duty-paid parcels."
+      ]
+    },
+    {
+      "impact": "In North Asia the cheap parcel will survive, but it will be taxed at checkout, paid for in scarce delivery hours and carried by whoever holds the data."
+    }
+  ],
+  "glossary": [
+    "IEEPA",
+    "USTR",
+    "MFN",
+    "MLIT",
+    "KFTC",
+    "PIPC",
+    "OECD",
+    "VAT",
+    "CLO",
+    "METI",
+    "EMS",
+    "DDP"
+  ],
+  "glossary_add": {
+    "IEEPA": [
+      "International Emergency Economic Powers Act",
+      "A United States emergency law used for tariffs until the Supreme Court struck those tariffs down in February 2026."
+    ],
+    "USTR": [
+      "Office of the United States Trade Representative",
+      "The United States agency that negotiates trade deals and runs Section 301 investigations."
+    ],
+    "MFN": [
+      "Most-favoured-nation",
+      "The standard, non-discriminatory tariff rate a WTO member applies to imports from other members."
+    ],
+    "MLIT": [
+      "Ministry of Land, Infrastructure, Transport and Tourism",
+      "Japan's ministry for transport and logistics policy, including trucking rules and parcel delivery statistics."
+    ],
+    "KFTC": [
+      "Korea Fair Trade Commission",
+      "South Korea's competition and consumer protection authority, which enforces the E-Commerce Act."
+    ],
+    "PIPC": [
+      "Personal Information Protection Commission",
+      "South Korea's data protection authority."
+    ],
+    "OECD": [
+      "Organisation for Economic Co-operation and Development",
+      "An intergovernmental organisation of 38 member countries that sets common standards, including guidelines on VAT for cross-border online sales."
+    ],
+    "CLO": [
+      "Chief logistics officer",
+      "An executive that large Japanese shippers must appoint under the revised logistics law in force since April 2026."
+    ],
+    "METI": [
+      "Ministry of Economy, Trade and Industry",
+      "Japan's ministry for industry and trade, which publishes the annual e-commerce market survey."
+    ],
+    "EMS": [
+      "Express Mail Service",
+      "The international express postal service run by posts within the Universal Postal Union."
+    ]
+  },
+  "sources": [
+    {
+      "t": "令和８年度税制改正の大綱の概要",
+      "pub": "Ministry of Finance, Japan",
+      "date": "2025-12-26",
+      "u": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/08taikou_gaiyou.htm",
+      "lang": "ja"
+    },
+    {
+      "t": "Japan to introduce point-of-sale consumption tax for low value goods from April 2028",
+      "pub": "VATupdate",
+      "date": "2026-01-17",
+      "u": "https://www.vatupdate.com/2026/01/17/japan-to-introduce-point-of-sale-consumption-tax-for-low-value-goods-from-april-2028/",
+      "lang": "en"
+    },
+    {
+      "t": "Japan Consumption Tax low-value parcel threshold ends 2028",
+      "pub": "VATCalc",
+      "u": "https://www.vatcalc.com/japan/japan-consumption-tax-low-value-consignment-threshold/",
+      "lang": "en"
+    },
+    {
+      "t": "Japan Finance Ministry considering consumption tax on low-cost imported goods priced at ¥10,000 or less (The Yomiuri Shimbun)",
+      "pub": "Asia News Network",
+      "date": "2025-05-16",
+      "u": "https://asianews.network/japan-finance-ministry-considering-consumption-tax-on-low-cost-imported-goods-priced-at-10000-or-less/",
+      "lang": "en"
+    },
+    {
+      "t": "特集 令和8年度 税制改正（国税）等について",
+      "pub": "Ministry of Finance, Japan (Finance magazine)",
+      "date": "2026-04",
+      "u": "https://www.mof.go.jp/public_relations/finance/202604/202604c.html",
+      "lang": "ja"
+    },
+    {
+      "t": "Money and labor shortages: changes affecting people's lives in Japan from April 2024",
+      "pub": "Nippon.com",
+      "u": "https://www.nippon.com/en/japan-data/h01952/",
+      "lang": "en"
+    },
+    {
+      "t": "2030年度に想定される輸送力不足への対応方針",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "u": "https://www.mlit.go.jp/seisakutokatsu/freight/content/001984794.pdf",
+      "lang": "ja"
+    },
+    {
+      "t": "宅配便の多様な受取方法の利用率は約31.0%",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "date": "2026-07-10",
+      "u": "https://www.mlit.go.jp/report/press/tokatsu01_hh_001025.html",
+      "lang": "ja"
+    },
+    {
+      "t": "令和６年度 宅配便・メール便取扱実績について",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "date": "2025-08-27",
+      "u": "https://www.mlit.go.jp/report/press/jidosha04_hh_000341.html",
+      "lang": "ja"
+    },
+    {
+      "t": "Japan's CLO mandate: logistics moves into the boardroom",
+      "pub": "Value Chain Asia",
+      "date": "2026-04-21",
+      "u": "https://valuechainasia.com/articles/human-resources/japan-chief-logistics-officer-mandate-asia",
+      "lang": "en"
+    },
+    {
+      "t": "物流効率化法について（荷主・物流事業者の皆様へ）",
+      "pub": "Ministry of Land, Infrastructure, Transport and Tourism (MLIT)",
+      "u": "https://www.mlit.go.jp/seisakutokatsu/freight/seisakutokatsu_freight_mn1_000034.html",
+      "lang": "ja"
+    },
+    {
+      "t": "Japan Post stripped of truck transport business license",
+      "pub": "Nippon.com (Jiji Press)",
+      "date": "2025-06-25",
+      "u": "https://www.nippon.com/en/news/yjj2025062500650/japan-post-stripped-of-truck-transport-biz-license.html",
+      "lang": "en"
+    },
+    {
+      "t": "ヤマト・佐川・日本郵便…宅配便の「取扱個数」増加率トップはどこ？【10月から10％値上げも】",
+      "pub": "Diamond Online",
+      "date": "2026-08-07",
+      "u": "https://diamond.jp/articles/-/396527?page=3",
+      "lang": "ja"
+    },
+    {
+      "t": "Q&A summary, first quarter results for the fiscal year ending March 2027 (conducted on 4 August 2026)",
+      "pub": "Yamato Holdings",
+      "date": "2026-08-04",
+      "u": "https://www.yamato-hd.co.jp/investors/library/briefing/pdf/E_1q_faq_2027_03.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "US administration rebuilds global tariff program under Section 301",
+      "pub": "Morgan Lewis",
+      "date": "2026-07-27",
+      "u": "https://www.morganlewis.com/pubs/2026/07/us-administration-rebuilds-global-tariff-program-under-section-301",
+      "lang": "en"
+    },
+    {
+      "t": "Taiwan's Section 301 tariff rate not final: Cheng",
+      "pub": "Focus Taiwan (CNA)",
+      "date": "2026-07-24",
+      "u": "https://focustaiwan.tw/politics/202607240020",
+      "lang": "en"
+    },
+    {
+      "t": "USTR notices a 10% tariff on Taiwan under Section 301",
+      "pub": "Taipei Times",
+      "date": "2026-07-25",
+      "u": "https://www.taipeitimes.com/News/front/archives/2026/07/25/2003861341",
+      "lang": "en"
+    },
+    {
+      "t": "Kim Jeong-kwan: the United States confirmed its stance to keep the tariff rate at around 15%",
+      "pub": "The Kyunghyang Shinmun",
+      "date": "2026-10-01",
+      "u": "https://www.khan.co.kr/en/article/202610010818007/",
+      "lang": "en"
+    },
+    {
+      "t": "US Section 301 tariffs loom; Korea calls 12.5% forced-labor levy unjust",
+      "pub": "Seoul Economic Daily",
+      "date": "2026-07-09",
+      "u": "https://en.sedaily.com/international/2026/07/09/us-section-301-tariffs-loom-korea-calls-125-percent-forced",
+      "lang": "en"
+    },
+    {
+      "t": "USTR launches awaited Section 301 investigations of 16 economies for manufacturing overcapacity",
+      "pub": "Holland & Knight",
+      "date": "2026-03",
+      "u": "https://www.hklaw.com/en/insights/publications/2026/03/ustr-launches-awaited-section-301-investigations",
+      "lang": "en"
+    },
+    {
+      "t": "Japan, US to advance cooperation on US$550 billion trade deal",
+      "pub": "South China Morning Post",
+      "date": "2026-09-05",
+      "u": "https://www.scmp.com/news/asia/east-asia/article/3366458/japan-us-advance-cooperation-us550-billion-trade-deal",
+      "lang": "en"
+    },
+    {
+      "t": "Taiwan, US sign tariff deal",
+      "pub": "Taipei Times",
+      "date": "2026-02-13",
+      "u": "https://www.taipeitimes.com/News/front/archives/2026/02/13/2003852272",
+      "lang": "en"
+    },
+    {
+      "t": "U.S. CBP indefinitely suspends de minimis exemption for all modes",
+      "pub": "KPMG TaxNewsFlash",
+      "date": "2026-06-23",
+      "u": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/cbp-suspends-de-minimis-exemption.html",
+      "lang": "en"
+    },
+    {
+      "t": "News: resumption of acceptance of postal items to the United States",
+      "pub": "Japan Post",
+      "date": "2026-04-13",
+      "u": "https://www.post.japanpost.jp/service/send/oversea/information/2026/0413_01_en.html",
+      "lang": "en"
+    },
+    {
+      "t": "Korea Post resumes express mail service to U.S.",
+      "pub": "Korea JoongAng Daily",
+      "date": "2025-09-22",
+      "u": "https://www.koreajoongangdaily.com/business/korea-post-resumes-express-mail-service-to-us/11739974",
+      "lang": "en"
+    },
+    {
+      "t": "令和6年度 電子商取引に関する市場調査 報告書",
+      "pub": "Ministry of Economy, Trade and Industry (METI)",
+      "date": "2025-08-26",
+      "u": "https://www.meti.go.jp/press/2025/08/20250826005/20250826005-a.pdf",
+      "lang": "ja"
+    },
+    {
+      "t": "2분기 역직구 39% 급증…직구는 14분기 만에 꺾여",
+      "pub": "Seoul Economic Daily",
+      "date": "2026-08-03",
+      "u": "https://www.sedaily.com/article/20075253",
+      "lang": "ko"
+    },
+    {
+      "t": "K-뷰티 열풍, 2분기 역직구 38.7% 급증…직구는 14분기만에 감소",
+      "pub": "Supple",
+      "date": "2026-08-03",
+      "u": "https://supple.kr/news/cmscycvgd003z7r76llxi9o8p",
+      "lang": "ko"
+    },
+    {
+      "t": "Coupang announces results for second quarter 2026",
+      "pub": "Coupang Inc. (investor relations)",
+      "date": "2026-08-04",
+      "u": "https://ir.aboutcoupang.com/news-events/news/news-details/2026/Coupang-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "lang": "en"
+    },
+    {
+      "t": "Q2 2026 Coupang earnings call script",
+      "pub": "Coupang Inc. (investor relations)",
+      "date": "2026-08-04",
+      "u": "https://s206.q4cdn.com/919117365/files/doc_financials/2026/q2/Q2-26-Earnings-Call-Script_.pdf",
+      "lang": "en"
+    },
+    {
+      "t": "One unrevoked key, 37.5 million people: what the Coupang data breach reveals about data access",
+      "pub": "Securiti",
+      "date": "2026",
+      "u": "https://securiti.ai/blog/coupang-data-breach-pipc-fine-data-access/",
+      "lang": "en"
+    },
+    {
+      "t": "Coupang sues Korea Fair Trade Commission over antitrust inspection",
+      "pub": "Korea JoongAng Daily",
+      "date": "2026-08-26",
+      "u": "https://www.koreajoongangdaily.com/business/coupang-turns-away-antitrust-inspectors-in-unprecedented-move-as-ftc-chief-threatens-criminal-referral/12846042",
+      "lang": "en"
+    },
+    {
+      "t": "Korea fines Coupang, CJ Logistics 30.7 billion won over unfair delivery contracts",
+      "pub": "Seoul Economic Daily",
+      "date": "2026-05-18",
+      "u": "https://en.sedaily.com/finance/2026/05/18/coupang-cj-logistics-among-5-delivery-firms-fined-307",
+      "lang": "en"
+    },
+    {
+      "t": "Policymakers review proposal to cap night shifts for delivery workers to 12 per month",
+      "pub": "Korea JoongAng Daily",
+      "date": "2025-12-29",
+      "u": "https://www.koreajoongangdaily.com/business/policymakers-review-proposal-to-cap-night-shifts-for-delivery-workers-to-12-per-month/12284743",
+      "lang": "en"
+    },
+    {
+      "t": "Intensified checks on Coupang... flashpoint for trade talks and small merchants",
+      "pub": "The Asia Business Daily",
+      "date": "2026-02-09",
+      "u": "https://view.asiae.co.kr/en/article/2026020910361803378",
+      "lang": "en"
+    },
+    {
+      "t": "[기획] 납품대금법은 통과, 새벽배송법은 하세월…유통 규제 '엇갈린 시계'",
+      "pub": "Maeil Ilbo",
+      "date": "2026-09-27",
+      "u": "https://www.m-i.kr/news/articleView.html?idxno=1417783",
+      "lang": "ko"
+    },
+    {
+      "t": "매출 1조·월 100만명 이상 접속 해외플랫폼, 국내대리인 의무 지정해야",
+      "pub": "Money Today",
+      "date": "2026-07-14",
+      "u": "https://www.mt.co.kr/economy/2026/07/14/2026071409432386543",
+      "lang": "ko"
+    },
+    {
+      "t": "AliExpress, Temu surge in Korea, topping W4tr in transactions",
+      "pub": "The Korea Herald",
+      "date": "2025-02-11",
+      "u": "https://www.koreaherald.com/article/10417213",
+      "lang": "en"
+    },
+    {
+      "t": "Shinsegae-Alibaba e-commerce venture gets green light",
+      "pub": "Inside Retail Asia",
+      "date": "2025-09-19",
+      "u": "https://insideretail.asia/2025/09/19/shinsegae-alibaba-e-commerce-venture-gets-green-light/",
+      "lang": "en"
+    },
+    {
+      "t": "Temu secures first logistics hub in Korea: reports",
+      "pub": "The Korea Herald",
+      "date": "2025-03-20",
+      "u": "https://www.koreaherald.com/article/10446258",
+      "lang": "en"
+    },
+    {
+      "t": "中 저가제품 유입 창구로 악용... 150弗이하 수입품 면세 손본다",
+      "pub": "Daum News (Korean press report)",
+      "date": "2025-10-12",
+      "u": "https://v.daum.net/v/20251012184647536",
+      "lang": "ko"
+    },
+    {
+      "t": "Korea scraps ban on online purchase of 80 items from abroad",
+      "pub": "KED Global",
+      "date": "2024-05-19",
+      "u": "https://www.kedglobal.com/e-commerce/newsView/ked202405190002",
+      "lang": "en"
+    },
+    {
+      "t": "Coupang turns to Taiwan as key hub for global growth",
+      "pub": "The Korea Times",
+      "date": "2026-09-19",
+      "u": "https://www.koreatimes.co.kr/business/companies/20260919/coupang-turns-to-taiwan-as-key-hub-for-global-growth",
+      "lang": "en"
+    },
+    {
+      "t": "China exploiting duty exemptions (editorial)",
+      "pub": "Taipei Times",
+      "date": "2026-02-03",
+      "u": "https://www.taipeitimes.com/News/editorials/archives/2026/02/03/2003851662",
+      "lang": "en"
+    },
+    {
+      "t": "防中國等低價進口小額包裹 立委提免稅門檻降至1000元 財長允納入考慮",
+      "pub": "Central News Agency (CNA)",
+      "date": "2025-04-16",
+      "u": "https://www.cna.com.tw/news/afe/202504160053.aspx",
+      "lang": "zh"
+    },
+    {
+      "t": "China's rare earth campaign against Japan",
+      "pub": "Center for Strategic and International Studies (CSIS)",
+      "date": "2026-01-13",
+      "u": "https://www.csis.org/analysis/chinas-rare-earth-campaign-against-japan",
+      "lang": "en"
+    },
+    {
+      "t": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "pub": "CNBC",
+      "date": "2026-09-24",
+      "u": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "lang": "en"
+    },
+    {
+      "t": "The role of digital platforms in the collection of VAT/GST on online sales",
+      "pub": "OECD",
+      "date": "2019-06",
+      "u": "https://www.oecd.org/en/publications/2019/06/the-role-of-digital-platforms-in-the-collection-of-vat-gst-on-online-sales_3896ff29.html",
+      "lang": "en"
+    },
+    {
+      "t": "After Hegemony: Cooperation and Discord in the World Political Economy",
+      "pub": "Princeton University Press, Robert O. Keohane",
+      "u": "https://press.princeton.edu/books/paperback/9780691122489/after-hegemony",
+      "lang": "en"
+    },
+    {
+      "t": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion (Farrell and Newman), International Security",
+      "pub": "MIT Press",
+      "date": "2019",
+      "u": "https://direct.mit.edu/isec/article/44/1/42/12237/Weaponized-Interdependence-How-Global-Economic",
+      "lang": "en"
+    },
+    {
+      "t": "No Trade Is Free: Changing Course, Taking on China, and Helping America's Workers",
+      "pub": "HarperCollins, Robert Lighthizer",
+      "date": "2023-06-13",
+      "u": "https://www.harpercollins.com.au/9780063282131/no-trade-is-free/",
+      "lang": "en"
+    },
+    {
+      "t": "Getting hedging right: a small-state perspective",
+      "pub": "China International Strategy Review (Springer), Cheng-Chwee Kuik",
+      "date": "2021-11-01",
+      "u": "https://link.springer.com/article/10.1007/s42533-021-00089-5",
+      "lang": "en"
+    }
+  ]
+}

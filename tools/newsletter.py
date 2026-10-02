@@ -31,7 +31,7 @@ for f in glob.glob(str(C / "briefings" / "*.json")):
     B[b["slug"]] = b
 imp = lambda s: next((x["impact"] for x in B[s]["body"] if "impact" in x), "")
 lead = B.get(cfg.get("lead")) or sorted(B.values(), key=lambda b: b["date"], reverse=True)[0]
-RN = [("EU", "EU"), ("UK", "UK"), ("NA", "North America"), ("SA", "South America"), ("AS", "Asia"), ("CN", "China"), ("ME", "Middle East"), ("NAF", "North Africa")]
+RN = [("EU", "EU"), ("UK", "UK"), ("ME", "Middle East"), ("NAF", "North Africa"), ("NA", "North America"), ("SA", "South America"), ("CN", "China"), ("NEA", "North Asia"), ("SEA", "Southeast Asia"), ("SAS", "South Asia"), ("OCE", "Oceania")]
 by_region = {}
 for b in sorted(B.values(), key=lambda b: b["date"], reverse=True):
     by_region.setdefault(b.get("region"), b)
@@ -77,6 +77,7 @@ preview = cfg.get("preview") or plain(lead["dek"])[:140]
 # in content/newsletter.json to send the same content to everyone.
 PERS = cfg.get("personalise", True)
 EMEA_R = ["EU", "UK", "ME", "NAF"]
+APAC_R = ["CN", "NEA", "SEA", "SAS", "OCE"]
 
 
 def gate(regs, html_):
@@ -84,7 +85,9 @@ def gate(regs, html_):
         return html_
     rs = set()
     for r in regs or []:
-        rs.update(EMEA_R if r == "EMEA" else [r])
+        rs.update(EMEA_R if r == "EMEA" else APAC_R if r == "APAC" else [r])
+    if rs & {"NEA", "SEA", "SAS", "OCE"}:
+        rs.add("AS")  # subscribers who signed up before the Asia split
     if not rs or "GLOBAL" in rs:
         return html_
     tests = " or ".join(f'",{r}," in contact.REGIONS' for r in sorted(rs))

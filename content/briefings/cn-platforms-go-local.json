@@ -8,9 +8,9 @@
     "CN",
     "NA",
     "EU",
-    "AS",
     "SA",
-    "ME"
+    "ME",
+    "SEA"
   ],
   "stories": [
     "platforms-go-local",

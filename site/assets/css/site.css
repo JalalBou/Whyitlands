@@ -877,3 +877,7 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .sh-spon{font-size:12px;color:var(--coral-ink);margin:4px 0 0}
 .src-a,.sh-src a{overflow-wrap:anywhere}.sh,.sh *{min-width:0}
 .sh-src .src-a,.sig-ev .src-a,.moves .src-a{white-space:normal}
+/* Region bar with 14 regions: tighter chips, a fade where it scrolls */
+.regionbar .chips{gap:0;mask-image:linear-gradient(90deg,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 94%,transparent);padding-right:24px}
+.regionbar .chip{padding:0 8px;font-size:13px}
+@media (min-width:1300px){.regionbar .chips{mask-image:none;-webkit-mask-image:none;padding-right:0}}

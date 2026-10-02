@@ -452,7 +452,7 @@
       "carrier": "Japan Post",
       "regions": [
         "NA",
-        "AS"
+        "NEA"
       ],
       "item": "US-bound postal items: duty prepayment requirement",
       "value": "Prepayment required for items valued USD 100 to 2,500",
@@ -468,7 +468,7 @@
     {
       "carrier": "Ninja Van",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Malaysia emergency fuel surcharge, West to East Malaysia and intra-Sabah/Sarawak deliveries",
       "value": "RM1.95 per kg (plus 6% SST)",
@@ -484,7 +484,7 @@
     {
       "carrier": "Pos Malaysia",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Fuel-related surcharge increase",
       "value": "+40%",
@@ -500,7 +500,7 @@
     {
       "carrier": "Flash Express, J&T Express, KEX",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Thailand per-parcel fuel adjustment",
       "value": "+3 baht per parcel",
@@ -516,7 +516,7 @@
     {
       "carrier": "Viettel Post",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Vietnam domestic fuel surcharge, all domestic services",
       "value": "15%",
@@ -532,7 +532,7 @@
     {
       "carrier": "TikTok Shop / Tokopedia",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Indonesia seller logistics service fee (percentage of buyer-paid shipping)",
       "value": "Capped at Rp5,055 per order (TikTok Shop) and Rp10,110 (Tokopedia), before tax; route rates from Rp260",
@@ -548,7 +548,7 @@
     {
       "carrier": "TikTok Shop / Tokopedia",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Indonesia failed-delivery and buyer-preference return charges to sellers",
       "value": "Up to Rp5,000 each (up to Rp10,000 per transaction)",
@@ -564,7 +564,7 @@
     {
       "carrier": "Shopee Indonesia",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Gratis Ongkir XTRA (optional free-shipping programme) seller fee",
       "value": "Example: fashion accessories 7.5% (regular items), 9% (special items); jewellery 2% (max Rp40,000) and 3.5% (max Rp60,000)",
@@ -580,7 +580,7 @@
     {
       "carrier": "Shopee Vietnam",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "PiShip shipping service fee and Voucher Xtra fee",
       "value": "Increased (rates published only as images in source)",
@@ -596,7 +596,7 @@
     {
       "carrier": "Indonesia (Ministry of Trade)",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Minimum price for cross-border goods sold via e-commerce platforms (Permendag 19/2026)",
       "value": "US$100 FOB per unit",
@@ -613,7 +613,7 @@
     {
       "carrier": "Thailand Customs",
       "regions": [
-        "AS"
+        "SEA"
       ],
       "item": "Import duty on low-value online imports",
       "value": "Duty from 1 baht (previous exemption up to 1,500 baht)",
@@ -693,7 +693,7 @@
     {
       "carrier": "Australia Post",
       "regions": [
-        "AS"
+        "OCE"
       ],
       "item": "Contract parcel fuel surcharge (monthly, published 30 days ahead)",
       "value": "11.5% (October 2026); 13.5% (November 2026)",
@@ -709,7 +709,7 @@
     {
       "carrier": "Australia Post",
       "regions": [
-        "AS"
+        "OCE"
       ],
       "item": "Annual price change: domestic and international parcels",
       "value": "Domestic parcels under 5 kg: +4.95% average (retail), +4.25% (contract); international parcels and letters +3.75%; MyPost Business pick-up +9.7%",
@@ -723,7 +723,7 @@
     {
       "carrier": "Japan Post",
       "regions": [
-        "AS"
+        "NEA"
       ],
       "item": "Domestic parcel tariff revision (Yu-Pack, Yu-Packet, Click Post)",
       "value": "Yu-Pack about +10% on average; Yu-Packet flat ¥360 up to 3 cm; Click Post ¥240",

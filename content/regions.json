@@ -278,8 +278,8 @@
       }
     ]
   },
-  "AS": {
-    "name": "ASIA",
+  "SEA": {
+    "name": "SOUTHEAST ASIA",
     "headline": "ASEAN is writing one rulebook for digital trade.",
     "dek": "The ASEAN Digital Economy Framework Agreement, covering cross-border e-commerce and payments, is due to be signed in Manila in November.",
     "expos": [
@@ -305,14 +305,6 @@
     "videos": [],
     "coming": [
       {
-        "date": "2026-10-22",
-        "when": "22–24 Oct 2026",
-        "type": "Expo",
-        "what": "India Warehousing & Logistics Show, Mumbai.",
-        "stories": [],
-        "layer": "market"
-      },
-      {
         "date": "2026-11-16",
         "when": "16–18 Nov 2026",
         "type": "Geopolitics",
@@ -329,7 +321,16 @@
         "what": "DELIVER Asia 2027, Singapore.",
         "stories": [],
         "layer": "market"
-      },
+      }
+    ]
+  },
+  "NEA": {
+    "name": "NORTH ASIA",
+    "headline": "North Asia moves the parcel tax to the checkout.",
+    "dek": "Japan will tax low-value imports at the point of sale from 2028, Korea is making foreign platforms answer locally, and delivery capacity is running short.",
+    "expos": [],
+    "videos": [],
+    "coming": [
       {
         "date": "2028-04-01",
         "when": "1 Apr 2028",
@@ -340,6 +341,80 @@
           "de-minimis-end"
         ],
         "layer": "decision"
+      },
+      {
+        "date": "2027-01-21",
+        "when": "21 Jan 2027",
+        "type": "Regulation",
+        "what": "Korea: large foreign platforms must have appointed a domestic agent.",
+        "stories": [
+          "platforms-go-local"
+        ],
+        "layer": "decision"
+      },
+      {
+        "date": "2027-10-01",
+        "when": "1 Oct 2027",
+        "type": "Regulation",
+        "what": "Japan opens registration for sellers of low-value goods ahead of the 2028 consumption-tax change.",
+        "stories": [
+          "de-minimis-end"
+        ],
+        "layer": "decision"
+      }
+    ]
+  },
+  "SAS": {
+    "name": "SOUTH ASIA",
+    "headline": "India opens the door to parcel exports.",
+    "dek": "New Delhi has removed the courier export cap and opened post offices to exporters, while Washington has ended duty-free parcels and set a 10% tariff.",
+    "expos": [],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2026-10-22",
+        "when": "22–24 Oct 2026",
+        "type": "Expo",
+        "what": "India Warehousing & Logistics Show, Mumbai.",
+        "stories": [],
+        "layer": "market"
+      },
+      {
+        "date": "2026-12-01",
+        "when": "Dec 2026 (expected)",
+        "type": "Geopolitics",
+        "what": "Expected signature of the India-European Union free trade agreement.",
+        "stories": [
+          "us-china-rivalry"
+        ],
+        "layer": "geopolitics"
+      }
+    ]
+  },
+  "OCE": {
+    "name": "OCEANIA",
+    "headline": "Oceania keeps its A$1,000 door open.",
+    "dek": "Australia and New Zealand still let small parcels in duty-free and collect GST at checkout, while fuel and a 12.5% US tariff raise the parcel bill.",
+    "expos": [],
+    "videos": [],
+    "coming": [
+      {
+        "date": "2027-01-01",
+        "when": "Early 2027 (expected)",
+        "type": "Geopolitics",
+        "what": "Expected signature of the Australia-EU free trade agreement.",
+        "stories": [],
+        "layer": "geopolitics"
+      },
+      {
+        "date": "2028-01-01",
+        "when": "2028 (planned)",
+        "type": "Expo",
+        "what": "Planned opening of Amazon’s A$750 million robotic fulfilment centre at Logan, Queensland.",
+        "stories": [
+          "platforms-go-local"
+        ],
+        "layer": "market"
       }
     ]
   },

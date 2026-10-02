@@ -5,6 +5,7 @@
   var I18N = window.WIL_I18N || {};
   var LANGS = ['en'];  // English only
   var EMEA = ['EU', 'UK', 'ME', 'NAF'];
+  var GROUPS = { EMEA: EMEA, APAC: ['CN', 'NEA', 'SEA', 'SAS', 'OCE'] };
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
@@ -32,7 +33,7 @@
   var urlLang = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1];
   var state = {
     lang: LANGS.indexOf(urlLang) > -1 ? urlLang : (LANGS.indexOf(store('wil-lang')) > -1 ? store('wil-lang') : 'en'),
-    region: store('wil-region') || 'GLOBAL',
+    region: (store('wil-region') === 'AS' ? 'APAC' : store('wil-region')) || 'GLOBAL',
     type: 'All'
   };
   function t(k) { var d = I18N[state.lang] || I18N.en || {}; return d[k] !== undefined ? d[k] : ((I18N.en || {})[k] || ''); }
@@ -73,7 +74,8 @@
     if (state.region === 'GLOBAL') return true;
     if (!list || !list.length) return false;
     if (list.indexOf(state.region) > -1) return true;
-    if (state.region === 'EMEA') return list.some(function (r) { return EMEA.indexOf(r) > -1 || r === 'EMEA'; });
+    var grp = GROUPS[state.region];
+    if (grp) return list.some(function (r) { return grp.indexOf(r) > -1 || r === state.region; });
     return false;
   }
   function applyRegion() {
@@ -91,7 +93,7 @@
     $$('[data-filter-regions] .bcard').forEach(function (el) {
       var rs = (el.getAttribute('data-regions') || '').split(',');
       el.hidden = !(inRegion(rs) || rs.indexOf('GLOBAL') > -1);
-      var own = el.getAttribute('data-primary') === state.region || (state.region === 'EMEA' && EMEA.indexOf(el.getAttribute('data-primary')) > -1);
+      var own = el.getAttribute('data-primary') === state.region || (GROUPS[state.region] && GROUPS[state.region].indexOf(el.getAttribute('data-primary')) > -1);
       el.style.order = own ? '0' : (rs.indexOf('GLOBAL') > -1 ? '2' : '1');
       el.classList.toggle('big', own && !$('[data-filter-regions] .bcard.big:not([hidden])') ? true : false);
     });
@@ -108,7 +110,7 @@
     var desks = $$('.desk');
     if (desks.length) {
       var key = state.region;
-      if (!$('#desk-' + key)) key = key === 'EMEA' ? 'EU' : 'EU';
+      if (!$('#desk-' + key)) key = key === 'APAC' ? 'SEA' : 'EU';
       desks.forEach(function (d) { d.hidden = d.id !== 'desk-' + key; });
       $$('#regionbar .chip').forEach(function (c) { c.setAttribute('aria-pressed', String(c.getAttribute('data-region') === key)); });
     }
@@ -116,7 +118,8 @@
   }
   function initRegion() {
     var hash = (location.hash || '').replace('#', '').toUpperCase();
-    if (/^(GLOBAL|EMEA|EU|UK|NA|SA|AS|CN|ME|NAF)$/.test(hash)) state.region = hash;
+    if (/^(GLOBAL|EMEA|APAC|EU|UK|NA|SA|CN|NEA|SEA|SAS|OCE|ME|NAF)$/.test(hash)) state.region = hash;
+    if (hash === 'AS') state.region = 'APAC';
     if (/^SIG-/.test(hash)) {
       state.region = 'GLOBAL';
       setTimeout(function () { var el = document.getElementById(location.hash.slice(1)); if (el) { var d = el.querySelector('details'); if (d) d.open = true; el.scrollIntoView({ block: 'start' }); el.classList.add('sig-hl'); } }, 60);
@@ -275,7 +278,7 @@
   }
   function syncNlRegions() {
     // Pre-select the region the reader is browsing.
-    var want = state.region === 'GLOBAL' ? ['GLOBAL'] : (state.region === 'EMEA' ? EMEA_R : [state.region]);
+    var want = state.region === 'GLOBAL' ? ['GLOBAL'] : (GROUPS[state.region] || [state.region]);
     nlBoxes().forEach(function (b) { b.checked = want.indexOf(b.value) > -1; });
   }
   function initNlRegions() {
