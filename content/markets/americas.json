@@ -256,6 +256,102 @@
             21
           ],
           "stories": []
+        },
+        {
+          "name": "Pitney Bowes",
+          "segment": "Mailing and shipping (SendTech) and presort services, United States",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-29",
+          "revenue": "US$451m",
+          "revenue_chg": "-2% YoY",
+          "ebit": "US$116m",
+          "ebit_label": "Adjusted EBIT",
+          "ebit_chg": "+13% YoY",
+          "margin": "25.7% (adjusted EBIT on revenue)",
+          "vs_prev": "Profit up on lower revenue; full-year adjusted EBIT guidance raised to US$445-475m from US$425-465m.",
+          "volume": "Presort volumes not disclosed in the source used",
+          "highlights": [
+            "SendTech adjusted segment EBIT US$123m (+21%) on revenue of US$309m (-1%)",
+            "Adjusted free cash flow US$148m (+39%); adjusted EPS US$0.43 (+59%)",
+            "US$201m of debt reduction and 4.5m shares repurchased for US$53m"
+          ],
+          "challenges": [
+            "Presort revenue -5% to US$143m",
+            "Presort adjusted segment EBIT -44% to US$20m"
+          ],
+          "outlook": "2026 revenue guidance held at US$1,800-1,860m; adjusted EPS US$1.55-1.70 and adjusted free cash flow US$360-410m (both raised). CEO: Kurt Wolf.",
+          "stories": [],
+          "exposure": "Presort income depends on USPS workshare discounts and mail volumes, and that segment's profit fell by 44%.",
+          "src": [
+            23
+          ]
+        },
+        {
+          "name": "Cargojet",
+          "segment": "Air cargo (Canadian domestic overnight network, ACMI and charter)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-10",
+          "revenue": "C$275.8m",
+          "revenue_chg": "+15.8% YoY (C$250.1m and +5% excluding fuel)",
+          "ebit": "C$87.3m",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "+8.9% YoY",
+          "margin": "31.7% adjusted EBITDA margin (33.7% a year earlier)",
+          "vs_prev": "Net earnings C$7.0m against a C$3.2m loss in Q2 2025; free cash flow C$56.2m against an outflow of C$72.5m.",
+          "volume": "Domestic overnight network revenue excluding fuel C$104.9m (+3%)",
+          "highlights": [
+            "Charter revenue C$57.4m (+37.4%)",
+            "CEO Pauline Dhillon said e-commerce is \"probably\" driving domestic growth, with more direct fulfilment into secondary markets after Hudson's Bay store closures",
+            "New pilot agreement runs to June 2031"
+          ],
+          "challenges": [
+            "ACMI revenue -12.6% to C$54.6m as aircraft moved from Asia-Europe to South American flying",
+            "Fuel costs +45.9% YoY, recovered through contractual fuel surcharges",
+            "Pilot pay up 26% from 1 July 2026, then 5% a year to June 2031"
+          ],
+          "outlook": "Management expects the domestic business to stay strong through Q3 and Q4 2026; no formal guidance in the release.",
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Canada's overnight air network carries parcel volume for the national carriers, and contract fuel surcharges pass the 46% fuel cost rise on to customers.",
+          "src": [
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "name": "Traxión",
+          "segment": "Logistics, freight and personnel transport, Mexico (incl. warehousing and last mile)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-07-27",
+          "revenue": "MXN9,346m",
+          "revenue_chg": "+36.2% YoY",
+          "ebit": "MXN1,217m",
+          "ebit_label": "EBITDA",
+          "ebit_chg": "+1.1% YoY",
+          "margin": "13.0% (EBITDA, our calculation from reported figures)",
+          "vs_prev": "Revenue growth came mainly from logistics after the Solistica acquisition, while EBITDA was almost flat as fuel volatility squeezed the freight and personnel mobility divisions.",
+          "volume": "938,992 m² of warehouse space; 281 last-mile units; 10,823 average fleet units",
+          "highlights": [
+            "Logistics & Technology revenue +124.1%, now 49.4% of group revenue",
+            "Solistica integration ahead of initial projections",
+            "Operating cash flow MXN1,501m; net debt to EBITDA 2.4x"
+          ],
+          "challenges": [
+            "Fuel price volatility temporarily pressured margins in freight and personnel mobility",
+            "Freight mobility affected by the operating environment"
+          ],
+          "outlook": "Reorganisation plan: capex cut of at least MXN500m, general price increases, fewer non-performing assets and a shift towards brokerage; larger contribution expected in H2 2026.",
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Mexico's largest listed logistics group is moving towards asset-light warehousing and brokerage as fuel costs weigh on its truck fleets.",
+          "src": [
+            27,
+            28,
+            29
+          ]
         }
       ],
       "watch": [
@@ -554,6 +650,48 @@
       "date": "2026-09-24",
       "u": "https://reveelgroup.com/resources/fedex-2027-general-rate-increase/",
       "lang": "en"
+    },
+    {
+      "t": "Pitney Bowes lifts 2026 outlook on stronger Q2 profit (8-K)",
+      "u": "https://www.stocktitan.net/sec-filings/PBI/8-k-pitney-bowes-inc-de-reports-material-event-32a4d7d052ac.html",
+      "pub": "Stock Titan (SEC filing)",
+      "date": "2026-07-29"
+    },
+    {
+      "t": "Cargojet Announces Second Quarter Financial Results",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/cargojet-announces-second-quarter-financial-221500672.html",
+      "pub": "Cargojet via Yahoo Finance",
+      "date": "2026-08-10"
+    },
+    {
+      "t": "Cargojet Reports Higher Second-Quarter Revenue and Earnings as Charter Demand Supports Growth",
+      "u": "https://cargonewswire.com/cargojet-reports-higher-second-quarter-revenue-and-earnings-as-charter-demand-supports-growth/",
+      "pub": "Cargo Newswire",
+      "date": "2026-08-12"
+    },
+    {
+      "t": "Cargojet Sees E-Commerce Growth as Retail Shifts in Smaller Canadian Markets",
+      "u": "https://retail-insider.com/retail-insider/2026/08/cargojet-sees-e-commerce-growth-as-retail-shifts-in-smaller-canadian-markets/",
+      "pub": "Retail Insider",
+      "date": "2026-08-20"
+    },
+    {
+      "t": "TRAXION Announces Second Quarter 2026 Results",
+      "u": "https://miranda-newswire.com/es/traxion-announces-second-quarter-2026-results-2/",
+      "pub": "Traxión via Miranda Newswire",
+      "date": "2026-07-27"
+    },
+    {
+      "t": "Logística impulsa los resultados de TRAXION con crecimiento de 36.2% en ingresos durante el 2T de 2026",
+      "u": "https://clusterindustrial.com.mx/logistica-impulsa-los-resultados-de-traxion-con-crecimiento-de-36-2-en-ingresos-durante-el-2t-de-2026/",
+      "pub": "Cluster Industrial",
+      "date": "2026-07-28"
+    },
+    {
+      "t": "TRAXION reporta incremento de ingresos; Movilidad de carga afectado por entorno",
+      "u": "https://t21.com.mx/traxion-reporta-incremento-de-ingresos-movilidad-de-carga-afectado-por-entorno/",
+      "pub": "T21",
+      "date": "2026-07-28"
     }
   ]
 }

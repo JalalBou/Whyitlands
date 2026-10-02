@@ -1,0 +1,886 @@
+{
+ "key": "uk-parcel",
+ "region": "UK",
+ "as_of": "2026-10-02",
+ "title": "UK parcels: volume grows, revenue per parcel falls, and the race moves to lockers",
+ "dek": "UK parcel volumes are rising while real revenue per parcel falls. Royal Mail, Evri, InPost and DPD are all building out-of-home networks as ownership consolidates. Surcharges, the end of the £135 relief and the EU's new duty are adding cost, while Ofcom's focus stays on Royal Mail's letter service.",
+ "stats": [
+  {
+   "big": "4.2bn",
+   "label": "UK measured parcel volumes 2024-25, +7.1% y/y (domestic 3.6bn, +5.8%), Ofcom post monitoring report",
+   "src": 0
+  },
+  {
+   "big": "£3.13",
+   "label": "Average revenue per parcel 2024-25 in real terms, -7.3% y/y, on measured revenue of £13.2bn (-0.8%), Ofcom",
+   "src": 0
+  },
+  {
+   "big": "12%",
+   "label": "Share of measured parcel volumes delivered to out-of-home points in 2024-25, Ofcom",
+   "src": 0
+  },
+  {
+   "big": "+19.8%",
+   "label": "Growth in international inbound parcel volumes 2024-25, against -1.7% for outbound, Ofcom",
+   "src": 0
+  },
+  {
+   "big": "1.4bn",
+   "label": "Royal Mail parcels in the year to 29 March 2026, +7%; Evri passed 1bn (+17%) in the year to 28 February 2026",
+   "src": 6
+  },
+  {
+   "big": "75.7%",
+   "label": "Royal Mail First Class letters delivered next day in 2025-26 against a 93% target; Ofcom opened an investigation on 1 June 2026",
+   "src": 1
+  }
+ ],
+ "players": [
+  {
+   "name": "Royal Mail (International Distribution Services / EP Group)",
+   "type": "Universal service provider",
+   "scale": "1.4bn parcels in the year to 29 March 2026 (+7%), revenue £8.4bn (+2.6%), adjusted operating profit about £5m. About 30,000 out-of-home points including 3,300 lockers and 8,500 Royal Mail Shops; out-of-home volumes +40%.",
+   "strategy": "Royal Mail is rolling out Ofcom's universal service reform across about 1,200 delivery offices, aiming to meet the revised targets by April 2027 with a £500m five-year investment. Parcel growth leans on multi-year deals with Vinted and eBay and a target of 45,000 out-of-home locations by 2030.",
+   "moves": "23 Sep 2026: IDS agreed to buy an open UK network of about 3,000 lockers, due to complete by the end of 2026. 5 Oct 2026: parcel stamp prices up about 8% (First Class small parcel £5.45 to £5.90) while letter stamps are unchanged. Peak surcharge of £0.10 to £5.00 per item from 2 Nov 2026 to 10 Jan 2027.",
+   "pressure": "First Class reached 75.7% against 93% in 2025-26 and Ofcom has opened an investigation that may lead to a penalty, after a £21m fine in October 2025. Wholesale access price rises due on 5 Oct 2026 are suspended while Ofcom resolves a dispute.",
+   "src": [
+    6,
+    42,
+    10,
+    8,
+    1,
+    41,
+    4
+   ]
+  },
+  {
+   "name": "Parcelforce Worldwide",
+   "type": "Royal Mail's express and large-parcel network",
+   "scale": "No separate financial disclosure. Royal Mail planned to move up to 14m Format 4 and above parcels to Parcelforce in 2025-26, about 1.2% of its annual parcel volumes.",
+   "strategy": "Since June 2025 Royal Mail and Parcelforce have run as a unified parcel network with one shipping platform, while the Parcelforce brand and express services continue. Large parcels are being concentrated in the Parcelforce network.",
+   "moves": "7 Apr 2026: domestic Express 48, 24, AM and 10 prices rose. Fuel surcharge raised from 8% to 13% on 3 May 2026 and to 16% from 5 Oct 2026, with a £4.15 manual handling surcharge from the same date.",
+   "pressure": "Fuel surcharge has doubled in five months while express customers can compare against integrator rates updated weekly.",
+   "src": [
+    43,
+    44,
+    48,
+    7,
+    8,
+    33
+   ]
+  },
+  {
+   "name": "Evri Group (incl. DHL eCommerce UK, now Evri Premium)",
+   "type": "Asset-light parcel network",
+   "scale": "Over 1bn parcels in the year to 28 Feb 2026 (+17%), revenue £2.38bn (+29%, including DHL eCommerce UK from October 2025), adjusted EBITDA £402m. Over 11,000 ParcelShops and lockers, 12,000 employees and over 30,000 self-employed couriers.",
+   "strategy": "Evri merged with DHL eCommerce UK in October 2025, with DHL Group taking a significant minority stake and Apollo keeping control; the DHL van network trades as Evri Premium. Targets are 1.4bn parcels a year and 25,000 out-of-home points by 2030, with about £30m of automation at the Barnsley hub for 1.5m parcels a day by Christmas 2026.",
+   "moves": "Sep 2026: a switch from larger centralised depots to smaller local sites caused collection backlogs at some ParcelShops and Post Office branches; Evri added over 100 collection routes and about 330 sweeper vans. Peak period surcharges apply from 2 Nov 2026 to 3 Jan 2027.",
+   "pressure": "Lowest satisfaction score among major operators in Ofcom's research (31%), while it integrates two networks and changes its depot model before peak.",
+   "src": [
+    13,
+    14,
+    16,
+    15,
+    17,
+    18,
+    41
+   ]
+  },
+  {
+   "name": "DPD UK (Geopost)",
+   "type": "Premium next-day parcel network",
+   "scale": "DPDgroup UK turnover £1.5bn in 2024 (+0.6%), operating profit £219m (-3.1%), pre-tax profit £198m (-24.6%). Geopost reported a slight decline in UK sales in 2025.",
+   "strategy": "DPD UK sells on next-day service and its place in the Geopost European network. It plans to add 8,000 lockers over five years to about 12,000 Pickup shops and lockers, and has an electric fleet of over 4,000 vans.",
+   "moves": "11 Sep 2026: ordered 341 Mercedes-Benz eSprinter vans, taking its electric fleet past 4,000. Its rate card effective 2 Mar 2026 includes a £0.15 per parcel conflict surcharge alongside fuel surcharges.",
+   "pressure": "UK sales slipped in 2025 while rivals add volume through mergers; 2025 accounts were due by 30 Sep 2026 and were not yet shown at Companies House on 2 Oct 2026.",
+   "src": [
+    25,
+    27,
+    28,
+    29,
+    30,
+    26
+   ]
+  },
+  {
+   "name": "Amazon Logistics UK",
+   "type": "Marketplace network",
+   "scale": "No UK parcel volume is published. Amazon is investing £40bn in the UK over 2025 to 2027, including fulfilment centres in Hull and Northampton and over 100 existing operations buildings, and is expanding from nine to over 160 electric trucks moving over 300m packages a year.",
+   "strategy": "Amazon's UK network serves its own retail orders; Ofcom research puts Amazon Logistics joint highest with FedEx on satisfaction (57%).",
+   "moves": "May 2026: first UK Prime Air drone deliveries in Darlington, within 7.5 miles of the site, up to 2.2 kg, capped at 100 packages a weekday under a trial approval running to the end of 2026.",
+   "pressure": "Drone service is a small trial; the lack of published UK volumes makes its share of the market hard to measure.",
+   "src": [
+    31,
+    41,
+    32
+   ]
+  },
+  {
+   "name": "InPost UK (incl. former Yodel network)",
+   "type": "Locker-first parcel network",
+   "scale": "UK and Ireland Q2 2026: 81.8m parcels (+16%), revenue PLN 1,048m (+9.8%), adjusted EBITDA PLN 29.1m (-39.9%, margin 2.8%); H1 adjusted EBITDA PLN -19.8m. 15,628 lockers (+41%) and 4,145 PUDO points; B2C 61% of volume.",
+   "strategy": "InPost bought Yodel in April 2025 and retired the Yodel brand on 17 July 2026. It steers parcels to lockers with a 48-hour locker delivery promise and planned about 5,000 new lockers in the UK and Ireland in 2026.",
+   "moves": "18 Sep 2026: a consortium of FedEx, Advent and other investors secured 89.81% of InPost shares. InPost planned to start last-mile services for FedEx in the UK and Poland as a pilot from September 2026.",
+   "pressure": "Management calls the UK 'a work in progress': profitability reflects the cost of the Yodel transformation, and PUDO points fell 29% as lockers replace shops.",
+   "src": [
+    19,
+    20,
+    22,
+    21,
+    24,
+    23
+   ]
+  },
+  {
+   "name": "Express integrators (DHL Express, UPS, FedEx)",
+   "type": "Global express networks",
+   "scale": "No UK parcel volumes published. In May 2026 UK fuel surcharges stood at about 18.75% (FedEx domestic), about 28% (UPS Standard) and about 46.75% (DHL Express international).",
+   "strategy": "The integrators focus on time-definite B2B and international parcels in the UK; FedEx and DHL have taken positions in domestic B2C networks through InPost and Evri.",
+   "moves": "FedEx is part of the consortium that secured 89.81% of InPost (Sep 2026) and is piloting InPost last-mile delivery in the UK; DHL Group holds a significant minority stake in Evri since October 2025.",
+   "pressure": "Weekly fuel surcharges, raised after Middle East tensions lifted fuel prices, widen the cost gap between express and deferred domestic services.",
+   "src": [
+    33,
+    23,
+    19,
+    16
+   ]
+  },
+  {
+   "name": "Temu / Shein (inbound platforms)",
+   "type": "Cross-border marketplaces",
+   "scale": "About £3bn of low-value parcels came from China in 2024-25 under the £135 relief, more than half of all such parcels (HMRC data). Shein's UK sales were £2.05bn in 2024 (+32.3%).",
+   "strategy": "Direct parcels from China into the UK benefit from the £135 customs duty relief, with VAT collected at checkout; low-value import trade grew by over 50% between 2023-24 and 2024-25.",
+   "moves": "13 Jul 2026: HM Treasury and HMRC confirmed the relief ends by October 2028 at the latest, with full tariff classification, an additional fee and a UK fiscal representative for overseas sellers.",
+   "pressure": "Sixteen UK retailers including Next, M&S and Primark asked for earlier action or an interim flat charge, and ministers said in June 2026 they were considering speeding up parts of the reform.",
+   "src": [
+    34,
+    35,
+    36,
+    38,
+    37
+   ]
+  }
+ ],
+ "battlegrounds": [
+  {
+   "h": "Out-of-home becomes the main capacity race",
+   "text": "Ofcom counts 12% of 2024-25 parcel volumes delivered out of home. Royal Mail cites about 30,000 points, agreed in September to buy an open network of about 3,000 lockers and aims for 45,000 by 2030; Evri has over 11,000 and targets 25,000; InPost has 15,628 lockers (+41%); DPD plans 8,000 lockers on top of about 12,000 Pickup points. Our reading: every national network now treats lockers as cheaper final-mile capacity, so open or shared locker networks are being absorbed by carriers and access to high-footfall sites becomes the scarce asset.",
+   "src": [
+    0,
+    6,
+    42,
+    14,
+    19,
+    28
+   ]
+  },
+  {
+   "h": "Consolidation: fewer, larger networks with global shareholders",
+   "text": "Evri absorbed DHL eCommerce UK in October 2025, InPost absorbed Yodel and retired its brand in July 2026, and Royal Mail merged its network with Parcelforce in June 2025. In September 2026 a FedEx and Advent-led consortium secured 89.81% of InPost. Our reading: the UK now has fewer, larger B2C networks with global shareholders, which gives each more density but leaves shippers with fewer independent alternatives.",
+   "src": [
+    15,
+    21,
+    44,
+    23
+   ]
+  },
+  {
+   "h": "Volume grows, revenue per parcel falls",
+   "text": "Measured UK parcel volumes rose 7.1% in 2024-25 but real revenue fell 0.8% and average real revenue per parcel fell 7.3% to £3.13. At the same time carriers raised surcharges: Royal Mail fuel and energy from 8% to 16% within the year, Parcelforce to 16% from October, and a £0.15 conflict surcharge at DPD. Our reading: carriers are recovering cost through surcharges rather than base rates, so headline tariffs understate what shippers pay.",
+   "src": [
+    0,
+    7,
+    8,
+    30
+   ]
+  },
+  {
+   "h": "Royal Mail's letter obligations and parcel growth compete for the same delivery offices",
+   "text": "Royal Mail missed its First Class target (75.7% against 93%) in 2025-26 and Ofcom is investigating. Royal Mail says the average parcel it handles has grown by nearly 60% since 2018-19 in delivery offices built for letters. The new delivery model under Ofcom's 2025 reform is due by Christmas 2026. Our reading: the first peak under the new model is the test of whether parcel service holds while letter quality recovers.",
+   "src": [
+    1,
+    45,
+    2,
+    6
+   ]
+  },
+  {
+   "h": "Inbound low-value parcels: growth now, duty later",
+   "text": "Inbound international parcels grew 19.8% in 2024-25 and about £3bn of low-value parcels came from China. The £135 duty relief will end by October 2028 at the latest, with an additional fee and fiscal representative rules, while retailers push for earlier action. Our reading: the UK remains the most open large Western market for direct parcels until the rules change, which favours inbound volume through 2027 and creates a cliff edge for contracts that run past it.",
+   "src": [
+    0,
+    34,
+    38,
+    36
+   ]
+  },
+  {
+   "h": "Outbound to the EU gets more expensive",
+   "text": "Outbound international parcel volumes fell 1.7% in 2024-25. Since 1 July 2026 the EU charges a €3 duty per tariff line on B2C consignments up to €150, and Royal Mail says a €2 handling fee per line applies from 1 November 2026. Royal Mail's international surcharge rose from 6.5% to 12% in May. Our reading: UK sellers of mixed-item baskets to EU consumers face the largest per-parcel increases, pushing larger sellers towards EU stock and bulk shipping.",
+   "src": [
+    0,
+    12,
+    46,
+    8
+   ]
+  }
+ ],
+ "our_read": "Our reading: the UK market is growing in parcels but not in real revenue per parcel, and consolidation is the response. Evri with DHL, InPost with Yodel and FedEx, and Royal Mail with Parcelforce and extra lockers are building density for a market where out-of-home delivery is the main lever on cost. Royal Mail carries the regulatory load: Ofcom is focused on letter quality, the new delivery model and stamp affordability, with parcel regulation limited mainly to consumer protection. Over the next 12 months we expect surcharges to keep rising faster than base rates, the locker race to continue, and the cross-border picture to split between rising inbound volume ahead of the 2028 duty change and costlier outbound shipping to the EU.",
+ "implications": [
+  {
+   "who": "Merchants / shippers",
+   "text": "Model fuel and energy surcharges, peak surcharges and per-line EU charges on top of base tariffs, and ask for caps or notice periods: Royal Mail cut its surcharge notice from 30 to 14 days. Offering locker and shop delivery at checkout is becoming a cost lever, not just a convenience."
+  },
+  {
+   "who": "Cross-border operators into the UK",
+   "text": "Inbound direct parcels keep their duty relief until October 2028 at the latest, but the Autumn Budget on 28 October 2026 could change timing or set the fee. Build a classification and fiscal representative cost model now and add re-opener clauses to contracts that run into 2028."
+  },
+  {
+   "who": "Carriers",
+   "text": "Density through mergers and lockers is the main route to margin as real revenue per parcel falls. Service through peak 2026 matters most for Royal Mail and Evri, which are both changing their delivery models before Christmas."
+  }
+ ],
+ "watch": [
+  {
+   "date": "2026-10-05",
+   "what": "Royal Mail parcel stamp prices rise about 8% (letters unchanged); Parcelforce fuel surcharge rises to 16%; Royal Mail wholesale access rises suspended pending Ofcom."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "UK Autumn Budget: possible change to the timetable or fee for removing the £135 low-value import relief; 2027 fuel duty rates to be confirmed."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "EU €2 handling fee per line on low-value B2C parcels applies on top of the €3 duty, according to Royal Mail."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Royal Mail peak surcharge (£0.10 to £5.00 per item, to 10 Jan 2027) and Evri peak period surcharges (to 3 Jan 2027) begin."
+  },
+  {
+   "date": "2026-12-01",
+   "what": "Royal Mail's new universal service delivery model due to be in place by Christmas 2026; Ofcom's 2025-26 post monitoring report expected in Q3 2026/27 (month only)."
+  },
+  {
+   "date": "2027-01-01",
+   "what": "Fuel duty rises 3p a litre to 55.95p; Ofcom decision on the wholesale access price dispute due within four months of 4 Sep 2026 (month only)."
+  },
+  {
+   "date": "2027-03-01",
+   "what": "Fuel duty rises a further 2p to 57.95p; Ofcom decision on stamp pricing and affordability due by March 2027, when the Second Class safeguard cap expires (month only)."
+  },
+  {
+   "date": "2027-04-01",
+   "what": "Royal Mail expected to meet the revised targets of 90% First Class and 95% Second Class (month only)."
+  }
+ ],
+ "sources": [
+  {
+   "t": "Post monitoring report: postal services in the financial year 2024-25",
+   "u": "https://www.ofcom.org.uk/siteassets/resources/documents/postal-services/monitoring-reports/2024-25/post-monitoring-report---postal-services-in-the-financial-year-2024-25.pdf?v=408465",
+   "pub": "Ofcom",
+   "date": "2025-12-03"
+  },
+  {
+   "t": "Investigation into Royal Mail's quality of service performance in 2025/26",
+   "u": "https://www.ofcom.org.uk/post/royal-mail/investigation-into-royal-mails-quality-of-service-performance-in-202526",
+   "pub": "Ofcom",
+   "date": "2026-06-01"
+  },
+  {
+   "t": "Reforming the postal service so it delivers what people need",
+   "u": "https://www.ofcom.org.uk/post/royal-mail/reforming-the-postal-service-so-it-delivers-what-people-need",
+   "pub": "Ofcom",
+   "date": "2025-07-10"
+  },
+  {
+   "t": "Call for input: Review of postal regulation, pricing and affordability",
+   "u": "https://www.ofcom.org.uk/post/market-performance/call-for-input-review-of-postal-regulation-pricing-and-affordability",
+   "pub": "Ofcom",
+   "date": "2025-11-04"
+  },
+  {
+   "t": "Ofcom accepts dispute regarding Royal Mail's wholesale price rises",
+   "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-accepts-dispute-regarding-royal-mails-wholesale-price-rises",
+   "pub": "Ofcom",
+   "date": "2026-09-04"
+  },
+  {
+   "t": "Ofcom's Plan of Work 2026/27 (statement)",
+   "u": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-plan-of-work-2026-27/main-documents/statement-ofcoms-plan-of-work-2026-27.pdf?v=414427",
+   "pub": "Ofcom",
+   "date": "2026"
+  },
+  {
+   "t": "Royal Mail and GLS celebrate \"a year of progress\"",
+   "u": "https://postandparcel.info/162244/news/royal-mail-and-gls-celebrate-a-year-of-progress/",
+   "pub": "Post & Parcel",
+   "date": "2026-06-24"
+  },
+  {
+   "t": "Prices 2026",
+   "u": "https://www.royalmail.com/prices2026",
+   "pub": "Royal Mail",
+   "date": "2026"
+  },
+  {
+   "t": "Surcharges and correction charges",
+   "u": "https://www.royalmail.com/business/mail/surcharges",
+   "pub": "Royal Mail",
+   "date": "2026"
+  },
+  {
+   "t": "Royal Mail stamp prices to rise from April 2026",
+   "u": "https://channelx.world/2026/03/royal-mail-stamp-prices-to-rise-from-april-2026/",
+   "pub": "ChannelX",
+   "date": "2026-03-06"
+  },
+  {
+   "t": "Royal Mail postage rates 2026: franking prices (October update)",
+   "u": "https://www.mailcoms.co.uk/news/royal-mail-postage-rates-2026/",
+   "pub": "Mailcoms",
+   "date": "2026-09-07"
+  },
+  {
+   "t": "Royal Mail peak business collection capacity limit",
+   "u": "https://channelx.world/2026/06/royal-mail-peak-business-collection-capacity-limit/",
+   "pub": "ChannelX",
+   "date": "2026-06-30"
+  },
+  {
+   "t": "European Trade Insights",
+   "u": "https://www.royalmail.com/europeantradeinsights",
+   "pub": "Royal Mail",
+   "date": "2026"
+  },
+  {
+   "t": "Evri Group delivers over one billion parcels in record year",
+   "u": "https://www.parcelandpostaltechnologyinternational.com/news/delivery/evri-group-delivers-over-one-billion-parcels-in-record-year.html",
+   "pub": "Parcel and Postal Technology International",
+   "date": "2026-07-13"
+  },
+  {
+   "t": "Parcel delivery giant Evri tops one billion annual parcels following DHL eCommerce UK merger",
+   "u": "https://motortransport.co.uk/operator-news/evri-tops-one-billion-annual-parcels-following-dhl-ecommerce-uk-merger/90739.article",
+   "pub": "Motor Transport",
+   "date": "2026-07"
+  },
+  {
+   "t": "Introducing the Evri Group: the UK's premier parcel delivery company",
+   "u": "https://www.evri.com/press/introducing-the-evri-group-the-uks-premier-parcel-delivery-company",
+   "pub": "Evri",
+   "date": "2025-10-01"
+  },
+  {
+   "t": "Package deal: Evri to merge with DHL ecommerce arm",
+   "u": "https://www.cityam.com/package-deal-evri-to-merge-with-dhl-ecommerce-arm/",
+   "pub": "City AM",
+   "date": "2025-05-14"
+  },
+  {
+   "t": "Evri facing delivery disruption amid network overhaul",
+   "u": "https://www.expressandstar.com/uk-news/evri-facing-delivery-disruption-amid-network-overhaul-reports-9206781",
+   "pub": "Express & Star (PA)",
+   "date": "2026-09-28"
+  },
+  {
+   "t": "Evri UK surcharges",
+   "u": "https://support.sendcloud.com/hc/en-us/articles/31195492697361-Evri-UK-surcharges",
+   "pub": "Sendcloud",
+   "date": "2026-09-16"
+  },
+  {
+   "t": "InPost Group Q2 2026 results (press release)",
+   "u": "https://inpost.eu/sites/default/files/2026-08/InPost%202Q%202026%20press%20release.pdf",
+   "pub": "InPost",
+   "date": "2026-08-31"
+  },
+  {
+   "t": "InPost sees 220% increase in UK parcel volumes amid Yodel consolidation",
+   "u": "https://www.retailsector.co.uk/691969-inpost-sees-220-increase-in-uk-parcel-volumes-amid-yodel-consolidation/",
+   "pub": "Retail Sector",
+   "date": "2026-05-13"
+  },
+  {
+   "t": "Yodel by InPost website & app no longer available",
+   "u": "https://channelx.world/2026/07/yodel-by-inpost-website-app-no-longer-available/",
+   "pub": "ChannelX",
+   "date": "2026-07-17"
+  },
+  {
+   "t": "InPost leaps ahead in the UK with strategic takeover of Yodel",
+   "u": "https://inpost.eu/sites/default/files/2025-04/Press%20release_Strategic%20Takeover%20of%20Yodel_0.pdf",
+   "pub": "InPost",
+   "date": "2025-04"
+  },
+  {
+   "t": "FedEx, Advent-led consortium secures over 89% of InPost shares in takeover offer",
+   "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45A0S0:0-fedex-advent-led-consortium-secures-over-89-of-inpost-shares-in-takeover-offer/",
+   "pub": "Reuters via TradingView",
+   "date": "2026-09-18"
+  },
+  {
+   "t": "InPost expands European network to 70,000 parcel lockers",
+   "u": "https://shev.io/en/news/inpost-expands-european-network-to-70000-parcel-lockers",
+   "pub": "Shev IO",
+   "date": "2026-09-04"
+  },
+  {
+   "t": "DPD Group UK revenues increase slightly to GBP 1.5bn in 2024",
+   "u": "https://motortransport.co.uk/revenues-increase-at-dpd/27179.article",
+   "pub": "Motor Transport",
+   "date": "2025-10"
+  },
+  {
+   "t": "DPDGROUP UK LTD (00732993) filing history",
+   "u": "https://find-and-update.company-information.service.gov.uk/company/00732993/filing-history",
+   "pub": "Companies House",
+   "date": "2026-10-02"
+  },
+  {
+   "t": "Geopost's 2025 annual results (press release)",
+   "u": "https://www.lapostegroupe.com/assets/media/le-groupe-laposte/aaB9aMFoBIGEg36F_Geopost_Press_release_2025_Annual_results_FINAL.pdf",
+   "pub": "Geopost / La Poste Groupe",
+   "date": "2026-02-26"
+  },
+  {
+   "t": "DPD UK to add 8,000 parcel lockers in major strategic partnership",
+   "u": "https://www.lapostegroupe.com/en/news/dpd-uk-to-add-8000-parcel-lockers-in-major-strategic",
+   "pub": "La Poste Groupe",
+   "date": "2025-04-08"
+  },
+  {
+   "t": "DPD UK orders 341 Mercedes-Benz eSprinter vans",
+   "u": "https://www.electrive.com/2026/09/11/dpd-uk-orders-341-mercedes-benz-esprinter-vans/",
+   "pub": "electrive",
+   "date": "2026-09-11"
+  },
+  {
+   "t": "DPD UK surcharges",
+   "u": "https://support.sendcloud.com/hc/en-gb/articles/360050353151-DPD-UK-Surcharges",
+   "pub": "Sendcloud",
+   "date": "2026-07-08"
+  },
+  {
+   "t": "Amazon announces planned GBP 40 billion investment in the UK",
+   "u": "https://www.aboutamazon.co.uk/news/job-creation-and-investment/amazon-40-billion-uk-investment",
+   "pub": "About Amazon UK",
+   "date": "2025-06-23"
+  },
+  {
+   "t": "Amazon begins first UK drone deliveries in Darlington under a trial-only approval",
+   "u": "https://dronexl.co/2026/05/07/amazon-prime-air-darlington-uk-launch/",
+   "pub": "DroneXL",
+   "date": "2026-05-07"
+  },
+  {
+   "t": "UK courier surcharges in 2026: what is increasing and how will it affect you?",
+   "u": "https://elovate.co.uk/story/uk-courier-surcharges-in-2026-what-is-increasing-and-how-will-it-affect-you/",
+   "pub": "Elovate",
+   "date": "2026-05-13"
+  },
+  {
+   "t": "GBP 3bn worth of small parcels shipped to UK from China amid duty rules review",
+   "u": "https://www.hl.co.uk/news/3bn-worth-of-small-parcels-shipped-to-uk-from-china-amid-duty-rules-review",
+   "pub": "Hargreaves Lansdown (PA)",
+   "date": "2025-08-28"
+  },
+  {
+   "t": "Shein's UK sales surged to GBP 2 billion in 2024",
+   "u": "https://www.rte.ie/news/business/2025/0815/1528587-shein-uk-sales-figures/",
+   "pub": "RTE (Reuters)",
+   "date": "2025-08-15"
+  },
+  {
+   "t": "M&S and Next call for levy on low-value parcels",
+   "u": "https://www.rte.ie/news/business/2026/0527/1575456-uk-retailers-shein/",
+   "pub": "RTE",
+   "date": "2026-05-27"
+  },
+  {
+   "t": "Government considers speeding up Shein and Temu import tax crackdown",
+   "u": "https://www.retailgazette.co.uk/blog/2026/06/government-considers-speeding-up-shein-and-temu-import-tax-crackdown/",
+   "pub": "Retail Gazette",
+   "date": "2026-06-18"
+  },
+  {
+   "t": "UK Low Value Import Relief to be Removed by October 2028",
+   "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/",
+   "pub": "Baker McKenzie Global Import Blog",
+   "date": "2026-07-24"
+  },
+  {
+   "t": "Amended Fuel Duty rates: 2026 to 2027",
+   "u": "https://www.gov.uk/government/publications/amended-fuel-duty-rates-for-2026-to-2027/amended-fuel-duty-rates-2026-to-2027",
+   "pub": "HM Revenue & Customs (GOV.UK)",
+   "date": "2026-05-22"
+  },
+  {
+   "t": "Written statement HCWS49: transport taxation",
+   "u": "https://questions-statements.parliament.uk/written-statements/detail/2026-05-20/hcws49",
+   "pub": "UK Parliament",
+   "date": "2026-05-20"
+  },
+  {
+   "t": "Quality and reliability of parcel delivery services",
+   "u": "https://lordslibrary.parliament.uk/quality-and-reliability-of-parcel-delivery-services/",
+   "pub": "House of Lords Library",
+   "date": "2026-08-11"
+  },
+  {
+   "t": "IDS strengthens its out-of-home network",
+   "u": "https://postandparcel.info/162908/news/e-commerce/ids-strengthens-its-out-of-home-network/",
+   "pub": "Post & Parcel",
+   "date": "2026-09-25"
+  },
+  {
+   "t": "LTB 091/25: Large parcel migration between Royal Mail and Parcelforce, update",
+   "u": "https://www.cwu.org/ltb/ltb-091-25-large-parcel-migration-between-royal-mail-and-parcelforce-update/",
+   "pub": "Communication Workers Union",
+   "date": "2025-05-09"
+  },
+  {
+   "t": "Royal Mail and Parcelforce merge operations",
+   "u": "https://elovate.co.uk/story/royal-mail-and-parcelforce-to-merge-operations/",
+   "pub": "Elovate",
+   "date": "2025-04-25"
+  },
+  {
+   "t": "Letter from Royal Mail CEO to the Chair of the Business and Trade Committee",
+   "u": "https://committees.parliament.uk/publications/52054/documents/289032/default/",
+   "pub": "UK Parliament, Business and Trade Committee",
+   "date": "2026-03-02"
+  },
+  {
+   "t": "Selling to the EU? A new EUR 3 charge is coming for low-value parcels",
+   "u": "https://www.enterprisenation.com/learn-something/selling-to-eu-new-charge-low-value-parcels/",
+   "pub": "Enterprise Nation",
+   "date": "2026-01-28"
+  },
+  {
+   "t": "Healey sets a pre-Halloween Autumn Budget",
+   "u": "https://chasedevere.co.uk/2026/09/10/healey-sets-a-pre-halloween-autumn-budget-2/",
+   "pub": "Chase de Vere",
+   "date": "2026-09-10"
+  },
+  {
+   "t": "Parcelforce Worldwide prices 2026",
+   "u": "https://www.parcelforce.com/prices2026",
+   "pub": "Parcelforce Worldwide",
+   "date": "2026"
+  }
+ ],
+ "segments": [
+  {
+   "name": "B2C home delivery",
+   "size": "Domestic parcels 3.6bn in 2024-25 (+5.8%), domestic parcel revenue £9.1bn (+0.9% real). Royal Mail handled 1.4bn parcels and Evri over 1bn in their latest years; InPost UK and Ireland 81.8m in Q2 2026.",
+   "leaders": "Royal Mail; Evri (including Evri Premium); Amazon Logistics; DPD UK; InPost.",
+   "dynamics": "Ofcom finds 78% of recipients satisfied with parcel firms, but contact satisfaction is only 47% and scores vary from 57% (Amazon Logistics, FedEx) to 31% (Evri). Networks are changing models before peak: Royal Mail's universal service rollout and Evri's move to smaller local depots.",
+   "rules": "Ofcom guidance on complaints handling and fair treatment of disabled customers applies to all parcel operators; Ofcom will review compliance in its 2026/27 programme. Peak surcharges: Royal Mail £0.10 to £5.00 per item from 2 Nov 2026; Royal Mail limits peak business collections to three times normal capacity.",
+   "read": "Our reading: home delivery is where the major networks compete on reliability rather than price, and the most likely source of share shifts this winter is service failure at peak rather than tariff cuts.",
+   "src": [
+    0,
+    6,
+    13,
+    19,
+    41,
+    5,
+    8,
+    11,
+    17
+   ]
+  },
+  {
+   "name": "Out-of-home: lockers and shops",
+   "size": "12% of measured parcel volumes in 2024-25. Royal Mail about 30,000 points; InPost 15,628 lockers and 4,145 PUDO points; Evri over 11,000 ParcelShops and lockers; DPD about 12,000 Pickup shops and lockers.",
+   "leaders": "Royal Mail (Royal Mail Shops, lockers, Post Office); InPost; Evri; DPD; Amazon.",
+   "dynamics": "Royal Mail out-of-home volumes rose 40% and InPost locker volumes 29% in Q2 2026. Carriers are buying or building locker capacity, and InPost is replacing shops with lockers (PUDO points -29%).",
+   "rules": "No sector-specific regulation found; carrier locker acquisitions such as Royal Mail's deal for about 3,000 lockers are due to complete by the end of 2026.",
+   "read": "Our reading: locker density lowers the cost per drop for whoever owns it, so shippers should expect carriers to price out-of-home delivery below home delivery and to compete for exclusive sites.",
+   "src": [
+    0,
+    6,
+    19,
+    14,
+    28,
+    42
+   ]
+  },
+  {
+   "name": "Inbound cross-border and the £135 relief removal",
+   "size": "International inbound parcels +19.8% in 2024-25. About £3bn of low-value parcels from China in 2024-25, more than half of all parcels under the relief; low-value import trade grew over 50% between 2023-24 and 2024-25.",
+   "leaders": "Royal Mail (postal inbound); Evri (in-house customs clearance); express integrators; platforms including Temu and Shein as shippers.",
+   "dynamics": "Growth in direct parcels from China continues while the UK keeps its duty relief, after the US removed its de minimis and the EU introduced a €3 duty.",
+   "rules": "Relief from customs duty on goods up to £135 to be removed by October 2028 at the latest, with full tariff classification, an additional fee and UK fiscal representatives jointly and severally liable; secondary legislation and fee level still to come; the Autumn Budget is on 28 October 2026.",
+   "read": "Our reading: inbound volume is likely to keep growing into 2027, but importers and carriers face a single change in 2028 that resets per-parcel cost, with some risk of an earlier interim charge after retailer pressure.",
+   "src": [
+    0,
+    34,
+    36,
+    15,
+    38,
+    37,
+    47
+   ]
+  },
+  {
+   "name": "Outbound UK to EU after Brexit and the EU €3 duty",
+   "size": "International outbound parcels -1.7% in 2024-25.",
+   "leaders": "Royal Mail and Parcelforce; DPD UK (Geopost European network); Evri (DHL network); express integrators.",
+   "dynamics": "Since Brexit, UK sellers ship to EU consumers as third-country sellers. The EU €3 duty applies per tariff line on B2C consignments up to €150 from 1 July 2026, so multi-item parcels pay more. DPD charges £4.75 for EU clearance to Ireland.",
+   "rules": "EU €3 duty per tariff line from 1 Jul 2026; Royal Mail says an extra €2 handling fee per line applies from 1 Nov 2026. Royal Mail international surcharge 12% since 3 May 2026.",
+   "read": "Our reading: low-value UK exports to EU consumers lose competitiveness against EU-based stock, and carriers with their own EU networks are better placed to offer duty-paid delivery.",
+   "src": [
+    0,
+    12,
+    46,
+    30,
+    8
+   ]
+  },
+  {
+   "name": "Returns and C2C sending",
+   "size": "No market-wide UK returns volume found in public sources. Ofcom says Royal Mail remains the main provider of single-piece parcel services for consumers and small senders.",
+   "leaders": "Royal Mail; Evri; InPost; DPD (Pickup network).",
+   "dynamics": "Resale marketplaces drive growth: Royal Mail cites multi-year deals with Vinted and eBay, and Evri cites small online sellers, social commerce and pre-loved marketplaces. Drop-off at lockers and shops is the main entry point.",
+   "rules": "Royal Mail applies a 5p green surcharge on premium and returns services; Parcelforce Parcel Collect fee changes to £0.50 from 5 Oct 2026.",
+   "read": "Our reading: C2C and returns volume favours whoever has the densest drop-off network, which is why the locker race and the resale marketplace deals are linked.",
+   "src": [
+    0,
+    6,
+    13,
+    8,
+    48
+   ]
+  }
+ ],
+ "price_stack": [
+  {
+   "carrier": "Royal Mail",
+   "item": "Stamp prices (Second Class under Ofcom safeguard cap)",
+   "value": "First Class letter £1.80 (+10p); Second Class 91p (+4p)",
+   "effective": "7 Apr 2026",
+   "src": [
+    9,
+    3
+   ]
+  },
+  {
+   "carrier": "Royal Mail",
+   "item": "Fuel and Energy Surcharge (business)",
+   "value": "8% to 11% on 5 Jan 2026, then 16% on 3 May 2026; notice period for changes cut from 30 to 14 days",
+   "effective": "3 May 2026",
+   "src": [
+    7,
+    8
+   ]
+  },
+  {
+   "carrier": "Royal Mail",
+   "item": "International surcharge",
+   "value": "6.5% to 12% on business international products",
+   "effective": "3 May 2026",
+   "src": [
+    8
+   ]
+  },
+  {
+   "carrier": "Royal Mail",
+   "item": "Parcel stamp prices",
+   "value": "About +8%: First Class small parcel £5.45 to £5.90, Second Class small parcel £4.25 to £4.60; letter and large letter stamps unchanged",
+   "effective": "5 Oct 2026",
+   "src": [
+    10,
+    7
+   ]
+  },
+  {
+   "carrier": "Royal Mail",
+   "item": "Peak surcharge",
+   "value": "UK £0.10 to £5.00 per item by product; international £0.10 to £0.25 per item",
+   "effective": "2 Nov 2026 to 10 Jan 2027",
+   "src": [
+    8
+   ]
+  },
+  {
+   "carrier": "Royal Mail",
+   "item": "Wholesale access price rises (Ofcom dispute)",
+   "value": "Rises announced 23 Jul 2026 for 5 Oct suspended while Ofcom resolves a dispute raised by access operators",
+   "effective": "Suspended from 5 Oct 2026",
+   "src": [
+    4
+   ]
+  },
+  {
+   "carrier": "Parcelforce",
+   "item": "Fuel surcharge and handling",
+   "value": "8% to 13% on 3 May 2026, to 16% on 5 Oct 2026; manual handling surcharge £4.15 per item",
+   "effective": "5 Oct 2026",
+   "src": [
+    7,
+    8
+   ]
+  },
+  {
+   "carrier": "Evri",
+   "item": "Accessorial and conflict-related charges",
+   "value": "Clean Air Zone £0.65; undeliverable parcel £2.60; war surcharge per kg to Middle East destinations (e.g. Israel £3.85, UAE £2.70); peak-period charges 2 Nov to 3 Jan",
+   "effective": "Rate list updated 16 Sep 2026",
+   "src": [
+    18
+   ]
+  },
+  {
+   "carrier": "DPD UK",
+   "item": "Surcharges",
+   "value": "Conflict surcharge £0.15 per parcel; London congestion £1.15; Northern Ireland clearance £0.50; EU clearance (Ireland) £4.75; fuel surcharge on all parcels",
+   "effective": "2 Mar 2026",
+   "src": [
+    30
+   ]
+  },
+  {
+   "carrier": "Integrators",
+   "item": "UK fuel surcharges (weekly)",
+   "value": "FedEx UK about 18.75%; UPS Standard about 28% (from 29.5% in April); DHL Express international about 46.75%",
+   "effective": "May 2026",
+   "src": [
+    33
+   ]
+  },
+  {
+   "carrier": "EU (for UK sellers)",
+   "item": "EU low-value duty and handling fee",
+   "value": "€3 duty per tariff line on B2C consignments up to €150; €2 handling fee per line from 1 Nov 2026",
+   "effective": "1 Jul 2026",
+   "src": [
+    12,
+    46
+   ]
+  },
+  {
+   "carrier": "UK government",
+   "item": "Fuel duty on diesel",
+   "value": "52.95p a litre to 31 Dec 2026; 55.95p from 1 Jan 2027; 57.95p from 1 Mar 2027; RPI uprating from April 2027",
+   "effective": "1 Jan 2027",
+   "src": [
+    39,
+    40
+   ]
+  }
+ ],
+ "scorecard": [
+  {
+   "name": "Royal Mail",
+   "volume": "up",
+   "yield": "up",
+   "position": "holding",
+   "why": "Parcels rose 7% to 1.4bn and parcel stamp prices rise about 8% in October, but adjusted operating profit was about £5m and Ofcom is investigating its 2025-26 service.",
+   "src": [
+    6,
+    10,
+    1
+   ]
+  },
+  {
+   "name": "Parcelforce",
+   "volume": "up",
+   "yield": "up",
+   "position": "holding",
+   "why": "Takes up to 14m large parcels from Royal Mail in 2025-26 and has doubled its fuel surcharge to 16%, but publishes no separate results.",
+   "src": [
+    43,
+    8
+   ]
+  },
+  {
+   "name": "Evri",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Volume +17% to over 1bn and EBITDA +18% to £402m after the DHL eCommerce UK merger, though its depot change caused backlogs in September 2026.",
+   "src": [
+    13,
+    17
+   ]
+  },
+  {
+   "name": "DPD UK",
+   "volume": "flat",
+   "yield": "flat",
+   "position": "holding",
+   "why": "2024 turnover +0.6% to £1.5bn with operating profit -3.1%, and Geopost reported a slight decline in UK sales in 2025.",
+   "src": [
+    25,
+    27
+   ]
+  },
+  {
+   "name": "Amazon Logistics UK",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Investing £40bn in the UK over 2025 to 2027 and leads on satisfaction (57%); no UK volume figures are published.",
+   "src": [
+    31,
+    41
+   ]
+  },
+  {
+   "name": "InPost UK",
+   "volume": "up",
+   "yield": "down",
+   "position": "gaining",
+   "why": "Q2 2026 volume +16% and lockers +41%, but adjusted EBITDA fell 39.9% to a 2.8% margin as the Yodel network is transformed.",
+   "src": [
+    19
+   ]
+  },
+  {
+   "name": "Express integrators",
+   "volume": "flat",
+   "yield": "up",
+   "position": "holding",
+   "why": "Fuel surcharges of about 18.75% to 46.75% lift yield; FedEx and DHL now reach UK B2C through stakes in InPost and Evri rather than their own networks.",
+   "src": [
+    33,
+    23,
+    16
+   ]
+  },
+  {
+   "name": "Temu / Shein (inbound)",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Inbound parcels +19.8% in 2024-25 and about £3bn of low-value parcels from China, with duty relief kept until October 2028 at the latest.",
+   "src": [
+    0,
+    34,
+    38
+   ]
+  }
+ ],
+ "scenarios": [
+  {
+   "name": "Consolidated networks, surcharge-led pricing",
+   "likelihood": "most likely",
+   "text": "Our reading: Royal Mail, Evri and InPost get through peak with localised problems, base tariffs rise modestly while fuel, peak and accessorial surcharges carry most of the increase, and the locker race continues with further acquisitions of shared networks. Inbound volume keeps growing under the £135 relief and outbound EU volume stays weak under the per-line duty and fee.",
+   "triggers": "Peak service data from Royal Mail and Evri; Ofcom's 2025-26 monitoring report; 2027 tariff announcements; locker deal completions; UK diesel prices and the January fuel duty rise."
+  },
+  {
+   "name": "Earlier end to the £135 relief",
+   "likelihood": "plausible",
+   "text": "Our reading: under retailer pressure the Autumn Budget introduces an interim per-parcel charge or brings forward part of the reform before October 2028. Direct inbound parcels from China slow, platforms shift more stock into UK warehouses, and domestic carriers gain fulfilment-led volume at the expense of postal and express inbound.",
+   "triggers": "Autumn Budget on 28 Oct 2026; HMRC secondary legislation and fee level; platform announcements on UK warehousing."
+  },
+  {
+   "name": "Peak service failure at a major network",
+   "likelihood": "tail risk",
+   "text": "Our reading: the first Christmas under Royal Mail's new delivery model, or Evri's switch to smaller depots, leads to sustained delays. Shippers move volume to DPD, InPost and Amazon at higher prices, and Ofcom's penalty decision on 2025-26 performance and its affordability review take on a harder edge.",
+   "triggers": "Weekly delivery performance in November and December; Ofcom investigation outcome; Royal Mail collection caps; customer complaints data."
+  }
+ ]
+}

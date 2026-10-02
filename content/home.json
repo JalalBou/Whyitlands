@@ -97,43 +97,53 @@
     },
     {
       "style": "",
-      "tag": "Investment · Belgium",
-      "text": "bpost opens a 7,930 m² centre in Maldegem for 3,000 parcels a day: letters down 14%, parcels at record highs.",
+      "tag": "Out-of-home · UK",
+      "big": "30,000",
+      "text": "parcel points for Royal Mail after IDS agreed to buy an open UK network of about 3,000 lockers, due to complete by the end of 2026.",
       "src": "Post & Parcel · 25 Sep",
-      "url": "https://postandparcel.info/",
+      "url": "https://postandparcel.info/162908/news/e-commerce/ids-strengthens-its-out-of-home-network/",
       "regions": [
-        "EU",
+        "UK",
         "EMEA"
       ],
       "stories": [
-        "networks-consolidate"
-      ],
-      "layer": "market"
-    },
-    {
-      "style": "blue",
-      "tag": "M&A · Italy",
-      "text": "Poste Italiane lifts its TIM offer to €6.65 a share and drops the two-thirds threshold: a postal operator moving into telecoms.",
-      "src": "Post & Parcel · 8 Sep",
-      "url": "https://postandparcel.info/",
-      "regions": [
-        "EU",
-        "EMEA"
-      ],
-      "stories": [
-        "networks-consolidate"
+        "networks-consolidate",
+        "uk-three-rulebooks"
       ],
       "layer": "market"
     },
     {
       "style": "",
-      "tag": "Last mile · UK",
-      "lede": "DPD passes 4,000 electric vans ahead of peak, with 341 eSprinters arriving in September.",
-      "src": "Post & Parcel · 10 Sep",
-      "url": "https://postandparcel.info/",
+      "tag": "Pricing · Canada",
+      "lede": "Canada Post raises its peak out-of-spec surcharge from C$300 to C$400 per item from 2 November to 10 January.",
+      "src": "netParcel · 30 Sep",
+      "url": "https://www.netparcel.com/2026-holiday-shipping-guide-cutoffs-peak-surcharges/",
       "regions": [
-        "UK",
-        "EMEA"
+        "NA"
+      ],
+      "stories": [],
+      "layer": "parcel"
+    },
+    {
+      "style": "",
+      "tag": "Investment · Mexico",
+      "lede": "Estafeta puts MXN193m into its State of Mexico operations and more than 1,500 jobs; Geodis adds MXN100m in Tultepec.",
+      "src": "Cúspide México · 25 Sep",
+      "url": "https://cuspidemexico.com/2026/09/25/aumenta-el-sector-logistico-en-el-edomex-estafeta-y-geodis-anuncian-inversiones-de-casi-300-mdp/",
+      "regions": [
+        "NA"
+      ],
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "style": "",
+      "tag": "Asia · Network",
+      "lede": "Coupang's Rocket Delivery now reaches about 70% of Taiwan, seven days a week, for more than 10,000 Korean sellers.",
+      "src": "The Korea Times · 19 Sep",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260919/coupang-turns-to-taiwan-as-key-hub-for-global-growth",
+      "regions": [
+        "AS"
       ],
       "stories": [],
       "layer": "market"

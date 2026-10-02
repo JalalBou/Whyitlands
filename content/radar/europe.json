@@ -1,473 +1,1313 @@
-{"items": [
 {
-  "key": "eu-low-value-duty-3-euro",
-  "title": "EU €3 duty per tariff line on parcels under €150",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "customs",
-  "status": "in-force",
-  "summary": "Since 1 July 2026 the EU charges a flat €3 customs duty on low-value e-commerce consignments that used to enter duty-free under the €150 threshold. The duty is due on each different category of item in a parcel, identified by tariff subheading: the Council's example of one silk blouse and two wool blouses pays €6. It is an interim measure that runs to 1 July 2028 and can be extended.",
-  "dates": [
-    {"date": "2026-07-01", "what": "Flat €3 duty applies to low-value e-commerce consignments", "src": 0},
-    {"date": "2028-07-01", "what": "Interim duty due to end, with the option to extend it as appropriate", "src": 0}
-  ],
-  "hits": ["Non-EU marketplaces", "Non-EU web shops, including UK sellers", "Postal operators", "Express integrators", "Customs brokers"],
-  "parcel": "Every low-value parcel from outside the EU now carries at least €3 of duty per tariff line, so item-level classification decides the landed cost.",
-  "prepare": [
-    "Capture the tariff subheading for every order line at checkout and pass it to the declarant, since the duty counts categories, not units.",
-    "Reprice single-line, low-ticket products where €3 is a large share of the basket, or bundle them into fewer tariff lines.",
-    "Write into platform and merchant contracts who calculates, collects and remits the duty, and who bears it on refused parcels."
-  ],
-  "read": "Our reading: the 2028 date is a hand-over to the Data Hub regime, not a sunset; if the Hub slips, expect the interim duty to be extended rather than dropped.",
-  "stories": ["de-minimis-end", "eu-customs-reform"],
-  "sources": [
-    {"t": "Council gives final green light to new customs duty rules for small parcels", "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/", "pub": "Council of the European Union", "date": "2026-02-11"},
-    {"t": "EU Customs Reform", "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en", "pub": "European Commission, DG Taxation and Customs Union", "date": "2026-10-01"}
-  ]
-},
-{
-  "key": "eu-handling-fee-2-euro",
-  "title": "EU €2 handling fee on low-value parcels from November 2026",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "customs",
-  "status": "adopted",
-  "summary": "On 21 September 2026 the Commission adopted a delegated act setting a Union handling fee of €2 on goods up to €150 released into free circulation, based on member states' customs costs and item volumes. Parliament and Council have up to 30 days to object, and the fee must be introduced no later than 1 November 2026. From 1 July 2028 a lower amount applies where the importer operates a customs warehouse.",
-  "dates": [
-    {"date": "2026-09-21", "what": "Commission adopts the delegated act setting the fee at €2", "src": 0},
-    {"date": "2026-10-21", "what": "Indicative end of the 30-day objection period (depends on the notification date)", "src": 0},
-    {"date": "2026-11-01", "what": "Latest date for the fee to apply; the exact start depends on publication in the Official Journal", "src": 1},
-    {"date": "2028-07-01", "what": "Lower fee where the importer operates a customs warehouse", "src": 1}
-  ],
-  "hits": ["Non-EU marketplaces", "Non-EU web shops", "Postal operators", "Express integrators", "Customs brokers", "Consumers"],
-  "parcel": "A single-line parcel under €150 from outside the EU carries at least €5 in EU charges (€3 duty plus €2 fee) before VAT, from November 2026.",
-  "prepare": [
-    "Confirm the charging unit in the published text: the Commission describes the fee per item, while some advisers read it per consignment.",
-    "Build the €2 into delivered duty paid checkout prices now, so it is not collected at the door.",
-    "Test with each member state of entry how the fee will be declared and remitted from 1 November, and plan for teething problems in peak season."
-  ],
-  "read": "Our reading: an objection from Parliament or Council looks unlikely given the political consensus; the practical risk is uneven national collection in the first weeks, which falls on carriers holding the parcels.",
-  "stories": ["de-minimis-end", "eu-customs-reform"],
-  "sources": [
-    {"t": "EU Sets €2 Handling Fee for Small Parcels Under Customs Reform", "u": "https://www.vatupdate.com/2026/09/28/eu-sets-e2-handling-fee-for-small-parcels-under-customs-reform/", "pub": "VATupdate", "date": "2026-09-28"},
-    {"t": "EU Customs Reform", "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en", "pub": "European Commission, DG Taxation and Customs Union", "date": "2026-10-01"},
-    {"t": "Mini parcels from outside the EU: the handling fee will be 2 euros, plus tariffs of 3 euros", "u": "https://en.ilsole24ore.com/art/for-small-parcels-from-outside-the-eu-the-handling-fee-will-be-2-euros-plus-tariffs-of-3-euros-AJWug7OB", "pub": "Il Sole 24 Ore", "date": "2026-09"},
-    {"t": "UK Low Value Import Relief to be Removed by October 2028", "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/", "pub": "Baker McKenzie Global Import Blog", "date": "2026-07-24"}
-  ]
-},
-{
-  "key": "eu-customs-reform-2026",
-  "title": "EU customs reform: platforms become the importer",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "customs",
-  "status": "in-force",
-  "summary": "Regulation (EU) 2026/2108 rewrites the Union Customs Code: sellers and platforms facilitating distance sales from outside the EU are treated as the importer, responsible for customs data, charges and product compliance. It creates an EU Customs Authority in Lille and an EU Customs Data Hub replacing more than 111 national IT systems. Repeated breaches can cost 1% to 6% of the value of goods imported over the previous 12 months.",
-  "dates": [
-    {"date": "2026-09-19", "what": "Regulation (EU) 2026/2108 published in the Official Journal", "src": 0},
-    {"date": "2026-09-20", "what": "Regulation enters into force (the Commission's page gives 21 September)", "src": 1},
-    {"date": "2027-01-01", "what": "EU Customs Authority starts some activities in Lille (year only)", "src": 2},
-    {"date": "2027-09-21", "what": "General application of the main provisions, including importer obligations for distance sales", "src": 1},
-    {"date": "2028-07-01", "what": "EU Customs Data Hub becomes mandatory for e-commerce operators", "src": 2}
-  ],
-  "hits": ["Non-EU marketplaces", "Non-EU sellers", "Postal operators", "Express integrators", "Customs brokers and indirect representatives"],
-  "parcel": "Liability for the declaration, the duty and the product's compliance moves to the platform or seller, and carriers become data suppliers to a single EU hub.",
-  "prepare": [
-    "Map which contracts make you the declarant or representative today, and renegotiate liability before importer obligations apply in September 2027.",
-    "Prepare item-level data feeds (classification, origin, value, seller identity) to the format the Data Hub will expect from July 2028.",
-    "Price importer-of-record, representation and data-validation services for non-EU sellers facing fines of up to 6% of annual import value."
-  ],
-  "read": "Our reading: the legal shift is settled, the IT is not; the Data Hub date is where slippage is most likely, and every delay extends the interim duty and national workarounds.",
-  "stories": ["eu-customs-reform", "de-minimis-end", "platforms-go-local"],
-  "sources": [
-    {"t": "Regulation (EU) 2026/2108", "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202602108", "pub": "EUR-Lex", "date": "2026-09-19"},
-    {"t": "European Union publishes new Customs Code: phased transformation begins with e-commerce and data-led compliance", "u": "https://www.vatupdate.com/2026/09/27/european-union-publishes-new-customs-code-phased-transformation-begins-with-e-commerce-and-data-led-compliance/", "pub": "VATupdate", "date": "2026-09-27"},
-    {"t": "EU Customs Reform", "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en", "pub": "European Commission, DG Taxation and Customs Union", "date": "2026-10-01"},
-    {"t": "Deal reached on Union Customs Code reform", "u": "https://www.europarl.europa.eu/news/en/press-room/20260323IPR38815/deal-reached-on-union-customs-code-reform", "pub": "European Parliament", "date": "2026-03-23"},
-    {"t": "EU Parliament approves sweeping customs reform targeting e-commerce imports", "u": "https://www.eureporter.co/politics/european-parliament-2/2026/09/16/eu-parliament-approves-sweeping-customs-reform-targeting-e-commerce-imports/", "pub": "EU Reporter", "date": "2026-09-16"}
-  ]
-},
-{
-  "key": "eu-ics2-all-modes",
-  "title": "ICS2: advance safety data now required for every mode into the EU",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "customs",
-  "status": "in-force",
-  "summary": "The Import Control System 2 requires an entry summary declaration with safety and security data before goods arrive in the EU. Postal and express consignments by air have been covered since 2023; road and rail were the last phase. Since 1 June 2026, every consignment entering the EU by any means of transport should have a valid declaration, after national derogations ended.",
-  "dates": [
-    {"date": "2026-06-01", "what": "Valid entry summary declaration expected for all consignments by any mode; temporary derogations in 14 member states end", "src": 0}
-  ],
-  "hits": ["Postal operators", "Express integrators", "Road hauliers on UK, Swiss and Turkish lanes", "Freight forwarders"],
-  "parcel": "Parcels trucked into the EU, for example from the UK or Türkiye, need complete item descriptions before arrival or face holds at the border.",
-  "prepare": [
-    "Audit goods descriptions on road-fed parcel flows against the ICS2 rules on vague wording.",
-    "Confirm that every subcontracted haulier on inbound lanes files, or receives, the entry summary declaration in time."
-  ],
-  "read": "Our reading: ICS2 is the data spine the customs reform builds on; carriers with weak advance data today will find the 2028 Data Hub harder, not easier.",
-  "stories": ["eu-customs-reform"],
-  "sources": [
-    {"t": "Import Control System 2", "u": "https://taxation-customs.ec.europa.eu/customs/customs-security/import-control-system-2_en", "pub": "European Commission, DG Taxation and Customs Union", "date": "2026-06-01"},
-    {"t": "ICS2 enters final phase with country-specific derogations", "u": "https://www.customs-declarations.uk/ics2-enters-final-phase-with-country-specific-derogations-navigating-the-fragmented-european-safety-and-security-landscape/", "pub": "Customs-Declarations.UK", "date": "2026-01-26"}
-  ]
-},
-{
-  "key": "eu-vida-vat-digital-age",
-  "title": "VAT in the Digital Age: one registration, but no deemed supplier for goods",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "tax",
-  "status": "adopted",
-  "summary": "The ViDA package, adopted in March 2025, extends the One-Stop Shop so that more B2C supplies can be declared through a single EU registration, and introduces a new scheme for moving one's own goods between member states. The plan to make platforms the deemed supplier for intra-EU goods sales was dropped, and mandatory use of the Import One-Stop Shop (IOSS) was moved to the customs reform.",
-  "dates": [
-    {"date": "2027-01-01", "what": "Minor clarifications for OSS and IOSS users apply", "src": 0},
-    {"date": "2028-07-01", "what": "Single VAT registration extensions apply; deemed supplier rules for accommodation and road passenger platforms only", "src": 0},
-    {"date": "2029-06-30", "what": "New OSS scheme for transfers of own goods replaces call-off stock arrangements", "src": 1}
-  ],
-  "hits": ["Marketplaces moving stock into EU warehouses", "Non-EU sellers", "Fulfilment providers"],
-  "parcel": "Platforms storing stock in several EU countries will be able to report VAT on those transfers centrally, which lowers the cost of the warehouse model that is replacing direct parcels.",
-  "prepare": [
-    "Review IOSS processes ahead of the 2027 clarifications, since IOSS data now also feeds duty and handling fee checks.",
-    "Model multi-country stock placement under the 2028 single registration rules when choosing fulfilment locations."
-  ],
-  "read": "Our reading: ViDA quietly favours the EU-warehouse model; combined with the €3 duty and €2 fee, it adds to the pull of stock into Poland, the Netherlands and Germany.",
-  "stories": ["platforms-go-local", "eu-customs-reform"],
-  "sources": [
-    {"t": "VAT in the Digital Age (ViDA)", "u": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en", "pub": "European Commission, DG Taxation and Customs Union", "date": "2026-10-01"},
-    {"t": "ViDA formally adopted", "u": "https://www.pwc.nl/en/insights-and-publications/tax-news/vat/vidaformallyadopted.html", "pub": "PwC Netherlands", "date": "2025-03"}
-  ]
-},
-{
-  "key": "eu-dsa-gpsr-marketplaces",
-  "title": "DSA and product safety enforcement on marketplaces",
-  "jurisdiction": "European Union",
-  "regions": ["EU", "CN"],
-  "domain": "platforms",
-  "status": "in-force",
-  "summary": "The Commission is using the Digital Services Act against marketplaces that fail to stop illegal and unsafe products: it fined Temu €200 million on 28 May 2026 and AliExpress €550 million in July, and opened formal proceedings against Shein in February. A 2026 sweep under the General Product Safety Regulation checked nearly 1,700 offers on 35 marketplaces and found 560 non-compliant.",
-  "dates": [
-    {"date": "2026-05-28", "what": "Commission fines Temu €200 million; action plan was due by 28 August 2026", "src": 0},
-    {"date": "2026-07-20", "what": "Commission fines AliExpress €550 million", "src": 1},
-    {"date": "2026-09-07", "what": "Results of the 2026 product safety sweep of online marketplaces presented", "src": 3},
-    {"date": "2026-10-20", "what": "AliExpress remediation plan due, as reported", "src": 4}
-  ],
-  "hits": ["Very large marketplaces", "Third-party sellers", "Fulfilment and returns providers"],
-  "parcel": "Platforms under pressure delist faster and in bulk, which strands parcels in transit and raises recall, return and destruction volumes for carriers.",
-  "prepare": [
-    "Agree with platform customers what happens to parcels in transit when a listing is removed: hold, return or destroy, and who pays.",
-    "Check that shipment data carries the EU responsible person and manufacturer details that regulators now test for."
-  ],
-  "read": "Our reading: DSA fines and the customs reform's product-compliance duty point the same way; the platform answers for what is in the box, and it will push that risk down the chain by contract.",
-  "stories": ["platforms-go-local", "eu-customs-reform"],
-  "sources": [
-    {"t": "Commission fines Temu €200 million for breaching the Digital Services Act", "u": "https://europa.eu/newsroom/ecpc-failover/pdf/ip-26-1178_en.pdf", "pub": "European Commission", "date": "2026-05-28"},
-    {"t": "Commission fines AliExpress €550 million for breaching the Digital Services Act", "u": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act", "pub": "European Commission", "date": "2026-07-20"},
-    {"t": "Commission launches investigation into Shein under the Digital Services Act", "u": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-investigation-shein-under-digital-services-act", "pub": "European Commission", "date": "2026-02-17"},
-    {"t": "2026 product safety sweep shows improving compliance with product safety rules while some gaps remain", "u": "https://agenceurope.eu/en/bulletin/article/13932/20/2026-product-safety-sweep-shows-improving-compliance-with-product-safety-rules-while-some-gaps-remain", "pub": "Agence Europe", "date": "2026-09"},
-    {"t": "European Commission fines AliExpress €550 million for breaching Digital Services Act", "u": "https://www.jurist.org/news/2026/07/european-commission-fines-aliexpress-e550-million-for-breaching-digital-services-act/", "pub": "JURIST", "date": "2026-07-22"}
-  ]
-},
-{
-  "key": "eu-product-liability-directive",
-  "title": "New Product Liability Directive reaches fulfilment providers",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "product-safety",
-  "status": "adopted",
-  "summary": "Directive (EU) 2024/2853 replaces the 1985 product liability rules for products placed on the EU market from 9 December 2026. When a defective product causes damage, liability can extend beyond manufacturers and importers to fulfilment service providers and online platforms, wherever the responsible operator is based. Member states must transpose it into national law.",
-  "dates": [
-    {"date": "2026-12-09", "what": "New rules apply to products placed on the EU market from this date", "src": 0}
-  ],
-  "hits": ["Fulfilment service providers", "Online marketplaces", "Importers", "EU warehouses serving non-EU sellers"],
-  "parcel": "A warehouse or fulfilment operator storing and shipping a non-EU seller's goods can be the defendant of last resort if a defective product injures a consumer.",
-  "prepare": [
-    "Review fulfilment contracts for indemnities, insurance and seller identification before 9 December 2026.",
-    "Check product liability insurance cover for stored and shipped third-party goods.",
-    "Tighten onboarding checks on non-EU sellers whose goods you hold in EU stock."
-  ],
-  "read": "Our reading: as platforms move stock into EU warehouses, liability follows the stock; logistics providers that cannot identify a solvent EU operator behind the goods will price that risk or refuse the volume.",
-  "stories": ["platforms-go-local"],
-  "sources": [
-    {"t": "New EU product liability rules will apply to online platforms and software from December 2026", "u": "https://transition-pathways.europa.eu/retail/legislation/new-eu-product-liability-rules-will-apply-online-platforms-and-software-december", "pub": "European Commission, Transition Pathways", "date": "2026-10-01"}
-  ]
-},
-{
-  "key": "eu-ppwr-packaging",
-  "title": "EU packaging regulation: empty space limit for e-commerce boxes",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "sustainability",
-  "status": "in-force",
-  "summary": "The Packaging and Packaging Waste Regulation (EU) 2025/40 has applied since 12 August 2026. Non-EU companies shipping directly to EU consumers must appoint an authorised representative for producer responsibility, harmonised labels follow from 2028, and from 1 January 2030 operators filling transport or e-commerce packaging must keep the empty space ratio at or below 50%, with filler counted as empty space.",
-  "dates": [
-    {"date": "2026-08-12", "what": "General application of the regulation", "src": 0},
-    {"date": "2028-02-01", "what": "Commission due to publish harmonised calculation methods for empty space (month only, per trade press)", "src": 1},
-    {"date": "2028-08-12", "what": "Harmonised material composition label required (or later, depending on implementing acts)", "src": 0},
-    {"date": "2030-01-01", "what": "Maximum 50% empty space ratio for transport and e-commerce packaging", "src": 0}
-  ],
-  "hits": ["E-commerce retailers", "Fulfilment centres", "Non-EU distance sellers", "Parcel carriers"],
-  "parcel": "Smaller, better-fitted boxes reduce volumetric weight per parcel, which changes carrier revenue on dimensional pricing and van and trailer fill.",
-  "prepare": [
-    "Measure the empty space ratio of current box sizes against the 50% limit and plan carton range changes before 2030.",
-    "Ask non-EU sellers in your fulfilment network to show their authorised representative arrangements.",
-    "Review dimensional-weight tariffs, since right-sized packaging will reduce billable volume."
-  ],
-  "read": "Our reading: the 2030 limit looks distant but carton and packing-line changes take years; some early sources cited a 40% threshold, while the adopted text sets 50%.",
-  "stories": [],
-  "sources": [
-    {"t": "European Packaging and Packaging Waste Regulation: Summary of Provisions and New Guidance", "u": "https://www.lw.com/en/insights/european-packaging-and-packaging-waste-regulation-summary-of-provisions-and-new-guidance", "pub": "Latham & Watkins", "date": "2026-04-24"},
-    {"t": "EU sets 50% empty space cap for e-commerce packaging", "u": "https://www.packaging-gateway.com/news/eu-sets-50-empty-space-cap-for-e-commerce-packaging/", "pub": "Packaging Gateway", "date": "2026-04-13"},
-    {"t": "New EU rules on packaging enter into application", "u": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en", "pub": "European Commission, DG Environment", "date": "2026-08-11"},
-    {"t": "EU Packaging and Packaging Waste Regulation: New Compliance Requirements for E-Commerce", "u": "https://www.gtlaw.com/en/insights/2025/8/eu-packaging-and-packaging-waste-regulation-new-compliance-requirements-for-e-commerce", "pub": "Greenberg Traurig", "date": "2025-08-28"}
-  ]
-},
-{
-  "key": "eu-delivery-act",
-  "title": "EU Delivery Act: postal and parcel rules under review",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "postal",
-  "status": "consultation",
-  "summary": "The Commission plans to update the rules on postal services by merging the Postal Services Directive 97/67/EC and the Cross-border Parcel Delivery Regulation 2018/644 into one act. The review covers the universal service, cross-border parcel quality and tracking, user complaints and licensing. A call for evidence and a public consultation ran in late 2025; trade press reported in June 2026 that the proposal had slipped to 2027.",
-  "dates": [
-    {"date": "2027-01-01", "what": "Commission proposal now expected in 2027 (year only, per trade press; earlier planning pointed to the last quarter of 2026)", "src": 2}
-  ],
-  "hits": ["Postal operators", "Parcel carriers", "National regulators", "E-commerce retailers"],
-  "parcel": "Possible EU-wide obligations on tracking, complaints and authorisation for parcel carriers, and a redefined universal service that may shrink letters and refocus on parcels.",
-  "prepare": [
-    "Contribute data on universal service costs and cross-border parcel quality while the proposal is still being drafted.",
-    "Assess how a common EU authorisation or complaints regime would change compliance costs across your national licences."
-  ],
-  "read": "Our reading: the delay reduces near-term risk but leaves universal service funding unresolved while letter volumes fall; expect the customs reform's impact on inbound postal flows to feed into the draft.",
-  "stories": ["networks-consolidate"],
-  "sources": [
-    {"t": "EU Delivery Act: update of rules on postal services", "u": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-postal-services", "pub": "European Parliament Legislative Train", "date": "2025-12-11"},
-    {"t": "A new EU Delivery Act expected by the end of the year", "u": "https://ecommerce-europe.eu/news-item/a-new-eu-delivery-act-expected-by-the-end-of-the-year/", "pub": "Ecommerce Europe", "date": "2026-04-14"},
-    {"t": "Brussels delays new EU Delivery Act until 2027", "u": "https://www.cep-research.com/2026/06/01/brussels-delays-new-eu-delivery-act-until-2027/", "pub": "CEP-Research", "date": "2026-06-01"}
-  ]
-},
-{
-  "key": "eu-platform-work-directive",
-  "title": "Platform Work Directive: transposition deadline for app-based couriers",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "labour",
-  "status": "adopted",
-  "summary": "Directive (EU) 2024/2831 creates a presumption of employment where a digital labour platform exercises control or direction over the work, and sets rules on algorithmic management. Member states must transpose it by 2 December 2026. National drafts are still in progress: the Netherlands published a draft bill on 29 June 2026, Italy has approved a draft law and Germany is moving forward on transposition.",
-  "dates": [
-    {"date": "2026-12-02", "what": "Deadline for member states to transpose the directive", "src": 0}
-  ],
-  "hits": ["Delivery platforms", "Last-mile subcontractors using app-based drivers", "Crowd-sourced delivery models"],
-  "parcel": "Last-mile models that allocate drops to self-employed drivers through an app may face reclassification risk and higher labour costs per drop.",
-  "prepare": [
-    "Map which last-mile capacity is sourced through apps with algorithmic allocation, including subcontractors.",
-    "Track national transposition laws in your main delivery markets, since the presumption tests may differ by country."
-  ],
-  "read": "Our reading: several member states look set to miss the December deadline, so the practical exposure will arrive country by country through 2027.",
-  "stories": [],
-  "sources": [
-    {"t": "The Platform Work Act: implementing the EU Platform Work Directive in the Netherlands", "u": "https://www.globalworkplaceinsider.com/2026/09/the-platform-work-act-implementing-the-eu-platform-work-directive-in-the-netherlands/", "pub": "Global Workplace Insider", "date": "2026-09"},
-    {"t": "Italy approves draft law transposing the EU Platform Work Directive", "u": "https://remoteworkeurope.eu/news/2026/italy-platform-work-directive-transposition-draft/", "pub": "Remote Work Europe", "date": "2026"},
-    {"t": "Germany moves forward on transposing the Platform Work Directive", "u": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/germany-moves-forward-on-transposing-the-eu-platform-work-directive", "pub": "DLA Piper", "date": "2026"}
-  ]
-},
-{
-  "key": "eu-ets2-road-fuel",
-  "title": "EU ETS2: carbon price on road fuel delayed to 2028",
-  "jurisdiction": "European Union",
-  "regions": ["EU"],
-  "domain": "sustainability",
-  "status": "adopted",
-  "summary": "The second EU emissions trading system will put a carbon price on fuels for buildings and road transport, charged upstream on fuel suppliers. In March 2026 the Council formally adopted amendments that postpone its start by one year to 1 January 2028, while auctioning of allowances begins in 2027.",
-  "dates": [
-    {"date": "2027-01-01", "what": "Auctioning of ETS2 allowances begins (year only)", "src": 0},
-    {"date": "2028-01-01", "what": "ETS2 starts for road transport and building fuels", "src": 0}
-  ],
-  "hits": ["Road hauliers", "Last-mile van fleets", "Parcel carriers with diesel fleets"],
-  "parcel": "From 2028 diesel for line-haul and last-mile vans carries a carbon cost passed through by fuel suppliers, widening the cost gap with electric vans.",
-  "prepare": [
-    "Add an ETS2 scenario to 2028 fuel surcharge and fleet electrification plans.",
-    "Review fuel surcharge clauses so a carbon cost can be passed on transparently."
-  ],
-  "read": "Our reading: political pressure from some member states to soften ETS2 continues, so the 2028 start and the price level remain open to further change.",
-  "stories": ["hormuz-fuel"],
-  "sources": [
-    {"t": "EU officially adopts the 2040 climate target, postpones ETS 2 by one year", "u": "https://icapcarbonaction.com/en/news/eu-officially-adopts-2040-climate-target-postpones-ets-2-one-year", "pub": "International Carbon Action Partnership", "date": "2026-03-10"},
-    {"t": "Italy, Czech Republic push EU to ease carbon rules as energy costs rise", "u": "https://carbonherald.com/italy-czech-republic-push-eu-to-ease-carbon-rules-as-energy-costs-rise", "pub": "Carbon Herald", "date": "2026"}
-  ]
-},
-{
-  "key": "it-low-value-parcel-contribution",
-  "title": "Italy: national €2 fee on low-value parcels moved to 1 December",
-  "jurisdiction": "Italy",
-  "regions": ["EU"],
-  "domain": "customs",
-  "status": "adopted",
-  "summary": "Italy has legislated a €2 contribution on each consignment under €150 imported from outside the EU, collected by the Customs Agency at import. It has been postponed three times, from 1 January to 1 July, then 1 October, and a decree examined by the Council of Ministers on 16 September 2026 moved it to 1 December 2026, to coordinate with the EU handling fee. Logistics groups have asked for it to be cancelled.",
-  "dates": [
-    {"date": "2026-12-01", "what": "National €2 contribution per low-value consignment due to apply (further change possible)", "src": 0}
-  ],
-  "hits": ["Postal operators", "Express integrators", "Non-EU marketplaces", "Customs brokers in Italy"],
-  "parcel": "A parcel entering through Italy could carry the €3 EU duty, the €2 EU fee and a further €2 national fee, unless Rome folds its fee into the EU one.",
-  "prepare": [
-    "Prepare systems to add a per-consignment national charge for Italian imports from 1 December, but keep it switchable.",
-    "Compare entry gateways for Italy-bound volume, since a national fee can shift flows to neighbouring countries."
-  ],
-  "read": "Our reading: a fourth postponement or a merger into the EU fee is plausible; the repeated delays show Rome weighing revenue against gateway diversion.",
-  "stories": ["de-minimis-end"],
-  "sources": [
-    {"t": "Nuovo rinvio italiano sulla tassa per i pacchi extra-UE", "u": "https://www.trasportoeuropa.it/notizie/logistica/nuovo-rinvio-italiano-sulla-tassa-per-i-pacchi-extra-ue", "pub": "TrasportoEuropa", "date": "2026-09-16"},
-    {"t": "Tassa nazionale sui mini pacchi: rinvio al 1° dicembre 2026", "u": "https://www.fiscozen.it/news/tassa-nazionale-sui-mini-pacchi-rinvio-al-1-dicembre-2026-testo-normativo-ambito-di-applicazione-e-passi-pratici/", "pub": "Fiscozen", "date": "2026-09"}
-  ]
-},
-{
-  "key": "ro-logistics-fee-25-lei",
-  "title": "Romania: 25 lei fee on non-EU parcels under €150",
-  "jurisdiction": "Romania",
-  "regions": ["EU"],
-  "domain": "tax",
-  "status": "in-force",
-  "summary": "Since 1 January 2026 Romania has charged a national logistics fee of 25 lei, about €5, on parcels under €150 from outside the EU delivered to Romania, regardless of the member state of entry. Couriers and postal operators must check that it has been paid, keep records for five years and report, with penalties of up to 10,000 lei. Romanian press reports that it applies alongside the EU €3 duty.",
-  "dates": [
-    {"date": "2026-07-01", "what": "EU €3 duty starts and applies alongside the Romanian fee", "src": 0}
-  ],
-  "hits": ["Couriers and postal operators delivering in Romania", "Non-EU marketplaces"],
-  "parcel": "A low-value parcel to Romania can carry about €5 national fee plus the €3 EU duty and, from November, the €2 EU handling fee.",
-  "prepare": [
-    "Check that Romanian delivery partners verify and report the fee for parcels cleared in other member states.",
-    "Include the Romanian fee in delivered duty paid price calculations for Romanian consumers."
-  ],
-  "read": "Our reading: the highest national add-on in the EU; we found no announced end date, so it may remain until the EU regime is fully in place.",
-  "stories": ["de-minimis-end"],
-  "sources": [
-    {"t": "Taxă nouă în România și taxă nouă în UE pentru coletele sub 150 EUR", "u": "https://startupcafe.ro/taxa-noua-in-romania-si-taxa-noua-in-ue-pentru-coletele-sub-150-eur-ce-se-schimba-pentru-e-commerce-de-la-1-iulie-2026-100789", "pub": "StartupCafe", "date": "2026-06-03"}
-  ]
-},
-{
-  "key": "fr-small-parcel-tax-suspended",
-  "title": "France: €2 small parcel tax suspended for the EU duty",
-  "jurisdiction": "France",
-  "regions": ["EU"],
-  "domain": "tax",
-  "status": "suspended",
-  "summary": "France applied a national levy of €2 per category of article on low-value imports bought from non-EU platforms from 1 March 2026. It was suspended from 1 July 2026 when the EU €3 duty took over, under Decree No. 2026-589 of 3 July 2026. The levy is suspended, not repealed.",
-  "dates": [
-    {"date": "2026-07-01", "what": "National levy suspended as the EU €3 duty applies", "src": 0},
-    {"date": "2026-07-03", "what": "Decree No. 2026-589 sets the legal basis", "src": 0}
-  ],
-  "hits": ["Non-EU marketplaces", "Postal and express operators serving France"],
-  "parcel": "No national charge on French imports today, but the legal basis remains and could be reactivated.",
-  "prepare": [
-    "Keep the French levy configured but switched off in pricing and declaration systems.",
-    "Watch French budget debates for any move to reactivate it, especially around the end of the EU interim duty in 2028."
-  ],
-  "read": "Our reading: the March to June episode showed how fast flows leave a gateway when one country acts alone; France has little reason to reactivate the levy while the EU charges apply.",
-  "stories": ["de-minimis-end"],
-  "sources": [
-    {"t": "E-commerce: French tax on small packages replaced by a European customs duty", "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18985?lang=en", "pub": "Service-Public.fr (French administration)", "date": "2026-07-01"},
-    {"t": "Le gouvernement français annonce la suspension, à compter du 1er juillet 2026, de la taxe de 2 euros sur les petits colis instaurée en mars", "u": "https://www.journaldunet.com/business/action-publique/1552043-le-gouvernement-francais-annonce-la-suspension-a-compter-du-1er-juillet-2026-de-la-taxe-de-2-euros-sur-les-petits-colis-instauree-en-mars/", "pub": "Journal du Net", "date": "2026-06-30"}
-  ]
-},
-{
-  "key": "uk-low-value-imports-135",
-  "title": "UK: £135 customs relief to end by October 2028",
-  "jurisdiction": "United Kingdom",
-  "regions": ["UK"],
-  "domain": "customs",
-  "status": "proposed",
-  "summary": "HM Treasury and HMRC confirmed on 13 July 2026 that the £135 low-value import relief from customs duty will be removed by October 2028 at the latest. Goods will be classified under the existing UK tariff, an additional fee will be introduced, and overseas sellers must appoint a UK fiscal representative jointly and severally liable for customs debts. Secondary legislation and the fee amount are still to come, and HMRC is assessing whether VAT collection should be realigned.",
-  "dates": [
-    {"date": "2026-07-13", "what": "Policy paper and consultation response published", "src": 0},
-    {"date": "2026-10-28", "what": "Autumn Budget: next opportunity to change the timetable or set the fee (no public signal found that it will)", "src": 2},
-    {"date": "2028-10-01", "what": "Latest date for removal of the relief (month only)", "src": 0}
-  ],
-  "hits": ["Non-UK marketplaces and sellers", "UK fiscal representatives", "Postal operators", "Express integrators", "Customs brokers"],
-  "parcel": "Low-value parcels into the UK will need full tariff classification, a customs duty payment and an additional fee, on top of the VAT already collected at checkout.",
-  "prepare": [
-    "Build a 2028 UK cost model with full classification, the new fee and fiscal representative costs, and add re-opener clauses to multi-year contracts.",
-    "Decide whether to offer fiscal representation, with strict credit and data checks given joint and several liability."
-  ],
-  "read": "Our reading: until 2028 the UK stays the softest large Western market for direct parcels; retailer pressure makes an earlier interim charge possible, but no Budget signal has appeared yet.",
-  "stories": ["uk-three-rulebooks", "de-minimis-end"],
-  "sources": [
-    {"t": "UK Low Value Import Relief to be Removed by October 2028", "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/", "pub": "Baker McKenzie Global Import Blog", "date": "2026-07-24"},
-    {"t": "Low Value Imports reform confirmed for October 2028 at the latest", "u": "https://hillierhopkins.co.uk/insight-posts/low-value-imports-reform-confirmed-for-october-2028-at-the-latest/", "pub": "Hillier Hopkins", "date": "2026-07-15"},
-    {"t": "Healey sets a pre-Halloween Autumn Budget", "u": "https://chasedevere.co.uk/2026/09/10/healey-sets-a-pre-halloween-autumn-budget-2/", "pub": "Chase de Vere", "date": "2026-09-10"}
-  ]
-},
-{
-  "key": "uk-product-safety-marketplaces",
-  "title": "UK product safety reform: new duties for online marketplaces",
-  "jurisdiction": "United Kingdom",
-  "regions": ["UK"],
-  "domain": "product-safety",
-  "status": "consultation",
-  "summary": "Using powers in the Product Regulation and Metrology Act 2025, the government consulted until 23 June 2026 on reforming the UK's general product safety framework and market surveillance. Online marketplaces would have to exercise due care to prevent, identify and remove dangerous products, verify sellers and act against repeat offenders. Detailed duties will come through secondary legislation; no implementation dates have been set.",
-  "dates": [
-    {"date": "2026-06-23", "what": "Consultations close; government response and secondary legislation to follow (no date announced)", "src": 0}
-  ],
-  "hits": ["Online marketplaces", "Overseas sellers", "Fulfilment providers"],
-  "parcel": "Stricter pre-listing and seller checks mean more delistings and recalls on UK marketplaces, and more parcels stopped, returned or destroyed.",
-  "prepare": [
-    "Agree with marketplace customers how recalls and delisted stock in UK warehouses will be handled.",
-    "Follow the government response for any duties that extend to fulfilment or delivery providers."
-  ],
-  "read": "Our reading: the UK is moving towards EU-style marketplace accountability, but on its own timetable; expect marketplaces to be the first target for new obligations and enforcement.",
-  "stories": ["uk-three-rulebooks"],
-  "sources": [
-    {"t": "UK government consults on proposals to reform the UK's general product safety framework and market surveillance regime", "u": "https://www.lewissilkin.com/en/insights/2026/06/01/uk-government-consults-on-proposals-to-reform-the-uks-general-product-safety-fra-102mzh8", "pub": "Lewis Silkin", "date": "2026-06-01"},
-    {"t": "From passive host to proactive gatekeeper: online marketplaces in the spotlight under the PRMA reforms", "u": "https://www.hsfkramer.com/notes/tmt/2026-posts/from-passive-host-to-proactive-gatekeeper-online-marketplaces-in-the-spotlight", "pub": "Herbert Smith Freehills Kramer", "date": "2026-04-14"}
-  ]
-},
-{
-  "key": "uk-packaging-epr-fees",
-  "title": "UK packaging EPR: fees now vary with recyclability",
-  "jurisdiction": "United Kingdom",
-  "regions": ["UK"],
-  "domain": "sustainability",
-  "status": "in-force",
-  "summary": "Under the UK's packaging extended producer responsibility scheme, large producers (over £2 million turnover and 50 tonnes of packaging a year) pay fees for household packaging. Year 1 used flat base fees; from year 2 (2026-27) fees are modulated by a red, amber, green recyclability rating. PackUK expects to recover about £1.56 billion in 2026-27.",
-  "dates": [
-    {"date": "2026-07-01", "what": "First liability notices for 2026-27 scheduled (month only)", "src": 1}
-  ],
-  "hits": ["Retailers and brand owners", "Online marketplaces", "Fulfilment providers packing for clients"],
-  "parcel": "E-commerce shipping packaging that reaches households counts, so mailers and boxes rated red for recyclability cost more per tonne.",
-  "prepare": [
-    "Clarify with clients who is the obligated producer for packaging you add at fulfilment.",
-    "Shift mailer and filler choices towards designs rated green under the recyclability assessment."
-  ],
-  "read": "Our reading: illustrative year 2 fees put red-rated plastic at £545 a tonne against £415 for green, a gap large enough to change packaging specifications in fulfilment.",
-  "stories": ["uk-three-rulebooks"],
-  "sources": [
-    {"t": "Packaging extended producer responsibility", "u": "https://commonslibrary.parliament.uk/research-briefings/cbp-10352/", "pub": "House of Commons Library", "date": "2026-07-29"},
-    {"t": "PackUK details next phase of UK packaging EPR rollout", "u": "https://www.packaging-gateway.com/news/packuk-details-next-phase-of-uk-packaging-epr-rollout/", "pub": "Packaging Gateway", "date": "2026-03-05"},
-    {"t": "Year 2 illustrative waste disposal fees: extended producer responsibility for packaging", "u": "https://www.gov.uk/government/publications/illustrative-waste-disposal-fees-2026-extended-producer-responsibility-for-packaging/year-2-illustrative-waste-disposal-fees-extended-producer-responsibility-for-packaging", "pub": "Defra (GOV.UK)", "date": "2025-12-19"}
-  ]
-},
-{
-  "key": "uk-royal-mail-uso-reform",
-  "title": "UK universal postal service: Royal Mail under Ofcom investigation",
-  "jurisdiction": "United Kingdom",
-  "regions": ["UK"],
-  "domain": "postal",
-  "status": "in-force",
-  "summary": "Ofcom's 2025 reform lets Royal Mail deliver Second Class letters on alternate weekdays and relaxes targets from 2026-27 to 90% for First Class next day and 95% for Second Class within three days. On 1 June 2026 Ofcom opened an investigation after First Class reached 75.7% against a 93% target in 2025-26, and may impose a penalty. Ofcom expects the new delivery model to be in place by Christmas 2026 and the targets met by April 2027.",
-  "dates": [
-    {"date": "2026-06-01", "what": "Ofcom opens investigation into 2025-26 delivery performance", "src": 0},
-    {"date": "2026-12-01", "what": "New delivery model expected to be fully implemented by Christmas 2026 (month only)", "src": 0},
-    {"date": "2027-04-01", "what": "Royal Mail expected to meet the revised targets (month only)", "src": 0}
-  ],
-  "hits": ["Royal Mail", "Competing parcel carriers", "Retailers and marketplaces shipping in the UK"],
-  "parcel": "Fewer letter rounds free capacity for parcels, but the transition through peak 2026 carries service risk for parcels on shared networks.",
-  "prepare": [
-    "Keep a second carrier on key UK lanes through peak 2026 while the new delivery model is rolled out.",
-    "Track Ofcom's findings and any penalty, which may shape service commitments in 2027 contracts."
-  ],
-  "read": "Our reading: the reform turns the universal service into a parcel strategy; a missed April 2027 target would bring political pressure on the new ownership and could reopen the regulatory settlement.",
-  "stories": ["uk-three-rulebooks", "networks-consolidate"],
-  "sources": [
-    {"t": "Ofcom investigates Royal Mail's 2025/26 delivery performance", "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-investigates-royal-mails-202526-delivery-performance", "pub": "Ofcom", "date": "2026-06-01"},
-    {"t": "Royal Mail performance", "u": "https://commonslibrary.parliament.uk/research-briefings/cbp-10383/", "pub": "House of Commons Library", "date": "2026-06-04"}
+  "items": [
+    {
+      "key": "eu-low-value-duty-3-euro",
+      "title": "EU €3 duty per tariff line on parcels under €150",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Since 1 July 2026 the EU charges a flat €3 customs duty on low-value e-commerce consignments that used to enter duty-free under the €150 threshold. The duty is due on each different category of item in a parcel, identified by tariff subheading: the Council's example of one silk blouse and two wool blouses pays €6. It is an interim measure that runs to 1 July 2028 and can be extended.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "Flat €3 duty applies to low-value e-commerce consignments",
+          "src": 0
+        },
+        {
+          "date": "2028-07-01",
+          "what": "Interim duty due to end, with the option to extend it as appropriate",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Non-EU marketplaces",
+        "Non-EU web shops, including UK sellers",
+        "Postal operators",
+        "Express integrators",
+        "Customs brokers"
+      ],
+      "parcel": "Every low-value parcel from outside the EU now carries at least €3 of duty per tariff line, so item-level classification decides the landed cost.",
+      "prepare": [
+        "Capture the tariff subheading for every order line at checkout and pass it to the declarant, since the duty counts categories, not units.",
+        "Reprice single-line, low-ticket products where €3 is a large share of the basket, or bundle them into fewer tariff lines.",
+        "Write into platform and merchant contracts who calculates, collects and remits the duty, and who bears it on refused parcels."
+      ],
+      "read": "Our reading: the 2028 date is a hand-over to the Data Hub regime, not a sunset; if the Hub slips, expect the interim duty to be extended rather than dropped.",
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform"
+      ],
+      "sources": [
+        {
+          "t": "Council gives final green light to new customs duty rules for small parcels",
+          "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+          "pub": "Council of the European Union",
+          "date": "2026-02-11"
+        },
+        {
+          "t": "EU Customs Reform",
+          "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+          "pub": "European Commission, DG Taxation and Customs Union",
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "key": "eu-handling-fee-2-euro",
+      "title": "EU €2 handling fee on low-value parcels from November 2026",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "customs",
+      "status": "adopted",
+      "summary": "On 21 September 2026 the Commission adopted a delegated act setting a Union handling fee of €2 on goods up to €150 released into free circulation, based on member states' customs costs and item volumes. Parliament and Council have up to 30 days to object, and the fee must be introduced no later than 1 November 2026. From 1 July 2028 a lower amount applies where the importer operates a customs warehouse.",
+      "dates": [
+        {
+          "date": "2026-09-21",
+          "what": "Commission adopts the delegated act setting the fee at €2",
+          "src": 0
+        },
+        {
+          "date": "2026-10-21",
+          "what": "Indicative end of the 30-day objection period (depends on the notification date)",
+          "src": 0
+        },
+        {
+          "date": "2026-11-01",
+          "what": "Latest date for the fee to apply; the exact start depends on publication in the Official Journal",
+          "src": 1
+        },
+        {
+          "date": "2028-07-01",
+          "what": "Lower fee where the importer operates a customs warehouse",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Non-EU marketplaces",
+        "Non-EU web shops",
+        "Postal operators",
+        "Express integrators",
+        "Customs brokers",
+        "Consumers"
+      ],
+      "parcel": "A single-line parcel under €150 from outside the EU carries at least €5 in EU charges (€3 duty plus €2 fee) before VAT, from November 2026.",
+      "prepare": [
+        "Confirm the charging unit in the published text: the Commission describes the fee per item, while some advisers read it per consignment.",
+        "Build the €2 into delivered duty paid checkout prices now, so it is not collected at the door.",
+        "Test with each member state of entry how the fee will be declared and remitted from 1 November, and plan for teething problems in peak season."
+      ],
+      "read": "Our reading: an objection from Parliament or Council looks unlikely given the political consensus; the practical risk is uneven national collection in the first weeks, which falls on carriers holding the parcels.",
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform"
+      ],
+      "sources": [
+        {
+          "t": "EU Sets €2 Handling Fee for Small Parcels Under Customs Reform",
+          "u": "https://www.vatupdate.com/2026/09/28/eu-sets-e2-handling-fee-for-small-parcels-under-customs-reform/",
+          "pub": "VATupdate",
+          "date": "2026-09-28"
+        },
+        {
+          "t": "EU Customs Reform",
+          "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+          "pub": "European Commission, DG Taxation and Customs Union",
+          "date": "2026-10-01"
+        },
+        {
+          "t": "Mini parcels from outside the EU: the handling fee will be 2 euros, plus tariffs of 3 euros",
+          "u": "https://en.ilsole24ore.com/art/for-small-parcels-from-outside-the-eu-the-handling-fee-will-be-2-euros-plus-tariffs-of-3-euros-AJWug7OB",
+          "pub": "Il Sole 24 Ore",
+          "date": "2026-09"
+        },
+        {
+          "t": "UK Low Value Import Relief to be Removed by October 2028",
+          "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/",
+          "pub": "Baker McKenzie Global Import Blog",
+          "date": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "key": "eu-customs-reform-2026",
+      "title": "EU customs reform: platforms become the importer",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "Regulation (EU) 2026/2108 rewrites the Union Customs Code: sellers and platforms facilitating distance sales from outside the EU are treated as the importer, responsible for customs data, charges and product compliance. It creates an EU Customs Authority in Lille and an EU Customs Data Hub replacing more than 111 national IT systems. Repeated breaches can cost 1% to 6% of the value of goods imported over the previous 12 months.",
+      "dates": [
+        {
+          "date": "2026-09-19",
+          "what": "Regulation (EU) 2026/2108 published in the Official Journal",
+          "src": 0
+        },
+        {
+          "date": "2026-09-20",
+          "what": "Regulation enters into force (the Commission's page gives 21 September)",
+          "src": 1
+        },
+        {
+          "date": "2027-01-01",
+          "what": "EU Customs Authority starts some activities in Lille (year only)",
+          "src": 2
+        },
+        {
+          "date": "2027-09-21",
+          "what": "General application of the main provisions, including importer obligations for distance sales",
+          "src": 1
+        },
+        {
+          "date": "2028-07-01",
+          "what": "EU Customs Data Hub becomes mandatory for e-commerce operators",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Non-EU marketplaces",
+        "Non-EU sellers",
+        "Postal operators",
+        "Express integrators",
+        "Customs brokers and indirect representatives"
+      ],
+      "parcel": "Liability for the declaration, the duty and the product's compliance moves to the platform or seller, and carriers become data suppliers to a single EU hub.",
+      "prepare": [
+        "Map which contracts make you the declarant or representative today, and renegotiate liability before importer obligations apply in September 2027.",
+        "Prepare item-level data feeds (classification, origin, value, seller identity) to the format the Data Hub will expect from July 2028.",
+        "Price importer-of-record, representation and data-validation services for non-EU sellers facing fines of up to 6% of annual import value."
+      ],
+      "read": "Our reading: the legal shift is settled, the IT is not; the Data Hub date is where slippage is most likely, and every delay extends the interim duty and national workarounds.",
+      "stories": [
+        "eu-customs-reform",
+        "de-minimis-end",
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "Regulation (EU) 2026/2108",
+          "u": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202602108",
+          "pub": "EUR-Lex",
+          "date": "2026-09-19"
+        },
+        {
+          "t": "European Union publishes new Customs Code: phased transformation begins with e-commerce and data-led compliance",
+          "u": "https://www.vatupdate.com/2026/09/27/european-union-publishes-new-customs-code-phased-transformation-begins-with-e-commerce-and-data-led-compliance/",
+          "pub": "VATupdate",
+          "date": "2026-09-27"
+        },
+        {
+          "t": "EU Customs Reform",
+          "u": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+          "pub": "European Commission, DG Taxation and Customs Union",
+          "date": "2026-10-01"
+        },
+        {
+          "t": "Deal reached on Union Customs Code reform",
+          "u": "https://www.europarl.europa.eu/news/en/press-room/20260323IPR38815/deal-reached-on-union-customs-code-reform",
+          "pub": "European Parliament",
+          "date": "2026-03-23"
+        },
+        {
+          "t": "EU Parliament approves sweeping customs reform targeting e-commerce imports",
+          "u": "https://www.eureporter.co/politics/european-parliament-2/2026/09/16/eu-parliament-approves-sweeping-customs-reform-targeting-e-commerce-imports/",
+          "pub": "EU Reporter",
+          "date": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "key": "eu-ics2-all-modes",
+      "title": "ICS2: advance safety data now required for every mode into the EU",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "customs",
+      "status": "in-force",
+      "summary": "The Import Control System 2 requires an entry summary declaration with safety and security data before goods arrive in the EU. Postal and express consignments by air have been covered since 2023; road and rail were the last phase. Since 1 June 2026, every consignment entering the EU by any means of transport should have a valid declaration, after national derogations ended.",
+      "dates": [
+        {
+          "date": "2026-06-01",
+          "what": "Valid entry summary declaration expected for all consignments by any mode; temporary derogations in 14 member states end",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Postal operators",
+        "Express integrators",
+        "Road hauliers on UK, Swiss and Turkish lanes",
+        "Freight forwarders"
+      ],
+      "parcel": "Parcels trucked into the EU, for example from the UK or Türkiye, need complete item descriptions before arrival or face holds at the border.",
+      "prepare": [
+        "Audit goods descriptions on road-fed parcel flows against the ICS2 rules on vague wording.",
+        "Confirm that every subcontracted haulier on inbound lanes files, or receives, the entry summary declaration in time."
+      ],
+      "read": "Our reading: ICS2 is the data spine the customs reform builds on; carriers with weak advance data today will find the 2028 Data Hub harder, not easier.",
+      "stories": [
+        "eu-customs-reform"
+      ],
+      "sources": [
+        {
+          "t": "Import Control System 2",
+          "u": "https://taxation-customs.ec.europa.eu/customs/customs-security/import-control-system-2_en",
+          "pub": "European Commission, DG Taxation and Customs Union",
+          "date": "2026-06-01"
+        },
+        {
+          "t": "ICS2 enters final phase with country-specific derogations",
+          "u": "https://www.customs-declarations.uk/ics2-enters-final-phase-with-country-specific-derogations-navigating-the-fragmented-european-safety-and-security-landscape/",
+          "pub": "Customs-Declarations.UK",
+          "date": "2026-01-26"
+        }
+      ]
+    },
+    {
+      "key": "eu-vida-vat-digital-age",
+      "title": "VAT in the Digital Age: one registration, but no deemed supplier for goods",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "tax",
+      "status": "adopted",
+      "summary": "The ViDA package, adopted in March 2025, extends the One-Stop Shop so that more B2C supplies can be declared through a single EU registration, and introduces a new scheme for moving one's own goods between member states. The plan to make platforms the deemed supplier for intra-EU goods sales was dropped, and mandatory use of the Import One-Stop Shop (IOSS) was moved to the customs reform.",
+      "dates": [
+        {
+          "date": "2027-01-01",
+          "what": "Minor clarifications for OSS and IOSS users apply",
+          "src": 0
+        },
+        {
+          "date": "2028-07-01",
+          "what": "Single VAT registration extensions apply; deemed supplier rules for accommodation and road passenger platforms only",
+          "src": 0
+        },
+        {
+          "date": "2029-06-30",
+          "what": "New OSS scheme for transfers of own goods replaces call-off stock arrangements",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Marketplaces moving stock into EU warehouses",
+        "Non-EU sellers",
+        "Fulfilment providers"
+      ],
+      "parcel": "Platforms storing stock in several EU countries will be able to report VAT on those transfers centrally, which lowers the cost of the warehouse model that is replacing direct parcels.",
+      "prepare": [
+        "Review IOSS processes ahead of the 2027 clarifications, since IOSS data now also feeds duty and handling fee checks.",
+        "Model multi-country stock placement under the 2028 single registration rules when choosing fulfilment locations."
+      ],
+      "read": "Our reading: ViDA quietly favours the EU-warehouse model; combined with the €3 duty and €2 fee, it adds to the pull of stock into Poland, the Netherlands and Germany.",
+      "stories": [
+        "platforms-go-local",
+        "eu-customs-reform"
+      ],
+      "sources": [
+        {
+          "t": "VAT in the Digital Age (ViDA)",
+          "u": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+          "pub": "European Commission, DG Taxation and Customs Union",
+          "date": "2026-10-01"
+        },
+        {
+          "t": "ViDA formally adopted",
+          "u": "https://www.pwc.nl/en/insights-and-publications/tax-news/vat/vidaformallyadopted.html",
+          "pub": "PwC Netherlands",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "key": "eu-dsa-gpsr-marketplaces",
+      "title": "DSA and product safety enforcement on marketplaces",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU",
+        "CN"
+      ],
+      "domain": "platforms",
+      "status": "in-force",
+      "summary": "The Commission is using the Digital Services Act against marketplaces that fail to stop illegal and unsafe products: it fined Temu €200 million on 28 May 2026 and AliExpress €550 million in July, and opened formal proceedings against Shein in February. A 2026 sweep under the General Product Safety Regulation checked nearly 1,700 offers on 35 marketplaces and found 560 non-compliant.",
+      "dates": [
+        {
+          "date": "2026-05-28",
+          "what": "Commission fines Temu €200 million; action plan was due by 28 August 2026",
+          "src": 0
+        },
+        {
+          "date": "2026-07-20",
+          "what": "Commission fines AliExpress €550 million",
+          "src": 1
+        },
+        {
+          "date": "2026-09-07",
+          "what": "Results of the 2026 product safety sweep of online marketplaces presented",
+          "src": 3
+        },
+        {
+          "date": "2026-10-20",
+          "what": "AliExpress remediation plan due, as reported",
+          "src": 4
+        }
+      ],
+      "hits": [
+        "Very large marketplaces",
+        "Third-party sellers",
+        "Fulfilment and returns providers"
+      ],
+      "parcel": "Platforms under pressure delist faster and in bulk, which strands parcels in transit and raises recall, return and destruction volumes for carriers.",
+      "prepare": [
+        "Agree with platform customers what happens to parcels in transit when a listing is removed: hold, return or destroy, and who pays.",
+        "Check that shipment data carries the EU responsible person and manufacturer details that regulators now test for."
+      ],
+      "read": "Our reading: DSA fines and the customs reform's product-compliance duty point the same way; the platform answers for what is in the box, and it will push that risk down the chain by contract.",
+      "stories": [
+        "platforms-go-local",
+        "eu-customs-reform"
+      ],
+      "sources": [
+        {
+          "t": "Commission fines Temu €200 million for breaching the Digital Services Act",
+          "u": "https://europa.eu/newsroom/ecpc-failover/pdf/ip-26-1178_en.pdf",
+          "pub": "European Commission",
+          "date": "2026-05-28"
+        },
+        {
+          "t": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+          "u": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act",
+          "pub": "European Commission",
+          "date": "2026-07-20"
+        },
+        {
+          "t": "Commission launches investigation into Shein under the Digital Services Act",
+          "u": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-investigation-shein-under-digital-services-act",
+          "pub": "European Commission",
+          "date": "2026-02-17"
+        },
+        {
+          "t": "2026 product safety sweep shows improving compliance with product safety rules while some gaps remain",
+          "u": "https://agenceurope.eu/en/bulletin/article/13932/20/2026-product-safety-sweep-shows-improving-compliance-with-product-safety-rules-while-some-gaps-remain",
+          "pub": "Agence Europe",
+          "date": "2026-09"
+        },
+        {
+          "t": "European Commission fines AliExpress €550 million for breaching Digital Services Act",
+          "u": "https://www.jurist.org/news/2026/07/european-commission-fines-aliexpress-e550-million-for-breaching-digital-services-act/",
+          "pub": "JURIST",
+          "date": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "key": "eu-product-liability-directive",
+      "title": "New Product Liability Directive reaches fulfilment providers",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "product-safety",
+      "status": "adopted",
+      "summary": "Directive (EU) 2024/2853 replaces the 1985 product liability rules for products placed on the EU market from 9 December 2026. When a defective product causes damage, liability can extend beyond manufacturers and importers to fulfilment service providers and online platforms, wherever the responsible operator is based. Member states must transpose it into national law.",
+      "dates": [
+        {
+          "date": "2026-12-09",
+          "what": "New rules apply to products placed on the EU market from this date",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Fulfilment service providers",
+        "Online marketplaces",
+        "Importers",
+        "EU warehouses serving non-EU sellers"
+      ],
+      "parcel": "A warehouse or fulfilment operator storing and shipping a non-EU seller's goods can be the defendant of last resort if a defective product injures a consumer.",
+      "prepare": [
+        "Review fulfilment contracts for indemnities, insurance and seller identification before 9 December 2026.",
+        "Check product liability insurance cover for stored and shipped third-party goods.",
+        "Tighten onboarding checks on non-EU sellers whose goods you hold in EU stock."
+      ],
+      "read": "Our reading: as platforms move stock into EU warehouses, liability follows the stock; logistics providers that cannot identify a solvent EU operator behind the goods will price that risk or refuse the volume.",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "sources": [
+        {
+          "t": "New EU product liability rules will apply to online platforms and software from December 2026",
+          "u": "https://transition-pathways.europa.eu/retail/legislation/new-eu-product-liability-rules-will-apply-online-platforms-and-software-december",
+          "pub": "European Commission, Transition Pathways",
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "key": "eu-ppwr-packaging",
+      "title": "EU packaging regulation: empty space limit for e-commerce boxes",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "sustainability",
+      "status": "in-force",
+      "summary": "The Packaging and Packaging Waste Regulation (EU) 2025/40 has applied since 12 August 2026. Non-EU companies shipping directly to EU consumers must appoint an authorised representative for producer responsibility, harmonised labels follow from 2028, and from 1 January 2030 operators filling transport or e-commerce packaging must keep the empty space ratio at or below 50%, with filler counted as empty space.",
+      "dates": [
+        {
+          "date": "2026-08-12",
+          "what": "General application of the regulation",
+          "src": 0
+        },
+        {
+          "date": "2028-02-01",
+          "what": "Commission due to publish harmonised calculation methods for empty space (month only, per trade press)",
+          "src": 1
+        },
+        {
+          "date": "2028-08-12",
+          "what": "Harmonised material composition label required (or later, depending on implementing acts)",
+          "src": 0
+        },
+        {
+          "date": "2030-01-01",
+          "what": "Maximum 50% empty space ratio for transport and e-commerce packaging",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "E-commerce retailers",
+        "Fulfilment centres",
+        "Non-EU distance sellers",
+        "Parcel carriers"
+      ],
+      "parcel": "Smaller, better-fitted boxes reduce volumetric weight per parcel, which changes carrier revenue on dimensional pricing and van and trailer fill.",
+      "prepare": [
+        "Measure the empty space ratio of current box sizes against the 50% limit and plan carton range changes before 2030.",
+        "Ask non-EU sellers in your fulfilment network to show their authorised representative arrangements.",
+        "Review dimensional-weight tariffs, since right-sized packaging will reduce billable volume."
+      ],
+      "read": "Our reading: the 2030 limit looks distant but carton and packing-line changes take years; some early sources cited a 40% threshold, while the adopted text sets 50%.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "European Packaging and Packaging Waste Regulation: Summary of Provisions and New Guidance",
+          "u": "https://www.lw.com/en/insights/european-packaging-and-packaging-waste-regulation-summary-of-provisions-and-new-guidance",
+          "pub": "Latham & Watkins",
+          "date": "2026-04-24"
+        },
+        {
+          "t": "EU sets 50% empty space cap for e-commerce packaging",
+          "u": "https://www.packaging-gateway.com/news/eu-sets-50-empty-space-cap-for-e-commerce-packaging/",
+          "pub": "Packaging Gateway",
+          "date": "2026-04-13"
+        },
+        {
+          "t": "New EU rules on packaging enter into application",
+          "u": "https://environment.ec.europa.eu/news/new-eu-rules-packaging-enter-application-2026-08-11_en",
+          "pub": "European Commission, DG Environment",
+          "date": "2026-08-11"
+        },
+        {
+          "t": "EU Packaging and Packaging Waste Regulation: New Compliance Requirements for E-Commerce",
+          "u": "https://www.gtlaw.com/en/insights/2025/8/eu-packaging-and-packaging-waste-regulation-new-compliance-requirements-for-e-commerce",
+          "pub": "Greenberg Traurig",
+          "date": "2025-08-28"
+        }
+      ]
+    },
+    {
+      "key": "eu-delivery-act",
+      "title": "EU Delivery Act: postal and parcel rules under review",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "postal",
+      "status": "consultation",
+      "summary": "The Commission plans to update the rules on postal services by merging the Postal Services Directive 97/67/EC and the Cross-border Parcel Delivery Regulation 2018/644 into one act. The review covers the universal service, cross-border parcel quality and tracking, user complaints and licensing. A call for evidence and a public consultation ran in late 2025; trade press reported in June 2026 that the proposal had slipped to 2027.",
+      "dates": [
+        {
+          "date": "2027-01-01",
+          "what": "Commission proposal now expected in 2027 (year only, per trade press; earlier planning pointed to the last quarter of 2026)",
+          "src": 2
+        }
+      ],
+      "hits": [
+        "Postal operators",
+        "Parcel carriers",
+        "National regulators",
+        "E-commerce retailers"
+      ],
+      "parcel": "Possible EU-wide obligations on tracking, complaints and authorisation for parcel carriers, and a redefined universal service that may shrink letters and refocus on parcels.",
+      "prepare": [
+        "Contribute data on universal service costs and cross-border parcel quality while the proposal is still being drafted.",
+        "Assess how a common EU authorisation or complaints regime would change compliance costs across your national licences."
+      ],
+      "read": "Our reading: the delay reduces near-term risk but leaves universal service funding unresolved while letter volumes fall; expect the customs reform's impact on inbound postal flows to feed into the draft.",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "sources": [
+        {
+          "t": "EU Delivery Act: update of rules on postal services",
+          "u": "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-postal-services",
+          "pub": "European Parliament Legislative Train",
+          "date": "2025-12-11"
+        },
+        {
+          "t": "A new EU Delivery Act expected by the end of the year",
+          "u": "https://ecommerce-europe.eu/news-item/a-new-eu-delivery-act-expected-by-the-end-of-the-year/",
+          "pub": "Ecommerce Europe",
+          "date": "2026-04-14"
+        },
+        {
+          "t": "Brussels delays new EU Delivery Act until 2027",
+          "u": "https://www.cep-research.com/2026/06/01/brussels-delays-new-eu-delivery-act-until-2027/",
+          "pub": "CEP-Research",
+          "date": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "key": "eu-platform-work-directive",
+      "title": "Platform Work Directive: transposition deadline for app-based couriers",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "labour",
+      "status": "adopted",
+      "summary": "Directive (EU) 2024/2831 creates a presumption of employment where a digital labour platform exercises control or direction over the work, and sets rules on algorithmic management. Member states must transpose it by 2 December 2026. National drafts are still in progress: the Netherlands published a draft bill on 29 June 2026, Italy has approved a draft law and Germany is moving forward on transposition.",
+      "dates": [
+        {
+          "date": "2026-12-02",
+          "what": "Deadline for member states to transpose the directive",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Delivery platforms",
+        "Last-mile subcontractors using app-based drivers",
+        "Crowd-sourced delivery models"
+      ],
+      "parcel": "Last-mile models that allocate drops to self-employed drivers through an app may face reclassification risk and higher labour costs per drop.",
+      "prepare": [
+        "Map which last-mile capacity is sourced through apps with algorithmic allocation, including subcontractors.",
+        "Track national transposition laws in your main delivery markets, since the presumption tests may differ by country."
+      ],
+      "read": "Our reading: several member states look set to miss the December deadline, so the practical exposure will arrive country by country through 2027.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "The Platform Work Act: implementing the EU Platform Work Directive in the Netherlands",
+          "u": "https://www.globalworkplaceinsider.com/2026/09/the-platform-work-act-implementing-the-eu-platform-work-directive-in-the-netherlands/",
+          "pub": "Global Workplace Insider",
+          "date": "2026-09"
+        },
+        {
+          "t": "Italy approves draft law transposing the EU Platform Work Directive",
+          "u": "https://remoteworkeurope.eu/news/2026/italy-platform-work-directive-transposition-draft/",
+          "pub": "Remote Work Europe",
+          "date": "2026"
+        },
+        {
+          "t": "Germany moves forward on transposing the Platform Work Directive",
+          "u": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/germany-moves-forward-on-transposing-the-eu-platform-work-directive",
+          "pub": "DLA Piper",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "key": "eu-ets2-road-fuel",
+      "title": "EU ETS2: carbon price on road fuel delayed to 2028",
+      "jurisdiction": "European Union",
+      "regions": [
+        "EU"
+      ],
+      "domain": "sustainability",
+      "status": "adopted",
+      "summary": "The second EU emissions trading system will put a carbon price on fuels for buildings and road transport, charged upstream on fuel suppliers. In March 2026 the Council formally adopted amendments that postpone its start by one year to 1 January 2028, while auctioning of allowances begins in 2027.",
+      "dates": [
+        {
+          "date": "2027-01-01",
+          "what": "Auctioning of ETS2 allowances begins (year only)",
+          "src": 0
+        },
+        {
+          "date": "2028-01-01",
+          "what": "ETS2 starts for road transport and building fuels",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Road hauliers",
+        "Last-mile van fleets",
+        "Parcel carriers with diesel fleets"
+      ],
+      "parcel": "From 2028 diesel for line-haul and last-mile vans carries a carbon cost passed through by fuel suppliers, widening the cost gap with electric vans.",
+      "prepare": [
+        "Add an ETS2 scenario to 2028 fuel surcharge and fleet electrification plans.",
+        "Review fuel surcharge clauses so a carbon cost can be passed on transparently."
+      ],
+      "read": "Our reading: political pressure from some member states to soften ETS2 continues, so the 2028 start and the price level remain open to further change.",
+      "stories": [
+        "hormuz-fuel"
+      ],
+      "sources": [
+        {
+          "t": "EU officially adopts the 2040 climate target, postpones ETS 2 by one year",
+          "u": "https://icapcarbonaction.com/en/news/eu-officially-adopts-2040-climate-target-postpones-ets-2-one-year",
+          "pub": "International Carbon Action Partnership",
+          "date": "2026-03-10"
+        },
+        {
+          "t": "Italy, Czech Republic push EU to ease carbon rules as energy costs rise",
+          "u": "https://carbonherald.com/italy-czech-republic-push-eu-to-ease-carbon-rules-as-energy-costs-rise",
+          "pub": "Carbon Herald",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "key": "it-low-value-parcel-contribution",
+      "title": "Italy: national €2 fee on low-value parcels moved to 1 December",
+      "jurisdiction": "Italy",
+      "regions": [
+        "EU"
+      ],
+      "domain": "customs",
+      "status": "adopted",
+      "summary": "Italy has legislated a €2 contribution on each consignment under €150 imported from outside the EU, collected by the Customs Agency at import. It has been postponed three times, from 1 January to 1 July, then 1 October, and a decree examined by the Council of Ministers on 16 September 2026 moved it to 1 December 2026, to coordinate with the EU handling fee. Logistics groups have asked for it to be cancelled.",
+      "dates": [
+        {
+          "date": "2026-12-01",
+          "what": "National €2 contribution per low-value consignment due to apply (further change possible)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Postal operators",
+        "Express integrators",
+        "Non-EU marketplaces",
+        "Customs brokers in Italy"
+      ],
+      "parcel": "A parcel entering through Italy could carry the €3 EU duty, the €2 EU fee and a further €2 national fee, unless Rome folds its fee into the EU one.",
+      "prepare": [
+        "Prepare systems to add a per-consignment national charge for Italian imports from 1 December, but keep it switchable.",
+        "Compare entry gateways for Italy-bound volume, since a national fee can shift flows to neighbouring countries."
+      ],
+      "read": "Our reading: a fourth postponement or a merger into the EU fee is plausible; the repeated delays show Rome weighing revenue against gateway diversion.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Nuovo rinvio italiano sulla tassa per i pacchi extra-UE",
+          "u": "https://www.trasportoeuropa.it/notizie/logistica/nuovo-rinvio-italiano-sulla-tassa-per-i-pacchi-extra-ue",
+          "pub": "TrasportoEuropa",
+          "date": "2026-09-16"
+        },
+        {
+          "t": "Tassa nazionale sui mini pacchi: rinvio al 1° dicembre 2026",
+          "u": "https://www.fiscozen.it/news/tassa-nazionale-sui-mini-pacchi-rinvio-al-1-dicembre-2026-testo-normativo-ambito-di-applicazione-e-passi-pratici/",
+          "pub": "Fiscozen",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "key": "ro-logistics-fee-25-lei",
+      "title": "Romania: 25 lei fee on non-EU parcels under €150",
+      "jurisdiction": "Romania",
+      "regions": [
+        "EU"
+      ],
+      "domain": "tax",
+      "status": "in-force",
+      "summary": "Since 1 January 2026 Romania has charged a national logistics fee of 25 lei, about €5, on parcels under €150 from outside the EU delivered to Romania, regardless of the member state of entry. Couriers and postal operators must check that it has been paid, keep records for five years and report, with penalties of up to 10,000 lei. Romanian press reports that it applies alongside the EU €3 duty.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "EU €3 duty starts and applies alongside the Romanian fee",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Couriers and postal operators delivering in Romania",
+        "Non-EU marketplaces"
+      ],
+      "parcel": "A low-value parcel to Romania can carry about €5 national fee plus the €3 EU duty and, from November, the €2 EU handling fee.",
+      "prepare": [
+        "Check that Romanian delivery partners verify and report the fee for parcels cleared in other member states.",
+        "Include the Romanian fee in delivered duty paid price calculations for Romanian consumers."
+      ],
+      "read": "Our reading: the highest national add-on in the EU; we found no announced end date, so it may remain until the EU regime is fully in place.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "Taxă nouă în România și taxă nouă în UE pentru coletele sub 150 EUR",
+          "u": "https://startupcafe.ro/taxa-noua-in-romania-si-taxa-noua-in-ue-pentru-coletele-sub-150-eur-ce-se-schimba-pentru-e-commerce-de-la-1-iulie-2026-100789",
+          "pub": "StartupCafe",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "key": "fr-small-parcel-tax-suspended",
+      "title": "France: €2 small parcel tax suspended for the EU duty",
+      "jurisdiction": "France",
+      "regions": [
+        "EU"
+      ],
+      "domain": "tax",
+      "status": "suspended",
+      "summary": "France applied a national levy of €2 per category of article on low-value imports bought from non-EU platforms from 1 March 2026. It was suspended from 1 July 2026 when the EU €3 duty took over, under Decree No. 2026-589 of 3 July 2026. The levy is suspended, not repealed.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "National levy suspended as the EU €3 duty applies",
+          "src": 0
+        },
+        {
+          "date": "2026-07-03",
+          "what": "Decree No. 2026-589 sets the legal basis",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Non-EU marketplaces",
+        "Postal and express operators serving France"
+      ],
+      "parcel": "No national charge on French imports today, but the legal basis remains and could be reactivated.",
+      "prepare": [
+        "Keep the French levy configured but switched off in pricing and declaration systems.",
+        "Watch French budget debates for any move to reactivate it, especially around the end of the EU interim duty in 2028."
+      ],
+      "read": "Our reading: the March to June episode showed how fast flows leave a gateway when one country acts alone; France has little reason to reactivate the levy while the EU charges apply.",
+      "stories": [
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "E-commerce: French tax on small packages replaced by a European customs duty",
+          "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18985?lang=en",
+          "pub": "Service-Public.fr (French administration)",
+          "date": "2026-07-01"
+        },
+        {
+          "t": "Le gouvernement français annonce la suspension, à compter du 1er juillet 2026, de la taxe de 2 euros sur les petits colis instaurée en mars",
+          "u": "https://www.journaldunet.com/business/action-publique/1552043-le-gouvernement-francais-annonce-la-suspension-a-compter-du-1er-juillet-2026-de-la-taxe-de-2-euros-sur-les-petits-colis-instauree-en-mars/",
+          "pub": "Journal du Net",
+          "date": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "key": "uk-low-value-imports-135",
+      "title": "UK: £135 customs relief to end by October 2028",
+      "jurisdiction": "United Kingdom",
+      "regions": [
+        "UK"
+      ],
+      "domain": "customs",
+      "status": "proposed",
+      "summary": "HM Treasury and HMRC confirmed on 13 July 2026 that the £135 low-value import relief from customs duty will be removed by October 2028 at the latest. Goods will be classified under the existing UK tariff, an additional fee will be introduced, and overseas sellers must appoint a UK fiscal representative jointly and severally liable for customs debts. Secondary legislation and the fee amount are still to come, and HMRC is assessing whether VAT collection should be realigned.",
+      "dates": [
+        {
+          "date": "2026-07-13",
+          "what": "Policy paper and consultation response published",
+          "src": 0
+        },
+        {
+          "date": "2026-10-28",
+          "what": "Autumn Budget: next opportunity to change the timetable or set the fee (no public signal found that it will)",
+          "src": 2
+        },
+        {
+          "date": "2028-10-01",
+          "what": "Latest date for removal of the relief (month only)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Non-UK marketplaces and sellers",
+        "UK fiscal representatives",
+        "Postal operators",
+        "Express integrators",
+        "Customs brokers"
+      ],
+      "parcel": "Low-value parcels into the UK will need full tariff classification, a customs duty payment and an additional fee, on top of the VAT already collected at checkout.",
+      "prepare": [
+        "Build a 2028 UK cost model with full classification, the new fee and fiscal representative costs, and add re-opener clauses to multi-year contracts.",
+        "Decide whether to offer fiscal representation, with strict credit and data checks given joint and several liability."
+      ],
+      "read": "Our reading: until 2028 the UK stays the softest large Western market for direct parcels; retailer pressure makes an earlier interim charge possible, but no Budget signal has appeared yet.",
+      "stories": [
+        "uk-three-rulebooks",
+        "de-minimis-end"
+      ],
+      "sources": [
+        {
+          "t": "UK Low Value Import Relief to be Removed by October 2028",
+          "u": "https://globalimportblog.bakermckenzie.com/2026/07/24/uk-low-value-import-relief-to-be-removed-by-october-2028/",
+          "pub": "Baker McKenzie Global Import Blog",
+          "date": "2026-07-24"
+        },
+        {
+          "t": "Low Value Imports reform confirmed for October 2028 at the latest",
+          "u": "https://hillierhopkins.co.uk/insight-posts/low-value-imports-reform-confirmed-for-october-2028-at-the-latest/",
+          "pub": "Hillier Hopkins",
+          "date": "2026-07-15"
+        },
+        {
+          "t": "Healey sets a pre-Halloween Autumn Budget",
+          "u": "https://chasedevere.co.uk/2026/09/10/healey-sets-a-pre-halloween-autumn-budget-2/",
+          "pub": "Chase de Vere",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "key": "uk-product-safety-marketplaces",
+      "title": "UK product safety reform: new duties for online marketplaces",
+      "jurisdiction": "United Kingdom",
+      "regions": [
+        "UK"
+      ],
+      "domain": "product-safety",
+      "status": "consultation",
+      "summary": "Using powers in the Product Regulation and Metrology Act 2025, the government consulted until 23 June 2026 on reforming the UK's general product safety framework and market surveillance. Online marketplaces would have to exercise due care to prevent, identify and remove dangerous products, verify sellers and act against repeat offenders. Detailed duties will come through secondary legislation; no implementation dates have been set.",
+      "dates": [
+        {
+          "date": "2026-06-23",
+          "what": "Consultations close; government response and secondary legislation to follow (no date announced)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Online marketplaces",
+        "Overseas sellers",
+        "Fulfilment providers"
+      ],
+      "parcel": "Stricter pre-listing and seller checks mean more delistings and recalls on UK marketplaces, and more parcels stopped, returned or destroyed.",
+      "prepare": [
+        "Agree with marketplace customers how recalls and delisted stock in UK warehouses will be handled.",
+        "Follow the government response for any duties that extend to fulfilment or delivery providers."
+      ],
+      "read": "Our reading: the UK is moving towards EU-style marketplace accountability, but on its own timetable; expect marketplaces to be the first target for new obligations and enforcement.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "UK government consults on proposals to reform the UK's general product safety framework and market surveillance regime",
+          "u": "https://www.lewissilkin.com/en/insights/2026/06/01/uk-government-consults-on-proposals-to-reform-the-uks-general-product-safety-fra-102mzh8",
+          "pub": "Lewis Silkin",
+          "date": "2026-06-01"
+        },
+        {
+          "t": "From passive host to proactive gatekeeper: online marketplaces in the spotlight under the PRMA reforms",
+          "u": "https://www.hsfkramer.com/notes/tmt/2026-posts/from-passive-host-to-proactive-gatekeeper-online-marketplaces-in-the-spotlight",
+          "pub": "Herbert Smith Freehills Kramer",
+          "date": "2026-04-14"
+        }
+      ]
+    },
+    {
+      "key": "uk-packaging-epr-fees",
+      "title": "UK packaging EPR: fees now vary with recyclability",
+      "jurisdiction": "United Kingdom",
+      "regions": [
+        "UK"
+      ],
+      "domain": "sustainability",
+      "status": "in-force",
+      "summary": "Under the UK's packaging extended producer responsibility scheme, large producers (over £2 million turnover and 50 tonnes of packaging a year) pay fees for household packaging. Year 1 used flat base fees; from year 2 (2026-27) fees are modulated by a red, amber, green recyclability rating. PackUK expects to recover about £1.56 billion in 2026-27.",
+      "dates": [
+        {
+          "date": "2026-07-01",
+          "what": "First liability notices for 2026-27 scheduled (month only)",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Retailers and brand owners",
+        "Online marketplaces",
+        "Fulfilment providers packing for clients"
+      ],
+      "parcel": "E-commerce shipping packaging that reaches households counts, so mailers and boxes rated red for recyclability cost more per tonne.",
+      "prepare": [
+        "Clarify with clients who is the obligated producer for packaging you add at fulfilment.",
+        "Shift mailer and filler choices towards designs rated green under the recyclability assessment."
+      ],
+      "read": "Our reading: illustrative year 2 fees put red-rated plastic at £545 a tonne against £415 for green, a gap large enough to change packaging specifications in fulfilment.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Packaging extended producer responsibility",
+          "u": "https://commonslibrary.parliament.uk/research-briefings/cbp-10352/",
+          "pub": "House of Commons Library",
+          "date": "2026-07-29"
+        },
+        {
+          "t": "PackUK details next phase of UK packaging EPR rollout",
+          "u": "https://www.packaging-gateway.com/news/packuk-details-next-phase-of-uk-packaging-epr-rollout/",
+          "pub": "Packaging Gateway",
+          "date": "2026-03-05"
+        },
+        {
+          "t": "Year 2 illustrative waste disposal fees: extended producer responsibility for packaging",
+          "u": "https://www.gov.uk/government/publications/illustrative-waste-disposal-fees-2026-extended-producer-responsibility-for-packaging/year-2-illustrative-waste-disposal-fees-extended-producer-responsibility-for-packaging",
+          "pub": "Defra (GOV.UK)",
+          "date": "2025-12-19"
+        }
+      ]
+    },
+    {
+      "key": "uk-royal-mail-uso-reform",
+      "title": "UK universal postal service: Royal Mail under Ofcom investigation",
+      "jurisdiction": "United Kingdom",
+      "regions": [
+        "UK"
+      ],
+      "domain": "postal",
+      "status": "in-force",
+      "summary": "Ofcom's 2025 reform lets Royal Mail deliver Second Class letters on alternate weekdays and relaxes targets from 2026-27 to 90% for First Class next day and 95% for Second Class within three days. On 1 June 2026 Ofcom opened an investigation after First Class reached 75.7% against a 93% target in 2025-26, and may impose a penalty. Ofcom expects the new delivery model to be in place by Christmas 2026 and the targets met by April 2027.",
+      "dates": [
+        {
+          "date": "2026-06-01",
+          "what": "Ofcom opens investigation into 2025-26 delivery performance",
+          "src": 0
+        },
+        {
+          "date": "2026-12-01",
+          "what": "New delivery model expected to be fully implemented by Christmas 2026 (month only)",
+          "src": 0
+        },
+        {
+          "date": "2027-04-01",
+          "what": "Royal Mail expected to meet the revised targets (month only)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Royal Mail",
+        "Competing parcel carriers",
+        "Retailers and marketplaces shipping in the UK"
+      ],
+      "parcel": "Fewer letter rounds free capacity for parcels, but the transition through peak 2026 carries service risk for parcels on shared networks.",
+      "prepare": [
+        "Keep a second carrier on key UK lanes through peak 2026 while the new delivery model is rolled out.",
+        "Track Ofcom's findings and any penalty, which may shape service commitments in 2027 contracts."
+      ],
+      "read": "Our reading: the reform turns the universal service into a parcel strategy; a missed April 2027 target would bring political pressure on the new ownership and could reopen the regulatory settlement.",
+      "stories": [
+        "uk-three-rulebooks",
+        "networks-consolidate"
+      ],
+      "sources": [
+        {
+          "t": "Ofcom investigates Royal Mail's 2025/26 delivery performance",
+          "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-investigates-royal-mails-202526-delivery-performance",
+          "pub": "Ofcom",
+          "date": "2026-06-01"
+        },
+        {
+          "t": "Royal Mail performance",
+          "u": "https://commonslibrary.parliament.uk/research-briefings/cbp-10383/",
+          "pub": "House of Commons Library",
+          "date": "2026-06-04"
+        }
+      ]
+    },
+    {
+      "key": "uk-ofcom-stamp-affordability-review",
+      "title": "UK: Ofcom resets stamp pricing as the Second Class cap expires",
+      "jurisdiction": "United Kingdom (Ofcom)",
+      "regions": [
+        "UK"
+      ],
+      "domain": "postal",
+      "status": "consultation",
+      "summary": "Ofcom is reviewing how it regulates the affordability and pricing of Royal Mail's universal service, including the safeguard cap on Second Class stamps and options such as a targeted discount for vulnerable customers. A call for input closed in early 2026; Ofcom postponed its proposals from March 2026 and plans to consult later in 2026 and decide by March 2027, when the current cap expires.",
+      "dates": [
+        {
+          "date": "2026-03-13",
+          "what": "Ofcom confirms it will not publish proposals in March 2026 and will consult later in 2026",
+          "src": 0
+        },
+        {
+          "date": "2027-03-01",
+          "what": "Decision due before the Second Class safeguard cap expires (month only)",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Royal Mail",
+        "Small business and consumer senders",
+        "Marketplace sellers using stamps"
+      ],
+      "parcel": "The review covers letters; parcel prices are not capped, but the outcome shapes how much of Royal Mail's cost base has to be recovered from parcels.",
+      "prepare": [
+        "Track the consultation and respond if your customers rely on Second Class letters or large letters.",
+        "Separate letter and parcel lines in postal budgets for 2027-28, as the two can now move in opposite directions."
+      ],
+      "read": "Our reading: a tighter cap or a social tariff on letters would leave parcels carrying more of Royal Mail's price rises; October 2026 already shows parcel stamps up about 8% while letter stamps were held.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Call for input: Review of postal regulation, pricing and affordability",
+          "u": "https://www.ofcom.org.uk/post/market-performance/call-for-input-review-of-postal-regulation-pricing-and-affordability",
+          "pub": "Ofcom",
+          "date": "2025-11-04"
+        },
+        {
+          "t": "Ofcom's Plan of Work 2026/27 (statement)",
+          "u": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-plan-of-work-2026-27/main-documents/statement-ofcoms-plan-of-work-2026-27.pdf?v=414427",
+          "pub": "Ofcom",
+          "date": "2026"
+        },
+        {
+          "t": "Royal Mail postage rates 2026: franking prices (October update)",
+          "u": "https://www.mailcoms.co.uk/news/royal-mail-postage-rates-2026/",
+          "pub": "Mailcoms",
+          "date": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "key": "uk-royal-mail-wholesale-access-dispute",
+      "title": "UK: Royal Mail wholesale price rises suspended pending Ofcom",
+      "jurisdiction": "United Kingdom (Ofcom)",
+      "regions": [
+        "UK"
+      ],
+      "domain": "postal",
+      "status": "suspended",
+      "summary": "Members of the Mail Competition Forum, which represents access operators handling bulk mail for large organisations, disputed Royal Mail's wholesale access price rises announced on 23 July 2026 for 5 October. Ofcom accepted the dispute on 4 September 2026 and intends to decide within four months; the rises are suspended until then.",
+      "dates": [
+        {
+          "date": "2026-09-04",
+          "what": "Ofcom accepts the dispute; rises suspended pending decision",
+          "src": 0
+        },
+        {
+          "date": "2027-01-01",
+          "what": "Ofcom decision expected within four months of acceptance (month only)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Access operators",
+        "Bulk mail senders",
+        "Royal Mail"
+      ],
+      "parcel": "No direct change to parcel prices, but the outcome affects Royal Mail's letter revenue and therefore pressure on parcel pricing.",
+      "prepare": [
+        "Hold budget for wholesale letter price rises in early 2027 in case Ofcom allows them.",
+        "Check whether access contracts pass through Royal Mail increases automatically."
+      ],
+      "read": "Our reading: the dispute shows Ofcom is willing to test Royal Mail's pricing even outside the universal service; a ruling against Royal Mail would widen the gap between regulated letter income and its costs.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Ofcom accepts dispute regarding Royal Mail's wholesale price rises",
+          "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-accepts-dispute-regarding-royal-mails-wholesale-price-rises",
+          "pub": "Ofcom",
+          "date": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "key": "uk-ofcom-parcel-consumer-compliance-review",
+      "title": "UK: Ofcom checks parcel firms against its complaints and accessibility rules",
+      "jurisdiction": "United Kingdom (Ofcom)",
+      "regions": [
+        "UK"
+      ],
+      "domain": "postal",
+      "status": "in-force",
+      "summary": "Ofcom's guidance requires parcel operators to handle complaints clearly and to have policies for the fair treatment of disabled customers. Its 2026/27 plan of work includes a review of the steps operators are taking to comply. Ofcom research shows 78% of recipients satisfied but wide gaps between operators, and 73% of people with limiting conditions reporting delivery problems against 65% of others.",
+      "dates": [
+        {
+          "date": "2026-09-03",
+          "what": "House of Lords debate on parcel delivery quality and reliability",
+          "src": 1
+        },
+        {
+          "date": "2026-12-01",
+          "what": "Ofcom post monitoring report for 2025-26 expected in Q3 2026/27 (month only)",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Parcel operators",
+        "Retailers and marketplaces",
+        "Consumers with disabilities"
+      ],
+      "parcel": "Operators must show how customers can complain and how disabled customers can share delivery needs; weak performers risk enforcement or tighter rules.",
+      "prepare": [
+        "Ask carriers for their Ofcom complaints and accessibility policies and their contact satisfaction data.",
+        "Pass customer delivery needs to carriers in the data feed where the carrier supports it."
+      ],
+      "read": "Our reading: Ofcom has so far used guidance rather than penalties for parcel firms other than Royal Mail; political attention after the September Lords debate makes firmer action more likely if the review finds gaps.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Ofcom's Plan of Work 2026/27 (statement)",
+          "u": "https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-plan-of-work-2026-27/main-documents/statement-ofcoms-plan-of-work-2026-27.pdf?v=414427",
+          "pub": "Ofcom",
+          "date": "2026"
+        },
+        {
+          "t": "Quality and reliability of parcel delivery services",
+          "u": "https://lordslibrary.parliament.uk/quality-and-reliability-of-parcel-delivery-services/",
+          "pub": "House of Lords Library",
+          "date": "2026-08-11"
+        },
+        {
+          "t": "Post monitoring report: postal services in the financial year 2024-25",
+          "u": "https://www.ofcom.org.uk/siteassets/resources/documents/postal-services/monitoring-reports/2024-25/post-monitoring-report---postal-services-in-the-financial-year-2024-25.pdf?v=408465",
+          "pub": "Ofcom",
+          "date": "2025-12-03"
+        }
+      ]
+    },
+    {
+      "key": "uk-fuel-duty-2027-steps",
+      "title": "UK fuel duty: 5p cut ends in two steps from January 2027",
+      "jurisdiction": "United Kingdom (HM Treasury / HMRC)",
+      "regions": [
+        "UK"
+      ],
+      "domain": "tax",
+      "status": "adopted",
+      "summary": "In response to high fuel prices from the Middle East conflict, the government kept the 5p fuel duty cut until 31 December 2026, cut red diesel duty to 6.48p a litre from 15 June to the end of 2026, and announced a 12-month HGV vehicle excise duty holiday. Duty on petrol and diesel then rises from 52.95p to 55.95p a litre on 1 January 2027 and to 57.95p on 1 March 2027, with RPI uprating from April 2027; rates are to be confirmed at the Budget.",
+      "dates": [
+        {
+          "date": "2026-05-20",
+          "what": "Written ministerial statement extends the cut to the end of 2026",
+          "src": 0
+        },
+        {
+          "date": "2026-10-28",
+          "what": "Autumn Budget: 2027 rates to be confirmed",
+          "src": 2
+        },
+        {
+          "date": "2027-01-01",
+          "what": "Diesel duty rises 3p to 55.95p a litre",
+          "src": 1
+        },
+        {
+          "date": "2027-03-01",
+          "what": "Diesel duty rises 2p to 57.95p a litre",
+          "src": 1
+        }
+      ],
+      "hits": [
+        "Parcel carriers",
+        "Road hauliers",
+        "Shippers paying fuel surcharges"
+      ],
+      "parcel": "A 5p a litre rise in diesel duty over two months feeds into carrier fuel surcharges, which are already 16% at Royal Mail and Parcelforce.",
+      "prepare": [
+        "Check how each carrier's fuel surcharge index reacts to duty changes and when it resets.",
+        "Negotiate surcharge caps or notice periods before January 2027."
+      ],
+      "read": "Our reading: the steps were already deferred once; if diesel stays high the Budget could defer them again, so plan for both cases.",
+      "stories": [
+        "hormuz-fuel",
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Written statement HCWS49: transport taxation",
+          "u": "https://questions-statements.parliament.uk/written-statements/detail/2026-05-20/hcws49",
+          "pub": "UK Parliament",
+          "date": "2026-05-20"
+        },
+        {
+          "t": "Amended Fuel Duty rates: 2026 to 2027",
+          "u": "https://www.gov.uk/government/publications/amended-fuel-duty-rates-for-2026-to-2027/amended-fuel-duty-rates-2026-to-2027",
+          "pub": "HM Revenue & Customs (GOV.UK)",
+          "date": "2026-05-22"
+        },
+        {
+          "t": "Healey sets a pre-Halloween Autumn Budget",
+          "u": "https://chasedevere.co.uk/2026/09/10/healey-sets-a-pre-halloween-autumn-budget-2/",
+          "pub": "Chase de Vere",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "key": "uk-employment-rights-act-2025",
+      "title": "UK Employment Rights Act: next changes in October 2026 and January 2027",
+      "jurisdiction": "United Kingdom",
+      "regions": [
+        "UK"
+      ],
+      "domain": "labour",
+      "status": "in-force",
+      "summary": "The Employment Rights Act 2025 is being phased in. Statutory sick pay from day one and the Fair Work Agency started in April 2026, and tribunal time limits extend to six months from 1 October 2026. From 1 January 2027 the unfair dismissal qualifying period falls to six months and compensation limits are removed; zero-hours protections follow later in 2027 on a date not yet set.",
+      "dates": [
+        {
+          "date": "2026-10-01",
+          "what": "Employment tribunal time limits extended from three to six months",
+          "src": 0
+        },
+        {
+          "date": "2026-10-30",
+          "what": "Duty to take all reasonable steps to prevent sexual harassment; trade union access changes",
+          "src": 0
+        },
+        {
+          "date": "2027-01-01",
+          "what": "Unfair dismissal qualifying period cut to six months; protections on dismissal and rehire strengthened",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Parcel operators with employed drivers and sort staff",
+        "Warehouse and fulfilment operators",
+        "Agencies and umbrella companies"
+      ],
+      "parcel": "Higher employment cost and risk for labour-heavy sort and delivery operations, at a time when Royal Mail already cites National Insurance and wage rises.",
+      "prepare": [
+        "Review probation, absence and peak hiring processes before the January 2027 change.",
+        "Ask carriers how the Act affects their cost base and 2027 rate proposals."
+      ],
+      "read": "Our reading: the Act adds cost mainly to employed workforces such as Royal Mail's; networks relying on self-employed couriers are less exposed for now, pending the later zero-hours and wider measures.",
+      "stories": [
+        "uk-three-rulebooks"
+      ],
+      "sources": [
+        {
+          "t": "Employment Rights Act 2025",
+          "u": "https://www.acas.org.uk/employment-rights-act-2025",
+          "pub": "Acas",
+          "date": "2026-10-01"
+        }
+      ]
+    }
   ]
 }
-]}

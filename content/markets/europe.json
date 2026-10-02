@@ -504,6 +504,84 @@
             "networks-consolidate"
           ],
           "exposure": "The DHL eCommerce UK merger and investment in ParcelShop and locker points make it a consolidator in UK parcels."
+        },
+        {
+          "name": "DPD UK (DPDgroup UK Ltd, Geopost)",
+          "segment": "Parcel network (UK, part of Geopost / La Poste Groupe)",
+          "period": "FY2024 (year to 29 December 2024)",
+          "reported": "2025-10-04",
+          "revenue": "£1.5bn",
+          "revenue_chg": "+0.6% YoY",
+          "ebit": "£219m",
+          "ebit_label": "Operating profit",
+          "ebit_chg": "-3.1% YoY",
+          "margin": "about 14.6% (operating profit over turnover, our calculation)",
+          "vs_prev": "Revenue broadly flat in a weak economy; pre-tax profit fell 24.6% to £198m. Geopost later reported a slight decline in UK sales in 2025.",
+          "volume": "Parcels delivered rose year on year (no figure disclosed)",
+          "highlights": [
+            "New contracts and upsells; next-day services remain the main revenue driver",
+            "Plan to add 8,000 lockers over five years to about 12,000 Pickup shops and lockers (April 2025)",
+            "Electric fleet past 4,000 vans after an order for 341 eSprinters (September 2026)"
+          ],
+          "challenges": [
+            "Weak consumer demand for domestic and international services",
+            "Inflationary cost pressure and post-Brexit friction on EU flows",
+            "2025 accounts, due by 30 September 2026, not yet shown at Companies House on 2 October 2026"
+          ],
+          "outlook": "Management expected 2025 revenue above 2024, targeting food, healthcare and out-of-home growth; Geopost's 2025 results showed a slight UK sales decline.",
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "A premium next-day network with flat UK sales while Evri and InPost add volume through mergers and lockers.",
+          "src": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "name": "InPost UK & Ireland (incl. former Yodel)",
+          "segment": "Locker-first parcel network (UK and Ireland segment of InPost Group)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-31",
+          "revenue": "PLN 1,048.0m",
+          "revenue_chg": "+9.8% YoY",
+          "ebit": "PLN 29.1m",
+          "ebit_label": "Adjusted EBITDA",
+          "ebit_chg": "-39.9% YoY",
+          "margin": "2.8% (5.1% a year earlier)",
+          "vs_prev": "Volume growth continued after the Yodel acquisition, but profitability fell as the network is transformed; H1 2026 adjusted EBITDA was PLN -19.8m.",
+          "volume": "81.8m parcels, +16% (H1 2026: 158.7m, +67%)",
+          "highlights": [
+            "15,628 lockers at end Q2 2026, +41%, about 80 added a week",
+            "B2C volume +27%, now 61% of UK volume; locker volume +29%",
+            "Over 77% of parcels delivered next day and over 97% within two days"
+          ],
+          "challenges": [
+            "Cost of the Yodel transformation; management calls the UK 'a work in progress'",
+            "PUDO points down 29% to 4,145 as lockers replace shops",
+            "Negative adjusted EBITDA for H1 2026"
+          ],
+          "outlook": "Yodel brand retired on 17 July 2026; last-mile services for FedEx in the UK and Poland planned as a pilot from September 2026.",
+          "segments": [
+            {
+              "name": "Q1 2026",
+              "revenue": "PLN 947.7m (+120.9%)",
+              "ebit": "not disclosed in source",
+              "note": "76.9m parcels (+220%) after consolidating Yodel; 14,623 lockers"
+            }
+          ],
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "Locker density is the route to margin; FedEx ownership and last-mile work add volume to the former Yodel network.",
+          "src": [
+            29,
+            30,
+            31
+          ]
         }
       ],
       "watch": [
@@ -682,6 +760,54 @@
       "date": "2026-06-01",
       "u": "https://www.ofcom.org.uk/post/royal-mail/ofcom-investigates-royal-mails-202526-delivery-performance",
       "lang": "en"
+    },
+    {
+      "t": "DPD Group UK revenues increase slightly to GBP 1.5bn in 2024",
+      "u": "https://motortransport.co.uk/revenues-increase-at-dpd/27179.article",
+      "pub": "Motor Transport",
+      "date": "2025-10"
+    },
+    {
+      "t": "DPDGROUP UK LTD (00732993) filing history",
+      "u": "https://find-and-update.company-information.service.gov.uk/company/00732993/filing-history",
+      "pub": "Companies House",
+      "date": "2026-10-02"
+    },
+    {
+      "t": "Geopost's 2025 annual results (press release)",
+      "u": "https://www.lapostegroupe.com/assets/media/le-groupe-laposte/aaB9aMFoBIGEg36F_Geopost_Press_release_2025_Annual_results_FINAL.pdf",
+      "pub": "Geopost / La Poste Groupe",
+      "date": "2026-02-26"
+    },
+    {
+      "t": "DPD UK to add 8,000 parcel lockers in major strategic partnership",
+      "u": "https://www.lapostegroupe.com/en/news/dpd-uk-to-add-8000-parcel-lockers-in-major-strategic",
+      "pub": "La Poste Groupe",
+      "date": "2025-04-08"
+    },
+    {
+      "t": "DPD UK orders 341 Mercedes-Benz eSprinter vans",
+      "u": "https://www.electrive.com/2026/09/11/dpd-uk-orders-341-mercedes-benz-esprinter-vans/",
+      "pub": "electrive",
+      "date": "2026-09-11"
+    },
+    {
+      "t": "InPost Group Q2 2026 results (press release)",
+      "u": "https://inpost.eu/sites/default/files/2026-08/InPost%202Q%202026%20press%20release.pdf",
+      "pub": "InPost",
+      "date": "2026-08-31"
+    },
+    {
+      "t": "InPost sees 220% increase in UK parcel volumes amid Yodel consolidation",
+      "u": "https://www.retailsector.co.uk/691969-inpost-sees-220-increase-in-uk-parcel-volumes-amid-yodel-consolidation/",
+      "pub": "Retail Sector",
+      "date": "2026-05-13"
+    },
+    {
+      "t": "Yodel by InPost website & app no longer available",
+      "u": "https://channelx.world/2026/07/yodel-by-inpost-website-app-no-longer-available/",
+      "pub": "ChannelX",
+      "date": "2026-07-17"
     }
   ]
 }

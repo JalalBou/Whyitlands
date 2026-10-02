@@ -58,6 +58,14 @@ Lives in `content/intel/`:
 
 Signals about competitors rest on public sources only, cover players evenly, and never use anything known from the author's employment.
 
+## Shopper pulse
+
+`content/intel/shoppers.json` (schema in `content/intel/SHOPPERS_SCHEMA.md`): shopper behaviour trends on delivery (speed, price, duties at checkout, lockers, returns, platforms, sustainability, trust, tracking) with the published number, direction, why (our reading), what it means, the source with method and sample, and a note when the survey is vendor-run. Rendered per region in Market Intelligence and linked from storylines.
+
+## Regional balance
+
+Every weekly update keeps a minimum per major region (EU, UK, North America, Asia-Pacific incl. Japan, Korea, India, Australia, China, South America, Middle East and North Africa): at least one wire item or move per region, and the Sunday summary reports the count per region. Competition deep dives exist for the US, EU, UK and ASEAN.
+
 ## Regulatory Radar (/radar)
 
 `content/radar/*.json` (europe, americas, asia-mena-global), one `{"items": [...]}` per file, schema in `content/radar/SCHEMA.md`. Each rule has a status (consultation, proposed, adopted, in-force, suspended), dated milestones with a source each, who it hits, the parcel impact, what to prepare, our reading and storylines. The page shows an 18-month agenda with countdowns and the full register, filtered by region and topic; the home page shows the next deadlines; storyline pages link the rules on that storyline. Information, not legal advice. Each rule date links automatically to every briefing, storyline, signal, calendar item or deep dive that mentions the same date about the same rule (tools/thread.py: same date, same jurisdiction, shared rule keywords); briefings show the rules they mention. Nothing to tag by hand: keep dates in ISO form in content and in plain words ("1 November 2026") in text.

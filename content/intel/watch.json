@@ -1,694 +1,752 @@
 {
- "updated": "2026-10-01",
- "items": [
-  {
-   "carrier": "DHL Express",
-   "regions": [
-    "GLOBAL",
-    "UK"
-   ],
-   "item": "International Time Definite fuel surcharge (UK account holders, jet fuel indexed, weekly)",
-   "value": "46.25%",
-   "effective": "week of 28 Sep to 4 Oct 2026",
-   "change": "+1.25 pt vs prior week (45.00%); 48.00% already published for 5 to 11 Oct 2026",
-   "src": "DHL Express UK surcharges page",
-   "url": "https://www.dhl.com/gb-en/home/express/products-and-solutions/products-and-services-overview/surcharges.html",
-   "note": "Weekly indexation on US Gulf Coast jet fuel. US table for the same week: export 35.00%, import 38.75%, rising to 36.25% and 40.00% for 5 to 11 Oct. DHL cut its US fuel tables by 2 points from 3 Aug 2026.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "DHL Express",
-   "regions": [
-    "GLOBAL",
-    "UK"
-   ],
-   "item": "2027 general price increase",
-   "value": "5.9% average (UK and US)",
-   "effective": "1 Jan 2027",
-   "change": null,
-   "src": "DHL Express US press release; Air Cargo Week (UK)",
-   "url": "https://www.dhl.com/us-en/home/press/press-archive/2026/dhl-express-announces-annual-price-adjustments-in-the-u-s.html",
-   "note": "US announced 25 Sep 2026, UK announced 30 Sep 2026 (https://aircargoweek.com/dhl-express-average-rate-increase-of-5-9-percent-for-2027-in-united-kingdom/). DHL cites inflation, currency, energy, customs compliance and security costs; a limited number of surcharges also change.",
-   "stories": []
-  },
-  {
-   "carrier": "DHL Express",
-   "regions": [
-    "GLOBAL",
-    "EU"
-   ],
-   "item": "Peak demand surcharge, international Time Definite",
-   "value": "Europe to Americas USD 0.55/kg; within Europe USD 0.30/kg; China/HK to Americas USD 2.25/kg; Americas to Europe nil",
-   "effective": "1 Oct 2026 to 5 Feb 2027",
-   "change": null,
-   "src": "DHL Express US demand surcharge page",
-   "url": "https://www.dhl.com/us-en/home/express/products-and-solutions/products-and-services-overview/surcharges/demand-surcharge.html",
-   "note": "German DHL Express page lists EUR 0.10 to 2.00/kg by lane for international over the same window and EUR 0.10/kg domestic from 1 Nov to 31 Dec 2026.",
-   "stories": []
-  },
-  {
-   "carrier": "DHL Express",
-   "regions": [
-    "GLOBAL",
-    "ME"
-   ],
-   "item": "Elevated Risk surcharge on shipments to and from Israel",
-   "value": "Suspended",
-   "effective": "25 Sep 2026",
-   "change": "surcharge removed",
-   "src": "MyDHL Express important information",
-   "url": "https://mydhl.express.dhl/us/en/important-information.important-info-active-items.html",
-   "note": "DHL says it will keep monitoring the safety situation; DHL Global Forwarding reported in May 2026 that container traffic was still not transiting the Strait of Hormuz.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "GLOBAL"
-   ],
-   "item": "International export and import fuel surcharge (single table)",
-   "value": "45.50%",
-   "effective": "week of 28 Sep to 4 Oct 2026",
-   "change": "+1.00 pt vs prior week (44.50%)",
-   "src": "FedEx weekly fuel surcharge page",
-   "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
-   "note": "Since 22 Jun 2026 FedEx applies one table to exports and imports, moving exports onto the former import level (Supply Chain Dive).",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "GLOBAL"
-   ],
-   "item": "2027 general rate increase, US, export and import package services",
-   "value": "5.9% average",
-   "effective": "4 Jan 2027",
-   "change": null,
-   "src": "FedEx shipping rate changes page",
-   "url": "https://www.fedex.com/en-us/shipping/rate-changes/additional-shipping-fees.html",
-   "note": "New USD 25 paper document fee for non-electronic trade documents and a residential delivery charge for select international destinations.",
-   "stories": []
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "GLOBAL"
-   ],
-   "item": "International demand surcharges, US export and import",
-   "value": "China/HK/Macau priority imports USD 0.91/lb (from 0.35); Asia-Pacific priority imports USD 0.73/lb (from 0.20)",
-   "effective": "21 Sep 2026 to 7 Feb 2027",
-   "change": "increase vs previous demand surcharge",
-   "src": "LJM blog; FedEx demand surcharges page",
-   "url": "https://www.myljm.com/blog-post/ups-revises-international-surge-fees-as-fedex-adds-new-fees-for-2026-peak-season",
-   "note": "FedEx confirms the 21 Sep 2026 adjustment on https://www.fedex.com/en-us/shipping/rate-changes/demand-surcharges.html; lane tables are in PDFs.",
-   "stories": [
-    "us-china-rivalry"
-   ]
-  },
-  {
-   "carrier": "UPS",
-   "regions": [
-    "GLOBAL"
-   ],
-   "item": "International Air export and import fuel surcharge",
-   "value": "Export 45.00%; import 47.75%",
-   "effective": "week of 21 Sep 2026",
-   "change": null,
-   "src": "TransImpact",
-   "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
-   "note": "US retail diesel reached USD 6.529 per gallon on 21 Sep. UPS had not announced a 2027 general rate increase as of 29 Sep 2026.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "UPS",
-   "regions": [
-    "GLOBAL"
-   ],
-   "item": "International surge fees (peak) and flat per-package surge emergency fees on US exports",
-   "value": "Peak surge fees by service and lane; USD 0.50/lb on US-origin Worldwide Economy DDP/DDU; emergency fees USD 8.75 additional handling, USD 96 large package, USD 514 over max",
-   "effective": "surge fees 27 Sep 2026 to 16 Jan 2027; emergency fees since 31 May 2026",
-   "change": null,
-   "src": "LJM blog; TransImpact",
-   "url": "https://www.myljm.com/blog-post/ups-revises-international-surge-fees-as-fedex-adds-new-fees-for-2026-peak-season",
-   "note": "TransImpact reports the surge emergency programme began as per-pound charges on Middle East routes before moving to flat per-package fees (https://transimpact.com/blog/ups-adds-new-surge-emergency-fees-and-higher-fuel-surcharges).",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "Royal Mail",
-   "regions": [
-    "UK"
-   ],
-   "item": "Parcel price increase (stamps unchanged)",
-   "value": "about +8% on parcels; First Class small parcel GBP 5.45 to 5.90; 1st and 2nd Class letter stamps unchanged at GBP 1.80 and 0.91",
-   "effective": "5 Oct 2026",
-   "change": null,
-   "src": "Mailcoms",
-   "url": "https://www.mailcoms.co.uk/news/royal-mail-postage-rates-2026/",
-   "note": "Announced 4 Sep 2026; Tracked, Signed For and Special Delivery also rise; Mailmark franking prices unchanged.",
-   "stories": [
-    "uk-three-rulebooks"
-   ]
-  },
-  {
-   "carrier": "Royal Mail",
-   "regions": [
-    "UK",
-    "NA"
-   ],
-   "item": "Service to the USA: US customs requirement change",
-   "value": "US customs requirements change; PDDP services offered",
-   "effective": "22 Oct 2026",
-   "change": null,
-   "src": "Royal Mail USA country guide",
-   "url": "https://www.royalmail.com/sending/international/country-guides/usa",
-   "note": "Royal Mail ships goods to the US with prepaid duties.",
-   "stories": [
-    "de-minimis-end",
-    "north-america-rulebook"
-   ]
-  },
-  {
-   "carrier": "Evri",
-   "regions": [
-    "UK",
-    "EU"
-   ],
-   "item": "Peak surcharges",
-   "value": "UK GBP 0.03 per parcel; Germany GBP 0.22; Denmark, Finland, Sweden GBP 0.30 per shipment",
-   "effective": "UK 15 Nov to 10 Jan; international 1 Nov to 31 Dec",
-   "change": null,
-   "src": "Evri accessorial charges 2026 (reseller schedule updated June 2026)",
-   "url": "https://www.international-logistics-group.com/discover/wp-content/uploads/sites/2/2026/06/Evri-Accessorial-Charges-2026-updated-June-2026.pdf",
-   "note": "Same schedule lists a GBP 0.35 Clean Air Levy for zero-emission delivery in ULEZ/CAZ postcodes.",
-   "stories": []
-  },
-  {
-   "carrier": "La Poste / Colissimo",
-   "regions": [
-    "EU"
-   ],
-   "item": "2027 universal service tariffs",
-   "value": "+6.73% average; Lettre Verte EUR 1.52 to 1.67; Colissimo for consumers +4.1%; mainland to overseas parcels -5%; business mail +5.1%",
-   "effective": "1 Jan 2027",
-   "change": null,
-   "src": "Caisse des Dépôts",
-   "url": "https://www.caissedesdepots.fr/eclairage/actualites/la-poste-augmentation-des-tarifs-des-timbres-et-colis-en-2027",
-   "note": "Announced 27 Jul 2026 within ARCEP's multi-year price cap (liti.fr).",
-   "stories": []
-  },
-  {
-   "carrier": "PostNL",
-   "regions": [
-    "EU"
-   ],
-   "item": "2027 regulated tariff headroom set by ACM",
-   "value": "EUR 3.5929 weighted average (2026: EUR 3.1882), about +12.7%",
-   "effective": "1 Jan 2027",
-   "change": "+12.7% headroom",
-   "src": "Transport Online",
-   "url": "https://www.transport-online.nl/136224/post-versturen-mogelijk-weer-duurder-in-2027-postnl-krijgt-hogere-tariefruimte/",
-   "note": "Published 26 Aug 2026; not a stamp price; PostNL sets individual tariffs within the cap.",
-   "stories": []
-  },
-  {
-   "carrier": "Deutsche Post",
-   "regions": [
-    "EU"
-   ],
-   "item": "Letter format reform: Maxibrief withdrawn",
-   "value": "at least EUR 1.29 more per shipment for senders of goods using Maxibrief",
-   "effective": "1 Jan 2027",
-   "change": null,
-   "src": "Berliner Kurier",
-   "url": "https://www.berliner-kurier.de/verbraucher/deutsche-post-briefversand-2027-li.10314149",
-   "note": "Großbrief dimensions widened; Dialogpost prices rise about 3.5% on average from 1 Jan 2027 (Dialoghaus). Bundesnetzagentur decision on 2027 letter postage still pending in our sources.",
-   "stories": []
-  },
-  {
-   "carrier": "EU customs (all carriers)",
-   "regions": [
-    "EU"
-   ],
-   "item": "Union handling fee per low-value e-commerce item",
-   "value": "EUR 2 per item (draft delegated act)",
-   "effective": "1 Nov 2026",
-   "change": "new cost item, on top of EUR 3 customs duty per item since 1 Jul 2026",
-   "src": "European Commission, EU Customs Reform page; VATupdate",
-   "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
-   "note": "Commission page: fee to be introduced by 1 Nov 2026 via delegated act, based on customs supervision costs. Amount of EUR 2 published 21 Sep 2026 (Agence Europe, VATupdate).",
-   "stories": [
-    "de-minimis-end",
-    "eu-customs-reform"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "NA"
-   ],
-   "item": "FedEx Ground / Home Delivery fuel surcharge",
-   "value": "29.75%",
-   "effective": "week of 28 Sep to 4 Oct 2026",
-   "change": "+0.75 pt vs prior week (29.00%)",
-   "src": "FedEx fuel surcharge page",
-   "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
-   "note": "Indexed weekly to the US on-highway diesel average.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "NA"
-   ],
-   "item": "FedEx Express US domestic package fuel surcharge",
-   "value": "33.00%",
-   "effective": "week of 28 Sep to 4 Oct 2026",
-   "change": "+0.75 pt vs prior week (32.25%)",
-   "src": "FedEx fuel surcharge page",
-   "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
-   "note": "International export/import is 45.50% the same week (+1.0 pt).",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "UPS",
-   "regions": [
-    "NA"
-   ],
-   "item": "UPS US domestic Ground fuel surcharge",
-   "value": "29.50%",
-   "effective": "week of 21 Sep 2026",
-   "change": null,
-   "src": "TransImpact",
-   "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
-   "note": "UPS's own page did not render a current table for us; US diesel averaged USD 6.529 per gallon on 21 Sep (EIA). UPS domestic air value not verified.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "UPS",
-   "regions": [
-    "NA",
-    "GLOBAL"
-   ],
-   "item": "UPS international air import fuel surcharge",
-   "value": "47.75%",
-   "effective": "week of 21 Sep 2026",
-   "change": null,
-   "src": "TransImpact",
-   "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
-   "note": "Described as a record; international air export at 45%.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "NA"
-   ],
-   "item": "2027 general rate increase (US, US export, US import packages)",
-   "value": "+5.9% average",
-   "effective": "4 Jan 2027",
-   "change": null,
-   "src": "FedEx rate changes page",
-   "url": "https://www.fedex.com/en-us/shipping/rate-changes.html",
-   "note": "Zone reclassification 1 Feb 2027. UPS had not published its 2027 increase as of 29 Sep 2026.",
-   "stories": [
-    "north-america-rulebook"
-   ]
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "NA"
-   ],
-   "item": "Ground / Home Delivery residential delivery charge",
-   "value": "USD 6.90 per package (from USD 6.45)",
-   "effective": "4 Jan 2027",
-   "change": "+7.0%",
-   "src": "FedEx surcharge and fee changes 2027",
-   "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/surcharge_and_fee_changes_2027.pdf",
-   "note": "Residential delivery area surcharge rises from USD 6.60 to 7.00, extended from USD 8.80 to 9.60.",
-   "stories": []
-  },
-  {
-   "carrier": "FedEx",
-   "regions": [
-    "NA"
-   ],
-   "item": "2026 demand surcharges (US domestic)",
-   "value": "Ground Residential USD 0.50 to 0.80; Additional Handling USD 8.80 / 11.85 peak; Oversize USD 95.75 / 117.25 peak",
-   "effective": "Additional Handling and Oversize from 28 Sep; Ground Residential from 26 Oct 2026; to 17 Jan 2027 (peak 23 Nov to 27 Dec)",
-   "change": null,
-   "src": "FedEx demand surcharges page",
-   "url": "https://www.fedex.com/en-us/shipping/rate-changes/demand-surcharges.html",
-   "note": "Ground Economy USD 2.55 to 4.05 per package.",
-   "stories": []
-  },
-  {
-   "carrier": "UPS",
-   "regions": [
-    "NA"
-   ],
-   "item": "2026 peak and demand surcharges",
-   "value": "Demand USD 0.50 to 2.50 per package (high-volume up to USD 9.35); Additional Handling USD 8.75 to 11.90; Large Package USD 96.25 to 117.50",
-   "effective": "size charges from 27 Sep; demand from 25 Oct 2026 to 16 Jan 2027 (peak 22 Nov to 26 Dec)",
-   "change": "service-level charges up about 22 to 25% vs 2025",
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/ups-preps-higher-holiday-surcharges-for-2026/828936/",
-   "note": "High-volume tier applies to customers over 20,000 packages a week.",
-   "stories": []
-  },
-  {
-   "carrier": "Amazon Shipping",
-   "regions": [
-    "NA"
-   ],
-   "item": "2026 peak surcharges",
-   "value": "USD 0.50 / 0.75 / 0.50 per package; Additional Handling up to USD 11.90; Large Package up to USD 117.50",
-   "effective": "25 Oct 2026 to 16 Jan 2027 (peak 22 Nov to 26 Dec)",
-   "change": null,
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/",
-   "note": "No volume-based surcharge for a second year; accessorials closely mirror UPS and FedEx.",
-   "stories": [
-    "platforms-go-local"
-   ]
-  },
-  {
-   "carrier": "OnTrac",
-   "regions": [
-    "NA"
-   ],
-   "item": "2026-27 peak demand surcharges",
-   "value": "Residential USD 1.00 flat; Additional Handling USD 11; Large Package USD 110; Over Max USD 595",
-   "effective": "26 Sep 2026 to 15 Jan 2027",
-   "change": "Residential and Additional Handling flat; Large Package +4.8%; Over Max +8.2%",
-   "src": "TransImpact",
-   "url": "https://transimpact.com/blog/ontrac-2026-27-peak-demand-surcharges",
-   "note": "",
-   "stories": []
-  },
-  {
-   "carrier": "USPS",
-   "regions": [
-    "NA"
-   ],
-   "item": "Temporary holiday price change (Priority Mail Express, Priority Mail, Ground Advantage, Parcel Select)",
-   "value": "Retail Priority Mail +USD 0.50 to 3.90 (zones 1 to 4), +USD 1.00 to 9.10 (zones 5 to 9)",
-   "effective": "4 Oct 2026 to 17 Jan 2027",
-   "change": "Lightweight Ground Advantage to distant zones up to 57% above last year's peak increment",
-   "src": "USPS Newsroom",
-   "url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
-   "note": "USPS raises published prices rather than adding demand surcharges. No January 2027 price filing found as of 1 Oct.",
-   "stories": []
-  },
-  {
-   "carrier": "USPS",
-   "regions": [
-    "NA"
-   ],
-   "item": "Temporary transportation-related price increase",
-   "value": "8%",
-   "effective": "26 Apr 2026 to 17 Jan 2027",
-   "change": null,
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/usps-sets-temporary-rate-hike-ground-advantage-parcel-select/815753/",
-   "note": "Applies to Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select; justified by fuel costs.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "DHL Express",
-   "regions": [
-    "NA"
-   ],
-   "item": "2027 general average price adjustment for US account holders",
-   "value": "+5.9% average",
-   "effective": "1 Jan 2027",
-   "change": null,
-   "src": "Descartes",
-   "url": "https://www.descartes.com/ecommerce/news/fedex-dhl-2027-rate-increases-ecommerce-sellers",
-   "note": "",
-   "stories": []
-  },
-  {
-   "carrier": "Japan Post",
-   "regions": [
-    "NA",
-    "AS"
-   ],
-   "item": "US-bound postal items: duty prepayment requirement",
-   "value": "Prepayment required for items valued USD 100 to 2,500",
-   "effective": "24 Jul 2026 (acceptance resumed 14 Apr 2026 after Aug 2025 suspension)",
-   "change": null,
-   "src": "Japan Post",
-   "url": "https://www.post.japanpost.jp/service/send/oversea/information/2026/0413_01_en.html",
-   "note": "Example of foreign posts rebuilding US service around the CBP postal entry rule.",
-   "stories": [
-    "de-minimis-end"
-   ]
-  },
-  {
-   "carrier": "Ninja Van",
-   "regions": [
-    "AS"
-   ],
-   "item": "Malaysia emergency fuel surcharge, West to East Malaysia and intra-Sabah/Sarawak deliveries",
-   "value": "RM1.95 per kg (plus 6% SST)",
-   "effective": "13 Apr 2026; page last updated 15 May 2026",
-   "change": null,
-   "src": "Ninja Van Malaysia EFS page",
-   "url": "https://blog.ninjavan.co/en-my/latest-update-on-emergency-fuel-surcharge-efs-2026/",
-   "note": "Reviewed weekly against S&P Global Platts jet fuel; applies to successful deliveries and returns to sender.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "Pos Malaysia",
-   "regions": [
-    "AS"
-   ],
-   "item": "Fuel-related surcharge increase",
-   "value": "+40%",
-   "effective": "18 Mar 2026",
-   "change": null,
-   "src": "SAYS",
-   "url": "https://says.com/my/news/ninja-van-delivery-surcharge",
-   "note": "Reported alongside the Ninja Van surcharge; base surcharge level not stated in source.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "Flash Express, J&T Express, KEX",
-   "regions": [
-    "AS"
-   ],
-   "item": "Thailand per-parcel fuel adjustment",
-   "value": "+3 baht per parcel",
-   "effective": "1 Apr 2026",
-   "change": null,
-   "src": "Brand Inside",
-   "url": "https://brandinside.asia/thailands-major-parcel-delivery-firms-raise-shipping-fees-by-3-baht-citing-rising-fuel-costs/",
-   "note": "KEX said it would consider reducing or cancelling the charge if fuel prices normalise; no withdrawal found in sources checked.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "Viettel Post",
-   "regions": [
-    "AS"
-   ],
-   "item": "Vietnam domestic fuel surcharge, all domestic services",
-   "value": "15%",
-   "effective": "1 Apr 2026",
-   "change": null,
-   "src": "Tuoi Tre",
-   "url": "https://tuoitre.vn/da-thu-them-phu-phi-xang-dau-15-vi-sao-loi-nhuan-viettel-post-van-di-lui-10026080311352196.htm",
-   "note": "H1 2026 net profit still fell 33%.",
-   "stories": [
-    "hormuz-fuel"
-   ]
-  },
-  {
-   "carrier": "TikTok Shop / Tokopedia",
-   "regions": [
-    "AS"
-   ],
-   "item": "Indonesia seller logistics service fee (percentage of buyer-paid shipping)",
-   "value": "Capped at Rp5,055 per order (TikTok Shop) and Rp10,110 (Tokopedia), before tax; route rates from Rp260",
-   "effective": "1 May 2026",
-   "change": "New fee",
-   "src": "Katadata",
-   "url": "https://katadata.co.id/digital/e-commerce/69d891b708dd3/pedagang-tokopedia-dan-tiktok-shop-kena-biaya-logistik-mulai-mei-2026",
-   "note": "Paid by the seller and not shown to buyers at checkout.",
-   "stories": [
-    "platforms-go-local"
-   ]
-  },
-  {
-   "carrier": "TikTok Shop / Tokopedia",
-   "regions": [
-    "AS"
-   ],
-   "item": "Indonesia failed-delivery and buyer-preference return charges to sellers",
-   "value": "Up to Rp5,000 each (up to Rp10,000 per transaction)",
-   "effective": "1 Jun 2026, with three-month waiver; system active 1 Sep 2026",
-   "change": "New fee",
-   "src": "Bisnis.com",
-   "url": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller",
-   "note": "Instant orders exempt; amounts above Rp5,000 absorbed by the platform.",
-   "stories": [
-    "platforms-go-local"
-   ]
-  },
-  {
-   "carrier": "Shopee Indonesia",
-   "regions": [
-    "AS"
-   ],
-   "item": "Gratis Ongkir XTRA (optional free-shipping programme) seller fee",
-   "value": "Example: fashion accessories 7.5% (regular items), 9% (special items); jewellery 2% (max Rp40,000) and 3.5% (max Rp60,000)",
-   "effective": "2 May 2026",
-   "change": "Fashion accessories from 5.5%; jewellery from 1.5%",
-   "src": "Katadata",
-   "url": "https://katadata.co.id/digital/e-commerce/69dc895b0656c/shopee-naikkan-biaya-gratis-ongkir-ke-penjual-mulai-2-mei-bersifat-opsional",
-   "note": "New split between regular items and special items over 5kg or 60cm.",
-   "stories": [
-    "platforms-go-local"
-   ]
-  },
-  {
-   "carrier": "Shopee Vietnam",
-   "regions": [
-    "AS"
-   ],
-   "item": "PiShip shipping service fee and Voucher Xtra fee",
-   "value": "Increased (rates published only as images in source)",
-   "effective": "23 May 2026",
-   "change": null,
-   "src": "Sapo",
-   "url": "https://www.sapo.vn/blog/shopee-tang-phi-hang-loat-tu-23-05",
-   "note": "Part of a wider fee round that also changed commissions and seller co-funding of discount codes (40%, capped at VND50,000 per product).",
-   "stories": [
-    "platforms-go-local"
-   ]
-  },
-  {
-   "carrier": "Indonesia (Ministry of Trade)",
-   "regions": [
-    "AS"
-   ],
-   "item": "Minimum price for cross-border goods sold via e-commerce platforms (Permendag 19/2026)",
-   "value": "US$100 FOB per unit",
-   "effective": "Signed 8 Jun 2026",
-   "change": "Replaces Permendag 31/2023",
-   "src": "CNN Indonesia",
-   "url": "https://www.cnnindonesia.com/ekonomi/20260609133130-92-1367064/permendag-baru-e-commerce-terbit-ini-10-poin-pentingnya",
-   "note": "Also requires fee transparency and seller approval of fee changes, and platform monitoring of below-cost sales.",
-   "stories": [
-    "de-minimis-end",
-    "asean-digital"
-   ]
-  },
-  {
-   "carrier": "Thailand Customs",
-   "regions": [
-    "AS"
-   ],
-   "item": "Import duty on low-value online imports",
-   "value": "Duty from 1 baht (previous exemption up to 1,500 baht)",
-   "effective": "1 Jan 2026",
-   "change": "De minimis removed",
-   "src": "Khaosod English",
-   "url": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/",
-   "note": "Lazada, Shopee, Shein, TikTok Shop and Temu collect at checkout; Thailand Post may collect on delivery for postal items.",
-   "stories": [
-    "de-minimis-end"
-   ]
-  },
-  {
-   "carrier": "Brazil federal government (Receita Federal, Remessa Conforme)",
-   "regions": [
-    "SA"
-   ],
-   "item": "Federal import tax on cross-border purchases up to USD 50 via certified platforms",
-   "value": "0% (was 20%); state ICMS of 17 to 20% still applies",
-   "effective": "0% since MP 1.357 of 12 May 2026; made law (PLV 13/2026) signed 10 Sep 2026",
-   "change": "-20 pts vs pre-May 2026",
-   "src": "Brasil de Fato; Forbes Brasil",
-   "url": "https://www.brasildefato.com.br/2026/09/10/lula-sanciona-isencao-da-taxa-das-blusinhas-em-compras-ate-50-dolares/",
-   "note": "The law also cuts the rate for USD 50 to 3,000 from 60% towards 30% and lets the Finance Ministry set rates and purchase-frequency limits; Forbes Brasil (4 Sep) reports ICMS at 17 to 20% depending on state.",
-   "stories": [
-    "de-minimis-end",
-    "latam-split"
-   ]
-  },
-  {
-   "carrier": "Dubai Customs",
-   "regions": [
-    "ME"
-   ],
-   "item": "Customs duty exemption threshold for e-commerce shipments into Dubai",
-   "value": "AED 1,000 (was AED 300)",
-   "effective": "3 Aug 2026",
-   "change": "+AED 700",
-   "src": "Gulf Today; VATupdate",
-   "url": "https://www.gulftoday.ae/news/2026/08/05/dubai-customs-exempts-e-commerce-shipments-up-to-dhs1000-from-customs-duties",
-   "note": "Excludes tobacco, e-cigarettes, nicotine liquids and alcohol; companies must register with Dubai Customs. Prior AED 300 threshold per VATupdate (12 Sep 2026).",
-   "stories": [
-    "mena-gateway"
-   ]
-  },
-  {
-   "carrier": "Mexico Ministry of Economy",
-   "regions": [
-    "NA"
-   ],
-   "item": "Import tariffs on 1,463 tariff lines from countries without a trade agreement with Mexico (incl. China)",
-   "value": "up to 50% (textiles, clothing, personal care); up to 30% (appliances, toys); up to 25% (jewellery, furniture)",
-   "effective": "in force in 2026 (reported 18 May 2026)",
-   "change": null,
-   "src": "El Cronista Mexico",
-   "url": "https://www.cronista.com/mexico/finanzas-economia/adios-a-las-compras-en-shein-y-temu-ratifican-impuestos-de-hasta-el-50-en-todos-los-articulos-procedentes-de-china-por-falta-de-acuerdo-comercial/",
-   "note": "Computers and mobile phones exempt under the ITA (16% VAT only). Sits on top of the 33.5% courier import rate on Chinese parcels introduced in August 2025.",
-   "stories": [
-    "latam-split",
-    "us-china-rivalry"
-   ]
-  },
-  {
-   "carrier": "China express networks (regional price coordination)",
-   "regions": [
-    "CN"
-   ],
-   "item": "Express service fee increases per parcel, B2B/e-commerce volumes",
-   "value": "Jiangsu +RMB 0.10 minimum; Anhui +RMB 0.15 minimum; Henan (Zhengzhou, Xuchang, Luoyang) +RMB 0.20 to 0.30 on 0 to 3 kg outbound",
-   "effective": "20 Sep 2026",
-   "change": "new round of anti-involution increases",
-   "src": "Tencent News",
-   "url": "https://news.qq.com/rain/a/20260921A08YLE00",
-   "note": "State Post Bureau data: Jan to Aug 2026 express revenue +7.4% vs volume +4.6%; individual consumer sends largely unaffected.",
-   "stories": []
-  }
- ]
+  "updated": "2026-10-02",
+  "items": [
+    {
+      "carrier": "DHL Express",
+      "regions": [
+        "GLOBAL",
+        "UK"
+      ],
+      "item": "International Time Definite fuel surcharge (UK account holders, jet fuel indexed, weekly)",
+      "value": "46.25%",
+      "effective": "week of 28 Sep to 4 Oct 2026",
+      "change": "+1.25 pt vs prior week (45.00%); 48.00% already published for 5 to 11 Oct 2026",
+      "src": "DHL Express UK surcharges page",
+      "url": "https://www.dhl.com/gb-en/home/express/products-and-solutions/products-and-services-overview/surcharges.html",
+      "note": "Weekly indexation on US Gulf Coast jet fuel. US table for the same week: export 35.00%, import 38.75%, rising to 36.25% and 40.00% for 5 to 11 Oct. DHL cut its US fuel tables by 2 points from 3 Aug 2026.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "DHL Express",
+      "regions": [
+        "GLOBAL",
+        "UK"
+      ],
+      "item": "2027 general price increase",
+      "value": "5.9% average (UK and US)",
+      "effective": "1 Jan 2027",
+      "change": null,
+      "src": "DHL Express US press release; Air Cargo Week (UK)",
+      "url": "https://www.dhl.com/us-en/home/press/press-archive/2026/dhl-express-announces-annual-price-adjustments-in-the-u-s.html",
+      "note": "US announced 25 Sep 2026, UK announced 30 Sep 2026 (https://aircargoweek.com/dhl-express-average-rate-increase-of-5-9-percent-for-2027-in-united-kingdom/). DHL cites inflation, currency, energy, customs compliance and security costs; a limited number of surcharges also change.",
+      "stories": []
+    },
+    {
+      "carrier": "DHL Express",
+      "regions": [
+        "GLOBAL",
+        "EU"
+      ],
+      "item": "Peak demand surcharge, international Time Definite",
+      "value": "Europe to Americas USD 0.55/kg; within Europe USD 0.30/kg; China/HK to Americas USD 2.25/kg; Americas to Europe nil",
+      "effective": "1 Oct 2026 to 5 Feb 2027",
+      "change": null,
+      "src": "DHL Express US demand surcharge page",
+      "url": "https://www.dhl.com/us-en/home/express/products-and-solutions/products-and-services-overview/surcharges/demand-surcharge.html",
+      "note": "German DHL Express page lists EUR 0.10 to 2.00/kg by lane for international over the same window and EUR 0.10/kg domestic from 1 Nov to 31 Dec 2026.",
+      "stories": []
+    },
+    {
+      "carrier": "DHL Express",
+      "regions": [
+        "GLOBAL",
+        "ME"
+      ],
+      "item": "Elevated Risk surcharge on shipments to and from Israel",
+      "value": "Suspended",
+      "effective": "25 Sep 2026",
+      "change": "surcharge removed",
+      "src": "MyDHL Express important information",
+      "url": "https://mydhl.express.dhl/us/en/important-information.important-info-active-items.html",
+      "note": "DHL says it will keep monitoring the safety situation; DHL Global Forwarding reported in May 2026 that container traffic was still not transiting the Strait of Hormuz.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "GLOBAL"
+      ],
+      "item": "International export and import fuel surcharge (single table)",
+      "value": "45.50%",
+      "effective": "week of 28 Sep to 4 Oct 2026",
+      "change": "+1.00 pt vs prior week (44.50%)",
+      "src": "FedEx weekly fuel surcharge page",
+      "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
+      "note": "Since 22 Jun 2026 FedEx applies one table to exports and imports, moving exports onto the former import level (Supply Chain Dive).",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "GLOBAL"
+      ],
+      "item": "2027 general rate increase, US, export and import package services",
+      "value": "5.9% average",
+      "effective": "4 Jan 2027",
+      "change": null,
+      "src": "FedEx shipping rate changes page",
+      "url": "https://www.fedex.com/en-us/shipping/rate-changes/additional-shipping-fees.html",
+      "note": "New USD 25 paper document fee for non-electronic trade documents and a residential delivery charge for select international destinations.",
+      "stories": []
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "GLOBAL"
+      ],
+      "item": "International demand surcharges, US export and import",
+      "value": "China/HK/Macau priority imports USD 0.91/lb (from 0.35); Asia-Pacific priority imports USD 0.73/lb (from 0.20)",
+      "effective": "21 Sep 2026 to 7 Feb 2027",
+      "change": "increase vs previous demand surcharge",
+      "src": "LJM blog; FedEx demand surcharges page",
+      "url": "https://www.myljm.com/blog-post/ups-revises-international-surge-fees-as-fedex-adds-new-fees-for-2026-peak-season",
+      "note": "FedEx confirms the 21 Sep 2026 adjustment on https://www.fedex.com/en-us/shipping/rate-changes/demand-surcharges.html; lane tables are in PDFs.",
+      "stories": [
+        "us-china-rivalry"
+      ]
+    },
+    {
+      "carrier": "UPS",
+      "regions": [
+        "GLOBAL"
+      ],
+      "item": "International Air export and import fuel surcharge",
+      "value": "Export 45.00%; import 47.75%",
+      "effective": "week of 21 Sep 2026",
+      "change": null,
+      "src": "TransImpact",
+      "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
+      "note": "US retail diesel reached USD 6.529 per gallon on 21 Sep. UPS had not announced a 2027 general rate increase as of 29 Sep 2026.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "UPS",
+      "regions": [
+        "GLOBAL"
+      ],
+      "item": "International surge fees (peak) and flat per-package surge emergency fees on US exports",
+      "value": "Peak surge fees by service and lane; USD 0.50/lb on US-origin Worldwide Economy DDP/DDU; emergency fees USD 8.75 additional handling, USD 96 large package, USD 514 over max",
+      "effective": "surge fees 27 Sep 2026 to 16 Jan 2027; emergency fees since 31 May 2026",
+      "change": null,
+      "src": "LJM blog; TransImpact",
+      "url": "https://www.myljm.com/blog-post/ups-revises-international-surge-fees-as-fedex-adds-new-fees-for-2026-peak-season",
+      "note": "TransImpact reports the surge emergency programme began as per-pound charges on Middle East routes before moving to flat per-package fees (https://transimpact.com/blog/ups-adds-new-surge-emergency-fees-and-higher-fuel-surcharges).",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "Royal Mail",
+      "regions": [
+        "UK"
+      ],
+      "item": "Parcel price increase (stamps unchanged)",
+      "value": "about +8% on parcels; First Class small parcel GBP 5.45 to 5.90; 1st and 2nd Class letter stamps unchanged at GBP 1.80 and 0.91",
+      "effective": "5 Oct 2026",
+      "change": null,
+      "src": "Mailcoms",
+      "url": "https://www.mailcoms.co.uk/news/royal-mail-postage-rates-2026/",
+      "note": "Announced 4 Sep 2026; Tracked, Signed For and Special Delivery also rise; Mailmark franking prices unchanged.",
+      "stories": [
+        "uk-three-rulebooks"
+      ]
+    },
+    {
+      "carrier": "Royal Mail",
+      "regions": [
+        "UK",
+        "NA"
+      ],
+      "item": "Service to the USA: US customs requirement change",
+      "value": "US customs requirements change; PDDP services offered",
+      "effective": "22 Oct 2026",
+      "change": null,
+      "src": "Royal Mail USA country guide",
+      "url": "https://www.royalmail.com/sending/international/country-guides/usa",
+      "note": "Royal Mail ships goods to the US with prepaid duties.",
+      "stories": [
+        "de-minimis-end",
+        "north-america-rulebook"
+      ]
+    },
+    {
+      "carrier": "Evri",
+      "regions": [
+        "UK",
+        "EU"
+      ],
+      "item": "Peak surcharges",
+      "value": "UK GBP 0.03 per parcel; Germany GBP 0.22; Denmark, Finland, Sweden GBP 0.30 per shipment",
+      "effective": "UK 15 Nov to 10 Jan; international 1 Nov to 31 Dec",
+      "change": null,
+      "src": "Evri accessorial charges 2026 (reseller schedule updated June 2026)",
+      "url": "https://www.international-logistics-group.com/discover/wp-content/uploads/sites/2/2026/06/Evri-Accessorial-Charges-2026-updated-June-2026.pdf",
+      "note": "Same schedule lists a GBP 0.35 Clean Air Levy for zero-emission delivery in ULEZ/CAZ postcodes.",
+      "stories": []
+    },
+    {
+      "carrier": "La Poste / Colissimo",
+      "regions": [
+        "EU"
+      ],
+      "item": "2027 universal service tariffs",
+      "value": "+6.73% average; Lettre Verte EUR 1.52 to 1.67; Colissimo for consumers +4.1%; mainland to overseas parcels -5%; business mail +5.1%",
+      "effective": "1 Jan 2027",
+      "change": null,
+      "src": "Caisse des Dépôts",
+      "url": "https://www.caissedesdepots.fr/eclairage/actualites/la-poste-augmentation-des-tarifs-des-timbres-et-colis-en-2027",
+      "note": "Announced 27 Jul 2026 within ARCEP's multi-year price cap (liti.fr).",
+      "stories": []
+    },
+    {
+      "carrier": "PostNL",
+      "regions": [
+        "EU"
+      ],
+      "item": "2027 regulated tariff headroom set by ACM",
+      "value": "EUR 3.5929 weighted average (2026: EUR 3.1882), about +12.7%",
+      "effective": "1 Jan 2027",
+      "change": "+12.7% headroom",
+      "src": "Transport Online",
+      "url": "https://www.transport-online.nl/136224/post-versturen-mogelijk-weer-duurder-in-2027-postnl-krijgt-hogere-tariefruimte/",
+      "note": "Published 26 Aug 2026; not a stamp price; PostNL sets individual tariffs within the cap.",
+      "stories": []
+    },
+    {
+      "carrier": "Deutsche Post",
+      "regions": [
+        "EU"
+      ],
+      "item": "Letter format reform: Maxibrief withdrawn",
+      "value": "at least EUR 1.29 more per shipment for senders of goods using Maxibrief",
+      "effective": "1 Jan 2027",
+      "change": null,
+      "src": "Berliner Kurier",
+      "url": "https://www.berliner-kurier.de/verbraucher/deutsche-post-briefversand-2027-li.10314149",
+      "note": "Großbrief dimensions widened; Dialogpost prices rise about 3.5% on average from 1 Jan 2027 (Dialoghaus). Bundesnetzagentur decision on 2027 letter postage still pending in our sources.",
+      "stories": []
+    },
+    {
+      "carrier": "EU customs (all carriers)",
+      "regions": [
+        "EU"
+      ],
+      "item": "Union handling fee per low-value e-commerce item",
+      "value": "EUR 2 per item (draft delegated act)",
+      "effective": "1 Nov 2026",
+      "change": "new cost item, on top of EUR 3 customs duty per item since 1 Jul 2026",
+      "src": "European Commission, EU Customs Reform page; VATupdate",
+      "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+      "note": "Commission page: fee to be introduced by 1 Nov 2026 via delegated act, based on customs supervision costs. Amount of EUR 2 published 21 Sep 2026 (Agence Europe, VATupdate).",
+      "stories": [
+        "de-minimis-end",
+        "eu-customs-reform"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "NA"
+      ],
+      "item": "FedEx Ground / Home Delivery fuel surcharge",
+      "value": "29.75%",
+      "effective": "week of 28 Sep to 4 Oct 2026",
+      "change": "+0.75 pt vs prior week (29.00%)",
+      "src": "FedEx fuel surcharge page",
+      "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
+      "note": "Indexed weekly to the US on-highway diesel average.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "NA"
+      ],
+      "item": "FedEx Express US domestic package fuel surcharge",
+      "value": "33.00%",
+      "effective": "week of 28 Sep to 4 Oct 2026",
+      "change": "+0.75 pt vs prior week (32.25%)",
+      "src": "FedEx fuel surcharge page",
+      "url": "https://www.fedex.com/en-us/shipping/fuel-surcharge.html",
+      "note": "International export/import is 45.50% the same week (+1.0 pt).",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "UPS",
+      "regions": [
+        "NA"
+      ],
+      "item": "UPS US domestic Ground fuel surcharge",
+      "value": "29.50%",
+      "effective": "week of 21 Sep 2026",
+      "change": null,
+      "src": "TransImpact",
+      "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
+      "note": "UPS's own page did not render a current table for us; US diesel averaged USD 6.529 per gallon on 21 Sep (EIA). UPS domestic air value not verified.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "UPS",
+      "regions": [
+        "NA",
+        "GLOBAL"
+      ],
+      "item": "UPS international air import fuel surcharge",
+      "value": "47.75%",
+      "effective": "week of 21 Sep 2026",
+      "change": null,
+      "src": "TransImpact",
+      "url": "https://transimpact.com/blog/fuel-surcharges-hit-record-levels-as-the-diesel-crisis-deepens",
+      "note": "Described as a record; international air export at 45%.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "NA"
+      ],
+      "item": "2027 general rate increase (US, US export, US import packages)",
+      "value": "+5.9% average",
+      "effective": "4 Jan 2027",
+      "change": null,
+      "src": "FedEx rate changes page",
+      "url": "https://www.fedex.com/en-us/shipping/rate-changes.html",
+      "note": "Zone reclassification 1 Feb 2027. UPS had not published its 2027 increase as of 29 Sep 2026.",
+      "stories": [
+        "north-america-rulebook"
+      ]
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "NA"
+      ],
+      "item": "Ground / Home Delivery residential delivery charge",
+      "value": "USD 6.90 per package (from USD 6.45)",
+      "effective": "4 Jan 2027",
+      "change": "+7.0%",
+      "src": "FedEx surcharge and fee changes 2027",
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/surcharge_and_fee_changes_2027.pdf",
+      "note": "Residential delivery area surcharge rises from USD 6.60 to 7.00, extended from USD 8.80 to 9.60.",
+      "stories": []
+    },
+    {
+      "carrier": "FedEx",
+      "regions": [
+        "NA"
+      ],
+      "item": "2026 demand surcharges (US domestic)",
+      "value": "Ground Residential USD 0.50 to 0.80; Additional Handling USD 8.80 / 11.85 peak; Oversize USD 95.75 / 117.25 peak",
+      "effective": "Additional Handling and Oversize from 28 Sep; Ground Residential from 26 Oct 2026; to 17 Jan 2027 (peak 23 Nov to 27 Dec)",
+      "change": null,
+      "src": "FedEx demand surcharges page",
+      "url": "https://www.fedex.com/en-us/shipping/rate-changes/demand-surcharges.html",
+      "note": "Ground Economy USD 2.55 to 4.05 per package.",
+      "stories": []
+    },
+    {
+      "carrier": "UPS",
+      "regions": [
+        "NA"
+      ],
+      "item": "2026 peak and demand surcharges",
+      "value": "Demand USD 0.50 to 2.50 per package (high-volume up to USD 9.35); Additional Handling USD 8.75 to 11.90; Large Package USD 96.25 to 117.50",
+      "effective": "size charges from 27 Sep; demand from 25 Oct 2026 to 16 Jan 2027 (peak 22 Nov to 26 Dec)",
+      "change": "service-level charges up about 22 to 25% vs 2025",
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/ups-preps-higher-holiday-surcharges-for-2026/828936/",
+      "note": "High-volume tier applies to customers over 20,000 packages a week.",
+      "stories": []
+    },
+    {
+      "carrier": "Amazon Shipping",
+      "regions": [
+        "NA"
+      ],
+      "item": "2026 peak surcharges",
+      "value": "USD 0.50 / 0.75 / 0.50 per package; Additional Handling up to USD 11.90; Large Package up to USD 117.50",
+      "effective": "25 Oct 2026 to 16 Jan 2027 (peak 22 Nov to 26 Dec)",
+      "change": null,
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/",
+      "note": "No volume-based surcharge for a second year; accessorials closely mirror UPS and FedEx.",
+      "stories": [
+        "platforms-go-local"
+      ]
+    },
+    {
+      "carrier": "OnTrac",
+      "regions": [
+        "NA"
+      ],
+      "item": "2026-27 peak demand surcharges",
+      "value": "Residential USD 1.00 flat; Additional Handling USD 11; Large Package USD 110; Over Max USD 595",
+      "effective": "26 Sep 2026 to 15 Jan 2027",
+      "change": "Residential and Additional Handling flat; Large Package +4.8%; Over Max +8.2%",
+      "src": "TransImpact",
+      "url": "https://transimpact.com/blog/ontrac-2026-27-peak-demand-surcharges",
+      "note": "",
+      "stories": []
+    },
+    {
+      "carrier": "USPS",
+      "regions": [
+        "NA"
+      ],
+      "item": "Temporary holiday price change (Priority Mail Express, Priority Mail, Ground Advantage, Parcel Select)",
+      "value": "Retail Priority Mail +USD 0.50 to 3.90 (zones 1 to 4), +USD 1.00 to 9.10 (zones 5 to 9)",
+      "effective": "4 Oct 2026 to 17 Jan 2027",
+      "change": "Lightweight Ground Advantage to distant zones up to 57% above last year's peak increment",
+      "src": "USPS Newsroom",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
+      "note": "USPS raises published prices rather than adding demand surcharges. No January 2027 price filing found as of 1 Oct.",
+      "stories": []
+    },
+    {
+      "carrier": "USPS",
+      "regions": [
+        "NA"
+      ],
+      "item": "Temporary transportation-related price increase",
+      "value": "8%",
+      "effective": "26 Apr 2026 to 17 Jan 2027",
+      "change": null,
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/usps-sets-temporary-rate-hike-ground-advantage-parcel-select/815753/",
+      "note": "Applies to Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select; justified by fuel costs.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "DHL Express",
+      "regions": [
+        "NA"
+      ],
+      "item": "2027 general average price adjustment for US account holders",
+      "value": "+5.9% average",
+      "effective": "1 Jan 2027",
+      "change": null,
+      "src": "Descartes",
+      "url": "https://www.descartes.com/ecommerce/news/fedex-dhl-2027-rate-increases-ecommerce-sellers",
+      "note": "",
+      "stories": []
+    },
+    {
+      "carrier": "Japan Post",
+      "regions": [
+        "NA",
+        "AS"
+      ],
+      "item": "US-bound postal items: duty prepayment requirement",
+      "value": "Prepayment required for items valued USD 100 to 2,500",
+      "effective": "24 Jul 2026 (acceptance resumed 14 Apr 2026 after Aug 2025 suspension)",
+      "change": null,
+      "src": "Japan Post",
+      "url": "https://www.post.japanpost.jp/service/send/oversea/information/2026/0413_01_en.html",
+      "note": "Example of foreign posts rebuilding US service around the CBP postal entry rule.",
+      "stories": [
+        "de-minimis-end"
+      ]
+    },
+    {
+      "carrier": "Ninja Van",
+      "regions": [
+        "AS"
+      ],
+      "item": "Malaysia emergency fuel surcharge, West to East Malaysia and intra-Sabah/Sarawak deliveries",
+      "value": "RM1.95 per kg (plus 6% SST)",
+      "effective": "13 Apr 2026; page last updated 15 May 2026",
+      "change": null,
+      "src": "Ninja Van Malaysia EFS page",
+      "url": "https://blog.ninjavan.co/en-my/latest-update-on-emergency-fuel-surcharge-efs-2026/",
+      "note": "Reviewed weekly against S&P Global Platts jet fuel; applies to successful deliveries and returns to sender.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "Pos Malaysia",
+      "regions": [
+        "AS"
+      ],
+      "item": "Fuel-related surcharge increase",
+      "value": "+40%",
+      "effective": "18 Mar 2026",
+      "change": null,
+      "src": "SAYS",
+      "url": "https://says.com/my/news/ninja-van-delivery-surcharge",
+      "note": "Reported alongside the Ninja Van surcharge; base surcharge level not stated in source.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "Flash Express, J&T Express, KEX",
+      "regions": [
+        "AS"
+      ],
+      "item": "Thailand per-parcel fuel adjustment",
+      "value": "+3 baht per parcel",
+      "effective": "1 Apr 2026",
+      "change": null,
+      "src": "Brand Inside",
+      "url": "https://brandinside.asia/thailands-major-parcel-delivery-firms-raise-shipping-fees-by-3-baht-citing-rising-fuel-costs/",
+      "note": "KEX said it would consider reducing or cancelling the charge if fuel prices normalise; no withdrawal found in sources checked.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "Viettel Post",
+      "regions": [
+        "AS"
+      ],
+      "item": "Vietnam domestic fuel surcharge, all domestic services",
+      "value": "15%",
+      "effective": "1 Apr 2026",
+      "change": null,
+      "src": "Tuoi Tre",
+      "url": "https://tuoitre.vn/da-thu-them-phu-phi-xang-dau-15-vi-sao-loi-nhuan-viettel-post-van-di-lui-10026080311352196.htm",
+      "note": "H1 2026 net profit still fell 33%.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "TikTok Shop / Tokopedia",
+      "regions": [
+        "AS"
+      ],
+      "item": "Indonesia seller logistics service fee (percentage of buyer-paid shipping)",
+      "value": "Capped at Rp5,055 per order (TikTok Shop) and Rp10,110 (Tokopedia), before tax; route rates from Rp260",
+      "effective": "1 May 2026",
+      "change": "New fee",
+      "src": "Katadata",
+      "url": "https://katadata.co.id/digital/e-commerce/69d891b708dd3/pedagang-tokopedia-dan-tiktok-shop-kena-biaya-logistik-mulai-mei-2026",
+      "note": "Paid by the seller and not shown to buyers at checkout.",
+      "stories": [
+        "platforms-go-local"
+      ]
+    },
+    {
+      "carrier": "TikTok Shop / Tokopedia",
+      "regions": [
+        "AS"
+      ],
+      "item": "Indonesia failed-delivery and buyer-preference return charges to sellers",
+      "value": "Up to Rp5,000 each (up to Rp10,000 per transaction)",
+      "effective": "1 Jun 2026, with three-month waiver; system active 1 Sep 2026",
+      "change": "New fee",
+      "src": "Bisnis.com",
+      "url": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller",
+      "note": "Instant orders exempt; amounts above Rp5,000 absorbed by the platform.",
+      "stories": [
+        "platforms-go-local"
+      ]
+    },
+    {
+      "carrier": "Shopee Indonesia",
+      "regions": [
+        "AS"
+      ],
+      "item": "Gratis Ongkir XTRA (optional free-shipping programme) seller fee",
+      "value": "Example: fashion accessories 7.5% (regular items), 9% (special items); jewellery 2% (max Rp40,000) and 3.5% (max Rp60,000)",
+      "effective": "2 May 2026",
+      "change": "Fashion accessories from 5.5%; jewellery from 1.5%",
+      "src": "Katadata",
+      "url": "https://katadata.co.id/digital/e-commerce/69dc895b0656c/shopee-naikkan-biaya-gratis-ongkir-ke-penjual-mulai-2-mei-bersifat-opsional",
+      "note": "New split between regular items and special items over 5kg or 60cm.",
+      "stories": [
+        "platforms-go-local"
+      ]
+    },
+    {
+      "carrier": "Shopee Vietnam",
+      "regions": [
+        "AS"
+      ],
+      "item": "PiShip shipping service fee and Voucher Xtra fee",
+      "value": "Increased (rates published only as images in source)",
+      "effective": "23 May 2026",
+      "change": null,
+      "src": "Sapo",
+      "url": "https://www.sapo.vn/blog/shopee-tang-phi-hang-loat-tu-23-05",
+      "note": "Part of a wider fee round that also changed commissions and seller co-funding of discount codes (40%, capped at VND50,000 per product).",
+      "stories": [
+        "platforms-go-local"
+      ]
+    },
+    {
+      "carrier": "Indonesia (Ministry of Trade)",
+      "regions": [
+        "AS"
+      ],
+      "item": "Minimum price for cross-border goods sold via e-commerce platforms (Permendag 19/2026)",
+      "value": "US$100 FOB per unit",
+      "effective": "Signed 8 Jun 2026",
+      "change": "Replaces Permendag 31/2023",
+      "src": "CNN Indonesia",
+      "url": "https://www.cnnindonesia.com/ekonomi/20260609133130-92-1367064/permendag-baru-e-commerce-terbit-ini-10-poin-pentingnya",
+      "note": "Also requires fee transparency and seller approval of fee changes, and platform monitoring of below-cost sales.",
+      "stories": [
+        "de-minimis-end",
+        "asean-digital"
+      ]
+    },
+    {
+      "carrier": "Thailand Customs",
+      "regions": [
+        "AS"
+      ],
+      "item": "Import duty on low-value online imports",
+      "value": "Duty from 1 baht (previous exemption up to 1,500 baht)",
+      "effective": "1 Jan 2026",
+      "change": "De minimis removed",
+      "src": "Khaosod English",
+      "url": "https://www.khaosodenglish.com/news/business/2025/12/22/thailand-customs-to-tax-online-imports-from-1-baht-in-2026/",
+      "note": "Lazada, Shopee, Shein, TikTok Shop and Temu collect at checkout; Thailand Post may collect on delivery for postal items.",
+      "stories": [
+        "de-minimis-end"
+      ]
+    },
+    {
+      "carrier": "Brazil federal government (Receita Federal, Remessa Conforme)",
+      "regions": [
+        "SA"
+      ],
+      "item": "Federal import tax on cross-border purchases up to USD 50 via certified platforms",
+      "value": "0% (was 20%); state ICMS of 17 to 20% still applies",
+      "effective": "0% since MP 1.357 of 12 May 2026; made law (PLV 13/2026) signed 10 Sep 2026",
+      "change": "-20 pts vs pre-May 2026",
+      "src": "Brasil de Fato; Forbes Brasil",
+      "url": "https://www.brasildefato.com.br/2026/09/10/lula-sanciona-isencao-da-taxa-das-blusinhas-em-compras-ate-50-dolares/",
+      "note": "The law also cuts the rate for USD 50 to 3,000 from 60% towards 30% and lets the Finance Ministry set rates and purchase-frequency limits; Forbes Brasil (4 Sep) reports ICMS at 17 to 20% depending on state.",
+      "stories": [
+        "de-minimis-end",
+        "latam-split"
+      ]
+    },
+    {
+      "carrier": "Dubai Customs",
+      "regions": [
+        "ME"
+      ],
+      "item": "Customs duty exemption threshold for e-commerce shipments into Dubai",
+      "value": "AED 1,000 (was AED 300)",
+      "effective": "3 Aug 2026",
+      "change": "+AED 700",
+      "src": "Gulf Today; VATupdate",
+      "url": "https://www.gulftoday.ae/news/2026/08/05/dubai-customs-exempts-e-commerce-shipments-up-to-dhs1000-from-customs-duties",
+      "note": "Excludes tobacco, e-cigarettes, nicotine liquids and alcohol; companies must register with Dubai Customs. Prior AED 300 threshold per VATupdate (12 Sep 2026).",
+      "stories": [
+        "mena-gateway"
+      ]
+    },
+    {
+      "carrier": "Mexico Ministry of Economy",
+      "regions": [
+        "NA"
+      ],
+      "item": "Import tariffs on 1,463 tariff lines from countries without a trade agreement with Mexico (incl. China)",
+      "value": "up to 50% (textiles, clothing, personal care); up to 30% (appliances, toys); up to 25% (jewellery, furniture)",
+      "effective": "in force in 2026 (reported 18 May 2026)",
+      "change": null,
+      "src": "El Cronista Mexico",
+      "url": "https://www.cronista.com/mexico/finanzas-economia/adios-a-las-compras-en-shein-y-temu-ratifican-impuestos-de-hasta-el-50-en-todos-los-articulos-procedentes-de-china-por-falta-de-acuerdo-comercial/",
+      "note": "Computers and mobile phones exempt under the ITA (16% VAT only). Sits on top of the 33.5% courier import rate on Chinese parcels introduced in August 2025.",
+      "stories": [
+        "latam-split",
+        "us-china-rivalry"
+      ]
+    },
+    {
+      "carrier": "China express networks (regional price coordination)",
+      "regions": [
+        "CN"
+      ],
+      "item": "Express service fee increases per parcel, B2B/e-commerce volumes",
+      "value": "Jiangsu +RMB 0.10 minimum; Anhui +RMB 0.15 minimum; Henan (Zhengzhou, Xuchang, Luoyang) +RMB 0.20 to 0.30 on 0 to 3 kg outbound",
+      "effective": "20 Sep 2026",
+      "change": "new round of anti-involution increases",
+      "src": "Tencent News",
+      "url": "https://news.qq.com/rain/a/20260921A08YLE00",
+      "note": "State Post Bureau data: Jan to Aug 2026 express revenue +7.4% vs volume +4.6%; individual consumer sends largely unaffected.",
+      "stories": []
+    },
+    {
+      "carrier": "Australia Post",
+      "regions": [
+        "AS"
+      ],
+      "item": "Contract parcel fuel surcharge (monthly, published 30 days ahead)",
+      "value": "11.5% (October 2026); 13.5% (November 2026)",
+      "effective": "1 Oct 2026; 1 Nov 2026",
+      "change": "+4.6 pt in October (from 6.9% in September); +2.0 pt in November",
+      "src": "Australia Post fuel surcharge page",
+      "url": "https://auspost.com.au/business/shipping/postage-costs/fuel-surcharge",
+      "note": "The rate ran from 4.8% (April 2026) to 19.5% (June 2026). From 1 Jul StarTrack Express and Premium carried a separate, higher rate (23.0% against 12.3%). MyPost Business and retail customers are not charged it.",
+      "stories": [
+        "hormuz-fuel"
+      ]
+    },
+    {
+      "carrier": "Australia Post",
+      "regions": [
+        "AS"
+      ],
+      "item": "Annual price change: domestic and international parcels",
+      "value": "Domestic parcels under 5 kg: +4.95% average (retail), +4.25% (contract); international parcels and letters +3.75%; MyPost Business pick-up +9.7%",
+      "effective": "1 Jul 2026",
+      "change": null,
+      "src": "The Nightly",
+      "url": "https://thenightly.com.au/australia/australia-post-price-hikes-domestic-international-parcels-and-other-services-to-go-up-from-july-1-c-22349360",
+      "note": "Australia Post cited record operating costs. The Basic Postage Rate for letters rose A$0.15 to A$1.85 on 1 Sep 2026.",
+      "stories": []
+    },
+    {
+      "carrier": "Japan Post",
+      "regions": [
+        "AS"
+      ],
+      "item": "Domestic parcel tariff revision (Yu-Pack, Yu-Packet, Click Post)",
+      "value": "Yu-Pack about +10% on average; Yu-Packet flat ¥360 up to 3 cm; Click Post ¥240",
+      "effective": "1 Oct 2026",
+      "change": "Yu-Packet up to ¥110 for the thinnest items (was ¥250/¥310/¥360 by thickness); Click Post +¥55 from ¥185, weight limit raised from 1 kg to 2 kg",
+      "src": "ITmedia NEWS",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/03/news136.html",
+      "note": "Announced 3 Jul 2026, citing material and labour costs. Click Post becomes mailbox drop-off only. Sagawa separately adds an international peak surcharge from 1 Oct.",
+      "stories": []
+    },
+    {
+      "carrier": "Canada Post",
+      "regions": [
+        "NA"
+      ],
+      "item": "2026-27 peak season surcharges (special-handling items)",
+      "value": "Out-of-spec item C$400 (regular C$300); oversize and unpackaged items C$30 (regular C$21)",
+      "effective": "2 Nov 2026 to 10 Jan 2027",
+      "change": "Out-of-spec +33%; oversize and unpackaged +43%",
+      "src": "netParcel (citing Canada Post price lists)",
+      "url": "https://www.netparcel.com/2026-holiday-shipping-guide-cutoffs-peak-surcharges/",
+      "note": "Applies only to items needing special handling. As of 30 Sep netParcel listed Purolator's 2026 peak surcharges as not yet published.",
+      "stories": []
+    }
+  ]
 }

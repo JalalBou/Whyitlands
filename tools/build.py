@@ -738,8 +738,8 @@ def page_markets():
         desks.append(f"""<div data-show="{show_for(k)}" id="desk-{k}"{hidden}>
 <section class="rhero"><div class="wrap"><div class="kicker"><span data-region-label="{k}">{RNAME[k]}</span> · <span data-i18n="mk_kicker">Market intelligence</span></div>
 <h1 data-i18n="mk_h1">Who is winning, who is paying.</h1><p class="mk-take"><b data-i18n="mk_our_read">Our read</b> {E(m['take'])}</p></div></section>
-{subnav([("sig-" + k if signals_block(k) else None, "si_k", "Signals"), ("dd-" + k if comp_teasers(k) else None, "cp_k", "Competition deep dive"), ("pw-" + k if watch_block(k) else None, "pw_k", "Price and service watch"), ("mv-" + k if moves_block(k) else None, "mv_k", "Moves"), ("res-" + k, "mk_res_k", "Results"), ("solutions" if SOL else None, "sol_kicker", "Solution landscape")])}
-{signals_block(k, sid="sig-" + k)}<div id="dd-{k}">{comp_teasers(k)}</div>{watch_block(k, sid="pw-" + k)}{moves_block(k, sid="mv-" + k)}
+{subnav([("sig-" + k if signals_block(k) else None, "si_k", "Signals"), ("dd-" + k if comp_teasers(k) else None, "cp_k", "Competition deep dive"), ("pw-" + k if watch_block(k) else None, "pw_k", "Price and service watch"), ("mv-" + k if moves_block(k) else None, "mv_k", "Moves"), ("sh-" + k if shoppers_block(k) else None, "sh_k", "Shopper pulse"), ("res-" + k, "mk_res_k", "Results"), ("solutions" if SOL else None, "sol_kicker", "Solution landscape")])}
+{signals_block(k, sid="sig-" + k)}<div id="dd-{k}">{comp_teasers(k)}</div>{watch_block(k, sid="pw-" + k)}{moves_block(k, sid="mv-" + k)}{shoppers_block(k, sid="sh-" + k)}
 <section class="section" id="res-{k}"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="mk_res_k">Results</div><h2 data-i18n="mk_res_h">Latest quarterly results</h2></div></div>{market_summary_table(k)}
 <div class="cos">{''.join(company_card(c) for c in m['companies'])}</div>
 {('<h2 style="margin:40px 0 14px" data-i18n="mk_next">Next results and dates</h2><ul class="watch">' + watch + '</ul>') if watch else ''}
@@ -907,6 +907,7 @@ def page_story(s):
 {('<h3 class="st-sub" id="next" data-i18n="st_next">What comes next</h3><ul class="watch">' + nxt + '</ul>') if nxt else ''}
 {story_signals(s['key'])}
 {story_radar(s['key'])}
+{story_shoppers(s['key'])}
 {('<h3 class="st-sub" data-i18n="st_lens">The lens behind the decisions</h3><div class="chips-row">' + docs + '</div>') if docs else ''}
 {('<h3 class="st-sub" data-i18n="st_cos">Companies visibly affected</h3><div class="chips-row">' + cos + '</div>') if cos else ''}
 {('<h3 class="st-sub" data-i18n="st_sols">Solution landscape</h3><div class="chips-row">' + sols + '</div>') if sols else ''}
@@ -915,7 +916,7 @@ def page_story(s):
 <p style="margin-top:24px"><a class="btn btn-ink" href="/storylines" data-i18n="st_all">All storylines →</a></p>
 </div></section></main>
 """
-    _items = [(a, k, l) for a, k, l in [("chain", "st_chain_k", "The chain"), ("next", "st_next", "What comes next"), ("signals", "st_signals", "Signals"), ("rules", "st_rules", "Rules"), ("analysis", "st_brs", "Read the full analysis"), ("sources", "sources_art", "Sources")] if f'id="{a}"' in out]
+    _items = [(a, k, l) for a, k, l in [("chain", "st_chain_k", "The chain"), ("next", "st_next", "What comes next"), ("signals", "st_signals", "Signals"), ("rules", "st_rules", "Rules"), ("shoppers", "st_shop", "Shoppers"), ("analysis", "st_brs", "Read the full analysis"), ("sources", "sources_art", "Sources")] if f'id="{a}"' in out]
     _i = out.index("</section>", out.index('<main id="main">')) + len("</section>")
     out = out[:_i] + subnav(_items) + out[_i:]
     return out + footer()
@@ -1087,6 +1088,32 @@ def moves_block(k, limit=14, sid=None):
 <ul class="moves">{li}</ul></div></section>"""
 
 
+SHOP = _ld(_ip / "shoppers.json", {"trends": []})
+SH_THEME = {"speed": "Speed", "price": "Price", "duties": "Duties at checkout", "ooh": "Lockers and pick-up", "returns": "Returns", "platforms": "Platforms", "sustainability": "Sustainability", "trust": "Trust", "tracking": "Tracking"}
+SH_DIR = {"up": "↑ rising", "down": "↓ falling", "flat": "→ stable", "new": "new reading"}
+
+
+def shoppers_block(k, sid=None):
+    ts = [t for t in SHOP.get("trends", []) if k == "GLOBAL" or k in t.get("regions", []) or (k == "EMEA" and set(t.get("regions", [])) & set(EMEA_SET))]
+    if not ts:
+        return ""
+    def card(t):
+        s_ = t.get("source", {})
+        prev = f'<span class="sh-prev">{E(t["previous"])}</span>' if t.get("previous") else ""
+        spon = f'<p class="sh-spon">{E(t["sponsor_note"])}</p>' if t.get("sponsor_note") else ""
+        return f"""<article class="sh" data-regions="{','.join(t.get('regions', []))}">
+<div class="sh-top"><span class="pill sh-th" data-i18n="sh_t_{E(t.get('theme', ''))}">{E(SH_THEME.get(t.get('theme'), t.get('theme', '')))}</span><span class="sh-rg">{E(' · '.join(RNAME.get(r, r) for r in t.get('regions', [])))}</span></div>
+<h3>{E(t['title'])}</h3>
+<div class="sh-num"><b>{E(t.get('big', ''))}</b><span>{E(t.get('label', ''))}</span></div>
+<div class="sh-dir sh-{E(t.get('direction', ''))}">{E(SH_DIR.get(t.get('direction'), ''))} {prev}</div>
+<div class="sig-read"><b data-i18n="sh_why">Why</b> {E(noread(t.get('why', '')))}</div>
+<p class="sh-means"><b data-i18n="sh_means">What it means</b> {E(t.get('means', ''))}</p>
+<p class="sh-src"><a class="src-a" href="{E(s_.get('u', '#'))}" rel="noopener">{E(s_.get('pub', 'source'))}{(', ' + E(s_['t'])) if s_.get('t') else ''}</a>{(' · ' + E(s_['method'])) if s_.get('method') else ''}</p>{spon}
+{story_chips(t.get('stories'))}</article>"""
+    return f"""<section class="section intel"{(' id="' + sid + '"') if sid else ''} style="padding-top:0"><div class="wrap"><div class="section-head"><div><div class="kicker" data-i18n="sh_k">Shopper pulse</div><h2 data-i18n="sh_h">What shoppers do with parcels, and why</h2><p class="intel-dek">{E(SHOP.get('intro', ''))}</p></div></div>
+<div class="shs" data-limit-vis="6">{''.join(card(t) for t in ts)}</div></div></section>"""
+
+
 def comp_teasers(k):
     cs = [c for c in COMPS if k == "GLOBAL" or c["region"] == k]
     if not cs:
@@ -1175,6 +1202,13 @@ def page_competition(c):
     main, nav = auto_subnav(main, [("cp_sc_k", "scorecard", "Scorecard"), ("cp_bg_k", "battlegrounds", "Battlegrounds"), ("cp_ct_k", "countries", "Country by country"), ("cp_sg_k", "segments", "Segment by segment"), ("cp_ps_k", "prices", "The price stack"), ("cp_pl_k", "players", "Players"), ("cp_scn_k", "scenarios", "Next 12 months"), ("cp_imp_k", "so-what", "So what")])
     i_ = main.index("</section>") + len("</section>")
     return pre + main[:i_] + nav + main[i_:] + footer()
+
+
+def story_shoppers(key):
+    ts = [t for t in SHOP.get("trends", []) if key in (t.get("stories") or [])]
+    if not ts:
+        return ""
+    return '<h3 class="st-sub" id="shoppers" data-i18n="st_shop">How shoppers are reacting</h3><div class="chips-row">' + "".join(f'<a class="schip" href="/markets#sh-{E((t.get("regions") or ["GLOBAL"])[0])}">{E(t.get("big", ""))} · {E(t["title"])}</a>' for t in ts) + "</div>"
 
 
 def story_signals(key):

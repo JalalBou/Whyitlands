@@ -1,0 +1,999 @@
+{
+ "key": "eu-parcel",
+ "region": "EU",
+ "as_of": "2026-10-02",
+ "title": "EU parcels: the €3 duty reroutes Asian flows, lockers become the battleground, and growth stops paying",
+ "dek": "Direct parcels from China fell by 30% or more after the EU's €3 duty took effect on 1 July, just as carriers race to own out-of-home capacity through acquisitions and shared networks. Volumes still grow, but margins at the main networks are shrinking, and energy surcharges and regulated postal tariffs are rising into 2027.",
+ "stats": [
+  {
+   "big": "20.8bn",
+   "label": "European CEP parcel volume 2024 (32 countries), +6.1%; B2C and C2X 16.5bn, +7.9%, Effigy Consulting",
+   "src": 10
+  },
+  {
+   "big": "4.6bn",
+   "label": "Low-value packages that entered the EU in 2024; 91% of small shipments arrive from China, Council of the EU",
+   "src": 0
+  },
+  {
+   "big": "-30 to -40%",
+   "label": "Fall in Chinese small-parcel imports after the €3 duty took effect on 1 Jul 2026, French customs figures cited by Euronews",
+   "src": 5
+  },
+  {
+   "big": "4.37bn",
+   "label": "German CEP shipments 2025, +1.8%; B2C only +0.6%, BPEX KEP-Studie 2026",
+   "src": 35
+  },
+  {
+   "big": "68,925",
+   "label": "InPost parcel lockers at end of Q2 2026, +29% y/y, against 29,281 PUDO points, -16%, InPost",
+   "src": 28
+  },
+  {
+   "big": "78%",
+   "label": "Share of EU internet users who bought or ordered online in 2025, Eurostat",
+   "src": 11
+  }
+ ],
+ "players": [
+  {
+   "name": "DHL Group (Post & Parcel Germany, DHL eCommerce)",
+   "type": "National post and pan-European parcel network",
+   "scale": "Post & Parcel Germany Q2 2026 revenue EUR 4,225m (+1.8%), EBIT EUR 135m (-18.7%); parcel volume +2% y/y with parcel revenue +5%. DHL eCommerce Q2 revenue EUR 1,594m (-3.7% reported, +9.5% organic) after the UK and Iberian businesses left its consolidation. The Bundesnetzagentur put DHL at over 40% of German parcel volume in its 2024 report.",
+   "strategy": "DHL is defending its home market with lockers and price, and growing elsewhere through partners rather than wholly owned networks: DHL eCommerce UK was merged into Evri, and Iberia moved into a joint venture with CTT. It plans to expand Packstation and Poststation locations from over 16,500 to 30,000 by 2030.",
+   "moves": "1 Jan 2026: business-customer parcel prices raised (average not disclosed). 19 Mar 2026: European Commission approved the CTT and DHL eCommerce joint venture (CTT takes 25% of DHL eCommerce Spain, DHL 25% of CTT Expresso; combined revenue about EUR 1bn). 1 Jun 2026: oil-linked short-term component added to the energy surcharge. 1 Oct 2026: agreed to buy the multi-carrier locker operator Myflexbox (about 2,000 lockers in Germany, 1,000 in Austria; price not disclosed).",
+   "pressure": "Q2 earnings were held back by the absence of a mail price increase and a 3% wage rise from 1 Apr, while mail volumes fell 18% in the quarter. Full-year Post & Parcel Germany EBIT guidance is more than EUR 900m.",
+   "src": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    34
+   ]
+  },
+  {
+   "name": "Geopost (DPD, BRT, Chronopost, SEUR)",
+   "type": "Pan-European road parcel network owned by Groupe La Poste",
+   "scale": "2.2bn parcels in 2025 (+5%), revenue EUR 15.8bn, operating EBIT EUR 466m (down EUR 158m). H1 2026 revenue EUR 8,019m (+5.1%) on 1,143m parcels (+7.9%); operating EBIT EUR 206m.",
+   "strategy": "Geopost is leaning into B2C, cross-border and out-of-home: in H1 2026 B2C volumes rose 11.8%, international flows 14.4% and out-of-home volumes 30%. Its network of 166,000 pickup points including 60,000 lockers is the largest in Europe by count in the Last Mile Experts 2026 survey.",
+   "moves": "Oct 2024: DPD Germany and GLS agreed a shared, open network of about 20,000 out-of-home points in Germany within three years. 2026: lockers rose from more than 50,000 at end-2025 to 60,000 at mid-year, including 7,500+ in France. 1 Oct 2026: DPD Germany road energy surcharge held at 31.00%, with an emergency fuel surcharge in place since May.",
+   "pressure": "CEO Yves Delmas said 'market conditions continue to be shaped by intense competition, leading to sustained pressure on margins across the industry'. H1 recorded EBIT was EUR 29m after non-recurring items.",
+   "src": [
+    20,
+    21,
+    12,
+    24,
+    25
+   ]
+  },
+  {
+   "name": "GLS",
+   "type": "Pan-European road parcel network (part of International Distribution Services)",
+   "scale": "Revenue GBP 5.2bn in the year to March 2026 (+5.2%); adjusted operating profit fell to GBP 237m. Out-of-home network over 110,000 locations (+30%), including about 32,500 lockers (+40%).",
+   "strategy": "GLS is building out-of-home capacity, partly with a direct rival: 29% of its B2C parcels were delivered to or collected from out-of-home locations in March 2026, and in Germany it shares an open locker and shop network with DPD.",
+   "moves": "FY2025-26: took a 35% stake in ePost Global for US to Europe flows and completed hub projects in Canada, Denmark, Germany, Hungary and Spain. 11 Sep 2026: German energy surcharge raised to 31.50% from 28.50% in August.",
+   "pressure": "Profit was hit by regulatory changes in Italy and softer conditions in Canada. The German energy surcharge has moved between 22% and 32% during 2026, which shippers see as price volatility.",
+   "src": [
+    27,
+    24,
+    26
+   ]
+  },
+  {
+   "name": "InPost (including Mondial Relay)",
+   "type": "Locker-first network, Poland, France, Benelux, Iberia, Italy and the UK",
+   "scale": "380.9m parcels in Q2 2026 (+16%): Poland 198.0m (+9%), Eurozone 101.0m (+30%), UK and Ireland 81.8m (+16%). 1.4bn parcels in 2025 (+25%). Q2 revenue PLN 4,177.6m (+18.2%).",
+   "strategy": "InPost steers volume from staffed points into lockers: it ended Q2 with 68,925 lockers (+29%; Eurozone 23,385, +52%) and 29,281 PUDO points (-16%), and plans about 19,000 more lockers in 2026. It is adding door-to-door and B2B, and rebranded Yodel as InPost in the UK in July 2026.",
+   "moves": "12 Feb 2026: Mondial Relay passed 10,000 lockers in France. 9 Feb 2026: recommended all-cash offer of EUR 15.60 a share (EUR 7.8bn equity value) from Advent (37%), FedEx (37%), A&R (16%) and PPF (10%). Sep 2026: 89.81% of shares tendered, settlement on 30 Sep, acceptance extended to 7 Oct; last-mile pilot for FedEx in the UK and Poland.",
+   "pressure": "Q2 adjusted EBITDA margin fell 330bp to 25.0% and full-year adjusted EBITDA is guided to a mid-single-digit decline. Management guided Q3 volume growth to low single digits after Chinese parcels fell 30 to 40%, a 2 to 3 point hit to the full-year outlook.",
+   "src": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "name": "Amazon (Amazon Logistics in Europe)",
+   "type": "Marketplace with its own delivery network",
+   "scale": "The Bundesnetzagentur put Amazon at 15 to 20% of German parcels in its 2024 market report. Amazon's International segment, which includes its European marketplaces, had Q2 2026 sales of USD 42.2bn (+15%) and operating income of USD 1.7bn. Amazon does not publish European parcel volumes.",
+   "strategy": "Amazon is adding fulfilment and delivery capacity and widening out-of-home access through third-party networks as well as its own lockers.",
+   "moves": "4 Jun 2026: pledged more than EUR 10bn to expand its European warehouse and delivery network, with 25,000 additional fulfilment jobs and more robotics. 1 Jul 2026: added Myflexbox lockers across Germany to its checkout; on 1 Oct DHL agreed to buy Myflexbox.",
+   "pressure": "Worldwide shipping costs rose 19% y/y to USD 27.9bn in Q2 2026. Open locker capacity it relies on in Germany is passing into a competitor's ownership.",
+   "src": [
+    34,
+    38,
+    36,
+    37,
+    17
+   ]
+  },
+  {
+   "name": "La Poste (Colissimo)",
+   "type": "National post, France",
+   "scale": "Colissimo H1 2026: 234m parcels (+5.0%), revenue EUR 1,082m (+2.8%). Mail fell 11.8% to 2,358m items. ARCEP counted 1.7bn parcels distributed in France or exported in 2024 (+3.7%), of which 1.255bn domestic and 383m imported.",
+   "strategy": "La Poste uses regulated universal-service price rises to offset mail decline while Colissimo grows volume; the group also owns Geopost, which carries most of its parcel revenue.",
+   "moves": "27 Jul 2026: universal-service prices to rise 6.73% on average from 1 Jan 2027, with Colissimo +4.1% for France and international, -5% between mainland France and overseas territories, and the Lettre verte from EUR 1.52 to EUR 1.67.",
+   "pressure": "Services-Courrier-Colis revenue fell 1.8% to EUR 4,666m in H1 2026 as mail revenue fell 4.5%; Colissimo revenue grew more slowly than its volume.",
+   "src": [
+    22,
+    23,
+    52
+   ]
+  },
+  {
+   "name": "PostNL",
+   "type": "National post, Netherlands and Belgium",
+   "scale": "H1 2026 e-commerce volumes -6.4% (domestic -4.2%, international -14.8%) while average price per parcel rose 5.0%. Group revenue EUR 1,590m, normalised EBIT EUR (3)m; e-commerce normalised EBIT EUR 12m.",
+   "strategy": "PostNL is choosing price over volume: price and mix added EUR 36m in H1, including EUR 5m of fuel surcharges. It targets about 7,500 lockers by 2031 and has identified EUR 75m of further cost savings for 2027 to 2028.",
+   "moves": "1 Jul 2026: first visible effect of the EU import duty on its Asian volumes. 12 Jul 2026: standard mail moved to delivery within two days. 26 Aug 2026: ACM set the 2027 universal-service tariff room at EUR 3.5929 against EUR 3.1882 in 2026, about +12.7%. PostNL has started legal proceedings on universal-service compensation.",
+   "pressure": "Platforms volumes fell 7.1% as Asian flows declined, although European e-commerce volumes in that unit grew 28%. Full-year normalised EBIT is guided at EUR 40m to 70m and free cash flow at EUR 0 to EUR (30)m.",
+   "src": [
+    39,
+    40,
+    41
+   ]
+  },
+  {
+   "name": "Poste Italiane, PostNord and bpost",
+   "type": "National posts shifting from mail to parcels",
+   "scale": "Poste Italiane: 90m parcels in Q2 2026 (+10.6%) and 179m in H1 (+12.5%); parcels and logistics revenue EUR 453m in Q2 (+11.2%). PostNord: Q2 parcel volumes +9%, net sales SEK 9,223m. bpost: Belgian parcel volumes -9.2% in Q2.",
+   "strategy": "Each is rebuilding around parcels: Poste Italiane signed a logistics joint venture with Benetton in April 2026; PostNord left the Danish letter market at the end of 2025; bpost describes a transformation towards a parcel-led operating model.",
+   "moves": "Apr 2026: a strike cut bpost's Belgian parcel volumes 27.2% that month; bpost reported growth in Asian volumes across key destinations in June. Jul 2026: Poste Italiane and PostNord reported parcel growth for Q2.",
+   "pressure": "bpost cut its 2026 adjusted EBIT outlook to EUR 140m and put the strike cost at EUR 25.5m. PostNord's Q2 operating income fell to SEK 189m from SEK 262m, which it attributed to lost synergies after the Danish mail exit. Poste Italiane mail volumes fell 6.2% in Q2.",
+   "src": [
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "name": "Temu, Shein, AliExpress and Cainiao (inbound from Asia)",
+   "type": "Cross-border marketplaces and their logistics arms",
+   "scale": "4.6bn low-value packages entered the EU in 2024 and 91% of small shipments come from China; about 5.9bn low-value items entered in 2025. French customs figures showed Chinese small-parcel imports down 30 to 40% after 1 Jul 2026, with Temu sales volumes down 50% from June to July, AliExpress 37% and Shein 15%.",
+   "strategy": "The platforms are moving stock into Europe. Dutch customs reported more companies opting for bulk import and storage within the EU; Shein's smaller drop was linked to its Polish warehouse. Cainiao runs last-mile stations in 11 Spanish and 6 Portuguese cities and a Madrid hub with a peak capacity of 40,000 parcels an hour.",
+   "moves": "1 Jul 2026: €3 duty per tariff heading applies to parcels under €150. Jul 2026: Liège e-commerce parcels -24% y/y; China and Hong Kong to Europe freighter capacity settled about 28% below June. From 1 Nov 2026: a €2 handling fee per product and mandatory product identifiers.",
+   "pressure": "Regulation (EU) 2026/2108 makes non-EU platforms the importer, with fines of up to 6% of annual import value. An EU customs control action found more than 50% of 20,000 checked toys and small electronics did not meet EU standards.",
+   "src": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    1,
+    2,
+    3,
+    48,
+    55
+   ]
+  },
+  {
+   "name": "Vinted Go and open locker networks",
+   "type": "Platform-owned and carrier-neutral out-of-home networks",
+   "scale": "Vinted GMV EUR 10.8bn in 2025 (+47%), revenue EUR 1.1bn; its members can use more than 500,000 pick-up and drop-off points. Myflexbox, described as the largest independent parcel locker operator, had about 2,000 lockers in Germany and 1,000 in Austria, open to GLS, DPD, UPS, FedEx and Amazon.",
+   "strategy": "Vinted Go runs its own lockers and sorting in Belgium, France, the Netherlands, Portugal and Spain, opened a sortation centre in France in 2025 and is testing delivery for external clients. Open networks sell the same locker to several carriers.",
+   "moves": "2025: Vinted Go launched in Spain and Portugal. 1 Jul 2026: Amazon added Myflexbox lockers in Germany to its checkout. 1 Oct 2026: DHL agreed to buy Myflexbox and merge it with its DeinFach lockers (about 1,700) under the Myflexbox brand.",
+   "pressure": "Vinted's 2025 net profit fell 19% to EUR 62m on higher investment. Myflexbox, described as the largest independent parcel locker operator, is now moving into carrier ownership.",
+   "src": [
+    45,
+    17,
+    18,
+    37
+   ]
+  }
+ ],
+ "battlegrounds": [
+  {
+   "h": "The €3 duty has cut direct parcels from China and pushed stock into Europe",
+   "text": "Since 1 Jul 2026 every item category in a parcel under €150 pays a €3 duty, until 1 Jul 2028. Belgian customs counted 53% fewer small parcels and Dutch customs 46% fewer e-commerce parcels; French customs figures put the drop in Chinese imports at 30 to 40%. China and Hong Kong to Europe freighter capacity settled about 28% below June. InPost and PostNL both cited weaker Asian volumes. Our reading: the volume has not disappeared, it is shifting from air parcels to bulk imports and EU warehouses, which moves the work from customs-cleared parcel injection to domestic final-mile delivery.",
+   "src": [
+    0,
+    4,
+    5,
+    6,
+    30,
+    39
+   ]
+  },
+  {
+   "h": "Out-of-home is where networks now compete",
+   "text": "InPost ended Q2 with 68,925 lockers and cut PUDO points 16%; Geopost has 166,000 pickup points including 60,000 lockers and grew out-of-home volume 30% in H1; GLS passed 110,000 locations and 32,500 lockers, with 29% of B2C parcels out of home in March. DHL plans 30,000 stations in Germany by 2030 and agreed to buy Myflexbox on 1 Oct. Last Mile Experts found Germany and Italy still below 10 out-of-home points per 10,000 inhabitants, against 27.3 in Poland. Our reading: the locker race is moving into the two large under-served markets, Germany and Italy, and from organic build-out to acquisition.",
+   "src": [
+    28,
+    21,
+    27,
+    15,
+    17,
+    12
+   ]
+  },
+  {
+   "h": "Consolidation and alliances redraw the map",
+   "text": "A consortium of Advent and FedEx (37% each), A&R and PPF is taking InPost private at EUR 7.8bn, with 89.81% of shares tendered by September. DHL folded its UK eCommerce business into Evri and its Iberian one into a joint venture with CTT, cleared on 19 Mar 2026. DPD and GLS share an open out-of-home network in Germany, and GLS took 35% of ePost Global. Our reading: carriers are trading full ownership for density, and an integrator now has a direct stake in Europe's largest locker network.",
+   "src": [
+    31,
+    32,
+    19,
+    13,
+    24,
+    27
+   ]
+  },
+  {
+   "h": "Volume still grows, but profit at the main networks does not",
+   "text": "Geopost grew parcels 5% in 2025 while operating EBIT fell EUR 158m to EUR 466m, and its CEO described 'sustained pressure on margins across the industry'. InPost's Q2 adjusted EBITDA margin fell 330bp and it guides full-year EBITDA lower. DHL's Post & Parcel Germany EBIT fell 18.7% in Q2, and PostNL's group normalised EBIT was EUR (3)m in H1. Our reading: price competition and wage costs are absorbing the gains from volume, which is why carriers are pushing surcharges and lockers rather than headline rate cuts.",
+   "src": [
+    20,
+    21,
+    28,
+    13,
+    39
+   ]
+  },
+  {
+   "h": "Energy surcharges move faster than annual tariffs",
+   "text": "GLS Germany's energy surcharge rose to 31.50% on 11 Sep 2026 from 24.50% in July; DPD Germany holds its road energy surcharge at 31.00% and has added a monthly emergency fuel surcharge since May. DHL Paket added an oil-linked component on 1 Jun 2026, which took its total energy surcharge to 4.00% from 1 Oct (capped at 3.0% for the short-term part). Our reading: the surcharge line is now a larger and more volatile part of the parcel bill than the annual increase for many German shippers, and the bases and mechanisms differ by carrier, so like-for-like comparison needs modelling rather than headline rates.",
+   "src": [
+    26,
+    25,
+    16
+   ]
+  },
+  {
+   "h": "Posts reprice as mail falls, and Brussels prepares new rules",
+   "text": "La Poste will raise universal-service prices 6.73% on average from 1 Jan 2027 (Colissimo +4.1%) after mail volumes fell 11.8% in H1. The ACM gave PostNL about 12.7% more tariff room for 2027. DHL's German mail volumes fell 18% in Q2 without a mail price increase. The Commission plans an EU Delivery Act in Q1 2027 to modernise the universal service, after finding cross-border letter prices up to triple domestic ones. Our reading: postal parcel prices are being set increasingly by the cost of keeping a shrinking mail network, which narrows the price gap private carriers have to beat.",
+   "src": [
+    23,
+    22,
+    40,
+    41,
+    14,
+    49
+   ]
+  }
+ ],
+ "our_read": "Our reading: the EU parcel market is growing slowly at home and losing its fastest-growing inbound flow, as the €3 duty pushes Asian platforms from direct air parcels to stock held inside the EU. That shift favours networks with strong domestic final-mile and out-of-home coverage, which is why the competition has moved to lockers and why it is now being fought through acquisitions (InPost, Myflexbox) and alliances (DPD and GLS, DHL and CTT). Volume growth is not translating into profit at Geopost, InPost, DHL Germany or PostNL, so carriers are leaning on energy surcharges and posts on regulated tariff rises. Over the next 12 months we expect the handling fee and platform-as-importer rules to entrench the warehouse model, locker density in Germany and Italy to become the main growth contest, and at least one further acquisition of an independent out-of-home network.",
+ "implications": [
+  {
+   "who": "Merchants / platforms",
+   "text": "Model 2027 parcel costs with energy surcharges as a separate, monthly line: in Germany they have ranged from about 4% at DHL Paket to over 31% at GLS and DPD, on different bases. Offering lockers and pickup points at checkout is becoming a cost lever as well as a convenience, since carriers are pricing out-of-home delivery to fill their own networks."
+  },
+  {
+   "who": "Cross-border operators into the EU",
+   "text": "Direct low-value parcels now carry €3 per item category from 1 Jul 2026 and a €2 handling fee per product from 1 Nov, plus product identifiers and, under Regulation (EU) 2026/2108, platform importer liability. Per-parcel economics favour bulk import, EU stock and domestic injection; check Italy's €2 national charge from 1 Dec 2026 and how fees are applied to goods held in customs warehouses from 2028."
+  },
+  {
+   "who": "Carriers",
+   "text": "Out-of-home density, not national coverage alone, decides who wins B2C volume, and independent locker networks are being bought. Networks that relied on Asian inbound flows need domestic volume from the platforms' new EU warehouses to refill capacity, while holding price discipline as margins shrink."
+  }
+ ],
+ "watch": [
+  {
+   "date": "2026-10-07",
+   "what": "End of the extended acceptance period for the Advent and FedEx-led offer for InPost; delisting from Euronext Amsterdam is possible from 23 Oct if the consortium reaches 95%."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "PostNL Q3 2026 trading update: first full quarter of Asian volumes under the €3 duty."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "EU customs handling fee of €2 per product on low-value imports begins, and product identifiers become mandatory in distance-sale declarations."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "DHL Group results for the first nine months of 2026, including Post & Parcel Germany and DHL eCommerce."
+  },
+  {
+   "date": "2026-12-01",
+   "what": "Italy's €2 per consignment charge on non-EU parcels up to €150 is due to apply, after three postponements (decree conversion deadline 16 Nov)."
+  },
+  {
+   "date": "2027-01-01",
+   "what": "La Poste universal-service prices +6.73% on average (Colissimo +4.1%); PostNL's 2027 tariff room applies; DHL Express 2027 rates take effect (+5.9% in Ireland, +6.4% in Finland)."
+  },
+  {
+   "date": "Q1 2027",
+   "what": "European Commission proposal for an EU Delivery Act modernising the postal regulatory framework and universal service."
+  },
+  {
+   "date": "2027-09-21",
+   "what": "Main provisions of the reformed Union Customs Code (Regulation (EU) 2026/2108) apply, including platforms as importers."
+  },
+  {
+   "date": "2028-07-01",
+   "what": "The temporary €3 duty ends; use of the EU Customs Data Hub becomes mandatory for e-commerce."
+  }
+ ],
+ "sources": [
+  {
+   "t": "Council gives final green light to new customs duty rules for small parcels",
+   "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+   "pub": "Council of the EU",
+   "date": "2026-02-11"
+  },
+  {
+   "t": "EU customs: Council greenlights landmark reform",
+   "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/03/eu-customs-council-greenlights-landmark-reform/",
+   "pub": "Council of the EU",
+   "date": "2026-09-03"
+  },
+  {
+   "t": "European Union publishes new Customs Code: phased transformation begins with e-commerce and data-led compliance",
+   "u": "https://www.vatupdate.com/2026/09/27/european-union-publishes-new-customs-code-phased-transformation-begins-with-e-commerce-and-data-led-compliance/",
+   "pub": "VATupdate",
+   "date": "2026-09-27"
+  },
+  {
+   "t": "Tax on small parcels from third countries: European Commission completes EU arrangements with customs handling fee set at €2",
+   "u": "https://agenceurope.eu/en/bulletin/article/13943/10/tax-on-small-parcels-from-third-countries-european-commission-completes-eu-arrangements-with-customs-handling-fee-set-at-eur2",
+   "pub": "Agence Europe",
+   "date": "2026-09-22"
+  },
+  {
+   "t": "EU halves cheap parcel influx in bid to rein in Chinese e-commerce giants",
+   "u": "https://www.euronews.com/2026/09/14/eu-halves-cheap-parcel-influx-in-bid-to-rein-in-chinese-e-commerce-giants",
+   "pub": "Euronews",
+   "date": "2026-09-14"
+  },
+  {
+   "t": "Chinese imports plunge 30% to 40% after EU tax on small parcels",
+   "u": "https://www.euronews.com/business/2026/08/27/eu-tax-chinese-small-parcels-plunge-30-to-40",
+   "pub": "Euronews",
+   "date": "2026-08-27"
+  },
+  {
+   "t": "China-Europe freighter capacity down nearly 30%",
+   "u": "https://www.aircargonews.net/data/2026/08/china-europe-freighter-capacity-down-nearly-30/",
+   "pub": "Air Cargo News",
+   "date": "2026-08-25"
+  },
+  {
+   "t": "China-Europe e-commerce cargo after EU de minimis reform",
+   "u": "https://www.stattimes.com/ecommerce/china-europe-e-commerce-cargo-after-eu-de-minimis-reform-1360498",
+   "pub": "STAT Times",
+   "date": "2026-09-01"
+  },
+  {
+   "t": "Taxe sur les petits colis : la France suspend son prélèvement de 2 € au profit du nouveau droit de douane européen",
+   "u": "https://www.legifiscal.fr/actualites-fiscales/4550-taxe-petits-colis-france-suspend-prelevement-2-profit-nouveau-droit-douane-europeen.html",
+   "pub": "Legifiscal",
+   "date": "2026-07-01"
+  },
+  {
+   "t": "Italy's €2 charge on non-EU parcels: third postponement, now to 1 December 2026",
+   "u": "https://www.studioponchio.eu/osservatorio-contributo-2-euro-pacchi-extra-ue-en/",
+   "pub": "Studio Ponchio",
+   "date": "2026-09"
+  },
+  {
+   "t": "European CEP Market Report (2025 edition, 2024 actuals)",
+   "u": "https://www.effigy-consulting.com/cep-market-report/",
+   "pub": "Effigy Consulting",
+   "date": "2026-09-16"
+  },
+  {
+   "t": "E-commerce statistics for individuals",
+   "u": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics_for_individuals",
+   "pub": "Eurostat",
+   "date": "2026-02"
+  },
+  {
+   "t": "Last Mile Experts report maps out European OOH delivery market landscape",
+   "u": "https://www.parcelandpostaltechnologyinternational.com/news/lockers-pudo/last-mile-experts-report-maps-out-european-ooh-delivery-market-landscape.html",
+   "pub": "Parcel and Postal Technology International",
+   "date": "2026-06-03"
+  },
+  {
+   "t": "DHL Group seizes growth opportunities and significantly increases revenue and earnings in the second quarter",
+   "u": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-group-financial-figures-h1-2026.html",
+   "pub": "DHL Group",
+   "date": "2026-08-05"
+  },
+  {
+   "t": "Q2 2026 Results, earnings presentation",
+   "u": "https://reporting-hub.group.dhl.com/ecomaXL/files/DHL-Group-Q2-2026-Earnings-Presentation.pdf",
+   "pub": "DHL Group",
+   "date": "2026-08-05"
+  },
+  {
+   "t": "DHL Paket erhöht Preise für Geschäftskunden",
+   "u": "https://group.dhl.com/de/presse/pressemitteilungen/2025/dhl-paket-erhoeht-preise-fuer-geschaeftskunden.html",
+   "pub": "DHL Group",
+   "date": "2025-10-17"
+  },
+  {
+   "t": "Energy surcharge for national business customer shipments",
+   "u": "https://www.dhl.de/en/geschaeftskunden/paket/leistungen-und-services/energiezuschlag.html",
+   "pub": "DHL Paket",
+   "date": "2026-10"
+  },
+  {
+   "t": "Deutsche Post acquires Myflexbox to expand parcel station network",
+   "u": "https://themunicheye.com/deutsche-post-acquires-myflexbox-to-expand-parcel-station-network-35042",
+   "pub": "The Munich Eye",
+   "date": "2026-10-01"
+  },
+  {
+   "t": "DHL kauft Salzburger Paketautomatenfirma",
+   "u": "https://salzburg.orf.at/stories/3373528",
+   "pub": "ORF Salzburg",
+   "date": "2026-10-01"
+  },
+  {
+   "t": "CTT and DHL eCommerce Joint Venture approved by the European Commission",
+   "u": "https://group.dhl.com/en/media-relations/press-releases/2026/ctt-and-dhl-ecommerce-joint-venture-approved-by-the-european-commission.html",
+   "pub": "DHL Group",
+   "date": "2026-03-19"
+  },
+  {
+   "t": "Geopost's 2025 annual results",
+   "u": "https://www.geopost.com/en/news/geopost-s-2025-annual-results/",
+   "pub": "Geopost",
+   "date": "2026-02-26"
+  },
+  {
+   "t": "First-Half 2026 results: Geopost records revenue growth",
+   "u": "https://www.lapostegroupe.com/assets/media/le-groupe-laposte/SW_Xz97iGWzGmkj2_Geopost_PR_2026_Half-Year_Results_31.07.2026_FINAL.pdf",
+   "pub": "Geopost / Groupe La Poste",
+   "date": "2026-07-31"
+  },
+  {
+   "t": "Communiqué de presse : résultats du premier semestre 2026 du Groupe La Poste",
+   "u": "https://www.lapostegroupe.com/assets/media/le-groupe-laposte/4sWWjoqdd6Psb4tz_CP_des_resultats_GLP_S1_2026_vdef.pdf",
+   "pub": "Groupe La Poste",
+   "date": "2026-07-31"
+  },
+  {
+   "t": "La Poste annonce une hausse moyenne de 6,73% de ses tarifs courrier et colis à compter du 1er janvier 2027",
+   "u": "https://www.journaldunet.com/business/1553109-la-poste-annonce-une-hausse-moyenne-de-6-73-de-ses-tarifs-courrier-et-colis-a-compter-du-1er-janvier-2027/",
+   "pub": "Journal du Net",
+   "date": "2026-07-27"
+  },
+  {
+   "t": "KEP-Dienstleister DPD und GLS schaffen Paket-Netzwerk in Deutschland",
+   "u": "https://www.eurotransport.de/logistik/spedition-und-logistik/kep-dienstleister-dpd-und-gls-schaffen-paket-netzwerk-in-deutschland/",
+   "pub": "eurotransport.de",
+   "date": "2024-10-23"
+  },
+  {
+   "t": "Energy surcharge",
+   "u": "https://www.dpd.com/de/en/support/versandbestimmungen/energiezuschlag/",
+   "pub": "DPD Germany",
+   "date": "2026-09-03"
+  },
+  {
+   "t": "Aktueller Energie- und Dieselzuschlag",
+   "u": "https://www.gls-pakete.de/geschaeftlich-versenden/aktuelles/aufpreis-diesel-und-energie",
+   "pub": "GLS Germany",
+   "date": "2026-09-11"
+  },
+  {
+   "t": "Royal Mail and GLS celebrate 'a year of progress'",
+   "u": "https://postandparcel.info/162244/news/royal-mail-and-gls-celebrate-a-year-of-progress/",
+   "pub": "Post & Parcel",
+   "date": "2026-06-29"
+  },
+  {
+   "t": "InPost Group Q2 2026 results (press release)",
+   "u": "https://inpost.eu/sites/default/files/2026-08/InPost%202Q%202026%20press%20release.pdf",
+   "pub": "InPost",
+   "date": "2026-08-31"
+  },
+  {
+   "t": "Q4 and full year 2025 trading update",
+   "u": "https://inpost.eu/sites/default/files/2026-01/Trading%20update%20for%20Q4%202025%20and%20FY25.pdf",
+   "pub": "InPost",
+   "date": "2026-01-21"
+  },
+  {
+   "t": "Earnings call transcript: InPost Q2 2026 revenue rises 18% as profit slips",
+   "u": "https://www.investing.com/news/transcripts/earnings-call-transcript-inpost-q2-2026-revenue-rises-18-as-profit-slips-93CH-4882305",
+   "pub": "Investing.com",
+   "date": "2026-08-31"
+  },
+  {
+   "t": "InPost, Advent, FedEx, A&R and PPF announce agreement on recommended all-cash offer at an offer price of EUR 15.60 per share",
+   "u": "https://newsroom.fedex.com/newsroom/global-english/inpost-advent-fedex-a-r-and-ppf-announce-agreement-on-recommended-all-cash-offer-for-all-issued-and-outstanding-inpost-shares-at-an-offer-price-of-eur-15-60-per-share",
+   "pub": "FedEx",
+   "date": "2026-02-09"
+  },
+  {
+   "t": "InPost takeover nears completion after 89.81% support",
+   "u": "https://trans.info/en/inpost-takeover-moves-closer-as-consortium-secures-majority-of-shares-504288",
+   "pub": "Trans.info",
+   "date": "2026-09"
+  },
+  {
+   "t": "Mondial Relay by InPost franchit le cap des 10 000 Lockers en France (communiqué de presse)",
+   "u": "https://storage.mondialrelay.fr/2026%20-%20Fevrier%20CP_Mondial%20Relay%2010%20000%20Lockers.pdf",
+   "pub": "Mondial Relay",
+   "date": "2026-02-12"
+  },
+  {
+   "t": "Parcels Market Report 2024: market data and competitive conditions",
+   "u": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Berichte/2024/2025_06_10_Paketmarktbericht_2024_FINAL_en.pdf",
+   "pub": "Bundesnetzagentur",
+   "date": "2025-06-10"
+  },
+  {
+   "t": "KEP-Markt 2026: Wachstum mit angezogener Handbremse (BPEX KEP-Studie 2026)",
+   "u": "https://onlinemarktplatz.de/268425/kep-markt-2026/",
+   "pub": "Onlinemarktplatz.de",
+   "date": "2026-07-02"
+  },
+  {
+   "t": "Amazon pledges €10 billion for Europe with 25,000 new jobs and warehouse robots",
+   "u": "https://www.euronews.com/2026/06/04/amazon-pledges-10-billion-for-europe-with-25000-new-jobs-and-warehouse-robots",
+   "pub": "Euronews",
+   "date": "2026-06-04"
+  },
+  {
+   "t": "Amazon partners with MyFlexBox to expand smart locker delivery in Germany",
+   "u": "https://www.parcelandpostaltechnologyinternational.com/news/lockers-pudo/amazon-partners-with-myflexbox-to-expand-smart-locker-delivery-in-germany.html",
+   "pub": "Parcel and Postal Technology International",
+   "date": "2026-07-03"
+  },
+  {
+   "t": "Amazon.com announces second quarter results",
+   "u": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+   "pub": "Amazon",
+   "date": "2026-07"
+  },
+  {
+   "t": "Resilient HY 2026 performance in challenging markets",
+   "u": "https://d21buns5ku92am.cloudfront.net/70257/documents/63506-1785732311-PostNL%20Press%20release%20HY%202026%20results-e2de65.pdf",
+   "pub": "PostNL",
+   "date": "2026-08-03"
+  },
+  {
+   "t": "Post versturen mogelijk weer duurder in 2027: PostNL krijgt hogere tariefruimte",
+   "u": "https://www.transport-online.nl/136224/post-versturen-mogelijk-weer-duurder-in-2027-postnl-krijgt-hogere-tariefruimte/",
+   "pub": "Transport Online",
+   "date": "2026-08"
+  },
+  {
+   "t": "Post volgend jaar weer duurder, sterkste stijging in jaren",
+   "u": "https://www.bnr.nl/nieuws/economie/10608975/post-volgend-jaar-weer-duurder-sterkste-stijging-in-jaren",
+   "pub": "BNR",
+   "date": "2026-08-26"
+  },
+  {
+   "t": "Poste Italiane Q2 and H1-26 financial results (press release)",
+   "u": "https://www.media.poste.it/208c7f5d-bcbc-4974-9ea6-e1ca324e9ff9/file/PI_Q2-26_PR_ENG",
+   "pub": "Poste Italiane",
+   "date": "2026-07-24"
+  },
+  {
+   "t": "The Group's sales increased, income was affected by the ongoing transition in Denmark",
+   "u": "https://group.postnord.com/news-media/2026/the-groups-sales-increased-income-was-affected-by-the-ongoing-transition-in-denmark/",
+   "pub": "PostNord",
+   "date": "2026-07-16"
+  },
+  {
+   "t": "bpost Q2 2026 slides: strike costs double, outlook cut to €140m",
+   "u": "https://www.investing.com/news/company-news/bpost-q2-2026-slides-strike-costs-double-outlook-cut-to-140m-93CH-4845485",
+   "pub": "Investing.com",
+   "date": "2026-08-07"
+  },
+  {
+   "t": "Vinted financial results 2025",
+   "u": "https://company.vinted.com/newsroom/financial-results-2025",
+   "pub": "Vinted",
+   "date": "2026-04-09"
+  },
+  {
+   "t": "Returns at Zalando",
+   "u": "https://corporate.zalando.com/en/about-us/what-we-do/returns-zalando",
+   "pub": "Zalando",
+   "date": "2025-06-12"
+  },
+  {
+   "t": "Europe is about to make returns much easier. Retailers may pay the price",
+   "u": "https://channelx.world/2026/05/europe-is-about-to-make-returns-much-easier-retailers-may-pay-the-price/",
+   "pub": "ChannelX",
+   "date": "2026-05"
+  },
+  {
+   "t": "Large scale EU customs control action shows most third-country e-commerce goods do not follow standards",
+   "u": "https://taxation-customs.ec.europa.eu/news/large-scale-eu-customs-control-action-shows-most-third-country-e-commerce-goods-do-not-follow-2026-01-07_en",
+   "pub": "European Commission (DG TAXUD)",
+   "date": "2026-01-07"
+  },
+  {
+   "t": "Postal services: same offerings at up to triple the cost; Brussels to overhaul sector in early 2027",
+   "u": "https://www.eunews.it/en/2026/08/05/postal-services-same-offerings-at-up-to-triple-the-cost-brussels-to-overhaul-sector-in-early-2027/",
+   "pub": "Eunews",
+   "date": "2026-08-05"
+  },
+  {
+   "t": "DHL Express announces annual price adjustments for 2027 in Finland",
+   "u": "https://www.dhl.com/fi-en/home/press/press-archive/2026/dhl-express-announces-annual-price-adjustments-for-2027-in-finland.html",
+   "pub": "DHL Express",
+   "date": "2026-09-25"
+  },
+  {
+   "t": "DHL Express is raising its prices in the new year",
+   "u": "https://www.thejournal.ie/dhl-express-price-increase-7173375-Sep2026/",
+   "pub": "TheJournal.ie",
+   "date": "2026-09"
+  },
+  {
+   "t": "Les marchés du courrier, du colis et de la presse en 2024 (observatoire)",
+   "u": "https://www.arcep.fr/fileadmin/user_upload/observatoire/courrier-et-colis/2024/observatoire-courrier-colis-2024_oct2025.pdf",
+   "pub": "ARCEP",
+   "date": "2025-10"
+  },
+  {
+   "t": "Financial calendar",
+   "u": "https://reporting-hub.group.dhl.com/2026-q2/en/further-information/financial-calendar/",
+   "pub": "DHL Group",
+   "date": "2026-08"
+  },
+  {
+   "t": "Events (financial calendar)",
+   "u": "https://newsroom.postnl.nl/en-NL/events/",
+   "pub": "PostNL",
+   "date": "2026-10"
+  },
+  {
+   "t": "Cainiao expands last-mile delivery network in Spain and Portugal",
+   "u": "https://www.parcelandpostaltechnologyinternational.com/news/last-mile/cainiao-expands-last-mile-delivery-network-in-spain-and-portugal.html",
+   "pub": "Parcel and Postal Technology International",
+   "date": "2025-05-27"
+  }
+ ],
+ "segments": [
+  {
+   "name": "B2C domestic home delivery",
+   "size": "Germany: 4.37bn CEP shipments in 2025 (+1.8%), with B2C up only 0.6%. France: 1.255bn domestic parcels in 2024 (+3.6%). Colissimo carried 234m parcels in H1 2026 (+5.0%), Poste Italiane 179m (+12.5%).",
+   "leaders": "Germany: DHL (over 40% of volume), Amazon (15 to 20%), DPD, GLS, Hermes and UPS (5 to 15% each), per the Bundesnetzagentur. Elsewhere the national posts (Colissimo, PostNL, Poste Italiane, PostNord, bpost) alongside Geopost and GLS subsidiaries.",
+   "dynamics": "Growth is low and uneven: DHL's German parcel volume rose 2% in Q2 2026, PostNL's domestic e-commerce volume fell 4.2% in H1 while its price per parcel rose 5.0%, and Poste Italiane grew 10.6% in Q2. BPEX cites energy, fuel, tolls, labour and regulation as the main cost pressures.",
+   "rules": "DHL Paket business prices rose from 1 Jan 2026; DHL energy surcharge 4.00% from 1 Oct 2026; GLS Germany 31.50% from 11 Sep; DPD Germany road 31.00% plus an emergency fuel surcharge. Colissimo +4.1% from 1 Jan 2027.",
+   "read": "Our reading: home delivery is a mature, low-growth market where price rises come through surcharges and regulated tariffs rather than list-rate competition. Carriers with mail networks are using parcel price to cover mail losses, which keeps the domestic price floor rising.",
+   "src": [
+    35,
+    52,
+    22,
+    42,
+    34,
+    14,
+    39,
+    15,
+    16,
+    26,
+    25,
+    23
+   ]
+  },
+  {
+   "name": "Out-of-home: lockers and PUDO",
+   "size": "DPD had over 153,000 PUDO and locker points across Europe at end-2025 and InPost over 61,000 lockers (Last Mile Experts). By mid-2026 InPost had 68,925 lockers, Geopost 166,000 points including 60,000 lockers, and GLS 110,000 locations including 32,500 lockers. DHL has over 16,500 stations in Germany.",
+   "leaders": "InPost (with Mondial Relay, 10,000 lockers in France), Geopost/DPD, GLS, DHL (now with Myflexbox), Vinted Go, plus the national posts' own networks.",
+   "dynamics": "InPost's Eurozone locker volumes rose 45% y/y in Q2 while it cut PUDO points 16%; Geopost out-of-home volumes rose 30% in H1; 29% of GLS B2C parcels went out of home in March 2026. Density ranges from 30.8 points per 10,000 inhabitants in the Czech Republic and 27.3 in Poland to under 10 in Germany and Italy.",
+   "rules": "Closed carrier networks (DHL Packstation, InPost) compete with shared or open models: DPD and GLS target about 20,000 shared points in Germany; Myflexbox lockers accept GLS, DPD, UPS, FedEx and Amazon parcels and are being merged with DHL's DeinFach lockers.",
+   "read": "Our reading: lockers lower cost per drop, so carriers are using price and checkout placement to steer volume into them. The open question is whether open networks survive as carriers buy them; if not, merchants will face fewer neutral options in Germany and Austria.",
+   "src": [
+    12,
+    28,
+    21,
+    27,
+    15,
+    33,
+    24,
+    17,
+    18,
+    45
+   ]
+  },
+  {
+   "name": "Inbound cross-border from Asia",
+   "size": "4.6bn low-value packages entered the EU in 2024, 91% of small shipments from China; about 5.9bn low-value items in 2025. After 1 Jul 2026 Belgian small-parcel volumes fell 53% and Dutch e-commerce parcels 46%; French figures show Chinese imports down 30 to 40%.",
+   "leaders": "Temu, Shein, AliExpress and Cainiao on the platform side; posts and parcel carriers in the destination markets, including PostNL, bpost and InPost, on final delivery.",
+   "dynamics": "China and Hong Kong to Europe freighter capacity settled about 28% below June and Liège e-commerce parcels fell 24% y/y in July. Platforms are shifting to European inventory; bpost saw Asian volumes grow again in June ahead of the duty date. France's own €2 tax, in force from 1 Mar 2026, raised about EUR 2.3m a month as operators cleared goods in other member states, and was suspended on 1 Jul.",
+   "rules": "€3 per tariff heading in parcels under €150, 1 Jul 2026 to 1 Jul 2028; €2 handling fee per product by 1 Nov 2026 (a separate fee for goods in customs warehouses from 1 Jul 2028); Italy €2 per consignment from 1 Dec 2026; Regulation (EU) 2026/2108 in force since 20 Sep 2026 makes non-EU platforms the importer, with fines up to 6% of annual import value.",
+   "read": "Our reading: the measures work as a cost signal more than a ban; the French experience shows flows move to the cheapest point of entry, so harmonised EU rules matter more than national fees. Expect volume to return gradually as domestic parcels from EU warehouses rather than as cross-border injection.",
+   "src": [
+    0,
+    5,
+    4,
+    6,
+    7,
+    44,
+    8,
+    3,
+    9,
+    2,
+    1
+   ]
+  },
+  {
+   "name": "Intra-EU cross-border e-commerce",
+   "size": "Geopost's international parcel flows rose 14.4% in H1 2026; InPost's Eurozone volume rose 30% to 101.0m in Q2; European e-commerce volumes in PostNL's Platforms unit grew 28% in H1. Cross-border made up 11% of German parcel volume and 20% of revenue in 2023.",
+   "leaders": "Geopost/DPD and GLS road networks, DHL (with partners such as CTT in Iberia), InPost and Mondial Relay across seven Eurozone countries, PostNL.",
+   "dynamics": "Pan-European networks are growing cross-border faster than domestic volume, helped by marketplaces selling across borders and by C2C platforms. Partnerships and joint ventures are replacing wholly owned networks in smaller markets.",
+   "rules": "The Commission plans an EU Delivery Act in Q1 2027 to modernise the universal service; it has found cross-border letter prices up to triple domestic ones but has not said it will harmonise rates. Cross-border flows from EU warehouses avoid the €3 duty once goods are in free circulation.",
+   "read": "Our reading: as Asian platforms stock goods inside the EU, part of today's inbound volume will become intra-EU road traffic from hubs such as Poland, which favours the road networks of Geopost, GLS, DHL and InPost over air-based postal flows.",
+   "src": [
+    21,
+    28,
+    39,
+    34,
+    19,
+    49,
+    4
+   ]
+  },
+  {
+   "name": "Returns and re-commerce",
+   "size": "Zalando reports that on average 50% of items ordered are returned across its markets, handled through about 20 return centres. Vinted, whose sales generate C2C parcels, grew GMV 47% to EUR 10.8bn in 2025.",
+   "leaders": "Out-of-home networks (InPost and Mondial Relay, Geopost, GLS, Vinted Go) and the national posts, which handle drop-off returns and C2C sends.",
+   "dynamics": "Lockers and pickup points double as drop-off points for returns and second-hand sales, which adds outbound volume to the same network. Vinted Go is testing services for external clients.",
+   "rules": "Directive (EU) 2023/2673 requires a clearly visible digital withdrawal function in the online purchase flow from 19 Jun 2026; German courts have examined how visible such options must be, and Dutch courts have referred questions to the Court of Justice.",
+   "read": "Our reading: easier withdrawal will raise return volumes at the margin, and returns will flow mostly through out-of-home networks, which strengthens the case for locker density as a two-way asset.",
+   "src": [
+    46,
+    45,
+    47,
+    33,
+    21
+   ]
+  }
+ ],
+ "price_stack": [
+  {
+   "carrier": "La Poste",
+   "item": "2027 universal-service tariffs (mail and parcels)",
+   "value": "+6.73% average; Colissimo +4.1% for France and international; mainland to overseas -5%; Lettre verte EUR 1.52 to EUR 1.67",
+   "effective": "1 Jan 2027",
+   "src": [
+    23
+   ]
+  },
+  {
+   "carrier": "PostNL",
+   "item": "2027 universal-service tariff room set by ACM",
+   "value": "EUR 3.5929 against EUR 3.1882 in 2026, about +12.7% (PostNL sets individual prices within the cap)",
+   "effective": "2027",
+   "src": [
+    40,
+    41
+   ]
+  },
+  {
+   "carrier": "PostNL",
+   "item": "Realised parcel price/mix, H1 2026",
+   "value": "Average price per parcel +5.0%; EUR 36m price/mix effect including EUR 5m fuel surcharges",
+   "effective": "H1 2026",
+   "src": [
+    39
+   ]
+  },
+  {
+   "carrier": "DHL Paket",
+   "item": "Business-customer parcel price increase",
+   "value": "Domestic and international business parcels repriced (average not disclosed; customers notified individually)",
+   "effective": "1 Jan 2026",
+   "src": [
+    15
+   ]
+  },
+  {
+   "carrier": "DHL Paket",
+   "item": "Energy surcharge, national business shipments",
+   "value": "4.00% total: long-term component 3.25% plus oil-linked short-term component 0.75% (short-term part capped at 3.0%, introduced 1 Jun 2026)",
+   "effective": "1 Oct 2026",
+   "src": [
+    16
+   ]
+  },
+  {
+   "carrier": "GLS (Germany)",
+   "item": "Energy surcharge",
+   "value": "31.50% (28.50% in August, 24.50% in July, 32.00% in May)",
+   "effective": "11 Sep 2026",
+   "src": [
+    26
+   ]
+  },
+  {
+   "carrier": "DPD (Germany)",
+   "item": "Energy surcharge and emergency fuel surcharge",
+   "value": "Road 31.00%, air 40.00%; plus a monthly emergency fuel surcharge since May 2026",
+   "effective": "1 Oct 2026",
+   "src": [
+    25
+   ]
+  },
+  {
+   "carrier": "DHL Express",
+   "item": "2027 annual price adjustment",
+   "value": "+5.9% average in Ireland; +6.4% in Finland",
+   "effective": "1 Jan 2027",
+   "src": [
+    51,
+    50
+   ]
+  },
+  {
+   "carrier": "EU customs",
+   "item": "Temporary duty on low-value imports",
+   "value": "€3 per tariff heading in parcels under €150 (a parcel with three item categories pays €9)",
+   "effective": "1 Jul 2026 to 1 Jul 2028",
+   "src": [
+    0,
+    4
+   ]
+  },
+  {
+   "carrier": "EU customs",
+   "item": "Customs handling fee on low-value imports",
+   "value": "€2 per product sold at distance; separate fee for goods in customs warehouses not yet set (from 1 Jul 2028)",
+   "effective": "By 1 Nov 2026",
+   "src": [
+    3,
+    1
+   ]
+  },
+  {
+   "carrier": "Italy",
+   "item": "National charge on non-EU consignments up to €150",
+   "value": "€2 per consignment, postponed three times",
+   "effective": "1 Dec 2026",
+   "src": [
+    9
+   ]
+  },
+  {
+   "carrier": "France",
+   "item": "National €2 small-parcel tax",
+   "value": "Applied from 1 Mar 2026; suspended to avoid stacking with the EU €3 duty",
+   "effective": "Suspended 1 Jul 2026",
+   "src": [
+    8
+   ]
+  }
+ ],
+ "scorecard": [
+  {
+   "name": "DHL Group",
+   "volume": "up",
+   "yield": "up",
+   "position": "holding",
+   "why": "German parcel volume rose 2% in Q2 2026 with parcel revenue up 5%, but Post & Parcel Germany EBIT fell 18.7%; the Myflexbox deal adds open locker capacity in its home market.",
+   "src": [
+    14,
+    13,
+    17
+   ]
+  },
+  {
+   "name": "Geopost (DPD)",
+   "volume": "up",
+   "yield": "down",
+   "position": "holding",
+   "why": "H1 2026 parcels rose 7.9% while core parcel revenue rose 7.1%, and 2025 operating EBIT fell EUR 158m; it still has the largest out-of-home network by count.",
+   "src": [
+    21,
+    20,
+    12
+   ]
+  },
+  {
+   "name": "GLS",
+   "volume": "flat",
+   "yield": "flat",
+   "position": "holding",
+   "why": "Revenue rose 5.2% in FY2025-26 but adjusted operating profit fell; group volumes were not stated in our sources, so we mark volume and yield flat. Out-of-home locations grew 30%.",
+   "src": [
+    27
+   ]
+  },
+  {
+   "name": "InPost",
+   "volume": "up",
+   "yield": "up",
+   "position": "gaining",
+   "why": "Q2 2026 revenue rose 18.2% on 16% more parcels and lockers rose 29%, although adjusted EBITDA margin fell 330bp; FedEx's shareholding adds a commercial partner.",
+   "src": [
+    28,
+    30,
+    31
+   ]
+  },
+  {
+   "name": "Amazon",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "International segment sales rose 15% in Q2 2026 and it committed more than EUR 10bn to its European network; no European parcel volumes or delivery prices are published, so yield is marked flat.",
+   "src": [
+    38,
+    36
+   ]
+  },
+  {
+   "name": "La Poste (Colissimo)",
+   "volume": "up",
+   "yield": "down",
+   "position": "holding",
+   "why": "Colissimo volume rose 5.0% in H1 2026 but revenue only 2.8%; regulated 2027 Colissimo rates rise 4.1%.",
+   "src": [
+    22,
+    23
+   ]
+  },
+  {
+   "name": "PostNL",
+   "volume": "down",
+   "yield": "up",
+   "position": "losing",
+   "why": "H1 2026 e-commerce volumes fell 6.4% (international -14.8%) while price per parcel rose 5.0%, and group normalised EBIT was negative.",
+   "src": [
+    39
+   ]
+  },
+  {
+   "name": "Poste Italiane, PostNord and bpost",
+   "volume": "up",
+   "yield": "flat",
+   "position": "holding",
+   "why": "Poste Italiane (+10.6%) and PostNord (+9%) grew Q2 parcel volumes, while bpost fell 9.2% on a strike and cut its EBIT outlook; yield data are not comparable across the three.",
+   "src": [
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "name": "Temu, Shein, AliExpress and Cainiao (direct parcel model)",
+   "volume": "down",
+   "yield": "flat",
+   "position": "losing",
+   "why": "Direct small-parcel imports from China fell 30 to 40% after 1 Jul 2026 and the handling fee and importer liability follow; the platforms are moving to EU stock, so this verdict applies to the direct parcel model, not to their EU sales.",
+   "src": [
+    5,
+    4,
+    1
+   ]
+  },
+  {
+   "name": "Vinted Go and open locker networks",
+   "volume": "up",
+   "yield": "flat",
+   "position": "gaining",
+   "why": "Vinted GMV rose 47% in 2025 and Vinted Go expanded to five markets; Myflexbox, an independent multi-carrier locker operator, is being bought by DHL, which narrows the open-network model.",
+   "src": [
+    45,
+    17,
+    18
+   ]
+  }
+ ],
+ "scenarios": [
+  {
+   "name": "Warehouse shift and locker race",
+   "likelihood": "most likely",
+   "text": "Our reading: the €2 handling fee from 1 Nov and importer liability complete the move of Asian platforms to EU stock, so direct inbound volumes stay well below June 2026 levels while domestic volumes from EU warehouses grow. Carriers keep pushing out-of-home and surcharges; posts implement 2027 tariff rises as announced, and margins at the main networks stabilise rather than recover.",
+   "triggers": "Customs data on small-parcel imports after 1 Nov; PostNL Q3 update on 26 Oct; DHL nine-month results on 5 Nov; InPost delisting outcome; monthly energy surcharge levels at DHL, GLS and DPD."
+  },
+  {
+   "name": "Out-of-home consolidation accelerates",
+   "likelihood": "plausible",
+   "text": "Our reading: after InPost and Myflexbox, further independent or platform-owned locker networks are acquired or merged, and FedEx extends its InPost cooperation beyond the UK and Poland pilot. Locker access becomes a negotiating tool between carriers and marketplaces, and competition authorities begin to look at access terms in Germany and Austria.",
+   "triggers": "New acquisitions of locker or PUDO networks; extension of the FedEx and InPost commercial agreement; competition authority reviews; changes to Amazon's out-of-home partners in Germany."
+  },
+  {
+   "name": "Inbound flows route around the rules",
+   "likelihood": "tail risk",
+   "text": "Our reading: as with France's suspended €2 tax, where operators cleared goods in other member states, uneven enforcement lets low-value flows return through selected entry points or undervaluation, and direct parcel volumes recover within a year. Networks that cut capacity for Asian flows would face renewed peaks, and calls for national fees would return.",
+   "triggers": "Customs volumes by member state; Italy's 1 Dec charge and any further postponement; Commission statements on enforcement; air freighter capacity on China to Europe lanes."
+  }
+ ]
+}

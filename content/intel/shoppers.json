@@ -1,0 +1,595 @@
+{
+ "updated": "2026-10-02",
+ "intro": "What online shoppers expect from parcel delivery, how that is changing, and why. Each trend uses the latest published survey or official data, with the method and sample stated and vendor-run surveys flagged.",
+ "trends": [
+  {
+   "key": "temu-matches-amazon-cross-border",
+   "theme": "platforms",
+   "regions": [
+    "GLOBAL"
+   ],
+   "title": "Temu now matches Amazon in cross-border reach",
+   "big": "24%",
+   "label": "cross-border e-commerce penetration of Temu in 2025, matching Amazon",
+   "direction": "up",
+   "previous": "less than 1% in 2022",
+   "why": "Our reading: Factory-direct prices and free shipping pulled shoppers away from older marketplaces (since 2018 Wish lost 95% of its penetration, eBay 68% and AliExpress 33%), and the survey was fielded in September 2025, before the EU's €3 duty took effect.",
+   "means": "Cross-border parcel volumes now depend on the routing choices of a handful of platforms, so one platform's move to bulk imports or local warehouses can shift a national post's inbound count within a quarter.",
+   "source": {
+    "pub": "IPC",
+    "t": "IPC Cross-Border E-Commerce Shopper Survey 2025",
+    "u": "https://www.ipc.be/news-portal/e-commerce/2026/01/13/08/38/ipc-cross-border-e-commerce-shopper-survey",
+    "date": "2026-01-13",
+    "method": "Online survey run by the International Post Corporation in September 2025; 30,970 respondents in 37 countries, between 100 and 1,000 per country"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "platforms-go-local",
+    "de-minimis-end"
+   ]
+  },
+  {
+   "key": "delivery-charges-before-purchase",
+   "theme": "duties",
+   "regions": [
+    "GLOBAL"
+   ],
+   "title": "Shoppers want delivery charges clear before they buy",
+   "big": "61%",
+   "label": "of cross-border shoppers say clear information on delivery charges before purchase is essential; roughly half say low customs duties are essential",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: As duty-free thresholds close in the US and the EU, the final price of a foreign order is less predictable, so shoppers judge a site first on whether it shows the full cost up front.",
+   "means": "Landed-cost display and duties collected at checkout (DDP) are becoming a basic requirement for cross-border sellers, and carriers that can quote and collect them gain merchants.",
+   "source": {
+    "pub": "IPC",
+    "t": "IPC Cross-Border E-Commerce Shopper Survey 2025",
+    "u": "https://www.ipc.be/news-portal/e-commerce/2026/01/13/08/38/ipc-cross-border-e-commerce-shopper-survey",
+    "date": "2026-01-13",
+    "method": "Online survey run by the International Post Corporation in September 2025; 30,970 respondents in 37 countries, between 100 and 1,000 per country"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "de-minimis-end",
+    "eu-customs-reform"
+   ]
+  },
+  {
+   "key": "slow-cross-border-parcels-fade",
+   "theme": "speed",
+   "regions": [
+    "GLOBAL"
+   ],
+   "title": "Cross-border parcels taking 15 days or more have become rare",
+   "big": "7%",
+   "label": "of cross-border purchases took 15 days or more to arrive in 2025; the most common transit times were 4 to 5 days (19%) and 10 to 14 days (20%)",
+   "direction": "down",
+   "previous": "29% in 2020",
+   "why": "Our reading: Platforms moved stock closer to buyers and contracted dedicated air and line-haul capacity, so the long tail of very slow postal parcels has largely gone even though low price remains the main reason to buy abroad.",
+   "means": "The speed gap between domestic and cross-border orders is now a matter of days, so cross-border offers compete on the accuracy of the promised date more than on raw speed.",
+   "source": {
+    "pub": "IPC",
+    "t": "IPC Cross-Border E-Commerce Shopper Survey 2025",
+    "u": "https://www.ipc.be/news-portal/e-commerce/2026/01/13/08/38/ipc-cross-border-e-commerce-shopper-survey",
+    "date": "2026-01-13",
+    "method": "Online survey run by the International Post Corporation in September 2025; 30,970 respondents in 37 countries, between 100 and 1,000 per country"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "platforms-go-local"
+   ]
+  },
+  {
+   "key": "sustainable-logistics-becomes-baseline",
+   "theme": "sustainability",
+   "regions": [
+    "GLOBAL"
+   ],
+   "title": "Sustainable logistics is moving from extra to expected",
+   "big": "42%",
+   "label": "of consumers expect sustainable logistics to become a standard expectation over the next five years",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Sustainability shows up more in what shoppers buy (45% in the same survey buy second-hand or refurbished items for sustainability reasons) than in what they will pay extra for delivery, so it is turning into a baseline rather than a premium.",
+   "means": "Carriers should make consolidated and lower-emission delivery the default option, priced in rather than sold as an add-on, and be ready to evidence the claims.",
+   "source": {
+    "pub": "DHL Group",
+    "t": "DHL E-Commerce Trends Report 2026: Old rules don't apply in the age of AI",
+    "u": "https://group.dhl.com/en/media-relations/press-releases/2026/dhl-ecommerce-trends-report-2026-old-rules-do-not-apply-in-the-age-of-ai.html",
+    "date": "2026-06-02",
+    "method": "Online survey of 29,000 consumers (about 1,000 per country) and 5,800 businesses in 29 countries; fieldwork 15 December 2025 to 11 February 2026"
+   },
+   "sponsor_note": "Survey run by a parcel carrier (DHL)",
+   "stories": []
+  },
+  {
+   "key": "eu-late-delivery-top-complaint",
+   "theme": "trust",
+   "regions": [
+    "EU"
+   ],
+   "title": "Late delivery is the most common online shopping problem in the EU",
+   "big": "19.9%",
+   "label": "of EU online shoppers reported delivery slower than indicated in 2025, the most frequent problem; 35.4% reported at least one problem",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Checkout promises have become tighter while marketplace and cross-border volumes grew, so the gap between the date promised and the date delivered is what shoppers notice most.",
+   "means": "Accurate promise dates and early delay notices protect repeat purchase more than further gains in speed.",
+   "source": {
+    "pub": "Eurostat",
+    "t": "More than a third of online shoppers face issues",
+    "u": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260311-1",
+    "date": "2026-03-11",
+    "method": "EU survey on ICT usage in households and by individuals, 2025; about 330,000 individuals aged 16 to 74 in EU member states (official statistics)"
+   },
+   "sponsor_note": "",
+   "stories": []
+  },
+  {
+   "key": "eu-small-parcels-fall-after-duty",
+   "theme": "duties",
+   "regions": [
+    "EU"
+   ],
+   "title": "Small parcels from outside the EU fell by almost half after the €3 duty",
+   "big": "46%",
+   "label": "fewer small parcels from outside the EU entered the Netherlands in July and August 2026 than the average of the previous six months",
+   "direction": "down",
+   "previous": "",
+   "why": "Our reading: The €3 duty in force since 1 July 2026 removed the price edge of single-item shipping, and Dutch customs see more sellers switching to bulk imports stored inside the EU, so part of the fall is a change of route rather than shoppers buying less.",
+   "means": "Volume moves from postal and express small-parcel streams to freight plus domestic last-mile delivery, so cross-border operators lose units while domestic networks pick up the final leg.",
+   "source": {
+    "pub": "NOS (Dutch Customs data)",
+    "t": "Fors minder pakketjes uit China sinds heffing van 3 euro, 'meer bulkinvoer'",
+    "u": "https://nos.nl/artikel/2629310-fors-minder-pakketjes-uit-china-sinds-heffing-van-3-euro-meer-bulkinvoer",
+    "date": "2026-09-01",
+    "method": "Administrative customs counts of small consignments from outside the EU, July and August 2026 compared with the average of the preceding six months; not a survey"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "eu-customs-reform",
+    "de-minimis-end",
+    "platforms-go-local"
+   ]
+  },
+  {
+   "key": "swedes-ready-to-cut-foreign-orders",
+   "theme": "platforms",
+   "regions": [
+    "EU"
+   ],
+   "title": "Swedish shoppers say EU duties will make them cut foreign orders",
+   "big": "70%",
+   "label": "of Swedish consumers say they are prepared to abandon or sharply reduce purchases from abroad once EU duties on parcels under €150 apply",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Chinese low-price platforms were already losing ground in Sweden (Shein fell 13 places and left PostNord's top list), and the duty makes the cheapest orders visibly dearer at exactly the point where price was the only reason to buy abroad.",
+   "means": "Stated intent usually overstates real change, but Dutch customs data point the same way, so Nordic posts should plan for lower inbound Asian volumes and more domestic fulfilment by marketplaces.",
+   "source": {
+    "pub": "PostNord",
+    "t": "E-barometern 2025: Historiskt skifte, e-handeln går om den fysiska butiken",
+    "u": "https://www.postnord.se/om-oss/nyheter-press-och-artiklar/2026/historiskt-skifte-e-handeln-gar-om-den-fysiska-butiken/",
+    "date": "2026-02-17",
+    "method": "PostNord E-barometer consumer survey in Sweden, annual edition covering 2025; sample size not disclosed in the release"
+   },
+   "sponsor_note": "Survey run by a postal operator (PostNord)",
+   "stories": [
+    "eu-customs-reform",
+    "de-minimis-end"
+   ]
+  },
+  {
+   "key": "europeans-return-via-lockers-and-shops",
+   "theme": "returns",
+   "regions": [
+    "EU"
+   ],
+   "title": "Europeans send most returns back through lockers and parcel shops",
+   "big": "75%",
+   "label": "of European shoppers return unwanted items to a parcel locker or parcel shop (63% globally); 40% have deliveries sent straight to an out-of-home location (29% globally)",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Dense locker and pick-up networks make drop-off quicker than waiting in for a collection, and merchants that charge for returns often make the drop-off route the cheapest one.",
+   "means": "Out-of-home density is now a returns channel as much as a delivery one, and carriers without it carry the higher cost of home collections and failed first attempts.",
+   "source": {
+    "pub": "DHL eCommerce",
+    "t": "Out-of-home delivery and returns trends (DHL E-Commerce Trends Report 2026)",
+    "u": "https://www.dhl.com/global-en/microsites/ec/ecommerce-insights/insights/e-commerce-logistics/out-of-home-trends.html",
+    "date": "2026-06-02",
+    "method": "Online survey of 29,000 consumers (about 1,000 per country) and 5,800 businesses in 29 countries; fieldwork 15 December 2025 to 11 February 2026"
+   },
+   "sponsor_note": "Survey run by a parcel carrier (DHL)",
+   "stories": []
+  },
+  {
+   "key": "free-delivery-beats-next-day",
+   "theme": "price",
+   "regions": [
+    "EU",
+    "UK"
+   ],
+   "title": "Most European shoppers would rather have free delivery than paid next-day",
+   "big": "71.76%",
+   "label": "of European shoppers prefer free delivery to paid next-day delivery",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: With household budgets still tight, speed is valued mainly when it is free; unexpected delivery costs were the main reason given for abandoning a basket (40.70%), well ahead of slow delivery.",
+   "means": "Merchants should make free standard delivery with a reliable date the default and keep fast options for shoppers who pay, rather than subsidise speed for everyone.",
+   "source": {
+    "pub": "Sendcloud",
+    "t": "Consumer trends in e-commerce 2026 (E-commerce Delivery Compass 2026)",
+    "u": "https://www.sendcloud.com/blog/consumer-trends-in-ecommerce/",
+    "date": "2026-05-20",
+    "method": "Online survey in March 2026 of 8,000 online shoppers aged 18 to 65, 1,000 each in the Netherlands, Belgium, Germany, Austria, France, the UK, Italy and Spain"
+   },
+   "sponsor_note": "Survey run by a shipping-software vendor (Sendcloud)",
+   "stories": []
+  },
+  {
+   "key": "uk-two-thirds-hit-delivery-issue",
+   "theme": "trust",
+   "regions": [
+    "UK"
+   ],
+   "title": "Two in three UK parcel recipients hit a delivery problem in six months",
+   "big": "68%",
+   "label": "of UK consumers had experienced a delivery issue in the past six months, led by delays (28%) and parcels left in an inappropriate place (26%)",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: High volumes and self-employed driver models keep the basics (knocking, waiting at the door, safe placement) inconsistent, and Ofcom's 2023 complaint rules have moved satisfaction with contacting operators only from 41% to 45%.",
+   "means": "Ofcom is pressing operators for sustained improvement, with disabled consumers (73% had issues, against 65% of others) the first focus, so UK carriers should expect tighter consumer-protection rules.",
+   "source": {
+    "pub": "Ofcom",
+    "t": "Best and worst parcel firms for customer satisfaction revealed",
+    "u": "https://www.ofcom.org.uk/post/deliveries-and-charges/best-and-worst-parcel-firms-for-customer-satisfaction-revealed-2025",
+    "date": "2025-10-22",
+    "method": "Regulator's online survey of 4,058 UK residents aged 16+ who had used UK delivery companies in the previous six months; fieldwork January and July 2025"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "uk-three-rulebooks"
+   ]
+  },
+  {
+   "key": "uk-delay-alerts-expected",
+   "theme": "tracking",
+   "regions": [
+    "UK"
+   ],
+   "title": "UK shoppers expect an immediate alert when a parcel is late",
+   "big": "85.4%",
+   "label": "of UK shoppers expect to be notified immediately if there is a delay with their order; 45% had problems tracking their most recent order",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Tracking is now assumed, so frustration has moved to silence: a late parcel is forgiven more readily than an unexplained one, and 64.3% say they would not reorder from a retailer after a failed delivery.",
+   "means": "Carrier scan events must reach merchant and shopper in near real time, because gaps in tracking turn directly into lost repeat custom for the retailer.",
+   "source": {
+    "pub": "Post & Parcel (Sendcloud data)",
+    "t": "Sendcloud: Delivery issues affect more than half of all online shoppers",
+    "u": "https://postandparcel.info/159449/news/e-commerce/sendcloud-delivery-issues-affect-more-than-half-of-all-online-shoppers/",
+    "date": "2025-06-19",
+    "method": "Sendcloud E-commerce Delivery Compass 2025: online survey of 1,000 UK consumers, part of 8,000 across eight European countries"
+   },
+   "sponsor_note": "Survey run by a shipping-software vendor (Sendcloud)",
+   "stories": []
+  },
+  {
+   "key": "na-prepaid-duties-close-the-sale",
+   "theme": "duties",
+   "regions": [
+    "NA"
+   ],
+   "title": "Prepaid duties would win more North American cross-border sales",
+   "big": "69%",
+   "label": "of North American consumers say they would be more likely to complete a purchase if duties and taxes were prepaid at checkout (73% in Canada)",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: The end of US duty-free treatment for low-value parcels in 2025 taught shoppers that a cheap foreign price can grow on delivery; 43% are now deterred by hidden duties and taxes, rising to 59% in Canada.",
+   "means": "Duties collected at checkout (DDP) are now a conversion tool, not only a compliance choice, for anyone selling into the US or Canada.",
+   "source": {
+    "pub": "Retail Insider (Landmark Global survey)",
+    "t": "43% of consumers deterred by hidden costs when shopping internationally: Landmark Global",
+    "u": "https://retail-insider.com/retail-insider/2026/05/43-of-consumers-deterred-by-hidden-costs-when-shopping-internationally-landmark-global/",
+    "date": "2026-05-28",
+    "method": "Consumer survey of 2,000 people in the US and Canada; fieldwork dates and mode not stated"
+   },
+   "sponsor_note": "Survey run by a cross-border parcel carrier (Landmark Global)",
+   "stories": [
+    "de-minimis-end",
+    "north-america-rulebook"
+   ]
+  },
+  {
+   "key": "us-shoppers-cut-china-platforms",
+   "theme": "platforms",
+   "regions": [
+    "NA"
+   ],
+   "title": "Many US shoppers cut back on Chinese discount apps after duty-free ended",
+   "big": "45%",
+   "label": "of US consumers have either decreased shopping on China-based discount platforms such as Shein or Temu, or no longer order from them at all",
+   "direction": "down",
+   "previous": "",
+   "why": "Our reading: The end of duty-free entry for Chinese low-value parcels in May 2025 added duties and fees and lengthened delivery times, removing the low price that was the main reason casual shoppers used these apps; 52% want tariff surcharges itemised separately.",
+   "means": "US inbound small parcels from China are fewer and more concentrated among committed shoppers, which favours platforms holding stock in US warehouses over direct postal flows.",
+   "source": {
+    "pub": "SupplyChainBrain (Radial survey)",
+    "t": "Survey: Consumers Pull Back on Spending After Tariffs, End of De Minimis",
+    "u": "https://www.supplychainbrain.com/articles/42225-survey-consumers-pull-back-on-spending-after-tariffs-end-of-de-minimis",
+    "date": "2025-07-25",
+    "method": "Two surveys of 1,000 US consumers each; fieldwork dates not stated"
+   },
+   "sponsor_note": "Survey run by an e-commerce fulfilment provider (Radial)",
+   "stories": [
+    "de-minimis-end",
+    "us-china-rivalry",
+    "platforms-go-local"
+   ]
+  },
+  {
+   "key": "us-return-policy-decides-the-basket",
+   "theme": "returns",
+   "regions": [
+    "NA"
+   ],
+   "title": "Return policies now decide where US shoppers buy",
+   "big": "63%",
+   "label": "of US online returners have abandoned a purchase or stopped shopping with a retailer because of its return policy; 92% say return fees influence their behaviour",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: As retailers add return fees to protect margins, shoppers read the policy first (58% check it before buying) and move to stores that keep returns cheap or offer exchanges.",
+   "means": "Paid returns save cost but carry a conversion price, and carriers that make drop-off returns cheap help merchants keep fees low.",
+   "source": {
+    "pub": "PR Newswire (Loop)",
+    "t": "America's changing returns habits are reshaping how consumers shop online",
+    "u": "https://www.prnewswire.com/news-releases/americas-changing-returns-habits-are-reshaping-how-consumers-shop-online-302875202.html",
+    "date": "2026-09-10",
+    "method": "Online survey by Sapio Research, May to June 2026; 1,000 US consumers who made an online return in the previous six months, plus 200 US retail decision-makers"
+   },
+   "sponsor_note": "Commissioned by a returns-software vendor (Loop)",
+   "stories": []
+  },
+  {
+   "key": "mexico-free-delivery-top-incentive",
+   "theme": "price",
+   "regions": [
+    "NA"
+   ],
+   "title": "Free delivery is the strongest pull for Mexican online shoppers",
+   "big": "84%",
+   "label": "of Mexican online shoppers name free delivery as an incentive for future online purchases, ahead of discounted items (71%)",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Large marketplaces have made free shipping above low thresholds the norm, so any delivery fee reads as a penalty; shoppers worry more about orders arriving incomplete (45%) or damaged (38%) than about speed.",
+   "means": "In Mexico delivery cost is absorbed into prices and memberships, so carriers win on completeness and damage rates more than on speed.",
+   "source": {
+    "pub": "AMVO",
+    "t": "Estudio de Venta Online 2026 (public version)",
+    "u": "https://images.produ.com/wp-content/uploads/2026/03/12132700/AMVO_Estudio-de-Venta-Online-2026-Prensa-1_compressed.pdf",
+    "date": "2026-03-11",
+    "method": "Online survey of 1,132 Mexican internet users aged 18+ who bought online in the previous 12 months, Netquest panel; the public version states fieldwork as February 2025"
+   },
+   "sponsor_note": "Run by the Mexican online sales association (AMVO), whose members are online retailers",
+   "stories": [
+    "north-america-rulebook"
+   ]
+  },
+  {
+   "key": "brazil-orders-jump-after-tax-cut",
+   "theme": "duties",
+   "regions": [
+    "SA"
+   ],
+   "title": "Brazil's small foreign orders jumped once the federal tax was dropped",
+   "big": "74%",
+   "label": "more international parcels declared under Remessa Conforme in August 2026 than in August 2025 (26.5 million against 15.2 million)",
+   "direction": "up",
+   "previous": "15.2 million in August 2025",
+   "why": "Our reading: Removing the 20% federal import tax on purchases up to US$50 in May 2026 (state ICMS still applies) restored most of the price gap with local retail, and shoppers responded within one quarter while average spend per parcel barely moved (US$19.85).",
+   "means": "Brazil shows that duty changes move parcel volumes in both directions within months, so capacity for Latin American inbound has to be planned around tax politics.",
+   "source": {
+    "pub": "Economic News Brasil (Abit, Receita Federal data)",
+    "t": "Compras internacionais sem taxa federal crescem 74%, mas gasto médio muda pouco",
+    "u": "https://economicnewsbrasil.com.br/2026/09/22/compras-internacionais-sem-taxa/",
+    "date": "2026-09-22",
+    "method": "Administrative data on parcels declared in the Remessa Conforme programme (Receita Federal), compiled by Abit; not a survey"
+   },
+   "sponsor_note": "Figures compiled by Abit, the Brazilian textile and apparel industry association, which represents domestic producers competing with these imports",
+   "stories": [
+    "latam-split",
+    "de-minimis-end"
+   ]
+  },
+  {
+   "key": "brazil-shoppers-moved-to-certified-platforms",
+   "theme": "platforms",
+   "regions": [
+    "SA"
+   ],
+   "title": "Before the tax cut, Brazilians bought fewer foreign parcels, mostly via certified platforms",
+   "big": "157.3 million",
+   "label": "international parcels to Brazil in 2025, about 8% fewer than in 2024, while parcels outside the Remessa Conforme rules fell by more than 60% to 6.2 million",
+   "direction": "down",
+   "previous": "169.4 million in 2024",
+   "why": "Our reading: With the 20% federal tax in place through 2025, shoppers concentrated on certified platforms that show and collect tax at checkout, and non-compliant routes lost most of their appeal.",
+   "means": "Checkout tax collection by platforms has become the main channel for Brazilian cross-border buying, which strengthens the platforms' hand with carriers and with the Correios.",
+   "source": {
+    "pub": "CNN Brasil (Receita Federal data)",
+    "t": "Volume de compras em desacordo com taxa das blusinhas cai 60% em 2025",
+    "u": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/volume-de-compras-em-desacordo-com-taxa-das-blusinhas-cai-60-em-2025/",
+    "date": "2026-02-14",
+    "method": "Administrative customs data from Receita Federal, full years 2024 and 2025; not a survey"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "latam-split"
+   ]
+  },
+  {
+   "key": "australians-switch-for-lockers",
+   "theme": "ooh",
+   "regions": [
+    "AS"
+   ],
+   "title": "One in three Australian shoppers would switch retailer for locker pick-up",
+   "big": "32%",
+   "label": "of Australian shoppers would switch retailers for out-of-home collection options such as Parcel Lockers; 69% want a wide range of delivery options at checkout",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Long distances and empty homes in the day make a secure locker a more dependable promise than the doorstep, and the national post reports locker use up 20% in a year.",
+   "means": "In Australia out-of-home choice at checkout is a customer acquisition tool for merchants, not only a cost saver for carriers.",
+   "source": {
+    "pub": "Australia Post",
+    "t": "7 eCommerce trends you can't ignore from the Australia Post eCommerce Report 2026",
+    "u": "https://auspost.com.au/business/grow-your-business/business-ideas-blog/ecommerce-trends",
+    "date": "2026-03-19",
+    "method": "Australia Post eCommerce Report 2026; delivery-preference figures from the Australia Post Omnibus Survey, November 2025 (sample size not disclosed on the pages we opened)"
+   },
+   "sponsor_note": "Run by the national postal operator, which also operates the Parcel Locker network",
+   "stories": []
+  },
+  {
+   "key": "japan-receipt-options-cut-redelivery",
+   "theme": "ooh",
+   "regions": [
+    "AS"
+   ],
+   "title": "Japan cuts failed home deliveries by moving receipt away from the doorbell",
+   "big": "31.0%",
+   "label": "of parcels from major carriers were received by alternative methods such as delivery boxes or unattended drop in April 2026; the re-delivery rate fell to about 7.6%",
+   "direction": "up",
+   "previous": "1.1 points lower in October 2025",
+   "why": "Our reading: Driver shortages after Japan's 2024 cap on truck drivers' overtime pushed government, carriers and platforms to make unattended drop and delivery boxes a standard choice, and shoppers accept them because they remove waiting at home.",
+   "means": "Failed deliveries fall when the default changes at checkout, so out-of-home and unattended options need to be offered first rather than as an afterthought.",
+   "source": {
+    "pub": "MLIT (Japan)",
+    "t": "宅配便の多様な受取方法の利用率は約31.0% (use of diverse receipt methods about 31.0%)",
+    "u": "https://www.mlit.go.jp/report/press/tokatsu01_hh_001025.html",
+    "date": "2026-07-10",
+    "method": "Government sample survey of major parcel carriers in April 2026; receipt-method use based on 3 major carriers, re-delivery rate on 6"
+   },
+   "sponsor_note": "",
+   "stories": []
+  },
+  {
+   "key": "india-shoppers-back-slower-quick-commerce",
+   "theme": "speed",
+   "regions": [
+    "AS"
+   ],
+   "title": "Most Indian quick-commerce users back limits on 10-minute delivery",
+   "big": "74%",
+   "label": "of Indian quick-commerce consumers back government moves to limit 10-minute deliveries; 38% say they never want such rapid deliveries",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: Gig-worker strikes and concern for rider and road safety have turned ultra-fast delivery from a perk into a question of conscience, and shoppers say they want that speed mainly for medicines and essentials.",
+   "means": "Speed promises in India will be shaped by labour and safety rules as much as by competition, which favours dependable short windows over a 10-minute race.",
+   "source": {
+    "pub": "Business Standard (LocalCircles survey)",
+    "t": "74% of consumers back limit on 10-minute deliveries: LocalCircles",
+    "u": "https://www.business-standard.com/industry/news/74-of-consumers-back-limit-on-10-minute-deliveries-localcircles-126011401097_1.html",
+    "date": "2026-01-14",
+    "method": "LocalCircles online community survey; more than 90,000 responses from 180 urban districts (49% tier 1, 28% tier 2, 23% tier 3 and 4); self-selected respondents"
+   },
+   "sponsor_note": "",
+   "stories": []
+  },
+  {
+   "key": "korea-china-direct-buying-turns-down",
+   "theme": "platforms",
+   "regions": [
+    "AS"
+   ],
+   "title": "Korean direct buying from China fell for the first time in years",
+   "big": "-5.7%",
+   "label": "year-on-year change in Korean online direct purchases from China in Q2 2026 (KRW 1.382 trillion, 65.3% of all direct purchases); total direct purchases fell 2.7%, the first fall in 14 quarters",
+   "direction": "down",
+   "previous": "",
+   "why": "Our reading: A weak won raised the cost of foreign orders, and repeated quality and safety complaints about goods from AliExpress and Temu have cooled casual buying.",
+   "means": "Korean inbound cross-border volume has stopped growing, so carriers serving the China to Korea lane should expect flat or falling volumes while growth shifts to outbound sales of Korean goods.",
+   "source": {
+    "pub": "Maeil Business Newspaper (Ministry of Data and Statistics data)",
+    "t": "中 알리·테무 직구 14분기만에 감소",
+    "u": "https://v.daum.net/v/qC2tcqB3Ca",
+    "date": "2026-08-04",
+    "method": "Official online shopping statistics, quarterly cross-border direct sales and purchases by country; not a survey of shoppers"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "platforms-go-local"
+   ]
+  },
+  {
+   "key": "china-instant-retail-outpaces-online",
+   "theme": "speed",
+   "regions": [
+    "CN"
+   ],
+   "title": "China's on-demand instant retail grows far faster than online retail",
+   "big": "20.15%",
+   "label": "growth of China's instant retail market in 2024 to RMB 781 billion, 12.95 points faster than online retail overall",
+   "direction": "up",
+   "previous": "",
+   "why": "Our reading: Platform subsidy battles over delivery from local stores within the hour have taught shoppers to expect everyday goods almost at once, which pulls volume away from next-day parcel networks.",
+   "means": "In China the speed frontier has moved from the express network to store-based rider delivery, leaving parcel carriers to compete mainly on cost.",
+   "source": {
+    "pub": "MOFCOM research institute (via Sina Finance)",
+    "t": "《即时零售行业发展报告（2025）》",
+    "u": "https://finance.sina.com.cn/jjxw/2025-11-25/doc-infyrfaa3011375.shtml",
+    "date": "2025-11-25",
+    "method": "Industry report by the Ministry of Commerce research institute; market-size estimates, not a shopper survey"
+   },
+   "sponsor_note": "",
+   "stories": []
+  },
+  {
+   "key": "china-online-shoppers-near-saturation",
+   "theme": "platforms",
+   "regions": [
+    "CN"
+   ],
+   "title": "Almost every Chinese internet user already shops online",
+   "big": "937 million",
+   "label": "online shoppers in China in December 2025, 83.2% of internet users",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: With most internet users already buying online, growth at home comes from frequency, live-stream and instant retail rather than new buyers, which is why Chinese platforms keep pushing abroad.",
+   "means": "The overseas expansion of Chinese platforms is structural, so export parcel volumes respond to foreign duty rules far more than to Chinese demand.",
+   "source": {
+    "pub": "CNNIC (via Sina Tech)",
+    "t": "第57次中国互联网络发展状况统计报告 (57th Statistical Report on China's Internet Development)",
+    "u": "https://finance.sina.com.cn/tech/roll/2026-03-17/doc-inhrfshc8397107.shtml",
+    "date": "2026-03-17",
+    "method": "CNNIC national statistical report on internet use, reference date December 2025; sampling details not stated in the coverage we opened"
+   },
+   "sponsor_note": "",
+   "stories": [
+    "platforms-go-local",
+    "us-china-rivalry"
+   ]
+  },
+  {
+   "key": "uae-shoppers-prepay-delivery",
+   "theme": "price",
+   "regions": [
+    "ME"
+   ],
+   "title": "Most UAE shoppers prepay for delivery through subscriptions",
+   "big": "64%",
+   "label": "of UAE online shoppers have a paid delivery and returns subscription; 84% prefer home delivery and 12% use parcel lockers",
+   "direction": "new",
+   "previous": "",
+   "why": "Our reading: In a market of time-poor, high-income households, shoppers prefer to prepay for fast home delivery through platform memberships rather than pay a fee on each order.",
+   "means": "In the Gulf the delivery price is increasingly set between carriers and platforms, not seen by the shopper at checkout, which strengthens platform bargaining power.",
+   "source": {
+    "pub": "Zawya (DHL press release)",
+    "t": "DHL E-Commerce Trends Report 2026: UAE stands out as a fast-moving e-commerce market",
+    "u": "https://www.zawya.com/en/press-release/research-studies/dhl-e-commerce-trends-report-2026-uae-stands-out-as-a-fast-moving-e-commerce-market-332536",
+    "date": "2026-06-23",
+    "method": "Online survey of 29,000 consumers (about 1,000 per country) and 5,800 businesses in 29 countries; fieldwork 15 December 2025 to 11 February 2026; UAE among the 29 countries"
+   },
+   "sponsor_note": "Survey run by a parcel carrier (DHL)",
+   "stories": []
+  }
+ ]
+}

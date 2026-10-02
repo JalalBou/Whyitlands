@@ -1099,6 +1099,142 @@
           "pub": "Universal Postal Union"
         }
       ]
+    },
+    {
+      "key": "in-post-parcel-tariff-last-mile-2026",
+      "title": "India Post revises parcel tariffs and adds a last-mile-only product",
+      "jurisdiction": "India (Department of Posts, Parcel Directorate)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "postal",
+      "status": "in-force",
+      "summary": "The Department of Posts revised tariffs for India Post Parcel (retail) and Speed Post Parcel and introduced India Post Parcel Last Mile, a delivery-only product for parcels injected into the postal network. Reported last-mile rates are ₹15 to ₹20 up to 2 kg and ₹22 to ₹35 for 2 to 5 kg, depending on booking location; contract discounts run from 5% to 17% by monthly revenue.",
+      "dates": [
+        {
+          "date": "2026-08-01",
+          "what": "Revised parcel tariffs take effect (as reported)",
+          "src": 0
+        },
+        {
+          "date": "2026-08-21",
+          "what": "Parcel Directorate circular No. 39-09/2025-PD orders publicity of the revised tariffs at post offices",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "E-commerce marketplaces",
+        "Parcel aggregators",
+        "Regional couriers serving rural India"
+      ],
+      "parcel": "A shipper or carrier can now buy delivery-only from India Post from ₹15 for a parcel up to 2 kg, instead of paying an end-to-end tariff.",
+      "prepare": [
+        "Price India Post last-mile injection against own or partner delivery in Tier II and Tier III postcodes",
+        "Check the official tariff schedule and contract discount bands before quoting, as the figures here come from a secondary report",
+        "Test cash-on-delivery remittance and tracking integration before moving volume"
+      ],
+      "read": "Our reading: together with the May 2026 Flipkart agreement, the new tariff positions India Post as a rural last-mile subcontractor for private networks. The rates reported here should be confirmed against the Department of Posts schedule.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "India Post Parcel Tariff Revised: What Customers Need to Know in 2026",
+          "u": "https://dineshgadhavi.substack.com/p/india-post-parcel-tariff-revised",
+          "pub": "Substack (Dinesh Gadhavi)",
+          "date": "2026-08-24"
+        },
+        {
+          "t": "Department of Posts and Flipkart Sign Agreement for Last Mile Parcel Delivery Services Across India",
+          "u": "https://cargoconnect.co.in/logistics/india-post-and-flipkart-sign-agreement-to-strengthen-last-mile-delivery-network-across-india",
+          "pub": "Cargo Connect",
+          "date": "2026-05-23"
+        }
+      ]
+    },
+    {
+      "key": "au-basic-postage-rate-2026",
+      "title": "Australia lifts the regulated stamp price to A$1.85 as letter losses persist",
+      "jurisdiction": "Australia (Australia Post, regulated Basic Postage Rate)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "postal",
+      "status": "in-force",
+      "summary": "An approved A$0.15 rise in the Basic Postage Rate took the standard letter to A$1.85 from 1 September 2026, following a A$0.20 rise in July 2025. The letters service lost A$63.2m in FY2026 as volumes fell 14.7% to 1.42 billion items.",
+      "dates": [
+        {
+          "date": "2026-09-01",
+          "what": "Basic Postage Rate rises from A$1.70 to A$1.85",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Bulk mailers",
+        "Australia Post"
+      ],
+      "parcel": "No direct change for parcels; parcel tariffs moved separately on 1 July 2026 (+4.95% retail and +4.25% contract for domestic parcels under 5 kg).",
+      "prepare": [
+        "Move paper notices, invoices and returns slips to digital channels where possible",
+        "Expect letter pricing to remain a recurring cost line rather than a one-off"
+      ],
+      "read": "Our reading: higher letter prices reduce, but do not close, the letters deficit that the parcels business otherwise has to carry. Further rises are likely while volumes keep falling at double-digit rates.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "Australia Post Reports Underlying Loss Of $108 Million As Property Sales Prop Up Bottom Line",
+          "u": "https://smbtech.au/news/australia-post-reports-underlying-loss-of-108-million-as-property-sales-prop-up-bottom-line/",
+          "pub": "SMBtech",
+          "date": "2026-08-29"
+        },
+        {
+          "t": "Australia Post Reports Loss, Uses Property Sales for Investment",
+          "u": "https://www.miragenews.com/australia-post-reports-loss-uses-property-sales-1734663/",
+          "pub": "Mirage News",
+          "date": "2026-08-28"
+        },
+        {
+          "t": "Australia Post price hikes: Domestic, international parcels and other services to go up from July 1",
+          "u": "https://thenightly.com.au/australia/australia-post-price-hikes-domestic-international-parcels-and-other-services-to-go-up-from-july-1-c-22349360",
+          "pub": "The Nightly",
+          "date": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "key": "au-ebike-online-marketplace-safety",
+      "title": "Australia funds e-bike safety standards and online marketplace reforms",
+      "jurisdiction": "Australia (Federal Government, 2026-27 Budget)",
+      "regions": [
+        "AS"
+      ],
+      "domain": "product-safety",
+      "status": "proposed",
+      "summary": "The 2026-27 federal Budget set aside A$6.6m to implement safety standards, recalls, online marketplace reforms and nationally consistent guidelines on e-bikes. Details of the marketplace obligations have not yet been published.",
+      "dates": [
+        {
+          "date": "2026-05-11",
+          "what": "Budget measure announced",
+          "src": 0
+        }
+      ],
+      "hits": [
+        "Online marketplaces selling e-bikes and batteries",
+        "Importers of e-bikes and parts"
+      ],
+      "parcel": "No parcel-level obligation published yet; the measure targets e-bikes and related goods sold through online marketplaces.",
+      "prepare": [
+        "Identify e-bike, battery and conversion-kit flows in Australian import volumes",
+        "Ask marketplace clients how they will evidence compliance with new e-bike standards"
+      ],
+      "read": "Our reading: this is a small, early-stage measure, but it points to marketplace accountability for battery-powered goods, which also affects how these items are accepted for carriage. Primary government documents should be checked before acting.",
+      "stories": [],
+      "sources": [
+        {
+          "t": "2026 Australian federal budget",
+          "u": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+          "pub": "Wikipedia",
+          "date": "2026-10-01"
+        }
+      ]
     }
   ]
 }

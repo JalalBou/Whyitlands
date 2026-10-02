@@ -1,930 +1,1135 @@
 {
- "updated": "2026-10-01",
- "moves": [
-  {
-   "date": "2026-09-30",
-   "co": "Bnode (ex-bpostgroup)",
-   "type": "network",
-   "regions": [
-    "EU",
-    "NA"
-   ],
-   "text": "Bnode launched Paxon as its single global 3PL brand, merging Radial, Staci, Active Ants and Base Logistics across Europe, Asia and North America.",
-   "src": "Bnode press release",
-   "url": "https://press.bnode.com/paxon-launches-as-bnodes-unified-global-3pl-brand",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-28",
-   "co": "Lalamove",
-   "type": "network",
-   "regions": [
-    "AS"
-   ],
-   "text": "Lalamove entered Mindanao (Davao, Cagayan de Oro, General Santos and five other cities) and expanded across Panay and Negros in the Visayas, building on its Cebu presence since 2022.",
-   "src": "The Philippine Star",
-   "url": "https://www.philstar.com/business/biz-memos/2026/09/28/2559529/lalamove-sets-wheels-motion-across-mindanao-more-parts-visayas",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-28",
-   "co": "Mercado Libre",
-   "type": "capacity",
-   "regions": [
-    "NA"
-   ],
-   "text": "Mercado Libre opened a 100,000 sq m fulfilment centre in El Salto, Jalisco (Mexico), investing MXN 911 million for over 3,600 shipments per hour and more than 900 direct jobs; it is its fifth logistics site in the state.",
-   "src": "FashionNetwork Mexico",
-   "url": "https://mx.fashionnetwork.com/news/Mercado-libre-fortalece-operaciones-en-jalisco-con-un-nuevo-centro-de-distribucion-de-100-000-metros-cuadrados,1870474.html",
-   "stories": [
-    "platforms-go-local",
-    "latam-split"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-28",
-   "co": "JINGDONG Property (JD.com)",
-   "type": "capacity",
-   "regions": [
-    "ME",
-    "CN"
-   ],
-   "text": "JD.com's property arm signed with KEZAD Group to build a 150,000 sq m automated logistics facility in Abu Dhabi's Kezad zone, due for completion in 2028 with about 1,000 direct jobs.",
-   "src": "The National",
-   "url": "https://www.thenationalnews.com/business/property/2026/09/28/jdcoms-new-logistics-hub-at-abu-dhabis-kezad-to-create-1000-jobs/",
-   "stories": [
-    "mena-gateway",
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-28",
-   "co": "Egyptian Customs Authority",
-   "type": "partnership",
-   "regions": [
-    "NAF"
-   ],
-   "text": "Egypt's customs head unveiled a cross-border e-commerce clearance roadmap built on digitalisation, electronic data exchange and risk management, run within a MENA digital trade programme with the EU, GIZ and the International Trade Centre.",
-   "src": "Shof News",
-   "url": "https://shofnews.com/138769/%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%B7%D8%B1%D9%8A%D9%82-%D8%AC%D9%85%D8%B1%D9%83%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B5%D8%B1/",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "decision"
-  },
-  {
-   "date": "2026-09-25",
-   "co": "bpost",
-   "type": "capacity",
-   "regions": [
-    "EU"
-   ],
-   "text": "Bpost opened a 7,930 m2 parcel-designed distribution centre in Maldegem (3,000 parcels a day, 44 EV chargers), its third modernised centre in 12 months, citing a 14% fall in letters and record parcel days of up to 829,000 items.",
-   "src": "Bnode press release",
-   "url": "https://press.bnode.com/bpost-opens-new-distribution-centre-tailored-to-parcel-delivery",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-25",
-   "co": "SF Airlines (SF Holding)",
-   "type": "network",
-   "regions": [
-    "CN",
-    "AS"
-   ],
-   "text": "SF Airlines launched a Boeing 767 Shanghai to Singapore freighter route, building out Changi as its first overseas hub for South-east Asia, South Asia and Oceania under an MoU signed with Changi Airport Group earlier in 2026.",
-   "src": "Air Cargo News",
-   "url": "https://www.aircargonews.net/freighter-operator/2026/09/sf-airlines-adds-singapore-flight-as-it-expands-at-its-first-overseas-hub/",
-   "stories": [
-    "asean-digital"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-23",
-   "co": "Veho",
-   "type": "partnership",
-   "regions": [
-    "NA"
-   ],
-   "text": "Veho opened its delivery network to shippers of any size with no contract or volume minimum through a multi-carrier label platform's wallet, starting in Atlanta and adding Los Angeles, Dallas, Philadelphia and Chicago during 2026.",
-   "src": "Yahoo Finance (Veho release)",
-   "url": "https://finance.yahoo.com/small-business/articles/veho-expands-access-delivery-network-130000480.html",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-23",
-   "co": "International Distribution Services (Royal Mail)",
-   "type": "acquisition",
-   "regions": [
-    "UK"
-   ],
-   "text": "IDS agreed to buy Quadient's open UK network of about 3,000 parcel lockers for EUR 65 million, taking Royal Mail's out-of-home network to about 30,000 points; Quadient said it intends to sell its whole lockers business.",
-   "src": "Quadient press release (GlobeNewswire)",
-   "url": "https://www.globenewswire.com/news-release/2026/09/23/3367676/0/en/quadient-announces-intention-to-sell-lockers-business-as-a-first-step-sale-of-uk-open-network-signed-for-65-million.html",
-   "stories": [
-    "networks-consolidate",
-    "uk-three-rulebooks"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-23",
-   "co": "JD Logistics",
-   "type": "capacity",
-   "regions": [
-    "CN",
-    "GLOBAL"
-   ],
-   "text": "JD Logistics said its overseas floor space exceeded 2 million sq m at 30 June 2026 across more than 200 bonded, direct-mail and overseas warehouses in 26 countries and regions, including the UAE, targeting two to three-day delivery.",
-   "src": "PR Newswire (JD Logistics)",
-   "url": "https://www.prnewswire.com/news-releases/jingdong-logistics-details-global-network-build-out-and-the-expansion-of-joylogistics-operations-302888323.html",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-22",
-   "co": "Tanger Med",
-   "type": "network",
-   "regions": [
-    "NAF"
-   ],
-   "text": "Tanger Med handled 84 million tonnes in H1 2026 (+6%) with revenue of MAD 2.479 billion (+8.6%), as major carriers progressively resume Suez Canal transits.",
-   "src": "El Estrecho Digital",
-   "url": "https://www.elestrechodigital.com/en/2026/09/22/tanger-med-moves-84-million-tons-until-june-amid-the-reorganization-of-routes-through-suez",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-18",
-   "co": "FedEx",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "FedEx set 2027 list rates for US, US export and US import packages up 5.9% on average from 4 Jan 2027, with new paper document fees from 18 Jan and zone reclassification for select US ZIP pairs from 1 Feb.",
-   "src": "FedEx",
-   "url": "https://www.fedex.com/en-us/shipping/rate-changes.html",
-   "stories": [
-    "north-america-rulebook"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-18",
-   "co": "InPost / FedEx / Advent",
-   "type": "acquisition",
-   "regions": [
-    "EU",
-    "UK"
-   ],
-   "text": "A consortium of FedEx, Advent International and other InPost investors secured 89.81% of InPost shares, above the 80% threshold, in a takeover valuing InPost at EUR 7.8 billion.",
-   "src": "Reuters via TradingView",
-   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45A0S0:0-fedex-advent-led-consortium-secures-over-89-of-inpost-shares-in-takeover-offer/",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-16",
-   "co": "Poste Italiane",
-   "type": "acquisition",
-   "regions": [
-    "EU"
-   ],
-   "text": "Poste Italiane completed its exchange offer for Telecom Italia, reaching about 66.6% of TIM's share capital, with a reopening window from 21 to 25 September.",
-   "src": "Telecom Review Europe",
-   "url": "https://www.telecomrevieweurope.com/articles/telecom-operators/poste-italiane-takes-majority-stake-in-tim-after-exchange-offer/",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-15",
-   "co": "OnTrac",
-   "type": "capacity",
-   "regions": [
-    "NA"
-   ],
-   "text": "OnTrac said it will add 25 to 30% network capacity in 2026, focused on the Northeast, and is piloting 'Dynamic Savings' discounts when capacity is available, with wider testing from Q1 2027.",
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/ontrac-aims-to-turn-available-capacity-into-lower-delivery-prices/830393/",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-14",
-   "co": "SCommerce (Giao Hang Nhanh)",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "GHN parent SCommerce reported H1 2026 net profit of VND92.4bn, down 94.5%, while bank loans nearly doubled to VND2,049bn to fund automated sorting, including a Tay Ninh hub financed by a VND580bn ADB-guaranteed bond issued in May.",
-   "src": "Tuoi Tre",
-   "url": "https://tuoitre.vn/loi-nhuan-cong-ty-dung-sau-giao-hang-nhanh-bat-ngo-giam-94-100260914145321015.htm",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-14",
-   "co": "DP World",
-   "type": "network",
-   "regions": [
-    "ME"
-   ],
-   "text": "DP World is growing its Gulf truck fleet from 700 to 1,000 and runs up to 50 trucks a week on an Amsterdam to Dubai road service via Turkey, with a land bridge linking Fujairah, Salalah and Jeddah; land routing costs three to four times sea.",
-   "src": "SupplyChainBrain",
-   "url": "https://www.supplychainbrain.com/articles/44837-ports-giant-dp-world-redraws-hormuz-logistics-with-truck-bet",
-   "stories": [
-    "hormuz-fuel",
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-14",
-   "co": "West Med Container Terminal (Marsa Maroc / TIL)",
-   "type": "capacity",
-   "regions": [
-    "NAF"
-   ],
-   "text": "The Nador West Med East container terminal, a Marsa Maroc and TIL joint venture, completed live operational trials ahead of commercial operations planned for Q4 2026.",
-   "src": "WorldCargo News",
-   "url": "https://www.worldcargonews.com/news/2026/09/nador-west-med-east-terminal-is-ready-for-its-first-ship/",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-12",
-   "co": "Correios",
-   "type": "network",
-   "regions": [
-    "SA"
-   ],
-   "text": "Brazil's Correios is structuring a Treasury-guaranteed loan of about R$7 billion with four banks after an R$8.5 billion loss in 2025 and more than R$5.5 billion in H1 2026, following an R$12 billion operation in December 2025.",
-   "src": "Brasil em Folhas",
-   "url": "https://www.brasilemfolhas.com.br/2026/09/correios-planejam-novo-emprestimo-de-r-7-bilhoes/",
-   "stories": [
-    "latam-split",
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-11",
-   "co": "DPD UK",
-   "type": "capacity",
-   "regions": [
-    "UK"
-   ],
-   "text": "DPD UK ordered 341 Mercedes-Benz eSprinter vans, taking its electric fleet past 4,000 vehicles and extending EV routes beyond city centres, all in service by end of October 2026.",
-   "src": "electrive",
-   "url": "https://www.electrive.com/2026/09/11/dpd-uk-orders-341-mercedes-benz-esprinter-vans/",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-04",
-   "co": "InPost",
-   "type": "network",
-   "regions": [
-    "EU",
-    "UK"
-   ],
-   "text": "InPost reported 70,000 parcel lockers and 100,000 out-of-home points in Europe and plans about 19,000 new lockers in 2026 (about 11,000 in the euro area, 5,000 in UK and Ireland, 3,000 in Poland).",
-   "src": "Shev IO",
-   "url": "https://shev.io/en/news/inpost-expands-european-network-to-70000-parcel-lockers",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-04",
-   "co": "bpost",
-   "type": "product",
-   "regions": [
-    "EU"
-   ],
-   "text": "Bpost equipped 93,000 parcel containers with live trackers to optimise its logistics flows.",
-   "src": "Bnode press release",
-   "url": "https://press.bnode.com/bpost-equips-93000-parcel-containers-with-live-trackers-to-optimize-its-logistics-flows",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-03",
-   "co": "Amazon Shipping",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "Amazon Shipping set peak surcharges from 25 Oct 2026 to 16 Jan 2027 (USD 0.50 to 0.75 per package, large package up to USD 117.50) for its first peak as a service open to all businesses, without a volume-based surcharge.",
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-09-03",
-   "co": "Amazon Brazil",
-   "type": "capacity",
-   "regions": [
-    "SA"
-   ],
-   "text": "Amazon opened its first fulfilment centre in Paraná (São José dos Pinhais), 24,000 sq m with initial capacity of 700,000 packages a week, operated by ID Logistics and enabling same-day delivery in the state.",
-   "src": "Diário do Grande ABC",
-   "url": "https://www.dgabc.com.br/Noticia/4344918/primeiro-centro-de-distribuicao-da-amazon-e-aberto-no-parana-",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-31",
-   "co": "UPS",
-   "type": "network",
-   "regions": [
-    "NA",
-    "GLOBAL"
-   ],
-   "text": "UPS announced a new global operating model from 1 Sep 2026 after completing its Amazon volume transition and network reconfiguration in June, with one Chief U.S. Domestic Officer over small package, Roadie, Happy Returns, The UPS Store and Mail Innovations.",
-   "src": "UPS",
-   "url": "https://about.ups.com/us/en/newsroom/press-releases/our-strategy/ups-announces-executive-leadership-changes-and-new-global-operat.html",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-31",
-   "co": "Marsa Maroc",
-   "type": "capacity",
-   "regions": [
-    "NAF"
-   ],
-   "text": "Marsa Maroc's H1 2026 revenue rose 13% to MAD 3.214 billion on 34.5 million tonnes (+3%), with domestic containers up 7% and MAD 3.4 billion of capex, mainly for the new Nador West Med terminals.",
-   "src": "TelQuel",
-   "url": "https://telquel.ma/instant-t/2026/08/31/marsa-maroc-le-chiffre-daffaires-en-hausse-de-13-au-premier-semestre-2026_2004731",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-28",
-   "co": "Cainiao",
-   "type": "network",
-   "regions": [
-    "NA",
-    "CN"
-   ],
-   "text": "Cainiao extended its Mexican local express network from 20 states to nationwide coverage, combining customs clearance and last mile through a 20,000 sq m sorting centre near Felipe Ángeles airport and 38 delivery stations, serving Mercado Libre, Temu, TikTok and Inditex.",
-   "src": "Air Cargo News",
-   "url": "https://www.aircargonews.net/e-commerce-logistics/2026/08/cainiao-strengthens-cross-border-customs-clearance-capabilities-in-mexico/",
-   "stories": [
-    "platforms-go-local",
-    "latam-split"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-27",
-   "co": "UPS",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "UPS published 2026 peak surcharges: size-related charges from 27 Sep and demand surcharges from 25 Oct to 16 Jan 2027, with service-level charges up about 22 to 25% on 2025.",
-   "src": "Supply Chain Dive",
-   "url": "https://www.supplychaindive.com/news/ups-preps-higher-holiday-surcharges-for-2026/828936/",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-27",
-   "co": "YTO Express",
-   "type": "pricing",
-   "regions": [
-    "CN"
-   ],
-   "text": "YTO's H1 2026 revenue per parcel fell 1.04% to RMB 2.17 while net profit rose 73.44%, diverging from peers that raised prices under the regulator's anti-involution push.",
-   "src": "Tencent News",
-   "url": "https://news.qq.com/rain/a/20260827A09PCO00",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-26",
-   "co": "SingPost",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "SingPost reported operating profit up 55.2% to S$4.1m for the quarter to June, with domestic parcels up 36.5% to 7.1m items, and commissioned a S$30m automated parcel sortation facility in July targeting more than 10% cost reduction.",
-   "src": "Yahoo News Singapore",
-   "url": "https://sg.news.yahoo.com/singpost-q1-operating-profit-55-103600847.html",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-25",
-   "co": "USPS",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "USPS announced temporary holiday prices on Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select from 4 Oct 2026 to 17 Jan 2027, with retail Priority Mail up USD 1.00 to 9.10 in zones 5 to 9.",
-   "src": "USPS Newsroom",
-   "url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-25",
-   "co": "Cainiao",
-   "type": "capacity",
-   "regions": [
-    "EU",
-    "CN"
-   ],
-   "text": "Cainiao opened warehouses near Paris (its fourth in the city) and in Mannheim (20,000 m2, plus 40,000 m2 planned), bringing to seven its European openings since April 2026 across the Netherlands, France, Spain, Poland, the UK and Germany.",
-   "src": "International Transport Journal",
-   "url": "https://transportjournal.com/2026/08/25/cainiao-opens-warehouse-in-paris-and-mannheim/",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-20",
-   "co": "J&T Express",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "J&T reported 5.52bn Southeast Asian parcels in H1 2026 (+71.2%) and a 38.1% regional share (+5.3 points), and added 11 sorting lines in the region (75 in total).",
-   "src": "J&T Express via Newswire / Investing.com",
-   "url": "https://www.newswire.ca/news-releases/j-amp-t-express-adjusted-net-profit-up-124-3-yoy-in-1h2026-overall-profitability-continues-to-strengthen-839187168.html",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-20",
-   "co": "bpost",
-   "type": "capacity",
-   "regions": [
-    "EU"
-   ],
-   "text": "Bpost ordered 19 double-deck trailers carrying over 2,000 parcels each (60% more than a standard truck), in service from mid-November for peak days of up to 800,000 parcels.",
-   "src": "Bnode press release",
-   "url": "https://press.bnode.com/bpost-invests-in-new-double-deck-trailers-to-transport-more-parcels-with-fewer-journeys",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-18",
-   "co": "ZTO Express",
-   "type": "pricing",
-   "regions": [
-    "CN"
-   ],
-   "text": "ZTO handled 10.49 billion parcels in Q2 2026 (+6.5%, 19.9% share) while core express price per parcel rose 15.5%, and set full-year volume growth guidance at 6 to 10%, citing slowing industry growth.",
-   "src": "Stock Titan (ZTO results release)",
-   "url": "https://www.stocktitan.net/news/ZTO/zto-reports-second-quarter-2026-unaudited-financial-424tafj64gf8.html",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-15",
-   "co": "FedEx",
-   "type": "closure",
-   "regions": [
-    "NA"
-   ],
-   "text": "FedEx is closing five more facilities in Missouri and California under Network 2.0, after optimising about 490 stations handling 45% of eligible volume by June, with 65% targeted before peak.",
-   "src": "TheStreet (via Yahoo Finance)",
-   "url": "https://finance.yahoo.com/small-business/articles/fedex-closes-more-u-locations-160300304.html",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-14",
-   "co": "Pos Malaysia",
-   "type": "network",
-   "regions": [
-    "AS"
-   ],
-   "text": "Pos Malaysia's Q2 FY2026 revenue rose 9.0% to RM481.3m, postal parcel volumes grew 34.3% and the H1 pre-tax loss narrowed 30.6% to RM55.4m.",
-   "src": "IPC",
-   "url": "https://www.ipc.be/news-portal/general-news/2026/08/24/10/00/pos-malaysia-group-reports-second-quarter-fy2026-results",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-13",
-   "co": "DP World",
-   "type": "network",
-   "regions": [
-    "ME"
-   ],
-   "text": "Jebel Ali container throughput fell 90.1% year on year in Q2 2026 to 374,000 TEU and 59.5% in H1, while DP World agreed 50-year concessions for two new terminals at Fujairah, outside the Strait of Hormuz.",
-   "src": "WorldCargo News",
-   "url": "https://www.worldcargonews.com/business/2026/08/dp-world-h1-profit-throughput-hit-by-hormuz-impact-at-jebel-ali/",
-   "stories": [
-    "hormuz-fuel",
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-12",
-   "co": "Jumia",
-   "type": "product",
-   "regions": [
-    "NAF"
-   ],
-   "text": "Jumia's Q2 2026 physical goods orders rose 28% to 6.3 million, items from Chinese sellers grew 96% year on year and 75% of packages went through pickup stations; it also priced a USD 50 million equity raise anchored by IFC.",
-   "src": "Stock Titan (Jumia 6-K)",
-   "url": "https://www.stocktitan.net/sec-filings/JMIA/6-k-jumia-technologies-ag-current-report-foreign-issuer-902b1801c402.html",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-11",
-   "co": "Shopee (Sea Ltd)",
-   "type": "product",
-   "regions": [
-    "AS"
-   ],
-   "text": "Sea said Shopee's instant-delivery orders in Indonesia grew 80% year on year with cost per order down about 20%, and fulfilment orders rose more than 20% quarter on quarter, on Q2 GMV of US$38.3bn.",
-   "src": "The Motley Fool (earnings call transcript)",
-   "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/sea-limited-se-q2-2026-earnings-call-transcript/",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-11",
-   "co": "bpost / City of Ostend",
-   "type": "partnership",
-   "regions": [
-    "EU"
-   ],
-   "text": "Bpost and Ostend launched the first open Bbox City Network (20 lockers, about 10 more planned), which other carriers such as DHL can also deliver into.",
-   "src": "Bnode press release",
-   "url": "https://press.bnode.com/bpost-and-ostend-launch-first-bbox-city-network-easing-pressure-on-the-city-while-offering-a-range-of-additional-services",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-07",
-   "co": "USPS",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "Postmaster General David Steiner said USPS will request density rate authority in its January 2027 price change, worth USD 600m to 800m, after a quarter in which package revenue rose 7.7% on 3.4% fewer packages.",
-   "src": "USPS Newsroom",
-   "url": "https://about.usps.com/newsroom/national-releases/2026/0807-remarks-by-postmaster-general-david-steiner-at-the-aug-7-2026-usps-board-of-governors-meeting.htm",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-06",
-   "co": "Viettel Post",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "Viettel Post added 40 refrigerated container trucks for north-south routes in July and deployed in-house AGV sorting robots, after becoming FedEx's network operating partner in Vietnam from April 2026; H1 net profit fell 33%.",
-   "src": "VTC News",
-   "url": "https://vtcnews.vn/viettel-post-cong-bo-chien-luoc-mo-rong-ha-tang-logistics-ar1032972.html",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-05",
-   "co": "Mercado Libre",
-   "type": "network",
-   "regions": [
-    "SA",
-    "NA"
-   ],
-   "text": "Mercado Libre sold 795 million items in Q2 2026 (+45%, Brazil +56%), delivered 77% of fast shipments within 48 hours, and grew cross-border GMV 60% with its China fulfilment centre volume up 170% quarter on quarter.",
-   "src": "Mercado Libre press release via Nasdaq",
-   "url": "https://www.nasdaq.com/press-release/mercado-libre-q2-2026-revenue-surpasses-10-billion-deepening-engagement-strengthens",
-   "stories": [
-    "platforms-go-local",
-    "latam-split"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-05",
-   "co": "Aramex",
-   "type": "network",
-   "regions": [
-    "ME"
-   ],
-   "text": "Aramex posted record Q2 2026 revenue of AED 1.83 billion (+22%), led by freight forwarding; international express volumes stabilised and it kept service running through Europe to Middle East land solutions and air and sea charters.",
-   "src": "Aramex",
-   "url": "https://www.aramex.com/ae/en/media-details/news/news-details?contentid=c906cf88-b3f2-659d-9310-ff0100e7fe0c&module=stories",
-   "stories": [
-    "hormuz-fuel",
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-08-05",
-   "co": "Cainiao",
-   "type": "product",
-   "regions": [
-    "CN",
-    "EU",
-    "ME"
-   ],
-   "text": "Cainiao launched a global three-day delivery service on 15 routes, including Hong Kong to the UK and Netherlands and Saudi Arabia to the UAE, backed by about 170 chartered or block-space flights a week.",
-   "src": "Air Cargo News",
-   "url": "https://www.aircargonews.net/e-commerce-logistics/2026/08/cainiao-adds-speedy-cross-border-shipping-service/",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-29",
-   "co": "Shopee Brazil",
-   "type": "capacity",
-   "regions": [
-    "SA"
-   ],
-   "text": "Shopee is taking its Brazilian distribution centres from 16 to 26 in 2026, mixing cross-docking and seller fulfilment sites, with four new units adding more than 2 million orders a day of capacity.",
-   "src": "Mercado & Consumo",
-   "url": "https://mercadoeconsumo.com.br/29/07/2026/logistica/shopee-aumenta-em-mais-de-60-o-numero-de-centros-de-distribuicao-no-brasil-em-2026/",
-   "stories": [
-    "platforms-go-local",
-    "latam-split"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-28",
-   "co": "UPS",
-   "type": "network",
-   "regions": [
-    "NA"
-   ],
-   "text": "UPS said it had completed its Amazon glide-down, removing about 2m pieces a day; Q2 US Domestic revenue rose 6.0% to USD 14.93bn on 9.3% higher revenue per piece and 3.3% lower volume.",
-   "src": "UPS Investor Relations",
-   "url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-24",
-   "co": "USPS / CBP",
-   "type": "product",
-   "regions": [
-    "NA"
-   ],
-   "text": "From 24 Jul 2026 standard duties apply to inbound shipments handled by USPS, with postal informal entries for goods up to USD 2,500 filed by a broker or owner and duties paid by the 7th of the month following arrival.",
-   "src": "Federal Register (CBP)",
-   "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
-   "stories": [
-    "de-minimis-end",
-    "north-america-rulebook"
-   ],
-   "layer": "decision"
-  },
-  {
-   "date": "2026-07-21",
-   "co": "Cainiao",
-   "type": "network",
-   "regions": [
-    "EU",
-    "CN"
-   ],
-   "text": "Cainiao connected its Eastern Europe network, offering 4 to 6 day parcel delivery from Western Europe to Poland, Hungary, Czechia, Romania and Bulgaria, and daily German pickups from 50 parcels.",
-   "src": "Parcel and Postal Technology International",
-   "url": "https://www.parcelandpostaltechnologyinternational.com/news/cross-border/cainiao-connects-eastern-europe-to-cross-border-logistics-service.html",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-12",
-   "co": "USPS",
-   "type": "pricing",
-   "regions": [
-    "NA"
-   ],
-   "text": "USPS priced all commercial Ground Advantage parcels under 1 lb at a single rate per zone (+11.8% average), cut the DIM divisor from 166 to 139 and added a USD 50 undeclared hazmat fee.",
-   "src": "Pirate Ship",
-   "url": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-07",
-   "co": "J&T Express",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "J&T handled 2.755bn Southeast Asian parcels in Q2 2026 (+63.2%), and added 6 sorting centres (to 127) and 11 automated sorting lines (to 75) in the region.",
-   "src": "J&T Express via PR Newswire",
-   "url": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-07",
-   "co": "J&T Express",
-   "type": "network",
-   "regions": [
-    "CN",
-    "AS",
-    "SA",
-    "ME"
-   ],
-   "text": "J&T passed 100 million parcels a day in Q2 2026; volume in its new markets (Latin America, Middle East) rose 136.5% to 211 million, South-east Asia 63.2%, China 10.6%.",
-   "src": "PR Newswire (J&T Global Express)",
-   "url": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
-   "stories": [
-    "asean-digital",
-    "latam-split"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-07-01",
-   "co": "GLS Group",
-   "type": "partnership",
-   "regions": [
-    "EU"
-   ],
-   "text": "GLS formed a joint venture with Turkish logistics investors led by Aslan Kut to launch GLS Türkiye by end of 2026, positioned as a Europe to Asia gateway.",
-   "src": "GLS Group press release",
-   "url": "https://gls-group.com/GROUP/newsroom/newsroom/news-detail_448.html",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-23",
-   "co": "Lazada",
-   "type": "closure",
-   "regions": [
-    "AS"
-   ],
-   "text": "Lazada cut about 5% of its Southeast Asian workforce, including in Singapore, citing business needs and organisational efficiency.",
-   "src": "Mothership",
-   "url": "https://mothership.sg/2026/06/lazada-layoffs-5-percent/",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-17",
-   "co": "Cainiao",
-   "type": "capacity",
-   "regions": [
-    "EU",
-    "CN"
-   ],
-   "text": "Cainiao signed a 10-year lease on a 26,000 m2 robotised fulfilment centre in the Netherlands near Rotterdam, its second in the country, after four warehouse launches in April 2026 in the UK, France, Spain and Poland.",
-   "src": "Max Freights",
-   "url": "https://company.maxfreights.com/2026/06/17/new-fulfilment-centre-in-the-netherlands/",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-17",
-   "co": "Royal Air Maroc Cargo",
-   "type": "network",
-   "regions": [
-    "NAF"
-   ],
-   "text": "Royal Air Maroc Cargo set out a strategy to route high-value Asia to Africa cargo, including e-commerce, through its Casablanca hub (about 200,000 tonnes a year, 30+ African destinations), with Beijing as its Asian gateway.",
-   "src": "North Africa Post",
-   "url": "https://northafricapost.com/98091-royal-air-maroc-cargo-targets-high-value-asia-africa-trade-via-casablanca-hub.html",
-   "stories": [
-    "mena-gateway"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-10",
-   "co": "Amazon Supply Chain Services",
-   "type": "product",
-   "regions": [
-    "NA"
-   ],
-   "text": "Amazon opened its LTL freight service to all businesses and destinations, including third-party warehouses and retail locations, backed by more than 80,000 trailers and 24,000 intermodal containers.",
-   "src": "Business Wire (via Yahoo Finance)",
-   "url": "https://finance.yahoo.com/economy/policy/articles/amazon-supply-chain-services-launches-100000757.html",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-10",
-   "co": "KEX Express (SF Holding)",
-   "type": "product",
-   "regions": [
-    "AS"
-   ],
-   "text": "SF-owned KEX announced a transformation into an end-to-end logistics provider (fulfilment, customs clearance, freight forwarding) focused on premium and high-value parcels, using more than 15,000 service points in Thailand.",
-   "src": "KEX Express",
-   "url": "https://th.kex-express.com/en/news/361271/kex-marks-20-years-with-a-major-business-transformation-toward-becoming-an-end-to-end-smart-logistics-solution-targets-stronger-growth-in-h2-2026-with-smart-technology-to-drive-premium-delivery-deman",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-09",
-   "co": "J&T Express",
-   "type": "capacity",
-   "regions": [
-    "AS"
-   ],
-   "text": "J&T moved 213m Southeast Asian parcels in the 'Double 6' campaign (+83.5%), averaging 35.51m a day and peaking above 37m, with Indonesia up 112% and Thailand up 89%.",
-   "src": "J&T Express via PR Newswire",
-   "url": "https://www.prnewswire.com/news-releases/jt-expresss-double-6-parcel-volume-hits-new-high-surging-83-5-yoy-in-southeast-asia-302795112.html",
-   "stories": [],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-01",
-   "co": "FedEx",
-   "type": "network",
-   "regions": [
-    "NA"
-   ],
-   "text": "FedEx completed the spin-off of FedEx Freight (NYSE: FDXF), distributing 80.1% of shares and leaving FedEx as a pure-play parcel company.",
-   "src": "FedEx Newsroom",
-   "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-completes-spin-off-of-fedex-freight",
-   "stories": [
-    "networks-consolidate"
-   ],
-   "layer": "market"
-  },
-  {
-   "date": "2026-06-01",
-   "co": "TikTok Shop (Indonesia)",
-   "type": "pricing",
-   "regions": [
-    "AS"
-   ],
-   "text": "TikTok Shop by Tokopedia began charging sellers up to Rp5,000 per failed delivery and up to Rp5,000 per buyer-preference return, with fees waived for three months and the system active from 1 September 2026.",
-   "src": "Bisnis.com",
-   "url": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller",
-   "stories": [
-    "platforms-go-local"
-   ],
-   "layer": "parcel"
-  }
- ]
+  "updated": "2026-10-02",
+  "moves": [
+    {
+      "date": "2026-09-30",
+      "co": "Bnode (ex-bpostgroup)",
+      "type": "network",
+      "regions": [
+        "EU",
+        "NA"
+      ],
+      "text": "Bnode launched Paxon as its single global 3PL brand, merging Radial, Staci, Active Ants and Base Logistics across Europe, Asia and North America.",
+      "src": "Bnode press release",
+      "url": "https://press.bnode.com/paxon-launches-as-bnodes-unified-global-3pl-brand",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-29",
+      "co": "Sagawa Express (SG Holdings)",
+      "type": "pricing",
+      "regions": [
+        "AS"
+      ],
+      "text": "Sagawa added a peak surcharge of ¥20 to ¥150 per kg, depending on destination, to its Hikyaku international parcel service for pickups from 1 Oct 2026 to 5 Feb 2027.",
+      "src": "LNEWS",
+      "url": "https://www.lnews.jp/2026/09/s0929101.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-28",
+      "co": "Lalamove",
+      "type": "network",
+      "regions": [
+        "AS"
+      ],
+      "text": "Lalamove entered Mindanao (Davao, Cagayan de Oro, General Santos and five other cities) and expanded across Panay and Negros in the Visayas, building on its Cebu presence since 2022.",
+      "src": "The Philippine Star",
+      "url": "https://www.philstar.com/business/biz-memos/2026/09/28/2559529/lalamove-sets-wheels-motion-across-mindanao-more-parts-visayas",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-28",
+      "co": "Mercado Libre",
+      "type": "capacity",
+      "regions": [
+        "NA"
+      ],
+      "text": "Mercado Libre opened a 100,000 sq m fulfilment centre in El Salto, Jalisco (Mexico), investing MXN 911 million for over 3,600 shipments per hour and more than 900 direct jobs; it is its fifth logistics site in the state.",
+      "src": "FashionNetwork Mexico",
+      "url": "https://mx.fashionnetwork.com/news/Mercado-libre-fortalece-operaciones-en-jalisco-con-un-nuevo-centro-de-distribucion-de-100-000-metros-cuadrados,1870474.html",
+      "stories": [
+        "platforms-go-local",
+        "latam-split"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-28",
+      "co": "JINGDONG Property (JD.com)",
+      "type": "capacity",
+      "regions": [
+        "ME",
+        "CN"
+      ],
+      "text": "JD.com's property arm signed with KEZAD Group to build a 150,000 sq m automated logistics facility in Abu Dhabi's Kezad zone, due for completion in 2028 with about 1,000 direct jobs.",
+      "src": "The National",
+      "url": "https://www.thenationalnews.com/business/property/2026/09/28/jdcoms-new-logistics-hub-at-abu-dhabis-kezad-to-create-1000-jobs/",
+      "stories": [
+        "mena-gateway",
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-28",
+      "co": "Egyptian Customs Authority",
+      "type": "partnership",
+      "regions": [
+        "NAF"
+      ],
+      "text": "Egypt's customs head unveiled a cross-border e-commerce clearance roadmap built on digitalisation, electronic data exchange and risk management, run within a MENA digital trade programme with the EU, GIZ and the International Trade Centre.",
+      "src": "Shof News",
+      "url": "https://shofnews.com/138769/%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%B7%D8%B1%D9%8A%D9%82-%D8%AC%D9%85%D8%B1%D9%83%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D9%85%D8%B5%D8%B1/",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "decision"
+    },
+    {
+      "date": "2026-09-28",
+      "co": "Evri",
+      "type": "network",
+      "regions": [
+        "UK"
+      ],
+      "text": "Evri's move from larger centralised depots to smaller local sites caused collection backlogs at some ParcelShops and Post Office branches; it added over 100 collection routes and about 330 sweeper vans.",
+      "src": "Express & Star (PA)",
+      "url": "https://www.expressandstar.com/uk-news/evri-facing-delivery-disruption-amid-network-overhaul-reports-9206781",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-25",
+      "co": "bpost",
+      "type": "capacity",
+      "regions": [
+        "EU"
+      ],
+      "text": "Bpost opened a 7,930 m2 parcel-designed distribution centre in Maldegem (3,000 parcels a day, 44 EV chargers), its third modernised centre in 12 months, citing a 14% fall in letters and record parcel days of up to 829,000 items.",
+      "src": "Bnode press release",
+      "url": "https://press.bnode.com/bpost-opens-new-distribution-centre-tailored-to-parcel-delivery",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-25",
+      "co": "SF Airlines (SF Holding)",
+      "type": "network",
+      "regions": [
+        "CN",
+        "AS"
+      ],
+      "text": "SF Airlines launched a Boeing 767 Shanghai to Singapore freighter route, building out Changi as its first overseas hub for South-east Asia, South Asia and Oceania under an MoU signed with Changi Airport Group earlier in 2026.",
+      "src": "Air Cargo News",
+      "url": "https://www.aircargonews.net/freighter-operator/2026/09/sf-airlines-adds-singapore-flight-as-it-expands-at-its-first-overseas-hub/",
+      "stories": [
+        "asean-digital"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-25",
+      "co": "Estafeta",
+      "type": "network",
+      "regions": [
+        "NA"
+      ],
+      "text": "Estafeta announced MXN193 million of investment in its State of Mexico operations, which include 38 branches, with more than 1,500 jobs; Geodis added MXN100 million in Tultepec.",
+      "src": "Cúspide México",
+      "url": "https://cuspidemexico.com/2026/09/25/aumenta-el-sector-logistico-en-el-edomex-estafeta-y-geodis-anuncian-inversiones-de-casi-300-mdp/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-23",
+      "co": "Veho",
+      "type": "partnership",
+      "regions": [
+        "NA"
+      ],
+      "text": "Veho opened its delivery network to shippers of any size with no contract or volume minimum through a multi-carrier label platform's wallet, starting in Atlanta and adding Los Angeles, Dallas, Philadelphia and Chicago during 2026.",
+      "src": "Yahoo Finance (Veho release)",
+      "url": "https://finance.yahoo.com/small-business/articles/veho-expands-access-delivery-network-130000480.html",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-23",
+      "co": "International Distribution Services (Royal Mail)",
+      "type": "acquisition",
+      "regions": [
+        "UK"
+      ],
+      "text": "IDS agreed to buy Quadient's open UK network of about 3,000 parcel lockers for EUR 65 million, taking Royal Mail's out-of-home network to about 30,000 points; Quadient said it intends to sell its whole lockers business.",
+      "src": "Quadient press release (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367676/0/en/quadient-announces-intention-to-sell-lockers-business-as-a-first-step-sale-of-uk-open-network-signed-for-65-million.html",
+      "stories": [
+        "networks-consolidate",
+        "uk-three-rulebooks"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-23",
+      "co": "JD Logistics",
+      "type": "capacity",
+      "regions": [
+        "CN",
+        "GLOBAL"
+      ],
+      "text": "JD Logistics said its overseas floor space exceeded 2 million sq m at 30 June 2026 across more than 200 bonded, direct-mail and overseas warehouses in 26 countries and regions, including the UAE, targeting two to three-day delivery.",
+      "src": "PR Newswire (JD Logistics)",
+      "url": "https://www.prnewswire.com/news-releases/jingdong-logistics-details-global-network-build-out-and-the-expansion-of-joylogistics-operations-302888323.html",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-22",
+      "co": "Tanger Med",
+      "type": "network",
+      "regions": [
+        "NAF"
+      ],
+      "text": "Tanger Med handled 84 million tonnes in H1 2026 (+6%) with revenue of MAD 2.479 billion (+8.6%), as major carriers progressively resume Suez Canal transits.",
+      "src": "El Estrecho Digital",
+      "url": "https://www.elestrechodigital.com/en/2026/09/22/tanger-med-moves-84-million-tons-until-june-amid-the-reorganization-of-routes-through-suez",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-21",
+      "co": "Canada Post",
+      "type": "product",
+      "regions": [
+        "NA"
+      ],
+      "text": "Canada Post announced new pricing discounts, market insights and e-commerce solutions for Canadian businesses, followed on 28 Sep by new consumer delivery options and expanded retail services.",
+      "src": "Canada Post news releases",
+      "url": "https://www.canadapost-postescanada.ca/cpc/en/our-company/news-and-media/corporate-news/news-release-list.page",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-18",
+      "co": "FedEx",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "FedEx set 2027 list rates for US, US export and US import packages up 5.9% on average from 4 Jan 2027, with new paper document fees from 18 Jan and zone reclassification for select US ZIP pairs from 1 Feb.",
+      "src": "FedEx",
+      "url": "https://www.fedex.com/en-us/shipping/rate-changes.html",
+      "stories": [
+        "north-america-rulebook"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-18",
+      "co": "InPost / FedEx / Advent",
+      "type": "acquisition",
+      "regions": [
+        "EU",
+        "UK"
+      ],
+      "text": "A consortium of FedEx, Advent International and other InPost investors secured 89.81% of InPost shares, above the 80% threshold, in a takeover valuing InPost at EUR 7.8 billion.",
+      "src": "Reuters via TradingView",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N45A0S0:0-fedex-advent-led-consortium-secures-over-89-of-inpost-shares-in-takeover-offer/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-16",
+      "co": "Poste Italiane",
+      "type": "acquisition",
+      "regions": [
+        "EU"
+      ],
+      "text": "Poste Italiane completed its exchange offer for Telecom Italia, reaching about 66.6% of TIM's share capital, with a reopening window from 21 to 25 September.",
+      "src": "Telecom Review Europe",
+      "url": "https://www.telecomrevieweurope.com/articles/telecom-operators/poste-italiane-takes-majority-stake-in-tim-after-exchange-offer/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-15",
+      "co": "OnTrac",
+      "type": "capacity",
+      "regions": [
+        "NA"
+      ],
+      "text": "OnTrac said it will add 25 to 30% network capacity in 2026, focused on the Northeast, and is piloting 'Dynamic Savings' discounts when capacity is available, with wider testing from Q1 2027.",
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/ontrac-aims-to-turn-available-capacity-into-lower-delivery-prices/830393/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-14",
+      "co": "SCommerce (Giao Hang Nhanh)",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "GHN parent SCommerce reported H1 2026 net profit of VND92.4bn, down 94.5%, while bank loans nearly doubled to VND2,049bn to fund automated sorting, including a Tay Ninh hub financed by a VND580bn ADB-guaranteed bond issued in May.",
+      "src": "Tuoi Tre",
+      "url": "https://tuoitre.vn/loi-nhuan-cong-ty-dung-sau-giao-hang-nhanh-bat-ngo-giam-94-100260914145321015.htm",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-14",
+      "co": "DP World",
+      "type": "network",
+      "regions": [
+        "ME"
+      ],
+      "text": "DP World is growing its Gulf truck fleet from 700 to 1,000 and runs up to 50 trucks a week on an Amsterdam to Dubai road service via Turkey, with a land bridge linking Fujairah, Salalah and Jeddah; land routing costs three to four times sea.",
+      "src": "SupplyChainBrain",
+      "url": "https://www.supplychainbrain.com/articles/44837-ports-giant-dp-world-redraws-hormuz-logistics-with-truck-bet",
+      "stories": [
+        "hormuz-fuel",
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-14",
+      "co": "West Med Container Terminal (Marsa Maroc / TIL)",
+      "type": "capacity",
+      "regions": [
+        "NAF"
+      ],
+      "text": "The Nador West Med East container terminal, a Marsa Maroc and TIL joint venture, completed live operational trials ahead of commercial operations planned for Q4 2026.",
+      "src": "WorldCargo News",
+      "url": "https://www.worldcargonews.com/news/2026/09/nador-west-med-east-terminal-is-ready-for-its-first-ship/",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-12",
+      "co": "Correios",
+      "type": "network",
+      "regions": [
+        "SA"
+      ],
+      "text": "Brazil's Correios is structuring a Treasury-guaranteed loan of about R$7 billion with four banks after an R$8.5 billion loss in 2025 and more than R$5.5 billion in H1 2026, following an R$12 billion operation in December 2025.",
+      "src": "Brasil em Folhas",
+      "url": "https://www.brasilemfolhas.com.br/2026/09/correios-planejam-novo-emprestimo-de-r-7-bilhoes/",
+      "stories": [
+        "latam-split",
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-11",
+      "co": "DPD UK",
+      "type": "capacity",
+      "regions": [
+        "UK"
+      ],
+      "text": "DPD UK ordered 341 Mercedes-Benz eSprinter vans, taking its electric fleet past 4,000 vehicles and extending EV routes beyond city centres, all in service by end of October 2026.",
+      "src": "electrive",
+      "url": "https://www.electrive.com/2026/09/11/dpd-uk-orders-341-mercedes-benz-esprinter-vans/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-04",
+      "co": "InPost",
+      "type": "network",
+      "regions": [
+        "EU",
+        "UK"
+      ],
+      "text": "InPost reported 70,000 parcel lockers and 100,000 out-of-home points in Europe and plans about 19,000 new lockers in 2026 (about 11,000 in the euro area, 5,000 in UK and Ireland, 3,000 in Poland).",
+      "src": "Shev IO",
+      "url": "https://shev.io/en/news/inpost-expands-european-network-to-70000-parcel-lockers",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-04",
+      "co": "bpost",
+      "type": "product",
+      "regions": [
+        "EU"
+      ],
+      "text": "Bpost equipped 93,000 parcel containers with live trackers to optimise its logistics flows.",
+      "src": "Bnode press release",
+      "url": "https://press.bnode.com/bpost-equips-93000-parcel-containers-with-live-trackers-to-optimize-its-logistics-flows",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-03",
+      "co": "Amazon Shipping",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "Amazon Shipping set peak surcharges from 25 Oct 2026 to 16 Jan 2027 (USD 0.50 to 0.75 per package, large package up to USD 117.50) for its first peak as a service open to all businesses, without a volume-based surcharge.",
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/amazon-shipping-readies-2026-holiday-delivery-surcharges/829550/",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-03",
+      "co": "Amazon Brazil",
+      "type": "capacity",
+      "regions": [
+        "SA"
+      ],
+      "text": "Amazon opened its first fulfilment centre in Paraná (São José dos Pinhais), 24,000 sq m with initial capacity of 700,000 packages a week, operated by ID Logistics and enabling same-day delivery in the state.",
+      "src": "Diário do Grande ABC",
+      "url": "https://www.dgabc.com.br/Noticia/4344918/primeiro-centro-de-distribuicao-da-amazon-e-aberto-no-parana-",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-09-02",
+      "co": "CJ Logistics / Korea Ocean Business Corporation",
+      "type": "capacity",
+      "regions": [
+        "AS",
+        "NA"
+      ],
+      "text": "CJ Logistics and Korea Ocean Business Corporation began full operation of the Elwood logistics centre near Chicago: 102,775 m2 of floor space and 130 loading docks.",
+      "src": "Edaily",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03522726645576184",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-31",
+      "co": "UPS",
+      "type": "network",
+      "regions": [
+        "NA",
+        "GLOBAL"
+      ],
+      "text": "UPS announced a new global operating model from 1 Sep 2026 after completing its Amazon volume transition and network reconfiguration in June, with one Chief U.S. Domestic Officer over small package, Roadie, Happy Returns, The UPS Store and Mail Innovations.",
+      "src": "UPS",
+      "url": "https://about.ups.com/us/en/newsroom/press-releases/our-strategy/ups-announces-executive-leadership-changes-and-new-global-operat.html",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-31",
+      "co": "Marsa Maroc",
+      "type": "capacity",
+      "regions": [
+        "NAF"
+      ],
+      "text": "Marsa Maroc's H1 2026 revenue rose 13% to MAD 3.214 billion on 34.5 million tonnes (+3%), with domestic containers up 7% and MAD 3.4 billion of capex, mainly for the new Nador West Med terminals.",
+      "src": "TelQuel",
+      "url": "https://telquel.ma/instant-t/2026/08/31/marsa-maroc-le-chiffre-daffaires-en-hausse-de-13-au-premier-semestre-2026_2004731",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-31",
+      "co": "InPost / FedEx",
+      "type": "partnership",
+      "regions": [
+        "UK",
+        "EU"
+      ],
+      "text": "InPost said it plans to launch last-mile services for FedEx in the UK and Poland as an initial pilot from September 2026, under a negotiated commercial agreement.",
+      "src": "InPost Q2 2026 results",
+      "url": "https://inpost.eu/sites/default/files/2026-08/InPost%202Q%202026%20press%20release.pdf",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-28",
+      "co": "Cainiao",
+      "type": "network",
+      "regions": [
+        "NA",
+        "CN"
+      ],
+      "text": "Cainiao extended its Mexican local express network from 20 states to nationwide coverage, combining customs clearance and last mile through a 20,000 sq m sorting centre near Felipe Ángeles airport and 38 delivery stations, serving Mercado Libre, Temu, TikTok and Inditex.",
+      "src": "Air Cargo News",
+      "url": "https://www.aircargonews.net/e-commerce-logistics/2026/08/cainiao-strengthens-cross-border-customs-clearance-capabilities-in-mexico/",
+      "stories": [
+        "platforms-go-local",
+        "latam-split"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-28",
+      "co": "Canada Post",
+      "type": "network",
+      "regions": [
+        "NA"
+      ],
+      "text": "Canada Post said it will launch weekend parcel delivery in the Toronto, Montreal and Ottawa areas later in 2026 to win back e-commerce shippers after the June labour agreements.",
+      "src": "FreightWaves",
+      "url": "https://www.freightwaves.com/news/canada-post-to-launch-weekend-parcel-delivery-by-years-end",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-27",
+      "co": "UPS",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "UPS published 2026 peak surcharges: size-related charges from 27 Sep and demand surcharges from 25 Oct to 16 Jan 2027, with service-level charges up about 22 to 25% on 2025.",
+      "src": "Supply Chain Dive",
+      "url": "https://www.supplychaindive.com/news/ups-preps-higher-holiday-surcharges-for-2026/828936/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-27",
+      "co": "YTO Express",
+      "type": "pricing",
+      "regions": [
+        "CN"
+      ],
+      "text": "YTO's H1 2026 revenue per parcel fell 1.04% to RMB 2.17 while net profit rose 73.44%, diverging from peers that raised prices under the regulator's anti-involution push.",
+      "src": "Tencent News",
+      "url": "https://news.qq.com/rain/a/20260827A09PCO00",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-27",
+      "co": "GOFO",
+      "type": "capacity",
+      "regions": [
+        "NA"
+      ],
+      "text": "GOFO's US network reached 300 hubs and stations (100 a year earlier) covering 12,000+ ZIP codes and about 75% of the population; customers include TikTok Shop, Shopify and AliExpress.",
+      "src": "FreightWaves",
+      "url": "https://www.freightwaves.com/news/gofo-parcel-network-quickly-mushrooms-in-2026",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-26",
+      "co": "SingPost",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "SingPost reported operating profit up 55.2% to S$4.1m for the quarter to June, with domestic parcels up 36.5% to 7.1m items, and commissioned a S$30m automated parcel sortation facility in July targeting more than 10% cost reduction.",
+      "src": "Yahoo News Singapore",
+      "url": "https://sg.news.yahoo.com/singpost-q1-operating-profit-55-103600847.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-25",
+      "co": "USPS",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "USPS announced temporary holiday prices on Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select from 4 Oct 2026 to 17 Jan 2027, with retail Priority Mail up USD 1.00 to 9.10 in zones 5 to 9.",
+      "src": "USPS Newsroom",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/0825-usps-announces-temporary-price-change-for-2026-holiday-shipping-season.htm",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-25",
+      "co": "Cainiao",
+      "type": "capacity",
+      "regions": [
+        "EU",
+        "CN"
+      ],
+      "text": "Cainiao opened warehouses near Paris (its fourth in the city) and in Mannheim (20,000 m2, plus 40,000 m2 planned), bringing to seven its European openings since April 2026 across the Netherlands, France, Spain, Poland, the UK and Germany.",
+      "src": "International Transport Journal",
+      "url": "https://transportjournal.com/2026/08/25/cainiao-opens-warehouse-in-paris-and-mannheim/",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-20",
+      "co": "J&T Express",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "J&T reported 5.52bn Southeast Asian parcels in H1 2026 (+71.2%) and a 38.1% regional share (+5.3 points), and added 11 sorting lines in the region (75 in total).",
+      "src": "J&T Express via Newswire / Investing.com",
+      "url": "https://www.newswire.ca/news-releases/j-amp-t-express-adjusted-net-profit-up-124-3-yoy-in-1h2026-overall-profitability-continues-to-strengthen-839187168.html",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-20",
+      "co": "bpost",
+      "type": "capacity",
+      "regions": [
+        "EU"
+      ],
+      "text": "Bpost ordered 19 double-deck trailers carrying over 2,000 parcels each (60% more than a standard truck), in service from mid-November for peak days of up to 800,000 parcels.",
+      "src": "Bnode press release",
+      "url": "https://press.bnode.com/bpost-invests-in-new-double-deck-trailers-to-transport-more-parcels-with-fewer-journeys",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-18",
+      "co": "ZTO Express",
+      "type": "pricing",
+      "regions": [
+        "CN"
+      ],
+      "text": "ZTO handled 10.49 billion parcels in Q2 2026 (+6.5%, 19.9% share) while core express price per parcel rose 15.5%, and set full-year volume growth guidance at 6 to 10%, citing slowing industry growth.",
+      "src": "Stock Titan (ZTO results release)",
+      "url": "https://www.stocktitan.net/news/ZTO/zto-reports-second-quarter-2026-unaudited-financial-424tafj64gf8.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-15",
+      "co": "FedEx",
+      "type": "closure",
+      "regions": [
+        "NA"
+      ],
+      "text": "FedEx is closing five more facilities in Missouri and California under Network 2.0, after optimising about 490 stations handling 45% of eligible volume by June, with 65% targeted before peak.",
+      "src": "TheStreet (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/small-business/articles/fedex-closes-more-u-locations-160300304.html",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-14",
+      "co": "Pos Malaysia",
+      "type": "network",
+      "regions": [
+        "AS"
+      ],
+      "text": "Pos Malaysia's Q2 FY2026 revenue rose 9.0% to RM481.3m, postal parcel volumes grew 34.3% and the H1 pre-tax loss narrowed 30.6% to RM55.4m.",
+      "src": "IPC",
+      "url": "https://www.ipc.be/news-portal/general-news/2026/08/24/10/00/pos-malaysia-group-reports-second-quarter-fy2026-results",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-13",
+      "co": "DP World",
+      "type": "network",
+      "regions": [
+        "ME"
+      ],
+      "text": "Jebel Ali container throughput fell 90.1% year on year in Q2 2026 to 374,000 TEU and 59.5% in H1, while DP World agreed 50-year concessions for two new terminals at Fujairah, outside the Strait of Hormuz.",
+      "src": "WorldCargo News",
+      "url": "https://www.worldcargonews.com/business/2026/08/dp-world-h1-profit-throughput-hit-by-hormuz-impact-at-jebel-ali/",
+      "stories": [
+        "hormuz-fuel",
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-12",
+      "co": "Jumia",
+      "type": "product",
+      "regions": [
+        "NAF"
+      ],
+      "text": "Jumia's Q2 2026 physical goods orders rose 28% to 6.3 million, items from Chinese sellers grew 96% year on year and 75% of packages went through pickup stations; it also priced a USD 50 million equity raise anchored by IFC.",
+      "src": "Stock Titan (Jumia 6-K)",
+      "url": "https://www.stocktitan.net/sec-filings/JMIA/6-k-jumia-technologies-ag-current-report-foreign-issuer-902b1801c402.html",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-11",
+      "co": "Shopee (Sea Ltd)",
+      "type": "product",
+      "regions": [
+        "AS"
+      ],
+      "text": "Sea said Shopee's instant-delivery orders in Indonesia grew 80% year on year with cost per order down about 20%, and fulfilment orders rose more than 20% quarter on quarter, on Q2 GMV of US$38.3bn.",
+      "src": "The Motley Fool (earnings call transcript)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/sea-limited-se-q2-2026-earnings-call-transcript/",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-11",
+      "co": "bpost / City of Ostend",
+      "type": "partnership",
+      "regions": [
+        "EU"
+      ],
+      "text": "Bpost and Ostend launched the first open Bbox City Network (20 lockers, about 10 more planned), which other carriers such as DHL can also deliver into.",
+      "src": "Bnode press release",
+      "url": "https://press.bnode.com/bpost-and-ostend-launch-first-bbox-city-network-easing-pressure-on-the-city-while-offering-a-range-of-additional-services",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-07",
+      "co": "USPS",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "Postmaster General David Steiner said USPS will request density rate authority in its January 2027 price change, worth USD 600m to 800m, after a quarter in which package revenue rose 7.7% on 3.4% fewer packages.",
+      "src": "USPS Newsroom",
+      "url": "https://about.usps.com/newsroom/national-releases/2026/0807-remarks-by-postmaster-general-david-steiner-at-the-aug-7-2026-usps-board-of-governors-meeting.htm",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-06",
+      "co": "Viettel Post",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "Viettel Post added 40 refrigerated container trucks for north-south routes in July and deployed in-house AGV sorting robots, after becoming FedEx's network operating partner in Vietnam from April 2026; H1 net profit fell 33%.",
+      "src": "VTC News",
+      "url": "https://vtcnews.vn/viettel-post-cong-bo-chien-luoc-mo-rong-ha-tang-logistics-ar1032972.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-05",
+      "co": "Mercado Libre",
+      "type": "network",
+      "regions": [
+        "SA",
+        "NA"
+      ],
+      "text": "Mercado Libre sold 795 million items in Q2 2026 (+45%, Brazil +56%), delivered 77% of fast shipments within 48 hours, and grew cross-border GMV 60% with its China fulfilment centre volume up 170% quarter on quarter.",
+      "src": "Mercado Libre press release via Nasdaq",
+      "url": "https://www.nasdaq.com/press-release/mercado-libre-q2-2026-revenue-surpasses-10-billion-deepening-engagement-strengthens",
+      "stories": [
+        "platforms-go-local",
+        "latam-split"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-05",
+      "co": "Aramex",
+      "type": "network",
+      "regions": [
+        "ME"
+      ],
+      "text": "Aramex posted record Q2 2026 revenue of AED 1.83 billion (+22%), led by freight forwarding; international express volumes stabilised and it kept service running through Europe to Middle East land solutions and air and sea charters.",
+      "src": "Aramex",
+      "url": "https://www.aramex.com/ae/en/media-details/news/news-details?contentid=c906cf88-b3f2-659d-9310-ff0100e7fe0c&module=stories",
+      "stories": [
+        "hormuz-fuel",
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-08-05",
+      "co": "Cainiao",
+      "type": "product",
+      "regions": [
+        "CN",
+        "EU",
+        "ME"
+      ],
+      "text": "Cainiao launched a global three-day delivery service on 15 routes, including Hong Kong to the UK and Netherlands and Saudi Arabia to the UAE, backed by about 170 chartered or block-space flights a week.",
+      "src": "Air Cargo News",
+      "url": "https://www.aircargonews.net/e-commerce-logistics/2026/08/cainiao-adds-speedy-cross-border-shipping-service/",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-29",
+      "co": "Shopee Brazil",
+      "type": "capacity",
+      "regions": [
+        "SA"
+      ],
+      "text": "Shopee is taking its Brazilian distribution centres from 16 to 26 in 2026, mixing cross-docking and seller fulfilment sites, with four new units adding more than 2 million orders a day of capacity.",
+      "src": "Mercado & Consumo",
+      "url": "https://mercadoeconsumo.com.br/29/07/2026/logistica/shopee-aumenta-em-mais-de-60-o-numero-de-centros-de-distribuicao-no-brasil-em-2026/",
+      "stories": [
+        "platforms-go-local",
+        "latam-split"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-28",
+      "co": "UPS",
+      "type": "network",
+      "regions": [
+        "NA"
+      ],
+      "text": "UPS said it had completed its Amazon glide-down, removing about 2m pieces a day; Q2 US Domestic revenue rose 6.0% to USD 14.93bn on 9.3% higher revenue per piece and 3.3% lower volume.",
+      "src": "UPS Investor Relations",
+      "url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-24",
+      "co": "USPS / CBP",
+      "type": "product",
+      "regions": [
+        "NA"
+      ],
+      "text": "From 24 Jul 2026 standard duties apply to inbound shipments handled by USPS, with postal informal entries for goods up to USD 2,500 filed by a broker or owner and duties paid by the 7th of the month following arrival.",
+      "src": "Federal Register (CBP)",
+      "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+      "stories": [
+        "de-minimis-end",
+        "north-america-rulebook"
+      ],
+      "layer": "decision"
+    },
+    {
+      "date": "2026-07-21",
+      "co": "Cainiao",
+      "type": "network",
+      "regions": [
+        "EU",
+        "CN"
+      ],
+      "text": "Cainiao connected its Eastern Europe network, offering 4 to 6 day parcel delivery from Western Europe to Poland, Hungary, Czechia, Romania and Bulgaria, and daily German pickups from 50 parcels.",
+      "src": "Parcel and Postal Technology International",
+      "url": "https://www.parcelandpostaltechnologyinternational.com/news/cross-border/cainiao-connects-eastern-europe-to-cross-border-logistics-service.html",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-17",
+      "co": "InPost",
+      "type": "network",
+      "regions": [
+        "UK"
+      ],
+      "text": "InPost retired the Yodel by InPost brand, website and app, moving all tracking and accounts to InPost; retailer sites may show the Yodel name into 2027 while they migrate.",
+      "src": "ChannelX",
+      "url": "https://channelx.world/2026/07/yodel-by-inpost-website-app-no-longer-available/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-12",
+      "co": "USPS",
+      "type": "pricing",
+      "regions": [
+        "NA"
+      ],
+      "text": "USPS priced all commercial Ground Advantage parcels under 1 lb at a single rate per zone (+11.8% average), cut the DIM divisor from 166 to 139 and added a USD 50 undeclared hazmat fee.",
+      "src": "Pirate Ship",
+      "url": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-07",
+      "co": "J&T Express",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "J&T handled 2.755bn Southeast Asian parcels in Q2 2026 (+63.2%), and added 6 sorting centres (to 127) and 11 automated sorting lines (to 75) in the region.",
+      "src": "J&T Express via PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-07",
+      "co": "J&T Express",
+      "type": "network",
+      "regions": [
+        "CN",
+        "AS",
+        "SA",
+        "ME"
+      ],
+      "text": "J&T passed 100 million parcels a day in Q2 2026; volume in its new markets (Latin America, Middle East) rose 136.5% to 211 million, South-east Asia 63.2%, China 10.6%.",
+      "src": "PR Newswire (J&T Global Express)",
+      "url": "https://www.prnewswire.com/news-releases/jt-express-average-daily-parcel-volume-exceeds-100-million-in-the-second-quarter-of-2026-302820050.html",
+      "stories": [
+        "asean-digital",
+        "latam-split"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-07-01",
+      "co": "GLS Group",
+      "type": "partnership",
+      "regions": [
+        "EU"
+      ],
+      "text": "GLS formed a joint venture with Turkish logistics investors led by Aslan Kut to launch GLS Türkiye by end of 2026, positioned as a Europe to Asia gateway.",
+      "src": "GLS Group press release",
+      "url": "https://gls-group.com/GROUP/newsroom/newsroom/news-detail_448.html",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-30",
+      "co": "Royal Mail",
+      "type": "capacity",
+      "regions": [
+        "UK"
+      ],
+      "text": "Royal Mail said it will cap daily business collections in November and December at three times each customer's usual collection capacity, alongside its peak surcharge period.",
+      "src": "ChannelX",
+      "url": "https://channelx.world/2026/06/royal-mail-peak-business-collection-capacity-limit/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-23",
+      "co": "Lazada",
+      "type": "closure",
+      "regions": [
+        "AS"
+      ],
+      "text": "Lazada cut about 5% of its Southeast Asian workforce, including in Singapore, citing business needs and organisational efficiency.",
+      "src": "Mothership",
+      "url": "https://mothership.sg/2026/06/lazada-layoffs-5-percent/",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-17",
+      "co": "Cainiao",
+      "type": "capacity",
+      "regions": [
+        "EU",
+        "CN"
+      ],
+      "text": "Cainiao signed a 10-year lease on a 26,000 m2 robotised fulfilment centre in the Netherlands near Rotterdam, its second in the country, after four warehouse launches in April 2026 in the UK, France, Spain and Poland.",
+      "src": "Max Freights",
+      "url": "https://company.maxfreights.com/2026/06/17/new-fulfilment-centre-in-the-netherlands/",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-17",
+      "co": "Royal Air Maroc Cargo",
+      "type": "network",
+      "regions": [
+        "NAF"
+      ],
+      "text": "Royal Air Maroc Cargo set out a strategy to route high-value Asia to Africa cargo, including e-commerce, through its Casablanca hub (about 200,000 tonnes a year, 30+ African destinations), with Beijing as its Asian gateway.",
+      "src": "North Africa Post",
+      "url": "https://northafricapost.com/98091-royal-air-maroc-cargo-targets-high-value-asia-africa-trade-via-casablanca-hub.html",
+      "stories": [
+        "mena-gateway"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-10",
+      "co": "Amazon Supply Chain Services",
+      "type": "product",
+      "regions": [
+        "NA"
+      ],
+      "text": "Amazon opened its LTL freight service to all businesses and destinations, including third-party warehouses and retail locations, backed by more than 80,000 trailers and 24,000 intermodal containers.",
+      "src": "Business Wire (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/economy/policy/articles/amazon-supply-chain-services-launches-100000757.html",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-10",
+      "co": "KEX Express (SF Holding)",
+      "type": "product",
+      "regions": [
+        "AS"
+      ],
+      "text": "SF-owned KEX announced a transformation into an end-to-end logistics provider (fulfilment, customs clearance, freight forwarding) focused on premium and high-value parcels, using more than 15,000 service points in Thailand.",
+      "src": "KEX Express",
+      "url": "https://th.kex-express.com/en/news/361271/kex-marks-20-years-with-a-major-business-transformation-toward-becoming-an-end-to-end-smart-logistics-solution-targets-stronger-growth-in-h2-2026-with-smart-technology-to-drive-premium-delivery-deman",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-09",
+      "co": "J&T Express",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "J&T moved 213m Southeast Asian parcels in the 'Double 6' campaign (+83.5%), averaging 35.51m a day and peaking above 37m, with Indonesia up 112% and Thailand up 89%.",
+      "src": "J&T Express via PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/jt-expresss-double-6-parcel-volume-hits-new-high-surging-83-5-yoy-in-southeast-asia-302795112.html",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-01",
+      "co": "FedEx",
+      "type": "network",
+      "regions": [
+        "NA"
+      ],
+      "text": "FedEx completed the spin-off of FedEx Freight (NYSE: FDXF), distributing 80.1% of shares and leaving FedEx as a pure-play parcel company.",
+      "src": "FedEx Newsroom",
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-completes-spin-off-of-fedex-freight",
+      "stories": [
+        "networks-consolidate"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-06-01",
+      "co": "TikTok Shop (Indonesia)",
+      "type": "pricing",
+      "regions": [
+        "AS"
+      ],
+      "text": "TikTok Shop by Tokopedia began charging sellers up to Rp5,000 per failed delivery and up to Rp5,000 per buyer-preference return, with fees waived for three months and the system active from 1 September 2026.",
+      "src": "Bisnis.com",
+      "url": "https://teknologi.bisnis.com/read/20260531/266/1977373/tiktok-shop-bebankan-biaya-pengiriman-gagal-dan-retur-ke-seller",
+      "stories": [
+        "platforms-go-local"
+      ],
+      "layer": "parcel"
+    },
+    {
+      "date": "2026-05-23",
+      "co": "India Post / Flipkart",
+      "type": "partnership",
+      "regions": [
+        "AS"
+      ],
+      "text": "The Department of Posts and Flipkart signed a last-mile agreement covering prepaid and cash-on-delivery parcels through India Post's network of more than 160,000 post offices.",
+      "src": "Cargo Connect",
+      "url": "https://cargoconnect.co.in/logistics/india-post-and-flipkart-sign-agreement-to-strengthen-last-mile-delivery-network-across-india",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-05-07",
+      "co": "Amazon",
+      "type": "product",
+      "regions": [
+        "UK"
+      ],
+      "text": "Amazon began its first UK Prime Air drone deliveries in Darlington, within 7.5 miles of its site, for parcels up to 2.2 kg and up to 100 packages a weekday, under a trial approval running to the end of 2026.",
+      "src": "DroneXL",
+      "url": "https://dronexl.co/2026/05/07/amazon-prime-air-darlington-uk-launch/",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-05-03",
+      "co": "Royal Mail / Parcelforce",
+      "type": "pricing",
+      "regions": [
+        "UK"
+      ],
+      "text": "Royal Mail raised its business Fuel and Energy Surcharge from 11% to 16%, Parcelforce's from 8% to 13% and its international surcharge from 6.5% to 12%, and cut the notice period for surcharge changes from 30 to 14 days.",
+      "src": "Royal Mail Prices 2026",
+      "url": "https://www.royalmail.com/prices2026",
+      "stories": [
+        "hormuz-fuel"
+      ],
+      "layer": "market"
+    },
+    {
+      "date": "2026-04-03",
+      "co": "Australia Post",
+      "type": "acquisition",
+      "regions": [
+        "AS"
+      ],
+      "text": "Australia Post acquired Rendr, a same-day delivery orchestration platform covering nearly 90% of Australians, whose clients include Chemist Warehouse and Jaycar Electronics.",
+      "src": "IT Brief Australia",
+      "url": "https://itbrief.com.au/story/australia-post-buys-rendr-to-speed-same-day-delivery",
+      "stories": [],
+      "layer": "market"
+    },
+    {
+      "date": "2026-03-26",
+      "co": "Coupang",
+      "type": "capacity",
+      "regions": [
+        "AS"
+      ],
+      "text": "Coupang opened its fourth Taiwan fulfilment centre in Taoyuan, extending next-day Rocket Delivery, weekends included, to 70% of Taiwan and adding more than 3,000 jobs.",
+      "src": "Seoul Economic Daily",
+      "url": "https://en.sedaily.com/finance/2026/03/26/coupang-opens-fourth-fulfillment-center-in-taiwan",
+      "stories": [],
+      "layer": "market"
+    }
+  ]
 }

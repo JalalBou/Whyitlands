@@ -468,6 +468,171 @@
             "hormuz-fuel"
           ],
           "exposure": "Higher fuel and labour costs grew faster than revenue during the Ecom Express integration."
+        },
+        {
+          "name": "Australia Post",
+          "segment": "Postal operator (parcels, letters, retail; incl. StarTrack)",
+          "period": "FY2026 (July 2025-June 2026)",
+          "reported": "2026-08-28",
+          "revenue": "A$9.83bn",
+          "revenue_chg": "+4.0% YoY",
+          "ebit": "A$31.8m",
+          "ebit_label": "Profit before tax (includes A$139.4m of property sale gains)",
+          "ebit_chg": "Up from A$18.8m in FY2025",
+          "margin": "0.3% (profit before tax on revenue); underlying loss of A$107.6m excluding property gains",
+          "vs_prev": "Reported profit rose but rests on property sales: excluding A$139.4m of gains the group made an underlying loss of A$107.6m.",
+          "volume": "Parcel volumes +5.3%; letters -14.7% to 1.42bn",
+          "highlights": [
+            "Parcels revenue A$8.01bn (+4.8%), about 81% of group revenue",
+            "Parcel locker banks +64.3% to 1,510; 9.3 million Australian households shopped online in Q4",
+            "Cost savings of A$188.3m; acquisition of same-day delivery platform Rendr and a re-commerce partnership with Vinted"
+          ],
+          "challenges": [
+            "Letters service lost A$63.2m as volumes fell 14.7%",
+            "Operating costs up 3.9%; community service obligations cost A$346.7m",
+            "Contract fuel surcharge swung from 4.8% (April) to 19.5% (June 2026) and is back to 13.5% for November"
+          ],
+          "outlook": "CEO Paul Graham said further work is needed to protect long-term sustainability, with the network moving towards a digital-first parcels model; the Basic Postage Rate rose A$0.15 to A$1.85 from 1 September 2026.",
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Parcels carry the group, and a monthly fuel surcharge passes oil price swings straight to contract shippers.",
+          "src": [
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "name": "SG Holdings (Sagawa Express)",
+          "segment": "Parcel network (delivery), logistics and global forwarding",
+          "period": "Q1 FY ending March 2027 (April-June 2026)",
+          "reported": "2026-08-07",
+          "revenue": "¥447.3bn",
+          "revenue_chg": "+21.7% YoY",
+          "ebit": "¥20.1bn",
+          "ebit_label": "Operating profit",
+          "ebit_chg": "+14.9% YoY",
+          "margin": "4.5% (operating)",
+          "vs_prev": "Group growth came from consolidating Morrison Express in global logistics (revenue +127.9%); the core delivery segment grew revenue 6.7% but its operating profit fell 7.4% to ¥12.7bn.",
+          "volume": "Hikyaku Takkyubin parcels 339m (+7.0% from 317m)",
+          "highlights": [
+            "Parcel volume growth driven by cross-border e-commerce B2C, where unit pricing improved year on year",
+            "Global logistics operating profit ¥2.7bn, up from a small base after the Morrison Express consolidation",
+            "Net profit attributable to owners ¥12.3bn (+20.8%)"
+          ],
+          "challenges": [
+            "Average delivery unit price fell on a higher share of small parcels",
+            "Delivery segment profit -7.4% despite volume growth",
+            "Logistics segment flat (revenue -0.5%, profit -2.0%)"
+          ],
+          "outlook": "Full-year guidance unchanged: revenue ¥1.74tn (+5.8%) and operating profit ¥97bn (+7.5%); dividend forecast ¥54 per share. Sagawa adds a ¥20-150/kg peak surcharge on international parcels from 1 October 2026.",
+          "stories": [
+            "networks-consolidate"
+          ],
+          "exposure": "Domestic volume is growing on small cross-border e-commerce parcels, which lifts volume but dilutes unit price and delivery margin.",
+          "src": [
+            27,
+            28,
+            29
+          ]
+        },
+        {
+          "name": "Coupang",
+          "segment": "E-commerce platform with own fulfilment and delivery (Korea, Taiwan)",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-04",
+          "revenue": "US$8.86bn",
+          "revenue_chg": "+4% YoY (+10% at constant currency)",
+          "ebit": "-US$556m",
+          "ebit_label": "Operating income (loss)",
+          "ebit_chg": "From a US$149m profit in Q2 2025; adjusted operating loss US$146m excluding US$410m of Korean administrative fines",
+          "margin": "-6.3% (operating); gross margin 28.2%, down 188 bp",
+          "vs_prev": "H1 2026 net loss of US$836m against net income of US$139m in H1 2025.",
+          "volume": "Product Commerce active customers 24.7m (+3%); revenue per customer US$301 (+5% at constant currency)",
+          "highlights": [
+            "Developing Offerings revenue US$1.43bn (+24% at constant currency), led by Taiwan",
+            "Fourth Taiwan fulfilment centre opened in Taoyuan in March 2026; next-day Rocket Delivery covers about 70% of Taiwan",
+            "US$459m of share buybacks in the quarter"
+          ],
+          "challenges": [
+            "US$410m of Korean administrative fines, not tax-deductible and under appeal",
+            "Product Commerce adjusted EBITDA margin 5.1%, down 390 bp",
+            "Trailing twelve-month free cash flow US$105m, down US$679m"
+          ],
+          "outlook": "No consolidated guidance; management expects 2026 Developing Offerings adjusted EBITDA losses of US$950m to US$1bn, mainly to fund logistics infrastructure in Taiwan.",
+          "stories": [],
+          "exposure": "Coupang's own delivery network competes with third-party carriers in Korea, and it is now building the same model in Taiwan.",
+          "src": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        {
+          "name": "CJ Logistics (CJ대한통운)",
+          "segment": "Parcel (O-NE), contract logistics and global forwarding",
+          "period": "Q2 2026 (April-June)",
+          "reported": "2026-08-11",
+          "revenue": "₩3.38tn",
+          "revenue_chg": "+10.9% YoY",
+          "ebit": "₩101.6bn",
+          "ebit_label": "Operating profit",
+          "ebit_chg": "-11.9% YoY",
+          "margin": "3.0% (operating)",
+          "vs_prev": "Revenue grew in all three divisions while operating profit fell in each, which the company put down to service investment and a weaker external environment.",
+          "volume": "Parcels +12.1% YoY; dawn and same-day volumes +65%",
+          "highlights": [
+            "O-NE parcel revenue ₩984.8bn (+8.5%) on the seven-day 'Maeil O-NE' delivery service",
+            "Contract logistics revenue ₩900.1bn (+8%), warehousing and distribution +12%",
+            "Global revenue ₩1.21tn (+9.4%) with growth in the US and India and in cross-border logistics"
+          ],
+          "challenges": [
+            "O-NE operating profit -10.7% to ₩40.9bn",
+            "Contract logistics operating profit -11.4% to ₩39.8bn",
+            "Forwarding outlook weakened by US-Iran tensions"
+          ],
+          "outlook": "Focus on service differentiation, operational improvement and global end-to-end logistics; the Elwood (Illinois) centre built with Korea Ocean Business Corporation reached full operation on 2 September 2026.",
+          "stories": [
+            "hormuz-fuel"
+          ],
+          "exposure": "Seven-day delivery is lifting parcel volumes in Korea but costing margin, while US-Iran tension clouds its forwarding outlook.",
+          "src": [
+            34,
+            35,
+            36
+          ]
+        },
+        {
+          "name": "Blue Dart Express",
+          "segment": "Express air and ground courier, India (DHL Group subsidiary)",
+          "period": "Q1 FY2027 (April-June 2026)",
+          "reported": "2026-07-31",
+          "revenue": "₹1,658 crore",
+          "revenue_chg": "+15% YoY (from ₹1,442 crore)",
+          "ebit": "₹87 crore",
+          "ebit_label": "Profit after tax (standalone)",
+          "ebit_chg": "+85% YoY; consolidated net profit ₹88.5 crore against ₹46.9 crore",
+          "margin": "5.2% (net, standalone, on revenue)",
+          "vs_prev": "Sequential comparison not available in the sources used.",
+          "volume": "Shipment and tonnage figures not disclosed in the sources used",
+          "highlights": [
+            "Double-digit revenue growth with profit growth well ahead of revenue",
+            "Managing Director Balfour Manuel credited \"focused execution, disciplined network management and continued customer confidence\""
+          ],
+          "challenges": [
+            "Management cited \"a challenging operating environment and higher operating costs\""
+          ],
+          "outlook": "Priorities are network strengthening, operating productivity and digital customer solutions; no numeric guidance.",
+          "stories": [],
+          "exposure": "India's premium express segment grew revenue 15% while absorbing higher operating costs.",
+          "src": [
+            37,
+            38,
+            39
+          ]
         }
       ],
       "watch": [
@@ -647,6 +812,108 @@
       "date": "2026-09-01",
       "u": "https://www.shopback.sg/blog/finance/sg-post-srf-sale-calendar-99-1010-1111-1212-2026",
       "lang": "en"
+    },
+    {
+      "t": "Australia Post Reports Loss, Uses Property Sales for Investment",
+      "u": "https://www.miragenews.com/australia-post-reports-loss-uses-property-sales-1734663/",
+      "pub": "Mirage News (Australia Post release)",
+      "date": "2026-08-28"
+    },
+    {
+      "t": "Australia Post Reports Underlying Loss Of $108 Million As Property Sales Prop Up Bottom Line",
+      "u": "https://smbtech.au/news/australia-post-reports-underlying-loss-of-108-million-as-property-sales-prop-up-bottom-line/",
+      "pub": "SMBtech",
+      "date": "2026-08-29"
+    },
+    {
+      "t": "Australia Post \"has never stood still\"",
+      "u": "https://postandparcel.info/162661/news/e-commerce/australia-post-has-never-stood-still/",
+      "pub": "Post & Parcel",
+      "date": "2026-08-28"
+    },
+    {
+      "t": "Fuel surcharge",
+      "u": "https://auspost.com.au/business/shipping/postage-costs/fuel-surcharge",
+      "pub": "Australia Post",
+      "date": "2026-10-01"
+    },
+    {
+      "t": "SGHD 決算／4～6月の売上高21.7％増、グローバル物流が1948％増益",
+      "u": "https://www.lnews.jp/2026/08/s0807710.html",
+      "pub": "LNEWS",
+      "date": "2026-08-07"
+    },
+    {
+      "t": "[9143.T] FY2027 Q1 Financial Results Summary (Japanese GAAP) (Consolidated)",
+      "u": "https://finance.biggo.com/news/ir_9143.T_20260807_5a695cc63f7a",
+      "pub": "BigGo Finance (company filing)",
+      "date": "2026-08-07"
+    },
+    {
+      "t": "佐川急便／10月1日集荷分から飛脚国際宅配便に繁忙期追加金を導入",
+      "u": "https://www.lnews.jp/2026/09/s0929101.html",
+      "pub": "LNEWS",
+      "date": "2026-09-29"
+    },
+    {
+      "t": "Coupang Announces Results for Second Quarter 2026",
+      "u": "https://www.nasdaq.com/press-release/coupang-announces-results-second-quarter-2026-2026-08-04",
+      "pub": "Coupang (Nasdaq)",
+      "date": "2026-08-04"
+    },
+    {
+      "t": "Coupang (CPNG) Q2 2026 Earnings Call Transcript",
+      "u": "https://www.aol.com/articles/coupang-cpng-q2-2026-earnings-234523000.html",
+      "pub": "AOL / The Motley Fool",
+      "date": "2026-08-04"
+    },
+    {
+      "t": "Coupang (CPNG) Is Up 8.7% After Q2 Loss Widens Despite Continued Revenue Growth",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/coupang-cpng-8-7-q2-031749905.html",
+      "pub": "Yahoo Finance (Simply Wall St)",
+      "date": "2026-08-06"
+    },
+    {
+      "t": "Coupang Opens Fourth Fulfillment Center in Taiwan",
+      "u": "https://en.sedaily.com/finance/2026/03/26/coupang-opens-fourth-fulfillment-center-in-taiwan",
+      "pub": "Seoul Economic Daily",
+      "date": "2026-03-26"
+    },
+    {
+      "t": "CJ대한통운, 2분기 매출 3.4조…투자 부담에 영업익은 12%↓",
+      "u": "https://www.ajunews.com/view/20260811100125891",
+      "pub": "Aju News",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "CJ대한통운, 2분기 영업익 1016억...전년 대비 12%↓",
+      "u": "https://economist.co.kr/article/view/ecn202608110048",
+      "pub": "Economist (Korea)",
+      "date": "2026-08-11"
+    },
+    {
+      "t": "해진공-CJ대한통운, '축구장 14개 크기' 美 초대형 물류센터 본격 가동",
+      "u": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03522726645576184",
+      "pub": "Edaily",
+      "date": "2026-09-02"
+    },
+    {
+      "t": "Blue Dart Q1 FY27 revenue rises 15%; net profit jumps 85% YoY",
+      "u": "https://www.itln.in/logistics/blue-dart-q1-fy27-revenue-rises-15-net-profit-jumps-85-yoy-1360117",
+      "pub": "ITLN",
+      "date": "2026-08-01"
+    },
+    {
+      "t": "Blue Dart Delivers Robust Q1 FY27 Performance; Revenue Climbs to 1,658 Crore, PAT Up 85%",
+      "u": "https://www.indiasnews.net/news/279218485/blue-dart-delivers-robust-q1-fy27-performance-revenue-climbs-to-1658-crore-pat-up-85",
+      "pub": "India's News",
+      "date": "2026-08-01"
+    },
+    {
+      "t": "Blue Dart Express Reports Q1 Consolidated Net Profit of ₹88.5 Crore Versus ₹46.9 Crore YoY",
+      "u": "https://www.sahi.com/news/blue-dart-express-reports-q1-consolidated-net-profit-of-88-5-crore-versus-46-9-crore-yoy-1624-PE1_COR",
+      "pub": "Sahi",
+      "date": "2026-07-31"
     }
   ]
 }
