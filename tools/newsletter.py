@@ -13,6 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 C = ROOT / "content"
 E = html.escape
 SITE = "https://www.whyitlands.com"
+LI = json.loads((C / "settings.json").read_text()).get("linkedin", "") or SITE
 plain = lambda s: re.sub(r"\[\[([^\]]+)\]\]", r"\1", s)
 
 cfg = json.loads((C / "newsletter.json").read_text()) if (C / "newsletter.json").exists() else {}
@@ -143,7 +144,7 @@ out = f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport"
 <tr><td style="background:#FFFFFF;padding:26px 30px;border-top:8px solid #F4F2EC"><div style="{M};font-size:11px;letter-spacing:1px;color:#5A6072">WHAT’S COMING</div><table cellpadding="0" cellspacing="0" style="margin-top:8px">{cal}</table>
 <a href="{SITE}/radar" style="{F};font-size:14px;color:#2B45E0;display:inline-block;margin-top:14px">Every rule and deadline: Regulatory Radar →</a><br><a href="{SITE}/markets" style="{F};font-size:14px;color:#2B45E0;display:inline-block;margin-top:6px">Signals, prices and results: Market Intelligence →</a></td></tr>
 {dhtml}
-<tr><td style="padding:24px 30px;{F};font-size:12px;line-height:1.6;color:#5A6072;text-align:center">Spotted an error or have a tip? Just reply to this email.<br>AI-assisted monitoring, curated and reviewed by Jalal Boucheikha. Every fact is sourced on the site.<br>
+<tr><td style="padding:24px 30px;{F};font-size:12px;line-height:1.6;color:#5A6072;text-align:center">Spotted an error or have a tip? <a href="{LI}" style="color:#5A6072">Message Jalal Boucheikha on LinkedIn</a>.<br>Researched and written with AI under Jalal Boucheikha’s editorial rules. Every fact is sourced on the site.<br>
 You receive this because you subscribed at whyitlands.com. <a href="{{{{ update_profile }}}}" style="color:#2B45E0">Update your preferences</a> · <a href="{{{{ unsubscribe }}}}" style="color:#2B45E0">Unsubscribe</a></td></tr>
 </table></td></tr></table></body></html>'''
 dst = ROOT / "newsletter" / f"{send.isoformat()}.html"

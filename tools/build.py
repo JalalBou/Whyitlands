@@ -196,11 +196,10 @@ def footer():
     return f"""<footer class="site-foot">
 <div class="wrap">
 <div class="foot-row"><a class="brand" href="/">WhyItLands{PARCEL}</a>
-<nav aria-label="Footer"><a href="/archive" data-i18n="ar_kicker">Archive</a><a href="/method">How it’s made</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}<a href="#" data-contact="footer" data-i18n="get_in_touch">Get in touch</a></nav></div>
+<nav aria-label="Footer"><a href="/archive" data-i18n="ar_kicker">Archive</a><a href="/method">How it’s made</a><a href="/glossary" data-i18n="glossary">Glossary</a><a href="/legal" data-i18n="legal">Legal & privacy</a>{f'<a href="{LINKEDIN}" rel="noopener">LinkedIn</a>' if LINKEDIN else ""}</nav></div>
 <p class="disclose">Researched and written with AI under Jalal Boucheikha’s editorial rules. Every fact is sourced. <a href="/method">How WhyItLands is made</a></p>
 </div>
 </footer>
-{contact_dialog()}
 <script src="/assets/js/config.js?v={VER}"></script>
 <script src="/assets/js/i18n.js?v={VER}"></script>
 <script src="/assets/js/site.js?v={VER}" defer></script>
@@ -254,7 +253,7 @@ def about_nl():
 </details>
 
 <blockquote>“Complexity should be invisible. What you expose to your merchants, your partners, your customers should be simple, reliable and programmable.”</blockquote>
-<div class="cta">{f'<a class="btn btn-light" href="{LINKEDIN}" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg><span data-i18n="li_btn">Connect on LinkedIn</span></a>' if LINKEDIN else ""}<a class="btn btn-ghost-dark" href="#" data-contact="about" data-i18n="get_in_touch">Get in touch</a></div>
+<div class="cta">{f'<a class="btn btn-light" href="{LINKEDIN}" rel="noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0A66C2" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg><span data-i18n="li_btn">Connect on LinkedIn</span></a>' if LINKEDIN else ""}</div>
 <p style="font-size:13px;margin-top:22px;color:#8C93A6" data-i18n="about_note">WhyItLands is a personal project. Views are my own and do not represent my employer.</p>
 <p style="font-size:13px;margin-top:-6px"><a href="/method" style="color:#C8CCD6">How WhyItLands is made, and how it uses AI →</a></p>
 </div></div>
@@ -478,13 +477,10 @@ def page_home():
 
 
 def feedback_card():
-    return """<div class="fb-card"><h3 data-i18n="fb_title">Spotted an error, have a tip?</h3><p style="color:var(--muted-2)" data-i18n="fb_dek">Write anonymously or with your name. Every message is read.</p>
-<form class="fb-form" style="display:flex;flex-direction:column;gap:10px">
-<label class="sr-only" for="fb-msg" data-i18n="fb_msg">Your message</label><textarea class="input" id="fb-msg" name="message" required maxlength="5000" data-i18n-ph="fb_msg" placeholder="Your message"></textarea>
-<label class="sr-only" for="fb-from" data-i18n="fb_name">Name or email (optional)</label><input class="input" id="fb-from" name="from" maxlength="200" data-i18n-ph="fb_name" placeholder="Name or email (optional)" style="border-radius:14px">
-<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-<button class="btn btn-ink" type="submit" style="align-self:flex-start" data-i18n="send">Send</button>
-<div class="status" hidden role="status"></div></form></div>"""
+    if not LINKEDIN:
+        return ""
+    return f"""<div class="fb-card"><h3>Spotted an error, have a tip?</h3><p style="color:var(--muted-2)">Send me a message on LinkedIn. Confirmed corrections are fixed and logged on <a href="/method#corrections">How it’s made</a>.</p>
+<a class="btn btn-ink" href="{LINKEDIN}" rel="noopener" target="_blank" style="align-self:flex-start">Message me on LinkedIn</a></div>"""
 
 
 def page_regions():
@@ -676,7 +672,7 @@ def page_briefing(b):
 <section class="gloss" aria-labelledby="gl-h"><h2 id="gl-h" style="font-size:28px" data-i18n="acronyms">Acronyms in this article</h2><dl>{gl}</dl>
 <p style="margin-top:16px;font-size:15px"><a href="#" data-back data-i18n="back_text">↩ Back to the text</a> · <a href="/glossary" data-i18n="full_glossary">Full glossary →</a></p></section>
 <section class="sources-list"><h2 style="font-size:28px" data-i18n="sources_art">Sources</h2><ol>{srcs}</ol></section>
-<p class="method-note" data-i18n="method_note">Facts are sourced; analysis, scenarios and recommendations are WhyItLands’ own reading. AI-assisted research, reviewed by Jalal Boucheikha.</p>
+<p class="method-note">Facts are sourced; analysis, scenarios and recommendations are WhyItLands’ own reading. Researched and written with AI under Jalal Boucheikha’s editorial rules. <a href="/method">How it’s made</a></p>
 <div style="margin-top:40px">{feedback_card()}</div>
 </div></div>
 <section class="section"><div class="wrap"><div class="section-head"><div>{i('read_next', 'Read next', 'div', 'kicker')}</div></div><div class="bgrid">{rel}</div></div></section>
@@ -1058,7 +1054,7 @@ def page_method():
 <h2>What it is not</h2>
 <p>WhyItLands is information, not legal, customs, tax or investment advice. Rules and dates change often: always check the current official text before acting.</p>
 <h2>Corrections</h2>
-<p>Spotted an error? Use the feedback form on any page or the “Get in touch” button. Confirmed corrections are fixed in place and logged below.</p>
+<p id="corrections">Spotted an error? Send a message to Jalal Boucheikha on LinkedIn. Confirmed corrections are fixed in place and logged below.</p>
 <div class="table-wrap"><table class="corr"><thead><tr><th>Date</th><th>Page</th><th>What changed</th></tr></thead><tbody>""" + rows + """</tbody></table></div>
 <h2>Independence</h2>
 <p>WhyItLands has no sponsors and no advertising. It uses only public sources and never uses confidential information from any employer. Views are the author’s own and do not represent his employer.</p>
@@ -1070,14 +1066,14 @@ def page_legal():
     out = head("Legal & privacy · WhyItLands", "Publisher, hosting and privacy information for whyitlands.com.", "/legal")
     out += header() + """<main id="main" class="prose"><div class="kicker" data-i18n="legal">Legal & privacy</div><h1>Legal notice and privacy</h1>
 <h2>Publisher</h2>
-<p>whyitlands.com is a personal, non-commercial publication by Jalal Boucheikha, who is responsible for its content. Contact: use the “Get in touch” form.</p>
+<p>whyitlands.com is a personal, non-commercial publication by Jalal Boucheikha, who is responsible for its content. Contact: through his LinkedIn profile, linked on every page.</p>
 <h2>Hosting</h2>
 <p>Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, United States.</p>
 <h2>Privacy</h2>
 <p><strong>No advertising, no tracking cookies.</strong> Audience measurement uses PostHog, hosted in the EU, configured without cookies or persistent identifiers. It records anonymous interactions (pages viewed, language and region chosen, audio played) to improve the site.</p>
 <p><strong>Newsletter.</strong> If you subscribe, your email, region and language are stored by Brevo (Sendinblue SAS, France) only to send the newsletter. Subscription requires email confirmation; every issue contains a one-click unsubscribe link.</p>
-<p><strong>Contact and feedback.</strong> Messages are forwarded by email to the publisher and used only to reply. They are never shared or added to a mailing list. Feedback can be sent anonymously.</p>
-<p><strong>Your rights.</strong> Under the GDPR you can access, correct or delete your data at any time via the contact form. You may also lodge a complaint with the CNIL (cnil.fr).</p>
+<p><strong>Contact.</strong> The site has no contact or feedback forms. Messages sent to the publisher on LinkedIn are used only to reply.</p>
+<p><strong>Your rights.</strong> Under the GDPR you can access, correct or delete your data at any time by messaging the publisher on LinkedIn; every newsletter also carries a one-click unsubscribe link. You may also lodge a complaint with the CNIL (cnil.fr).</p>
 <p><strong>Preferences.</strong> Your language and region choices are stored only in your browser.</p>
 <h2>Content</h2>
 <p>Texts © Jalal Boucheikha. Trademarks and quoted material belong to their owners. Embedded videos remain the property of their publishers.</p>
