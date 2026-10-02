@@ -250,6 +250,14 @@
   }
 
   // Welcome band (home): full on a first visit, one line afterwards. Video opens in an overlay.
+  function openCoverage() {
+    if (location.hash !== '#coverage') return;
+    var d = document.getElementById('coverage');
+    if (d && d.tagName === 'DETAILS') { d.open = true; d.scrollIntoView({ block: 'start' }); }
+  }
+  window.addEventListener('hashchange', openCoverage);
+  document.addEventListener('DOMContentLoaded', openCoverage);
+
   function initWelcome() {
     var w = $('#welcome');
     if (w) {

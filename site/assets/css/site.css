@@ -882,3 +882,19 @@ dialog.modal::backdrop{background:rgba(11,15,26,.55);backdrop-filter:blur(4px)}
 .regionbar .chip{padding:0 8px;font-size:13px}
 @media (min-width:1300px){.regionbar .chips{mask-image:none;-webkit-mask-image:none;padding-right:0}}
 .cp-seg,.cp-seg *{min-width:0}.cp-seg dd,.cp-seg-read{overflow-wrap:anywhere}
+/* Coverage line */
+.wl-scope{display:flex;gap:12px;align-items:baseline;margin:12px 0 0;max-width:820px;font-size:15px;color:var(--muted-2)}
+.wl-scope b{font:400 clamp(26px,2.6vw,32px)/1 var(--serif);color:var(--coral);flex:none}
+.wl-scope a{white-space:nowrap;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+#coverage{scroll-margin-top:130px}
+.welcome.compact .wl-scope{display:none}
+.about .about-scope{color:#fff;font:400 clamp(19px,1.8vw,22px)/1.35 var(--serif);margin:20px 0 10px}
+.about .cov{margin:0 0 26px;max-width:760px;color:var(--on-ink-muted);font-size:14px}
+.about .cov summary{cursor:pointer;color:var(--coral);font-weight:600}
+.about .cov p{font-size:14px;margin:12px 0}
+.cov-t{overflow-x:auto;margin:8px 0}
+.cov table{border-collapse:collapse;width:100%;font-size:13px;min-width:560px}
+.cov th,.cov td{text-align:left;padding:7px 10px 7px 0;border-bottom:1px solid rgba(255,255,255,.12);vertical-align:top}
+.cov th{color:#fff;font-weight:600}
+.cov a{color:var(--on-ink-muted);text-decoration:underline}
+.about>div{min-width:0}
