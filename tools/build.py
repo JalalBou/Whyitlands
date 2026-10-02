@@ -1028,7 +1028,7 @@ def page_method():
 <p class="lead">WhyItLands is a personal project by Jalal Boucheikha. It is researched and written with AI, under editorial rules he wrote and is responsible for. This page explains who does what, where the facts come from and how errors are fixed, so you can decide how far to trust it.</p>
 <h2>Who does what</h2>
 <p><strong>Jalal Boucheikha</strong> set the editorial line: the causal model (geopolitics, then decisions and laws, then the market, then the parcel), the regions and topics covered, the sourcing rules below and the tone. He is accountable for everything published here. If something is wrong, it is his error to correct.</p>
-<p><strong>AI agents</strong> (Claude, by Anthropic) do the research and the drafting, and carry out the weekly updates, working to those written rules. Routine updates such as prices, dates, moves and results are published as part of that weekly cycle.</p>
+<p><strong>AI agents</strong> do the research and the drafting, and carry out the weekly updates, working to those written rules. Routine updates such as prices, dates, moves and results are published as part of that weekly cycle.</p>
 <p><strong>The audio</strong> versions of briefings are read by a synthetic voice.</p>
 <h2>The weekly cycle</h2>
 <ul>
