@@ -60,6 +60,10 @@ def all_coming():
     return items
 
 
+# Pre-launch: keep the site out of search engines until the launch is approved. Set to False at launch.
+NOINDEX = True
+
+
 def head(title, desc, path, og_type="website", extra=""):
     url = BASE + path
     return f"""<!doctype html>
@@ -67,6 +71,7 @@ def head(title, desc, path, og_type="website", extra=""):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{'<meta name="robots" content="noindex, nofollow">' if NOINDEX else ''}
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{url}">

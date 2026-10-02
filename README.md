@@ -94,3 +94,7 @@ Built automatically for every region and group from existing content, nothing to
 ## Download PDF
 
 Briefings, storylines, competition deep dives, Market Intelligence, the Regulatory Radar, Doctrines and How it's made carry a "Download PDF" button (added by `write()` in `tools/build.py`, list in `PDF_PAGES`). It opens the browser's print window with an A4 print stylesheet (`@media print` in `site.css`): site chrome hidden, a WhyItLands cover line with the page address and download date, page numbers. The PDF holds the page as the reader sees it (chosen region, opened sections).
+
+## Pre-launch: hidden from search engines
+
+`NOINDEX = True` in `tools/build.py` adds `<meta name="robots" content="noindex, nofollow">` to every page while the launch awaits approval. Scheduled tasks must leave it as it is; set it to False only when Jalal says the site is launched.
